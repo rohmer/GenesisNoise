@@ -33,7 +33,7 @@ Applies `SQRT(1-A^2)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 10760290-becc-4ac5-a7b0-2d8200ca4936 | |
+| GUID | String | c7483b4d-3a01-4543-8dc4-f6be187f9521 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -33,7 +33,7 @@ Applies `TAN(A*B)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | a118bcb0-6e88-4283-bf7a-c9de5a960191 | |
+| GUID | String | da2f57a4-921c-4151-94a7-e776190af3d0 | |
 | expanded | Boolean | False | |
 
 ## See Also

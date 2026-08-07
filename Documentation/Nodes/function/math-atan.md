@@ -33,7 +33,7 @@ Returns the arctangent of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 49d4a6fd-e432-4518-9dcb-4ea533cd8040 | |
+| GUID | String | 9d41a795-975c-4395-a5c8-4b4fa97a1a72 | |
 | expanded | Boolean | False | |
 
 ## See Also

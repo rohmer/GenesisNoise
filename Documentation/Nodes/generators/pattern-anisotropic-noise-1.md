@@ -8,22 +8,27 @@ category: "Generators/Pattern"
 
 # Anisotropic Noise 1
 
-> Generates anisotropic node 1 procedural noise.
+> Generates stacked anisotropic strip noise similar to Substance Designer's Anisotropic Noise.
 
 ![Anisotropic Noise 1](../_images/generators/pattern-anisotropic-noise-1.png)
 
 ## Description
 
-Generates anisotropic node 1 procedural noise.
+Generates stacked anisotropic strip noise similar to Substance Designer's Anisotropic Noise.
 
 Inputs:
 - No external inputs. This node generates its output from its internal parameters.
 
 Settings:
-- No additional settings. This node is controlled by its built-in behavior.
+- X Amount and Y Amount control how many directional strips and stacked bands are produced.
+- Y Amount By Resolution keeps the secondary band count proportional to the output resolution.
+- Rotate flips the strip direction by 90 degrees.
+- Smoothness and Smoothness Interpolation control how softly neighboring grayscale strips blend, from more linear to more gaussian-like fades.
+- Disorder and Disorder Speed add stable procedural variation to strip boundaries and luminance.
+- Non-square expansion compensates for texture aspect ratio when desired.
 
 Output:
-- A generated procedural texture based on the node parameters.
+- A grayscale strip-based anisotropic pattern with smooth transitions between randomized bands.
 
 ## Inputs
 

@@ -34,7 +34,7 @@ Inspects values during graph authoring and debugging.
 |---------|------|---------|-------------|
 | value | String | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 700ccec4-e1df-4e13-b4bc-73813ed008eb | |
+| GUID | String | 58dbf328-5076-4ae1-ab9c-21b4135da68e | |
 | expanded | Boolean | False | |
 
 ## See Also

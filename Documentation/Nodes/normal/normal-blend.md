@@ -33,7 +33,7 @@ Blends two normals
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8e768b64-2ce7-4a4c-9f72-26fec8fe6f43 | |
+| GUID | String | 88e36a08-5c7f-4ca1-b702-cf684b7b24c5 | |
 | expanded | Boolean | False | |
 
 ## See Also

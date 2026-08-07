@@ -33,7 +33,7 @@ Inverts the RGB channels of the source texture per pixel. Alpha is preserved unl
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 81e98082-41b0-43bb-93f7-7684cf7bc723 | |
+| GUID | String | e08f0978-cf49-460d-b877-21d9680e31b1 | |
 | expanded | Boolean | False | |
 
 ## See Also

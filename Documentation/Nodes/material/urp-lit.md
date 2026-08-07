@@ -54,7 +54,7 @@ Output a Lit URP Material
 | gpuInstancing | Boolean | False | |
 | albemic | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8df4ca35-f626-47d0-a0af-7b90ac7b7c83 | |
+| GUID | String | 83643225-ac3c-4861-8743-1c2e7b7145b2 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -33,7 +33,7 @@ Generates a random Vector2 value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 688de19b-2f6a-4fe2-84c8-320b43c3bc61 | |
+| GUID | String | c892075a-63d7-4ab5-a297-3be6295128e9 | |
 | expanded | Boolean | False | |
 
 ## See Also

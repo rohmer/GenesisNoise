@@ -33,7 +33,7 @@ Returns the smaller of the input values.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 63b5625b-3671-4cdb-8867-e1dfd3c10b99 | |
+| GUID | String | c6149bea-705c-4bf4-a634-77285c61f46e | |
 | expanded | Boolean | False | |
 
 ## See Also

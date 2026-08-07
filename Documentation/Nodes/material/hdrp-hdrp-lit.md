@@ -43,7 +43,7 @@ Output a Lit HDRP Material
 | specOccMode | eSOM | AO | |
 | addPrecomVelocity | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3f708ea9-442a-4281-a57c-6b56b0dd9185 | |
+| GUID | String | 6fc99ca3-2788-4d0e-8417-c2718f6d6cea | |
 | expanded | Boolean | False | |
 
 ## See Also

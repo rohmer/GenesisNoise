@@ -33,7 +33,7 @@ Returns the tangent of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3579cb5b-079f-4854-94d4-e9b4a51612da | |
+| GUID | String | 7f4cf043-fc92-406a-a2f0-8b407724a8db | |
 | expanded | Boolean | False | |
 
 ## See Also

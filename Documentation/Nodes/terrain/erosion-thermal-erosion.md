@@ -33,7 +33,7 @@ Applies thermal erosion to a heightfield by moving loose material from slopes ab
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b20bc8e6-8ca9-444d-b041-1def6dc8b59e | |
+| GUID | String | ba4408fd-e6a9-4e8a-87c9-ab460278199f | |
 | expanded | Boolean | False | |
 
 ## See Also

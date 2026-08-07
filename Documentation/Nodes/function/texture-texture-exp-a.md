@@ -33,7 +33,7 @@ Applies `EXP(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | dd4f6b12-3509-439a-b631-ee57f6b3a7a3 | |
+| GUID | String | b18a1598-8528-4a98-abbe-1144de93c653 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -33,7 +33,7 @@ Applies `ROUND(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 639ab8d0-4adb-4dd2-a186-908cc2f90f3f | |
+| GUID | String | 34b14dde-533b-4a95-b636-1426eb9b3d98 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -33,7 +33,7 @@ Multiplies the input values.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 199347c7-0131-4d2d-9803-288d5ca5b4d3 | |
+| GUID | String | 0fd240e6-820f-496b-9521-a1f18efb0a0a | |
 | expanded | Boolean | False | |
 
 ## See Also

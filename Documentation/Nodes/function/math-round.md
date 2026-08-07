@@ -33,7 +33,7 @@ Rounds the input to the nearest integer value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 85afc09b-694a-4304-b0b2-dd5ea3c6d870 | |
+| GUID | String | d0487374-5dd2-4453-aa71-6729f1f8bf87 | |
 | expanded | Boolean | False | |
 
 ## See Also

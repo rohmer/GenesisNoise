@@ -3,7 +3,7 @@
 | Node | Description |
 |------|-------------|
 | [Anisotropic Noise](./noise-anisotropic-noise.md) | Generates anisotropic noise procedural noise. |
-| [Anisotropic Noise 1](./pattern-anisotropic-noise-1.md) | Generates anisotropic node 1 procedural noise. |
+| [Anisotropic Noise 1](./pattern-anisotropic-noise-1.md) | Generates stacked anisotropic strip noise similar to Substance Designer's Anisotropic Noise. |
 | [Anisotropic Noise 2](./pattern-anisotropic-noise-2.md) | Generates anisotropic node 2 procedural noise. |
 | [Anisotropic Noise 3](./pattern-anisotropic-noise-3.md) | Generates anisotropic node 3 procedural noise. |
 | [Arc Bricks](./shapes-arc-bricks.md) | Generates arc bricks procedural noise. |

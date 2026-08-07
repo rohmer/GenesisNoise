@@ -33,7 +33,7 @@ Applies `Smoothstep(0,1,A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f7a8ce81-41d2-4024-a394-a4cc335435cf | |
+| GUID | String | 9e2274dc-1616-410a-b0bd-a7528599046e | |
 | expanded | Boolean | False | |
 
 ## See Also

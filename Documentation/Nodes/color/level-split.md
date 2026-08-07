@@ -35,7 +35,7 @@ Below: pixels with luminance < threshold
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4180fdc7-c2e8-4d8c-886d-fe99fea93b5e | |
+| GUID | String | cdc54157-9fbb-4300-8abf-68d35b3152c6 | |
 | expanded | Boolean | False | |
 
 ## See Also

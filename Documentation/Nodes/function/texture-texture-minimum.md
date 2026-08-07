@@ -33,7 +33,7 @@ Returns the per-pixel minimum of the input textures.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | dc58dba2-8345-4a88-a3ce-519fa359588f | |
+| GUID | String | 46a4ae78-01a5-4bcd-a275-9ae103bb6f1f | |
 | expanded | Boolean | False | |
 
 ## See Also

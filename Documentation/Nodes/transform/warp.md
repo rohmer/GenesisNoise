@@ -40,7 +40,7 @@ And it’s distinct from Directional Warp or Vector Warp.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 86051971-80ff-4c93-bb3f-ba5fccd8de8c | |
+| GUID | String | d2dd119e-1843-4d38-847b-9cd71da462de | |
 | expanded | Boolean | False | |
 
 ## See Also

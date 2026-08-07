@@ -33,7 +33,7 @@ Packs four texture inputs into a single RGBA texture. Each input contributes its
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ddfad598-4c26-4894-835e-7bd015a7d3cb | |
+| GUID | String | bf942cef-729b-4420-9eb3-2a840b73f046 | |
 | expanded | Boolean | False | |
 
 ## See Also

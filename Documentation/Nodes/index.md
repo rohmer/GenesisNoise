@@ -5,7 +5,6 @@
 | Color | [Color Nodes](./color/color-index.md) |
 | Conditional | [Conditional Nodes](./conditional/conditional-index.md) |
 | Effects | [Effects Nodes](./effects/effects-index.md) |
-| Filters | [Filters Nodes](./filters/filters-index.md) |
 | Function | [Function Nodes](./function/function-index.md) |
 | Generators | [Generators Nodes](./generators/generators-index.md) |
 | Graph | [Graph Nodes](./graph/graph-index.md) |

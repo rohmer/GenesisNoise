@@ -33,7 +33,7 @@ Applies `SINH(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8bb37e40-8195-4237-8cf0-9fcafeb0108c | |
+| GUID | String | 3f7839f3-10d3-4143-902d-f866b16b7fae | |
 | expanded | Boolean | False | |
 
 ## See Also

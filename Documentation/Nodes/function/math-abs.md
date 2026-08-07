@@ -33,7 +33,7 @@ Returns the absolute value of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 447eb278-55ff-4924-a02f-643d9e04e653 | |
+| GUID | String | 202db04f-9590-443b-a1d4-c8507ca368ed | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -33,7 +33,7 @@ Outputs a constant quaternion value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d64b3c04-04eb-47ad-a311-a7fac8a8b0dc | |
+| GUID | String | cba9e092-bd88-41db-937d-fb90441641ac | |
 | expanded | Boolean | False | |
 
 ## See Also

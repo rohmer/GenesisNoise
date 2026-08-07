@@ -33,7 +33,7 @@ Outputs a constant vector4 value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 7f4b77f0-b3ee-477d-acc2-849d50985f86 | |
+| GUID | String | 018c9ddc-cd06-4c4e-989d-4b051893c222 | |
 | expanded | Boolean | False | |
 
 ## See Also
