@@ -1,0 +1,41 @@
+﻿<link rel="stylesheet" href="../_assets/theme.css">
+<script src="../_assets/theme.js"></script>
+<div class="genesis-doc-topbar"><button type="button" class="genesis-theme-toggle" data-genesis-theme-toggle aria-label="Toggle theme"><span data-genesis-theme-label>Dark</span><span class="genesis-theme-toggle__track"><span class="genesis-theme-toggle__thumb"></span></span></button></div>
+
+---
+category: "Function/Random"
+---
+
+# Float
+
+> Generates a random float value.
+
+![Float](../_images/function/random-float.png)
+
+## Description
+
+
+Generates a random float value.
+
+
+## Inputs
+
+| Name | Type | Description |
+|------|------|-------------|
+
+## Outputs
+
+| Name | Type |
+|------|------|
+
+## Parameters
+
+| Setting | Type | Default | Description |
+|---------|------|---------|-------------|
+| nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
+| GUID | String | 17bdbe0a-4b8d-45d1-a7a2-52621a9f3514 | |
+| expanded | Boolean | False | |
+
+## See Also
+
+- [Back to Float](./function-index.md)
