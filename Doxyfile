@@ -1415,7 +1415,7 @@ IGNORE_PREFIX          =
 # If the GENERATE_HTML tag is set to YES, Doxygen will generate HTML output
 # The default value is: YES.
 
-GENERATE_HTML          = YES
+GENERATE_HTML          = NO
 
 # The HTML_OUTPUT tag is used to specify where the HTML docs will be put. If a
 # relative path is entered the value of OUTPUT_DIRECTORY will be put in front of
@@ -2688,7 +2688,7 @@ DOT_NUM_THREADS        = 0
 # Minimum value: 1, maximum value: 1000, default value: 50.
 # This tag requires that the tag HAVE_DOT is set to YES.
 
-DOT_BATCH_SIZE         = 500
+DOT_BATCH_SIZE         = 50
 
 # DOT_COMMON_ATTR is common attributes for nodes, edges and labels of
 # subgraphs. When you want a differently looking font in the dot files that
