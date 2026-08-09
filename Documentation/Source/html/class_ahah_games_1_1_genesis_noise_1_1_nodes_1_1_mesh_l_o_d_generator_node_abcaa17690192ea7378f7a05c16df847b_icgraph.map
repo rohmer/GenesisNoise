@@ -1,0 +1,13 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CountTriangles" name="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CountTriangles">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1274,64,1534,107"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a97fc7962f0abe01495e7789d91e1a729" title=" " alt="" coords="911,5,1226,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1261,61,1194,51,1195,46,1266,61"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a5469519e6c9fbac3085e942e2734b2fd" title=" " alt="" coords="612,56,863,99"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="1256,84,864,82,864,76,1261,83"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a0666a8d824c46350c2e08ddc0a8a8020" title=" " alt="" coords="305,85,564,128"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="1261,94,863,113,612,113,564,113,564,107,612,108,863,108,1256,94"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="913,51,864,61,863,55,908,51"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="599,91,565,97,564,91,594,91"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a8cb0cf14ee52b7da6cc1a44ad8bd4292" title=" " alt="" coords="5,85,257,128"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="286,107,257,109,257,104,292,107"/>
+</map>

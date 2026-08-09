@@ -1,0 +1,18 @@
+<map id="Unity.Mathematics.mathx.zw" name="Unity.Mathematics.mathx.zw">
+<area shape="rect" id="Node000001" title="appends a f2 to a f2 to create a f4" alt="" coords="270,157,461,184"/>
+<area shape="poly" id="edge7_Node000001_Node000001" title=" " alt="" coords="408,143,394,138,365,136,339,138,324,143,321,148,328,157,323,156,316,149,321,139,338,133,365,131,396,133,413,142"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a64cafc7250ad5f46592d029ebcbe8f32" title="appends a f2 to a f2 to create a f4" alt="" coords="5,5,222,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,145,289,95,256,69,220,46,194,35,193,30,223,42,259,64,293,91,345,145"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a75cf6578c6150406c7c6d3d442ff7d12" title="appends a i2 to a i2 to create a i4" alt="" coords="5,56,222,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="326,149,278,123,221,97,186,86,185,81,223,92,280,118,332,148"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#ad5bed1f9d92f8c41d495da4f526ad8af" title="Returns a byte4 vector constructed from two byte values and a byte2 vector." alt="" coords="10,107,217,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="278,155,184,137,183,131,283,152"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#a09f19b14396dd80dd9d507bda438a19d" title="Returns a byte4 vector constructed from two byte2 vectors." alt="" coords="10,157,217,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="252,172,218,173,216,168,257,170"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a0ac0a5cd40e80c825c03027b053e67b9" title="Returns a color vector constructed from two float values and a float2 vector." alt="" coords="12,208,215,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="278,189,184,210,183,205,283,186"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#a942fcddd31bbf01aa28c07e679c63ae1" title="Returns a color vector constructed from two float2 vectors." alt="" coords="12,259,215,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="332,191,280,223,223,249,186,261,184,256,221,244,278,218,327,194"/>
+<area shape="rect" id="Node000008" href="$class_unity_1_1_mathematics_1_1mathx.html#a02f0651df45f9d3c5dcfe4d8fd96f0fd" title="appends a i2 to a i2 to create a i4" alt="" coords="18,309,209,336"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="345,195,293,250,259,277,223,300,194,311,193,306,220,295,256,273,289,246,340,197"/>
+</map>

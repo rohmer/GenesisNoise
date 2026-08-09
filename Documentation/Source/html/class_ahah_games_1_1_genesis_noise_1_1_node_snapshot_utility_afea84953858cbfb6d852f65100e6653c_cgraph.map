@@ -1,0 +1,19 @@
+<map id="AhahGames.GenesisNoise.NodeSnapshotUtility.CleanupRequest" name="AhahGames.GenesisNoise.NodeSnapshotUtility.CleanupRequest">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,88,220,131"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a539cf5981b4733c4c76ec4dd66ab267a" title=" " alt="" coords="268,5,493,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,85,261,67,256,70,193,90"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph.html#a3f6c4ab84f91a1835e2527d15e3d76a6" title="Removes a node from the graph." alt="" coords="286,88,474,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,107,273,109,268,110,221,112"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_graph_view.html#a841269e9bc092f01505f71425617add9" title=" " alt="" coords="288,155,472,197"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="201,129,280,150,275,151,201,134"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html#aac58be393f88c66b6b23e4bd1ec583ab" title=" " alt="" coords="541,21,725,64"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="463,85,533,69,538,68,465,90"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node.html#a0ff04c4d0b921864c27065e129c34cef" title=" " alt="" coords="541,88,725,131"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="475,107,528,109,523,110,475,112"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_exception_to_log.html#af0c8833e07e966f55aedbc1316d9e38b" title=" " alt="" coords="777,55,954,97"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="726,93,759,91,764,91,726,99"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_node.html#afc7829797eb33e1026d3e9bc8422c12f" title="Called when the node is disabled." alt="" coords="773,121,958,164"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="726,120,760,127,755,127,726,125"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_base_graph_view.html#a6f14fddca73db3387dd7135aa1bff259" title=" " alt="" coords="541,155,725,197"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="473,173,528,176,523,176,473,179"/>
+</map>

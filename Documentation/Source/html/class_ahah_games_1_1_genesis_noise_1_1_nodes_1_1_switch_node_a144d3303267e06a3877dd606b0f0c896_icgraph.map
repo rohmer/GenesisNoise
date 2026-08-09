@@ -1,0 +1,15 @@
+<map id="AhahGames.GenesisNoise.Nodes.SwitchNode.SyncCaseInputs" name="AhahGames.GenesisNoise.Nodes.SwitchNode.SyncCaseInputs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="279,172,504,215"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#a4314937760df30df5204593ad8e41abe" title=" " alt="" coords="5,5,231,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,161,301,111,266,85,229,62,206,51,205,46,232,58,269,81,304,107,362,161"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#a8ac3257fa560b13202d68a481a7e26ba" title="Called when the node is enabled." alt="" coords="5,72,231,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="325,166,230,129,197,118,196,113,232,124,330,164"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#a5d0786aeeae98846ec14207128625b98" title="Called only when the node is created, not when instantiated." alt="" coords="5,139,231,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,179,232,176,231,171,266,177"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#a0c384cecdfecd837d679d80b22b096dc" title=" " alt="" coords="5,205,231,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="261,210,232,215,230,210,266,208"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#a3705b1d2b4a5b10442a8d204efd122d4" title=" " alt="" coords="5,272,231,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="325,222,232,263,197,274,195,269,230,257,330,220"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#aa8cf6dd0d716986db3829b574fef99b2" title=" " alt="" coords="5,339,231,381"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="362,224,304,279,269,306,232,329,206,341,204,336,229,324,266,302,301,275,357,227"/>
+</map>

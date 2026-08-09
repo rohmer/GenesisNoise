@@ -1,0 +1,5 @@
+<map id="SharpVoronoiLib.VoronoiEdge" name="SharpVoronoiLib.VoronoiEdge">
+<area shape="rect" id="Node000001" title="The line segment making the Voronoi cells, i.e. the points equidistant to the two nearest Voronoi sit..." alt="" coords="5,104,198,131"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_point.html" title="The vertices/nodes of the Voronoi cells, i.e. the points equidistant to three or more Voronoi sites...." alt="" coords="5,5,198,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,46,104,105,99,103,99,49"/>
+</map>

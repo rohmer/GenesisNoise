@@ -1,0 +1,12 @@
+<map id="Unity.Mathematics.color" name="Unity.Mathematics.color">
+<area shape="rect" id="Node000001" title=" " alt="" coords="24,180,187,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,89,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="26,47,14,76,12,91,15,107,28,129,46,149,85,178,81,181,43,153,24,132,10,109,6,92,9,74,27,42"/>
+<area shape="rect" id="Node000004" href="$struct_unity_1_1_mathematics_1_1color.html" title=" " alt="" coords="24,81,187,108"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="66,41,98,80,93,82,66,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="174,5,269,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="244,42,262,75,264,92,259,109,238,135,211,155,183,171,154,182,153,177,180,166,209,151,234,131,254,107,258,92,256,76,242,47"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="188,42,127,83,124,79,191,39"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,122,108,181,103,179,104,125"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="202,87,213,95,205,101,188,104,186,99,203,96,208,95,202,93"/>
+</map>

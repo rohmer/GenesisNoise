@@ -1,0 +1,10 @@
+<map id="AhahGames.GenesisNoise.Nodes.TextureChannelNode.ResolveConnectedTextureFromPorts" name="AhahGames.GenesisNoise.Nodes.TextureChannelNode.ResolveConnectedTextureFromPorts">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,264,123"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a99c2ca0ec0005de8cf9dd4a9d1a47efb" title="Return all the ports of the node." alt="" coords="349,5,533,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,63,336,49,331,51,265,68"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_node_port.html#a8a52c82b7869f2f0954c9ea9bf1a8c0a" title="Get all the edges connected to this port." alt="" coords="352,72,530,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,91,339,93,334,94,265,96"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_channel_node.html#a3e1680bdd5f1399e82c204b8c7f2aee6" title=" " alt="" coords="312,163,570,221"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,121,335,157,330,158,227,126"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="382,161,383,152,394,143,413,138,441,136,473,139,494,149,489,148,472,144,441,141,414,143,396,148,387,155,386,164"/>
+</map>

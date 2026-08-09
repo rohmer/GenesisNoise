@@ -1,0 +1,12 @@
+<map id="AhahGames.GenesisNoise.Nodes.NoiseWeightedRandomPointsNode.NextFloat" name="AhahGames.GenesisNoise.Nodes.NoiseWeightedRandomPointsNode.NextFloat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1025,55,1313,97"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_weighted_random_points_node.html#acdd40bbe2bc6c58342003df4b1fd1a8a" title=" " alt="" coords="694,5,977,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1007,56,978,55,978,50,1013,56"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_weighted_random_points_node.html#a893c5eb34000c3adaaecb0f3e3fb18eb" title=" " alt="" coords="694,88,977,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1013,96,978,102,977,97,1007,96"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_weighted_random_points_node.html#a5fad0c33432676670d884183f8405596" title=" " alt="" coords="363,47,646,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="676,55,647,61,646,56,681,54"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_weighted_random_points_node.html#a92074dfbf2ed251a27c1c9fbb6deb417" title=" " alt="" coords="5,55,315,97"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="344,76,316,79,315,73,349,76"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="676,98,646,96,646,91,681,98"/>
+</map>

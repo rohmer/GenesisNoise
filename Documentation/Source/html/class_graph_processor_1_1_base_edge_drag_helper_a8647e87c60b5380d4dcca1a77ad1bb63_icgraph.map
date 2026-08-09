@@ -1,0 +1,9 @@
+<map id="GraphProcessor.BaseEdgeDragHelper.Reset" name="GraphProcessor.BaseEdgeDragHelper.Reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="261,72,468,115"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_edge_drag_helper.html#acbc20afa1c7c4913af8f1ee6273ecf67" title=" " alt="" coords="5,5,213,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,68,193,51,193,46,268,67"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_edge_drag_helper.html#af2b80dfb25b70b4fef22e867ba87c16d" title=" " alt="" coords="5,72,213,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,94,213,96,213,91,248,93"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_edge_drag_helper.html#ac8cab97d502f6da5192118137da4c56c" title=" " alt="" coords="5,139,213,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="268,118,194,141,193,135,263,120"/>
+</map>

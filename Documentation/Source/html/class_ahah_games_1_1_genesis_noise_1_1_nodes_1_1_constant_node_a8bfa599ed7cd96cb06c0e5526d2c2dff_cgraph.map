@@ -1,0 +1,5 @@
+<map id="AhahGames.GenesisNoise.Nodes.ConstantNode.ProcessNode" name="AhahGames.GenesisNoise.Nodes.ConstantNode.ProcessNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,231,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a037a456c63ff355e211c83213564050d" title="Override this method to implement custom processing." alt="" coords="279,5,463,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,24,266,27,260,27,231,29"/>
+</map>

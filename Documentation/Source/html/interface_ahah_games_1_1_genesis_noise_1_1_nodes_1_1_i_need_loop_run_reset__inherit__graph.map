@@ -1,0 +1,17 @@
+<map id="AhahGames.GenesisNoise.Nodes.INeedLoopRunReset" name="AhahGames.GenesisNoise.Nodes.INeedLoopRunReset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,205,231,248"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node.html" title=" " alt="" coords="279,5,504,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,191,198,123,236,88,277,58,303,47,299,50,280,62,239,92,202,127,146,194"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html" title=" " alt="" coords="279,72,504,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,194,214,158,278,124,310,114,305,117,280,129,217,163,163,198"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node.html" title=" " alt="" coords="279,139,504,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,199,303,180,299,184,224,203"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node.html" title=" " alt="" coords="279,205,504,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="245,224,281,226,276,228,247,229"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_smoothing_node.html" title=" " alt="" coords="279,272,504,315"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="223,250,303,270,298,272,223,255"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node.html" title=" " alt="" coords="279,339,504,381"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="161,255,217,291,280,324,310,338,305,338,278,329,214,295,161,260"/>
+<area shape="rect" id="Node000008" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node.html" title=" " alt="" coords="279,405,504,448"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="144,258,202,326,239,361,280,391,304,405,299,404,277,396,236,365,198,330,142,263"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="GraphProcessor.BaseGraphView.AddSelectionsToGroup" name="GraphProcessor.BaseGraphView.AddSelectionsToGroup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="498,5,684,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph_view.html#addd9ac2ccdd324613ad33b631d4f3df7" title="Add the New Group entry to the context menu." alt="" coords="238,5,450,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="479,27,451,29,450,24,485,27"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph_view.html#ae7b100711474ef96dffddcd94768805c" title="Build the contextual menu shown when right clicking inside the graph view." alt="" coords="5,5,190,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="219,27,190,29,190,24,225,26"/>
+</map>

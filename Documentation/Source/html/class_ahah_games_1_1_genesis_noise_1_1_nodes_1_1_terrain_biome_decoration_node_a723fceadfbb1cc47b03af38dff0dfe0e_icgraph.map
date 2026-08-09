@@ -1,0 +1,11 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DestroyObject" name="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DestroyObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="878,39,1120,97"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a933776ef80e1c2708db52bc95c716f52" title=" " alt="" coords="328,5,556,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="860,60,556,44,556,39,866,59"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a07c489d76fec4f839e9e97e1308b6e50" title=" " alt="" coords="604,72,830,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="866,84,831,91,831,85,860,84"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a65d6c2e0b209b44dfe31e22837a92b5f" title=" " alt="" coords="5,47,280,89"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="310,50,281,55,280,50,315,49"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="586,70,556,65,556,60,591,70"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="587,96,280,79,280,73,590,92"/>
+</map>

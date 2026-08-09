@@ -1,0 +1,16 @@
+<map id="GraphProcessor.BaseNode.InitializePorts" name="GraphProcessor.BaseNode.InitializePorts">
+<area shape="rect" id="Node000001" title="Use this function to initialize anything related to ports generation in your node This will allow the..." alt="" coords="5,131,190,173"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a7a7f9b9e938983dd368f8775cd178fb6" title="Add a port." alt="" coords="254,5,438,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,128,176,92,236,58,253,52,249,56,239,62,178,97,128,132"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#a7b5e855b332b1d787c081661961681ac" title=" " alt="" coords="506,197,690,240"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,150,317,157,455,175,520,192,515,193,455,180,316,163,191,156"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html#a4ee54b374c1bdd7519cc6853e6b234a3" title=" " alt="" coords="238,72,455,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,128,241,117,236,120,191,133"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node.html#a53d8083629ad9a0d37234529785b3ca4" title="Override the field order inside the node. It allows to re&#45;order all the ports and field in the UI." alt="" coords="254,189,438,232"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="190,171,242,185,236,186,190,176"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_node.html#ae7b59559c7e600b089f61ac6f5ade6ec" title="Update the ports related to one C# property field and all connected nodes in the graph." alt="" coords="254,256,438,299"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="127,171,178,207,239,242,254,250,249,250,236,246,176,212,126,177"/>
+<area shape="rect" id="Node000005" href="$namespace_graph_processor.html#a7b23772b36fa7206b25d8fc1069f693c" title=" " alt="" coords="503,72,692,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="455,91,490,93,485,94,456,96"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="438,253,488,244,493,243,439,258"/>
+</map>

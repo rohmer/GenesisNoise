@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.CreateEnumField" name="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.CreateEnumField">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,277,56"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a10065b5bc5424cb4610370b474fc589f" title=" " alt="" coords="325,5,576,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,32,312,35,306,35,277,37"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#ac8c5ced56f74d24bb1f9b535945a5279" title="Send an event to the graph telling that the content of this node have changed." alt="" coords="624,13,836,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="576,32,611,35,605,35,577,37"/>
+</map>

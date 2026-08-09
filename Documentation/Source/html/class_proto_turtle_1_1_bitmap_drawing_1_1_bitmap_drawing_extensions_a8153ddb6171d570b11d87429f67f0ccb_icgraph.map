@@ -1,0 +1,5 @@
+<map id="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawHorizontalLine" name="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawHorizontalLine">
+<area shape="rect" id="Node000001" title=" " alt="" coords="295,13,588,56"/>
+<area shape="rect" id="Node000002" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#aa014051d7817ee13043c46203e02aa17" title="Draws a filled polygon from a list of points." alt="" coords="5,5,247,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="276,35,247,37,247,32,282,34"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NextFloat" name="AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NextFloat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="878,13,1117,56"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a9913f5413541eb8fb4a6ce616930b127" title=" " alt="" coords="314,5,548,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="860,28,830,29,596,29,549,31,548,26,596,24,830,24,866,28"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#acd1f5567bc7ed6b7ea5e38e306b98a0f" title=" " alt="" coords="596,39,830,97"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="865,50,831,57,830,52,860,51"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a5e9030d08ff96f92414dcfee6df164bb" title=" " alt="" coords="5,13,266,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="296,35,267,37,266,32,301,34"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="578,52,548,51,548,46,583,52"/>
+</map>

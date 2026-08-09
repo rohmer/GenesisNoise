@@ -1,0 +1,9 @@
+<map id="SharpVoronoiLib.BeachLine.CheckCircle" name="SharpVoronoiLib.BeachLine.CheckCircle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,190,48"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_min_heap-1-g.html#a1e45558225b87f043627db01f04af9ee" title=" " alt="" coords="238,5,409,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,24,225,26,219,27,190,29"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_min_heap-1-g.html#aa37ff440b38100cd6a6e499a8651ae78" title=" " alt="" coords="457,5,628,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,24,444,27,439,27,409,29"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_min_heap-1-g.html#a0b716c4b9fdb66f71b6fde7b25a6e941" title=" " alt="" coords="676,5,848,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="628,24,663,27,658,27,628,29"/>
+</map>

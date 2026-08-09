@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.LevelSplitNode.Disable" name="AhahGames.GenesisNoise.Nodes.LevelSplitNode.Disable">
+<area shape="rect" id="Node000001" title="Called when the node is disabled." alt="" coords="5,5,231,48"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_level_split_node.html#a1dfb977da6e60479fee6ef2774caedc9" title=" " alt="" coords="279,5,504,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,24,266,27,260,27,231,29"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_level_split_node.html#ac8c53847d876442d3d437d3d71b5919e" title=" " alt="" coords="552,5,777,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="504,24,539,27,534,27,504,29"/>
+</map>

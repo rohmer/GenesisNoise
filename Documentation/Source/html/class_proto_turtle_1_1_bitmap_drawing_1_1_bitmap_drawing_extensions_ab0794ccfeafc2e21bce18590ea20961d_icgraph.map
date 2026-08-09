@@ -1,0 +1,9 @@
+<map id="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Line" name="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Line">
+<area shape="rect" id="Node000001" title=" " alt="" coords="288,72,491,115"/>
+<area shape="rect" id="Node000002" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#a0c5d79ec7592ce17058587399f5cbc98" title="Draws a line between two points. Implementation of Bresenham&#39;s line algorithm." alt="" coords="5,5,240,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,68,211,51,211,46,289,67"/>
+<area shape="rect" id="Node000003" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#aed92f46c107a00fed28bba1376271a1f" title=" " alt="" coords="5,72,240,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="270,94,240,96,240,91,275,93"/>
+<area shape="rect" id="Node000004" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#a40e2d6d9662600b6c0f544dcde7052f3" title=" " alt="" coords="5,139,240,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="289,118,211,141,210,135,284,120"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Unity.Mathematics.mathx.cmin" name="Unity.Mathematics.mathx.cmin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,208,81"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a955582b919784c1197f48ed7a9577199" title="Returns a byte2 vector constructed from a single byte value by assigning it to every component." alt="" coords="256,29,462,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,55,243,54,238,55,209,60"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="270,80,448,107"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="208,76,257,83,252,83,208,81"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="316,28,309,21,314,11,331,5,359,3,389,5,407,15,401,14,388,10,359,8,332,10,318,15,314,20,321,30"/>
+</map>

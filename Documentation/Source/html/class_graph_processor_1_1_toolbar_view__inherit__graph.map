@@ -1,0 +1,7 @@
+<map id="GraphProcessor.ToolbarView" name="GraphProcessor.ToolbarView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="21,80,212,107"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar.html" title=" " alt="" coords="5,155,228,197"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="118,120,119,156,114,153,115,124"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="64,5,169,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,45,119,80,114,79,115,50"/>
+</map>

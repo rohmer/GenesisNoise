@@ -1,0 +1,9 @@
+<map id="GraphProcessor.BaseGraphView" name="GraphProcessor.BaseGraphView">
+<area shape="rect" id="Node000001" title="Base class to write a custom view for a node." alt="" coords="10,80,224,107"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view.html" title=" " alt="" coords="5,155,229,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="119,120,119,156,115,153,115,124"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="18,5,104,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,42,110,79,105,80,80,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="128,5,218,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,42,129,81,125,78,152,46"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="AhahGames.GenesisNoise.Graph.DefaultNodeSettings.RidgedPerlinNoise" name="AhahGames.GenesisNoise.Graph.DefaultNodeSettings.RidgedPerlinNoise">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,260,148"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings.html#a97eb6d5bdbca50f5b1db2aec99b6dbe1" title=" " alt="" coords="308,105,533,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,124,294,126,289,127,261,129"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings.html#a3d44c1da0bbe46eb48b61aa834795cea" title=" " alt="" coords="581,5,838,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="468,102,580,57,606,52,601,54,582,63,470,107"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings.html#adffe0c906a2a76f5b12b34686847409f" title=" " alt="" coords="592,72,828,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="533,111,579,108,574,109,534,116"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings.html#a159d51357b82c0a93d33980854c81b8c" title=" " alt="" coords="582,139,837,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="533,137,569,143,564,144,533,142"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings.html#a5591b924cbc25dffe4a7f65f761b0648" title=" " alt="" coords="592,205,827,248"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="470,146,582,191,606,201,601,200,580,196,469,151"/>
+</map>

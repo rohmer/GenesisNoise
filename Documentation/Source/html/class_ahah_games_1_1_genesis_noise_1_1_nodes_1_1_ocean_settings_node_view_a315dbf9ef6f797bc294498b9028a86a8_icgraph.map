@@ -1,0 +1,16 @@
+<map id="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.drawSimple" name="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.drawSimple">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1517,35,1755,77"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a9c24074833a6b486cdab0f17769bd638" title=" " alt="" coords="1206,35,1469,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1498,56,1470,59,1469,53,1504,56"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a9ac38772c284a53f33ec345ba590c2e0" title=" " alt="" coords="593,5,818,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1188,49,819,35,819,29,1193,49"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#ac72c53a7f325869c70178919dd233e14" title=" " alt="" coords="879,64,1158,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1193,69,1158,75,1158,70,1188,70"/>
+<area shape="poly" id="edge7_Node000004_Node000003" title=" " alt="" coords="884,61,819,50,819,45,889,61"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#aa1b4ef1d9b8adba5ca8d291cd1832ade" title=" " alt="" coords="580,72,831,131"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="866,93,832,98,832,92,861,93"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#adfc81b5fcd0d6ae15fac358ec3a30b32" title=" " alt="" coords="291,72,532,131"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="562,101,532,104,532,99,567,101"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#afc73f228790ea246484f98f8539eacb3" title=" " alt="" coords="5,80,243,123"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="272,102,243,104,243,99,277,101"/>
+</map>

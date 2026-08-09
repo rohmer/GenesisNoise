@@ -1,0 +1,16 @@
+<map id="AhahGames.GenesisNoise.Nodes.DebugNode.ProcessNode" name="AhahGames.GenesisNoise.Nodes.DebugNode.ProcessNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,231,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html#a7cce66f8469e68e6143a15f3d0bd9f49" title=" " alt="" coords="279,5,504,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,44,266,42,261,43,232,49"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_node_port.html#a795576ce8d3e0c1ae6fd2747587a749b" title="Pull values from the edge (in case of a custom convertion method) This method can only be called on i..." alt="" coords="302,72,480,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,71,289,80,284,81,231,76"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_type_adapter.html#ae7e8be0bbef72a89f3471a63a5e497da" title=" " alt="" coords="552,39,748,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="480,79,539,74,534,75,481,85"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_type_adapter.html#a47f3e711b46fdb032b4d15ea011616d4" title=" " alt="" coords="552,105,748,148"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="481,102,540,112,534,112,481,107"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_type_adapter.html#a2caf17701eadc181ae9d7ab3539ed995" title=" " alt="" coords="796,39,993,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="749,57,783,60,778,60,749,63"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_type_adapter.html#a1edb2b3a6e33b10ffdd6cadabf3f69f9" title=" " alt="" coords="796,105,993,148"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="731,79,802,101,796,101,731,85"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="749,124,783,127,778,127,749,129"/>
+</map>

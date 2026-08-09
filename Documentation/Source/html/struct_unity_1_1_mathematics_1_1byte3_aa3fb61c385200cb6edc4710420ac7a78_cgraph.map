@@ -1,0 +1,5 @@
+<map id="Unity.Mathematics.byte3.operator&amp;" name="Unity.Mathematics.byte3.operator&amp;">
+<area shape="rect" id="Node000001" title="Returns the result of a componentwise bitwise and operation on an byte3 vector and an int value." alt="" coords="5,5,232,32"/>
+<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1byte3.html#a3dba0612deccf9b3dbe4b8b16b96515c" title="Constructs a byte3 vector from three byte values." alt="" coords="280,5,482,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,16,267,19,261,19,232,21"/>
+</map>

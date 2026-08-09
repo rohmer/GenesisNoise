@@ -1,0 +1,26 @@
+var class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition =
+[
+    [ "TitleBarDefinition", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a2d1d548cffa5276f4a383bd3d42a0f3b", null ],
+    [ "TitleBarDefinition", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#aa74c67e91b2792fccd5617c48c751063", null ],
+    [ "AddGradientDefinition", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a0a7acbe53cc0813850f46f13818d7b9b", null ],
+    [ "GetBackground", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a80dc06729fbc7b7155856bbd266c6983", null ],
+    [ "GetNodeIcon", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a5df3e0e701d46dfd7926562e1cfc8197", null ],
+    [ "GetTitleColor", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#addb5e37e5b7e3ee241d9668fe03038e1", null ],
+    [ "LoadIcon", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a116510a168ac99d8162b2891fcb9fc9b", null ],
+    [ "backgroundColor", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a28204fee2558d9289e0f2ff532d717ad", null ],
+    [ "borderBottom", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#aa5f66aced4a289b71a76be9409074bdd", null ],
+    [ "borderLeft", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#afbe2e9d0b66749242fd008cbde98c146", null ],
+    [ "borderRight", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#adb666e40e3caaad09c974639a06932e8", null ],
+    [ "borderTop", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a2c56703a5d2d1647f92278dde4bac6d3", null ],
+    [ "gradients", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a31a97aecf6f9db8e2e4510a585e80e4c", null ],
+    [ "nodeGroup", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a8e9f710e14ffbd476a09c9f8e1fc4f91", null ],
+    [ "nodeIcon", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a19cd57d6bc13e4bce13f5b9ba0f78c80", null ],
+    [ "nodeTitle", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a2dd2b50501f080a465d1492fbec52e24", null ],
+    [ "titleBarImage", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#ad6434f68e0f3e06463a9f9603f8780fd", null ],
+    [ "titleColor", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a0c59dfb137d79e51ebb0a8f3b5ade447", null ],
+    [ "BackgroundColor", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#af24b8f650953c0cc5ecf13ea7c34b6d7", null ],
+    [ "BorderColors", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#aff2fec5d993318b27ce33360cbea9276", null ],
+    [ "NodeGroup", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a640e13dab3a66cbc989cfac5c410778f", null ],
+    [ "NodeTitle", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#acb94fefe149b25a53efed137f46c7ad6", null ],
+    [ "TitleColor", "class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a44a9a58895e91342c3305471b0954e4e", null ]
+];

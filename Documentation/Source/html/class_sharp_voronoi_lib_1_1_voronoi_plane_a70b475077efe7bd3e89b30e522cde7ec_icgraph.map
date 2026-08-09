@@ -1,0 +1,9 @@
+<map id="SharpVoronoiLib.VoronoiPlane.Tessellate" name="SharpVoronoiLib.VoronoiPlane.Tessellate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,72,452,115"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#a0493ea6d6f28e99c9c8a211b8268cd48" title=" " alt="" coords="5,5,205,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,68,187,51,187,46,258,67"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#a543e6b0d39765702231110f16946dc06" title=" " alt="" coords="5,72,205,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,94,206,96,205,91,240,93"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#aa02ae56b2cc79f63367c9e324cd5bbf4" title=" " alt="" coords="5,139,205,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,119,188,141,186,135,253,120"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="GraphProcessor.BaseGraph" name="GraphProcessor.BaseGraph">
+<area shape="rect" id="Node000001" title=" " alt="" coords="62,80,247,107"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph.html" title=" " alt="" coords="44,155,266,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,120,157,156,152,153,153,124"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,123,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,39,142,79,137,81,91,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="147,5,346,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,40,172,82,169,77,217,43"/>
+</map>

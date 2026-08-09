@@ -1,0 +1,49 @@
+<map id="Unity.Mathematics.mathx.bcc8_grad" name="Unity.Mathematics.mathx.bcc8_grad">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,193,240,220"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#acbc56cd64539dd2c230d803af130999d" title=" " alt="" coords="288,90,494,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,190,340,121,338,126,161,195"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="820,192,999,218"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="134,191,195,133,239,101,287,76,411,29,465,14,516,5,567,3,620,10,679,24,745,48,793,74,834,109,868,145,893,180,888,179,864,149,830,113,790,79,743,53,677,30,619,15,566,9,516,10,466,19,413,34,289,81,241,106,199,137,138,194"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#a196e046596e015065bedacb45d815fd6" title="Returns x^3." alt="" coords="542,293,744,320"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="153,218,215,243,288,267,411,288,529,301,524,303,410,293,287,272,213,248,154,223"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#aac1a180b0a91aaccbebdee2f897894f2" title=" " alt="" coords="550,141,736,168"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="239,192,537,163,533,167,241,197"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#a020c086461811d794ecdc6f66fa0d54b" title=" " alt="" coords="291,230,490,257"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="222,218,278,227,273,229,224,223"/>
+<area shape="rect" id="Node000009" href="$class_unity_1_1_mathematics_1_1mathx.html#ae65a03a869fb65284b3de27b2668d6e1" title=" " alt="" coords="542,344,744,370"/>
+<area shape="poly" id="edge31_Node000001_Node000009" title=" " alt="" coords="142,218,206,260,246,283,289,301,348,319,410,333,529,350,524,352,409,338,347,324,287,306,244,288,203,265,142,223"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,88,497,72,576,61,661,60,704,65,745,76,789,96,828,123,889,180,884,180,825,127,786,101,743,81,703,70,661,65,576,66,498,78,437,92"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#a0d6e0b81fbc2c52f3cbc26f299c9e8bb" title=" " alt="" coords="550,90,736,117"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="494,101,538,103,533,105,495,106"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="690,290,743,272,862,226,867,224,745,277,692,295"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="490,240,612,237,744,228,818,221,813,222,745,233,612,242,492,246"/>
+<area shape="poly" id="edge9_Node000007_Node000005" title=" " alt="" coords="447,255,574,288,569,290,448,260"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="420,228,475,203,541,177,568,171,564,174,543,182,477,208,422,232"/>
+<area shape="poly" id="edge14_Node000007_Node000007" title=" " alt="" coords="348,230,341,222,346,212,363,206,391,204,421,206,439,215,433,216,420,212,391,209,364,211,350,216,346,221,353,230"/>
+<area shape="rect" id="Node000008" href="$class_unity_1_1_mathematics_1_1mathx.html#a4401a388cb71bc5ddd177a386d337fec" title=" " alt="" coords="544,192,743,218"/>
+<area shape="poly" id="edge12_Node000007_Node000008" title=" " alt="" coords="481,227,539,220,534,222,483,232"/>
+<area shape="poly" id="edge15_Node000007_Node000009" title=" " alt="" coords="412,255,470,292,543,329,564,339,559,339,541,334,467,297,411,260"/>
+<area shape="poly" id="edge13_Node000008_Node000003" title=" " alt="" coords="743,203,807,204,802,206,744,208"/>
+<area shape="rect" id="Node000010" href="$class_unity_1_1_mathematics_1_1mathx.html#a8a7d5b268ea708000c23b6b88ccc5200" title=" " alt="" coords="792,344,1027,370"/>
+<area shape="poly" id="edge16_Node000009_Node000010" title=" " alt="" coords="745,354,779,357,774,358,745,360"/>
+<area shape="poly" id="edge17_Node000010_Node000010" title=" " alt="" coords="866,343,859,335,864,325,881,319,910,317,941,320,958,329,953,329,939,325,909,322,882,324,867,329,864,335,871,344"/>
+<area shape="rect" id="Node000011" href="$class_unity_1_1_mathematics_1_1mathx.html#acf8dd69a55c0fbc02cb079fd74782fac" title="appends a float to a f3 to create a f4" alt="" coords="1075,230,1259,257"/>
+<area shape="poly" id="edge18_Node000010_Node000011" title=" " alt="" coords="936,341,998,309,1074,273,1106,264,1111,262,1076,278,1000,313,937,346"/>
+<area shape="rect" id="Node000013" href="$class_unity_1_1_mathematics_1_1mathx.html#aaa93b9898ab5a2b956115f04c6736a33" title="Returns the x component of the quaternion as a float." alt="" coords="1314,344,1495,370"/>
+<area shape="poly" id="edge22_Node000010_Node000013" title=" " alt="" coords="1027,362,1301,364,1296,365,1027,368"/>
+<area shape="rect" id="Node000014" href="$class_unity_1_1_mathematics_1_1mathx.html#ae2987c2cb40c229f7d8b49dcdca95e66" title="appends a float to a float to create a f2" alt="" coords="1076,430,1258,457"/>
+<area shape="poly" id="edge24_Node000010_Node000014" title=" " alt="" coords="952,368,1113,425,1108,425,951,374"/>
+<area shape="rect" id="Node000015" href="$class_unity_1_1_mathematics_1_1mathx.html#a0b0a45183e228f3f6917c2fb3201933e" title="appends a float to a f2 to create a f3" alt="" coords="1076,505,1258,532"/>
+<area shape="poly" id="edge27_Node000010_Node000015" title=" " alt="" coords="930,368,995,414,1076,467,1127,498,1122,497,1073,471,992,418,929,373"/>
+<area shape="poly" id="edge19_Node000011_Node000011" title=" " alt="" coords="1126,229,1120,222,1125,212,1141,206,1167,204,1196,206,1212,216,1207,215,1194,212,1167,209,1142,211,1128,216,1125,221,1132,231"/>
+<area shape="rect" id="Node000012" href="$class_unity_1_1_mathematics_1_1mathx.html#a2fe4cbbcb36910c98c2251fdab83c04b" title="Returns the xyz components of the quaternion as a f3." alt="" coords="1307,256,1502,282"/>
+<area shape="poly" id="edge20_Node000011_Node000012" title=" " alt="" coords="1259,251,1294,257,1289,257,1260,256"/>
+<area shape="poly" id="edge21_Node000012_Node000010" title=" " alt="" coords="1319,284,1075,329,1000,343,999,338,1074,324,1324,283"/>
+<area shape="poly" id="edge23_Node000013_Node000010" title=" " alt="" coords="1311,350,1042,352,1042,346,1316,350"/>
+<area shape="poly" id="edge25_Node000014_Node000013" title=" " alt="" coords="1205,427,1349,377,1354,376,1207,432"/>
+<area shape="poly" id="edge26_Node000014_Node000014" title=" " alt="" coords="1127,429,1120,422,1125,412,1141,406,1167,404,1196,406,1212,416,1207,415,1194,412,1167,409,1142,411,1128,416,1125,421,1132,431"/>
+<area shape="poly" id="edge30_Node000015_Node000015" title=" " alt="" coords="1127,504,1120,496,1125,487,1141,481,1167,478,1196,481,1212,491,1207,490,1194,486,1167,484,1142,486,1128,491,1125,496,1131,506"/>
+<area shape="rect" id="Node000016" href="$class_unity_1_1_mathematics_1_1mathx.html#adbed2a933865e359be108c9101c3fd78" title="Returns the xy components of the quaternion as a f2." alt="" coords="1310,530,1499,557"/>
+<area shape="poly" id="edge28_Node000015_Node000016" title=" " alt="" coords="1258,525,1298,532,1292,532,1258,531"/>
+<area shape="poly" id="edge29_Node000016_Node000010" title=" " alt="" coords="1348,557,1287,569,1217,573,1144,567,1108,559,1074,546,1047,532,1022,513,979,470,946,425,924,387,926,382,950,422,983,466,1026,509,1050,527,1076,541,1109,554,1145,562,1217,568,1286,564,1342,558"/>
+</map>

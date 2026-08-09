@@ -1,0 +1,5 @@
+<map id="GraphProcessor.BaseNode.UpdatePortsForField" name="GraphProcessor.BaseNode.UpdatePortsForField">
+<area shape="rect" id="Node000001" title="Update the ports related to one C# property field and all connected nodes in the graph." alt="" coords="5,5,190,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a7b5e855b332b1d787c081661961681ac" title=" " alt="" coords="238,5,422,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,24,224,26,219,27,190,29"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="GraphProcessor.PortView.UpdatePortView" name="GraphProcessor.PortView.UpdatePortView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,181,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_port_view.html#ad4070e55679a14aa22943b1bc15e3f18" title="Update the size of the port view (using the portData.sizeInPixel property)." alt="" coords="229,5,404,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,24,216,26,211,27,181,29"/>
+</map>

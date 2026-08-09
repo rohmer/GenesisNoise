@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.CalculateLakeHeight" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.CalculateLakeHeight">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,241,123"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node.html#a175f88f2587dc0c28313ed337b28de27" title=" " alt="" coords="294,5,519,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,63,300,51,295,53,242,68"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node.html#ac923a25bf4c66ef90386e850a99dcbd8" title=" " alt="" coords="294,72,519,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,91,280,93,275,94,242,96"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a1c3b51aa102dcdb20866c6f5f13579c3" title=" " alt="" coords="289,139,524,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="237,121,280,134,275,134,237,126"/>
+</map>

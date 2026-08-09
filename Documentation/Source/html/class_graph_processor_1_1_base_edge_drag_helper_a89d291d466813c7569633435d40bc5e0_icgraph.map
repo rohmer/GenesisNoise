@@ -1,0 +1,13 @@
+<map id="GraphProcessor.BaseEdgeDragHelper.GetPortBounds" name="GraphProcessor.BaseEdgeDragHelper.GetPortBounds">
+<area shape="rect" id="Node000001" title=" " alt="" coords="516,105,723,148"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_edge_drag_helper.html#ad5f3df33dc5bbb99420da108411c19cd" title=" " alt="" coords="261,105,468,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="498,127,469,129,468,124,503,126"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_edge_drag_helper.html#a5c73ed75977130a521367de33e0285a1" title=" " alt="" coords="5,5,213,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="301,99,212,62,181,51,180,46,214,58,306,97"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_edge_drag_helper.html#af2b80dfb25b70b4fef22e867ba87c16d" title=" " alt="" coords="5,72,213,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="243,112,213,110,213,104,248,110"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_edge_drag_helper.html#aee47045405738f0988a47827ba28e0b8" title=" " alt="" coords="5,139,213,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="243,143,214,149,212,144,248,141"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_edge_drag_helper.html#ac8cab97d502f6da5192118137da4c56c" title=" " alt="" coords="5,205,213,248"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="306,154,214,196,181,207,180,202,212,191,300,156"/>
+</map>

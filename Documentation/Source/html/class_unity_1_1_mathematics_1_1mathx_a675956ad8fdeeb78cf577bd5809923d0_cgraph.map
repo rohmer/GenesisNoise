@@ -1,0 +1,29 @@
+<map id="Unity.Mathematics.mathx.rotate" name="Unity.Mathematics.mathx.rotate">
+<area shape="rect" id="Node000001" title="Returns the result of rotating a vector by a rotation matrix." alt="" coords="5,117,213,144"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="280,92,458,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,118,267,114,263,117,214,123"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a240f053abcc2ca16f771feda72352e81" title=" " alt="" coords="261,143,478,169"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="213,138,248,143,243,145,214,143"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#a8a7d5b268ea708000c23b6b88ccc5200" title=" " alt="" coords="526,143,760,169"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="478,153,513,155,508,157,479,159"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="600,142,592,134,598,124,615,118,643,116,674,119,692,128,686,128,673,124,643,121,616,123,601,128,598,133,605,143"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#acf8dd69a55c0fbc02cb079fd74782fac" title="appends a float to a f3 to create a f4" alt="" coords="808,29,993,56"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="669,140,731,107,807,72,839,63,844,61,809,77,734,112,671,144"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#aaa93b9898ab5a2b956115f04c6736a33" title="Returns the x component of the quaternion as a float." alt="" coords="1048,143,1229,169"/>
+<area shape="poly" id="edge9_Node000004_Node000007" title=" " alt="" coords="760,161,1035,163,1029,164,761,166"/>
+<area shape="rect" id="Node000008" href="$class_unity_1_1_mathematics_1_1mathx.html#ae2987c2cb40c229f7d8b49dcdca95e66" title="appends a float to a float to create a f2" alt="" coords="810,229,991,256"/>
+<area shape="poly" id="edge11_Node000004_Node000008" title=" " alt="" coords="686,167,847,224,842,224,685,173"/>
+<area shape="rect" id="Node000009" href="$class_unity_1_1_mathematics_1_1mathx.html#a0b0a45183e228f3f6917c2fb3201933e" title="appends a float to a f2 to create a f3" alt="" coords="810,304,991,331"/>
+<area shape="poly" id="edge14_Node000004_Node000009" title=" " alt="" coords="664,167,728,212,810,266,861,297,856,296,807,270,725,217,663,172"/>
+<area shape="poly" id="edge6_Node000005_Node000005" title=" " alt="" coords="860,28,853,21,858,11,874,5,901,3,929,5,946,15,940,14,928,10,900,8,875,10,862,15,859,20,865,30"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a2fe4cbbcb36910c98c2251fdab83c04b" title="Returns the xyz components of the quaternion as a f3." alt="" coords="1041,55,1236,81"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="993,50,1028,56,1023,56,993,55"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="1053,83,809,128,733,142,732,137,808,123,1058,81"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="1044,149,776,151,776,145,1050,148"/>
+<area shape="poly" id="edge12_Node000008_Node000007" title=" " alt="" coords="939,226,1083,176,1088,175,940,231"/>
+<area shape="poly" id="edge13_Node000008_Node000008" title=" " alt="" coords="860,228,853,221,858,211,874,205,901,203,929,205,946,215,940,214,928,210,900,208,875,210,862,215,859,220,865,230"/>
+<area shape="poly" id="edge17_Node000009_Node000009" title=" " alt="" coords="860,303,853,295,858,285,874,279,901,277,929,280,946,290,940,289,928,285,900,283,875,285,862,289,859,295,865,305"/>
+<area shape="rect" id="Node000010" href="$class_unity_1_1_mathematics_1_1mathx.html#adbed2a933865e359be108c9101c3fd78" title="Returns the xy components of the quaternion as a f2." alt="" coords="1044,329,1232,356"/>
+<area shape="poly" id="edge15_Node000009_Node000010" title=" " alt="" coords="992,324,1031,331,1026,331,992,330"/>
+<area shape="poly" id="edge16_Node000010_Node000004" title=" " alt="" coords="1081,356,1020,368,951,372,878,366,842,358,807,345,781,330,756,312,713,269,680,223,657,186,660,181,684,220,717,265,759,308,783,326,809,340,843,353,878,361,951,367,1020,363,1076,357"/>
+</map>

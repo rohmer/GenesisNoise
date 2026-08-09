@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshErosionNode.ResolveCurrentInputMesh" name="AhahGames.GenesisNoise.Nodes.MeshErosionNode.ResolveCurrentInputMesh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="833,5,1118,48"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node.html#a474d82530ca30be83cc44a3a706f29f6" title=" " alt="" coords="552,5,785,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="815,27,786,29,786,24,820,27"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node.html#aaf1ffbd1db4b77e1ec805416e029245f" title=" " alt="" coords="279,5,504,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="534,27,504,29,504,24,539,27"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node.html#a08beff061fcc4807e96fce76027b6f69" title=" " alt="" coords="5,5,231,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="261,27,231,29,231,24,266,27"/>
+</map>

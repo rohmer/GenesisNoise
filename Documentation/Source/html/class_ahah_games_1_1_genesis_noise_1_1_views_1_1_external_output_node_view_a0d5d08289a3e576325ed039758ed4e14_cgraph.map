@@ -1,0 +1,37 @@
+<map id="AhahGames.GenesisNoise.Views.ExternalOutputNodeView.BuildOutputNodeSettings" name="AhahGames.GenesisNoise.Views.ExternalOutputNodeView.BuildOutputNodeSettings">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,260,245,319"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#a08b10e6812101308a44521a84185e09b" title=" " alt="" coords="317,172,530,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,257,292,224,319,218,314,221,293,229,202,262"/>
+<area shape="rect" id="Node000015" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_external_output_node_view.html#a5cf92faf1a7e45667815f584e43a0f2a" title=" " alt="" coords="299,239,548,281"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="245,275,286,273,281,275,246,280"/>
+<area shape="rect" id="Node000016" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_external_output_node_view.html#a38c5c30bcb5b02b44722db291ba033bf" title=" " alt="" coords="602,297,860,340"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="245,292,588,309,586,314,245,298"/>
+<area shape="rect" id="Node000017" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_external_output_node_view.html#a0c2d01c9fd6f850f7aaf2fdf44069a97" title=" " alt="" coords="293,356,554,399"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="227,317,336,350,331,352,227,322"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#af2d3b0f3533c62dbccaac8896826f744" title=" " alt="" coords="625,172,837,215"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="530,191,612,193,607,194,531,196"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node_view.html#a601b788e4c901edc1c96465492838075" title=" " alt="" coords="908,72,1121,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="787,169,907,124,925,121,930,119,909,129,789,174"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node_view.html#aa0cf2132c880b3585cf329e2c639b7d6" title=" " alt="" coords="908,139,1121,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="837,178,895,174,890,175,838,183"/>
+<area shape="rect" id="Node000011" href="$class_graph_processor_1_1_base_node_view.html#afa7960c79cc989493da08e68b295afea" title=" " alt="" coords="908,205,1121,248"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="838,203,895,212,890,213,838,209"/>
+<area shape="rect" id="Node000013" href="$class_graph_processor_1_1_port_view.html#ab09757c0ec121edfc96ce02cb69c7b78" title=" " alt="" coords="927,272,1102,315"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="788,213,909,257,931,267,925,266,907,263,788,218"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node_view.html#a99918747dbffad96134756cbd04bf0ff" title=" " alt="" coords="1169,72,1381,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1100,135,1171,120,1176,118,1101,141"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_base_node_view.html#afaf4312ed9d1da5380aef13e496042d2" title=" " alt="" coords="1169,139,1381,181"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="1121,157,1156,160,1150,160,1121,163"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_node_view.html#aeee944017151ad57f938e5e3d3e27414" title=" " alt="" coords="1429,5,1641,48"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1360,69,1432,53,1437,52,1362,74"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_port_view.html#a61337987043b01db3098f9dc546ecf5c" title=" " alt="" coords="1448,72,1623,115"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1381,91,1435,93,1429,94,1382,96"/>
+<area shape="rect" id="Node000010" href="$class_graph_processor_1_1_port_view.html#a8c1c9809d2fe69fb626a01aaaf0fa323" title=" " alt="" coords="1448,139,1623,181"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1381,157,1435,160,1429,160,1382,163"/>
+<area shape="rect" id="Node000012" href="$class_graph_processor_1_1_base_node_view.html#abec514823b07a2da1308055ae9391bea" title=" " alt="" coords="1169,205,1381,248"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1121,224,1156,226,1150,227,1121,229"/>
+<area shape="rect" id="Node000014" href="$class_graph_processor_1_1_port_view.html#ad4070e55679a14aa22943b1bc15e3f18" title="Update the size of the port view (using the portData.sizeInPixel property)." alt="" coords="1187,272,1362,315"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1103,291,1174,293,1169,293,1103,296"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="539,279,603,294,598,294,539,285"/>
+<area shape="poly" id="edge18_Node000017_Node000016" title=" " alt="" coords="538,353,598,344,603,343,539,358"/>
+</map>

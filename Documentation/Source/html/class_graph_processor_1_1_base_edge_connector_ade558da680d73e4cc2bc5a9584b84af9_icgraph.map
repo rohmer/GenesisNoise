@@ -1,0 +1,9 @@
+<map id="GraphProcessor.BaseEdgeConnector.CanPerformConnection" name="GraphProcessor.BaseEdgeConnector.CanPerformConnection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="588,39,831,81"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_edge_connector.html#a73d4f6db936e7117dcb6958b281806cd" title=" " alt="" coords="297,39,540,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="570,60,541,63,540,57,575,60"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_edge_connector.html#ad967fb44a503e9b2484c27a4d9f800ca" title=" " alt="" coords="5,5,249,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,45,249,43,249,38,284,44"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_edge_connector.html#aee84face2da4a4403664dbdf50bb35bf" title=" " alt="" coords="5,72,249,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="279,76,249,82,249,77,284,75"/>
+</map>

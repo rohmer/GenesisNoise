@@ -1,0 +1,5 @@
+<map id="GraphProcessor.FieldDrawerAttribute" name="GraphProcessor.FieldDrawerAttribute">
+<area shape="rect" id="Node000001" title="Set a custom drawer for a field. It can then be created using the FieldFactory." alt="" coords="5,80,195,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="65,5,135,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,46,102,81,98,79,98,50"/>
+</map>

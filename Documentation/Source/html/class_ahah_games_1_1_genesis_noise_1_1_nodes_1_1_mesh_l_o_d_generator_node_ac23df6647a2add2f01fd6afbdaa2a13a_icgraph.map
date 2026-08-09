@@ -1,0 +1,13 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.ClearGeneratedMeshes" name="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.ClearGeneratedMeshes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="712,97,975,156"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a407f266dbb0486cc3827e951e9ee96eb" title=" " alt="" coords="350,72,664,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="694,112,664,112,664,106,699,112"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a0666a8d824c46350c2e08ddc0a8a8020" title=" " alt="" coords="377,139,636,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="699,141,637,150,637,144,694,141"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a06deba4c2256b3cc5bf52709daebd3b1" title="Called when the node is disabled." alt="" coords="41,5,266,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,69,267,51,267,45,378,68"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a4c13a3a6cd41ba2b4d884e68ae99029d" title=" " alt="" coords="5,72,302,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="331,94,302,96,302,91,337,93"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a8cb0cf14ee52b7da6cc1a44ad8bd4292" title=" " alt="" coords="28,139,279,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="359,160,279,163,279,157,364,160"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="GraphProcessor.BaseNodeView.UpdateDebugView" name="GraphProcessor.BaseNodeView.UpdateDebugView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="526,5,738,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#abe08b235f647d32c9b69cc566b667e2c" title=" " alt="" coords="266,5,478,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="508,27,478,29,478,24,513,27"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#a9fef0bb46e341b98307db72466f8d50c" title=" " alt="" coords="5,5,218,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="248,27,218,29,218,24,253,27"/>
+</map>

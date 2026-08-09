@@ -1,0 +1,7 @@
+<map id="SharpVoronoiLib.VoronoiPlane.GenerateRandomSites" name="SharpVoronoiLib.VoronoiPlane.GenerateRandomSites">
+<area shape="rect" id="Node000001" title="The generated sites are guaranteed not to lie on the border of the plane (although they may be very c..." alt="" coords="5,39,205,81"/>
+<area shape="rect" id="Node000002" href="$interface_sharp_voronoi_lib_1_1_i_point_generation_algorithm.html#a885c301b42074d404abc89f808d3f2df" title=" " alt="" coords="253,5,469,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,44,240,42,235,43,206,50"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#a1d535a3b574fb86a635a5b8beee5195e" title=" " alt="" coords="261,72,460,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,70,248,78,243,79,205,76"/>
+</map>

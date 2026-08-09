@@ -1,0 +1,27 @@
+<map id="GraphProcessor.BaseNodeView.ForceUpdatePorts" name="GraphProcessor.BaseNodeView.ForceUpdatePorts">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,172,218,215"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#af2d3b0f3533c62dbccaac8896826f744" title=" " alt="" coords="266,172,478,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="217,191,253,193,248,194,219,196"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#a601b788e4c901edc1c96465492838075" title=" " alt="" coords="526,72,738,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="419,169,525,124,547,119,541,121,527,129,421,174"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node_view.html#aa0cf2132c880b3585cf329e2c639b7d6" title=" " alt="" coords="526,139,738,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="478,177,513,175,508,176,479,182"/>
+<area shape="rect" id="Node000010" href="$class_graph_processor_1_1_base_node_view.html#afa7960c79cc989493da08e68b295afea" title=" " alt="" coords="526,205,738,248"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="478,204,513,211,508,211,478,210"/>
+<area shape="rect" id="Node000012" href="$class_graph_processor_1_1_port_view.html#ab09757c0ec121edfc96ce02cb69c7b78" title=" " alt="" coords="544,272,720,315"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="421,213,527,258,547,267,541,266,525,262,420,218"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node_view.html#a99918747dbffad96134756cbd04bf0ff" title=" " alt="" coords="786,72,999,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="718,135,789,120,794,118,719,141"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_node_view.html#afaf4312ed9d1da5380aef13e496042d2" title=" " alt="" coords="786,139,999,181"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="738,157,773,160,768,160,739,163"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node_view.html#aeee944017151ad57f938e5e3d3e27414" title=" " alt="" coords="1047,5,1259,48"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="978,69,1049,53,1054,52,979,74"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_port_view.html#a61337987043b01db3098f9dc546ecf5c" title=" " alt="" coords="1065,72,1240,115"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="999,91,1052,93,1047,94,999,96"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_port_view.html#a8c1c9809d2fe69fb626a01aaaf0fa323" title=" " alt="" coords="1065,139,1240,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="999,157,1052,160,1047,160,999,163"/>
+<area shape="rect" id="Node000011" href="$class_graph_processor_1_1_base_node_view.html#abec514823b07a2da1308055ae9391bea" title=" " alt="" coords="786,205,999,248"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="739,224,773,227,768,227,739,229"/>
+<area shape="rect" id="Node000013" href="$class_graph_processor_1_1_port_view.html#ad4070e55679a14aa22943b1bc15e3f18" title="Update the size of the port view (using the portData.sizeInPixel property)." alt="" coords="805,272,980,315"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="720,291,792,293,787,293,720,296"/>
+</map>

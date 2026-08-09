@@ -1,0 +1,8 @@
+<map id="Unity.Mathematics.mathx.add" name="Unity.Mathematics.mathx.add">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,201,69"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="270,5,448,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,39,257,33,252,35,200,45"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#ab6c88dae4905a6424112314d819ce2b4" title="Returns a float3x4 matrix from a float3x3 rotation matrix and a f3 translation vector." alt="" coords="249,80,469,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,67,250,77,245,77,199,73"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="316,79,308,71,314,61,331,55,359,53,390,56,407,66,402,65,388,61,359,59,332,61,317,66,314,71,321,80"/>
+</map>

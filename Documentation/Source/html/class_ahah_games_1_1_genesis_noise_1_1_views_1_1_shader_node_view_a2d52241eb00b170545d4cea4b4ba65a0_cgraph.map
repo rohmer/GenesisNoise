@@ -1,0 +1,31 @@
+<map id="AhahGames.GenesisNoise.Views.ShaderNodeView.DetectShaderChanges" name="AhahGames.GenesisNoise.Views.ShaderNodeView.DetectShaderChanges">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,205,263,248"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#a08b10e6812101308a44521a84185e09b" title=" " alt="" coords="311,172,523,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,209,298,207,293,208,264,214"/>
+<area shape="rect" id="Node000015" href="$class_graph_processor_1_1_base_node_view.html#ac8c5ced56f74d24bb1f9b535945a5279" title="Send an event to the graph telling that the content of this node have changed." alt="" coords="311,239,523,281"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="263,239,298,245,293,246,263,245"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#af2d3b0f3533c62dbccaac8896826f744" title=" " alt="" coords="571,172,783,215"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="523,191,558,193,553,194,524,196"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node_view.html#a601b788e4c901edc1c96465492838075" title=" " alt="" coords="831,72,1044,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="725,169,830,124,847,121,852,119,832,129,726,174"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node_view.html#aa0cf2132c880b3585cf329e2c639b7d6" title=" " alt="" coords="831,139,1044,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="783,177,818,175,813,176,784,182"/>
+<area shape="rect" id="Node000011" href="$class_graph_processor_1_1_base_node_view.html#afa7960c79cc989493da08e68b295afea" title=" " alt="" coords="831,205,1044,248"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="784,204,818,211,813,211,784,210"/>
+<area shape="rect" id="Node000013" href="$class_graph_processor_1_1_port_view.html#ab09757c0ec121edfc96ce02cb69c7b78" title=" " alt="" coords="850,272,1025,315"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="726,213,832,258,852,267,847,266,830,262,725,218"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node_view.html#a99918747dbffad96134756cbd04bf0ff" title=" " alt="" coords="1092,72,1304,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1023,135,1094,120,1099,119,1024,141"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_base_node_view.html#afaf4312ed9d1da5380aef13e496042d2" title=" " alt="" coords="1092,139,1304,181"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="1044,157,1079,160,1073,160,1044,163"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_node_view.html#aeee944017151ad57f938e5e3d3e27414" title=" " alt="" coords="1352,5,1564,48"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1283,69,1355,53,1360,52,1284,74"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_port_view.html#a61337987043b01db3098f9dc546ecf5c" title=" " alt="" coords="1370,72,1546,115"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1304,91,1358,93,1352,94,1305,96"/>
+<area shape="rect" id="Node000010" href="$class_graph_processor_1_1_port_view.html#a8c1c9809d2fe69fb626a01aaaf0fa323" title=" " alt="" coords="1370,139,1546,181"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1304,157,1358,160,1352,160,1304,163"/>
+<area shape="rect" id="Node000012" href="$class_graph_processor_1_1_base_node_view.html#abec514823b07a2da1308055ae9391bea" title=" " alt="" coords="1092,205,1304,248"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1044,224,1079,227,1073,227,1044,229"/>
+<area shape="rect" id="Node000014" href="$class_graph_processor_1_1_port_view.html#ad4070e55679a14aa22943b1bc15e3f18" title="Update the size of the port view (using the portData.sizeInPixel property)." alt="" coords="1110,272,1286,315"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1026,291,1097,293,1092,293,1026,296"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Unity.Mathematics.mathx.forward" name="Unity.Mathematics.mathx.forward">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,31,470,57"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a38623c11c57ebd770f5cc28619b8f273" title="Returns the bi&#45;tangent vector of a forward vector." alt="" coords="5,5,205,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,32,205,31,205,26,240,31"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#af90360325022ae6926001bc0235d07a2" title="Returns the tangent vector of a forward vector." alt="" coords="11,56,199,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,57,200,63,199,57,240,56"/>
+</map>

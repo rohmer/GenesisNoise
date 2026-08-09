@@ -1,0 +1,22 @@
+<map id="GraphProcessor.NodePort.Add" name="GraphProcessor.NodePort.Add">
+<area shape="rect" id="Node000001" title="Connect an edge to this port." alt="" coords="5,143,207,169"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_port.html#a2269d66a005030e2dbfc20b2aa7886fd" title=" " alt="" coords="255,101,474,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="207,140,242,138,237,139,208,146"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_node_port.html#a337a13507a3a5a7da1cbdac7c3feed1c" title="Delegate that is made to send the data from this port to another port connected through an edge This ..." alt="" coords="531,168,709,211"/>
+<area shape="poly" id="edge11_Node000001_Node000007" title=" " alt="" coords="207,160,516,180,514,185,207,165"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_type_adapter.html#ae7e8be0bbef72a89f3471a63a5e497da" title=" " alt="" coords="766,9,963,52"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,98,446,56,482,35,521,20,579,8,639,3,697,4,754,11,748,11,697,9,639,9,580,13,523,25,485,40,449,60,391,103"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_type_adapter.html#a2dfd42586f57315d14569853f219792d" title=" " alt="" coords="522,35,718,77"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="448,98,518,82,524,81,450,103"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="449,142,524,164,518,164,449,147"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_graph.html#a5a962e414782f22fe5b879d384665bbd" title="Tell if two types can be connected in the context of a graph." alt="" coords="526,101,714,144"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="474,120,513,122,508,123,475,125"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_type_adapter.html#a2caf17701eadc181ae9d7ab3539ed995" title=" " alt="" coords="1011,72,1207,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="951,50,1011,68,1006,68,950,55"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_type_adapter.html#a1edb2b3a6e33b10ffdd6cadabf3f69f9" title=" " alt="" coords="1011,5,1207,48"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="963,26,998,28,992,29,963,32"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="686,98,717,87,794,59,799,58,719,92,687,103"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="714,114,998,100,992,100,715,120"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_custom_port_i_o.html#adbd3b5edce41f93707e3cb8c8e952d82" title=" " alt="" coords="770,131,959,173"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="715,131,757,139,751,139,715,137"/>
+</map>

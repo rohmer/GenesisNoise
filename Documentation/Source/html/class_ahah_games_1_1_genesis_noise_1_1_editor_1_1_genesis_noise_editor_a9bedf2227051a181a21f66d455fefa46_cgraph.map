@@ -1,0 +1,11 @@
+<map id="AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnEnable" name="AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnEnable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,121,227,164"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor.html#afd11b2462ed96dfc76511d0d8a8a3885" title=" " alt="" coords="281,5,503,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,118,274,74,293,69,288,71,276,78,168,123"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_utilities.html#ac9e0a9d420adea94e5c9d35a15ce78d0" title=" " alt="" coords="283,88,500,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,127,270,123,265,125,228,132"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_small_icon_renderer.html#afac7affb5d43e37baf5ecac3b2bfd230" title="Marks a graph&#39;s asset path as belonging to a Genesis graph so the Project&#45;window icon overlay is draw..." alt="" coords="275,155,508,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="227,153,262,159,257,161,228,159"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor.html#a336143585b4923a65001df5a715a5c56" title=" " alt="" coords="275,221,509,280"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="167,162,276,207,293,216,288,215,274,212,167,167"/>
+</map>

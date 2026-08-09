@@ -1,0 +1,6 @@
+<map id="Unity.Mathematics.byte1.operator|" name="Unity.Mathematics.byte1.operator|">
+<area shape="rect" id="Node000001" title="Returns the result of a componentwise bitwise or operation on an int value and an byte1 vector." alt="" coords="5,29,226,56"/>
+<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1byte1.html#ac48cf384a38d8c5e04a5066420353a33" title=" " alt="" coords="274,29,476,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,40,261,43,256,43,226,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="331,28,324,21,329,11,346,5,375,3,406,5,424,15,419,14,405,10,375,8,347,10,332,15,329,20,336,30"/>
+</map>

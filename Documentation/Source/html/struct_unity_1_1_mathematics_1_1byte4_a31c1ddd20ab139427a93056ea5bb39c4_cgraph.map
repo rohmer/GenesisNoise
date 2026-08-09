@@ -1,0 +1,5 @@
+<map id="Unity.Mathematics.byte4.operator+" name="Unity.Mathematics.byte4.operator+">
+<area shape="rect" id="Node000001" title="Returns the result of a componentwise addition into an int4 vector." alt="" coords="5,5,231,32"/>
+<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1byte4.html#a0a63bb7be6b67f010e024c680e7950bf" title="Constructs a byte4 vector from four byte values." alt="" coords="279,5,481,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,16,265,19,260,19,231,21"/>
+</map>

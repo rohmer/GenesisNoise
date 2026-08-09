@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.HistogramUtility.AllocateHistogramData" name="AhahGames.GenesisNoise.HistogramUtility.AllocateHistogramData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="550,39,793,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_levels.html#a66fbc344dcd6cc50cee9530b2458a5c5" title="Called when the node is enabled." alt="" coords="277,5,502,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="532,44,503,43,503,37,537,44"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_curve_node_view.html#ac5b4b1c00ecc6c61c475cec6c1b82be2" title=" " alt="" coords="278,72,501,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="537,76,502,83,501,77,532,76"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_levels_node_view.html#a174f2eb2ee97fc31522fa91fa1167009" title=" " alt="" coords="5,5,229,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,27,229,29,229,24,264,26"/>
+</map>

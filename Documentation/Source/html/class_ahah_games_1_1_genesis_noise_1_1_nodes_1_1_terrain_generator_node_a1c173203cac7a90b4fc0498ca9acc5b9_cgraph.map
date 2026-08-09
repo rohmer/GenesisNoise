@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.SameLakeVertex" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.SameLakeVertex">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,257,56"/>
+<area shape="rect" id="Node000002" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key.html#ae8e90ec485e1180db4004417441acb51" title=" " alt="" coords="305,5,548,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="257,32,292,34,286,35,257,37"/>
+<area shape="rect" id="Node000003" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key.html#a0e254cf03801b848c623ca74936eddc5" title=" " alt="" coords="596,5,839,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="548,32,583,35,578,35,548,37"/>
+</map>

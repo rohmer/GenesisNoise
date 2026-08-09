@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Utility.TerrainHeightUtility.GetMaximum" name="AhahGames.GenesisNoise.Utility.TerrainHeightUtility.GetMaximum">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,226,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility.html#ab632b5a7f5a8166e1593084736e0a095" title=" " alt="" coords="286,5,506,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,44,273,41,268,42,227,49"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility.html#ad659a2d9f5fcbb7281701cb29fc1fe9c" title=" " alt="" coords="274,72,518,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,70,261,77,256,77,226,76"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility.html#aa1c358c5eb0e8aa2b08108fa63b5bfca" title=" " alt="" coords="566,72,786,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="519,91,553,93,548,93,519,96"/>
+</map>

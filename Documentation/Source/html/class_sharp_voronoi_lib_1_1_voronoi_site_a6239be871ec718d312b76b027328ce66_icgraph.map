@@ -1,0 +1,9 @@
+<map id="SharpVoronoiLib.VoronoiSite.InvalidateComputedValues" name="SharpVoronoiLib.VoronoiSite.InvalidateComputedValues">
+<area shape="rect" id="Node000001" title=" " alt="" coords="502,39,691,81"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a93658f9f0e8ba71891387687c0407ea1" title=" " alt="" coords="255,5,444,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,45,445,42,445,37,489,45"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_generic_site_merging_algorithm.html#a31d7a6f6014290675bdcf013649629dd" title=" " alt="" coords="246,72,454,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="489,75,455,82,454,77,484,75"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_generic_site_merging_algorithm.html#ad20938caae9644422c28f519ddbeb579" title=" " alt="" coords="5,72,198,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="227,94,198,96,198,91,233,93"/>
+</map>

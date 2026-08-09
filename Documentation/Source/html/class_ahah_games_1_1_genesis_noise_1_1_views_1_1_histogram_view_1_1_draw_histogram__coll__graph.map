@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Views.HistogramView.DrawHistogram" name="AhahGames.GenesisNoise.Views.HistogramView.DrawHistogram">
+<area shape="rect" id="Node000001" title=" " alt="" coords="95,104,318,147"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,168,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,40,185,103,180,104,111,45"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_histogram_data.html" title=" " alt="" coords="192,5,464,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="305,41,232,106,229,101,300,43"/>
+</map>

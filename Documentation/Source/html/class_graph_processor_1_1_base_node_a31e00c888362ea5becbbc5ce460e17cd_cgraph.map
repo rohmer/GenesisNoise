@@ -1,0 +1,22 @@
+<map id="GraphProcessor.BaseNode.Initialize" name="GraphProcessor.BaseNode.Initialize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,190,115"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_exception_to_log.html#af0c8833e07e966f55aedbc1316d9e38b" title=" " alt="" coords="241,5,418,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,69,240,51,236,55,175,74"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#a2244b6b0af83fb308794569b78da3042" title="Called when the node is enabled." alt="" coords="238,72,422,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="189,91,224,92,219,95,191,96"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html#a3b950520433376f53a3e9482ae28fb8f" title="Use this function to initialize anything related to ports generation in your node This will allow the..." alt="" coords="238,139,422,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,113,241,133,236,135,174,118"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node.html#a7a7f9b9e938983dd368f8775cd178fb6" title="Add a port." alt="" coords="486,13,671,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="401,136,420,125,435,110,444,96,452,81,468,66,475,65,480,62,472,70,457,84,448,98,439,114,424,129,404,140"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node.html#a7b5e855b332b1d787c081661961681ac" title=" " alt="" coords="738,205,922,248"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="422,158,549,165,688,183,753,200,747,200,687,188,548,171,423,164"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_node.html#a4ee54b374c1bdd7519cc6853e6b234a3" title=" " alt="" coords="470,80,687,123"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="422,136,473,126,468,128,423,141"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_base_node.html#a53d8083629ad9a0d37234529785b3ca4" title="Override the field order inside the node. It allows to re&#45;order all the ports and field in the UI." alt="" coords="486,197,671,240"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="423,179,474,193,469,194,422,184"/>
+<area shape="rect" id="Node000010" href="$class_graph_processor_1_1_base_node.html#ae7b59559c7e600b089f61ac6f5ade6ec" title="Update the ports related to one C# property field and all connected nodes in the graph." alt="" coords="486,264,671,307"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="360,179,411,215,471,250,486,258,481,258,469,254,408,220,358,184"/>
+<area shape="rect" id="Node000008" href="$namespace_graph_processor.html#a7b23772b36fa7206b25d8fc1069f693c" title=" " alt="" coords="735,80,925,123"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="688,99,722,101,717,102,688,104"/>
+<area shape="poly" id="edge10_Node000010_Node000006" title=" " alt="" coords="671,261,720,252,725,251,672,266"/>
+</map>

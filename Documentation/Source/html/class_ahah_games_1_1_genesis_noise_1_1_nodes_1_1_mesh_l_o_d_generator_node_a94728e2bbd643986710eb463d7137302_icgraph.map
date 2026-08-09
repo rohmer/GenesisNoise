@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CopyMeshForLOD" name="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CopyMeshForLOD">
+<area shape="rect" id="Node000001" title=" " alt="" coords="911,5,1193,48"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a5469519e6c9fbac3085e942e2734b2fd" title=" " alt="" coords="612,5,863,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="893,27,864,29,864,24,898,27"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a0666a8d824c46350c2e08ddc0a8a8020" title=" " alt="" coords="305,5,564,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="593,27,565,29,564,24,599,27"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a8cb0cf14ee52b7da6cc1a44ad8bd4292" title=" " alt="" coords="5,5,257,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="286,27,257,29,257,24,292,27"/>
+</map>

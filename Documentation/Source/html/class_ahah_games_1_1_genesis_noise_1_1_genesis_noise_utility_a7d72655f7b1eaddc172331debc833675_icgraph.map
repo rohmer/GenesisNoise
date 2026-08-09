@@ -1,0 +1,21 @@
+<map id="AhahGames.GenesisNoise.GenesisNoiseUtility.SetupComputeTextureDimension" name="AhahGames.GenesisNoise.GenesisNoiseUtility.SetupComputeTextureDimension">
+<area shape="rect" id="Node000001" title=" " alt="" coords="841,164,1073,223"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_histogram_utility.html#aa6378683c06f95592d8d3d5df3c990d2" title=" " alt="" coords="550,72,793,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="871,158,792,129,757,118,757,113,794,124,877,158"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_histogram_utility.html#a39ce8769e272c5e083b1329a51c68e45" title=" " alt="" coords="550,139,793,181"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="823,178,794,177,794,172,828,178"/>
+<area shape="rect" id="Node000009" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_distance.html#a4798c8725616fbcc82c5382a7b062147" title=" " alt="" coords="559,205,784,248"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="823,209,785,216,784,211,828,208"/>
+<area shape="rect" id="Node000010" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_to_u_d_f.html#a429cb4b8617bc09afbc9c395b6078940" title=" " alt="" coords="559,272,784,315"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="877,229,794,263,757,274,756,269,792,257,872,230"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_levels_node_view.html#a174f2eb2ee97fc31522fa91fa1167009" title=" " alt="" coords="278,5,501,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="561,68,483,51,483,46,566,67"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_curve_node_view.html#aa7b52bd9e3ad5748255a9b158d5169e3" title=" " alt="" coords="278,72,501,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="532,94,502,96,501,91,537,93"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_curve_node_view.html#aa18996c14dec2bda967712cfda01a2b9" title=" " alt="" coords="5,39,229,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="260,79,230,76,228,71,265,77"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_curve_node_view.html#ac5b4b1c00ecc6c61c475cec6c1b82be2" title=" " alt="" coords="5,105,229,148"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="260,110,230,115,228,110,265,108"/>
+<area shape="rect" id="Node000008" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_levels.html#a4d6910804254e44f21a235d26b5b3cab" title=" " alt="" coords="277,139,502,181"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="532,160,503,163,502,157,537,160"/>
+</map>

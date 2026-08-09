@@ -1,0 +1,9 @@
+<map id="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledCircle" name="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledCircle">
+<area shape="rect" id="Node000001" title="Draws a filled circle with the midpoint being x0, x1. Implementation of Bresenham&#39;s circle algorithm." alt="" coords="5,35,247,93"/>
+<area shape="rect" id="Node000002" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#aa5853256ef1bf7691925386cabd5ed9d" title=" " alt="" coords="295,43,508,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,61,281,64,276,64,248,67"/>
+<area shape="rect" id="Node000003" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#aca53d7925de96bcf4ffcebd0f26ab012" title=" " alt="" coords="556,5,792,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="508,47,543,45,538,45,509,52"/>
+<area shape="rect" id="Node000004" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#a18119d3f95238846bf4b922c2f964dc7" title=" " alt="" coords="558,72,791,131"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="508,76,545,83,539,83,508,81"/>
+</map>

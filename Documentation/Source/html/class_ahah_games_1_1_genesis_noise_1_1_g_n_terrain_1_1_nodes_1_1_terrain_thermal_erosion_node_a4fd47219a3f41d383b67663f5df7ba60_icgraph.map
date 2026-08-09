@@ -1,0 +1,5 @@
+<map id="AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ReleaseWorkingTextures" name="AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ReleaseWorkingTextures">
+<area shape="rect" id="Node000001" title=" " alt="" coords="326,5,602,64"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node.html#a633b54c6de86c70ca400174bde4fc4d2" title="Called when the node is disabled." alt="" coords="5,13,278,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="307,35,278,37,278,32,313,35"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.PlaceDecorationInstances" name="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.PlaceDecorationInstances">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,237,234,296"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a2c901e0258683dc749e446e55b3d3cde" title=" " alt="" coords="298,5,564,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,235,160,198,193,155,234,111,280,74,291,70,287,73,283,78,237,115,197,158,164,201,140,238"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a8508b285821a0a55afe745175562678d" title=" " alt="" coords="282,88,580,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,235,207,186,243,161,280,140,298,135,294,138,283,145,245,166,210,190,153,239"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a99237d857d9bfa1896b27321472f308a" title=" " alt="" coords="303,155,558,213"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="231,234,305,216,301,219,234,239"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a7c8f9ba9d5cffdaab70c363222ecb7a9" title=" " alt="" coords="303,237,559,296"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="233,264,290,265,285,268,235,269"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a9ba8e551b9aa87860022baa6daf14ed8" title=" " alt="" coords="628,424,868,483"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="136,294,160,334,192,380,234,422,257,440,283,455,323,470,364,481,450,492,535,490,611,484,616,484,536,496,450,497,363,487,321,475,281,460,254,445,230,426,188,383,156,337,135,299"/>
+<area shape="rect" id="Node000008" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a53cac2be98233d68eb241162375ec915" title=" " alt="" coords="315,320,547,379"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="233,294,306,315,301,316,233,299"/>
+<area shape="rect" id="Node000009" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#ab3541e76327eeb1f00ad3a5bc0ba04e1" title=" " alt="" coords="297,403,565,445"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="151,294,210,343,245,368,283,388,299,397,294,397,280,393,243,372,207,347,150,299"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#aa37d18cbb31fe75eebdd8ceae83d46b4" title=" " alt="" coords="628,208,868,251"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="556,62,581,74,623,101,661,133,722,196,717,196,658,137,620,105,579,78,556,67"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="544,129,581,140,644,168,701,200,696,200,641,172,579,145,544,134"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="546,317,579,306,689,259,694,257,581,310,547,322"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="554,399,579,388,621,360,660,327,720,264,724,261,664,330,625,365,581,393,556,405"/>
+<area shape="poly" id="edge12_Node000009_Node000007" title=" " alt="" coords="566,434,616,441,610,441,566,439"/>
+</map>

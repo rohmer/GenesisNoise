@@ -1,0 +1,9 @@
+<map id="Unity.Mathematics.mathx.pow" name="Unity.Mathematics.mathx.pow">
+<area shape="rect" id="Node000001" title="Returns the componentwise result of raising x to the power y." alt="" coords="5,7,204,34"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="498,7,676,34"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,8,252,6,351,3,450,6,485,10,480,10,450,11,351,8,252,11,205,14"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#ad5762fc5d28ebfa0953d292f8979adbd" title="Returns the componentwise result of raising x to the power y." alt="" coords="252,44,450,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,31,246,41,241,41,197,37"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="439,41,481,37,486,36,439,46"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="311,43,304,35,309,26,325,20,351,18,379,20,396,30,390,29,378,25,351,23,326,25,312,30,309,35,316,45"/>
+</map>

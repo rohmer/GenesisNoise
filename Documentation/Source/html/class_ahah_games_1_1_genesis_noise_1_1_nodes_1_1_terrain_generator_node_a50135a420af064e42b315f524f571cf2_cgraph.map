@@ -1,0 +1,15 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.BuildTerrainLayerMaskMap" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.BuildTerrainLayerMaskMap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,171,231,229"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a3571beecc91e1e9d4322c8bdcc35ed50" title=" " alt="" coords="302,5,548,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,168,205,120,241,95,277,74,293,69,288,72,280,78,243,100,209,124,152,172"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#acacb22bdd4a4285047ef77043a699beb" title=" " alt="" coords="296,88,554,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,168,302,150,297,153,231,172"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#aafa53d25f244d0daa40b701746f988b1" title=" " alt="" coords="296,171,555,229"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="230,197,283,199,278,201,232,203"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#ad3c672b5c6ea4f9323622c979803d289" title=" " alt="" coords="279,253,572,296"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="231,227,279,239,315,249,309,250,278,244,231,232"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a2ce75c0c044ba04aa577980fa305568b" title=" " alt="" coords="294,320,557,363"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="156,227,213,268,280,306,298,315,293,314,278,310,210,273,154,233"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#ab01c30c71b93e6958f6158b962c55eb9" title=" " alt="" coords="620,96,856,139"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="555,115,607,117,602,118,556,120"/>
+</map>

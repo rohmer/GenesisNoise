@@ -1,0 +1,13 @@
+var _mesh_optimization_node_8cs =
+[
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode", "class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node.html", "class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.TopologyStats", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats.html", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key.html", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge.html", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.CollapseEdgeCandidate", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_collapse_edge_candidate.html", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_collapse_edge_candidate" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.CollapseTriangle", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_collapse_triangle.html", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_collapse_triangle" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.CollapseVertex", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_collapse_vertex.html", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_collapse_vertex" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState", "class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state.html", "class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshBuildData", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_build_data.html", "struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_build_data" ],
+    [ "AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.Cluster", "class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_cluster.html", "class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_cluster" ]
+];

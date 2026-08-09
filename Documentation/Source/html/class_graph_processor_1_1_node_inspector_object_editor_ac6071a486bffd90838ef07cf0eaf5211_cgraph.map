@@ -1,0 +1,9 @@
+<map id="GraphProcessor.NodeInspectorObjectEditor.OnEnable" name="GraphProcessor.NodeInspectorObjectEditor.OnEnable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,210,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_inspector_object_editor.html#aac355a08c44a446982ba2d62b976c337" title=" " alt="" coords="258,5,503,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,24,245,27,239,27,210,29"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_node_inspector_object_editor.html#a8d1b3f8251d323b21a9a1174a2f82adb" title=" " alt="" coords="551,5,755,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="503,24,538,27,533,27,503,29"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node_view.html#a3adbd25d61c24a81e1d147788caed8f4" title=" " alt="" coords="803,5,1016,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="756,24,790,27,785,27,756,29"/>
+</map>

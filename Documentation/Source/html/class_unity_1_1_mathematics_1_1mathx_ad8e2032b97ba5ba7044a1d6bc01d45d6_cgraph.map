@@ -1,0 +1,6 @@
+<map id="Unity.Mathematics.mathx.lengthsq" name="Unity.Mathematics.mathx.lengthsq">
+<area shape="rect" id="Node000001" title="Returns the squared length of each vector in the matrix." alt="" coords="5,29,229,56"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#ab6c88dae4905a6424112314d819ce2b4" title="Returns a float3x4 matrix from a float3x3 rotation matrix and a f3 translation vector." alt="" coords="277,29,497,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,40,263,43,258,43,229,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="341,28,334,21,339,11,357,5,387,3,419,5,438,15,432,14,418,11,387,8,358,10,343,15,339,20,346,30"/>
+</map>

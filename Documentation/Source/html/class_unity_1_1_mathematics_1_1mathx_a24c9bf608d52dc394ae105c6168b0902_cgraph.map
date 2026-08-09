@@ -1,0 +1,8 @@
+<map id="Unity.Mathematics.mathx.less" name="Unity.Mathematics.mathx.less">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,204,81"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a955582b919784c1197f48ed7a9577199" title="Returns a byte2 vector constructed from a single byte value by assigning it to every component." alt="" coords="252,29,458,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,55,239,54,234,55,204,61"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="266,80,444,107"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="204,75,253,83,247,83,204,81"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="312,28,305,21,311,11,327,5,355,3,385,5,402,15,397,14,384,10,355,8,328,10,314,15,311,20,318,30"/>
+</map>

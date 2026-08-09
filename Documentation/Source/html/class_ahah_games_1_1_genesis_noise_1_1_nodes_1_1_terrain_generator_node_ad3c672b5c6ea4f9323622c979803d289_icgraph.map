@@ -1,0 +1,17 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.GetLargestTextureWidth" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.GetLargestTextureWidth">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2016,13,2309,56"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a50135a420af064e42b315f524f571cf2" title=" " alt="" coords="1742,5,1968,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1997,35,1968,37,1968,32,2003,35"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#ae44597eecb302ac2bc78afec391315f8" title=" " alt="" coords="1451,5,1694,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1724,35,1695,37,1695,32,1730,35"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#ae7a60ec354f7c98f2b3be28a66b34e51" title=" " alt="" coords="1124,13,1403,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1433,35,1404,37,1404,32,1438,35"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a73f70f96378da45697b50644cd80fd27" title=" " alt="" coords="850,5,1076,64"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1105,35,1076,37,1076,32,1111,35"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#aba4c6e7fe324be86d0df00433707e343" title=" " alt="" coords="577,5,802,64"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="832,35,803,37,803,32,838,35"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a67c99fa7f749d93fe7e145901b5bc0aa" title=" " alt="" coords="285,13,529,56"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="558,35,530,37,530,32,564,35"/>
+<area shape="rect" id="Node000008" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#af9fb7eb1b6da91f91d5f6c8ab20bd97e" title=" " alt="" coords="5,13,237,56"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="266,35,237,37,237,32,272,34"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="GraphProcessor.BaseGraph.GetExposedParameter" name="GraphProcessor.BaseGraph.GetExposedParameter">
+<area shape="rect" id="Node000001" title="Get the exposed parameter from name." alt="" coords="242,5,430,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph.html#ac672767cdb94050934dffe1325edf6fd" title="Set parameter value from name. (Warning: the parameter name can be changed by the user)." alt="" coords="5,5,194,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,27,194,29,194,24,229,26"/>
+</map>

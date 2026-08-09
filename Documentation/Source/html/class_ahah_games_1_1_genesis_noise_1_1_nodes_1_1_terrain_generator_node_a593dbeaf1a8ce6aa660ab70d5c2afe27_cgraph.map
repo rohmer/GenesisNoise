@@ -1,0 +1,8 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.CreateOceanMask" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.CreateOceanMask">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,267,72"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="76,28,74,19,84,10,105,5,136,3,170,5,192,14,187,14,169,10,136,8,105,10,87,15,79,21,82,30"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a25bdf8a12b064fbe1bdba497d9f68271" title=" " alt="" coords="315,29,596,72"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="267,48,302,51,296,51,267,53"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a176e5b70401f668e0b97f2ba7879a60d" title=" " alt="" coords="644,29,882,72"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="596,48,631,51,626,51,596,53"/>
+</map>

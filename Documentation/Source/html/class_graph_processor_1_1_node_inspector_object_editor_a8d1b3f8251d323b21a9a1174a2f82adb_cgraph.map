@@ -1,0 +1,5 @@
+<map id="GraphProcessor.NodeInspectorObjectEditor.CreateNodeBlock" name="GraphProcessor.NodeInspectorObjectEditor.CreateNodeBlock">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,210,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#a3adbd25d61c24a81e1d147788caed8f4" title=" " alt="" coords="258,5,470,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,24,245,27,239,27,210,29"/>
+</map>

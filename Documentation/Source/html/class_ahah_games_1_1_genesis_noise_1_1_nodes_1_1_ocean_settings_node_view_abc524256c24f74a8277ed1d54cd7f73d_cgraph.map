@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.CreateColorField" name="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.CreateColorField">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,274,56"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a10065b5bc5424cb4610370b474fc589f" title=" " alt="" coords="322,5,573,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="274,32,308,35,303,35,274,37"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#ac8c5ced56f74d24bb1f9b535945a5279" title="Send an event to the graph telling that the content of this node have changed." alt="" coords="621,13,833,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="573,32,608,35,602,35,574,37"/>
+</map>

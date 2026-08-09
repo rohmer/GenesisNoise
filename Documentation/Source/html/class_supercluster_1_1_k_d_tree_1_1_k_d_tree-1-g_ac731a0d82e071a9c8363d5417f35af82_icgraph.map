@@ -1,0 +1,8 @@
+<map id="Supercluster.KDTree.KDTree&#45;1&#45;g.CalculateDistance" name="Supercluster.KDTree.KDTree&#45;1&#45;g.CalculateDistance">
+<area shape="rect" id="Node000001" title=" " alt="" coords="506,29,698,72"/>
+<area shape="rect" id="Node000002" href="$class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g.html#a87c3273f00b308439c0474c04cda823f" title="A top&#45;down recursive method to find the nearest neighbors of a given point." alt="" coords="246,29,458,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="487,51,458,53,458,48,493,51"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="391,13,377,10,352,8,328,10,314,15,308,21,309,30,305,27,303,19,311,10,327,5,352,3,379,5,396,14"/>
+<area shape="rect" id="Node000003" href="$class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g.html#a585e8c3820f6fdebfc4186e35641a373" title="Finds the nearest neighbors in the KDTree&lt;TNode&gt; of the given point ." alt="" coords="5,29,198,72"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,51,198,53,198,48,233,50"/>
+</map>

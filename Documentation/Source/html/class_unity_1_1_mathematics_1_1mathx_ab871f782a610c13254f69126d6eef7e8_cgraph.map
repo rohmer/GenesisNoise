@@ -1,0 +1,8 @@
+<map id="Unity.Mathematics.mathx.anygreater" name="Unity.Mathematics.mathx.anygreater">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,241,81"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a955582b919784c1197f48ed7a9577199" title="Returns a byte2 vector constructed from a single byte value by assigning it to every component." alt="" coords="289,29,495,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,54,276,53,270,54,241,60"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="303,80,481,107"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="241,76,290,83,285,84,241,82"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="347,28,339,21,344,11,362,5,392,3,424,5,443,15,437,14,423,11,392,8,363,10,348,15,344,20,352,30"/>
+</map>

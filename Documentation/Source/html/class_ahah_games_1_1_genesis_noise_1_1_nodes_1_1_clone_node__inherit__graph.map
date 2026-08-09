@@ -1,0 +1,18 @@
+<map id="AhahGames.GenesisNoise.Nodes.CloneNode" name="AhahGames.GenesisNoise.Nodes.CloneNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1240,105,1465,148"/>
+<area shape="rect" id="Node000002" href="$class_fixed_noise_node.html" title=" " alt="" coords="1074,113,1192,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1208,124,1242,127,1237,127,1208,129"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node.html" title=" " alt="" coords="800,105,1026,148"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1041,124,1076,127,1070,127,1041,129"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node.html" title=" " alt="" coords="527,105,752,148"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="768,124,802,127,797,127,768,129"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html" title=" " alt="" coords="244,5,469,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="457,50,480,57,593,105,588,105,478,63,457,56"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node.html" title=" " alt="" coords="5,13,186,40"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="201,24,245,26,241,28,202,29"/>
+<area shape="rect" id="Node000007" href="$interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_use_custom_render_texture_processing.html" title="Interface for nodes that can conditionally execute based on a boolean value." alt="" coords="234,72,479,115"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="495,107,529,113,524,113,495,112"/>
+<area shape="rect" id="Node000008" href="$interface_graph_processor_1_1_i_create_node_from-1-g.html" title="Implement this interface on a BaseNode, it allows you to automatically spawn a node if an asset of ty..." alt="" coords="260,139,453,181"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="468,153,525,149,530,148,468,158"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="468,135,524,131,529,131,469,141"/>
+</map>

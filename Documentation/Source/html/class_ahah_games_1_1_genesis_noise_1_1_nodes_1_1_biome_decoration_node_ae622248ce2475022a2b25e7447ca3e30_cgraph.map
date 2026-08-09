@@ -1,0 +1,11 @@
+<map id="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.SyncDecoration" name="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.SyncDecoration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,255,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a00674dd6633b80f548142f78270a9c62" title=" " alt="" coords="303,31,552,89"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,57,290,60,284,60,255,63"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#acc62ac7f944e29ed82300959bfa56fb2" title="Get the port from field name and identifier." alt="" coords="638,5,822,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="552,44,625,38,620,39,553,49"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#ad4617af5e21cdf2742a4aaf21329fc44" title=" " alt="" coords="600,72,860,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="553,71,587,77,582,77,552,76"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a7b2e14b93b00ab2450103dcf3f6a7429" title=" " alt="" coords="908,72,1151,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="861,91,895,93,890,93,861,96"/>
+</map>

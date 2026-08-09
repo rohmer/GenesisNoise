@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.NodeSnapshotUtility.CloneNodeForSnapshot" name="AhahGames.GenesisNoise.NodeSnapshotUtility.CloneNodeForSnapshot">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,258,81"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_json_serializer.html#a8f300539d831f710a5ddbfa423f20cd4" title=" " alt="" coords="306,5,511,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,42,292,40,287,41,259,47"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_json_serializer.html#a90f48add51973586a750368f79c21f14" title=" " alt="" coords="306,72,511,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,73,293,79,287,79,258,78"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_json_serializer.html#a7441bd0676c2e32a8f5a4d73487adb88" title=" " alt="" coords="559,72,764,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="512,91,546,93,540,93,512,96"/>
+</map>

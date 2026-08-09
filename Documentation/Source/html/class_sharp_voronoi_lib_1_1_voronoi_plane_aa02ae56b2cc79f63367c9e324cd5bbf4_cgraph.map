@@ -1,0 +1,13 @@
+<map id="SharpVoronoiLib.VoronoiPlane.TessellateRandomSitesOnce" name="SharpVoronoiLib.VoronoiPlane.TessellateRandomSitesOnce">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,205,148"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#ad0122e1c6c010a0b2f29c70b4cf437d5" title="The generated sites are guaranteed not to lie on the border of the plane (although they may be very c..." alt="" coords="253,39,452,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,102,258,85,253,87,188,107"/>
+<area shape="rect" id="Node000005" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#a70b475077efe7bd3e89b30e522cde7ec" title=" " alt="" coords="253,105,452,148"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="205,124,240,126,235,127,206,129"/>
+<area shape="rect" id="Node000006" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#ae5e91af6c435ee026e7f9e5bdeabeb2f" title=" " alt="" coords="253,172,452,215"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="187,146,258,167,253,168,187,151"/>
+<area shape="rect" id="Node000003" href="$interface_sharp_voronoi_lib_1_1_i_point_generation_algorithm.html#a885c301b42074d404abc89f808d3f2df" title=" " alt="" coords="500,5,716,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="452,44,487,42,482,43,453,50"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#a1d535a3b574fb86a635a5b8beee5195e" title=" " alt="" coords="508,72,708,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="452,70,496,78,490,79,453,76"/>
+</map>

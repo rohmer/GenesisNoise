@@ -1,0 +1,7 @@
+<map id="Unity.Mathematics.mathx.smin_polynomial" name="Unity.Mathematics.mathx.smin_polynomial">
+<area shape="rect" id="Node000001" title="polynomial smooth min 1 (t=0.1)" alt="" coords="5,5,208,48"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a58cf6cdae17ff3cc9bd77f55e7f875bb" title="Returns the result of clamping f to [0, 1]." alt="" coords="256,13,448,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,24,243,27,237,27,208,29"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="496,13,674,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,24,483,27,478,27,449,29"/>
+</map>

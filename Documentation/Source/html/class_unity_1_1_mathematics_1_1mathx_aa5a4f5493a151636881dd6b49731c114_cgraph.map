@@ -1,0 +1,5 @@
+<map id="Unity.Mathematics.mathx.diag" name="Unity.Mathematics.mathx.diag">
+<area shape="rect" id="Node000001" title="Creates a 4x4 matrix with the scale vector as the diagonal elements. The remaining spots zeros." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#af9ba63f20ba010eba85fe0092fcf76b4" title="Returns the scale vector from the matrix." alt="" coords="252,5,457,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,16,239,19,234,19,204,21"/>
+</map>

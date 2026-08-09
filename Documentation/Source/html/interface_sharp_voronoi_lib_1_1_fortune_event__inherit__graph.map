@@ -1,0 +1,9 @@
+<map id="SharpVoronoiLib.FortuneEvent" name="SharpVoronoiLib.FortuneEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="113,80,311,107"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_fortune_circle_event.html" title=" " alt="" coords="5,155,203,197"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,115,133,156,130,152,180,117"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_fortune_site_event.html" title=" " alt="" coords="227,155,413,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,114,295,154,290,154,240,119"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="113,5,311,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,46,214,81,210,79,211,50"/>
+</map>

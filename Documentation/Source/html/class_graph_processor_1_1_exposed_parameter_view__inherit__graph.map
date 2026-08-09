@@ -1,0 +1,9 @@
+<map id="GraphProcessor.ExposedParameterView" name="GraphProcessor.ExposedParameterView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,265,181"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_parameter_view.html" title=" " alt="" coords="24,229,246,272"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="137,195,137,230,133,228,133,199"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_pinned_element_view.html" title=" " alt="" coords="17,80,253,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,120,138,155,132,153,134,125"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="83,5,187,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="136,45,138,80,132,79,134,50"/>
+</map>

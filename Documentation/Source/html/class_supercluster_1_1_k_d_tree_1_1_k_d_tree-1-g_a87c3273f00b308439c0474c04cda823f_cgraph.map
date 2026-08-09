@@ -1,0 +1,12 @@
+<map id="Supercluster.KDTree.KDTree&#45;1&#45;g.SearchForNearestNeighbors" name="Supercluster.KDTree.KDTree&#45;1&#45;g.SearchForNearestNeighbors">
+<area shape="rect" id="Node000001" title="A top&#45;down recursive method to find the nearest neighbors of a given point." alt="" coords="5,105,218,148"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="64,105,62,95,70,86,86,81,112,79,138,81,156,89,151,91,137,86,111,84,87,86,73,91,67,97,69,105"/>
+<area shape="rect" id="Node000002" href="$class_supercluster_1_1_k_d_tree_1_1_bounded_priority_list-1-g.html#aa2e5660b27676c654e7075abae02ccd4" title="Attempts to add the provided item . If the list is currently at maximum capacity and the elements pri..." alt="" coords="266,5,464,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,102,265,58,285,52,280,55,267,62,161,107"/>
+<area shape="rect" id="Node000003" href="$class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g.html#ac731a0d82e071a9c8363d5417f35af82" title=" " alt="" coords="269,72,461,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,110,255,107,251,109,219,115"/>
+<area shape="rect" id="Node000004" href="$struct_supercluster_1_1_k_d_tree_1_1_hyper_rect.html#ae68e39e63ea09e5179124ab22d084b36" title="Clones the HyperRect&lt;T&gt;." alt="" coords="274,139,456,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="218,138,261,145,256,147,218,143"/>
+<area shape="rect" id="Node000005" href="$struct_supercluster_1_1_k_d_tree_1_1_hyper_rect.html#afb5b009cb8d9419df1009bf4294bae54" title="Gets the point on the rectangle that is closest to the given point. If the point is within the rectan..." alt="" coords="274,205,456,248"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="161,146,267,191,285,200,280,200,265,196,160,151"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="SharpVoronoiLib.VoronoiSite.SortCellEdgesClockwise" name="SharpVoronoiLib.VoronoiSite.SortCellEdgesClockwise">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,195,181"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a22ebf1c8c878ef578e882ff28f209086" title=" " alt="" coords="243,5,432,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,136,178,97,241,58,256,53,252,56,244,62,181,101,129,140"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a4b20f94f37e3c586806d677df0b899c6" title=" " alt="" coords="243,72,432,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="177,136,247,118,242,121,179,141"/>
+<area shape="rect" id="Node000006" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a2961447985c17c5e005f9d5d88d6fa86" title=" " alt="" coords="243,139,432,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="194,157,229,159,225,161,196,163"/>
+<area shape="rect" id="Node000007" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a078bff7c923a48a5cebb9055200540e0" title=" " alt="" coords="243,205,432,248"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="178,179,247,200,242,202,178,184"/>
+<area shape="rect" id="Node000008" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a58158ec53df11ce4003648f27dcbf17d" title=" " alt="" coords="243,272,432,315"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="128,179,181,219,244,258,256,266,251,265,241,262,178,223,127,184"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a7ada503d662575ce2a812c2af41b028b" title=" " alt="" coords="480,5,669,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="432,24,467,26,462,27,433,29"/>
+<area shape="rect" id="Node000005" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a74e446acb93a64b434dd3b3ed17c4575" title=" " alt="" coords="480,172,669,215"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="403,113,433,124,519,165,514,165,431,129,403,118"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="402,269,431,258,514,222,519,221,433,262,403,274"/>
+</map>

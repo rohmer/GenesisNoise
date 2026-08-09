@@ -1,0 +1,17 @@
+<map id="AhahGames.GenesisNoise.Nodes.GenesisNode.UpdateSettings" name="AhahGames.GenesisNoise.Nodes.GenesisNode.UpdateSettings">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,231,115"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a6ebbe51d191e0898ebd6519bdb7e4216" title="Get all the nodes connected to the input ports of this node." alt="" coords="301,5,485,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,69,290,51,285,53,210,74"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#a51cf262aa06ff1a09d9dbab77619ca15" title="Get all the nodes connected to the output ports of this node." alt="" coords="301,72,485,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,91,288,93,283,94,232,96"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html#a4bd3f9198cfc97769d63a962a8126c82" title=" " alt="" coords="279,139,507,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,113,290,134,285,135,209,118"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node.html#a8f81412bbb2f0739a30067c3a58c2f36" title=" " alt="" coords="555,139,739,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="507,157,542,160,537,160,508,163"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node.html#a1cc5c66f2c4d1bdf2390b6eb81907188" title=" " alt="" coords="787,139,972,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="740,157,774,160,769,160,740,163"/>
+<area shape="rect" id="Node000007" href="$namespace_graph_processor.html#a6070c2d231a41654c17fb1f6c57839c2" title=" " alt="" coords="1020,105,1209,148"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="972,144,1001,143,1007,142,972,150"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_node.html#ab813e29af0abfb435e185157079266c2" title=" " alt="" coords="1022,172,1206,215"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="972,170,1009,178,1004,178,972,176"/>
+</map>

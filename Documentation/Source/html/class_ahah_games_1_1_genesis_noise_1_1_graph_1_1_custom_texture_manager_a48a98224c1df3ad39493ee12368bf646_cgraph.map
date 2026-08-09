@@ -1,0 +1,8 @@
+<map id="AhahGames.GenesisNoise.Graph.CustomTextureManager.UpdateDependencies" name="AhahGames.GenesisNoise.Graph.CustomTextureManager.UpdateDependencies">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,295,93"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager.html#a83cc53278a582833ca40bacf4e836ca3" title=" " alt="" coords="377,5,600,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="295,50,365,43,359,44,296,55"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager.html#a774d3c82e17a284fa524b9d5659db46b" title=" " alt="" coords="343,96,634,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="295,89,330,96,325,96,295,94"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="426,94,423,86,433,77,455,71,488,69,524,72,548,81,542,80,524,77,488,75,456,77,436,82,428,87,430,97"/>
+</map>

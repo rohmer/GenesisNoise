@@ -1,0 +1,7 @@
+<map id="Unity.Mathematics.mathx.xyzw" name="Unity.Mathematics.mathx.xyzw">
+<area shape="rect" id="Node000001" title="Returns the xyzw components of the quaternion as a f4." alt="" coords="260,31,465,57"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a45fe38cd3344d60108d34d07027904f0" title="Returns a byte4 vector constructed from a byte4 vector." alt="" coords="5,5,212,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,33,212,32,212,26,247,32"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a060ee9449164e9985172a827f2988f43" title="Returns a color vector constructed from a color vector." alt="" coords="7,56,210,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,56,210,62,210,57,247,55"/>
+</map>

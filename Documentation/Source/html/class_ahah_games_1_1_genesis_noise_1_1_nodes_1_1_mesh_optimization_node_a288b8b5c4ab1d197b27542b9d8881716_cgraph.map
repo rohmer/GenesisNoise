@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.GetTriangleCounts" name="AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.GetTriangleCounts">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,234,131"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node.html#a195ae552c2030f0079e1bddbf7f2b333" title=" " alt="" coords="282,5,563,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,69,281,57,316,51,311,53,282,63,235,74"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node.html#a0cc0e09691496c6a03263f9dc80e0d92" title=" " alt="" coords="296,72,548,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,99,283,101,278,102,235,104"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node.html#a10702a3b423dc1ebe22a3895b3f19269" title=" " alt="" coords="296,155,548,213"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="230,129,300,150,295,150,229,134"/>
+</map>

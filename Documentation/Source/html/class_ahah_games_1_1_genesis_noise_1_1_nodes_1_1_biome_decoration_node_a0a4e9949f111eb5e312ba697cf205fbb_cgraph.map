@@ -1,0 +1,15 @@
+<map id="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.OnPrefabEdgeConnected" name="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.OnPrefabEdgeConnected">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,247,93"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#ae21da1e5a36df5cb38f50d8f1b86a292" title=" " alt="" coords="295,5,559,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,46,282,44,276,46,248,52"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#af45b1cd3b867b103ee046740350041df" title=" " alt="" coords="302,72,552,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,76,290,84,284,84,247,82"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a00674dd6633b80f548142f78270a9c62" title=" " alt="" coords="607,72,856,131"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="552,99,594,101,589,101,552,104"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node.html#acc62ac7f944e29ed82300959bfa56fb2" title="Get the port from field name and identifier." alt="" coords="942,47,1127,89"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="857,85,924,80,930,80,857,90"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#ad4617af5e21cdf2742a4aaf21329fc44" title=" " alt="" coords="904,113,1165,156"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="857,112,891,119,886,119,857,118"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a7b2e14b93b00ab2450103dcf3f6a7429" title=" " alt="" coords="1213,113,1455,156"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1165,132,1199,135,1194,135,1165,137"/>
+</map>

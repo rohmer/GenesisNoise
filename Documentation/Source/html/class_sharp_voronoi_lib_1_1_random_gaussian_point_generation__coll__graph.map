@@ -1,0 +1,7 @@
+<map id="SharpVoronoiLib.RandomGaussianPointGeneration" name="SharpVoronoiLib.RandomGaussianPointGeneration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,187,229,229"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_random_point_generation.html" title=" " alt="" coords="18,96,216,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,152,119,187,115,185,115,156"/>
+<area shape="rect" id="Node000003" href="$interface_sharp_voronoi_lib_1_1_i_point_generation_algorithm.html" title=" " alt="" coords="9,5,225,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,61,120,96,114,95,116,66"/>
+</map>

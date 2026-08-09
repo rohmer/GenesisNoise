@@ -1,0 +1,12 @@
+<map id="AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.RemapProperty" name="AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.RemapProperty">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1159,29,1399,88"/>
+<area shape="poly" id="edge5_Node000001_Node000001" title=" " alt="" coords="1324,15,1308,11,1279,8,1253,10,1237,15,1229,21,1227,31,1224,27,1224,19,1234,10,1253,5,1279,3,1309,5,1329,15"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#a9db43b2d5412ab33a42af00b9e6df9f2" title=" " alt="" coords="870,29,1111,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1140,59,1111,61,1111,56,1145,59"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#ad07094bcf635da7afcfbb583db00ea9f" title=" " alt="" coords="582,29,822,88"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="852,59,823,61,823,56,857,59"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#a7f1becf8645179d085e586a893038a4e" title=" " alt="" coords="294,29,534,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="563,59,535,61,535,56,569,59"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#ab4803b7a54f53f625e44f1f891348130" title=" " alt="" coords="5,29,246,88"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="275,59,246,61,246,56,280,58"/>
+</map>

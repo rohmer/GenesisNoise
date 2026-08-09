@@ -1,0 +1,11 @@
+<map id="AhahGames.GenesisNoise.Nodes.DistanceHeightNode.DestroyPreview" name="AhahGames.GenesisNoise.Nodes.DistanceHeightNode.DestroyPreview">
+<area shape="rect" id="Node000001" title=" " alt="" coords="877,39,1117,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_distance_height_node.html#abd6ea9afcb6b879b430ddc51e91fe102" title="Called when the node is disabled." alt="" coords="596,5,821,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="859,44,821,42,821,37,864,44"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_distance_height_node.html#acc4de4a75e785002c8fbfb41a4e3030f" title=" " alt="" coords="587,72,829,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="864,75,830,82,830,77,859,76"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_distance_height_node.html#af668bc6285ba051526e80c54804d34b8" title=" " alt="" coords="279,72,539,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="569,93,539,96,539,91,574,93"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_distance_height_node.html#afef67b270706ae94295f4d62136b2816" title=" " alt="" coords="5,72,231,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="260,93,231,96,231,91,266,93"/>
+</map>

@@ -1,0 +1,29 @@
+<map id="RelayNodeView" name="RelayNodeView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1228,249,1344,276"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html" title=" " alt="" coords="922,249,1132,276"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1147,260,1230,263,1225,263,1147,265"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="599,249,681,276"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="696,260,924,262,919,263,696,265"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html" title=" " alt="" coords="550,135,730,161"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="677,167,725,192,779,215,851,235,925,251,919,250,850,240,777,220,723,197,676,172"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_node_port_container.html" title="Container of ports and the edges connected to these ports." alt="" coords="912,100,1142,127"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="745,136,914,123,909,124,746,141"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_node_input_port_container.html" title=" " alt="" coords="1196,53,1376,96"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1179,70,1094,71,992,74,884,83,778,100,721,117,672,137,670,132,719,112,777,95,884,77,992,68,1094,66,1184,69"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1135,94,1199,88,1193,88,1136,100"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_node_output_port_container.html" title=" " alt="" coords="1191,131,1381,173"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="1136,127,1194,138,1188,138,1136,132"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="579,5,701,32"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="713,34,972,99,967,100,713,39"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="1173,161,1142,165,1027,168,912,165,731,157,731,151,912,160,1027,162,1142,160,1178,161"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_base_graph.html" title=" " alt="" coords="254,135,438,161"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="454,145,552,147,547,149,454,151"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="46,109,164,136"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="179,128,256,137,251,140,180,133"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="5,160,205,187"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="219,159,256,157,251,159,221,164"/>
+<area shape="rect" id="Node000012" href="$class_graph_processor_1_1_node_settings_view.html" title=" " alt="" coords="526,300,754,327"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="769,303,887,289,965,277,970,276,888,295,769,308"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="294,300,399,327"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="414,311,529,313,523,313,414,316"/>
+</map>

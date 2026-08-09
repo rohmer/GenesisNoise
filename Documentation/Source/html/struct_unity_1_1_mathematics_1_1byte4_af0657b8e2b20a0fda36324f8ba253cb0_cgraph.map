@@ -1,0 +1,5 @@
+<map id="Unity.Mathematics.byte4.operator float4" name="Unity.Mathematics.byte4.operator float4">
+<area shape="rect" id="Node000001" title="Explicitly converts a byte4 vector to a float4 vector by componentwise conversion." alt="" coords="5,5,223,48"/>
+<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1byte4.html#a0a63bb7be6b67f010e024c680e7950bf" title="Constructs a byte4 vector from four byte values." alt="" coords="271,13,473,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,24,258,27,253,27,223,29"/>
+</map>

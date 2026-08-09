@@ -1,0 +1,9 @@
+<map id="Unity.Mathematics.mathx.toColorList" name="Unity.Mathematics.mathx.toColorList">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,191,48"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="482,13,660,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,15,239,12,336,9,434,12,469,16,464,17,434,17,336,15,239,17,191,20"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#aa252275f226f626e09a5ae7b1bf72329" title="Returns a list containing individual components of this vector." alt="" coords="239,51,434,77"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,39,234,47,229,48,191,44"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="424,47,465,43,471,43,424,53"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="297,49,290,42,295,32,310,26,336,24,365,27,381,36,376,35,363,32,336,29,312,31,298,36,295,41,302,51"/>
+</map>

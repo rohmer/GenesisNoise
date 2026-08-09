@@ -1,0 +1,12 @@
+<map id="AhahGames.GenesisNoise.Nodes.EnumSwitchNode.TryGetConnectedEnumParameter" name="AhahGames.GenesisNoise.Nodes.EnumSwitchNode.TryGetConnectedEnumParameter">
+<area shape="rect" id="Node000001" title=" " alt="" coords="902,27,1170,85"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a9fd253a45112f8db19dd112fb151259b" title=" " alt="" coords="563,27,854,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="884,56,855,59,855,53,889,56"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a37b149cc134fb1a75ffe1195bac99ef3" title="Called when the node is enabled." alt="" coords="5,5,231,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="546,50,231,35,231,30,548,46"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a8971989896a82cd277317f60fad957b4" title=" " alt="" coords="279,64,515,107"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="550,71,516,77,515,72,545,71"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="275,61,223,51,223,46,280,60"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#add974aab4b89846a33de0eb2fe26f341" title="Called when the node is disabled." alt="" coords="5,72,231,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="261,89,231,93,231,87,266,89"/>
+</map>

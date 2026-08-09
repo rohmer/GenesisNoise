@@ -1,0 +1,5 @@
+<map id="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledRectangle" name="ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledRectangle">
+<area shape="rect" id="Node000001" title="Fills the given rectangle area with a solid color." alt="" coords="5,5,247,64"/>
+<area shape="rect" id="Node000002" href="$class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions.html#ad9ef7e500b443383fba34e4da683cc67" title="Transforms a point in the texture plane so that 0,0 points at left&#45;top corner." alt="" coords="295,5,533,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,32,282,34,276,35,247,37"/>
+</map>

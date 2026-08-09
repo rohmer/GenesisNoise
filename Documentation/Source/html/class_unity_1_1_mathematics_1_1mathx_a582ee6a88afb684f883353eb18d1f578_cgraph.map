@@ -1,0 +1,14 @@
+<map id="Unity.Mathematics.mathx.pModGrid2" name="Unity.Mathematics.mathx.pModGrid2">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,49,187,92"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="482,83,660,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,46,186,30,234,17,290,8,335,3,379,6,435,17,464,28,493,41,542,73,537,73,491,46,462,33,433,23,379,11,335,8,291,13,235,23,188,35,145,51"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a0d6e0b81fbc2c52f3cbc26f299c9e8bb" title=" " alt="" coords="242,32,427,59"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,58,228,56,224,58,188,64"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#a4401a388cb71bc5ddd177a386d337fec" title=" " alt="" coords="235,83,434,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="187,78,222,83,216,84,187,83"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#ae24dad21d083b8c1b3952ebd982baedc" title=" " alt="" coords="235,157,434,184"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="150,90,289,149,284,152,148,95"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="434,93,469,96,464,96,435,99"/>
+<area shape="poly" id="edge6_Node000005_Node000002" title=" " alt="" coords="379,154,509,115,514,114,380,159"/>
+<area shape="poly" id="edge7_Node000005_Node000005" title=" " alt="" coords="294,156,287,149,292,139,308,133,334,131,363,133,379,143,374,142,362,138,334,136,309,138,296,143,293,148,299,158"/>
+</map>

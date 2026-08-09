@@ -1,0 +1,13 @@
+<map id="AhahGames.GenesisNoise.Views.MultiplyNodeWiew.Enable" name="AhahGames.GenesisNoise.Views.MultiplyNodeWiew.Enable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,171,229,213"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_multiply_node_wiew.html#a453a591e27481db12538c929d32fca6e" title=" " alt="" coords="277,5,519,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,168,200,121,275,74,289,69,285,72,278,78,204,126,145,172"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_multiply_node_wiew.html#ab6f3a40a82c590d5c82e1e16aed84bd7" title=" " alt="" coords="277,88,519,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,168,273,150,268,153,201,172"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node_view.html#ac8c5ced56f74d24bb1f9b535945a5279" title="Send an event to the graph telling that the content of this node have changed." alt="" coords="292,171,504,213"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,189,279,191,274,193,230,195"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_multiply_node_wiew.html#acebbd0754d27c7b4e65597a9f3334212" title=" " alt="" coords="286,237,510,280"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="210,211,293,232,288,234,210,217"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_multiply_node_wiew.html#a390e89213f9e4005284ff81c7d2fe70e" title=" " alt="" coords="286,304,510,347"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="148,211,207,251,278,290,295,299,290,298,276,294,204,256,147,217"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="SharpVoronoiLib.GenericClipping.ClipRay" name="SharpVoronoiLib.GenericClipping.ClipRay">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,221,81"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_generic_clipping.html#ad918ae230ad45ee8cc742f3bd5b09e1f" title=" " alt="" coords="269,5,484,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,44,256,42,251,43,222,49"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a9f196af50b43f90975579b5093af7c76" title=" " alt="" coords="282,72,471,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,71,269,79,264,80,221,76"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#ac48dc4dc92798d6e5d784c10d1680713" title=" " alt="" coords="532,72,721,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="472,91,519,93,513,93,472,96"/>
+</map>

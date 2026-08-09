@@ -1,0 +1,15 @@
+<map id="Unity.Mathematics.mathx.sat" name="Unity.Mathematics.mathx.sat">
+<area shape="rect" id="Node000001" title="Returns the result of clamping f to [0, 1]." alt="" coords="266,176,458,203"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a6b3290068245a0f8a22d2a89b3a625b0" title=" " alt="" coords="22,5,201,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="336,165,285,114,252,86,216,62,194,51,193,46,219,58,255,82,289,110,342,164"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a4d37a8b1835cbd3561d40eff9f943d94" title=" " alt="" coords="17,72,206,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,170,217,129,186,118,185,113,219,124,320,168"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#a8b825fee04dd1538c6802d9bf219de11" title=" " alt="" coords="17,139,206,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,177,207,174,206,168,252,175"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#a745cfae3bbb61dc617caebbae9ec2a94" title="Smooth max is a smooth version of math.max() that accepts a smoothness parameter t." alt="" coords="8,205,215,232"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="248,203,216,209,214,204,252,201"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a89668b5dafe2f1d0aaded38c2d572128" title="polynomial smooth min 1 (t=0.1)" alt="" coords="10,256,213,299"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="310,210,219,247,185,258,183,253,217,241,314,208"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#afda9131c19b1e69fa778a78ea70cf683" title=" " alt="" coords="5,323,218,349"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="341,213,288,266,255,291,219,313,190,325,188,320,216,308,252,287,285,261,336,215"/>
+</map>

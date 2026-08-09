@@ -1,0 +1,6 @@
+<map id="AhahGames.GenesisNoise.Nodes.RGBASplitNode.PullConnectedTexture" name="AhahGames.GenesisNoise.Nodes.RGBASplitNode.PullConnectedTexture">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,254,72"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_r_g_b_a_split_node.html#ac0739dd112356e17a817f728064e8e71" title=" " alt="" coords="302,29,576,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,48,289,51,284,51,254,53"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="381,27,379,19,388,10,408,5,439,3,472,5,493,14,488,14,471,10,439,8,409,10,391,15,384,21,386,30"/>
+</map>

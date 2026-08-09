@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Views.MeshOptimizationNodeView.QueueRefreshTriangleCounts" name="AhahGames.GenesisNoise.Views.MeshOptimizationNodeView.QueueRefreshTriangleCounts">
+<area shape="rect" id="Node000001" title=" " alt="" coords="287,31,560,89"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_optimization_node_view.html#a85b95e1d3ea31e2f1acb662982f95da1" title=" " alt="" coords="5,5,239,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,44,239,42,239,37,274,43"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_optimization_node_view.html#a5768ddf1234006bbeb0f7147a31c2277" title=" " alt="" coords="7,72,237,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,77,237,83,237,78,274,76"/>
+</map>

@@ -1,0 +1,44 @@
+<map id="AhahGames.GenesisNoise.Nodes.ShaderNode" name="AhahGames.GenesisNoise.Nodes.ShaderNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1272,96,1497,139"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html" title=" " alt="" coords="896,296,1121,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1061,285,1271,171,1336,140,1341,138,1273,176,1063,290"/>
+<area shape="poly" id="edge23_Node000002_Node000002" title=" " alt="" coords="976,278,988,272,1008,269,1028,271,1040,277,1047,286,1044,297,1041,294,1041,287,1037,281,1026,277,1008,275,989,277,977,283"/>
+<area shape="rect" id="Node000011" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings.html" title=" " alt="" coords="1274,300,1496,343"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="1110,340,1155,347,1201,350,1248,347,1287,344,1292,343,1248,352,1201,355,1155,352,1110,345"/>
+<area shape="rect" id="Node000014" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_output_node.html" title=" " alt="" coords="1272,185,1497,228"/>
+<area shape="poly" id="edge18_Node000014_Node000002" title=" " alt="" coords="1098,288,1307,229,1312,228,1099,294"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html" title=" " alt="" coords="547,388,728,415"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="714,381,908,340,913,339,715,387"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_node_port_container.html" title="Container of ports and the edges connected to these ports." alt="" coords="893,449,1124,476"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="689,418,773,441,833,451,896,459,890,459,833,456,772,447,689,423"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_node_input_port_container.html" title=" " alt="" coords="1295,465,1474,508"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1283,507,1195,522,1095,529,989,528,937,523,885,515,819,495,755,468,661,418,662,413,757,464,820,490,886,509,937,518,990,523,1095,524,1194,517,1277,508"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1139,468,1297,481,1292,481,1139,474"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_node_output_port_container.html" title=" " alt="" coords="1290,388,1479,431"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="1122,444,1287,423,1292,422,1123,449"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="577,476,698,503"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="713,481,890,471,895,471,714,487"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="1272,409,728,405,728,400,1277,407"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_graph.html" title=" " alt="" coords="254,191,438,217"/>
+<area shape="poly" id="edge9_Node000003_Node000008" title=" " alt="" coords="381,224,618,387,613,388,379,229"/>
+<area shape="rect" id="Node000012" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph.html" title=" " alt="" coords="1627,185,1850,228"/>
+<area shape="poly" id="edge15_Node000012_Node000008" title=" " alt="" coords="365,176,408,127,470,70,508,44,548,22,591,8,636,3,1386,3,1440,8,1492,24,1542,46,1588,73,1666,133,1720,185,1714,184,1662,137,1585,78,1539,51,1490,29,1439,14,1386,8,636,8,592,13,550,27,510,48,474,74,411,130,369,180"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="46,165,164,192"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="178,184,256,193,251,196,180,189"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="5,216,205,243"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="219,215,256,212,251,215,221,220"/>
+<area shape="poly" id="edge12_Node000002_Node000011" title=" " alt="" coords="1255,320,1121,321,1121,316,1261,320"/>
+<area shape="poly" id="edge21_Node000011_Node000011" title=" " alt="" coords="1354,282,1365,276,1385,273,1403,275,1415,281,1420,290,1418,301,1414,298,1415,291,1411,285,1401,281,1385,279,1367,281,1356,287"/>
+<area shape="poly" id="edge20_Node000012_Node000011" title=" " alt="" coords="1467,292,1668,229,1673,228,1468,297"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="1712,238,1665,285,1636,305,1604,320,1551,333,1497,336,1496,331,1550,327,1602,315,1633,300,1661,280,1707,241"/>
+<area shape="rect" id="Node000013" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage.html" title=" " alt="" coords="526,109,749,152"/>
+<area shape="poly" id="edge22_Node000002_Node000013" title=" " alt="" coords="696,157,966,295,961,296,695,162"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="743,103,893,76,984,64,1083,55,1186,50,1291,52,1396,62,1498,81,1559,101,1617,128,1709,185,1703,184,1614,133,1557,106,1497,87,1395,68,1291,58,1186,56,1083,60,985,69,894,81,745,108"/>
+<area shape="poly" id="edge17_Node000012_Node000014" title=" " alt="" coords="1513,204,1630,206,1624,207,1513,209"/>
+<area shape="rect" id="Node000015" href="$interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_use_custom_render_texture_processing.html" title="Interface for nodes that can conditionally execute based on a boolean value." alt="" coords="886,160,1131,203"/>
+<area shape="poly" id="edge24_Node000001_Node000015" title=" " alt="" coords="1146,155,1274,136,1269,137,1147,160"/>
+<area shape="poly" id="edge19_Node000014_Node000015" title=" " alt="" coords="1146,188,1274,199,1269,199,1147,193"/>
+<area shape="rect" id="Node000016" href="$interface_graph_processor_1_1_i_create_node_from-1-g.html" title="Implement this interface on a BaseNode, it allows you to automatically spawn a node if an asset of ty..." alt="" coords="912,93,1105,136"/>
+<area shape="poly" id="edge25_Node000001_Node000016" title=" " alt="" coords="1120,121,1274,124,1269,125,1121,126"/>
+<area shape="poly" id="edge26_Node000001_Node000016" title=" " alt="" coords="1120,105,1274,108,1269,109,1121,110"/>
+</map>

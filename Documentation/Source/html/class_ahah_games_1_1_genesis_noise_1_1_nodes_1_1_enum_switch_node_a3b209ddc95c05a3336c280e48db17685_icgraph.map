@@ -1,0 +1,11 @@
+<map id="AhahGames.GenesisNoise.Nodes.EnumSwitchNode.TryGetConnectedPortType" name="AhahGames.GenesisNoise.Nodes.EnumSwitchNode.TryGetConnectedPortType">
+<area shape="rect" id="Node000001" title=" " alt="" coords="923,39,1209,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#ad72b537c94eeca8a58e029020ff25dcf" title=" " alt="" coords="608,39,875,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="905,60,876,63,876,57,911,60"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#abf9ba19e740094ec1eab3322768e17ed" title=" " alt="" coords="312,5,554,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="590,44,555,42,555,37,595,44"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a37c19aaa37e1fc2a90ec831be907aa29" title=" " alt="" coords="307,72,560,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="595,76,561,82,560,77,590,76"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#aa23fd285f6bc9e948130c37c31ad89d7" title=" " alt="" coords="5,72,259,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="288,93,259,96,259,91,294,93"/>
+</map>

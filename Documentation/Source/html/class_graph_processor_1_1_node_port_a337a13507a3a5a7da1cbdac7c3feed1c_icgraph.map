@@ -1,0 +1,8 @@
+<map id="GraphProcessor.NodePort.PushDataDelegate" name="GraphProcessor.NodePort.PushDataDelegate">
+<area shape="rect" id="Node000001" title="Delegate that is made to send the data from this port to another port connected through an edge This ..." alt="" coords="522,5,700,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_port.html#aad9820c70c4a73c0443338be925e1896" title="Connect an edge to this port." alt="" coords="5,13,207,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="503,23,474,25,255,25,207,26,207,21,255,20,474,20,509,23"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_node_port.html#a2269d66a005030e2dbfc20b2aa7886fd" title=" " alt="" coords="255,35,474,77"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="509,39,475,46,474,40,504,39"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="236,42,207,41,207,35,242,42"/>
+</map>

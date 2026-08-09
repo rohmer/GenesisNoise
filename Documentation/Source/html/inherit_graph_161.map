@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,80,168,107"/>
+<area shape="rect" id="Node000001" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_curve_node_view_1_1_draw_histogram.html" title=" " alt="" coords="230,5,453,48"/>
+<area shape="poly" id="edge702_Node000000_Node000001" title=" " alt="" coords="155,73,259,47,255,50,156,78"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_histogram_view_1_1_draw_histogram.html" title=" " alt="" coords="230,72,453,115"/>
+<area shape="poly" id="edge703_Node000000_Node000002" title=" " alt="" coords="183,91,232,93,226,94,184,96"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_levels_node_view_1_1_draw_levels_histogram.html" title=" " alt="" coords="216,139,467,181"/>
+<area shape="poly" id="edge704_Node000000_Node000003" title=" " alt="" coords="156,109,259,137,254,139,155,114"/>
+</map>

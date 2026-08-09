@@ -1,0 +1,7 @@
+<map id="AhahGames.Graph.HelpWindow.minMax" name="AhahGames.Graph.HelpWindow.minMax">
+<area shape="rect" id="Node000001" title=" " alt="" coords="267,47,526,73"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_graph_1_1_help_window.html#a4847e2f17a48a46cd874b0eb7d95bd8f" title=" " alt="" coords="5,5,219,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,45,219,42,219,37,265,44"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_graph_1_1_help_window.html#a966a965cd4b26c1a423c836d17dfc0ae" title=" " alt="" coords="5,72,219,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,76,220,83,219,78,265,75"/>
+</map>

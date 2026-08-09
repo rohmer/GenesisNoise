@@ -1,0 +1,11 @@
+<map id="SharpVoronoiLib.VoronoiSite.SortPointsClockwise" name="SharpVoronoiLib.VoronoiSite.SortPointsClockwise">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,195,115"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a2961447985c17c5e005f9d5d88d6fa86" title=" " alt="" coords="243,5,432,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,69,247,51,242,54,179,74"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a078bff7c923a48a5cebb9055200540e0" title=" " alt="" coords="243,72,432,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="195,91,230,93,224,94,196,96"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a58158ec53df11ce4003648f27dcbf17d" title=" " alt="" coords="243,139,432,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,113,247,133,242,135,178,118"/>
+<area shape="rect" id="Node000005" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a74e446acb93a64b434dd3b3ed17c4575" title=" " alt="" coords="480,139,669,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="432,157,467,160,462,160,432,163"/>
+</map>

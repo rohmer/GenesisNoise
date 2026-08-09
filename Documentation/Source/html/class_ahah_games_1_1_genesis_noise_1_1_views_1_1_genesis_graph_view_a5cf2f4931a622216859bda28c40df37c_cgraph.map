@@ -1,0 +1,14 @@
+<map id="AhahGames.GenesisNoise.Views.GenesisGraphView.GetCompatiblePorts" name="AhahGames.GenesisNoise.Views.GenesisGraphView.GetCompatiblePorts">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,260,107"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph.html#a5a962e414782f22fe5b879d384665bbd" title="Tell if two types can be connected in the context of a graph." alt="" coords="308,64,496,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,83,295,85,289,86,260,88"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_type_adapter.html#ae7e8be0bbef72a89f3471a63a5e497da" title=" " alt="" coords="544,64,740,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="496,83,531,85,526,86,497,88"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_type_adapter.html#a2caf17701eadc181ae9d7ab3539ed995" title=" " alt="" coords="788,5,985,48"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="486,61,544,49,662,35,775,30,770,31,662,41,544,55,487,66"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_custom_port_i_o.html#adbd3b5edce41f93707e3cb8c8e952d82" title=" " alt="" coords="548,131,737,173"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="481,105,551,126,545,126,481,110"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="733,61,777,53,783,52,734,66"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_type_adapter.html#a1edb2b3a6e33b10ffdd6cadabf3f69f9" title=" " alt="" coords="788,72,985,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="741,86,775,89,770,90,741,91"/>
+</map>

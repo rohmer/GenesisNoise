@@ -1,0 +1,13 @@
+<map id="GraphProcessor.BaseGraphView.ToggleView&lt; T &gt;" name="GraphProcessor.BaseGraphView.ToggleView&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,190,81"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph_view.html#aaf98b3741dd0e1bea9f6382904dd98e4" title=" " alt="" coords="238,39,422,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,57,224,60,219,60,191,63"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph_view.html#a1f29edd52f1137b5fa26204e8b19105c" title=" " alt="" coords="470,5,654,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,44,457,42,452,43,423,49"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_graph_view.html#a4a29c6a5a945058f2b8df5834a35854c" title=" " alt="" coords="470,72,654,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="423,71,457,78,452,78,422,76"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_pinned_element_view.html#a1d52115bf23e32d17c754f3a573a36a9" title=" " alt="" coords="702,72,910,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="655,91,689,93,684,93,655,96"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_pinned_element_view.html#a6eed71923f86759ac9986f31cc6d4bd0" title=" " alt="" coords="958,72,1165,115"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="910,91,945,93,940,93,910,96"/>
+</map>

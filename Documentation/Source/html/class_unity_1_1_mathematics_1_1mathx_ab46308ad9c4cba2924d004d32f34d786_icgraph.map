@@ -1,0 +1,15 @@
+<map id="Unity.Mathematics.mathx.i4" name="Unity.Mathematics.mathx.i4">
+<area shape="rect" id="Node000001" title=" " alt="" coords="537,113,721,140"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#ac2412b62d2ddd0cac100c8e0107515dc" title=" " alt="" coords="301,72,475,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="519,112,476,108,476,103,524,112"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#ad7a3784d34e392e2fefec003147ae696" title=" " alt="" coords="287,139,489,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="519,142,490,149,489,143,524,141"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#ae22c2be15b13a5465b9fdee07fa7ac87" title=" " alt="" coords="35,5,209,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="283,69,210,51,209,46,288,67"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#ac0abf7fb31e9f217229b38f464d07bf1" title=" " alt="" coords="35,72,209,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="283,94,210,96,209,91,287,92"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a21f225ce94813bad1818b63e62364183" title=" " alt="" coords="5,139,239,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="268,161,240,163,239,157,274,159"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#a21dcc05d2d7b2979efb56b1b8b9ea150" title=" " alt="" coords="11,205,233,248"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="288,185,211,207,209,202,283,186"/>
+</map>

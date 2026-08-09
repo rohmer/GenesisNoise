@@ -1,0 +1,9 @@
+<map id="SharpVoronoiLib.VoronoiSiteMergeQuery" name="SharpVoronoiLib.VoronoiSiteMergeQuery">
+<area shape="rect" id="Node000001" title="Defines the signature for ISiteMergingAlgorithm query callback to user code. This basically asks the ..." alt="" coords="253,72,438,115"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_generic_site_merging_algorithm.html#ad20938caae9644422c28f519ddbeb579" title=" " alt="" coords="9,5,201,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,68,185,51,185,46,254,67"/>
+<area shape="rect" id="Node000003" href="$interface_sharp_voronoi_lib_1_1_i_site_merging_algorithm.html#a8cd937562f41172f645e59f6216a9f36" title=" " alt="" coords="9,72,201,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,94,202,96,201,91,239,93"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#a824177f027a2ade543ccba6001f2131d" title=" " alt="" coords="5,139,205,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="254,119,185,141,184,135,249,120"/>
+</map>

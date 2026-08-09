@@ -1,0 +1,5 @@
+<map id="GraphProcessor.BaseNodeView.RemovePort" name="GraphProcessor.BaseNodeView.RemovePort">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,218,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_port_view.html#a8c1c9809d2fe69fb626a01aaaf0fa323" title=" " alt="" coords="266,5,441,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,24,253,27,247,27,218,29"/>
+</map>

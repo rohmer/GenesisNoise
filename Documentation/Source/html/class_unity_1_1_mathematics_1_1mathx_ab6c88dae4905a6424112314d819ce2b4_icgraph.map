@@ -1,0 +1,102 @@
+<map id="Unity.Mathematics.mathx.float3x4" name="Unity.Mathematics.mathx.float3x4">
+<area shape="rect" id="Node000001" title="Returns a float3x4 matrix from a float3x3 rotation matrix and a f3 translation vector." alt="" coords="791,908,1012,935"/>
+<area shape="poly" id="edge20_Node000001_Node000001" title=" " alt="" coords="949,894,934,889,901,887,872,889,856,894,853,899,860,907,855,908,847,899,853,889,871,883,902,881,935,884,954,893"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#aa99d8f6bd3298d2bbb871f2125aa06e5" title=" " alt="" coords="528,5,724,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="897,892,887,721,877,598,862,465,842,332,815,211,800,158,782,112,763,74,741,46,725,33,723,27,745,42,767,71,787,110,805,157,821,210,847,331,867,464,882,597,892,720,902,894"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#ac7b7b1a8e88f6009997bf615cc5734a7" title="appends a f3 to a float3x3 to create a float3x4" alt="" coords="518,56,734,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="896,892,885,729,859,488,838,364,812,251,780,158,762,123,741,97,729,86,728,80,745,93,766,120,785,156,818,250,844,363,864,488,890,728,901,893"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#a7873ba7a6ee10143fc1944d39dc59d35" title=" " alt="" coords="539,107,713,149"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="896,892,882,741,853,521,832,408,807,305,776,220,760,188,741,163,715,144,713,139,745,159,764,185,781,218,812,304,837,407,858,521,887,740,901,893"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#add949b0af7206b494f74d933b2dab998" title=" " alt="" coords="530,173,722,200"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="895,892,881,750,851,545,830,440,805,344,776,266,759,236,742,214,723,200,721,195,745,210,764,233,780,264,810,342,836,438,857,544,886,749,900,893"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a54bd30d4e5131e6e030d207b31c0c701" title=" " alt="" coords="530,224,722,251"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="895,892,879,759,848,569,827,472,802,384,774,312,758,285,742,265,723,251,722,246,745,261,762,282,778,310,807,382,832,471,853,568,884,758,900,893"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#a0a1bd2632a3c573c86a2fe1ba95a7d07" title=" " alt="" coords="530,275,722,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="894,892,876,768,845,594,824,505,799,424,772,359,757,334,742,315,723,302,722,297,745,311,761,331,776,356,804,423,829,504,850,592,882,767,899,893"/>
+<area shape="rect" id="Node000008" href="$class_unity_1_1_mathematics_1_1mathx.html#a827afee04917dc7ad1b0796a4d1643ee" title=" " alt="" coords="526,325,726,352"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="893,892,874,778,841,619,820,538,796,465,770,405,741,366,727,355,726,349,745,362,774,403,801,463,825,536,846,617,880,777,899,894"/>
+<area shape="rect" id="Node000009" href="$class_unity_1_1_mathematics_1_1mathx.html#a9ef9042711612a493b975d4b243c738c" title=" " alt="" coords="526,376,726,403"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="898,892,893,800,886,738,873,671,853,602,826,534,789,471,742,417,727,405,725,400,745,413,793,468,831,532,859,600,878,670,891,738,899,800,903,893"/>
+<area shape="rect" id="Node000010" href="$class_unity_1_1_mathematics_1_1mathx.html#a5d6eab1d303b66472329c105b2b5a8f3" title=" " alt="" coords="526,427,726,453"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="897,892,889,808,880,753,866,693,847,631,820,571,785,515,742,467,727,456,725,451,745,463,789,512,825,568,852,629,872,691,885,752,895,807,902,893"/>
+<area shape="rect" id="Node000011" href="$class_unity_1_1_mathematics_1_1mathx.html#a221cce61b5e1c98916ce65d43bf80a87" title=" " alt="" coords="526,477,726,504"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="895,892,885,817,860,715,840,661,814,608,781,560,742,518,726,507,725,502,745,514,786,556,819,606,845,659,865,713,890,816,901,893"/>
+<area shape="rect" id="Node000012" href="$class_unity_1_1_mathematics_1_1mathx.html#abeb9e54ca98a1af66f1eeade5ff07652" title=" " alt="" coords="526,528,726,555"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="894,892,880,826,853,737,833,691,808,646,778,604,742,569,726,558,724,553,745,565,782,601,812,643,838,688,858,735,885,824,899,893"/>
+<area shape="rect" id="Node000013" href="$class_unity_1_1_mathematics_1_1mathx.html#a9278794deff90a87872a2c1104f3762e" title=" " alt="" coords="526,579,726,605"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="891,892,875,835,846,760,826,721,802,684,774,649,742,619,725,609,723,603,745,615,778,645,806,681,831,719,851,758,880,833,897,893"/>
+<area shape="rect" id="Node000020" href="$class_unity_1_1_mathematics_1_1mathx.html#aa25ff45a44974ec88100aa600d576bbf" title=" " alt="" coords="526,629,726,656"/>
+<area shape="poly" id="edge16_Node000001_Node000020" title=" " alt="" coords="889,893,869,845,839,784,796,722,770,694,742,670,723,659,722,654,745,666,774,690,800,718,843,781,874,843,894,894"/>
+<area shape="rect" id="Node000021" href="$class_unity_1_1_mathematics_1_1mathx.html#ae011c5cb97fceb427df4e237d56e2296" title=" " alt="" coords="526,680,726,707"/>
+<area shape="poly" id="edge17_Node000001_Node000021" title=" " alt="" coords="884,894,863,856,831,808,790,760,742,721,720,710,719,705,745,716,794,757,835,805,867,853,890,894"/>
+<area shape="rect" id="Node000022" href="$class_unity_1_1_mathematics_1_1mathx.html#ae8eaf94a8ecabdac943b69aba1ba696d" title=" " alt="" coords="526,731,726,757"/>
+<area shape="poly" id="edge18_Node000001_Node000022" title=" " alt="" coords="879,896,822,833,784,800,742,772,717,760,715,755,745,767,788,795,826,830,884,895"/>
+<area shape="rect" id="Node000023" href="$class_unity_1_1_mathematics_1_1mathx.html#a5f1aa3d71d207a5d3d77ece5a5d761a4" title=" " alt="" coords="526,781,726,808"/>
+<area shape="poly" id="edge19_Node000001_Node000023" title=" " alt="" coords="869,899,813,860,742,822,710,811,708,806,744,818,816,856,874,898"/>
+<area shape="rect" id="Node000024" href="$class_unity_1_1_mathematics_1_1mathx.html#a4a3b1c9bbdd324e165371cc635300fff" title="Returns the inverse of a float3x4 matrix." alt="" coords="518,832,734,859"/>
+<area shape="poly" id="edge21_Node000001_Node000024" title=" " alt="" coords="844,903,743,873,697,862,695,857,744,868,849,901"/>
+<area shape="rect" id="Node000025" href="$class_unity_1_1_mathematics_1_1mathx.html#ad8e2032b97ba5ba7044a1d6bc01d45d6" title="Returns the squared length of each vector in the matrix." alt="" coords="514,883,738,909"/>
+<area shape="poly" id="edge22_Node000001_Node000025" title=" " alt="" coords="773,911,739,909,737,904,778,909"/>
+<area shape="rect" id="Node000026" href="$class_unity_1_1_mathematics_1_1mathx.html#a7987501e9eeacccfc77046c68f971984" title=" " alt="" coords="528,933,724,960"/>
+<area shape="poly" id="edge23_Node000001_Node000026" title=" " alt="" coords="773,934,725,940,723,935,778,932"/>
+<area shape="rect" id="Node000027" href="$class_unity_1_1_mathematics_1_1mathx.html#a43a1287bb0fe80c57215bbce38bdea12" title=" " alt="" coords="523,984,729,1011"/>
+<area shape="poly" id="edge24_Node000001_Node000027" title=" " alt="" coords="844,942,744,975,698,986,695,981,743,969,848,939"/>
+<area shape="rect" id="Node000028" href="$class_unity_1_1_mathematics_1_1mathx.html#a66c1cc3f412177d3277b4d603582b2df" title="returns the float3x4 (simpler form) matrix of a RigidTransform" alt="" coords="521,1035,731,1061"/>
+<area shape="poly" id="edge25_Node000001_Node000028" title=" " alt="" coords="869,946,816,987,744,1025,710,1036,708,1032,742,1020,813,982,873,943"/>
+<area shape="rect" id="Node000035" href="$class_unity_1_1_mathematics_1_1mathx.html#a2df7e5126a11f22dd2875e84e3b22457" title="Performs a matrix multiplication of the form: m * f." alt="" coords="528,1085,724,1112"/>
+<area shape="poly" id="edge32_Node000001_Node000035" title=" " alt="" coords="883,945,826,1013,788,1047,745,1076,718,1087,714,1083,742,1071,784,1043,822,1009,879,949"/>
+<area shape="rect" id="Node000036" href="$class_unity_1_1_mathematics_1_1mathx.html#a60b1b1ec6c2bc25385612ac79b976995" title="Performs a matrix multiplication of the form: m * f." alt="" coords="528,1136,724,1163"/>
+<area shape="poly" id="edge33_Node000001_Node000036" title=" " alt="" coords="889,946,867,990,835,1038,794,1086,745,1126,721,1138,718,1133,742,1122,790,1082,831,1035,863,987,886,951"/>
+<area shape="rect" id="Node000037" href="$class_unity_1_1_mathematics_1_1mathx.html#ae7d877cc60fb29797a9024835642ea51" title="Performs a matrix multiplication of the form: m * f." alt="" coords="528,1187,724,1213"/>
+<area shape="poly" id="edge34_Node000001_Node000037" title=" " alt="" coords="893,947,874,1000,843,1062,800,1124,774,1153,745,1177,724,1188,721,1184,742,1172,770,1149,796,1121,839,1059,869,998,890,952"/>
+<area shape="rect" id="Node000038" href="$class_unity_1_1_mathematics_1_1mathx.html#a0b13086aaa8c418f4624ca320dc54373" title="Performs a matrix multiplication of the form: m * f." alt="" coords="528,1237,724,1264"/>
+<area shape="poly" id="edge35_Node000001_Node000038" title=" " alt="" coords="895,947,880,1009,851,1085,831,1124,806,1162,778,1197,745,1227,726,1239,723,1235,742,1223,774,1194,802,1159,826,1121,846,1082,875,1007,893,952"/>
+<area shape="rect" id="Node000039" href="$class_unity_1_1_mathematics_1_1mathx.html#a83282a6b131eced1066af334adf85ad3" title=" " alt="" coords="526,1288,726,1315"/>
+<area shape="poly" id="edge36_Node000001_Node000039" title=" " alt="" coords="898,948,885,1018,858,1107,838,1154,812,1200,782,1242,745,1278,727,1290,723,1285,742,1274,778,1238,808,1197,833,1152,853,1105,880,1017,895,953"/>
+<area shape="rect" id="Node000040" href="$class_unity_1_1_mathematics_1_1mathx.html#afce681dd3e08641b30b282e932e79c36" title=" " alt="" coords="528,1339,724,1365"/>
+<area shape="poly" id="edge37_Node000001_Node000040" title=" " alt="" coords="899,948,890,1027,865,1129,845,1184,819,1237,786,1286,745,1329,726,1341,723,1337,742,1325,781,1283,814,1234,840,1182,860,1128,885,1026,897,953"/>
+<area shape="rect" id="Node000041" href="$class_unity_1_1_mathematics_1_1mathx.html#acf2d0f2a1a53e79f70738e741daaa9cf" title=" " alt="" coords="525,1389,727,1432"/>
+<area shape="poly" id="edge38_Node000001_Node000041" title=" " alt="" coords="900,948,893,1035,884,1090,869,1150,849,1212,823,1273,788,1329,745,1379,729,1391,726,1387,742,1375,784,1326,818,1270,844,1210,864,1148,878,1089,888,1034,898,953"/>
+<area shape="rect" id="Node000044" href="$class_unity_1_1_mathematics_1_1mathx.html#ad7a3784d34e392e2fefec003147ae696" title=" " alt="" coords="525,1456,727,1499"/>
+<area shape="poly" id="edge41_Node000001_Node000044" title=" " alt="" coords="902,948,898,1044,891,1108,878,1177,858,1250,830,1321,793,1387,745,1446,729,1458,726,1454,741,1442,789,1384,826,1318,853,1248,873,1176,886,1107,893,1044,899,952"/>
+<area shape="rect" id="Node000047" href="$class_unity_1_1_mathematics_1_1mathx.html#a568672fbec83578fe1e94c1e92059bf0" title="Returns the rotation component of a float3x4 matrix." alt="" coords="518,1523,735,1565"/>
+<area shape="poly" id="edge44_Node000001_Node000047" title=" " alt="" coords="898,948,880,1071,847,1240,826,1326,802,1404,775,1468,745,1512,731,1524,728,1520,741,1509,770,1466,797,1402,821,1324,842,1239,875,1070,895,952"/>
+<area shape="rect" id="Node000048" href="$class_unity_1_1_mathematics_1_1mathx.html#aa427a205d6912231c3592f5fb0494d1e" title=" " alt="" coords="528,1589,724,1616"/>
+<area shape="poly" id="edge45_Node000001_Node000048" title=" " alt="" coords="899,948,884,1084,853,1273,832,1370,807,1458,778,1530,762,1558,745,1579,726,1593,723,1588,742,1575,758,1555,774,1528,802,1456,827,1369,848,1272,879,1083,896,953"/>
+<area shape="rect" id="Node000049" href="$class_unity_1_1_mathematics_1_1mathx.html#ad193ea95bfd768617077a466dd75e2e1" title="Transform a f3 point by a float3x4 matrix;." alt="" coords="512,1640,741,1667"/>
+<area shape="poly" id="edge46_Node000001_Node000049" title=" " alt="" coords="899,948,886,1093,856,1298,836,1402,810,1498,780,1577,763,1607,745,1630,729,1642,727,1637,741,1626,759,1604,776,1574,805,1497,830,1401,851,1297,881,1092,897,952"/>
+<area shape="rect" id="Node000050" href="$class_unity_1_1_mathematics_1_1mathx.html#a77d67945826ab5bb64b66aa244099493" title="Transform a f3 point by a float3x4 matrix;." alt="" coords="512,1691,741,1717"/>
+<area shape="poly" id="edge47_Node000001_Node000050" title=" " alt="" coords="900,948,888,1103,860,1322,839,1435,813,1538,782,1623,765,1656,745,1681,729,1693,727,1688,741,1677,760,1653,777,1621,808,1537,834,1434,854,1322,883,1102,897,953"/>
+<area shape="rect" id="Node000051" href="$class_unity_1_1_mathematics_1_1mathx.html#a738e6c4c2f6b53417a734bc13cb0ec6e" title="Returns the translation component of a float3x4 matrix." alt="" coords="509,1741,743,1784"/>
+<area shape="poly" id="edge48_Node000001_Node000051" title=" " alt="" coords="900,948,889,1110,861,1345,840,1466,815,1577,783,1668,765,1704,745,1731,731,1743,729,1738,741,1728,761,1701,778,1666,810,1575,835,1465,856,1344,883,1110,897,952"/>
+<area shape="rect" id="Node000052" href="$class_unity_1_1_mathematics_1_1mathx.html#a8a303622060d33d1c9ddb377c8c84528" title=" " alt="" coords="510,1808,742,1835"/>
+<area shape="poly" id="edge49_Node000001_Node000052" title=" " alt="" coords="900,948,892,1123,882,1245,867,1378,847,1510,820,1631,805,1684,787,1730,767,1769,745,1798,730,1810,728,1805,741,1794,763,1766,782,1728,800,1682,815,1630,842,1509,862,1377,877,1245,887,1122,898,952"/>
+<area shape="rect" id="Node000053" href="$class_unity_1_1_mathematics_1_1mathx.html#a6b6d50caf320bb7cb437441e906f5818" title=" " alt="" coords="510,1859,742,1885"/>
+<area shape="poly" id="edge50_Node000001_Node000053" title=" " alt="" coords="901,948,894,1132,884,1262,870,1402,850,1542,823,1671,807,1727,789,1777,768,1818,745,1849,730,1861,728,1856,741,1845,764,1815,784,1775,802,1726,818,1670,845,1541,865,1401,879,1261,889,1131,898,953"/>
+<area shape="rect" id="Node000014" href="$class_unity_1_1_mathematics_1_1mathx.html#ad79b84cb99440110a5ee041829b78ff5" title=" " alt="" coords="257,537,432,580"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="509,580,433,571,431,567,513,577"/>
+<area shape="rect" id="Node000017" href="$class_unity_1_1_mathematics_1_1mathx.html#ac2412b62d2ddd0cac100c8e0107515dc" title=" " alt="" coords="257,604,432,647"/>
+<area shape="poly" id="edge15_Node000013_Node000017" title=" " alt="" coords="509,607,433,617,430,613,513,604"/>
+<area shape="rect" id="Node000015" href="$class_unity_1_1_mathematics_1_1mathx.html#a68fade055c5267e8d402a8c319ab7c7a" title=" " alt="" coords="5,537,180,580"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="239,560,182,561,178,557,243,557"/>
+<area shape="rect" id="Node000029" href="$class_unity_1_1_mathematics_1_1mathx.html#aebc748071430524838f002344a82f414" title="Performs a matrix multiplication of the form: m * f." alt="" coords="247,908,442,935"/>
+<area shape="poly" id="edge26_Node000028_Node000029" title=" " alt="" coords="514,1028,507,1025,490,1006,482,986,475,966,459,949,440,938,439,933,463,945,480,964,487,984,495,1003,511,1021,519,1027"/>
+<area shape="rect" id="Node000030" href="$class_unity_1_1_mathematics_1_1mathx.html#abf084c6d3a5a87bb82496b8ea2e5523b" title="Performs a matrix multiplication of the form: m * f." alt="" coords="247,959,442,985"/>
+<area shape="poly" id="edge27_Node000028_Node000030" title=" " alt="" coords="530,1031,508,1025,484,1012,460,1000,424,988,422,983,462,995,486,1008,510,1020,535,1029"/>
+<area shape="rect" id="Node000031" href="$class_unity_1_1_mathematics_1_1mathx.html#a483e4bd34f020bd3864e3235310d175e" title="Performs a matrix multiplication of the form: m * f." alt="" coords="247,1009,442,1036"/>
+<area shape="poly" id="edge28_Node000028_Node000031" title=" " alt="" coords="503,1039,444,1034,441,1029,508,1036"/>
+<area shape="rect" id="Node000032" href="$class_unity_1_1_mathematics_1_1mathx.html#a676f507243cd5abde1f6094249fec603" title="Performs a matrix multiplication of the form: m * f." alt="" coords="247,1060,442,1087"/>
+<area shape="poly" id="edge29_Node000028_Node000032" title=" " alt="" coords="503,1060,444,1067,441,1062,508,1057"/>
+<area shape="rect" id="Node000033" href="$class_unity_1_1_mathematics_1_1mathx.html#a82538666671551805db779320fc51d5a" title="Performs a matrix multiplication of the form: m * f." alt="" coords="247,1111,442,1137"/>
+<area shape="poly" id="edge30_Node000028_Node000033" title=" " alt="" coords="531,1067,510,1076,486,1088,462,1101,424,1112,421,1108,460,1096,484,1084,508,1071,535,1064"/>
+<area shape="rect" id="Node000034" href="$class_unity_1_1_mathematics_1_1mathx.html#acf2ae86b565a59f9fa3853751d98285b" title="Performs a matrix multiplication of the form: m * f." alt="" coords="247,1161,442,1188"/>
+<area shape="poly" id="edge31_Node000028_Node000034" title=" " alt="" coords="515,1070,511,1075,495,1093,487,1112,480,1132,463,1151,441,1163,438,1159,459,1147,475,1130,482,1110,490,1090,507,1071,519,1067"/>
+<area shape="rect" id="Node000042" href="$class_unity_1_1_mathematics_1_1mathx.html#a0f1cfce44b1fbaa8c7ee93b3935ecb1d" title=" " alt="" coords="243,1323,446,1365"/>
+<area shape="poly" id="edge39_Node000041_Node000042" title=" " alt="" coords="516,1386,438,1369,437,1363,521,1384"/>
+<area shape="rect" id="Node000043" href="$class_unity_1_1_mathematics_1_1mathx.html#a0e8e48529ff81eda166a5c0cdeb695a5" title=" " alt="" coords="243,1389,446,1432"/>
+<area shape="poly" id="edge40_Node000041_Node000043" title=" " alt="" coords="507,1412,447,1413,445,1408,512,1410"/>
+<area shape="rect" id="Node000045" href="$class_unity_1_1_mathematics_1_1mathx.html#a21f225ce94813bad1818b63e62364183" title=" " alt="" coords="228,1456,461,1499"/>
+<area shape="poly" id="edge42_Node000044_Node000045" title=" " alt="" coords="507,1478,462,1480,460,1475,512,1476"/>
+<area shape="rect" id="Node000046" href="$class_unity_1_1_mathematics_1_1mathx.html#a21dcc05d2d7b2979efb56b1b8b9ea150" title=" " alt="" coords="233,1523,456,1565"/>
+<area shape="poly" id="edge43_Node000044_Node000046" title=" " alt="" coords="516,1504,439,1525,436,1520,521,1501"/>
+</map>

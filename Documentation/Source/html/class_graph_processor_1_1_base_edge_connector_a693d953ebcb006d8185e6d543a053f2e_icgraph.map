@@ -1,0 +1,16 @@
+<map id="GraphProcessor.BaseEdgeConnector.Abort" name="GraphProcessor.BaseEdgeConnector.Abort">
+<area shape="rect" id="Node000001" title=" " alt="" coords="588,72,831,115"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_edge_connector.html#a1b6ae9c34b687f3c2bf07b421fcf453d" title=" " alt="" coords="297,5,540,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="596,68,515,51,515,46,601,68"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_edge_connector.html#a1c372ed27cf8e270b80afa346ab97896" title=" " alt="" coords="297,139,540,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="601,118,515,141,514,135,596,119"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_edge_connector.html#a73d4f6db936e7117dcb6958b281806cd" title=" " alt="" coords="297,72,540,115"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="570,94,541,96,540,91,575,93"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_edge_connector.html#ad967fb44a503e9b2484c27a4d9f800ca" title=" " alt="" coords="5,72,249,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,53,224,74,223,69,310,51"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="305,135,223,118,224,113,310,134"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_edge_connector.html#aee84face2da4a4403664dbdf50bb35bf" title=" " alt="" coords="5,139,249,181"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="279,160,249,163,249,157,284,160"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="279,94,249,96,249,91,284,93"/>
+<area shape="poly" id="edge8_Node000006_Node000005" title=" " alt="" coords="310,118,224,141,223,135,305,119"/>
+</map>

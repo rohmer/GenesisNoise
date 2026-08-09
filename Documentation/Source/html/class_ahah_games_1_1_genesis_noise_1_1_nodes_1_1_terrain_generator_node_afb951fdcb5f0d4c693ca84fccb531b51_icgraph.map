@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.BuildFeatheredBiomeMaps" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.BuildFeatheredBiomeMaps">
+<area shape="rect" id="Node000001" title=" " alt="" coords="850,5,1090,64"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#aba4c6e7fe324be86d0df00433707e343" title=" " alt="" coords="577,5,802,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="832,35,803,37,803,32,837,35"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a67c99fa7f749d93fe7e145901b5bc0aa" title=" " alt="" coords="285,13,529,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="558,35,530,37,530,32,564,35"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#af9fb7eb1b6da91f91d5f6c8ab20bd97e" title=" " alt="" coords="5,13,237,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="266,35,237,37,237,32,272,34"/>
+</map>

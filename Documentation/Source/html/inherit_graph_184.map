@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_border_node.html" title=" " alt="" coords="5,39,208,81"/>
+<area shape="rect" id="Node000001" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_corner_border_node.html" title=" " alt="" coords="256,5,458,48"/>
+<area shape="poly" id="edge905_Node000000_Node000001" title=" " alt="" coords="223,42,258,39,253,41,224,47"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node.html" title=" " alt="" coords="256,72,458,115"/>
+<area shape="poly" id="edge906_Node000000_Node000002" title=" " alt="" coords="223,73,258,80,253,80,223,78"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_end_border_node.html" title=" " alt="" coords="506,39,708,81"/>
+<area shape="poly" id="edge907_Node000002_Node000003" title=" " alt="" coords="473,75,508,73,503,74,474,80"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_start_border_node.html" title=" " alt="" coords="506,105,708,148"/>
+<area shape="poly" id="edge908_Node000002_Node000004" title=" " alt="" coords="474,106,508,113,503,113,474,112"/>
+</map>

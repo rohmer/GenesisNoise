@@ -1,0 +1,10 @@
+<map id="AhahGames.GenesisNoise.Views.BoolNodeView.Enable" name="AhahGames.GenesisNoise.Views.BoolNodeView.Enable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,64,229,107"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_bool_node_view.html#a1462bab2ccfa6803b510d5996ca65387" title=" " alt="" coords="277,5,537,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,61,286,51,281,53,226,66"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_bool_node_view.html#a1eb9ace99a20b7d29e9e88d32a3e89d1" title=" " alt="" coords="585,35,808,77"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="229,77,570,60,569,65,229,82"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node_view.html#ac8c5ced56f74d24bb1f9b535945a5279" title="Send an event to the graph telling that the content of this node have changed." alt="" coords="301,123,513,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,105,288,119,283,120,226,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="537,37,572,43,567,43,538,43"/>
+</map>

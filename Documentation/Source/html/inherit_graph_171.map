@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,104,157,131"/>
+<area shape="rect" id="Node000001" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1_1_improve_genesis_popup_window.html" title=" " alt="" coords="205,5,452,64"/>
+<area shape="poly" id="edge884_Node000000_Node000001" title=" " alt="" coords="137,96,204,73,241,63,237,66,206,79,139,101"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1_1_settings_genesis_popup_window.html" title=" " alt="" coords="205,88,453,147"/>
+<area shape="poly" id="edge885_Node000000_Node000002" title=" " alt="" coords="172,115,207,117,202,118,173,120"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_node_inspector_settings_popup_window.html" title=" " alt="" coords="210,171,448,213"/>
+<area shape="poly" id="edge886_Node000000_Node000003" title=" " alt="" coords="136,133,205,156,247,170,241,170,204,161,135,139"/>
+</map>

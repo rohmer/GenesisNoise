@@ -1,0 +1,20 @@
+<map id="GraphProcessor.ProcessorView" name="GraphProcessor.ProcessorView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="226,373,433,400"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_pinned_element_view.html" title=" " alt="" coords="119,297,356,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="266,331,317,373,311,373,264,336"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,180,110,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,213,220,295,216,298,89,218"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_pinned_element.html" title="Element that overlays the graph like the blackboard." alt="" coords="134,180,341,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="239,220,240,298,235,296,236,224"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_serializable_type.html" title=" " alt="" coords="125,81,339,108"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="235,121,239,180,234,179,233,126"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="163,5,362,32"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="253,44,240,82,235,80,251,48"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_graph.html" title=" " alt="" coords="364,81,548,108"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="310,35,426,80,421,82,310,41"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_graph_processor.html" title="Graph processor." alt="" coords="347,231,531,273"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="415,285,341,375,338,371,410,286"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="455,122,443,231,439,229,451,125"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="398,5,515,32"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="457,45,459,82,454,80,455,49"/>
+</map>

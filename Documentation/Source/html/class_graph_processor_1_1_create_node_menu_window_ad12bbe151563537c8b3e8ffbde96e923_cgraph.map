@@ -1,0 +1,18 @@
+<map id="GraphProcessor.CreateNodeMenuWindow.CreateEdgeNodeMenu" name="GraphProcessor.CreateNodeMenuWindow.CreateEdgeNodeMenu">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,97,241,140"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_provider.html#ae9ffedf52aca2abfc0f2013f5badf8e9" title=" " alt="" coords="289,64,504,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,102,276,100,270,101,242,107"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_node_provider.html#ab79627e2c7fb2d711d72af93e00db6df" title=" " alt="" coords="295,131,498,173"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="241,130,283,138,277,138,241,136"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph.html#a5a962e414782f22fe5b879d384665bbd" title="Tell if two types can be connected in the context of a graph." alt="" coords="552,64,740,107"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="504,83,539,85,534,86,505,88"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_type_adapter.html#ae7e8be0bbef72a89f3471a63a5e497da" title=" " alt="" coords="788,64,985,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="741,83,775,85,770,85,741,88"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_type_adapter.html#a2caf17701eadc181ae9d7ab3539ed995" title=" " alt="" coords="1033,5,1229,48"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="730,61,788,49,906,35,1020,30,1014,31,906,41,789,55,731,66"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_custom_port_i_o.html#adbd3b5edce41f93707e3cb8c8e952d82" title=" " alt="" coords="792,131,981,173"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="726,105,795,126,790,126,725,110"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="978,61,1022,53,1027,52,979,66"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_type_adapter.html#a1edb2b3a6e33b10ffdd6cadabf3f69f9" title=" " alt="" coords="1033,72,1229,115"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="985,86,1020,90,1014,90,985,91"/>
+</map>

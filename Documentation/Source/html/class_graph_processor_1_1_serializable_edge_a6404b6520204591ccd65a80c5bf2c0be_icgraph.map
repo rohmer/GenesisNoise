@@ -1,0 +1,17 @@
+<map id="GraphProcessor.SerializableEdge.SerializableEdge" name="GraphProcessor.SerializableEdge.SerializableEdge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="983,96,1169,139"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_serializable_edge.html#a76e82ca2152eb0f7067b709d20b75633" title=" " alt="" coords="748,96,935,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="965,117,935,120,935,115,970,117"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph.html#ab7224feda099e47651a498222d8b3ccf" title="Connect two ports with an edge." alt="" coords="512,5,700,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="772,90,699,62,669,51,670,46,701,58,777,90"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_graph_view.html#a899312c1adfa143a4452a1c2ef6bed77" title=" " alt="" coords="514,96,698,139"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="730,117,699,120,699,115,735,117"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_graph_view.html#abe8b5f15db4948b28585b46fcd763f70" title=" " alt="" coords="238,155,464,197"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="746,142,701,153,579,168,465,175,464,170,578,162,700,148,740,143"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="643,80,630,77,606,75,584,77,570,81,565,87,566,97,562,94,560,86,567,77,583,71,606,69,631,72,648,81"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_graph_view.html#ab7bd9edf3efcdd950509626d54390179" title=" " alt="" coords="259,88,443,131"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="496,114,443,115,443,110,501,114"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="502,141,447,157,446,151,497,142"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_graph_view.html#ae394d2e4c2b7ddbefbd325ea45350d97" title=" " alt="" coords="5,155,190,197"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="219,176,190,179,190,173,225,176"/>
+</map>

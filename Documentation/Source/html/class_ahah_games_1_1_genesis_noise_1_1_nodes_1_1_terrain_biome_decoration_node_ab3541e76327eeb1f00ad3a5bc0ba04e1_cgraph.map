@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.ShouldPlace" name="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.ShouldPlace">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,274,85"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#aa37d18cbb31fe75eebdd8ceae83d46b4" title=" " alt="" coords="322,5,562,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="273,45,309,43,304,44,275,50"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a9ba8e551b9aa87860022baa6daf14ed8" title=" " alt="" coords="322,72,562,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="274,78,309,85,304,85,274,83"/>
+</map>

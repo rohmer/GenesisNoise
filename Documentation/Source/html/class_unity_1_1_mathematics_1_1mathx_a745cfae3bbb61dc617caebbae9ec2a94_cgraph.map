@@ -1,0 +1,7 @@
+<map id="Unity.Mathematics.mathx.smax" name="Unity.Mathematics.mathx.smax">
+<area shape="rect" id="Node000001" title="Smooth max is a smooth version of math.max() that accepts a smoothness parameter t." alt="" coords="5,5,212,32"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a58cf6cdae17ff3cc9bd77f55e7f875bb" title="Returns the result of clamping f to [0, 1]." alt="" coords="260,5,452,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,16,247,19,241,19,212,21"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="500,5,678,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,16,487,19,482,19,453,21"/>
+</map>

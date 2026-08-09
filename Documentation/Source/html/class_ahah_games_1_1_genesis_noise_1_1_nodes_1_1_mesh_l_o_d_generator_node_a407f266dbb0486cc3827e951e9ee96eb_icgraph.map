@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CleanupGeneratedLODs" name="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CleanupGeneratedLODs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="350,39,664,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a06deba4c2256b3cc5bf52709daebd3b1" title="Called when the node is disabled." alt="" coords="41,5,266,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="331,44,267,40,267,35,337,43"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a4c13a3a6cd41ba2b4d884e68ae99029d" title=" " alt="" coords="5,72,302,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="331,77,302,82,302,77,337,76"/>
+</map>

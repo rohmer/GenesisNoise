@@ -1,0 +1,5 @@
+<map id="GraphProcessor.BaseNodeView.OnPortConnected" name="GraphProcessor.BaseNodeView.OnPortConnected">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,218,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#a601b788e4c901edc1c96465492838075" title=" " alt="" coords="266,5,478,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,24,253,27,247,27,218,29"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshErosionNode.ClearGeneratedMeshes" name="AhahGames.GenesisNoise.Nodes.MeshErosionNode.ClearGeneratedMeshes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="310,39,579,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node.html#ad512ea8e8668cfbd68e4c202230b37cb" title="Called when the node is disabled." alt="" coords="21,5,246,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="292,44,246,41,246,36,297,44"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node.html#a397d55a63000efd1448e6c82063c20b7" title=" " alt="" coords="5,72,262,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,76,263,82,262,77,297,76"/>
+</map>

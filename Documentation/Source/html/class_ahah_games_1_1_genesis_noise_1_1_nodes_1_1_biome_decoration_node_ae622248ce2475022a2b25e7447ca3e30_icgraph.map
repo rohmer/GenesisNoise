@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.SyncDecoration" name="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.SyncDecoration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="303,72,552,115"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a7ac7a87b067cf6495176bdbb1ea5f753" title="Called when the node is enabled." alt="" coords="17,5,243,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,69,228,51,228,46,317,67"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a2a880624557c6549e020b367c02801a7" title=" " alt="" coords="12,72,248,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,94,248,96,248,91,290,93"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#aa8e00a8e2eec5346eb41ddc04994165c" title=" " alt="" coords="5,139,255,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="317,118,229,141,228,135,312,119"/>
+</map>

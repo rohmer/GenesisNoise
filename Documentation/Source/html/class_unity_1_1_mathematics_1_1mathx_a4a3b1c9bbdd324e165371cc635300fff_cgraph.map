@@ -1,0 +1,6 @@
+<map id="Unity.Mathematics.mathx.inverse" name="Unity.Mathematics.mathx.inverse">
+<area shape="rect" id="Node000001" title="Returns the inverse of a float3x4 matrix." alt="" coords="5,29,222,56"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#ab6c88dae4905a6424112314d819ce2b4" title="Returns a float3x4 matrix from a float3x3 rotation matrix and a f3 translation vector." alt="" coords="270,29,490,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,40,257,43,251,43,222,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="335,28,327,21,333,11,351,5,380,3,412,5,430,15,425,14,411,11,380,8,352,10,336,15,333,20,340,30"/>
+</map>

@@ -1,0 +1,30 @@
+<map id="AhahGames.GenesisNoise.Nodes.EnumSwitchNode.SyncCaseData" name="AhahGames.GenesisNoise.Nodes.EnumSwitchNode.SyncCaseData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="919,272,1145,315"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#abf9ba19e740094ec1eab3322768e17ed" title=" " alt="" coords="5,63,248,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1010,258,987,223,955,182,916,143,870,113,821,97,754,85,675,78,588,74,407,74,249,79,247,74,407,69,588,69,675,73,755,80,822,92,872,108,919,139,959,179,991,220,1015,260"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a37b149cc134fb1a75ffe1195bac99ef3" title="Called when the node is enabled." alt="" coords="14,196,239,239"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1021,328,1000,378,969,434,927,488,901,511,873,529,832,548,796,560,762,566,729,566,661,554,579,529,509,502,440,468,375,428,315,386,214,303,149,242,149,237,217,299,318,382,378,424,443,463,511,498,581,524,662,549,729,561,761,561,794,555,830,543,870,524,898,506,923,484,965,431,996,376,1016,331"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#af1175872f0858240930e83e8a69a983b" title=" " alt="" coords="613,5,838,48"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1013,257,990,215,959,164,918,112,870,69,837,51,837,46,873,64,922,109,963,161,995,212,1018,259"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#ac33d5d16e38f7cf59ee9e7a730d1acdb" title="Called only when the node is created, not when instantiated." alt="" coords="613,205,838,248"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="913,268,827,251,827,246,919,268"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a1969ae22e808c3273c8977afd9c5f0a6" title=" " alt="" coords="613,272,838,315"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="901,294,839,296,838,291,907,293"/>
+<area shape="rect" id="Node000008" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a9540c35673d6fe8a1a9c746537182ae7" title=" " alt="" coords="613,339,838,381"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="914,319,828,341,826,335,919,318"/>
+<area shape="rect" id="Node000009" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a8a38de5ec0686d0732c95aa81ac1bd7f" title=" " alt="" coords="613,405,838,448"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="993,323,937,363,872,396,840,407,838,402,870,391,934,358,988,325"/>
+<area shape="rect" id="Node000010" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a05bd036d19272090ba260a47be04a15c" title=" " alt="" coords="613,472,838,515"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="1010,326,953,398,915,433,873,462,839,477,838,472,870,458,912,429,949,394,1005,329"/>
+<area shape="rect" id="Node000011" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a9fd253a45112f8db19dd112fb151259b" title=" " alt="" coords="580,123,871,181"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="986,262,933,229,870,196,843,185,843,179,872,191,936,225,992,263"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a8a23a498b5401036934f0740983b339d" title=" " alt="" coords="301,5,527,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="595,28,529,29,527,24,600,26"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="287,53,238,64,235,60,291,50"/>
+<area shape="poly" id="edge12_Node000011_Node000003" title=" " alt="" coords="562,182,532,188,380,204,241,214,239,209,379,198,532,183,567,180"/>
+<area shape="rect" id="Node000012" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#a8971989896a82cd277317f60fad957b4" title=" " alt="" coords="296,131,532,173"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="562,153,533,155,532,149,567,151"/>
+<area shape="poly" id="edge15_Node000012_Node000003" title=" " alt="" coords="300,179,225,198,222,193,304,176"/>
+<area shape="rect" id="Node000013" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node.html#add974aab4b89846a33de0eb2fe26f341" title="Called when the node is disabled." alt="" coords="14,129,239,172"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="278,153,241,154,238,149,282,150"/>
+</map>

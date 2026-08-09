@@ -1,0 +1,4 @@
+var class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1_1_genesis_inspector_texture2_d =
+[
+    [ "defaultTextureEditorTypeName", "class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1_1_genesis_inspector_texture2_d.html#afb5ff22b5d118e9d9a78268b1cdc6947", null ]
+];

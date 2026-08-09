@@ -1,0 +1,10 @@
+<map id="Unity.Mathematics.mathx.mul" name="Unity.Mathematics.mathx.mul">
+<area shape="rect" id="Node000001" title="Performs a matrix multiplication of the form: m * f." alt="" coords="5,31,201,57"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="265,5,443,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,31,252,29,246,30,201,37"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a66c1cc3f412177d3277b4d603582b2df" title="returns the float3x4 (simpler form) matrix of a RigidTransform" alt="" coords="249,56,459,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,51,236,57,230,57,201,57"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#ab6c88dae4905a6424112314d819ce2b4" title="Returns a float3x4 matrix from a float3x3 rotation matrix and a f3 translation vector." alt="" coords="507,56,727,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,67,494,69,489,69,459,72"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="573,55,565,47,571,37,588,31,617,29,649,32,667,42,662,41,648,37,617,35,589,37,574,42,571,47,578,57"/>
+</map>

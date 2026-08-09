@@ -1,0 +1,7 @@
+<map id="Unity.Mathematics.bounds.encapsulate" name="Unity.Mathematics.bounds.encapsulate">
+<area shape="rect" id="Node000001" title="Grow the bounds to encapsulate the bounds." alt="" coords="5,31,256,57"/>
+<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1bounds.html#aed695eeeddb6d8a9e12667cea9e73c49" title=" " alt="" coords="318,5,540,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,31,305,29,300,30,256,36"/>
+<area shape="rect" id="Node000003" href="$struct_unity_1_1_mathematics_1_1bounds.html#ad1dcd9b77f501ddd877c8ab2ea1e5c82" title=" " alt="" coords="304,56,554,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="256,52,291,57,285,57,256,57"/>
+</map>

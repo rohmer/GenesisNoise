@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.TypeCasting.ToInt" name="AhahGames.GenesisNoise.TypeCasting.ToInt">
+<area shape="rect" id="Node000001" title=" " alt="" coords="279,72,490,115"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_to_int_node.html#aaa3a96ee3d71b272f5587dd640142f13" title="Override this method to implement custom processing." alt="" coords="5,5,231,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="279,68,206,51,206,46,284,67"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_to_vector2_int_node.html#a9f969f04e68968f0c9670663182b0f43" title="Override this method to implement custom processing." alt="" coords="5,72,231,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="260,94,232,96,231,91,265,93"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_to_vector3_int_node.html#abe302047c98f057b28d3eacc98f944b6" title="Override this method to implement custom processing." alt="" coords="5,139,231,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="284,118,207,141,205,135,279,120"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Supercluster.KDTree.BoundedPriorityList&lt; TElement &gt;" name="Supercluster.KDTree.BoundedPriorityList&lt; TElement &gt;">
+<area shape="rect" id="Node000001" title="A list of limited length that remains sorted by TPriority . Useful for keeping track of items in near..." alt="" coords="5,80,204,123"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="18,5,191,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,46,107,81,102,79,103,50"/>
+</map>

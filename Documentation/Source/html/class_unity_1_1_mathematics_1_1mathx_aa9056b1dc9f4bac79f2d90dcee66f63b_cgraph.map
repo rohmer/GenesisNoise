@@ -1,0 +1,22 @@
+<map id="Unity.Mathematics.mathx.pModPolar" name="Unity.Mathematics.mathx.pModPolar">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,124,187,167"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a850e2263a130a53b3758fbfd8c5903d5" title="Arctangent2." alt="" coords="235,5,441,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,122,169,81,233,42,253,36,249,39,236,46,172,85,123,125"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#ab974cd65c335df8314ce1c2fa845f7cc" title="Cosine." alt="" coords="240,56,436,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,121,234,92,264,86,259,88,235,97,154,126"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#a0d6e0b81fbc2c52f3cbc26f299c9e8bb" title=" " alt="" coords="245,107,430,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="186,133,232,130,227,133,188,138"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a4401a388cb71bc5ddd177a386d337fec" title=" " alt="" coords="238,157,438,184"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="187,152,225,158,220,160,188,157"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#ae24dad21d083b8c1b3952ebd982baedc" title=" " alt="" coords="238,232,438,259"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="150,165,292,224,287,227,149,170"/>
+<area shape="rect" id="Node000008" href="$class_unity_1_1_mathematics_1_1mathx.html#a0334b17159caee23d5ce84cb3a455070" title="Sine." alt="" coords="242,283,434,309"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="116,164,167,217,200,245,236,268,251,277,245,277,233,273,197,249,163,221,114,170"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="489,157,667,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="414,30,442,42,477,65,509,92,559,146,554,145,506,95,474,69,440,46,414,35"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="406,81,442,92,497,118,546,149,541,148,495,123,440,97,406,86"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="438,168,476,170,471,171,438,173"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="383,229,516,190,521,188,384,234"/>
+<area shape="poly" id="edge10_Node000007_Node000007" title=" " alt="" coords="297,231,290,223,295,213,311,207,338,205,367,208,383,217,378,217,366,213,338,211,313,213,299,217,296,223,302,232"/>
+<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="410,279,440,268,500,232,548,196,553,194,503,236,442,273,411,285"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="AhahGames.GenesisNoise.Nodes.AggregateEnd.RegisterLoopStart" name="AhahGames.GenesisNoise.Nodes.AggregateEnd.RegisterLoopStart">
+<area shape="rect" id="Node000001" title=" " alt="" coords="854,68,1080,111"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end.html#a5c959d51e256c42ade455dc6cf9f7a53" title=" " alt="" coords="552,68,806,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="836,98,807,101,807,96,841,98"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end.html#a0ab2c2b716cea989f5b318807d869a2e" title="Called when the node is enabled." alt="" coords="279,5,504,48"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="854,64,806,59,648,42,505,33,505,28,649,37,807,53,859,65"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="822,78,856,80,851,81,822,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="561,64,492,51,493,46,566,64"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end.html#a5bb7f969949d6636016414ccd00d6c9c" title=" " alt="" coords="279,72,504,115"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="534,100,505,103,505,98,539,100"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="520,80,554,82,549,82,520,85"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end.html#aeb39aa12be44d48ae71a5b9fb25a2222" title="Called when the node is disabled." alt="" coords="5,72,231,115"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="261,93,231,96,231,91,266,93"/>
+</map>

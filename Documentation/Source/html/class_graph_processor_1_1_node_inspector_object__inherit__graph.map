@@ -1,0 +1,7 @@
+<map id="GraphProcessor.NodeInspectorObject" name="GraphProcessor.NodeInspectorObject">
+<area shape="rect" id="Node000001" title="Node inspector object, you can inherit from this class to customize your node inspector." alt="" coords="14,80,219,123"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector.html" title=" " alt="" coords="5,171,228,213"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="118,136,119,171,114,169,115,140"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="58,5,175,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,45,119,80,114,79,115,50"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="GraphProcessor.ExposedParameterView.OnAddClicked" name="GraphProcessor.ExposedParameterView.OnAddClicked">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,236,115"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_exposed_parameter_view.html#a7b1005f47e32cab8534fd3572891df09" title=" " alt="" coords="294,5,524,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,69,301,51,296,53,217,74"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_exposed_parameter_view.html#ac87d9f9ae9ee38211619eb0b5be2dfee" title=" " alt="" coords="294,72,524,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,91,281,93,275,94,236,96"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_exposed_parameter_view.html#ad57be3db0019d1833ce932a2204e92b6" title=" " alt="" coords="284,139,534,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,113,301,134,296,135,216,118"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.SwitchNode.PullCaseInputs" name="AhahGames.GenesisNoise.Nodes.SwitchNode.PullCaseInputs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,231,81"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#a144d3303267e06a3877dd606b0f0c896" title=" " alt="" coords="279,5,504,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,44,266,42,260,43,231,49"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node.html#a72bf14d17850b1c30fa9373f609ab318" title=" " alt="" coords="279,72,504,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,71,266,78,260,78,231,76"/>
+</map>

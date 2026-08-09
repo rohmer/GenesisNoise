@@ -1,0 +1,17 @@
+<map id="AhahGames.GenesisNoise.Nodes.PrimitiveNode.IsLoopMode" name="AhahGames.GenesisNoise.Nodes.PrimitiveNode.IsLoopMode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,231,148"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a57676af544a5908c4701a19b985bb3af" title="Return a node matching the condition in the dependencies of the node." alt="" coords="279,39,463,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,102,275,85,270,87,202,107"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_node_port.html#a8a52c82b7869f2f0954c9ea9bf1a8c0a" title="Get all the edges connected to this port." alt="" coords="282,105,460,148"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="231,124,269,126,264,127,232,129"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_node.html#acc62ac7f944e29ed82300959bfa56fb2" title="Get the port from field name and identifier." alt="" coords="279,172,463,215"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="202,146,275,167,270,168,201,151"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#a8f81412bbb2f0739a30067c3a58c2f36" title=" " alt="" coords="511,39,695,81"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="463,57,498,60,492,60,464,63"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html#a1cc5c66f2c4d1bdf2390b6eb81907188" title=" " alt="" coords="743,39,928,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="696,57,730,60,725,60,696,63"/>
+<area shape="rect" id="Node000005" href="$namespace_graph_processor.html#a6070c2d231a41654c17fb1f6c57839c2" title=" " alt="" coords="976,5,1165,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="928,44,963,42,957,43,928,50"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node.html#ab813e29af0abfb435e185157079266c2" title=" " alt="" coords="978,72,1162,115"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="928,70,965,78,960,78,928,76"/>
+</map>

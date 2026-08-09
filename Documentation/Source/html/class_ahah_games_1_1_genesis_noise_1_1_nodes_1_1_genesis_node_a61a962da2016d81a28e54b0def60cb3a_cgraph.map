@@ -1,0 +1,15 @@
+<map id="AhahGames.GenesisNoise.Nodes.GenesisNode.AssignMaterialPropertiesFromEdges" name="AhahGames.GenesisNoise.Nodes.GenesisNode.AssignMaterialPropertiesFromEdges">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,255,188"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter.html#a44c5b089dcf950ecdf117cbc15b1fb40" title=" " alt="" coords="303,88,545,147"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,139,290,135,285,138,256,144"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter.html#a3c4a1ab6b1902c9be9bbf41954c2086d" title=" " alt="" coords="303,171,545,229"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="255,174,290,180,285,181,256,179"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter.html#a9fe3df271d81c625ff543a3cb6848307" title=" " alt="" coords="594,5,842,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="530,85,599,68,594,70,532,90"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter.html#ab881b10fcaaf48e2d3c31a799b817381" title=" " alt="" coords="594,88,842,147"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="545,115,580,117,575,118,546,120"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter.html#a83e218d168890d97d3bb7dac055f184e" title=" " alt="" coords="593,171,842,229"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="545,197,580,200,575,200,546,203"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter.html#af0e6cb932fc4d986fd598d022ff06f1a" title=" " alt="" coords="594,253,841,312"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="531,227,599,249,594,249,530,233"/>
+</map>

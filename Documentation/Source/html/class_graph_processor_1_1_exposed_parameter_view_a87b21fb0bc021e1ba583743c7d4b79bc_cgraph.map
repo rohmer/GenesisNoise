@@ -1,0 +1,7 @@
+<map id="GraphProcessor.ExposedParameterView.OnDragPerformEvent" name="GraphProcessor.ExposedParameterView.OnDragPerformEvent">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,236,81"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_exposed_parameter_view.html#a58318f46a41931d4158aec2287134fa6" title=" " alt="" coords="284,5,539,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,44,271,43,265,44,237,49"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_exposed_parameter_view.html#abe323671c12229b7ec690429da34ba9f" title=" " alt="" coords="296,72,526,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,71,284,78,278,79,236,76"/>
+</map>

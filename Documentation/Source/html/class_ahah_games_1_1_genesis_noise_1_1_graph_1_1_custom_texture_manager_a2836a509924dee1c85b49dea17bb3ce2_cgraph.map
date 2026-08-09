@@ -1,0 +1,8 @@
+<map id="AhahGames.GenesisNoise.Graph.CustomTextureManager.MakeCRTCommandBuffer" name="AhahGames.GenesisNoise.Graph.CustomTextureManager.MakeCRTCommandBuffer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,289,88"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager.html#a58cff044ea53608e7548fc0ae70e1370" title=" " alt="" coords="337,29,589,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="289,56,324,59,318,59,289,61"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="405,27,406,19,416,10,435,5,463,3,494,5,515,15,510,15,493,11,463,8,436,10,419,15,410,21,409,31"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager.html#aff6fd0f260045747b32a5ec7702f194c" title=" " alt="" coords="637,29,889,88"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="589,56,624,59,619,59,590,61"/>
+</map>

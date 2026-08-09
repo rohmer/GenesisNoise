@@ -1,0 +1,5 @@
+<map id="GraphProcessor.BaseGraphWindow.InitializeRootView" name="GraphProcessor.BaseGraphWindow.InitializeRootView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="238,5,422,48"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph_window.html#accc123305a3401b0cf1ba1e2f927ba13" title="Called by Unity when the window is enabled / opened." alt="" coords="5,5,190,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,27,190,29,190,24,224,26"/>
+</map>

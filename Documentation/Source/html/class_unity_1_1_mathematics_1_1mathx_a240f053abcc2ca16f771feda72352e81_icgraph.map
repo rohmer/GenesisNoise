@@ -1,0 +1,15 @@
+<map id="Unity.Mathematics.mathx.rotation" name="Unity.Mathematics.mathx.rotation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="285,132,502,159"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a33260204b504e17e8d581c9331f23027" title=" " alt="" coords="23,5,219,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="361,122,305,84,236,46,203,35,202,30,238,42,308,80,366,122"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a675956ad8fdeeb78cf577bd5809923d0" title="Returns the result of rotating a vector by a rotation matrix." alt="" coords="17,56,225,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="336,127,236,97,191,86,190,81,237,92,341,125"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#a29483e5576cb6c911a70c34649d84422" title="Returns the result of rotating a vector by a unit quaternion." alt="" coords="17,107,225,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="267,135,226,132,225,127,272,133"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#a413cf60c61bb550a139c30d1f722543e" title="Returns the result of rotating a vector by a unit quaternion." alt="" coords="17,157,225,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="267,158,226,164,224,158,272,156"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a2a3196dae2871470265f780446b73fa5" title=" " alt="" coords="5,208,237,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="336,165,237,199,191,210,190,205,236,193,341,163"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#a42b0f2f050802a6ffb6a95e34d4d984c" title=" " alt="" coords="5,259,237,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="366,167,308,211,238,249,203,261,202,255,236,244,305,206,361,169"/>
+</map>

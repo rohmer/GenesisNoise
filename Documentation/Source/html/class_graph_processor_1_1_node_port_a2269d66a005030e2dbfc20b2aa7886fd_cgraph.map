@@ -1,0 +1,19 @@
+<map id="GraphProcessor.NodePort.CreatePushDataDelegateForEdge" name="GraphProcessor.NodePort.CreatePushDataDelegateForEdge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,65,225,108"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_type_adapter.html#ae7e8be0bbef72a89f3471a63a5e497da" title=" " alt="" coords="517,73,713,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,62,209,37,272,17,327,7,371,3,415,6,470,17,523,37,572,65,567,64,521,42,468,22,414,11,371,8,328,12,273,22,211,42,157,67"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_type_adapter.html#a2dfd42586f57315d14569853f219792d" title=" " alt="" coords="273,32,469,74"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="224,70,260,67,255,69,226,75"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_node_port.html#a337a13507a3a5a7da1cbdac7c3feed1c" title="Delegate that is made to send the data from this port to another port connected through an edge This ..." alt="" coords="282,98,460,141"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="225,98,269,105,264,107,226,103"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_graph.html#a5a962e414782f22fe5b879d384665bbd" title="Tell if two types can be connected in the context of a graph." alt="" coords="277,165,465,208"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="166,106,274,151,292,159,287,159,272,156,165,111"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_type_adapter.html#a2caf17701eadc181ae9d7ab3539ed995" title=" " alt="" coords="761,136,958,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="701,114,762,132,756,131,701,119"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_type_adapter.html#a1edb2b3a6e33b10ffdd6cadabf3f69f9" title=" " alt="" coords="761,69,958,112"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="713,90,748,92,743,93,714,96"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="437,162,468,151,545,123,550,122,470,156,438,167"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="465,178,748,164,743,164,465,183"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_custom_port_i_o.html#adbd3b5edce41f93707e3cb8c8e952d82" title=" " alt="" coords="520,194,710,237"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="466,195,507,203,502,203,466,200"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.RedrawAllSettings" name="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.RedrawAllSettings">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,284,172"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a9c24074833a6b486cdab0f17769bd638" title=" " alt="" coords="332,129,595,172"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,148,319,150,313,151,285,153"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a85915228f21a3be91c2062d02d050fdc" title=" " alt="" coords="647,5,877,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="501,126,566,92,642,58,659,54,664,52,644,62,568,97,503,131"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a52e5dcbb12899501393a9abb16ae6566" title=" " alt="" coords="644,96,881,139"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="595,133,630,132,625,133,596,139"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a315dbf9ef6f797bc294498b9028a86a8" title=" " alt="" coords="643,163,881,205"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="595,163,630,169,625,169,595,168"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#a5dc6b69cb701ec83d45baa9734424188" title=" " alt="" coords="648,229,876,272"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="520,170,644,215,668,225,663,224,642,220,519,175"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="707,94,704,86,713,77,733,71,762,69,794,72,815,81,810,81,793,77,762,75,734,77,716,81,709,87,711,97"/>
+</map>

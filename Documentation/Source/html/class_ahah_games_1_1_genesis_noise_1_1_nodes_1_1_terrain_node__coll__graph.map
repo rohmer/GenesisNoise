@@ -1,0 +1,10 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainNode" name="AhahGames.GenesisNoise.Nodes.TerrainNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="30,320,256,363"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html" title="The point/site/seed on the Voronoi plane. This has a Cell of VoronoiEdges. This has Points of Voronoi..." alt="" coords="50,221,236,248"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,262,145,320,140,318,141,265"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_voronoi_edge.html" title="The line segment making the Voronoi cells, i.e. the points equidistant to the two nearest Voronoi sit..." alt="" coords="195,113,387,140"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="259,151,162,223,159,219,263,147"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_voronoi_point.html" title="The vertices/nodes of the Voronoi cells, i.e. the points equidistant to three or more Voronoi sites...." alt="" coords="5,5,198,32"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="95,45,90,96,90,122,94,149,113,188,135,220,129,221,108,191,89,150,85,123,84,95,94,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="137,37,271,112,266,114,137,42"/>
+</map>

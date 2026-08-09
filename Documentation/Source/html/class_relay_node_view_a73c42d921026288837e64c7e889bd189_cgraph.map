@@ -1,0 +1,5 @@
+<map id="RelayNodeView.SetPosition" name="RelayNodeView.SetPosition">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,191,32"/>
+<area shape="rect" id="Node000002" href="$class_relay_node_view.html#a682f9a4764b4b963ab002eb8a8770b05" title=" " alt="" coords="239,5,425,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,16,226,19,220,19,191,21"/>
+</map>

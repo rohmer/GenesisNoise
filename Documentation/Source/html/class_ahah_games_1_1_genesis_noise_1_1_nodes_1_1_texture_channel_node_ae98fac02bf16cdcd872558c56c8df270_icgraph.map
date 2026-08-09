@@ -1,0 +1,7 @@
+<map id="AhahGames.GenesisNoise.Nodes.TextureChannelNode.ReleaseOutput" name="AhahGames.GenesisNoise.Nodes.TextureChannelNode.ReleaseOutput">
+<area shape="rect" id="Node000001" title=" " alt="" coords="568,5,802,48"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_channel_node.html#ab44e27eadf0f2b4be9ba0eae42fdc064" title=" " alt="" coords="279,5,520,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="550,27,520,29,520,24,555,27"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_channel_node.html#a905d856e79e97614e9c806fc41780ac9" title="Called when the node is disabled." alt="" coords="5,5,231,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,27,231,29,231,24,266,27"/>
+</map>

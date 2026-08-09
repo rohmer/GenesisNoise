@@ -1,0 +1,113 @@
+<map id="AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.GenerateDocumentationWear" name="AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.GenerateDocumentationWear">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,843,341,885"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a34aff2af6d574fdd1275fe0a1501a36d" title=" " alt="" coords="389,843,694,885"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="340,861,375,863,370,865,342,867"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#ae10f2895986e023f3f21c73856c2a96e" title=" " alt="" coords="744,545,1022,588"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="566,840,843,599,848,597,569,844"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#af0a96de6bf701a488251e4e616e004e3" title=" " alt="" coords="764,755,1002,797"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="627,839,786,801,781,803,628,845"/>
+<area shape="rect" id="Node000047" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a1327ecbf731f1380388bf6ff21b03cf5" title=" " alt="" coords="1087,813,1349,856"/>
+<area shape="poly" id="edge56_Node000002_Node000047" title=" " alt="" coords="694,855,1074,840,1069,842,695,860"/>
+<area shape="rect" id="Node000048" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#af892da2541894cce1d2a442b948f9422" title=" " alt="" coords="1449,1021,1685,1064"/>
+<area shape="poly" id="edge55_Node000002_Node000048" title=" " alt="" coords="694,865,885,873,1092,884,1267,901,1329,912,1365,924,1377,934,1384,944,1391,966,1397,988,1413,1007,1437,1023,1432,1022,1410,1011,1392,990,1386,968,1379,947,1373,937,1362,929,1328,917,1267,907,1091,890,885,878,695,871"/>
+<area shape="rect" id="Node000071" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#aeb0956ff22e461b3281dd5f065a38097" title=" " alt="" coords="751,931,1015,973"/>
+<area shape="poly" id="edge57_Node000002_Node000071" title=" " alt="" coords="628,883,786,926,781,927,627,889"/>
+<area shape="rect" id="Node000072" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a5e4c5f546701e3bdc75a879ae1d3c515" title=" " alt="" coords="742,997,1024,1056"/>
+<area shape="poly" id="edge58_Node000002_Node000072" title=" " alt="" coords="574,883,649,933,743,983,759,992,754,991,741,988,647,937,573,889"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#ac0f5f71d3c74768fc172682a76bd5343" title=" " alt="" coords="1100,359,1336,401"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="903,543,972,477,1020,441,1071,411,1088,406,1084,409,1074,416,1023,446,976,482,906,547"/>
+<area shape="poly" id="edge5_Node000005_Node000005" title=" " alt="" coords="821,753,818,744,829,735,850,730,883,728,919,730,942,739,937,739,918,736,883,733,851,735,831,740,823,746,826,755"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#acc3d267cd285e7efdb9d35d122511b8a" title="Creates a temporary graph, displays a cloned copy of the node, captures it, and writes the result to ..." alt="" coords="1107,425,1329,484"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="905,752,1173,496,1178,494,908,757"/>
+<area shape="rect" id="Node000037" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html#a5ec30bd641850b926c4a9e3cdf88303c" title="Called only when the node is created, not when instantiated." alt="" coords="2543,691,2768,733"/>
+<area shape="poly" id="edge53_Node000005_Node000037" title=" " alt="" coords="1002,755,1260,723,1413,711,1565,707,1927,707,2530,711,2525,712,1926,712,1566,712,1413,717,1261,729,1003,760"/>
+<area shape="poly" id="edge35_Node000005_Node000047" title=" " alt="" coords="1002,794,1080,810,1075,810,1003,800"/>
+<area shape="rect" id="Node000049" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a47aebbdce8bd10c2753c4951d5b2a40e" title=" " alt="" coords="1412,755,1722,797"/>
+<area shape="poly" id="edge54_Node000005_Node000049" title=" " alt="" coords="1002,773,1399,775,1394,777,1003,779"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph.html#a1ce753492c12ed8163e1ab9e6a0f5c7f" title=" " alt="" coords="1445,288,1689,331"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1328,430,1362,411,1377,394,1385,377,1393,358,1410,341,1428,333,1433,331,1413,345,1397,361,1390,379,1382,397,1365,415,1331,434"/>
+<area shape="rect" id="Node000008" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#ad309769eae33b9bf1768014b4800a44c" title=" " alt="" coords="1441,355,1693,397"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1329,427,1456,400,1451,402,1331,432"/>
+<area shape="rect" id="Node000012" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#ad1a254e5e0fd813ee0ec2f154508e784" title=" " alt="" coords="1460,433,1674,476"/>
+<area shape="poly" id="edge12_Node000006_Node000012" title=" " alt="" coords="1329,452,1446,454,1441,455,1330,457"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_json_serializer.html#a8f300539d831f710a5ddbfa423f20cd4" title=" " alt="" coords="1822,343,2028,385"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1693,369,1809,367,1804,369,1694,374"/>
+<area shape="rect" id="Node000010" href="$class_graph_processor_1_1_json_serializer.html#a90f48add51973586a750368f79c21f14" title=" " alt="" coords="1822,276,2028,319"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="1671,352,1721,340,1769,328,1810,321,1805,323,1771,333,1723,345,1673,357"/>
+<area shape="rect" id="Node000011" href="$class_graph_processor_1_1_json_serializer.html#a7441bd0676c2e32a8f5a4d73487adb88" title=" " alt="" coords="2190,276,2396,319"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="2028,295,2177,297,2172,298,2029,300"/>
+<area shape="rect" id="Node000013" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#aa0ee5804796fbcc10ebc969c595e0c3f" title=" " alt="" coords="1793,433,2057,476"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1674,452,1780,454,1775,455,1675,457"/>
+<area shape="poly" id="edge19_Node000013_Node000013" title=" " alt="" coords="1859,432,1856,423,1867,414,1890,409,1925,407,1963,409,1988,418,1983,418,1962,414,1925,412,1891,414,1869,419,1861,425,1864,434"/>
+<area shape="rect" id="Node000014" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a4381676148cb3179a2a6ac5dc9802162" title=" " alt="" coords="2548,72,2762,115"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="2026,430,2295,369,2408,343,2456,328,2473,307,2480,284,2482,261,2480,238,2478,214,2479,190,2487,165,2504,141,2532,122,2536,120,2508,145,2492,168,2485,191,2484,214,2485,238,2487,261,2486,285,2477,309,2459,333,2409,348,2297,375,2027,435"/>
+<area shape="rect" id="Node000024" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a713159a6f1ec0c6201f27e441709c513" title=" " alt="" coords="2186,423,2400,465"/>
+<area shape="poly" id="edge20_Node000013_Node000024" title=" " alt="" coords="2057,448,2173,447,2168,448,2058,453"/>
+<area shape="rect" id="Node000015" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#afea84953858cbfb6d852f65100e6653c" title=" " alt="" coords="2886,72,3100,115"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="2762,91,2874,93,2868,94,2763,96"/>
+<area shape="rect" id="Node000016" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a539cf5981b4733c4c76ec4dd66ab267a" title=" " alt="" coords="3181,139,3407,197"/>
+<area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="3087,113,3134,124,3169,135,3164,135,3133,129,3087,118"/>
+<area shape="rect" id="Node000017" href="$class_graph_processor_1_1_base_graph.html#a3f6c4ab84f91a1835e2527d15e3d76a6" title="Removes a node from the graph." alt="" coords="3200,72,3388,115"/>
+<area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="3100,91,3187,93,3181,94,3101,96"/>
+<area shape="rect" id="Node000022" href="$class_graph_processor_1_1_base_graph_view.html#a841269e9bc092f01505f71425617add9" title=" " alt="" coords="3202,5,3386,48"/>
+<area shape="poly" id="edge18_Node000015_Node000022" title=" " alt="" coords="3092,69,3189,50,3184,51,3093,74"/>
+<area shape="poly" id="edge26_Node000024_Node000014" title=" " alt="" coords="2400,420,2430,405,2456,382,2475,351,2483,320,2482,289,2478,258,2473,227,2473,195,2482,163,2504,131,2532,114,2536,111,2508,135,2487,166,2479,196,2479,226,2483,257,2487,288,2488,320,2480,353,2460,386,2433,409,2402,425"/>
+<area shape="poly" id="edge25_Node000024_Node000016" title=" " alt="" coords="2348,463,2423,489,2506,508,2689,539,2766,549,2838,552,2907,546,2977,527,3051,493,3132,442,3160,418,3185,390,3227,328,3257,265,3278,214,3282,210,3262,267,3232,331,3189,394,3164,422,3135,446,3054,498,2979,532,2908,551,2838,557,2766,554,2688,544,2505,513,2421,494,2348,469"/>
+<area shape="rect" id="Node000025" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view.html#a68d972c1ff11187d10b6359a34bac03e" title=" " alt="" coords="2544,573,2767,616"/>
+<area shape="poly" id="edge21_Node000024_Node000025" title=" " alt="" coords="2331,463,2411,508,2507,552,2549,569,2543,568,2505,557,2408,512,2330,469"/>
+<area shape="rect" id="Node000026" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view.html#a0d2ff9591805cfca0fa3545d92893e58" title=" " alt="" coords="2882,603,3105,645"/>
+<area shape="poly" id="edge33_Node000024_Node000026" title=" " alt="" coords="2311,463,2344,502,2389,548,2444,592,2475,611,2507,626,2552,640,2599,649,2696,658,2789,655,2875,648,2870,649,2789,660,2696,663,2599,655,2551,645,2505,630,2472,616,2441,597,2385,552,2340,506,2310,468"/>
+<area shape="rect" id="Node000033" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a8314230358d2b4497b2f0b81f26afea7" title=" " alt="" coords="2886,139,3100,197"/>
+<area shape="poly" id="edge23_Node000024_Node000033" title=" " alt="" coords="2399,420,2430,404,2456,382,2472,356,2479,330,2478,303,2475,277,2472,250,2473,224,2483,199,2504,175,2531,161,2567,151,2661,142,2768,144,2873,154,2868,154,2768,149,2661,148,2568,156,2533,166,2507,179,2487,202,2479,225,2477,250,2480,276,2484,303,2484,331,2477,358,2460,386,2433,409,2401,425"/>
+<area shape="rect" id="Node000034" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a6f3b0918d3d3a3fdadcb4957afce1e2a" title=" " alt="" coords="2539,189,2772,232"/>
+<area shape="poly" id="edge27_Node000024_Node000034" title=" " alt="" coords="2396,420,2428,404,2456,382,2469,365,2475,348,2478,313,2481,277,2489,259,2504,242,2523,232,2527,229,2507,246,2494,262,2487,278,2483,313,2480,349,2473,368,2460,386,2431,408,2398,425"/>
+<area shape="rect" id="Node000035" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a6cb0d42bdf11d9fe523f28be6eeb168b" title=" " alt="" coords="2548,256,2762,299"/>
+<area shape="poly" id="edge28_Node000024_Node000035" title=" " alt="" coords="2384,420,2422,404,2456,382,2471,364,2479,346,2487,327,2504,309,2531,297,2536,295,2507,313,2491,330,2484,348,2476,367,2459,386,2424,408,2386,425"/>
+<area shape="rect" id="Node000036" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#ab32e1b136d6386868b305da77a9bebdc" title=" " alt="" coords="2544,323,2766,365"/>
+<area shape="poly" id="edge29_Node000024_Node000036" title=" " alt="" coords="2358,420,2505,375,2539,369,2534,370,2506,380,2359,425"/>
+<area shape="poly" id="edge30_Node000024_Node000037" title=" " alt="" coords="2309,463,2341,508,2386,564,2442,621,2474,647,2507,670,2533,685,2528,684,2504,674,2471,651,2439,625,2382,567,2337,511,2307,468"/>
+<area shape="rect" id="Node000038" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_window.html#ad7d09db6fa40b4dc1b4ccaacf4920e07" title=" " alt="" coords="2544,389,2766,432"/>
+<area shape="poly" id="edge31_Node000024_Node000038" title=" " alt="" coords="2400,432,2532,422,2526,423,2401,437"/>
+<area shape="rect" id="Node000043" href="$class_ahah_games_1_1_genesis_noise_1_1_node_snapshot_utility.html#a1799b33dfb9e3946c7ac696d8fd1761b" title=" " alt="" coords="2548,456,2762,499"/>
+<area shape="poly" id="edge34_Node000024_Node000043" title=" " alt="" coords="2401,451,2536,466,2530,466,2401,457"/>
+<area shape="poly" id="edge22_Node000025_Node000026" title=" " alt="" coords="2767,602,2869,613,2863,613,2767,607"/>
+<area shape="poly" id="edge24_Node000033_Node000016" title=" " alt="" coords="3101,165,3169,168,3163,168,3101,171"/>
+<area shape="rect" id="Node000039" href="$class_graph_processor_1_1_base_graph_window.html#a92a56aef42272dc3fc3c77d847a234bf" title=" " alt="" coords="2901,389,3085,432"/>
+<area shape="poly" id="edge32_Node000038_Node000039" title=" " alt="" coords="2767,408,2888,410,2883,411,2767,413"/>
+<area shape="poly" id="edge36_Node000047_Node000048" title=" " alt="" coords="1338,854,1365,873,1379,890,1387,907,1390,942,1393,976,1400,992,1413,1007,1437,1025,1432,1024,1410,1011,1396,995,1388,977,1385,943,1381,909,1375,893,1362,877,1337,859"/>
+<area shape="poly" id="edge37_Node000047_Node000049" title=" " alt="" coords="1348,810,1423,800,1418,801,1349,815"/>
+<area shape="rect" id="Node000050" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a3816524ccff6307f660d531324868e62" title=" " alt="" coords="1770,829,2080,872"/>
+<area shape="poly" id="edge49_Node000047_Node000050" title=" " alt="" coords="1350,835,1757,846,1752,847,1350,840"/>
+<area shape="rect" id="Node000068" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a9fd075b175a51fe87bc034aa284f57a0" title=" " alt="" coords="1436,872,1698,931"/>
+<area shape="poly" id="edge50_Node000047_Node000068" title=" " alt="" coords="1333,854,1423,873,1418,873,1333,859"/>
+<area shape="rect" id="Node000070" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a642b81ad31030c89ad379fe0c7f6b212" title=" " alt="" coords="1440,955,1694,997"/>
+<area shape="poly" id="edge52_Node000047_Node000070" title=" " alt="" coords="1330,854,1365,873,1382,890,1390,908,1398,925,1413,941,1428,951,1423,950,1410,945,1393,928,1385,910,1377,893,1362,877,1329,859"/>
+<area shape="poly" id="edge38_Node000049_Node000050" title=" " alt="" coords="1673,795,1807,826,1802,826,1673,801"/>
+<area shape="rect" id="Node000052" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#aa4c55880c33a8c94a92cec9df3090fa8" title=" " alt="" coords="1798,747,2052,805"/>
+<area shape="poly" id="edge40_Node000049_Node000052" title=" " alt="" coords="1722,773,1785,776,1780,776,1723,779"/>
+<area shape="rect" id="Node000051" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a867d9533086a4f01361c5a8a00d35c71" title=" " alt="" coords="2128,829,2458,872"/>
+<area shape="poly" id="edge39_Node000050_Node000051" title=" " alt="" coords="2081,848,2115,850,2110,851,2081,853"/>
+<area shape="rect" id="Node000053" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#ad0b529c775f344d263f2d89bbe83a927" title=" " alt="" coords="2150,759,2436,801"/>
+<area shape="poly" id="edge41_Node000052_Node000053" title=" " alt="" coords="2052,775,2137,778,2132,778,2053,780"/>
+<area shape="poly" id="edge48_Node000053_Node000037" title=" " alt="" coords="2410,755,2525,736,2530,735,2411,761"/>
+<area shape="rect" id="Node000054" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a1e80ccde2e870b64c14caf0e1e4ec57b" title=" " alt="" coords="2506,957,2805,1000"/>
+<area shape="poly" id="edge42_Node000053_Node000054" title=" " alt="" coords="2436,799,2459,815,2473,831,2481,848,2484,881,2488,913,2495,929,2508,943,2512,949,2507,948,2504,947,2490,931,2483,915,2479,882,2475,849,2469,834,2456,819,2434,804"/>
+<area shape="rect" id="Node000055" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html#a7cce66f8469e68e6143a15f3d0bd9f49" title=" " alt="" coords="2543,757,2768,800"/>
+<area shape="poly" id="edge43_Node000053_Node000055" title=" " alt="" coords="2436,777,2530,779,2525,779,2436,782"/>
+<area shape="rect" id="Node000056" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html#a88944abd0e3cd15563eb20fa5805ed91" title=" " alt="" coords="2543,824,2768,867"/>
+<area shape="poly" id="edge44_Node000053_Node000056" title=" " alt="" coords="2415,799,2530,822,2525,822,2415,805"/>
+<area shape="rect" id="Node000057" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a3c5146e7b50ba0f6c25e6d36e0631b0a" title=" " alt="" coords="2509,891,2802,933"/>
+<area shape="poly" id="edge45_Node000053_Node000057" title=" " alt="" coords="2427,799,2459,815,2476,831,2484,847,2492,862,2507,877,2517,884,2511,883,2504,881,2488,865,2479,849,2471,834,2456,820,2426,805"/>
+<area shape="rect" id="Node000058" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a8f37a0cdf88c75b58b9d3c4fc8b20a26" title=" " alt="" coords="2874,920,3113,979"/>
+<area shape="poly" id="edge46_Node000057_Node000058" title=" " alt="" coords="2802,926,2861,934,2855,934,2802,931"/>
+<area shape="rect" id="Node000065" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a25383cb810e00a8858401262fd08c54f" title=" " alt="" coords="2853,853,3133,896"/>
+<area shape="poly" id="edge47_Node000057_Node000065" title=" " alt="" coords="2802,893,2835,892,2840,892,2802,898"/>
+<area shape="rect" id="Node000069" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a1a4ac0e3fd76de7ca97e42949d3fba72" title=" " alt="" coords="1786,896,2065,939"/>
+<area shape="poly" id="edge51_Node000068_Node000069" title=" " alt="" coords="1698,905,1773,910,1767,911,1699,910"/>
+<area shape="rect" id="Node000073" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a7ba4797407cefe836642890066cfbdf7" title=" " alt="" coords="1093,939,1343,981"/>
+<area shape="poly" id="edge59_Node000072_Node000073" title=" " alt="" coords="1024,996,1090,985,1096,984,1025,1001"/>
+<area shape="rect" id="Node000074" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a2e4638f59281aa64b2d332135238a1ae" title=" " alt="" coords="1098,1005,1338,1048"/>
+<area shape="poly" id="edge60_Node000072_Node000074" title=" " alt="" coords="1025,1024,1085,1027,1080,1027,1025,1029"/>
+<area shape="rect" id="Node000075" href="$class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html#a1046af56efa243d00a92e13e8675d43b" title=" " alt="" coords="1072,1072,1364,1115"/>
+<area shape="poly" id="edge61_Node000072_Node000075" title=" " alt="" coords="1025,1052,1096,1069,1090,1068,1025,1057"/>
+</map>

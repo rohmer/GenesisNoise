@@ -1,0 +1,21 @@
+<map id="AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.PrepareNewLoopRun" name="AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.PrepareNewLoopRun">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,68,291,111"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node.html#a8d7c3a3e88d9c9d9e132ebee6d9cb431" title=" " alt="" coords="339,23,591,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="291,70,326,68,321,69,292,75"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node.html#a9235fea116a66b2749238c3d917619df" title=" " alt="" coords="349,105,581,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,104,336,111,331,112,291,109"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html#a57676af544a5908c4701a19b985bb3af" title="Return a node matching the condition in the dependencies of the node." alt="" coords="639,39,823,81"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="552,102,626,86,631,85,553,107"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_node_port.html#a8a52c82b7869f2f0954c9ea9bf1a8c0a" title="Get all the edges connected to this port." alt="" coords="642,105,820,148"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="581,124,629,126,624,127,582,129"/>
+<area shape="rect" id="Node000010" href="$class_graph_processor_1_1_base_node.html#acc62ac7f944e29ed82300959bfa56fb2" title="Get the port from field name and identifier." alt="" coords="639,172,823,215"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="553,146,631,168,626,168,553,151"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node.html#a8f81412bbb2f0739a30067c3a58c2f36" title=" " alt="" coords="871,39,1056,81"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="824,57,858,60,853,60,824,63"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node.html#a1cc5c66f2c4d1bdf2390b6eb81907188" title=" " alt="" coords="1104,39,1288,81"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1056,57,1090,60,1085,60,1056,63"/>
+<area shape="rect" id="Node000007" href="$namespace_graph_processor.html#a6070c2d231a41654c17fb1f6c57839c2" title=" " alt="" coords="1336,5,1525,48"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1288,44,1318,43,1323,42,1289,50"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_node.html#ab813e29af0abfb435e185157079266c2" title=" " alt="" coords="1338,72,1523,115"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="1288,70,1326,78,1320,78,1288,76"/>
+</map>

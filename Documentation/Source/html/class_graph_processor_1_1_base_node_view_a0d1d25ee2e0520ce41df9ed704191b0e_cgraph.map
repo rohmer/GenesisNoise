@@ -1,0 +1,9 @@
+<map id="GraphProcessor.BaseNodeView.CreateSettingButton" name="GraphProcessor.BaseNodeView.CreateSettingButton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,218,81"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#a6f994a139d977f7bd0bdd8a4d60d3978" title=" " alt="" coords="266,39,478,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,57,253,60,248,60,218,63"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#aea821ac4a7d81e62435c262fbc9f6f71" title=" " alt="" coords="526,5,738,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,44,513,42,508,43,479,49"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node_view.html#a64bbd80a01c2d0bd7230425ae8f93ef4" title=" " alt="" coords="526,72,738,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="478,71,513,78,508,78,478,76"/>
+</map>

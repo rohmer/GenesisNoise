@@ -1,0 +1,12 @@
+<map id="Unity.Mathematics.byte3" name="Unity.Mathematics.byte3">
+<area shape="rect" id="Node000001" title="A 3 component vector of bytes." alt="" coords="24,180,190,207"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,89,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="26,47,14,76,11,91,15,107,29,129,47,149,86,178,82,181,43,153,24,133,10,109,6,92,9,74,27,42"/>
+<area shape="rect" id="Node000004" href="$struct_unity_1_1_mathematics_1_1byte3.html" title="A 3 component vector of bytes." alt="" coords="24,81,190,108"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="67,41,99,80,94,82,66,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="176,5,270,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,42,264,75,266,92,261,109,240,135,214,156,185,171,157,182,155,177,183,166,211,151,237,131,257,107,261,92,259,76,244,47"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="189,42,128,83,125,79,193,39"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="109,122,110,181,104,179,105,125"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="206,87,217,95,209,101,191,104,190,99,207,96,212,95,205,93"/>
+</map>

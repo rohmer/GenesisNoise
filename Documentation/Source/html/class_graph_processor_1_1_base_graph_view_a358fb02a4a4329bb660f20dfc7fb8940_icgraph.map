@@ -1,0 +1,21 @@
+<map id="GraphProcessor.BaseGraphView.UpdateNodeInspectorSelection" name="GraphProcessor.BaseGraphView.UpdateNodeInspectorSelection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="506,139,740,181"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph_view.html#a45b5787b0ae2023eec3b0fb95fc6df76" title=" " alt="" coords="256,5,440,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="577,130,521,96,457,62,429,51,429,46,459,58,524,92,582,130"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_graph_view.html#a5c926d8651a0178aceda6f8516b4e607" title=" " alt="" coords="238,72,458,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="515,135,439,118,439,113,520,134"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_graph_view.html#ad348b1f0b6f06f9b2819100c6697ce56" title=" " alt="" coords="256,139,440,181"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="487,161,441,163,440,157,493,159"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_graph_view.html#aff23e136343011ea2b20eaa42df91250" title=" " alt="" coords="256,205,440,248"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="515,186,440,207,438,202,520,185"/>
+<area shape="rect" id="Node000007" href="$class_graph_processor_1_1_base_graph_view.html#af5b46ef5d93819fbca44b3cc332ddee9" title=" " alt="" coords="256,272,440,315"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="582,189,524,228,459,262,430,274,428,269,457,258,521,224,577,191"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph_view.html#ae394d2e4c2b7ddbefbd325ea45350d97" title=" " alt="" coords="5,139,190,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="248,56,239,62,176,101,126,140,122,136,173,97,236,58,253,53"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="249,121,181,140,179,136,253,118"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="238,161,191,163,190,157,243,159"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="248,202,180,185,180,179,253,200"/>
+<area shape="poly" id="edge10_Node000007_Node000003" title=" " alt="" coords="248,266,236,262,173,223,123,185,124,179,176,219,239,258,253,266"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_base_graph_view.html#a141204de6a233ef862f218ef0ba5f73b" title="Call this function when you want to remove this view." alt="" coords="5,272,190,315"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="238,294,190,296,190,291,243,293"/>
+</map>

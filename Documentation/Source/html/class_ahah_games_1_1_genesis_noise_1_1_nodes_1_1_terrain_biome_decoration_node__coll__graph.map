@@ -1,0 +1,81 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode" name="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2459,335,2684,377"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_cached_terrain_node.html" title=" " alt="" coords="2104,275,2329,317"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2344,315,2462,337,2456,337,2344,320"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html" title=" " alt="" coords="1716,229,1942,272"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1957,263,2106,283,2101,283,1957,268"/>
+<area shape="poly" id="edge24_Node000003_Node000003" title=" " alt="" coords="1794,211,1807,205,1829,203,1849,205,1863,210,1869,219,1867,230,1863,227,1864,221,1859,215,1848,210,1829,208,1809,210,1796,216"/>
+<area shape="rect" id="Node000012" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings.html" title=" " alt="" coords="2105,208,2328,251"/>
+<area shape="poly" id="edge14_Node000012_Node000003" title=" " alt="" coords="1947,224,1986,219,2033,217,2080,219,2107,222,2102,223,2080,224,2033,222,1987,224,1948,229"/>
+<area shape="rect" id="Node000015" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_output_node.html" title=" " alt="" coords="2104,93,2329,136"/>
+<area shape="poly" id="edge19_Node000015_Node000003" title=" " alt="" coords="1897,221,1994,184,2103,145,2143,136,2137,137,2105,151,1996,189,1899,226"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html" title=" " alt="" coords="1356,311,1536,337"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1534,305,1718,271,1713,273,1535,310"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_node_port_container.html" title="Container of ports and the edges connected to these ports." alt="" coords="1714,444,1944,471"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="1468,347,1518,395,1549,418,1583,436,1648,454,1716,463,1711,463,1647,459,1581,441,1546,423,1515,399,1467,352"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_node_input_port_container.html" title=" " alt="" coords="2127,341,2306,384"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="2109,358,1536,331,1536,326,2114,357"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="1902,437,1962,423,2125,385,2130,384,1963,428,1903,442"/>
+<area shape="rect" id="Node000008" href="$class_graph_processor_1_1_node_output_port_container.html" title=" " alt="" coords="2122,413,2311,456"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="1959,447,2124,440,2118,441,1960,452"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="1385,471,1506,497"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1522,476,1716,465,1711,466,1522,481"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="2103,427,1914,411,1695,381,1592,361,1502,341,1502,335,1593,356,1696,376,1914,405,2109,426"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_base_graph.html" title=" " alt="" coords="1055,73,1240,100"/>
+<area shape="poly" id="edge10_Node000004_Node000009" title=" " alt="" coords="1178,107,1430,310,1424,310,1177,112"/>
+<area shape="rect" id="Node000013" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph.html" title=" " alt="" coords="2460,93,2683,136"/>
+<area shape="poly" id="edge16_Node000013_Node000009" title=" " alt="" coords="1191,64,1242,44,1304,24,1374,9,1444,3,2218,3,2262,5,2307,12,2394,35,2470,63,2531,93,2526,93,2468,68,2392,40,2306,17,2262,10,2218,8,1444,8,1374,14,1306,30,1244,49,1194,69"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="625,48,743,75"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="757,63,1057,80,1052,83,759,68"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="584,99,784,125"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="798,103,1057,90,1052,93,800,108"/>
+<area shape="poly" id="edge13_Node000003_Node000012" title=" " alt="" coords="2087,245,2080,248,1943,253,1942,248,2080,243,2092,244"/>
+<area shape="poly" id="edge22_Node000012_Node000012" title=" " alt="" coords="2186,190,2197,184,2216,181,2234,183,2246,189,2252,198,2250,209,2246,206,2247,199,2243,193,2233,189,2216,187,2199,189,2188,195"/>
+<area shape="poly" id="edge21_Node000013_Node000012" title=" " alt="" coords="2299,200,2500,137,2506,136,2300,205"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="2544,146,2497,192,2467,211,2436,227,2383,239,2328,243,2328,238,2382,234,2434,221,2465,207,2493,188,2539,149"/>
+<area shape="rect" id="Node000014" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage.html" title=" " alt="" coords="1334,92,1557,135"/>
+<area shape="poly" id="edge23_Node000003_Node000014" title=" " alt="" coords="1522,138,1770,229,1764,229,1522,143"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="1571,91,1695,79,1873,70,2012,70,2329,79,2382,79,2435,83,2482,93,2477,93,2435,88,2382,84,2329,84,2012,75,1873,76,1696,84,1573,97"/>
+<area shape="poly" id="edge18_Node000013_Node000015" title=" " alt="" coords="2344,112,2463,114,2457,115,2345,117"/>
+<area shape="rect" id="Node000016" href="$interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_use_custom_render_texture_processing.html" title="Interface for nodes that can conditionally execute based on a boolean value." alt="" coords="1706,93,1952,136"/>
+<area shape="poly" id="edge20_Node000015_Node000016" title=" " alt="" coords="1967,112,2106,114,2101,115,1967,117"/>
+<area shape="rect" id="Node000017" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data.html" title=" " alt="" coords="2104,489,2329,532"/>
+<area shape="poly" id="edge25_Node000001_Node000017" title=" " alt="" coords="2290,481,2328,466,2523,379,2528,377,2330,470,2292,486"/>
+<area shape="rect" id="Node000018" href="$class_ahah_games_1_1_genesis_noise_1_1_assets_1_1_packages_1_1com_1_1ahahgames_1_1genesisnoise_11952984589c6eb639eee72bab08aeac8.html" title=" " alt="" coords="1695,505,1963,564"/>
+<area shape="poly" id="edge26_Node000017_Node000018" title=" " alt="" coords="1978,523,2106,517,2101,518,1979,528"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="1102,535,1192,561"/>
+<area shape="poly" id="edge27_Node000018_Node000019" title=" " alt="" coords="1208,544,1698,537,1692,538,1208,549"/>
+<area shape="rect" id="Node000020" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_island_shape.html" title=" " alt="" coords="1333,572,1558,615"/>
+<area shape="poly" id="edge29_Node000020_Node000019" title=" " alt="" coords="1208,554,1335,576,1330,576,1208,560"/>
+<area shape="poly" id="edge28_Node000018_Node000020" title=" " alt="" coords="1573,586,1671,575,1727,565,1732,564,1672,580,1574,591"/>
+<area shape="rect" id="Node000021" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html" title="An Euclidean plane where a Voronoi diagram can be constructed from VoronoiSites producing a tesselati..." alt="" coords="1050,599,1245,625"/>
+<area shape="poly" id="edge30_Node000020_Node000021" title=" " alt="" coords="1260,610,1309,608,1335,608,1330,609,1309,613,1261,615"/>
+<area shape="rect" id="Node000022" href="$class_sharp_voronoi_lib_1_1_random_uniform_point_generation.html" title=" " alt="" coords="577,591,791,633"/>
+<area shape="poly" id="edge31_Node000021_Node000022" title=" " alt="" coords="807,609,1052,611,1047,613,807,615"/>
+<area shape="rect" id="Node000023" href="$class_sharp_voronoi_lib_1_1_random_point_generation.html" title=" " alt="" coords="271,637,469,680"/>
+<area shape="poly" id="edge32_Node000022_Node000023" title=" " alt="" coords="484,639,579,627,574,629,486,644"/>
+<area shape="rect" id="Node000025" href="$class_sharp_voronoi_lib_1_1_random_gaussian_point_generation.html" title=" " alt="" coords="572,657,796,700"/>
+<area shape="poly" id="edge35_Node000025_Node000023" title=" " alt="" coords="485,663,574,671,569,672,485,669"/>
+<area shape="rect" id="Node000024" href="$interface_sharp_voronoi_lib_1_1_i_point_generation_algorithm.html" title=" " alt="" coords="5,637,222,680"/>
+<area shape="poly" id="edge33_Node000023_Node000024" title=" " alt="" coords="236,656,273,658,268,660,238,661"/>
+<area shape="poly" id="edge34_Node000021_Node000025" title=" " alt="" coords="811,666,916,655,1025,639,1098,625,1093,627,1026,644,917,660,812,671"/>
+<area shape="rect" id="Node000026" href="$interface_sharp_voronoi_lib_1_1_i_tessellation_algorithm.html" title=" " alt="" coords="588,724,780,767"/>
+<area shape="poly" id="edge36_Node000021_Node000026" title=" " alt="" coords="795,740,908,727,968,714,1025,695,1056,679,1085,660,1129,627,1134,625,1088,665,1058,684,1027,700,969,719,909,732,796,746"/>
+<area shape="rect" id="Node000027" href="$interface_sharp_voronoi_lib_1_1_i_border_clipping_algorithm.html" title=" " alt="" coords="580,791,788,833"/>
+<area shape="poly" id="edge37_Node000021_Node000027" title=" " alt="" coords="804,817,858,814,915,806,972,791,1024,767,1065,735,1098,695,1122,656,1138,628,1142,624,1127,658,1102,698,1069,739,1027,772,973,796,916,811,859,819,804,822"/>
+<area shape="rect" id="Node000028" href="$interface_sharp_voronoi_lib_1_1_i_border_closing_algorithm.html" title=" " alt="" coords="581,857,787,900"/>
+<area shape="poly" id="edge38_Node000021_Node000028" title=" " alt="" coords="803,892,858,893,916,887,972,872,1024,846,1052,823,1075,795,1094,763,1110,731,1131,670,1142,628,1146,624,1136,671,1115,733,1099,766,1079,798,1056,826,1027,850,974,877,917,892,858,898,803,898"/>
+<area shape="rect" id="Node000029" href="$interface_sharp_voronoi_lib_1_1_i_relaxation_algorithm.html" title=" " alt="" coords="591,324,777,367"/>
+<area shape="poly" id="edge39_Node000021_Node000029" title=" " alt="" coords="791,322,852,319,915,325,946,332,976,343,1003,358,1028,378,1045,402,1051,426,1049,450,1044,474,1038,498,1035,523,1039,547,1052,572,1067,586,1086,598,1081,598,1063,590,1048,575,1033,549,1030,523,1033,498,1038,473,1044,449,1045,426,1040,404,1024,382,1000,363,973,348,944,337,914,330,852,324,793,327"/>
+<area shape="rect" id="Node000030" href="$interface_sharp_voronoi_lib_1_1_i_site_merging_algorithm.html" title=" " alt="" coords="588,391,780,433"/>
+<area shape="poly" id="edge40_Node000021_Node000030" title=" " alt="" coords="795,407,864,409,931,414,989,426,1011,434,1027,445,1040,460,1045,476,1043,508,1039,540,1042,556,1052,572,1067,586,1088,598,1082,598,1064,590,1048,575,1037,558,1034,540,1037,508,1039,477,1035,463,1024,449,1009,439,987,431,931,420,864,414,797,412"/>
+<area shape="rect" id="Node000031" href="$class_sharp_voronoi_lib_1_1_brute_force_nearest_site_lookup.html" title=" " alt="" coords="592,457,776,500"/>
+<area shape="poly" id="edge41_Node000021_Node000031" title=" " alt="" coords="791,474,859,475,928,480,987,490,1010,498,1027,507,1039,523,1041,540,1043,556,1052,572,1070,585,1092,598,1087,598,1067,590,1048,575,1038,558,1036,540,1034,525,1024,511,1008,503,985,495,927,485,859,480,792,479"/>
+<area shape="rect" id="Node000032" href="$interface_sharp_voronoi_lib_1_1_i_nearest_site_lookup.html" title=" " alt="" coords="286,463,455,505"/>
+<area shape="poly" id="edge42_Node000031_Node000032" title=" " alt="" coords="470,480,595,479,590,481,471,485"/>
+<area shape="rect" id="Node000033" href="$class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup.html" title=" " alt="" coords="579,524,789,567"/>
+<area shape="poly" id="edge44_Node000033_Node000032" title=" " alt="" coords="470,501,581,524,576,526,471,506"/>
+<area shape="poly" id="edge43_Node000021_Node000033" title=" " alt="" coords="804,554,913,566,1026,583,1091,598,1086,598,1025,588,912,571,805,559"/>
+<area shape="rect" id="Node000034" href="$class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g.html" title="Represents a KD&#45;Tree. KD&#45;Trees are used for fast spatial searches. Searching in a balanced KD&#45;Tree is..." alt="" coords="274,535,466,577"/>
+<area shape="poly" id="edge45_Node000033_Node000034" title=" " alt="" coords="481,554,548,552,581,552,576,554,548,557,483,559"/>
+</map>

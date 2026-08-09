@@ -1,0 +1,7 @@
+<map id="GraphProcessor.BaseEdgeConnector.OnMouseUp" name="GraphProcessor.BaseEdgeConnector.OnMouseUp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,249,81"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_edge_connector.html#a693d953ebcb006d8185e6d543a053f2e" title=" " alt="" coords="297,5,540,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,43,284,42,279,43,250,49"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_edge_connector.html#ade558da680d73e4cc2bc5a9584b84af9" title=" " alt="" coords="297,72,540,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="249,71,284,78,279,78,249,77"/>
+</map>

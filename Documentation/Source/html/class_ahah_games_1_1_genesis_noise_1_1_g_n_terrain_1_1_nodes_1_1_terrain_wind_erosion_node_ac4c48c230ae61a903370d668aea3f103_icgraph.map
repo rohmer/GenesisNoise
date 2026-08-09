@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainWindErosionNode.UpgradeSettings" name="AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainWindErosionNode.UpgradeSettings">
+<area shape="rect" id="Node000001" title=" " alt="" coords="643,31,903,89"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_wind_erosion_node.html#a12b2276656b895fe467b2aad7d55908f" title="Called when the node is enabled." alt="" coords="344,5,595,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="625,44,595,43,595,38,630,44"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_wind_erosion_node.html#a2b277fb770f4e7ac997244e44d1fb78b" title=" " alt="" coords="346,72,592,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="630,76,593,82,593,77,625,76"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_wind_erosion_node.html#a6c790c5ffd1f413707b36e2073899f55" title=" " alt="" coords="5,72,296,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="328,93,296,96,296,91,333,93"/>
+</map>

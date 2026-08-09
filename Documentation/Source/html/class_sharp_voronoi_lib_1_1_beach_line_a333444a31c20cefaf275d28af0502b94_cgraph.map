@@ -1,0 +1,24 @@
+<map id="SharpVoronoiLib.BeachLine.AddBeachSection" name="SharpVoronoiLib.BeachLine.AddBeachSection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,139,190,181"/>
+<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_beach_line.html#af9eaa88bc6e9c2dbe27cf5641b5f03d2" title=" " alt="" coords="240,5,424,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,136,174,97,236,58,251,53,247,56,239,62,177,101,126,140"/>
+<area shape="rect" id="Node000006" href="$class_sharp_voronoi_lib_1_1_parabola_math.html#acb5ecb0fa7a957f8c8f3a6a329f05746" title=" " alt="" coords="247,72,418,115"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="174,136,242,118,238,121,176,141"/>
+<area shape="rect" id="Node000007" href="$class_sharp_voronoi_lib_1_1_beach_line.html#aaf50e6ced7f3490a8041692dc5d92c89" title=" " alt="" coords="240,139,424,181"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="189,157,227,159,222,161,191,163"/>
+<area shape="rect" id="Node000009" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#a9f196af50b43f90975579b5093af7c76" title=" " alt="" coords="238,272,427,315"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="125,179,177,219,239,258,251,266,246,265,236,262,174,223,124,185"/>
+<area shape="rect" id="Node000011" href="$class_sharp_voronoi_lib_1_1_beach_line.html#a57907a7e891416f97773b3b28b7aa2c7" title=" " alt="" coords="240,205,424,248"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="175,179,242,200,237,201,175,184"/>
+<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_min_heap-1-g.html#a1e45558225b87f043627db01f04af9ee" title=" " alt="" coords="484,5,655,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,24,471,26,466,28,426,29"/>
+<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_min_heap-1-g.html#aa37ff440b38100cd6a6e499a8651ae78" title=" " alt="" coords="712,5,884,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="655,24,699,26,694,27,656,29"/>
+<area shape="rect" id="Node000005" href="$class_sharp_voronoi_lib_1_1_min_heap-1-g.html#a0b716c4b9fdb66f71b6fde7b25a6e941" title=" " alt="" coords="932,5,1103,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="883,24,919,26,913,27,884,29"/>
+<area shape="rect" id="Node000008" href="$class_sharp_voronoi_lib_1_1_parabola_math.html#a05d014ba9f33d6bd62d853153bdfe5f6" title=" " alt="" coords="484,172,655,215"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="425,170,472,179,466,180,425,176"/>
+<area shape="rect" id="Node000010" href="$class_sharp_voronoi_lib_1_1_voronoi_site.html#ac48dc4dc92798d6e5d784c10d1680713" title=" " alt="" coords="475,272,664,315"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="427,291,462,293,457,293,427,296"/>
+<area shape="poly" id="edge11_Node000011_Node000008" title=" " alt="" coords="425,211,472,207,466,208,426,216"/>
+</map>

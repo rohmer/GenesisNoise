@@ -1,0 +1,12 @@
+<map id="GraphProcessor.BaseGraph.TypesAreConnectable" name="GraphProcessor.BaseGraph.TypesAreConnectable">
+<area shape="rect" id="Node000001" title="Tell if two types can be connected in the context of a graph." alt="" coords="5,64,194,107"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_type_adapter.html#ae7e8be0bbef72a89f3471a63a5e497da" title=" " alt="" coords="242,64,438,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,83,229,85,224,86,195,88"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_type_adapter.html#a2caf17701eadc181ae9d7ab3539ed995" title=" " alt="" coords="486,5,682,48"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="183,61,241,49,359,35,473,30,468,31,360,41,242,55,185,66"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_custom_port_i_o.html#adbd3b5edce41f93707e3cb8c8e952d82" title=" " alt="" coords="245,131,434,173"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="179,105,248,125,243,127,178,110"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,61,480,52,475,53,432,66"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_type_adapter.html#a1edb2b3a6e33b10ffdd6cadabf3f69f9" title=" " alt="" coords="486,72,682,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="438,86,473,89,468,90,439,91"/>
+</map>

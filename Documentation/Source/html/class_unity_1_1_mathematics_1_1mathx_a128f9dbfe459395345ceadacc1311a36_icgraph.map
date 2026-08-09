@@ -1,0 +1,15 @@
+<map id="Unity.Mathematics.mathx.transpose" name="Unity.Mathematics.mathx.transpose">
+<area shape="rect" id="Node000001" title="Returns the transposed value of a matrix." alt="" coords="537,113,768,140"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#acf2d0f2a1a53e79f70738e741daaa9cf" title=" " alt="" coords="287,72,489,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="524,111,489,109,489,103,529,111"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#ad7a3784d34e392e2fefec003147ae696" title=" " alt="" coords="287,139,489,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="524,143,490,150,489,145,529,142"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a0f1cfce44b1fbaa8c7ee93b3935ecb1d" title=" " alt="" coords="21,5,223,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="283,69,210,51,210,46,288,67"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#a0e8e48529ff81eda166a5c0cdeb695a5" title=" " alt="" coords="21,72,223,115"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="269,94,224,96,223,91,274,92"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#a21f225ce94813bad1818b63e62364183" title=" " alt="" coords="5,139,239,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="268,161,240,163,239,157,274,159"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#a21dcc05d2d7b2979efb56b1b8b9ea150" title=" " alt="" coords="11,205,233,248"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="288,185,211,207,209,202,283,186"/>
+</map>

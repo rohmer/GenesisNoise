@@ -1,0 +1,42 @@
+<map id="GraphProcessor.BaseEdgeConnectorListener" name="GraphProcessor.BaseEdgeConnectorListener">
+<area shape="rect" id="Node000001" title="Base class to write your own edge handling connection system." alt="" coords="1443,209,1682,252"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="24,43,186,69"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,36,262,14,317,6,372,3,1117,3,1184,9,1250,27,1314,53,1373,84,1426,118,1473,151,1541,210,1536,209,1470,156,1423,122,1370,88,1311,57,1249,32,1183,14,1117,8,372,8,318,11,263,19,168,40"/>
+<area shape="rect" id="Node000009" href="$class_graph_processor_1_1_base_edge_connector_listener.html" title="Base class to write your own edge handling connection system." alt="" coords="254,261,493,304"/>
+<area shape="poly" id="edge9_Node000009_Node000002" title=" " alt="" coords="142,75,176,100,207,130,223,158,230,184,238,207,256,231,276,246,299,260,294,261,273,251,252,235,233,210,225,185,218,160,203,134,173,104,143,81"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph_view.html" title="Base class to write a custom view for a node." alt="" coords="652,391,866,417"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="881,410,939,410,996,404,1070,391,1145,373,1289,331,1415,287,1507,253,1512,252,1417,292,1290,336,1146,378,1071,396,997,409,939,415,881,416"/>
+<area shape="poly" id="edge10_Node000009_Node000003" title=" " alt="" coords="635,408,576,403,516,388,481,371,447,350,396,307,397,302,450,345,483,366,518,383,577,398,640,407"/>
+<area shape="rect" id="Node000010" href="$class_graph_processor_1_1_create_node_menu_window.html" title=" " alt="" coords="1021,209,1210,252"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="881,407,940,398,969,390,995,378,1032,351,1062,316,1085,281,1102,254,1106,251,1090,284,1066,320,1035,354,998,382,970,395,941,404,882,413"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="331,507,416,533"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="431,505,493,492,561,479,627,461,683,439,730,419,735,417,686,444,629,467,562,484,494,497,432,511"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="328,405,419,432"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="434,414,654,407,649,409,435,419"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_graph.html" title=" " alt="" coords="282,456,466,483"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="481,460,554,452,628,440,715,418,721,417,629,445,554,457,482,465"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="46,279,164,305"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="125,316,179,381,215,414,255,442,284,456,278,456,253,446,212,418,175,384,123,321"/>
+<area shape="poly" id="edge12_Node000010_Node000007" title=" " alt="" coords="130,266,166,227,202,181,216,152,221,126,230,101,239,90,253,79,283,64,319,51,408,34,512,27,623,27,734,36,839,51,929,72,998,98,1033,121,1063,151,1104,210,1099,208,1059,154,1029,125,995,102,927,77,838,56,733,41,622,33,512,32,409,40,321,57,285,69,255,84,243,93,235,104,226,127,221,154,207,184,170,231,134,269"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,456,205,483"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="220,467,283,469,278,470,221,472"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="461,306,518,323,629,353,725,390,720,390,628,359,517,328,462,312"/>
+<area shape="rect" id="Node000014" href="$class_graph_processor_1_1_port_view.html" title=" " alt="" coords="673,205,845,232"/>
+<area shape="poly" id="edge21_Node000014_Node000009" title=" " alt="" coords="508,260,628,240,687,232,682,233,629,245,509,265"/>
+<area shape="poly" id="edge23_Node000001_Node000010" title=" " alt="" coords="1225,228,1445,230,1440,231,1226,233"/>
+<area shape="poly" id="edge22_Node000003_Node000010" title=" " alt="" coords="1084,261,1044,298,998,328,969,340,945,346,890,359,796,393,795,387,889,353,944,341,967,335,995,323,1041,293,1079,264"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="1003,250,866,271,670,282,494,286,493,280,669,277,865,265,1008,249"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="678,152,840,179"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="855,164,925,169,997,181,1071,209,1066,209,996,187,925,175,855,169"/>
+<area shape="rect" id="Node000012" href="$class_graph_processor_1_1_edge_view.html" title=" " alt="" coords="670,100,848,127"/>
+<area shape="poly" id="edge15_Node000010_Node000012" title=" " alt="" coords="863,121,931,134,998,155,1046,179,1088,209,1083,208,1044,184,996,160,929,139,863,127"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="348,93,399,120"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="414,105,672,110,667,113,415,110"/>
+<area shape="poly" id="edge17_Node000010_Node000014" title=" " alt="" coords="860,225,890,227,1023,231,1017,232,890,232,861,230"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="351,195,396,221"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="411,206,628,211,675,214,670,216,628,216,412,211"/>
+<area shape="rect" id="Node000016" href="$class_graph_processor_1_1_port_data.html" title="Class that describe port attributes for it&#39;s creation." alt="" coords="288,144,459,171"/>
+<area shape="poly" id="edge19_Node000014_Node000016" title=" " alt="" coords="474,168,629,191,693,204,687,205,628,196,475,173"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="63,144,147,171"/>
+<area shape="poly" id="edge20_Node000016_Node000017" title=" " alt="" coords="162,155,290,156,286,159,164,160"/>
+</map>

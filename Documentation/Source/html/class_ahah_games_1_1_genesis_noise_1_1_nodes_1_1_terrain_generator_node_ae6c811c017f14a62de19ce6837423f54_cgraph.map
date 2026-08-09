@@ -1,0 +1,9 @@
+<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.GetCurrentTerrainHeight" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.GetCurrentTerrainHeight">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,261,93"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a25bdf8a12b064fbe1bdba497d9f68271" title=" " alt="" coords="309,5,590,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,46,296,45,290,46,262,52"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a29bc838360862aa572e7a46fd5748411" title=" " alt="" coords="322,72,576,131"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,76,309,84,304,85,261,82"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a176e5b70401f668e0b97f2ba7879a60d" title=" " alt="" coords="638,5,876,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="590,24,625,26,620,27,591,29"/>
+</map>

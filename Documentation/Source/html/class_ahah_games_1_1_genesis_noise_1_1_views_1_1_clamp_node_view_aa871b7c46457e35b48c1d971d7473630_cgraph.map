@@ -1,0 +1,11 @@
+<map id="AhahGames.GenesisNoise.Views.ClampNodeView.Enable" name="AhahGames.GenesisNoise.Views.ClampNodeView.Enable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,229,176"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_clamp_node_view.html#a7ed8932396e8aa620d1ac2c6d55a2324" title=" " alt="" coords="277,5,500,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,130,276,74,293,69,288,72,278,78,161,135"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_clamp_node_view.html#adc70547f41c3726b9b3859359f49e96b" title=" " alt="" coords="277,88,500,147"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,137,264,134,259,136,230,142"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_type_caster.html#a050088506ab3dd6512adccb3f99d3e44" title=" " alt="" coords="283,171,494,213"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,167,269,175,264,176,229,173"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_clamp_node_view.html#ad7c3203231829eede761e615954358f6" title=" " alt="" coords="277,237,500,280"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="164,174,278,223,298,232,293,232,276,228,163,179"/>
+</map>

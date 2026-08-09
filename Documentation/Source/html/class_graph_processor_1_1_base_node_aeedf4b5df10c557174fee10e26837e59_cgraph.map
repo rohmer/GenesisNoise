@@ -1,0 +1,13 @@
+<map id="GraphProcessor.BaseNode.OnEdgeConnected" name="GraphProcessor.BaseNode.OnEdgeConnected">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,27,190,69"/>
+<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_port_container.html#afdfb4af2aa6ef691f923a713d6f3508f" title="Add an edge that is connected to one of the node in the container." alt="" coords="238,5,495,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,35,225,33,220,35,191,41"/>
+<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#a83d07b4c73420d4004e698aa3bf583b9" title="Update all ports of the node." alt="" coords="274,56,458,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,55,262,65,256,66,190,61"/>
+<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_node.html#a53d8083629ad9a0d37234529785b3ca4" title="Override the field order inside the node. It allows to re&#45;order all the ports and field in the UI." alt="" coords="543,23,727,65"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="459,63,531,57,525,58,459,69"/>
+<area shape="rect" id="Node000005" href="$class_graph_processor_1_1_base_node.html#ae7b59559c7e600b089f61ac6f5ade6ec" title="Update the ports related to one C# property field and all connected nodes in the graph." alt="" coords="543,89,727,132"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="459,86,531,97,525,97,459,91"/>
+<area shape="rect" id="Node000006" href="$class_graph_processor_1_1_base_node.html#a7b5e855b332b1d787c081661961681ac" title=" " alt="" coords="775,89,960,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="728,108,762,111,757,111,728,113"/>
+</map>

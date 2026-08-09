@@ -1,0 +1,27 @@
+<map id="Unity.Mathematics.mathx.conjugate" name="Unity.Mathematics.mathx.conjugate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,105,236,132"/>
+<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="312,68,490,95"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,102,299,94,294,97,227,107"/>
+<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a8a7d5b268ea708000c23b6b88ccc5200" title=" " alt="" coords="284,143,518,169"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,130,283,139,278,141,226,135"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="357,142,350,134,355,124,373,118,401,116,432,119,449,128,444,128,431,124,401,121,374,123,359,128,355,133,363,143"/>
+<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#acf8dd69a55c0fbc02cb079fd74782fac" title="appends a float to a f3 to create a f4" alt="" coords="566,29,750,56"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="438,140,517,104,540,88,565,72,598,61,594,63,567,77,543,93,519,109,441,145"/>
+<area shape="rect" id="Node000006" href="$class_unity_1_1_mathematics_1_1mathx.html#aaa93b9898ab5a2b956115f04c6736a33" title="Returns the x component of the quaternion as a float." alt="" coords="805,143,987,169"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="518,161,792,163,787,164,519,166"/>
+<area shape="rect" id="Node000007" href="$class_unity_1_1_mathematics_1_1mathx.html#ae2987c2cb40c229f7d8b49dcdca95e66" title="appends a float to a float to create a f2" alt="" coords="568,229,749,256"/>
+<area shape="poly" id="edge10_Node000003_Node000007" title=" " alt="" coords="443,167,605,223,599,225,443,173"/>
+<area shape="rect" id="Node000008" href="$class_unity_1_1_mathematics_1_1mathx.html#a0b0a45183e228f3f6917c2fb3201933e" title="appends a float to a f2 to create a f3" alt="" coords="568,304,749,331"/>
+<area shape="poly" id="edge13_Node000003_Node000008" title=" " alt="" coords="421,167,486,212,567,266,619,297,614,296,565,270,483,217,420,172"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="618,28,611,21,616,11,632,5,658,3,687,5,703,14,698,15,686,10,658,8,633,10,619,15,616,20,623,29"/>
+<area shape="rect" id="Node000005" href="$class_unity_1_1_mathematics_1_1mathx.html#a2fe4cbbcb36910c98c2251fdab83c04b" title="Returns the xyz components of the quaternion as a f3." alt="" coords="798,55,994,81"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="750,50,786,56,780,56,751,55"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="810,83,566,128,491,142,490,137,566,123,815,81"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="802,150,534,151,533,145,807,148"/>
+<area shape="poly" id="edge11_Node000007_Node000006" title=" " alt="" coords="696,226,840,176,845,174,698,231"/>
+<area shape="poly" id="edge12_Node000007_Node000007" title=" " alt="" coords="618,228,611,221,616,211,632,205,658,203,687,205,703,215,698,214,686,210,658,208,633,210,619,215,616,220,623,230"/>
+<area shape="poly" id="edge16_Node000008_Node000008" title=" " alt="" coords="618,303,611,295,616,285,632,279,658,277,687,280,703,290,698,289,686,285,658,283,633,285,619,289,616,295,623,305"/>
+<area shape="rect" id="Node000009" href="$class_unity_1_1_mathematics_1_1mathx.html#adbed2a933865e359be108c9101c3fd78" title="Returns the xy components of the quaternion as a f2." alt="" coords="802,329,990,356"/>
+<area shape="poly" id="edge14_Node000008_Node000009" title=" " alt="" coords="749,324,789,331,784,331,749,330"/>
+<area shape="poly" id="edge15_Node000009_Node000003" title=" " alt="" coords="839,356,778,368,708,372,635,366,599,358,565,345,538,330,514,312,471,269,437,223,415,186,417,181,442,220,475,265,517,308,541,326,567,340,601,353,636,361,709,367,777,363,834,357"/>
+</map>

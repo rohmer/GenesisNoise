@@ -1,0 +1,18 @@
+<map id="AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GeneratePoints" name="AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GeneratePoints">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,240,131"/>
+<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#acd1f5567bc7ed6b7ea5e38e306b98a0f" title=" " alt="" coords="288,5,522,64"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,71,275,65,270,67,241,76"/>
+<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a629f8897dfcb62914c7db55691643558" title=" " alt="" coords="570,43,808,85"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="240,92,522,73,557,73,552,74,522,79,241,97"/>
+<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a7b722ea9fa900ccde0a390a6812bbdf0" title=" " alt="" coords="290,139,520,197"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="240,126,278,137,273,138,240,132"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="522,44,557,50,552,50,523,49"/>
+<area shape="rect" id="Node000005" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a8ca8e13ab078af017529edaa9cab1cc4" title=" " alt="" coords="572,139,807,197"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="520,165,558,168,553,168,520,171"/>
+<area shape="rect" id="Node000006" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#ab6560351c4378b628110c35426276fdc" title=" " alt="" coords="856,147,1104,189"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="807,165,843,168,838,168,807,171"/>
+<area shape="rect" id="Node000007" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a1781753a5adc0bf7a19cb249cb3d5e53" title=" " alt="" coords="1152,113,1378,156"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1104,151,1134,150,1139,149,1105,156"/>
+<area shape="rect" id="Node000008" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a8dc33bf9d65062c6f62ca51c9ce5573a" title=" " alt="" coords="1152,180,1378,223"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1104,180,1139,186,1134,186,1104,185"/>
+</map>
