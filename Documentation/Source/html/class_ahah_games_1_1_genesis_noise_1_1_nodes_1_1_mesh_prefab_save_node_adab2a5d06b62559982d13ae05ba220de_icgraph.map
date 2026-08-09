@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.MeshPrefabSaveNode.GetPrefabAssetPath" name="AhahGames.GenesisNoise.Nodes.MeshPrefabSaveNode.GetPrefabAssetPath">
-<area shape="rect" id="Node000001" title=" " alt="" coords="562,5,838,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_prefab_save_node.html#a849c431f98624bd4c8c65527470d9b80" title=" " alt="" coords="289,5,514,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="544,27,515,29,515,24,549,27"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_prefab_save_node.html#a1360b903e23415cf89dfc869875eac60" title=" " alt="" coords="5,5,241,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,27,241,29,241,24,276,27"/>
-</map>

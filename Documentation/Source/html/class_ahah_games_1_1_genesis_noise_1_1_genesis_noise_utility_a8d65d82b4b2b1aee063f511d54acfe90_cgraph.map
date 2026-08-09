@@ -1,6 +1,0 @@
-<map id="AhahGames.GenesisNoise.GenesisNoiseUtility.Blit" name="AhahGames.GenesisNoise.GenesisNoiseUtility.Blit">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,237,72"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="69,28,67,19,76,10,94,5,121,3,151,5,170,14,165,14,150,10,121,8,95,10,78,15,72,21,74,29"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_texture_utils.html#ad6be80af5cb5e594ef40ae03ae47683f" title=" " alt="" coords="285,29,511,72"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="237,48,272,51,266,51,237,53"/>
-</map>

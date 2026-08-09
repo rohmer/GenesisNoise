@@ -1,0 +1,116 @@
+\doxysection{Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Toolbar Class Reference}
+\hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar}{}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar}\index{AhahGames.GenesisNoise.Graph.GenesisToolbar@{AhahGames.GenesisNoise.Graph.GenesisToolbar}}
+
+
+Inheritance diagram for Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Toolbar:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Toolbar:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1_1_improve_genesis_popup_window}{Improve\+Genesis\+Popup\+Window}}
+\item 
+class \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1_1_settings_genesis_popup_window}{Settings\+Genesis\+Popup\+Window}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_aff83319235a90b203dbfa1758d58544b}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_aff83319235a90b203dbfa1758d58544b} 
+{\bfseries Genesis\+Toolbar} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_view}{Base\+Graph\+View}} graph\+View)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view}{Graph\+Processor.\+Toolbar\+View}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Toolbar\+View} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_view}{Base\+Graph\+View}} graph\+View)
+\item 
+virtual void {\bfseries Update\+Button\+Status} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_ac9dd8f03ef36abfb35586a26edf4405d}{Add\+Buttons}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view}{Graph\+Processor.\+Toolbar\+View}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Button} (string name, Action callback, bool left=true)
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Button} (GUIContent content, Action callback, bool left=true)
+\item 
+void {\bfseries Add\+Separator} (int size\+In\+Pixels=10, bool left=true)
+\item 
+void {\bfseries Add\+Custom} (Action imgui\+Draw\+Function, bool left=true)
+\item 
+void {\bfseries Add\+Flexible\+Space} (bool left=true)
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Toggle} (string name, bool default\+Value, Action$<$ bool $>$ callback, bool left=true)
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Toggle} (GUIContent content, bool default\+Value, Action$<$ bool $>$ callback, bool left=true)
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Drop\+Down\+Button} (string name, Action callback, bool left=true)
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Drop\+Down\+Button} (GUIContent content, Action callback, bool left=true)
+\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_a2b2d2d57d22a1ac0640f6692bc59e2c3}{Remove\+Button}} (string name, bool left)
+\begin{DoxyCompactList}\small\item\em Also works for toggles. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_a8240d303dc36cc3ecf659566c41e565a}{Hide\+Button}} (string name)
+\begin{DoxyCompactList}\small\item\em Hide the button. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_aa36aafb2a6d0bc698114ea6a50c1ec53}{Show\+Button}} (string name)
+\begin{DoxyCompactList}\small\item\em Show the button. \end{DoxyCompactList}\item 
+virtual void {\bfseries Draw\+Im\+GUIToolbar} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Types inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view}{Graph\+Processor.\+Toolbar\+View}}}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a99f444b227d03b7ed7e86cb4a93a62b2}\label{class_graph_processor_1_1_toolbar_view_a99f444b227d03b7ed7e86cb4a93a62b2} 
+enum {\bfseries Element\+Type} \{ \newline
+{\bfseries Button}
+, {\bfseries Toggle}
+, {\bfseries Drop\+Down\+Button}
+, {\bfseries Separator}
+, \newline
+{\bfseries Custom}
+, {\bfseries Flexible\+Space}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view}{Graph\+Processor.\+Toolbar\+View}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_view}{Base\+Graph\+View}} {\bfseries graph\+View}
+\end{DoxyCompactItemize}
+
+
+\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_doc-func-members}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_ac9dd8f03ef36abfb35586a26edf4405d}\index{AhahGames.GenesisNoise.Graph.GenesisToolbar@{AhahGames.GenesisNoise.Graph.GenesisToolbar}!AddButtons@{AddButtons}}
+\index{AddButtons@{AddButtons}!AhahGames.GenesisNoise.Graph.GenesisToolbar@{AhahGames.GenesisNoise.Graph.GenesisToolbar}}
+\doxysubsubsection{\texorpdfstring{AddButtons()}{AddButtons()}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_ac9dd8f03ef36abfb35586a26edf4405d} 
+override void Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Toolbar.\+Add\+Buttons (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view}{Graph\+Processor.\+Toolbar\+View}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Editor/\+\+Graph/\+Genesis\+Toolbar.\+cs\end{DoxyCompactItemize}

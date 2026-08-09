@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_efe3835a3f9e74d6c8bb5214f73a632e" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/SubGraphs</compoundname>
+    <innerdir refid="dir_becc50c6d1b1a08add64322c4f822fc8">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/SubGraphs/surfgrad subgraphs</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/SubGraphs/"/>
+  </compounddef>
+</doxygen>

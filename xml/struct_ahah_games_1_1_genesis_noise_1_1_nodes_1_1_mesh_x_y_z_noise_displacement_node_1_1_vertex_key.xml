@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a7e7437f3d49d9d652a043893b791508f" prot="public" static="no" mutable="no">
+        <type>readonly long</type>
+        <definition>readonly long AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="499" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a0028398c57fb9813ed677c4142366159" prot="public" static="no" mutable="no">
+        <type>readonly long</type>
+        <definition>readonly long AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="500" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="500" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a11e1b110755485142a23c4820aa91dc5" prot="public" static="no" mutable="no">
+        <type>readonly long</type>
+        <definition>readonly long AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="501" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="501" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1acbcb3f17831a023cced5b14b7120862e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.VertexKey</definition>
+        <argsstring>(Vector3 vertex, float epsilon)</argsstring>
+        <name>VertexKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.VertexKey</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>vertex</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>epsilon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="503" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="503" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1ac264f02a855b4b4a3dc1b814747a2657" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.Equals</definition>
+        <argsstring>(VertexKey other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.Equals</qualifiedname>
+        <param>
+          <type>VertexKey</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="510" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="510" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a970fee7f7dfe5d3f597af256c3803ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="511" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="511" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a00663afe409044f3778a4392450d4cfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="512" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="512" bodyend="512"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1af6a45409bc63dfbc5c6f985297ce344d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.Quantize</definition>
+        <argsstring>(float value, float epsilon)</argsstring>
+        <name>Quantize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey.Quantize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>epsilon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="514" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="514" bodyend="514"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.VertexKey</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="497" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="498" bodyend="515"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1ac264f02a855b4b4a3dc1b814747a2657" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>Equals</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a970fee7f7dfe5d3f597af256c3803ee9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>Equals</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a00663afe409044f3778a4392450d4cfc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>GetHashCode</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1af6a45409bc63dfbc5c6f985297ce344d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>Quantize</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1acbcb3f17831a023cced5b14b7120862e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>VertexKey</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a7e7437f3d49d9d652a043893b791508f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>x</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a0028398c57fb9813ed677c4142366159" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>y</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_vertex_key_1a11e1b110755485142a23c4820aa91dc5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::VertexKey</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

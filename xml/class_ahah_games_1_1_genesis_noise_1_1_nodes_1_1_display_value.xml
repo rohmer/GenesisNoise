@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::DisplayValue</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a647f29efc63b1f8ff2000dc3e87fbe4d" prot="private" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Nodes.DisplayValue.controlsContainer</definition>
+        <argsstring></argsstring>
+        <name>controlsContainer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.controlsContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="12" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1ad5a609b7df01e0ab17a3cf8032844e93" prot="private" static="no" mutable="no">
+        <type>TextField</type>
+        <definition>TextField AhahGames.GenesisNoise.Nodes.DisplayValue.tf</definition>
+        <argsstring></argsstring>
+        <name>tf</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.tf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="13" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1afce81d43c2235a53255814a2e5fbdd19" prot="private" static="no" mutable="no">
+        <type>ColorField</type>
+        <definition>ColorField AhahGames.GenesisNoise.Nodes.DisplayValue.cf</definition>
+        <argsstring></argsstring>
+        <name>cf</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.cf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="14" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1af6cf656f908aec9fc45d50f34fcbf812" prot="private" static="no" mutable="no">
+        <type>CurveField</type>
+        <definition>CurveField AhahGames.GenesisNoise.Nodes.DisplayValue.curveField</definition>
+        <argsstring></argsstring>
+        <name>curveField</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.curveField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="15" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a4135b16ea70f90be64fdf8ec784a62a3" prot="private" static="no" mutable="no">
+        <type>ObjectField</type>
+        <definition>ObjectField AhahGames.GenesisNoise.Nodes.DisplayValue.objField</definition>
+        <argsstring></argsstring>
+        <name>objField</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.objField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="16" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a284150c94f686d95e42393f4ea2f636f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Nodes.DisplayValue.fieldLabel</definition>
+        <argsstring></argsstring>
+        <name>fieldLabel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.fieldLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="18" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1af875d259b525536edb2fa522b7a507bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.DisplayValue.DisplayValue</definition>
+        <argsstring>(VisualElement controlsContainer, Type objectType, string fieldLabel=&quot;&quot;)</argsstring>
+        <name>DisplayValue</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.DisplayValue</qualifiedname>
+        <param>
+          <type>VisualElement</type>
+          <declname>controlsContainer</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>objectType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fieldLabel</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="20" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="20" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a0c224334ded94bdf9a86a464665f173c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.DisplayValue.SetValue</definition>
+        <argsstring>(object value)</argsstring>
+        <name>SetValue</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DisplayValue.SetValue</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="54" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="54" bodyend="164"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" line="10" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/DisplayValue.cs" bodystart="11" bodyend="165"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1afce81d43c2235a53255814a2e5fbdd19" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>cf</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a647f29efc63b1f8ff2000dc3e87fbe4d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>controlsContainer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1af6cf656f908aec9fc45d50f34fcbf812" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>curveField</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1af875d259b525536edb2fa522b7a507bb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>DisplayValue</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a284150c94f686d95e42393f4ea2f636f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>fieldLabel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a4135b16ea70f90be64fdf8ec784a62a3" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>objField</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1a0c224334ded94bdf9a86a464665f173c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>SetValue</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_display_value_1ad5a609b7df01e0ab17a3cf8032844e93" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DisplayValue</scope><name>tf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

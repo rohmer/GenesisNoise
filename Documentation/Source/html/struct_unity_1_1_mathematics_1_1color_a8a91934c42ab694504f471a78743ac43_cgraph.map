@@ -1,7 +1,0 @@
-<map id="Unity.Mathematics.color.RGBToHSV" name="Unity.Mathematics.color.RGBToHSV">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,27,172,69"/>
-<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1color.html#abfb99c1b9d5bd289914138c16cc7921d" title="Constructs a color vector from four float values." alt="" coords="220,5,414,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,35,207,32,202,34,173,40"/>
-<area shape="rect" id="Node000003" href="$struct_unity_1_1_mathematics_1_1color.html#a7a57316155fcd0bd2e0867427d76f2e0" title=" " alt="" coords="234,56,400,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,56,221,64,215,65,172,61"/>
-</map>

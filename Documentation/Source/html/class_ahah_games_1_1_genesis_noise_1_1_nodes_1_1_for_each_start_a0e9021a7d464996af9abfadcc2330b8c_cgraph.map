@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.ForEachStart.CollectionInputPortType" name="AhahGames.GenesisNoise.Nodes.ForEachStart.CollectionInputPortType">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,247,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_each_start.html#abfa04d15174de96ed2018564c3df1251" title=" " alt="" coords="295,5,552,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,44,282,42,276,43,248,49"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_each_start.html#a7e1472d5d9b859be938509c230743d49" title=" " alt="" coords="305,72,542,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="247,71,292,78,287,78,247,76"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_each_start.html#a1cd363e77650018bc54612554a48da1e" title=" " alt="" coords="600,72,857,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="542,91,587,93,582,93,542,96"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.PrepareWaterRoot" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.PrepareWaterRoot">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,265,77"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a7e4e0d96c4a78498b40116b246b91882" title=" " alt="" coords="313,5,572,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="265,41,300,40,294,41,265,46"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#ab01c30c71b93e6958f6158b962c55eb9" title=" " alt="" coords="620,35,856,77"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="265,57,313,57,572,57,607,59,602,60,572,63,313,63,265,62"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="572,37,607,43,602,43,572,42"/>
-</map>

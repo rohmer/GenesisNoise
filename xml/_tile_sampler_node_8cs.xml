@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_tile_sampler_node_8cs" kind="file" language="C#">
+    <compoundname>TileSamplerNode.cs</compoundname>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_tile_sampler_node" prot="public">AhahGames::GenesisNoise::Nodes::TileSamplerNode</innerclass>
+    <innernamespace refid="namespace_ahah_games">AhahGames</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise">AhahGames::GenesisNoise</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes">AhahGames::GenesisNoise::Nodes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_graph_processor" kindref="compound">GraphProcessor</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes" kindref="compound">AhahGames.GenesisNoise.Nodes</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>[Documentation(</highlight><highlight class="stringliteral">@&quot;</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral">Purpose:<sp/>tile-sample<sp/>an<sp/>atlas<sp/>texture<sp/>across<sp/>UV<sp/>space<sp/>and<sp/>pick/transform<sp/>tiles<sp/>per<sp/>grid<sp/>cell<sp/>using<sp/>seeded<sp/>randomness,<sp/>pattern<sp/>modes<sp/>(including<sp/>Gaussian<sp/>variants),<sp/>optional<sp/>pattern<sp/>texture<sp/>input,<sp/>and<sp/>per-instance<sp/>jitter/rotation/scale/mirror.</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">Property<sp/><sp/><sp/><sp/>Type<sp/>/<sp/>Range<sp/><sp/><sp/><sp/>Description</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">_Atlas<sp/><sp/>2D<sp/>texture<sp/><sp/>Atlas/tileset<sp/>texture<sp/>(row-major<sp/>layout).</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">_UseAtlas<sp/><sp/><sp/>Int<sp/>(0/1)<sp/><sp/><sp/>Enable/disable<sp/>atlas<sp/>sampling.</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">_Scale<sp/><sp/>Vector<sp/><sp/>Grid<sp/>tiling<sp/>across<sp/>UVs<sp/>(cells<sp/>per<sp/>unit).</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral">_TilesCols<sp/><sp/>Int<sp/>Number<sp/>of<sp/>columns<sp/>in<sp/>the<sp/>atlas.</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">_TilesRows<sp/><sp/>Int<sp/>Number<sp/>of<sp/>rows<sp/>in<sp/>the<sp/>atlas.</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">_Density<sp/><sp/><sp/><sp/>Range(1,16)<sp/>Instances<sp/>per<sp/>cell<sp/>(samples<sp/>per<sp/>cell).</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral">_Jitter<sp/>Range(0,1)<sp/><sp/>Position<sp/>jitter<sp/>inside<sp/>each<sp/>cell.</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">_RotJitter<sp/><sp/>Range(0,6.283)<sp/><sp/>Rotation<sp/>jitter<sp/>in<sp/>radians.</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">_ScaleMin<sp/>/<sp/>_ScaleMax<sp/><sp/><sp/>Range(0.01,2)<sp/><sp/><sp/>Per-instance<sp/>scale<sp/>range.</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral">_MirrorChance<sp/><sp/><sp/>Range(0,1)<sp/><sp/>Probability<sp/>of<sp/>horizontal<sp/>mirror<sp/>per<sp/>instance.</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral">_Pattern<sp/><sp/><sp/><sp/>Enum<sp/><sp/><sp/><sp/>Pattern<sp/>mode<sp/>selector<sp/>(see<sp/>Pattern<sp/>Types).</highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral">_PatternTex<sp/>2D<sp/>texture<sp/><sp/>Optional<sp/>pattern<sp/>input<sp/>to<sp/>bias<sp/>tile<sp/>selection.</highlight></codeline>
+<codeline lineno="21"><highlight class="stringliteral">_UsePatternTex<sp/><sp/>Int<sp/>(0/1)<sp/><sp/><sp/>Enable/disable<sp/>pattern<sp/>texture<sp/>usage.</highlight></codeline>
+<codeline lineno="22"><highlight class="stringliteral">_GaussianSigma<sp/><sp/>Range(0.01,10)<sp/><sp/>Width<sp/>of<sp/>Gaussian<sp/>for<sp/>Gaussian<sp/>pattern<sp/>modes.</highlight></codeline>
+<codeline lineno="23"><highlight class="stringliteral">_BlendSoftness<sp/><sp/>Range(0.0,1.0)<sp/><sp/>Softening<sp/>of<sp/>tile<sp/>mask<sp/>edges.</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral">_Contrast<sp/><sp/><sp/>Range(0.5,4)<sp/><sp/><sp/><sp/>Final<sp/>contrast<sp/>exponent<sp/>applied<sp/>to<sp/>output.</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral">_Seed<sp/><sp/><sp/>Int<sp/>Randomization<sp/>seed<sp/>for<sp/>deterministic<sp/>variation.</highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral">Pattern<sp/>Types</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral">How<sp/>tile<sp/>indices<sp/>are<sp/>chosen<sp/>per<sp/>cell.<sp/>The<sp/>shader<sp/>maps<sp/>a<sp/>scalar<sp/>in<sp/>[0,1)<sp/>to<sp/>a<sp/>tile<sp/>index<sp/>(0..TilesCols*TilesRows-1).<sp/>The<sp/>pattern<sp/>scalar<sp/>can<sp/>be<sp/>modulated<sp/>by<sp/>the<sp/>optional<sp/>_PatternTex.</highlight></codeline>
+<codeline lineno="29"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="30"><highlight class="stringliteral">Enum<sp/>Value<sp/><sp/>Name<sp/><sp/><sp/><sp/>Behavior</highlight></codeline>
+<codeline lineno="31"><highlight class="stringliteral">0<sp/><sp/><sp/>Random<sp/><sp/>Per-instance<sp/>random<sp/>selection<sp/>using<sp/>seeded<sp/>hash.</highlight></codeline>
+<codeline lineno="32"><highlight class="stringliteral">1<sp/><sp/><sp/>CellIndex<sp/><sp/><sp/>Deterministic<sp/>hash<sp/>of<sp/>cell<sp/>coordinates<sp/>(unique<sp/>per<sp/>cell).</highlight></codeline>
+<codeline lineno="33"><highlight class="stringliteral">2<sp/><sp/><sp/>Rows<sp/><sp/><sp/><sp/>Varies<sp/>by<sp/>cell<sp/>row<sp/>(ip.y).</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral">3<sp/><sp/><sp/>Columns<sp/>Varies<sp/>by<sp/>cell<sp/>column<sp/>(ip.x).</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral">4<sp/><sp/><sp/>Diagonal<sp/><sp/><sp/><sp/>Varies<sp/>by<sp/>ip.x<sp/>+<sp/>ip.y<sp/>(diagonal<sp/>bands).</highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral">5<sp/><sp/><sp/>Radial<sp/><sp/>Varies<sp/>by<sp/>distance<sp/>from<sp/>origin<sp/>(cell<sp/>center).</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral">6<sp/><sp/><sp/>Checker<sp/>Alternating<sp/>pattern<sp/>like<sp/>a<sp/>checkerboard.</highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral">7<sp/><sp/><sp/>GaussianRows<sp/><sp/><sp/><sp/>Gaussian<sp/>weight<sp/>across<sp/>rows<sp/>(centered<sp/>by<sp/>default).</highlight></codeline>
+<codeline lineno="39"><highlight class="stringliteral">8<sp/><sp/><sp/>GaussianColumns<sp/>Gaussian<sp/>weight<sp/>across<sp/>columns.</highlight></codeline>
+<codeline lineno="40"><highlight class="stringliteral">9<sp/><sp/><sp/>GaussianRadial<sp/><sp/>Gaussian<sp/>falloff<sp/>with<sp/>radial<sp/>distance<sp/>from<sp/>origin.</highlight></codeline>
+<codeline lineno="41"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Serializable,<sp/>NodeMenuItem(</highlight><highlight class="stringliteral">&quot;Tiling/Tile<sp/>Sampler&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="44" refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_tile_sampler_node" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_tile_sampler_node" kindref="compound">TileSamplerNode</ref><sp/>:<sp/><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node" kindref="compound">FixedShaderNode</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Tile<sp/>Sampler&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>NodeGroup<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Tiling&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ShaderName<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Hidden/Genesis/TileSampler&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>DisplayMaterialInspector<sp/>=&gt;<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Tiling/TileSamplerNode.cs"/>
+  </compounddef>
+</doxygen>

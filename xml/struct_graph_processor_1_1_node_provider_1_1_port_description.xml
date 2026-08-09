@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_graph_processor_1_1_node_provider_1_1_port_description" kind="struct" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeProvider::PortDescription</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_port_description_1a8aaad82ff65c7bdfc10f11edbd3fefc3" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type GraphProcessor.NodeProvider.PortDescription.nodeType</definition>
+        <argsstring></argsstring>
+        <name>nodeType</name>
+        <qualifiedname>GraphProcessor.NodeProvider.PortDescription.nodeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="18" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_port_description_1aff2b6079c51b27914d29b6ed29cc9cbf" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type GraphProcessor.NodeProvider.PortDescription.portType</definition>
+        <argsstring></argsstring>
+        <name>portType</name>
+        <qualifiedname>GraphProcessor.NodeProvider.PortDescription.portType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="19" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_port_description_1ae8cdbeeb46fb53c00d74d3e70e331b2b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.NodeProvider.PortDescription.isInput</definition>
+        <argsstring></argsstring>
+        <name>isInput</name>
+        <qualifiedname>GraphProcessor.NodeProvider.PortDescription.isInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="20" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_port_description_1aecfdb937e60d87eaa2bcbeecb9f599ef" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeProvider.PortDescription.portFieldName</definition>
+        <argsstring></argsstring>
+        <name>portFieldName</name>
+        <qualifiedname>GraphProcessor.NodeProvider.PortDescription.portFieldName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="21" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_port_description_1aff26d3bce24b1bf25bd67066e74589ec" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeProvider.PortDescription.portIdentifier</definition>
+        <argsstring></argsstring>
+        <name>portIdentifier</name>
+        <qualifiedname>GraphProcessor.NodeProvider.PortDescription.portIdentifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="22" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_port_description_1a0e89007eb877f3a01c91f0597d713eb9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeProvider.PortDescription.portDisplayName</definition>
+        <argsstring></argsstring>
+        <name>portDisplayName</name>
+        <qualifiedname>GraphProcessor.NodeProvider.PortDescription.portDisplayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="23" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="16" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="17" bodyend="24"/>
+    <listofallmembers>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_port_description_1ae8cdbeeb46fb53c00d74d3e70e331b2b" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::PortDescription</scope><name>isInput</name></member>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_port_description_1a8aaad82ff65c7bdfc10f11edbd3fefc3" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::PortDescription</scope><name>nodeType</name></member>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_port_description_1a0e89007eb877f3a01c91f0597d713eb9" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::PortDescription</scope><name>portDisplayName</name></member>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_port_description_1aecfdb937e60d87eaa2bcbeecb9f599ef" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::PortDescription</scope><name>portFieldName</name></member>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_port_description_1aff26d3bce24b1bf25bd67066e74589ec" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::PortDescription</scope><name>portIdentifier</name></member>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_port_description_1aff2b6079c51b27914d29b6ed29cc9cbf" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::PortDescription</scope><name>portType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.CollectBundledContent" name="AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.CollectBundledContent">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,246,105"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#a4d7333056dc6845205db78a4e75883a6" title=" " alt="" coords="294,5,534,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,56,281,53,276,55,247,61"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#a4059e137ff38d6937be12970da2d9d16" title=" " alt="" coords="294,88,534,147"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,91,281,98,275,98,246,96"/>
-</map>

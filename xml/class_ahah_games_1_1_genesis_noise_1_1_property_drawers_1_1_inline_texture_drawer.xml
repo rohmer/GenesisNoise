@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer" prot="public" virt="non-virtual">AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1aea0aba1b613121f1bddeaa1f8872dea7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.visibleInInspector</definition>
+        <argsstring></argsstring>
+        <name>visibleInInspector</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.visibleInInspector</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" line="12" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a684b5d6cf3c07f5b0bae1077b4f720a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.InlineTextureDrawer</definition>
+        <argsstring>()</argsstring>
+        <name>InlineTextureDrawer</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.InlineTextureDrawer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" line="14" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a2dddfa1645e32fee910bf104ea6dd632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.InlineTextureDrawer</definition>
+        <argsstring>(string v)</argsstring>
+        <name>InlineTextureDrawer</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.InlineTextureDrawer</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" line="15" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a18705691c7e4b140955ed3311fb03779" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.GetPropertyHeight</definition>
+        <argsstring>(MaterialProperty prop, string label, MaterialEditor editor)</argsstring>
+        <name>GetPropertyHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.GetPropertyHeight</qualifiedname>
+        <param>
+          <type>MaterialProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>editor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" line="34" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" bodystart="34" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a3262271e4fe86921134b3e5e5f61f7dc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.DrawerGUI</definition>
+        <argsstring>(Rect position, MaterialProperty prop, string label, MaterialEditor editor, GenesisGraph graph, GenesisNodeView nodeView)</argsstring>
+        <name>DrawerGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer.DrawerGUI</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a435345fb6296a58a0b81e206eed64204">DrawerGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>MaterialProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view" kindref="compound">GenesisNodeView</ref></type>
+          <declname>nodeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" line="20" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" bodystart="20" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.InlineTextureDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" line="10" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisInlineTextureDrawer.cs" bodystart="11" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a3262271e4fe86921134b3e5e5f61f7dc" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>DrawerGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1aa1a659ce976efcdd47477b5814cfc662" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>GetGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a04f2c16e2740c2536341ac358d17e111" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>GetNodeView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a18705691c7e4b140955ed3311fb03779" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>GetPropertyHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a684b5d6cf3c07f5b0bae1077b4f720a5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>InlineTextureDrawer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1a2dddfa1645e32fee910bf104ea6dd632" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>InlineTextureDrawer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1ae338df9a931472a43039b3d0bfa2034f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a7a9263b323f045ee82e8fdae797dfa65" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>RegisterEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a912353e0d4d75a07e7d4cda9aafe2fff" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>UnregisterGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_inline_texture_drawer_1aea0aba1b613121f1bddeaa1f8872dea7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::InlineTextureDrawer</scope><name>visibleInInspector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.PinkNoisePointsNode.PinkNoise01" name="AhahGames.GenesisNoise.Nodes.PinkNoisePointsNode.PinkNoise01">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,233,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_pink_noise_points_node.html#a358b8cb3bda542d71acf3171e4033d2d" title=" " alt="" coords="281,39,506,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,57,268,60,263,60,233,63"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_pink_noise_points_node.html#a921d7b51c4ada519c1f1dd57889c6544" title=" " alt="" coords="554,5,779,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="506,44,541,42,536,43,507,49"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_pink_noise_points_node.html#a2f60af2014ab5666e44c017612d36de9" title=" " alt="" coords="554,72,779,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="506,71,541,78,536,78,506,76"/>
-</map>

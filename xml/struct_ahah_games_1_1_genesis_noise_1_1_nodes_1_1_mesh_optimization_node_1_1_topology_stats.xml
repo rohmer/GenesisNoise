@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::TopologyStats</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats_1af5acbd066576d2b383e0a6c7a7cd2c01" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.TopologyStats.BoundaryEdgeCount</definition>
+        <argsstring></argsstring>
+        <name>BoundaryEdgeCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.TopologyStats.BoundaryEdgeCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="947" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="947" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats_1a382e2e5d6a4eaa48df53e2ab788e7050" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.TopologyStats.NonManifoldEdgeCount</definition>
+        <argsstring></argsstring>
+        <name>NonManifoldEdgeCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.TopologyStats.NonManifoldEdgeCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="948" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="948" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats_1aa4f0ce328f13f8e9b649b2fb10f0b5f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.TopologyStats.TopologyStats</definition>
+        <argsstring>(int boundaryEdgeCount, int nonManifoldEdgeCount)</argsstring>
+        <name>TopologyStats</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.TopologyStats.TopologyStats</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>boundaryEdgeCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nonManifoldEdgeCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="950" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="950" bodyend="954"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="945" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="946" bodyend="955"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats_1af5acbd066576d2b383e0a6c7a7cd2c01" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::TopologyStats</scope><name>BoundaryEdgeCount</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats_1a382e2e5d6a4eaa48df53e2ab788e7050" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::TopologyStats</scope><name>NonManifoldEdgeCount</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_topology_stats_1aa4f0ce328f13f8e9b649b2fb10f0b5f6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::TopologyStats</scope><name>TopologyStats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

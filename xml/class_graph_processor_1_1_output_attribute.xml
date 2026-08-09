@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_output_attribute" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::OutputAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_output_attribute_1a07b9f5ac49139991602fe4a3cc61fce3" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.OutputAttribute.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>GraphProcessor.OutputAttribute.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="32" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_output_attribute_1a9ad37f6a52cd34fddcbfa1cfb18a349b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.OutputAttribute.allowMultiple</definition>
+        <argsstring></argsstring>
+        <name>allowMultiple</name>
+        <qualifiedname>GraphProcessor.OutputAttribute.allowMultiple</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="33" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_output_attribute_1a355c0b36f00cdccf3cd848aabb1fd425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.OutputAttribute.OutputAttribute</definition>
+        <argsstring>(string name=null, bool allowMultiple=true)</argsstring>
+        <name>OutputAttribute</name>
+        <qualifiedname>GraphProcessor.OutputAttribute.OutputAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowMultiple</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Mark the field as an output port. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>display name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allowMultiple</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is connecting multiple edges allowed</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="40" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Tell that this field is will generate an output port. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.OutputAttribute</label>
+        <link refid="class_graph_processor_1_1_output_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.OutputAttribute</label>
+        <link refid="class_graph_processor_1_1_output_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="30" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="31" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_output_attribute_1a9ad37f6a52cd34fddcbfa1cfb18a349b" prot="public" virt="non-virtual"><scope>GraphProcessor::OutputAttribute</scope><name>allowMultiple</name></member>
+      <member refid="class_graph_processor_1_1_output_attribute_1a07b9f5ac49139991602fe4a3cc61fce3" prot="public" virt="non-virtual"><scope>GraphProcessor::OutputAttribute</scope><name>name</name></member>
+      <member refid="class_graph_processor_1_1_output_attribute_1a355c0b36f00cdccf3cd848aabb1fd425" prot="public" virt="non-virtual"><scope>GraphProcessor::OutputAttribute</scope><name>OutputAttribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

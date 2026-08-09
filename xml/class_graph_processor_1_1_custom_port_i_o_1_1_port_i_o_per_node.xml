@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_custom_port_i_o_1_1_port_i_o_per_node" kind="class" language="C#" prot="private">
+    <compoundname>GraphProcessor::CustomPortIO::PortIOPerNode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Dictionary</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Dictionary</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.CustomPortIO.PortIOPerNode</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Dictionary</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.CustomPortIO.PortIOPerNode</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/CustomPortIO.cs" line="15" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/CustomPortIO.cs" bodystart="15" bodyend="15"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

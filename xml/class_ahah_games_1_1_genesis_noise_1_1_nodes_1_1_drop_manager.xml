@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager" kind="class" language="C#" prot="package">
+    <compoundname>AhahGames::GenesisNoise::Nodes::DropManager</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a28d62616e109669de12bba7ebb63f428" prot="private" static="no" mutable="no">
+        <type>List&lt; DropJob &gt;</type>
+        <definition>List&lt;DropJob&gt; AhahGames.GenesisNoise.Nodes.DropManager.dropJobs</definition>
+        <argsstring></argsstring>
+        <name>dropJobs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DropManager.dropJobs</qualifiedname>
+        <initializer>= new List&lt;DropJob&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" line="11" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a5674e919c057ac7d6ca1e6522a03b468" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.DropManager.timeAccum</definition>
+        <argsstring></argsstring>
+        <name>timeAccum</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DropManager.timeAccum</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" line="12" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1aa5015ebf7cf4228c092f8cdb8f420ebc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.DropManager.maxTimeSteps</definition>
+        <argsstring></argsstring>
+        <name>maxTimeSteps</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DropManager.maxTimeSteps</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" line="13" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a90072357b0ff00ecd623fd846df37049" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.DropManager.CreateDropJob</definition>
+        <argsstring>(GameObject gameObject, GameObject parent, Vector3 location, bool addMeshCollider, bool rotateX, bool rotateY, bool rotateZ, float minSizeX, float maxSizeX, float minSizeY, float maxSizeY, float minSizeZ, float maxSizeZ)</argsstring>
+        <name>CreateDropJob</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DropManager.CreateDropJob</qualifiedname>
+        <param>
+          <type>GameObject</type>
+          <declname>gameObject</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addMeshCollider</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rotateX</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rotateY</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rotateZ</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSizeX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSizeX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSizeY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSizeY</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSizeZ</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSizeZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gameObject</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>location</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addMeshCollider</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rotateX</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rotateY</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rotateZ</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSizeX</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSizeX</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSizeY</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSizeY</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSizeZ</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSizeZ</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" line="31" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" bodystart="31" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a928e570591549cfb2c9a03272b19ed5b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.DropManager.UpdateDropJobs</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateDropJobs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DropManager.UpdateDropJobs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" line="76" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" bodystart="76" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" line="9" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropManager.cs" bodystart="10" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a90072357b0ff00ecd623fd846df37049" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DropManager</scope><name>CreateDropJob</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a28d62616e109669de12bba7ebb63f428" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DropManager</scope><name>dropJobs</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1aa5015ebf7cf4228c092f8cdb8f420ebc" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DropManager</scope><name>maxTimeSteps</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a5674e919c057ac7d6ca1e6522a03b468" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DropManager</scope><name>timeAccum</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_manager_1a928e570591549cfb2c9a03272b19ed5b" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DropManager</scope><name>UpdateDropJobs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

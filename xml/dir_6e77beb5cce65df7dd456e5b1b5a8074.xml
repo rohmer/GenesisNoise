@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_6e77beb5cce65df7dd456e5b1b5a8074" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material</compoundname>
+    <innerdir refid="dir_8fc0bf6972f2f3ef95469feb3d1bcfaa">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material/HDRP</innerdir>
+    <innerdir refid="dir_fef26ea671fb6cb9a15a5034393453f0">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material/URP</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material/"/>
+  </compounddef>
+</doxygen>

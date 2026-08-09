@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer" prot="public" virt="non-virtual">AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcd" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NoiseValueReturn</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.GenesisNoiseValueReturnDrawer.NoiseValueReturn</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcda0aa6f4210bf373c95eda00232e93cd98" prot="public">
+          <name>Distance</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcda8c5245b7681dc8eee0a5082e21b3ac94" prot="public">
+          <name>Distance2</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcda256d7cf1ce4671f61de83c423cccf4c8" prot="public">
+          <name>Distance2Add</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcda79c598978149dfa355b5592c522f0e6a" prot="public">
+          <name>Distance2Sub</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcdaf9875fc3c813b193f78b3454da9b14d7" prot="public">
+          <name>Distance2Mul</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcda36c73b3dd2df6672fa35c80a75d7416c" prot="public">
+          <name>Distance2Div</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisNoiseValueReturnDrawer.cs" line="12" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisNoiseValueReturnDrawer.cs" bodystart="13" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1ac8e2f911f631de7458d75d9d2ffcc049" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.PropertyDrawers.GenesisNoiseValueReturnDrawer.DrawerGUI</definition>
+        <argsstring>(Rect position, MaterialProperty prop, string label, MaterialEditor editor, GenesisGraph graph, GenesisNodeView nodeView)</argsstring>
+        <name>DrawerGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.GenesisNoiseValueReturnDrawer.DrawerGUI</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a435345fb6296a58a0b81e206eed64204">DrawerGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>MaterialProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view" kindref="compound">GenesisNodeView</ref></type>
+          <declname>nodeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisNoiseValueReturnDrawer.cs" line="28" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisNoiseValueReturnDrawer.cs" bodystart="28" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisNoiseValueReturnDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisNoiseValueReturnDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisNoiseValueReturnDrawer.cs" line="10" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisNoiseValueReturnDrawer.cs" bodystart="11" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1ac8e2f911f631de7458d75d9d2ffcc049" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>DrawerGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1aa1a659ce976efcdd47477b5814cfc662" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>GetGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a04f2c16e2740c2536341ac358d17e111" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>GetNodeView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a1ff93c593f7ff4e8fb42eaa8ff8b18ad" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>GetPropertyHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_noise_value_return_drawer_1a643617d8731289e5bb5e0a3812e34fcd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>NoiseValueReturn</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1ae338df9a931472a43039b3d0bfa2034f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a7a9263b323f045ee82e8fdae797dfa65" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>RegisterEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a912353e0d4d75a07e7d4cda9aafe2fff" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisNoiseValueReturnDrawer</scope><name>UnregisterGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

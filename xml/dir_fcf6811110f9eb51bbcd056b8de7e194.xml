@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_fcf6811110f9eb51bbcd056b8de7e194" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph</compoundname>
+    <innerdir refid="dir_6aa3b7b62016260483a56f787bda8aae">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/Inspectors</innerdir>
+    <innerfile refid="_genesis_graph_inspector_8cs">GenesisGraphInspector.cs</innerfile>
+    <innerfile refid="_genesis_graph_packaging_menu_8cs">GenesisGraphPackagingMenu.cs</innerfile>
+    <innerfile refid="_genesis_graph_window_8cs">GenesisGraphWindow.cs</innerfile>
+    <innerfile refid="_genesis_toolbar_8cs">GenesisToolbar.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/"/>
+  </compounddef>
+</doxygen>

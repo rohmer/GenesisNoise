@@ -1,0 +1,90 @@
+\doxysection{Graph\+Processor.\+Base\+Edge\+Drag\+Helper Class Reference}
+\hypertarget{class_graph_processor_1_1_base_edge_drag_helper}{}\label{class_graph_processor_1_1_base_edge_drag_helper}\index{GraphProcessor.BaseEdgeDragHelper@{GraphProcessor.BaseEdgeDragHelper}}
+
+
+Inheritance diagram for Graph\+Processor.\+Base\+Edge\+Drag\+Helper:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_graph_processor_1_1_base_edge_drag_helper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Graph\+Processor.\+Base\+Edge\+Drag\+Helper:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_graph_processor_1_1_base_edge_drag_helper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_acbc20afa1c7c4913af8f1ee6273ecf67}\label{class_graph_processor_1_1_base_edge_drag_helper_acbc20afa1c7c4913af8f1ee6273ecf67} 
+{\bfseries Base\+Edge\+Drag\+Helper} (IEdge\+Connector\+Listener listener)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_a8647e87c60b5380d4dcca1a77ad1bb63}\label{class_graph_processor_1_1_base_edge_drag_helper_a8647e87c60b5380d4dcca1a77ad1bb63} 
+override void {\bfseries Reset} (bool did\+Connect=false)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_a406a895cc17948c78eab8de65b250278}\label{class_graph_processor_1_1_base_edge_drag_helper_a406a895cc17948c78eab8de65b250278} 
+override bool {\bfseries Handle\+Pointer\+Down} (Pointer\+Down\+Event evt)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_aa569e7de0e91a3f2bf059a328c5b27b1}\label{class_graph_processor_1_1_base_edge_drag_helper_aa569e7de0e91a3f2bf059a328c5b27b1} 
+override bool {\bfseries Handle\+Mouse\+Down} (Mouse\+Down\+Event evt)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_aee47045405738f0988a47827ba28e0b8}\label{class_graph_processor_1_1_base_edge_drag_helper_aee47045405738f0988a47827ba28e0b8} 
+override void {\bfseries Handle\+Pointer\+Move} (Pointer\+Move\+Event evt)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_a5c73ed75977130a521367de33e0285a1}\label{class_graph_processor_1_1_base_edge_drag_helper_a5c73ed75977130a521367de33e0285a1} 
+override void {\bfseries Handle\+Mouse\+Move} (Mouse\+Move\+Event evt)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_ac8cab97d502f6da5192118137da4c56c}\label{class_graph_processor_1_1_base_edge_drag_helper_ac8cab97d502f6da5192118137da4c56c} 
+override void {\bfseries Handle\+Pointer\+Up} (Pointer\+Up\+Event evt)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_af2b80dfb25b70b4fef22e867ba87c16d}\label{class_graph_processor_1_1_base_edge_drag_helper_af2b80dfb25b70b4fef22e867ba87c16d} 
+override void {\bfseries Handle\+Mouse\+Up} (Mouse\+Up\+Event evt)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_ab1e0de1913ba714694cfcb1973c70d95}\label{class_graph_processor_1_1_base_edge_drag_helper_ab1e0de1913ba714694cfcb1973c70d95} 
+virtual \doxymbox{\hyperlink{class_graph_processor_1_1_edge_view}{Edge\+View}} {\bfseries Create\+Edge\+View} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_a42b6e65638990f8cbf336fdbdd8a102c}\label{class_graph_processor_1_1_base_edge_drag_helper_a42b6e65638990f8cbf336fdbdd8a102c} 
+Dictionary$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_view}{Base\+Node\+View}}, List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_port_view}{Port\+View}} $>$ $>$ {\bfseries compatible\+Ports} = new()
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_aff8883ce9dcbd416d77e16f0e18d4596}\label{class_graph_processor_1_1_base_edge_drag_helper_aff8883ce9dcbd416d77e16f0e18d4596} 
+Graph\+View {\bfseries graph\+View}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_a44c387d1cc051a5f0f8702dce375c91e}\label{class_graph_processor_1_1_base_edge_drag_helper_a44c387d1cc051a5f0f8702dce375c91e} 
+readonly IEdge\+Connector\+Listener {\bfseries listener}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_ad7cc45e4d10febe520d5965916191202}\label{class_graph_processor_1_1_base_edge_drag_helper_ad7cc45e4d10febe520d5965916191202} 
+static Node\+Adapter {\bfseries node\+Adapter} = new()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_a909299347d826c0a07667cbb91d52bf1}\label{class_graph_processor_1_1_base_edge_drag_helper_a909299347d826c0a07667cbb91d52bf1} 
+bool {\bfseries reset\+Position\+On\+Pan}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_aedb2a44bab7d4902998fb53676e8f1d3}\label{class_graph_processor_1_1_base_edge_drag_helper_aedb2a44bab7d4902998fb53676e8f1d3} 
+override Edge {\bfseries edge\+Candidate}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_edge_drag_helper_a796caf31d710f3fd19a3c6a2cfcd585f}\label{class_graph_processor_1_1_base_edge_drag_helper_a796caf31d710f3fd19a3c6a2cfcd585f} 
+override Port {\bfseries dragged\+Port}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Editor/\+\+Node\+Graph\+Processor/\+\+Editor/\+\+Utils/\+Base\+Edge\+Drag\+Helper.\+cs\end{DoxyCompactItemize}

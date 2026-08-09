@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g" kind="class" language="C#" prot="public">
+    <compoundname>Supercluster::KDTree::KDTree-1-g</compoundname>
+    <templateparamlist>
+      <param>
+        <type>TNode</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a8969893e89f56a6b41d9487e86b92252" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Supercluster.KDTree.KDTree&lt; TNode &gt;.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.Count</qualifiedname>
+        <briefdescription>
+<para>The number of points in the <ref refid="namespace_supercluster_1_1_k_d_tree" kindref="compound">KDTree</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="35" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="35" bodyend="35"/>
+        <referencedby refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a1a7d2146ce4c5272ada95895338e3ef3" compoundref="_k_d_tree_8cs" startline="70" endline="86">Supercluster.KDTree.KDTree&lt; TNode &gt;.KDTree</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a9cc9570d500b4d052929e4e3f586b052" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double[][]</type>
+        <definition>double [][] Supercluster.KDTree.KDTree&lt; TNode &gt;.InternalPointArray</definition>
+        <argsstring></argsstring>
+        <name>InternalPointArray</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.InternalPointArray</qualifiedname>
+        <briefdescription>
+<para>The array in which the binary tree is stored. Enumerating this array is a level-order traversal of the tree. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="40" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="40" bodyend="40"/>
+        <referencedby refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a1a7d2146ce4c5272ada95895338e3ef3" compoundref="_k_d_tree_8cs" startline="70" endline="86">Supercluster.KDTree.KDTree&lt; TNode &gt;.KDTree</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a45c8617be1d05a86826ac9c9a52c89d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>TNode[]</type>
+        <definition>TNode [] Supercluster.KDTree.KDTree&lt; TNode &gt;.InternalNodeArray</definition>
+        <argsstring></argsstring>
+        <name>InternalNodeArray</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.InternalNodeArray</qualifiedname>
+        <briefdescription>
+<para>The array in which the node objects are stored. There is a one-to-one correspondence with this array and the InternalPointArray. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="45" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="45" bodyend="45"/>
+        <referencedby refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a1a7d2146ce4c5272ada95895338e3ef3" compoundref="_k_d_tree_8cs" startline="70" endline="86">Supercluster.KDTree.KDTree&lt; TNode &gt;.KDTree</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1ad584cb5f77999ae3a47598cbf62fd8b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>BinaryTreeNavigator&lt; double[], TNode &gt;</type>
+        <definition>BinaryTreeNavigator&lt;double[], TNode&gt; Supercluster.KDTree.KDTree&lt; TNode &gt;.Navigator</definition>
+        <argsstring></argsstring>
+        <name>Navigator</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.Navigator</qualifiedname>
+        <briefdescription>
+<para>Gets a BinaryTreeNavigator&lt;TPoint,TNode&gt; that allows for manual tree navigation,. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="50" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a96d33d89c676cbbf75a638748e2ac29f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Supercluster.KDTree.KDTree&lt; TNode &gt;.MaxValue</definition>
+        <argsstring></argsstring>
+        <name>MaxValue</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.MaxValue</qualifiedname>
+        <briefdescription>
+<para>The maximum value along any dimension. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="56" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a9ac9875d637d60a8c41708a4b633985f" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double Supercluster.KDTree.KDTree&lt; TNode &gt;.MinValue</definition>
+        <argsstring></argsstring>
+        <name>MinValue</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.MinValue</qualifiedname>
+        <briefdescription>
+<para>The minimum value along any dimension. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="61" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a1a7d2146ce4c5272ada95895338e3ef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Supercluster.KDTree.KDTree&lt; TNode &gt;.KDTree</definition>
+        <argsstring>(double[][] points, TNode[] nodes, double searchWindowMinValue=double.MinValue, double searchWindowMaxValue=double.MaxValue)</argsstring>
+        <name>KDTree</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.KDTree</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>points</declname>
+          <array>[][]</array>
+        </param>
+        <param>
+          <type>TNode[]</type>
+          <declname>nodes</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>searchWindowMinValue</declname>
+          <defval>double.MinValue</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>searchWindowMaxValue</declname>
+          <defval>double.MaxValue</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the KDTree&lt;TNode&gt; class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The points to be constructed into a KDTree&lt;TNode&gt;</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The nodes associated with each point.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>searchWindowMinValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum value to be used in node searches.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>searchWindowMaxValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum value to be used in node searches.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="70" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="70" bodyend="86"/>
+        <references refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a8969893e89f56a6b41d9487e86b92252" compoundref="_k_d_tree_8cs" startline="35" endline="35">Supercluster.KDTree.KDTree&lt; TNode &gt;.Count</references>
+        <references refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a45c8617be1d05a86826ac9c9a52c89d8" compoundref="_k_d_tree_8cs" startline="45" endline="45">Supercluster.KDTree.KDTree&lt; TNode &gt;.InternalNodeArray</references>
+        <references refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a9cc9570d500b4d052929e4e3f586b052" compoundref="_k_d_tree_8cs" startline="40" endline="40">Supercluster.KDTree.KDTree&lt; TNode &gt;.InternalPointArray</references>
+      </memberdef>
+      <memberdef kind="function" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a585e8c3820f6fdebfc4186e35641a373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Tuple&lt; double[], TNode &gt;[]</type>
+        <definition>Tuple&lt; double[], TNode &gt;[] Supercluster.KDTree.KDTree&lt; TNode &gt;.NearestNeighbors</definition>
+        <argsstring>(double[] point, int neighbors)</argsstring>
+        <name>NearestNeighbors</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.NearestNeighbors</qualifiedname>
+        <param>
+          <type>double[]</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+<para>Finds the nearest neighbors in the KDTree&lt;TNode&gt; of the given <emphasis>point</emphasis> . </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point whose neighbors we search for.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>neighbors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of neighbors to look for.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="93" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="93" bodyend="100"/>
+        <references refid="struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_1ab2091d2217e82507492659a619354a9d" compoundref="_hyper_rect_8cs" startline="65" endline="79">Supercluster.KDTree.HyperRect.Infinite</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a40e87db5f6447c7fc4671cd609a89aa4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Supercluster.KDTree.KDTree&lt; TNode &gt;.GenerateTree</definition>
+        <argsstring>(int index, int dim, IReadOnlyCollection&lt; double[]&gt; points, IEnumerable&lt; TNode &gt; nodes)</argsstring>
+        <name>GenerateTree</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.GenerateTree</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <param>
+          <type>IReadOnlyCollection&lt; double[]&gt;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; TNode &gt;</type>
+          <declname>nodes</declname>
+        </param>
+        <briefdescription>
+<para>Grows a KD tree recursively via median splitting. We find the median by doing a full sort. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The array index for the current node.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dim</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current splitting dimension.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The set of points remaining to be added to the kd-tree</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nodes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The set of nodes RE</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="109" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="109" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a87c3273f00b308439c0474c04cda823f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Supercluster.KDTree.KDTree&lt; TNode &gt;.SearchForNearestNeighbors</definition>
+        <argsstring>(int nodeIndex, double[] target, HyperRect rect, int dimension, BoundedPriorityList&lt; int &gt; nearestNeighbors, double maxSearchRadiusSquared)</argsstring>
+        <name>SearchForNearestNeighbors</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.SearchForNearestNeighbors</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>nodeIndex</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_supercluster_1_1_k_d_tree_1_1_hyper_rect" kindref="compound">HyperRect</ref></type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimension</declname>
+        </param>
+        <param>
+          <type>BoundedPriorityList&lt; int &gt;</type>
+          <declname>nearestNeighbors</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxSearchRadiusSquared</declname>
+        </param>
+        <briefdescription>
+<para>A top-down recursive method to find the nearest neighbors of a given point. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nodeIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the node for the current recursion branch.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point whose neighbors we are trying to find.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The HyperRect&lt;T&gt; containing the possible nearest neighbors.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current splitting dimension for this recursion branch.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nearestNeighbors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The BoundedPriorityList&lt;TElement,TPriority&gt; containing the nearest neighbors already discovered.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSearchRadiusSquared</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The squared radius of the current largest distance to search from the <emphasis>target</emphasis> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="195" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="195" bodyend="276"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1ac731a0d82e071a9c8363d5417f35af82" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Supercluster.KDTree.KDTree&lt; TNode &gt;.CalculateDistance</definition>
+        <argsstring>(double[] x, double[] y)</argsstring>
+        <name>CalculateDistance</name>
+        <qualifiedname>Supercluster.KDTree.KDTree-1-g.CalculateDistance</qualifiedname>
+        <param>
+          <type>double[]</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double[]</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="278" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="278" bodyend="281"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a KD-Tree. KD-Trees are used for fast spatial searches. Searching in a balanced KD-Tree is O(log n) where linear search is O(n). Points in the KD-Tree are equi-length arrays of doubles. The node objects associated with the points is an array of type <emphasis>TNode</emphasis> . </para>
+    </briefdescription>
+    <detaileddescription>
+<para>KDTrees can be fairly difficult to understand at first. The following references helped me understand what exactly a <ref refid="namespace_supercluster_1_1_k_d_tree" kindref="compound">KDTree</ref> is doing and the contain the best descriptions of searches in a <ref refid="namespace_supercluster_1_1_k_d_tree" kindref="compound">KDTree</ref>. Samet&apos;s book is the best reference of multidimensional data structures I have ever seen. Wikipedia is also a good starting place. References: <itemizedlist>
+<listitem>
+<para><ulink url="http://store.elsevier.com/product.jsp?isbn=9780123694461">Foundations of Multidimensional and Metric Data Structures, 1st Edition, by Hanan Samet. ISBN: 9780123694461</ulink>  </para>
+</listitem>
+<listitem>
+<para><ulink url="https://en.wikipedia.org/wiki/K-d_tree">https://en.wikipedia.org/wiki/K-d_tree</ulink>  </para>
+</listitem>
+</itemizedlist>
+</para>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type representing the actual node objects.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" line="30" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/KDTree.cs" bodystart="31" bodyend="282"/>
+    <listofallmembers>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1ac731a0d82e071a9c8363d5417f35af82" prot="private" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>CalculateDistance</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a8969893e89f56a6b41d9487e86b92252" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>Count</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a40e87db5f6447c7fc4671cd609a89aa4" prot="private" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>GenerateTree</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a45c8617be1d05a86826ac9c9a52c89d8" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>InternalNodeArray</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a9cc9570d500b4d052929e4e3f586b052" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>InternalPointArray</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a1a7d2146ce4c5272ada95895338e3ef3" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>KDTree</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a96d33d89c676cbbf75a638748e2ac29f" prot="private" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>MaxValue</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a9ac9875d637d60a8c41708a4b633985f" prot="private" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>MinValue</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1ad584cb5f77999ae3a47598cbf62fd8b9" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>Navigator</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a585e8c3820f6fdebfc4186e35641a373" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>NearestNeighbors</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g_1a87c3273f00b308439c0474c04cda823f" prot="private" virt="non-virtual"><scope>Supercluster::KDTree::KDTree-1-g</scope><name>SearchForNearestNeighbors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.ApplyMaterialToMeshNode.GetEffectiveMaterial" name="AhahGames.GenesisNoise.Nodes.ApplyMaterialToMeshNode.GetEffectiveMaterial">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,259,89"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_port.html#a8a52c82b7869f2f0954c9ea9bf1a8c0a" title="Get all the edges connected to this port." alt="" coords="310,5,488,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,41,297,39,292,40,260,47"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#acc62ac7f944e29ed82300959bfa56fb2" title="Get the port from field name and identifier." alt="" coords="307,72,491,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,73,294,80,288,80,259,79"/>
-</map>

@@ -1,0 +1,991 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_unity_1_1_mathematics_1_1bounds" kind="struct" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::bounds</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IFormattable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1bounds_1afe78a0339bd2d0e417d6ef4846e75966" prot="private" static="no" mutable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.Center</definition>
+        <argsstring></argsstring>
+        <name>Center</name>
+        <qualifiedname>Unity.Mathematics.bounds.Center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="20" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1bounds_1a50c32d1ad6224a3a4e1142b2edce2457" prot="private" static="no" mutable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.Extents</definition>
+        <argsstring></argsstring>
+        <name>Extents</name>
+        <qualifiedname>Unity.Mathematics.bounds.Extents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="21" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1bounds_1a5ecc3f2e3ac58f77fd94d20985919b8f" prot="private" static="yes" mutable="no">
+        <type>const MethodImplOptions</type>
+        <definition>const MethodImplOptions Unity.Mathematics.bounds.IL</definition>
+        <argsstring></argsstring>
+        <name>IL</name>
+        <qualifiedname>Unity.Mathematics.bounds.IL</qualifiedname>
+        <initializer>= MethodImplOptions.AggressiveInlining</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="23" column="41" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>Unity.Mathematics.bounds.center</qualifiedname>
+        <briefdescription>
+<para>The center of the bounding box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="46" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="47" bodyend="50"/>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" compoundref="bounds_8cs" startline="28" endline="31">Unity.Mathematics.bounds.bounds</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a59440e5873a1de2203d69b80b7cad6f3" compoundref="bounds_8cs" startline="159" endline="159">Unity.Mathematics.bounds.closestpoint</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a2807fada069b10a9ea88aa9921b19648" compoundref="bounds_8cs" startline="204" endline="212">Unity.Mathematics.bounds.facecenters</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a7881c110eabc9977714e6d7cecad2c4e" compoundref="bounds_8cs" startline="258" endline="269">Unity.Mathematics.bounds.facecenters</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a79ea26e2f646e3245e1e42d2130ce431" compoundref="bounds_8cs" startline="87" endline="90">Unity.Mathematics.bounds.setminmax</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a4bb37a94b68658993475798950be8da1" compoundref="bounds_8cs" startline="150" endline="154">Unity.Mathematics.bounds.sqrdistance</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_1_1_mathematics_1_1bounds_1a61eb8c3df1cf6cf48bdbdb9117e2cf50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>Unity.Mathematics.bounds.size</qualifiedname>
+        <briefdescription>
+<para>The total size of the box. This is always twice as large as the extents. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="53" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="54" bodyend="57"/>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" compoundref="bounds_8cs" startline="28" endline="31">Unity.Mathematics.bounds.bounds</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.extents</definition>
+        <argsstring></argsstring>
+        <name>extents</name>
+        <qualifiedname>Unity.Mathematics.bounds.extents</qualifiedname>
+        <briefdescription>
+<para>The extents of the Bounding Box. This is always half of the size of the bounds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="60" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="61" bodyend="64"/>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a59440e5873a1de2203d69b80b7cad6f3" compoundref="bounds_8cs" startline="159" endline="159">Unity.Mathematics.bounds.closestpoint</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a4a7214f5106baf932e36cb1193fc5b04" compoundref="bounds_8cs" startline="103" endline="103">Unity.Mathematics.bounds.expand</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1acc32d0b7e4ff6a6f3dd2e7f54b190540" compoundref="bounds_8cs" startline="106" endline="106">Unity.Mathematics.bounds.expand</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a2807fada069b10a9ea88aa9921b19648" compoundref="bounds_8cs" startline="204" endline="212">Unity.Mathematics.bounds.facecenters</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a7881c110eabc9977714e6d7cecad2c4e" compoundref="bounds_8cs" startline="258" endline="269">Unity.Mathematics.bounds.facecenters</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a79ea26e2f646e3245e1e42d2130ce431" compoundref="bounds_8cs" startline="87" endline="90">Unity.Mathematics.bounds.setminmax</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a4bb37a94b68658993475798950be8da1" compoundref="bounds_8cs" startline="150" endline="154">Unity.Mathematics.bounds.sqrdistance</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>Unity.Mathematics.bounds.min</qualifiedname>
+        <briefdescription>
+<para>The minimal point of the box. This is always equal to center-extents. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="67" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="68" bodyend="71"/>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a764e85227e6c4dd19364af37d5590516" compoundref="bounds_8cs" startline="134" endline="134">Unity.Mathematics.bounds.Contains</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a50221cebbd7f94e1be4bc5ba32439051" compoundref="bounds_8cs" startline="180" endline="190">Unity.Mathematics.bounds.corners</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a3ff0fd34690e677f7a89ed6cc9cbf6ed" compoundref="bounds_8cs" startline="229" endline="243">Unity.Mathematics.bounds.corners</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1ad1dcd9b77f501ddd877c8ab2ea1e5c82" compoundref="bounds_8cs" startline="94" endline="94">Unity.Mathematics.bounds.encapsulate</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1adb09b554d719c0624c335c3b3467177e" compoundref="bounds_8cs" startline="137" endline="147">Unity.Mathematics.bounds.IntersectRayAABB</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1aa3eed17fa3e445b863d53beaef99199f" compoundref="bounds_8cs" startline="109" endline="109">Unity.Mathematics.bounds.intersects</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a79ea26e2f646e3245e1e42d2130ce431" compoundref="bounds_8cs" startline="87" endline="90">Unity.Mathematics.bounds.setminmax</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>Unity.Mathematics.bounds.max</qualifiedname>
+        <briefdescription>
+<para>The maximal point of the box. This is always equal to center+extents. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="74" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="75" bodyend="78"/>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a764e85227e6c4dd19364af37d5590516" compoundref="bounds_8cs" startline="134" endline="134">Unity.Mathematics.bounds.Contains</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a50221cebbd7f94e1be4bc5ba32439051" compoundref="bounds_8cs" startline="180" endline="190">Unity.Mathematics.bounds.corners</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a3ff0fd34690e677f7a89ed6cc9cbf6ed" compoundref="bounds_8cs" startline="229" endline="243">Unity.Mathematics.bounds.corners</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1ad1dcd9b77f501ddd877c8ab2ea1e5c82" compoundref="bounds_8cs" startline="94" endline="94">Unity.Mathematics.bounds.encapsulate</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1adb09b554d719c0624c335c3b3467177e" compoundref="bounds_8cs" startline="137" endline="147">Unity.Mathematics.bounds.IntersectRayAABB</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1aa3eed17fa3e445b863d53beaef99199f" compoundref="bounds_8cs" startline="109" endline="109">Unity.Mathematics.bounds.intersects</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a79ea26e2f646e3245e1e42d2130ce431" compoundref="bounds_8cs" startline="87" endline="90">Unity.Mathematics.bounds.setminmax</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.bounds.bounds</definition>
+        <argsstring>(float3 center, float3 size)</argsstring>
+        <name>bounds</name>
+        <qualifiedname>Unity.Mathematics.bounds.bounds</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float3</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a new bounds. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>center</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The location of the origin of the bounds.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The dimensions of the bounds.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="28" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="28" bodyend="31"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" compoundref="bounds_8cs" startline="47" endline="50">Unity.Mathematics.bounds.center</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a61eb8c3df1cf6cf48bdbdb9117e2cf50" compoundref="bounds_8cs" startline="54" endline="57">Unity.Mathematics.bounds.size</references>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1a59440e5873a1de2203d69b80b7cad6f3" compoundref="bounds_8cs" startline="159" endline="159">Unity.Mathematics.bounds.closestpoint</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1adb85ac7e4212b2fab33e5077f82e702d" compoundref="bounds_8cs" startline="97" endline="100">Unity.Mathematics.bounds.encapsulate</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1adb09b554d719c0624c335c3b3467177e" compoundref="bounds_8cs" startline="137" endline="147">Unity.Mathematics.bounds.IntersectRayAABB</referencedby>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1aa3eed17fa3e445b863d53beaef99199f" compoundref="bounds_8cs" startline="109" endline="109">Unity.Mathematics.bounds.intersects</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a9b9ea549ae960f170484cefa57492809" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Unity.Mathematics.bounds.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>Unity.Mathematics.bounds.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="33" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="33" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a79d606142b3bc51d810a1172f2b08a5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Unity.Mathematics.bounds.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Unity.Mathematics.bounds.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="41" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a374559e965c6da9b837bf71ecec3bdb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Unity.Mathematics.bounds.Equals</definition>
+        <argsstring>(bounds other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Unity.Mathematics.bounds.Equals</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="43" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a79ea26e2f646e3245e1e42d2130ce431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Unity.Mathematics.bounds.setminmax</definition>
+        <argsstring>(float3 min, float3 max)</argsstring>
+        <name>setminmax</name>
+        <qualifiedname>Unity.Mathematics.bounds.setminmax</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float3</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the bounds to the min and max value of the box. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>minimum</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="87" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="87" bodyend="90"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" compoundref="bounds_8cs" startline="47" endline="50">Unity.Mathematics.bounds.center</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" compoundref="bounds_8cs" startline="61" endline="64">Unity.Mathematics.bounds.extents</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" compoundref="bounds_8cs" startline="75" endline="78">Unity.Mathematics.bounds.max</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" compoundref="bounds_8cs" startline="68" endline="71">Unity.Mathematics.bounds.min</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1ad1dcd9b77f501ddd877c8ab2ea1e5c82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Unity.Mathematics.bounds.encapsulate</definition>
+        <argsstring>(float3 point)</argsstring>
+        <name>encapsulate</name>
+        <qualifiedname>Unity.Mathematics.bounds.encapsulate</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Grows the bounds to include the point. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="94" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="94" bodyend="94"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" compoundref="bounds_8cs" startline="75" endline="78">Unity.Mathematics.bounds.max</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" compoundref="bounds_8cs" startline="68" endline="71">Unity.Mathematics.bounds.min</references>
+        <referencedby refid="struct_unity_1_1_mathematics_1_1bounds_1adb85ac7e4212b2fab33e5077f82e702d" compoundref="bounds_8cs" startline="97" endline="100">Unity.Mathematics.bounds.encapsulate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1adb85ac7e4212b2fab33e5077f82e702d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Unity.Mathematics.bounds.encapsulate</definition>
+        <argsstring>(bounds bounds)</argsstring>
+        <name>encapsulate</name>
+        <qualifiedname>Unity.Mathematics.bounds.encapsulate</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+<para>Grow the bounds to encapsulate the bounds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="97" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="97" bodyend="100"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" compoundref="bounds_8cs" startline="28" endline="31">Unity.Mathematics.bounds.bounds</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1ad1dcd9b77f501ddd877c8ab2ea1e5c82" compoundref="bounds_8cs" startline="94" endline="94">Unity.Mathematics.bounds.encapsulate</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a4a7214f5106baf932e36cb1193fc5b04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Unity.Mathematics.bounds.expand</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>expand</name>
+        <qualifiedname>Unity.Mathematics.bounds.expand</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+<para>Expand the bounds by increasing its size by amount along each side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="103" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="103" bodyend="103"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" compoundref="bounds_8cs" startline="61" endline="64">Unity.Mathematics.bounds.extents</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1acc32d0b7e4ff6a6f3dd2e7f54b190540" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Unity.Mathematics.bounds.expand</definition>
+        <argsstring>(float3 amount)</argsstring>
+        <name>expand</name>
+        <qualifiedname>Unity.Mathematics.bounds.expand</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+<para>Expand the bounds by increasing its size by amount along each side. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="106" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="106" bodyend="106"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" compoundref="bounds_8cs" startline="61" endline="64">Unity.Mathematics.bounds.extents</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1aa3eed17fa3e445b863d53beaef99199f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Unity.Mathematics.bounds.intersects</definition>
+        <argsstring>(bounds bounds)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>Unity.Mathematics.bounds.intersects</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+<para>Does another bounding box intersect with this bounding box? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="109" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="109" bodyend="109"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" compoundref="bounds_8cs" startline="28" endline="31">Unity.Mathematics.bounds.bounds</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" compoundref="bounds_8cs" startline="75" endline="78">Unity.Mathematics.bounds.max</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" compoundref="bounds_8cs" startline="68" endline="71">Unity.Mathematics.bounds.min</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1ad0cf5b27ab6e26cc5be5de80fa189d01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Unity.Mathematics.bounds.intersectRay</definition>
+        <argsstring>(Ray ray)</argsstring>
+        <name>intersectRay</name>
+        <qualifiedname>Unity.Mathematics.bounds.intersectRay</qualifiedname>
+        <param>
+          <type>Ray</type>
+          <declname>ray</declname>
+        </param>
+        <briefdescription>
+<para>Does ray intersect this bounding box? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="112" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a43bc8cbb8f00f55e7b746f38e306cbb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Unity.Mathematics.bounds.intersectRay</definition>
+        <argsstring>(Ray ray, out float distance)</argsstring>
+        <name>intersectRay</name>
+        <qualifiedname>Unity.Mathematics.bounds.intersectRay</qualifiedname>
+        <param>
+          <type>Ray</type>
+          <declname>ray</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="114" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1addef8e0882e83db2c407927d58383e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Unity.Mathematics.bounds.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Unity.Mathematics.bounds.ToString</qualifiedname>
+        <briefdescription>
+<para>Returns a formatted string for the bounds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="117" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a79f8e763124240db8f64c29887e5cac6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Unity.Mathematics.bounds.ToString</definition>
+        <argsstring>(string format)</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Unity.Mathematics.bounds.ToString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a formatted string for the bounds. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A numeric format string.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="121" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1aabdb182ee40dfa55ceeed608ab56bc06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Unity.Mathematics.bounds.ToString</definition>
+        <argsstring>(string format, IFormatProvider formatProvider)</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Unity.Mathematics.bounds.ToString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>IFormatProvider</type>
+          <declname>formatProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a formatted string for the bounds. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A numeric format string.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>formatProvider</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An object that specifies culture-specific formatting.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="126" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a764e85227e6c4dd19364af37d5590516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Unity.Mathematics.bounds.Contains</definition>
+        <argsstring>(float3 point)</argsstring>
+        <name>Contains</name>
+        <qualifiedname>Unity.Mathematics.bounds.Contains</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>Is point contained in the bounding box? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="134" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="134" bodyend="134"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" compoundref="bounds_8cs" startline="75" endline="78">Unity.Mathematics.bounds.max</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" compoundref="bounds_8cs" startline="68" endline="71">Unity.Mathematics.bounds.min</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a4bb37a94b68658993475798950be8da1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Unity.Mathematics.bounds.sqrdistance</definition>
+        <argsstring>(float3 point)</argsstring>
+        <name>sqrdistance</name>
+        <qualifiedname>Unity.Mathematics.bounds.sqrdistance</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para>The smallest squared distance between the point and this bounding box. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="150" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="150" bodyend="154"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" compoundref="bounds_8cs" startline="47" endline="50">Unity.Mathematics.bounds.center</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" compoundref="bounds_8cs" startline="61" endline="64">Unity.Mathematics.bounds.extents</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a59440e5873a1de2203d69b80b7cad6f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.bounds.closestpoint</definition>
+        <argsstring>(float3 point)</argsstring>
+        <name>closestpoint</name>
+        <qualifiedname>Unity.Mathematics.bounds.closestpoint</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The closest point on the bounding box. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arbitrary point.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The point on the bounding box or inside the bounding box.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="159" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="159" bodyend="159"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" compoundref="bounds_8cs" startline="28" endline="31">Unity.Mathematics.bounds.bounds</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" compoundref="bounds_8cs" startline="47" endline="50">Unity.Mathematics.bounds.center</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" compoundref="bounds_8cs" startline="61" endline="64">Unity.Mathematics.bounds.extents</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a50221cebbd7f94e1be4bc5ba32439051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; float3 &gt;</type>
+        <definition>List&lt; float3 &gt; Unity.Mathematics.bounds.corners</definition>
+        <argsstring>()</argsstring>
+        <name>corners</name>
+        <qualifiedname>Unity.Mathematics.bounds.corners</qualifiedname>
+        <briefdescription>
+<para>Finds the world-space positions of a world axis aligned bounding box&apos;s eight corners. Order: <itemizedlist>
+<listitem>
+<para>0: Left-Bottom-Back (-x, -y, -z)  </para>
+</listitem>
+<listitem>
+<para>1: Left-Bottom-Front (-x, -y, z)  </para>
+</listitem>
+<listitem>
+<para>2: Left-Top-Back (-x, y, -z)  </para>
+</listitem>
+<listitem>
+<para>3: Left-Top-Front (-x, y, z)  </para>
+</listitem>
+<listitem>
+<para>4: Right-Bottom-Back (x, -y, -z)  </para>
+</listitem>
+<listitem>
+<para>5: Right-Bottom-Front (x, -y, z)  </para>
+</listitem>
+<listitem>
+<para>6: Right-Top-Back (x, y, -z)  </para>
+</listitem>
+<listitem>
+<para>7: Right-Top-Front (x, y, z)  </para>
+</listitem>
+</itemizedlist>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="180" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="180" bodyend="190"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" compoundref="bounds_8cs" startline="75" endline="78">Unity.Mathematics.bounds.max</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" compoundref="bounds_8cs" startline="68" endline="71">Unity.Mathematics.bounds.min</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a2807fada069b10a9ea88aa9921b19648" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; float3 &gt;</type>
+        <definition>List&lt; float3 &gt; Unity.Mathematics.bounds.facecenters</definition>
+        <argsstring>()</argsstring>
+        <name>facecenters</name>
+        <qualifiedname>Unity.Mathematics.bounds.facecenters</qualifiedname>
+        <briefdescription>
+<para>Find world-space position of the center of each face of a world axis aligned bounding box. Order: <itemizedlist>
+<listitem>
+<para>0: Left (-x, 0, 0)  </para>
+</listitem>
+<listitem>
+<para>1: Right (x, 0, 0)  </para>
+</listitem>
+<listitem>
+<para>2: Bottom (0, -y, 0)  </para>
+</listitem>
+<listitem>
+<para>3: Top (0, y, 0)  </para>
+</listitem>
+<listitem>
+<para>4: Back (0, 0, -z)  </para>
+</listitem>
+<listitem>
+<para>5: Front (0, 0, z)  </para>
+</listitem>
+</itemizedlist>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="204" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="204" bodyend="212"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" compoundref="bounds_8cs" startline="47" endline="50">Unity.Mathematics.bounds.center</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" compoundref="bounds_8cs" startline="61" endline="64">Unity.Mathematics.bounds.extents</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a3ff0fd34690e677f7a89ed6cc9cbf6ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; float3 &gt;</type>
+        <definition>List&lt; float3 &gt; Unity.Mathematics.bounds.corners</definition>
+        <argsstring>(Transform localTo)</argsstring>
+        <name>corners</name>
+        <qualifiedname>Unity.Mathematics.bounds.corners</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>localTo</declname>
+        </param>
+        <briefdescription>
+<para>Find world-space positions of the eight corners. Order: <itemizedlist>
+<listitem>
+<para>0: Left-Bottom-Back (-x, -y, -z)  </para>
+</listitem>
+<listitem>
+<para>1: Left-Bottom-Front (-x, -y, z)  </para>
+</listitem>
+<listitem>
+<para>2: Left-Top-Back (-x, y, -z)  </para>
+</listitem>
+<listitem>
+<para>3: Left-Top-Front (-x, y, z)  </para>
+</listitem>
+<listitem>
+<para>4: Right-Bottom-Back (x, -y, -z)  </para>
+</listitem>
+<listitem>
+<para>5: Right-Bottom-Front (x, -y, z)  </para>
+</listitem>
+<listitem>
+<para>6: Right-Top-Back (x, y, -z)  </para>
+</listitem>
+<listitem>
+<para>7: Right-Top-Front (x, y, z)  </para>
+</listitem>
+</itemizedlist>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>localTo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The transform the bounds are local to</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="229" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="229" bodyend="243"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" compoundref="bounds_8cs" startline="75" endline="78">Unity.Mathematics.bounds.max</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" compoundref="bounds_8cs" startline="68" endline="71">Unity.Mathematics.bounds.min</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a7881c110eabc9977714e6d7cecad2c4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; float3 &gt;</type>
+        <definition>List&lt; float3 &gt; Unity.Mathematics.bounds.facecenters</definition>
+        <argsstring>(Transform localTo)</argsstring>
+        <name>facecenters</name>
+        <qualifiedname>Unity.Mathematics.bounds.facecenters</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>localTo</declname>
+        </param>
+        <briefdescription>
+<para>Find world-space positions of the six face centers. Order: <itemizedlist>
+<listitem>
+<para>0: Left (-x, 0, 0)  </para>
+</listitem>
+<listitem>
+<para>1: Right (x, 0, 0)  </para>
+</listitem>
+<listitem>
+<para>2: Bottom (0, -y, 0)  </para>
+</listitem>
+<listitem>
+<para>3: Top (0, y, 0)  </para>
+</listitem>
+<listitem>
+<para>4: Back (0, 0, -z)  </para>
+</listitem>
+<listitem>
+<para>5: Front (0, 0, z)  </para>
+</listitem>
+</itemizedlist>
+. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>localTo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The transform the bounds are local to</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="258" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="258" bodyend="269"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" compoundref="bounds_8cs" startline="47" endline="50">Unity.Mathematics.bounds.center</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" compoundref="bounds_8cs" startline="61" endline="64">Unity.Mathematics.bounds.extents</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1ad7ba883324b1a915555d17d8d1a1e6dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.bounds.operator==</definition>
+        <argsstring>(bounds lhs, bounds rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Unity.Mathematics.bounds.operator==</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="80" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1ae49b5811baf5de927f64583d8812fb51" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.bounds.operator!=</definition>
+        <argsstring>(bounds lhs, bounds rhs)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Unity.Mathematics.bounds.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="82" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1adb09b554d719c0624c335c3b3467177e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.bounds.IntersectRayAABB</definition>
+        <argsstring>(ray ray, bounds bounds, out float distance)</argsstring>
+        <name>IntersectRayAABB</name>
+        <qualifiedname>Unity.Mathematics.bounds.IntersectRayAABB</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1ray" kindref="compound">ray</ref></type>
+          <declname>ray</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>bounds</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+<para>Is point contained in the bounding box? </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="137" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="137" bodyend="147"/>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" compoundref="bounds_8cs" startline="28" endline="31">Unity.Mathematics.bounds.bounds</references>
+        <references refid="struct_unity_1_1_mathematics_1_1ray_1aff12d01a821a7892466b3c9f9898af62" compoundref="ray_8cs" startline="42" endline="45">Unity.Mathematics.ray.direction</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" compoundref="bounds_8cs" startline="75" endline="78">Unity.Mathematics.bounds.max</references>
+        <references refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" compoundref="bounds_8cs" startline="68" endline="71">Unity.Mathematics.bounds.min</references>
+        <references refid="struct_unity_1_1_mathematics_1_1ray_1a3199cba088a651aa2094c7e2f5ca241f" compoundref="ray_8cs" startline="35" endline="38">Unity.Mathematics.ray.origin</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1af9e8c988e0f7080c946b629e616cf77f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.bounds.operator Bounds</definition>
+        <argsstring>(bounds b)</argsstring>
+        <name>operator Bounds</name>
+        <qualifiedname>Unity.Mathematics.bounds.operator Bounds</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" kindref="member">bounds</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="162" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1bounds_1a203996e68968b7348e12e9b99e83aba1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.bounds.operator bounds</definition>
+        <argsstring>(Bounds b)</argsstring>
+        <name>operator bounds</name>
+        <qualifiedname>Unity.Mathematics.bounds.operator bounds</qualifiedname>
+        <param>
+          <type>Bounds</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="163" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="163" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents an axis aligned bounding box. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+      <node id="3">
+        <label>IFormattable</label>
+      </node>
+      <node id="1">
+        <label>Unity.Mathematics.bounds</label>
+        <link refid="struct_unity_1_1_mathematics_1_1bounds"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+      <node id="3">
+        <label>IFormattable</label>
+      </node>
+      <node id="1">
+        <label>Unity.Mathematics.bounds</label>
+        <link refid="struct_unity_1_1_mathematics_1_1bounds"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" line="18" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/bounds.cs" bodystart="19" bodyend="270"/>
+    <listofallmembers>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1aed695eeeddb6d8a9e12667cea9e73c49" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>bounds</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1afe78a0339bd2d0e417d6ef4846e75966" prot="private" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>Center</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1adf71544712796589c5e2f5bd2d3e2e27" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>center</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a59440e5873a1de2203d69b80b7cad6f3" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>closestpoint</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a764e85227e6c4dd19364af37d5590516" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>Contains</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a50221cebbd7f94e1be4bc5ba32439051" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>corners</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a3ff0fd34690e677f7a89ed6cc9cbf6ed" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>corners</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1ad1dcd9b77f501ddd877c8ab2ea1e5c82" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>encapsulate</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1adb85ac7e4212b2fab33e5077f82e702d" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>encapsulate</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a79d606142b3bc51d810a1172f2b08a5e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>Equals</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a374559e965c6da9b837bf71ecec3bdb4" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>Equals</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a4a7214f5106baf932e36cb1193fc5b04" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>expand</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1acc32d0b7e4ff6a6f3dd2e7f54b190540" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>expand</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a50c32d1ad6224a3a4e1142b2edce2457" prot="private" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>Extents</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a909a930f4b68ad6e07ce9f6d37910d3a" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>extents</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a2807fada069b10a9ea88aa9921b19648" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>facecenters</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a7881c110eabc9977714e6d7cecad2c4e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>facecenters</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a9b9ea549ae960f170484cefa57492809" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>GetHashCode</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a5ecc3f2e3ac58f77fd94d20985919b8f" prot="private" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>IL</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1ad0cf5b27ab6e26cc5be5de80fa189d01" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>intersectRay</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a43bc8cbb8f00f55e7b746f38e306cbb1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>intersectRay</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1adb09b554d719c0624c335c3b3467177e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>IntersectRayAABB</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1aa3eed17fa3e445b863d53beaef99199f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>intersects</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a206ada2ab6a0a4b389357e6d78964264" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>max</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1afc9091e7c76bed9fbd97278e34d85f0d" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>min</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1af9e8c988e0f7080c946b629e616cf77f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>operator Bounds</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a203996e68968b7348e12e9b99e83aba1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>operator bounds</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1ae49b5811baf5de927f64583d8812fb51" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>operator!=</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1ad7ba883324b1a915555d17d8d1a1e6dc" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>operator==</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a79ea26e2f646e3245e1e42d2130ce431" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>setminmax</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a61eb8c3df1cf6cf48bdbdb9117e2cf50" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>size</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a4bb37a94b68658993475798950be8da1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>sqrdistance</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1addef8e0882e83db2c407927d58383e97" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>ToString</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1a79f8e763124240db8f64c29887e5cac6" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>ToString</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1bounds_1aabdb182ee40dfa55ceeed608ab56bc06" prot="public" virt="non-virtual"><scope>Unity::Mathematics::bounds</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

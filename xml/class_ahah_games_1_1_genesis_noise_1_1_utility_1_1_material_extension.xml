@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Utility::MaterialExtension</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension_1ae279c6892e4b65e3b499cdac08d67071" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Utility.MaterialExtension.SetKeywordEnabled</definition>
+        <argsstring>(this Material material, string keyword, bool enabled)</argsstring>
+        <name>SetKeywordEnabled</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.MaterialExtension.SetKeywordEnabled</qualifiedname>
+        <param>
+          <type>this Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>keyword</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" line="8" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" bodystart="8" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension_1a462f1a442198cbe128b362d3f5a83d0c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Utility.MaterialExtension.HasTextureBound</definition>
+        <argsstring>(this Material material, string baseName, TextureDimension dimension)</argsstring>
+        <name>HasTextureBound</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.MaterialExtension.HasTextureBound</qualifiedname>
+        <param>
+          <type>this Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>TextureDimension</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" line="16" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension_1aa59fad946df8cdb7f690ddfcac18b58a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture</type>
+        <definition>static Texture AhahGames.GenesisNoise.Utility.MaterialExtension.GetTextureWithDimension</definition>
+        <argsstring>(this Material material, string baseName, TextureDimension dimension)</argsstring>
+        <name>GetTextureWithDimension</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.MaterialExtension.GetTextureWithDimension</qualifiedname>
+        <param>
+          <type>this Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>TextureDimension</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" line="26" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" bodystart="26" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" line="6" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/MaterialExtension.cs" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension_1aa59fad946df8cdb7f690ddfcac18b58a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::MaterialExtension</scope><name>GetTextureWithDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension_1a462f1a442198cbe128b362d3f5a83d0c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::MaterialExtension</scope><name>HasTextureBound</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension_1ae279c6892e4b65e3b499cdac08d67071" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::MaterialExtension</scope><name>SetKeywordEnabled</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

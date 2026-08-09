@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_genesis_noise_shader_node_view_8cs" kind="file" language="C#">
+    <compoundname>GenesisNoiseShaderNodeView.cs</compoundname>
+    <innerclass refid="class_genesis_1_1_genesis_noise_shader_node_view_node_view" prot="public">Genesis::GenesisNoiseShaderNodeViewNodeView</innerclass>
+    <innernamespace refid="namespace_genesis">Genesis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine.UIElements;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_graph_processor" kindref="compound">GraphProcessor</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_ahah_games_1_1_genesis_noise_1_1_views" kindref="compound">AhahGames.GenesisNoise.Views</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_genesis" kindref="compound">Genesis</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>[NodeCustomEditor(typeof(<ref refid="class_genesis_1_1_genesis_noise_example_custom_view_node" kindref="compound">GenesisNoiseExampleCustomViewNode</ref>))]</highlight></codeline>
+<codeline lineno="15" refid="class_genesis_1_1_genesis_noise_shader_node_view_node_view" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_genesis_1_1_genesis_noise_shader_node_view_node_view" kindref="compound">GenesisNoiseShaderNodeViewNodeView</ref><sp/>:<sp/><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view" kindref="compound">GenesisNodeView</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_genesis_1_1_genesis_noise_example_custom_view_node" kindref="compound">GenesisNoiseExampleCustomViewNode</ref><sp/>node;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Enable(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>fromInspector)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.<ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node_1abe00e44fb5313e8008336d92a5e9a124" kindref="member">Enable</ref>(fromInspector);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Get<sp/>the<sp/>node<sp/>target<sp/>so<sp/>we<sp/>can<sp/>interact<sp/>with<sp/>the<sp/>node<sp/>if<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>nodeTarget<sp/>as<sp/><ref refid="class_genesis_1_1_genesis_noise_example_custom_view_node" kindref="compound">GenesisNoiseExampleCustomViewNode</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>a<sp/>label<sp/>to<sp/>the<sp/>controls<sp/>container,<sp/>this<sp/>is<sp/>just<sp/>an<sp/>example<sp/>of<sp/>how<sp/>to<sp/>add<sp/>custom<sp/>UI<sp/>elements<sp/>to<sp/>the<sp/>node<sp/>view</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>controlsContainer.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Label(</highlight><highlight class="stringliteral">&quot;Hello<sp/>World&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node - Custom View/GenesisNoiseShaderNodeView.cs"/>
+  </compounddef>
+</doxygen>

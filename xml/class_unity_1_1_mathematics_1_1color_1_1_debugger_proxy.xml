@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>Unity::Mathematics::color::DebuggerProxy</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a60ae1286d42a939fc699d1b0d1b3af13" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Unity.Mathematics.color.DebuggerProxy.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Unity.Mathematics.color.DebuggerProxy.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" line="1449" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" bodystart="1449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a17a0bedc878c8fa1a81c4a6f05d9bf00" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Unity.Mathematics.color.DebuggerProxy.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>Unity.Mathematics.color.DebuggerProxy.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" line="1450" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" bodystart="1450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a5a5986bb627b0dd15a5fbeca7a52f51d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Unity.Mathematics.color.DebuggerProxy.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>Unity.Mathematics.color.DebuggerProxy.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" line="1451" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" bodystart="1451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a7a79492def69e218ff165d3c7eba9041" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Unity.Mathematics.color.DebuggerProxy.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>Unity.Mathematics.color.DebuggerProxy.w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" line="1452" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" bodystart="1452" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a80f09d3fd5bbc27a1cab5d7643db54f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.color.DebuggerProxy.DebuggerProxy</definition>
+        <argsstring>(color v)</argsstring>
+        <name>DebuggerProxy</name>
+        <qualifiedname>Unity.Mathematics.color.DebuggerProxy.DebuggerProxy</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1color_1abfb99c1b9d5bd289914138c16cc7921d" kindref="member">color</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" line="1453" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" bodystart="1453" bodyend="1458"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" line="1447" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/color.cs" bodystart="1448" bodyend="1459"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a80f09d3fd5bbc27a1cab5d7643db54f9" prot="public" virt="non-virtual"><scope>Unity::Mathematics::color::DebuggerProxy</scope><name>DebuggerProxy</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a7a79492def69e218ff165d3c7eba9041" prot="public" virt="non-virtual"><scope>Unity::Mathematics::color::DebuggerProxy</scope><name>w</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a60ae1286d42a939fc699d1b0d1b3af13" prot="public" virt="non-virtual"><scope>Unity::Mathematics::color::DebuggerProxy</scope><name>x</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a17a0bedc878c8fa1a81c4a6f05d9bf00" prot="public" virt="non-virtual"><scope>Unity::Mathematics::color::DebuggerProxy</scope><name>y</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1color_1_1_debugger_proxy_1a5a5986bb627b0dd15a5fbeca7a52f51d" prot="public" virt="non-virtual"><scope>Unity::Mathematics::color::DebuggerProxy</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

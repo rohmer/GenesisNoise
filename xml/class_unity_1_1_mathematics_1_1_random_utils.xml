@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1_random_utils" kind="class" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::RandomUtils</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_random_utils_1a3191fecba263451d75ca8f9f1f54a610" prot="private" static="yes" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Unity.Mathematics.RandomUtils.PRIME1</definition>
+        <argsstring></argsstring>
+        <name>PRIME1</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.PRIME1</qualifiedname>
+        <initializer>= 2654435761u</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="83" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_random_utils_1af19d971e2e4aa0d50a6fa734c2a6f684" prot="private" static="yes" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Unity.Mathematics.RandomUtils.PRIME2</definition>
+        <argsstring></argsstring>
+        <name>PRIME2</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.PRIME2</qualifiedname>
+        <initializer>= 2246822519u</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="84" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_random_utils_1a7f8690d0bb22445ac0297d043322d4b0" prot="private" static="yes" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Unity.Mathematics.RandomUtils.PRIME3</definition>
+        <argsstring></argsstring>
+        <name>PRIME3</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.PRIME3</qualifiedname>
+        <initializer>= 3266489917u</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="85" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_random_utils_1a948fc0b8434b0b9ccc985cea172d22b5" prot="private" static="yes" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Unity.Mathematics.RandomUtils.PRIME4</definition>
+        <argsstring></argsstring>
+        <name>PRIME4</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.PRIME4</qualifiedname>
+        <initializer>= 668265263u</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="86" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_random_utils_1a860c392534b1daf277b93d1a523cb86e" prot="private" static="yes" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Unity.Mathematics.RandomUtils.PRIME5</definition>
+        <argsstring></argsstring>
+        <name>PRIME5</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.PRIME5</qualifiedname>
+        <initializer>= 374761393u</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="87" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_random_utils_1a4ae71b969ab2753b4c826fde30013129" prot="private" static="yes" mutable="no">
+        <type>readonly uint4</type>
+        <definition>readonly uint4 Unity.Mathematics.RandomUtils.PRIMEX</definition>
+        <argsstring></argsstring>
+        <name>PRIMEX</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.PRIMEX</qualifiedname>
+        <initializer>= new(2654435761u, 2246822519u, 3266489917u, 668265263u)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="89" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1a624e54e4b2a9cd4d46bcb283fd2f607d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Unity.Mathematics.RandomUtils.normalizeuint</definition>
+        <argsstring>(this uint value)</argsstring>
+        <name>normalizeuint</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.normalizeuint</qualifiedname>
+        <param>
+          <type>this uint</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="91" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="91" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1a2f318961742b9c06f1c8e1df86985898" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Unity.Mathematics.RandomUtils.randf</definition>
+        <argsstring>(int seed)</argsstring>
+        <name>randf</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.randf</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="93" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1aae6ff10d7b2775ebd4708db8777fbdf2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float2</type>
+        <definition>static float2 Unity.Mathematics.RandomUtils.randf</definition>
+        <argsstring>(int2 seed)</argsstring>
+        <name>randf</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.randf</qualifiedname>
+        <param>
+          <type>int2</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="94" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1a712c8cc30c28434200eefa793c786812" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float3</type>
+        <definition>static float3 Unity.Mathematics.RandomUtils.randf</definition>
+        <argsstring>(int3 seed)</argsstring>
+        <name>randf</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.randf</qualifiedname>
+        <param>
+          <type>int3</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="95" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1abeb82faf919f6affbb37e08738a5402d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float4</type>
+        <definition>static float4 Unity.Mathematics.RandomUtils.randf</definition>
+        <argsstring>(int4 seed)</argsstring>
+        <name>randf</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.randf</qualifiedname>
+        <param>
+          <type>int4</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="96" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1a0be3e77e1d3aa249bc8f2b1943c73586" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Unity.Mathematics.RandomUtils.rand</definition>
+        <argsstring>(uint seed)</argsstring>
+        <name>rand</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.rand</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="98" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1aed7e735072b4d323a3caee84e750b2a3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint Unity.Mathematics.RandomUtils.xxhash32</definition>
+        <argsstring>(uint seed)</argsstring>
+        <name>xxhash32</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.xxhash32</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="122" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="122" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_random_utils_1ab86133d315746e32ca750861ed6c3038" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint Unity.Mathematics.RandomUtils.rotl</definition>
+        <argsstring>(uint value, int count)</argsstring>
+        <name>rotl</name>
+        <qualifiedname>Unity.Mathematics.RandomUtils.rotl</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="136" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="136" bodyend="136"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" line="81" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/WIP.cs" bodystart="82" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a624e54e4b2a9cd4d46bcb283fd2f607d" prot="public" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>normalizeuint</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a3191fecba263451d75ca8f9f1f54a610" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>PRIME1</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1af19d971e2e4aa0d50a6fa734c2a6f684" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>PRIME2</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a7f8690d0bb22445ac0297d043322d4b0" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>PRIME3</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a948fc0b8434b0b9ccc985cea172d22b5" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>PRIME4</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a860c392534b1daf277b93d1a523cb86e" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>PRIME5</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a4ae71b969ab2753b4c826fde30013129" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>PRIMEX</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a0be3e77e1d3aa249bc8f2b1943c73586" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>rand</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a2f318961742b9c06f1c8e1df86985898" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>randf</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1aae6ff10d7b2775ebd4708db8777fbdf2" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>randf</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1a712c8cc30c28434200eefa793c786812" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>randf</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1abeb82faf919f6affbb37e08738a5402d" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>randf</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1ab86133d315746e32ca750861ed6c3038" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>rotl</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_random_utils_1aed7e735072b4d323a3caee84e750b2a3" prot="private" virt="non-virtual"><scope>Unity::Mathematics::RandomUtils</scope><name>xxhash32</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

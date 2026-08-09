@@ -1,9 +1,0 @@
-<map id="GraphProcessor.BaseNodeView.InitializePorts" name="GraphProcessor.BaseNodeView.InitializePorts">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,218,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#a99918747dbffad96134756cbd04bf0ff" title=" " alt="" coords="266,39,478,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,57,253,60,248,60,218,63"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#aeee944017151ad57f938e5e3d3e27414" title=" " alt="" coords="526,5,738,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="478,44,513,42,508,43,479,49"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_port_view.html#a61337987043b01db3098f9dc546ecf5c" title=" " alt="" coords="544,72,720,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="478,71,532,80,526,80,478,76"/>
-</map>

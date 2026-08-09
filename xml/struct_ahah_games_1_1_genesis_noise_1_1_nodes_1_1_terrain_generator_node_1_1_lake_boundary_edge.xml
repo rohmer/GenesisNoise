@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_boundary_edge" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeBoundaryEdge</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_boundary_edge_1a2fe5181eebf2946c79e71e745362b4c1" prot="public" static="no" mutable="no">
+        <type>readonly Vector2</type>
+        <definition>readonly Vector2 AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeBoundaryEdge.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeBoundaryEdge.start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1636" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_boundary_edge_1af5ec72349b72c74fff1ddf78a4a8f8a8" prot="public" static="no" mutable="no">
+        <type>readonly Vector2</type>
+        <definition>readonly Vector2 AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeBoundaryEdge.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeBoundaryEdge.end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1637" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1637" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_boundary_edge_1a65044017100010bc9505eba333e82784" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeBoundaryEdge.LakeBoundaryEdge</definition>
+        <argsstring>(Vector2 start, Vector2 end)</argsstring>
+        <name>LakeBoundaryEdge</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeBoundaryEdge.LakeBoundaryEdge</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1639" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1639" bodyend="1643"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1634" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1635" bodyend="1644"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_boundary_edge_1af5ec72349b72c74fff1ddf78a4a8f8a8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeBoundaryEdge</scope><name>end</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_boundary_edge_1a65044017100010bc9505eba333e82784" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeBoundaryEdge</scope><name>LakeBoundaryEdge</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_boundary_edge_1a2fe5181eebf2946c79e71e745362b4c1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeBoundaryEdge</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

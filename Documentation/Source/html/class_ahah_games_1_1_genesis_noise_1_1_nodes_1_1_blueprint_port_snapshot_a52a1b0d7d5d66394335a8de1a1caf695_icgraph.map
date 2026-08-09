@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.ToPortData" name="AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.ToPortData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="572,39,797,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_node.html#aaae8506e4038d7e7fdc4ef4cc82d995a" title=" " alt="" coords="285,39,524,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="554,60,525,63,524,57,559,60"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_node.html#abb2b27d41cea7dac83dde92adf7083f3" title=" " alt="" coords="8,5,234,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="267,45,234,43,234,37,272,44"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_node.html#ac089d0b75918189586f4e6b3423e234c" title=" " alt="" coords="5,72,237,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="267,76,237,82,237,77,272,76"/>
-</map>

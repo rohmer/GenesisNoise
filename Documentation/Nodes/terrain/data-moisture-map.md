@@ -31,7 +31,7 @@ Creates a grayscale terrain moisture map from height, wind flow, curvature, and 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b61eb4bf-c3ed-402e-9930-bfdf9a5d8e2f | |
+| GUID | String | 23fc2912-d9f9-45ae-bea9-7952b3b1656a | |
 | expanded | Boolean | False | |
 
 ## See Also

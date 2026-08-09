@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a10c1bf4bc8637b9f7ec46d223664ba0f" prot="public" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.Vertices</definition>
+        <argsstring></argsstring>
+        <name>Vertices</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.Vertices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="639" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1aca12a76edb17c7e386468d6d0121afac" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.Triangles</definition>
+        <argsstring></argsstring>
+        <name>Triangles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.Triangles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="640" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1aaad99c62f01be4fe231c1db30afc366c" prot="public" static="no" mutable="no">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.UV</definition>
+        <argsstring></argsstring>
+        <name>UV</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.UV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="641" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1ae12be1c42e724f218e959876d1cc7d71" prot="public" static="no" mutable="no">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.UV2</definition>
+        <argsstring></argsstring>
+        <name>UV2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.UV2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="642" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a0eb620cb5df0523eb6ed920d34755b68" prot="public" static="no" mutable="no">
+        <type>Color[]</type>
+        <definition>Color [] AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.Colors</definition>
+        <argsstring></argsstring>
+        <name>Colors</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.Colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="643" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a04d14eedc481e96f40ef1907d7ff95b4" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.BoundsMin</definition>
+        <argsstring></argsstring>
+        <name>BoundsMin</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.BoundsMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="644" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a20e0d19a7c228058c00001a74a75b75f" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.BoundsSize</definition>
+        <argsstring></argsstring>
+        <name>BoundsSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.BoundsSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="645" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="645" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a52334dd3015280526b9b4563bf774912" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.MeshBuildData.IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="647" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="647" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" line="637" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshXYZNoiseDisplacementNode.cs" bodystart="638" bodyend="648"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a04d14eedc481e96f40ef1907d7ff95b4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>BoundsMin</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a20e0d19a7c228058c00001a74a75b75f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>BoundsSize</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a0eb620cb5df0523eb6ed920d34755b68" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>Colors</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a52334dd3015280526b9b4563bf774912" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>IsValid</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1aca12a76edb17c7e386468d6d0121afac" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>Triangles</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1aaad99c62f01be4fe231c1db30afc366c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>UV</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1ae12be1c42e724f218e959876d1cc7d71" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>UV2</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1_1_mesh_build_data_1a10c1bf4bc8637b9f7ec46d223664ba0f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshXYZNoiseDisplacementNode::MeshBuildData</scope><name>Vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

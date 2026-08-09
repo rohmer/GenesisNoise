@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_seam_group" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshNoiseDisplacementNode::SeamGroup</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_seam_group_1a8dac989e4e1262fdf5316c817ab38036" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.SeamGroup.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.SeamGroup.Count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshNoiseDisplacementNode.cs" line="423" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshNoiseDisplacementNode.cs" bodystart="423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_seam_group_1ae14f4e800cac62e31086e6d3efe92ef9" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.SeamGroup.DisplacedSum</definition>
+        <argsstring></argsstring>
+        <name>DisplacedSum</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.SeamGroup.DisplacedSum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshNoiseDisplacementNode.cs" line="424" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshNoiseDisplacementNode.cs" bodystart="424" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshNoiseDisplacementNode.cs" line="421" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshNoiseDisplacementNode.cs" bodystart="422" bodyend="425"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_seam_group_1a8dac989e4e1262fdf5316c817ab38036" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshNoiseDisplacementNode::SeamGroup</scope><name>Count</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_seam_group_1ae14f4e800cac62e31086e6d3efe92ef9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshNoiseDisplacementNode::SeamGroup</scope><name>DisplacedSum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

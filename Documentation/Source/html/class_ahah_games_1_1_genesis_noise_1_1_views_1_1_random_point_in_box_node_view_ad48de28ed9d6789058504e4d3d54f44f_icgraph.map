@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.RandomPointInBoxNodeView.RefreshOutputs" name="AhahGames.GenesisNoise.Views.RandomPointInBoxNodeView.RefreshOutputs">
-<area shape="rect" id="Node000001" title=" " alt="" coords="295,31,538,89"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_random_point_in_box_node_view.html#a35ded9377494c12307a3ca9cf46c60a5" title=" " alt="" coords="5,5,247,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,45,247,43,247,38,282,44"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_random_point_in_box_node_view.html#aa21cb12d925418c4be45b40e10f50568" title=" " alt="" coords="7,72,245,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,76,245,82,245,77,282,75"/>
-</map>

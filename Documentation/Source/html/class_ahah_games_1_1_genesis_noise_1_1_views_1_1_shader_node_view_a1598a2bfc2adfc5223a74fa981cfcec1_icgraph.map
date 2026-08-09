@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.ShaderNodeView.ResetMaterialPropertyToDefault" name="AhahGames.GenesisNoise.Views.ShaderNodeView.ResetMaterialPropertyToDefault">
-<area shape="rect" id="Node000001" title=" " alt="" coords="288,31,543,89"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_shader_node_view.html#aff2790218702e6848c18d3687ba747d2" title=" " alt="" coords="11,5,234,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,44,235,42,234,37,275,43"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_shader_node_view.html#a7992a2cf596cc738dac00e1c8dc6250f" title=" " alt="" coords="5,72,240,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,77,240,83,240,77,275,76"/>
-</map>

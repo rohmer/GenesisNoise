@@ -1,0 +1,311 @@
+\doxysection{Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Graph Class Reference}
+\hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph}{}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph}\index{AhahGames.GenesisNoise.Graph.GenesisGraph@{AhahGames.GenesisNoise.Graph.GenesisGraph}}
+
+
+Inheritance diagram for Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Graph:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Graph:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1ce753492c12ed8163e1ab9e6a0f5c7f}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1ce753492c12ed8163e1ab9e6a0f5c7f} 
+void {\bfseries Clear\+Object\+References} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_ad848ddf45a1c74d961c1acc65e3f0816}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_ad848ddf45a1c74d961c1acc65e3f0816} 
+List$<$ Object $>$ {\bfseries Get\+Objects\+References} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a751e774bc3e7ba4f3c0d6e51f65d86db}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a751e774bc3e7ba4f3c0d6e51f65d86db} 
+void {\bfseries Add\+Object\+To\+Graph} (Object obj)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a32724dd107e73b133cdca09397242625}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a32724dd107e73b133cdca09397242625} 
+bool {\bfseries Is\+Object\+In\+Graph} (Object obj)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a081655b04a5e01db7af3008c5ee100ee}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a081655b04a5e01db7af3008c5ee100ee} 
+bool {\bfseries Is\+External\+Sub\+Asset} (Object obj)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a8b974e1dff8e003011bf7f900d89d546}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a8b974e1dff8e003011bf7f900d89d546} 
+void {\bfseries Remove\+Object\+From\+Graph} (Object obj)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1df5a17908ba1f722fc879f13ee6cfcb}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1df5a17908ba1f722fc879f13ee6cfcb} 
+Texture {\bfseries Find\+Output\+Texture} (string name, bool is\+Main)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a386813d7e398f99002d01de3587907a8}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a386813d7e398f99002d01de3587907a8} 
+void {\bfseries Update\+Output\+Textures} ()
+\begin{DoxyCompactList}\small\item\em Warning:\+ this function will create updated the cached texture and may result in partial writing of texture on the disk (only uncompressed textures will be updated). \end{DoxyCompactList}\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a0cc8ca77d301cbb22e794ed31c4ec6a1}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a0cc8ca77d301cbb22e794ed31c4ec6a1} 
+void {\bfseries Readback\+Main\+Texture} (Texture target)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a52e01db2eab53a13ee0da35b15116ad9}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a52e01db2eab53a13ee0da35b15116ad9} 
+void {\bfseries Update\+Node\+Inheritance\+Mode} ()
+\item 
+override void \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a0293c1b63233cf9846640ef18ce68a69}{On\+Asset\+Deleted}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a5569f5c31854c07dca7f26e09904eef7}{Add\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} node)
+\begin{DoxyCompactList}\small\item\em Adds a node to the graph. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a3f6c4ab84f91a1835e2527d15e3d76a6}{Remove\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} node)
+\begin{DoxyCompactList}\small\item\em Removes a node from the graph. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ab7224feda099e47651a498222d8b3ccf}{Connect}} (\doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} input\+Port, \doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} output\+Port, bool auto\+Disconnect\+Inputs=true)
+\begin{DoxyCompactList}\small\item\em Connect two ports with an edge. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a2a8bffdcee87244092b51be4470e527a}{Disconnect}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} input\+Node, string input\+Field\+Name, \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} output\+Node, string output\+Field\+Name)
+\begin{DoxyCompactList}\small\item\em Disconnect two ports. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae91665bea04957b3f2dc9f8480d0d666}{Disconnect}} (\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} edge)
+\begin{DoxyCompactList}\small\item\em Disconnect an edge. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_aa0461bcd6f9859a6ad08c90971b8c1fc}{Disconnect}} (string edge\+GUID)
+\begin{DoxyCompactList}\small\item\em Disconnect an edge. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a90bd3422be8cdc1f2ae57593ec9ad568}{Add\+Group}} (\doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}} block)
+\begin{DoxyCompactList}\small\item\em Add a group. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae65a2b9fa30ec979bc08f3c7a2b9d53c}{Remove\+Group}} (\doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}} block)
+\begin{DoxyCompactList}\small\item\em Removes a group. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a9af78b56962e73c307172fc2b7530cf4}{Add\+Stack\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}} stack\+Node)
+\begin{DoxyCompactList}\small\item\em Add a Stack\+Node. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a77d6402bf02079c8ef202274aadfab8b}{Remove\+Stack\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}} stack\+Node)
+\begin{DoxyCompactList}\small\item\em Remove a Stack\+Node. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae0bb8c50a0b7f38690493797f16ea6d0}{Add\+Sticky\+Note}} (\doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}} note)
+\begin{DoxyCompactList}\small\item\em Add a sticky note. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ad08a2c5d266e9a644d79967e73eb6fe7}{Remove\+Sticky\+Note}} (\doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}} note)
+\begin{DoxyCompactList}\small\item\em Removes a sticky note. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a118e39ad0d35d15f0a0cfa9073eb597c}{Notify\+Node\+Changed}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} node)
+\begin{DoxyCompactList}\small\item\em Invoke the on\+Graph\+Changes event, can be used as trigger to execute the graph when the content of a node is changed. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_pinned_element}{Pinned\+Element}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a59693610a56a5d945429a102793891ad}{Open\+Pinned}} (Type view\+Type)
+\begin{DoxyCompactList}\small\item\em Open a pinned element of type view\+Type. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a7fd401bf03485446caddc63a9a1c85b2}{Close\+Pinned}} (Type view\+Type)
+\begin{DoxyCompactList}\small\item\em Closes a pinned element of type view\+Type. \end{DoxyCompactList}\item 
+void {\bfseries On\+Before\+Serialize} ()
+\item 
+void {\bfseries Deserialize} ()
+\item 
+void {\bfseries Migrate\+Graph\+If\+Needed} ()
+\item 
+void {\bfseries On\+After\+Deserialize} ()
+\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_afe91f28cb31b1ee1f1104c163a0be21f}{Update\+Compute\+Order}} (\doxymbox{\hyperlink{namespace_graph_processor_a9e0449a7cf05136c91e5a5931ee01fab}{Compute\+Order\+Type}} type=Compute\+Order\+Type.\+Depth\+First)
+\begin{DoxyCompactList}\small\item\em Update the compute order of the nodes in the graph. \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a6b3ab3fa4d4967e3cf59ea296d14f74a}{Add\+Exposed\+Parameter}} (string name, Type type, object value=null)
+\begin{DoxyCompactList}\small\item\em Add an exposed parameter. \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a50df4fc0680955f6759bc6f28cbf6e8c}{Add\+Exposed\+Parameter}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter)
+\begin{DoxyCompactList}\small\item\em Add an already allocated /\+ initialized parameter to the graph. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ad4b055e1a8d2429b4d0887416660cfca}{Remove\+Exposed\+Parameter}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} ep)
+\begin{DoxyCompactList}\small\item\em Remove an exposed parameter. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ac61001ef6fb9a1f00a4042e0274f682c}{Remove\+Exposed\+Parameter}} (string guid)
+\begin{DoxyCompactList}\small\item\em Remove an exposed parameter. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a8ba9062312b87a4deffa770e7219e9e9}{Update\+Exposed\+Parameter}} (string guid, object value)
+\begin{DoxyCompactList}\small\item\em Update an exposed parameter value. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_af24e38d78028f60787ae2564d4be3e6d}{Update\+Exposed\+Parameter\+Name}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter, string name)
+\begin{DoxyCompactList}\small\item\em Update the exposed parameter name. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a978d5d6b32e515c2d4e7279057606d5d}{Notify\+Exposed\+Parameter\+Changed}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter)
+\begin{DoxyCompactList}\small\item\em Update parameter visibility. \end{DoxyCompactList}\item 
+void {\bfseries Notify\+Exposed\+Parameter\+Value\+Changed} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter)
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a9e9b463814adc5728642c15343214016}{Get\+Exposed\+Parameter}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the exposed parameter from name. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a3a5add33b5068b803244988b6cd6c98c}{Get\+Exposed\+Parameter\+From\+GUID}} (string guid)
+\begin{DoxyCompactList}\small\item\em Get exposed parameter from GUID. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ac672767cdb94050934dffe1325edf6fd}{Set\+Parameter\+Value}} (string name, object value)
+\begin{DoxyCompactList}\small\item\em Set parameter value from name. (Warning:\+ the parameter name can be changed by the user). \end{DoxyCompactList}\item 
+object \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a27f56bee94e3b08cfd0adb2522c59461}{Get\+Parameter\+Value}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the parameter value. \end{DoxyCompactList}\item 
+T \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a1061d314079573de1702fc693c7667bc}{Get\+Parameter\+Value$<$ T $>$}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the parameter value template. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae3085d29118a93f423dc92614af33f4f}{Link\+To\+Scene}} (Scene scene)
+\begin{DoxyCompactList}\small\item\em Link the current graph to the scene in parameter, allowing the graph to pick and serialize objects from the scene. \end{DoxyCompactList}\item 
+bool {\bfseries Is\+Linked\+To\+Scene} ()
+\begin{DoxyCompactList}\small\item\em Return true when the graph is linked to a scene, false otherwise. \end{DoxyCompactList}\item 
+Scene {\bfseries Get\+Linked\+Scene} ()
+\begin{DoxyCompactList}\small\item\em Get the linked scene. If there is no linked scene, it returns an invalid scene. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_ac07be6d96eb4068fef9284af84f8359e}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_ac07be6d96eb4068fef9284af84f8359e} 
+Node\+Inheritance\+Mode {\bfseries default\+Node\+Inheritance\+Mode} = Node\+Inheritance\+Mode.\+Inherit\+From\+Parent
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a6a722e161839acb20d3adad4620039ea}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a6a722e161839acb20d3adad4620039ea} 
+bool {\bfseries snap\+To\+Grid} = true
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1526647b5cc610705b7cda82d51f9d7e}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1526647b5cc610705b7cda82d51f9d7e} 
+float {\bfseries grid\+Size} = 16f
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a03a933ee7ed0d9f32c4cef1e97a8fd3c}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a03a933ee7ed0d9f32c4cef1e97a8fd3c} 
+string {\bfseries Filename} = string.\+Empty
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_abb0d31fa707f5c557e1e2004b96b99b7}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_abb0d31fa707f5c557e1e2004b96b99b7} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage}{Variable\+Storage}} {\bfseries graph\+Variables} = new()
+\item 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1f2154535c443f3ed90a4da6f08ee65b}{settings}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \doxymbox{\hyperlink{struct_graph_processor_1_1_json_element}{Json\+Element}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae08338b2c2416472884f46f44fb1cc45}{serialized\+Nodes}} = new()
+\begin{DoxyCompactList}\small\item\em Json list of serialized nodes only used for copy pasting in the editor. Note that this field isn\textquotesingle{}t serialized. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a3b4e79b827cdc39687ccacde57bc0049}{nodes}} = new()
+\begin{DoxyCompactList}\small\item\em List of all the nodes in the graph. \end{DoxyCompactList}\item 
+Dictionary$<$ string, \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a4768bd7ee8f4f8a5fb85f19b815e4cb4}{nodes\+Per\+GUID}} = new()
+\begin{DoxyCompactList}\small\item\em Dictionary to access node per GUID, faster than a search in a list. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a8997e87d8327ba39a6e10552f933aaea}{edges}} = new()
+\begin{DoxyCompactList}\small\item\em Json list of edges. \end{DoxyCompactList}\item 
+Dictionary$<$ string, \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_af94a7bf9f3b9445d4fff2ed322bef54d}{edges\+Per\+GUID}} = new()
+\begin{DoxyCompactList}\small\item\em Dictionary of edges per GUID, faster than a search in a list. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a01709ac66d6d765b40c28c5b35897efa}{groups}} = new()
+\begin{DoxyCompactList}\small\item\em All groups in the graph. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a49d6f811c1167a466c09c6536bfa2b5a}{stack\+Nodes}} = new()
+\begin{DoxyCompactList}\small\item\em All Stack Nodes in the graph. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_pinned_element}{Pinned\+Element}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a69b01b151302b542c9842380e6b28531}{pinned\+Elements}} = new()
+\begin{DoxyCompactList}\small\item\em All pinned elements in the graph. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a9b012a250823f5c108a2e7c2acb4ce0b}{exposed\+Parameters}} = new()
+\begin{DoxyCompactList}\small\item\em All exposed parameters in the graph. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}} $>$ {\bfseries sticky\+Notes} = new()
+\item 
+Vector3 {\bfseries position} = Vector3.\+zero
+\item 
+Vector3 {\bfseries scale} = Vector3.\+one
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a72637abbad7cc9071ed225ef346bc720}{On\+Enable}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries On\+Disable} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_adc0e9f768de6962410c2dfb3a85a935b}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_adc0e9f768de6962410c2dfb3a85a935b} 
+Texture {\bfseries main\+Output\+Texture}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_aeadd01381c727e11b5b4818afe9d1f06}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_aeadd01381c727e11b5b4818afe9d1f06} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_output_node}{Output\+Node}} {\bfseries output\+Node}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a7d1610f758c8d4f723ced9ae5e79580a}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a7d1610f758c8d4f723ced9ae5e79580a} 
+List$<$ Texture $>$ {\bfseries output\+Textures}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a24ef453ad76c748deff53e5b75fb45ad}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a24ef453ad76c748deff53e5b75fb45ad} 
+string {\bfseries main\+Asset\+Path}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries is\+Enabled}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+Hash\+Set$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} $>$ {\bfseries graph\+Outputs} = new Hash\+Set$<$\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}$>$()\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_aab33ee852a45bb0660c325dc6c463586}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_aab33ee852a45bb0660c325dc6c463586} 
+Action {\bfseries on\+Output\+Texture\+Updated}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a6868d7042d189f01338e55505cd72454}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a6868d7042d189f01338e55505cd72454} 
+Action {\bfseries after\+Command\+Buffer\+Executed}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a7c51ba7dfca856ad4f488afa77f9d495}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a7c51ba7dfca856ad4f488afa77f9d495} 
+Action {\bfseries on\+Preview\+Updated}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}}
+\begin{DoxyCompactItemize}
+\item 
+Action {\bfseries on\+Exposed\+Parameter\+List\+Changed}
+\begin{DoxyCompactList}\small\item\em Triggered when something is changed in the list of exposed parameters. \end{DoxyCompactList}\item 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} $>$ {\bfseries on\+Exposed\+Parameter\+Modified}
+\item 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} $>$ {\bfseries on\+Exposed\+Parameter\+Value\+Changed}
+\item 
+Action$<$ Scene $>$ {\bfseries on\+Scene\+Linked}
+\begin{DoxyCompactList}\small\item\em Triggered when the graph is linked to an active scene. \end{DoxyCompactList}\item 
+Action {\bfseries on\+Enabled}
+\begin{DoxyCompactList}\small\item\em Triggered when the graph is enabled. \end{DoxyCompactList}\item 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_graph_changes}{Graph\+Changes}} $>$ {\bfseries on\+Graph\+Changes}
+\begin{DoxyCompactList}\small\item\em Triggered when the graph is changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}}
+\begin{DoxyCompactItemize}
+\item 
+static bool \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a5a962e414782f22fe5b879d384665bbd}{Types\+Are\+Connectable}} (Type t1, Type t2)
+\begin{DoxyCompactList}\small\item\em Tell if two types can be connected in the context of a graph. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}}
+\begin{DoxyCompactItemize}
+\item 
+static readonly int {\bfseries loop\+Compute\+Order} = -\/2
+\begin{DoxyCompactList}\small\item\em Invalid compute order number of a node when it\textquotesingle{}s inside a loop. \end{DoxyCompactList}\item 
+static readonly int {\bfseries invalid\+Compute\+Order} = -\/1
+\begin{DoxyCompactList}\small\item\em Invalid compute order number of a node can\textquotesingle{}t process. \end{DoxyCompactList}\item 
+static bool {\bfseries Lightweight\+Enable}
+\end{DoxyCompactItemize}
+
+
+\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_doc-func-members}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a0293c1b63233cf9846640ef18ce68a69}\index{AhahGames.GenesisNoise.Graph.GenesisGraph@{AhahGames.GenesisNoise.Graph.GenesisGraph}!OnAssetDeleted@{OnAssetDeleted}}
+\index{OnAssetDeleted@{OnAssetDeleted}!AhahGames.GenesisNoise.Graph.GenesisGraph@{AhahGames.GenesisNoise.Graph.GenesisGraph}}
+\doxysubsubsection{\texorpdfstring{OnAssetDeleted()}{OnAssetDeleted()}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a0293c1b63233cf9846640ef18ce68a69} 
+override void Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Graph.\+On\+Asset\+Deleted (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}.
+
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a72637abbad7cc9071ed225ef346bc720}\index{AhahGames.GenesisNoise.Graph.GenesisGraph@{AhahGames.GenesisNoise.Graph.GenesisGraph}!OnEnable@{OnEnable}}
+\index{OnEnable@{OnEnable}!AhahGames.GenesisNoise.Graph.GenesisGraph@{AhahGames.GenesisNoise.Graph.GenesisGraph}}
+\doxysubsubsection{\texorpdfstring{OnEnable()}{OnEnable()}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a72637abbad7cc9071ed225ef346bc720} 
+override void Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Graph.\+On\+Enable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Graph\+Processor.\+Base\+Graph}}.
+
+
+
+\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_doc-variable-members}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1f2154535c443f3ed90a4da6f08ee65b}\index{AhahGames.GenesisNoise.Graph.GenesisGraph@{AhahGames.GenesisNoise.Graph.GenesisGraph}!settings@{settings}}
+\index{settings@{settings}!AhahGames.GenesisNoise.Graph.GenesisGraph@{AhahGames.GenesisNoise.Graph.GenesisGraph}}
+\doxysubsubsection{\texorpdfstring{settings}{settings}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_a1f2154535c443f3ed90a4da6f08ee65b} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Graph.\+settings}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \textcolor{keyword}{new}()}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ }
+\DoxyCodeLine{\ \ \ \ width\ =\ 1024,}
+\DoxyCodeLine{\ \ \ \ height\ =\ 1024,}
+\DoxyCodeLine{\ \ \ \ depth\ =\ 1,}
+\DoxyCodeLine{\ \ \ \ widthScale\ =\ 1,}
+\DoxyCodeLine{\ \ \ \ heightScale\ =\ 1,}
+\DoxyCodeLine{\ \ \ \ depthScale\ =\ 1,}
+\DoxyCodeLine{\ \ \ \ dimension\ =\ OutputDimension.Texture2D,}
+\DoxyCodeLine{\ \ \ \ outputChannels\ =\ OutputChannel.RGBA,}
+\DoxyCodeLine{\ \ \ \ outputPrecision\ =\ OutputPrecision.Half,}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Graph/\+Genesis\+Graph.\+cs\end{DoxyCompactItemize}

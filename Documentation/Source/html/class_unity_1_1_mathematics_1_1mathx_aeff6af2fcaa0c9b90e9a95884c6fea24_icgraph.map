@@ -1,7 +1,0 @@
-<map id="Unity.Mathematics.mathx.ErfInvImpl" name="Unity.Mathematics.mathx.ErfInvImpl">
-<area shape="rect" id="Node000001" title="The implementation of the inverse error function." alt="" coords="228,39,402,81"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#af923f04213e478e25287d356f13e0814" title="Calculates the complementary inverse error function evaluated at z." alt="" coords="5,5,180,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,45,180,42,180,37,215,44"/>
-<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#ae73cb4da789d8cf576aeb1a40bea32f6" title="Calculates the inverse error function evaluated at z." alt="" coords="5,72,180,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,76,181,83,180,78,215,75"/>
-</map>

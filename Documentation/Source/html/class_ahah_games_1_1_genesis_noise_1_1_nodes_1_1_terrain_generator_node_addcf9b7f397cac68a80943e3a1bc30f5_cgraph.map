@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.DestroyTerrainLayer" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.DestroyTerrainLayer">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,47,275,89"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#acacb22bdd4a4285047ef77043a699beb" title=" " alt="" coords="323,5,581,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="275,51,310,50,305,50,275,56"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#ab01c30c71b93e6958f6158b962c55eb9" title=" " alt="" coords="629,47,865,89"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="275,72,323,73,452,75,581,73,610,75,616,75,581,79,452,81,323,79,275,77"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="582,47,616,53,611,53,581,52"/>
-</map>

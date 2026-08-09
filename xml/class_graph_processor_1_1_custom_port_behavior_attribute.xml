@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_custom_port_behavior_attribute" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::CustomPortBehaviorAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_custom_port_behavior_attribute_1a511094c5094b33998a62ab95364c1fa1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.CustomPortBehaviorAttribute.fieldName</definition>
+        <argsstring></argsstring>
+        <name>fieldName</name>
+        <qualifiedname>GraphProcessor.CustomPortBehaviorAttribute.fieldName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="150" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_custom_port_behavior_attribute_1a21713ef760411e271ec403f491f1ad81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.CustomPortBehaviorAttribute.CustomPortBehaviorAttribute</definition>
+        <argsstring>(string fieldName)</argsstring>
+        <name>CustomPortBehaviorAttribute</name>
+        <qualifiedname>GraphProcessor.CustomPortBehaviorAttribute.CustomPortBehaviorAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+<para>Allow you to modify the generated port view from a field. Can be used to generate multiple ports from one field. You must add this attribute on a function of this signature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><programlisting filename=".cs"><codeline><highlight class="normal">IEnumerable&amp;lt;PortData&amp;gt;<sp/>MyCustomPortFunction(List&amp;lt;SerializableEdge&amp;gt;<sp/>edges);</highlight></codeline>
+</programlisting></para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>local node field name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="160" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="160" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Allow you to modify the generated port view from a field. Can be used to generate multiple ports from one field. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.CustomPortBehaviorAttribute</label>
+        <link refid="class_graph_processor_1_1_custom_port_behavior_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.CustomPortBehaviorAttribute</label>
+        <link refid="class_graph_processor_1_1_custom_port_behavior_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="148" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="149" bodyend="164"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_custom_port_behavior_attribute_1a21713ef760411e271ec403f491f1ad81" prot="public" virt="non-virtual"><scope>GraphProcessor::CustomPortBehaviorAttribute</scope><name>CustomPortBehaviorAttribute</name></member>
+      <member refid="class_graph_processor_1_1_custom_port_behavior_attribute_1a511094c5094b33998a62ab95364c1fa1" prot="public" virt="non-virtual"><scope>GraphProcessor::CustomPortBehaviorAttribute</scope><name>fieldName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

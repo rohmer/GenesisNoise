@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_need_loop_run_reset" kind="interface" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::INeedLoopRunReset</compoundname>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.MeshErosionNode</derivedcompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode</derivedcompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode</derivedcompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.MeshOptimizationNode</derivedcompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_smoothing_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.MeshSmoothingNode</derivedcompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode</derivedcompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.PrimitiveNode</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_need_loop_run_reset_1aa6e86eae07f157d4116c9372e006163e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.INeedLoopRunReset.PrepareNewLoopRun</definition>
+        <argsstring>()</argsstring>
+        <name>PrepareNewLoopRun</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.INeedLoopRunReset.PrepareNewLoopRun</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1a397d55a63000efd1448e6c82063c20b7">PrepareNewLoopRun</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1a4c13a3a6cd41ba2b4d884e68ae99029d">PrepareNewLoopRun</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1a8441c1105bce8f0f2ad5b8136edfb99d">PrepareNewLoopRun</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1ae59885a4e3ecb29e163dd0399b0c8b42">PrepareNewLoopRun</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_smoothing_node_1af92a77a37a12ea9a2d06c6a8b1b2a493">PrepareNewLoopRun</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_1a09c9d67f3b6f5d86828af64cfa69f63a">PrepareNewLoopRun</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node_1a4da14cc1bec33aabfa3c728b01f603bd">PrepareNewLoopRun</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" line="33" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.INeedLoopRunReset</label>
+        <link refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_need_loop_run_reset"/>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.MeshErosionNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>AhahGames.GenesisNoise.Nodes.MeshSmoothingNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_smoothing_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>AhahGames.GenesisNoise.Nodes.PrimitiveNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" line="31" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" bodystart="32" bodyend="34"/>
+    <listofallmembers>
+      <member refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_need_loop_run_reset_1aa6e86eae07f157d4116c9372e006163e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::INeedLoopRunReset</scope><name>PrepareNewLoopRun</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

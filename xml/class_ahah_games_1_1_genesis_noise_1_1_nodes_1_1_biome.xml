@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::Biome</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a50627f8adb63f88de7c07c8c9eb94d5e" prot="package" static="no" mutable="no">
+        <type>List&lt; BiomeDecoration &gt;</type>
+        <definition>List&lt;BiomeDecoration&gt; AhahGames.GenesisNoise.Nodes.Biome.biomeDecorations</definition>
+        <argsstring></argsstring>
+        <name>biomeDecorations</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.biomeDecorations</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="15" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1ac78507aedef439d65cd07ff025e35f6d" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_definition" kindref="compound">TextureDefinition</ref> &gt;</type>
+        <definition>List&lt;TextureDefinition&gt; AhahGames.GenesisNoise.Nodes.Biome.biomeTextures</definition>
+        <argsstring></argsstring>
+        <name>biomeTextures</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.biomeTextures</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="16" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a35cab601c21e0376002a7a159c5e8dd0" prot="package" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Nodes.Biome.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="18" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a8783f2311e77207b1cc6a3a1d92fcc74" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.Biome.isDefault</definition>
+        <argsstring></argsstring>
+        <name>isDefault</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.isDefault</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="21" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a6225e018e8216f62abde17d0224e1b7a" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.Biome.isLake</definition>
+        <argsstring></argsstring>
+        <name>isLake</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.isLake</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="23" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a1e5daeb054cee6f585799d6b16d86153" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.Biome.isOcean</definition>
+        <argsstring></argsstring>
+        <name>isOcean</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.isOcean</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="23" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a7e569af66449d634296a0ee59b86aa7c" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.Biome.isLakeShore</definition>
+        <argsstring></argsstring>
+        <name>isLakeShore</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.isLakeShore</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="23" column="41" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1af26c0b6ee3b5264913554612acdeba13" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.Biome.isBeach</definition>
+        <argsstring></argsstring>
+        <name>isBeach</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.isBeach</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="23" column="54" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1ad3371944601b99285131ea004ed3c7a1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.minHeight</definition>
+        <argsstring></argsstring>
+        <name>minHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.minHeight</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="19" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a056dde2ef8a4b83e8df4fe81b68bc25b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.maxHeight</definition>
+        <argsstring></argsstring>
+        <name>maxHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.maxHeight</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="19" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a6d4cc2c54e15a190ca6fa895ef811f7a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.minMoisture</definition>
+        <argsstring></argsstring>
+        <name>minMoisture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.minMoisture</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="19" column="44" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a87312fa5d19de1ed1e0ff13df67d6661" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.maxMoisture</definition>
+        <argsstring></argsstring>
+        <name>maxMoisture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.maxMoisture</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="19" column="57" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1aec81f9a012998243b10ae7c4355d3978" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.minSlope</definition>
+        <argsstring></argsstring>
+        <name>minSlope</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.minSlope</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="19" column="70" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1ac504dcfca3075c42d534a30a1bebdc05" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.maxSlope</definition>
+        <argsstring></argsstring>
+        <name>maxSlope</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.maxSlope</qualifiedname>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="19" column="80" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1af54680377878670ccd71324a44ee3880" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.MinHeight</definition>
+        <argsstring></argsstring>
+        <name>MinHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.MinHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="25" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="26" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a56ce40c3b2544bfe360aac6d402f55b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.MinMoisture</definition>
+        <argsstring></argsstring>
+        <name>MinMoisture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.MinMoisture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="40" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="41" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a45bde5657fcf2dfaf35cf46a83f75d1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.MinSlope</definition>
+        <argsstring></argsstring>
+        <name>MinSlope</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.MinSlope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="55" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="56" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1adf8554cc59f2a90277da1d6f1a0ec2e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.MaxHeight</definition>
+        <argsstring></argsstring>
+        <name>MaxHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.MaxHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="71" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="72" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a7e8c481a45f3b79217c8223828096257" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.MaxMoisture</definition>
+        <argsstring></argsstring>
+        <name>MaxMoisture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.MaxMoisture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="86" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="87" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a00e99276d441f458f59d545e04bbb940" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Biome.MaxSlope</definition>
+        <argsstring></argsstring>
+        <name>MaxSlope</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Biome.MaxSlope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="101" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="102" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The data container for a biome definition. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Biome.cs" bodystart="14" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a50627f8adb63f88de7c07c8c9eb94d5e" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>biomeDecorations</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1ac78507aedef439d65cd07ff025e35f6d" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>biomeTextures</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1af26c0b6ee3b5264913554612acdeba13" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>isBeach</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a8783f2311e77207b1cc6a3a1d92fcc74" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>isDefault</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a6225e018e8216f62abde17d0224e1b7a" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>isLake</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a7e569af66449d634296a0ee59b86aa7c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>isLakeShore</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a1e5daeb054cee6f585799d6b16d86153" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>isOcean</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1adf8554cc59f2a90277da1d6f1a0ec2e6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>MaxHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a056dde2ef8a4b83e8df4fe81b68bc25b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>maxHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a7e8c481a45f3b79217c8223828096257" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>MaxMoisture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a87312fa5d19de1ed1e0ff13df67d6661" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>maxMoisture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a00e99276d441f458f59d545e04bbb940" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>MaxSlope</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1ac504dcfca3075c42d534a30a1bebdc05" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>maxSlope</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1af54680377878670ccd71324a44ee3880" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>MinHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1ad3371944601b99285131ea004ed3c7a1" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>minHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a56ce40c3b2544bfe360aac6d402f55b9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>MinMoisture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a6d4cc2c54e15a190ca6fa895ef811f7a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>minMoisture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a45bde5657fcf2dfaf35cf46a83f75d1f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>MinSlope</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1aec81f9a012998243b10ae7c4355d3978" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>minSlope</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_1a35cab601c21e0376002a7a159c5e8dd0" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Biome</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

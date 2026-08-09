@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::ShaderPropertyDoc</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a78cca39e61c6d7cdd4b9a08c732b09f6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="52" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a911a53ede9befb53f976fa1c724f0039" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Label</definition>
+        <argsstring></argsstring>
+        <name>Label</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="53" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a04e0bacac23be11c67e904ab9bc65230" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="54" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a3bee8dfeeb4c072c475dc2e5d23e608a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.DefaultValue</definition>
+        <argsstring></argsstring>
+        <name>DefaultValue</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.DefaultValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="55" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1acde2be7a30321db87f49e1b2f4639d29" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc.Description</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="56" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="50" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="51" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a3bee8dfeeb4c072c475dc2e5d23e608a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::ShaderPropertyDoc</scope><name>DefaultValue</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1acde2be7a30321db87f49e1b2f4639d29" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::ShaderPropertyDoc</scope><name>Description</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a911a53ede9befb53f976fa1c724f0039" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::ShaderPropertyDoc</scope><name>Label</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a78cca39e61c6d7cdd4b9a08c732b09f6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::ShaderPropertyDoc</scope><name>Name</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc_1a04e0bacac23be11c67e904ab9bc65230" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::ShaderPropertyDoc</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

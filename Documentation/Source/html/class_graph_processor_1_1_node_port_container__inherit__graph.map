@@ -1,9 +1,0 @@
-<map id="GraphProcessor.NodePortContainer" name="GraphProcessor.NodePortContainer">
-<area shape="rect" id="Node000001" title="Container of ports and the edges connected to these ports." alt="" coords="84,80,314,107"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_node_input_port_container.html" title=" " alt="" coords="5,155,185,197"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,115,123,156,120,152,168,117"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_node_output_port_container.html" title=" " alt="" coords="208,155,398,197"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,114,279,154,274,154,226,119"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="138,5,260,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,46,201,81,197,79,198,50"/>
-</map>

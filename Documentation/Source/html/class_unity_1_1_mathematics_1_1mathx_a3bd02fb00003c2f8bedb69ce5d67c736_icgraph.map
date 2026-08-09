@@ -1,9 +1,0 @@
-<map id="Unity.Mathematics.mathx.select" name="Unity.Mathematics.mathx.select">
-<area shape="rect" id="Node000001" title="Returns a component&#45;wise selection of a or b using s (selector)." alt="" coords="450,47,659,73"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#ad79b84cb99440110a5ee041829b78ff5" title=" " alt="" coords="228,39,402,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="432,60,403,63,402,57,437,60"/>
-<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a68fade055c5267e8d402a8c319ab7c7a" title=" " alt="" coords="5,5,180,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="210,45,180,42,180,37,215,44"/>
-<area shape="rect" id="Node000004" href="$class_unity_1_1_mathematics_1_1mathx.html#ace6f55eb3709915e73f18aef939842c4" title=" " alt="" coords="5,72,180,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="210,76,181,83,180,78,215,75"/>
-</map>

@@ -1,0 +1,155 @@
+\doxysection{Graph\+Processor.\+Toolbar\+View Class Reference}
+\hypertarget{class_graph_processor_1_1_toolbar_view}{}\label{class_graph_processor_1_1_toolbar_view}\index{GraphProcessor.ToolbarView@{GraphProcessor.ToolbarView}}
+
+
+Inheritance diagram for Graph\+Processor.\+Toolbar\+View:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{class_graph_processor_1_1_toolbar_view__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Graph\+Processor.\+Toolbar\+View:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_toolbar_view__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a60bcc1a7431b3d1e1c1c4d84febc490f}\label{class_graph_processor_1_1_toolbar_view_a60bcc1a7431b3d1e1c1c4d84febc490f} 
+{\bfseries Toolbar\+View} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_view}{Base\+Graph\+View}} graph\+View)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_af69a7f12195b5a490df0bcbf8a503f6e}\label{class_graph_processor_1_1_toolbar_view_af69a7f12195b5a490df0bcbf8a503f6e} 
+virtual void {\bfseries Update\+Button\+Status} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a99f444b227d03b7ed7e86cb4a93a62b2}\label{class_graph_processor_1_1_toolbar_view_a99f444b227d03b7ed7e86cb4a93a62b2} 
+enum {\bfseries Element\+Type} \{ \newline
+{\bfseries Button}
+, {\bfseries Toggle}
+, {\bfseries Drop\+Down\+Button}
+, {\bfseries Separator}
+, \newline
+{\bfseries Custom}
+, {\bfseries Flexible\+Space}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a925df8112122127da647fd611ef4388e}\label{class_graph_processor_1_1_toolbar_view_a925df8112122127da647fd611ef4388e} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Button} (string name, Action callback, bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_abcdfde8e418186c40212967904a64325}\label{class_graph_processor_1_1_toolbar_view_abcdfde8e418186c40212967904a64325} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Button} (GUIContent content, Action callback, bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_ababe2700228a5ec20d8d4e0758be3449}\label{class_graph_processor_1_1_toolbar_view_ababe2700228a5ec20d8d4e0758be3449} 
+void {\bfseries Add\+Separator} (int size\+In\+Pixels=10, bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a81b351a918c2b3c2434a63c0f5b221f5}\label{class_graph_processor_1_1_toolbar_view_a81b351a918c2b3c2434a63c0f5b221f5} 
+void {\bfseries Add\+Custom} (Action imgui\+Draw\+Function, bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_ad9951db790278934cf46081a2680c832}\label{class_graph_processor_1_1_toolbar_view_ad9951db790278934cf46081a2680c832} 
+void {\bfseries Add\+Flexible\+Space} (bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a66525c35667e9ae88e103e972bc43753}\label{class_graph_processor_1_1_toolbar_view_a66525c35667e9ae88e103e972bc43753} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Toggle} (string name, bool default\+Value, Action$<$ bool $>$ callback, bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_af8d4c2a2b970a3e259149d3bc94234bc}\label{class_graph_processor_1_1_toolbar_view_af8d4c2a2b970a3e259149d3bc94234bc} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Toggle} (GUIContent content, bool default\+Value, Action$<$ bool $>$ callback, bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_aa1f05504443f752b3a768ea52097749b}\label{class_graph_processor_1_1_toolbar_view_aa1f05504443f752b3a768ea52097749b} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Drop\+Down\+Button} (string name, Action callback, bool left=true)
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a11aeff949adbb6b1dcb72f48c80414c7}\label{class_graph_processor_1_1_toolbar_view_a11aeff949adbb6b1dcb72f48c80414c7} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data}{Toolbar\+Button\+Data}} {\bfseries Add\+Drop\+Down\+Button} (GUIContent content, Action callback, bool left=true)
+\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_a2b2d2d57d22a1ac0640f6692bc59e2c3}{Remove\+Button}} (string name, bool left)
+\begin{DoxyCompactList}\small\item\em Also works for toggles. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_a8240d303dc36cc3ecf659566c41e565a}{Hide\+Button}} (string name)
+\begin{DoxyCompactList}\small\item\em Hide the button. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_toolbar_view_aa36aafb2a6d0bc698114ea6a50c1ec53}{Show\+Button}} (string name)
+\begin{DoxyCompactList}\small\item\em Show the button. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_af4152f228589e1ddd42acbc15ff66b7c}\label{class_graph_processor_1_1_toolbar_view_af4152f228589e1ddd42acbc15ff66b7c} 
+virtual void {\bfseries Add\+Buttons} ()
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_aeb7163471a33534af6920e274e909526}\label{class_graph_processor_1_1_toolbar_view_aeb7163471a33534af6920e274e909526} 
+virtual void {\bfseries Draw\+Im\+GUIToolbar} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_toolbar_view_ad69dbeafc34621c135f05724357ca06b}\label{class_graph_processor_1_1_toolbar_view_ad69dbeafc34621c135f05724357ca06b} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_view}{Base\+Graph\+View}} {\bfseries graph\+View}
+\end{DoxyCompactItemize}
+
+
+\label{class_graph_processor_1_1_toolbar_view_doc-func-members}
+\Hypertarget{class_graph_processor_1_1_toolbar_view_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a8240d303dc36cc3ecf659566c41e565a}\index{GraphProcessor.ToolbarView@{GraphProcessor.ToolbarView}!HideButton@{HideButton}}
+\index{HideButton@{HideButton}!GraphProcessor.ToolbarView@{GraphProcessor.ToolbarView}}
+\doxysubsubsection{\texorpdfstring{HideButton()}{HideButton()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_toolbar_view_a8240d303dc36cc3ecf659566c41e565a} 
+void Graph\+Processor.\+Toolbar\+View.\+Hide\+Button (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Hide the button. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Display name of the button\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_toolbar_view_a2b2d2d57d22a1ac0640f6692bc59e2c3}\index{GraphProcessor.ToolbarView@{GraphProcessor.ToolbarView}!RemoveButton@{RemoveButton}}
+\index{RemoveButton@{RemoveButton}!GraphProcessor.ToolbarView@{GraphProcessor.ToolbarView}}
+\doxysubsubsection{\texorpdfstring{RemoveButton()}{RemoveButton()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_toolbar_view_a2b2d2d57d22a1ac0640f6692bc59e2c3} 
+void Graph\+Processor.\+Toolbar\+View.\+Remove\+Button (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{bool}]{left}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Also works for toggles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em left} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_toolbar_view_aa36aafb2a6d0bc698114ea6a50c1ec53}\index{GraphProcessor.ToolbarView@{GraphProcessor.ToolbarView}!ShowButton@{ShowButton}}
+\index{ShowButton@{ShowButton}!GraphProcessor.ToolbarView@{GraphProcessor.ToolbarView}}
+\doxysubsubsection{\texorpdfstring{ShowButton()}{ShowButton()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_toolbar_view_aa36aafb2a6d0bc698114ea6a50c1ec53} 
+void Graph\+Processor.\+Toolbar\+View.\+Show\+Button (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Show the button. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Display name of the button\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Editor/\+\+Node\+Graph\+Processor/\+\+Editor/\+\+Views/\+Toolbar\+View.\+cs\end{DoxyCompactItemize}

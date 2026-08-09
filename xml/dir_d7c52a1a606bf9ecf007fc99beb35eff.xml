@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_d7c52a1a606bf9ecf007fc99beb35eff" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests</compoundname>
+    <innerdir refid="dir_a17c2630cd347530b4fbf9e2ba0d3227">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/Common</innerdir>
+    <innerdir refid="dir_edc6a4f07d698e1879f74140191012bb">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/Math</innerdir>
+    <innerdir refid="dir_40f3237775f6173ab6b54647d52dfb77">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/"/>
+  </compounddef>
+</doxygen>

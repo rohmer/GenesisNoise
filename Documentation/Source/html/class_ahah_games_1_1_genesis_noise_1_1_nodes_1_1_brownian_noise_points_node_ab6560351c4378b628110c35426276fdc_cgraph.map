@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.ValueNoise" name="AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.ValueNoise">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,253,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a1781753a5adc0bf7a19cb249cb3d5e53" title=" " alt="" coords="301,5,527,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,43,288,41,283,42,254,48"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node.html#a8dc33bf9d65062c6f62ca51c9ce5573a" title=" " alt="" coords="301,72,527,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,72,288,78,283,78,253,77"/>
-</map>

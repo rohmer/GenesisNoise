@@ -1,9 +1,0 @@
-<map id="SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode" name="SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="256,39,458,81"/>
-<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_end_border_node.html" title=" " alt="" coords="506,5,708,48"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="473,42,508,40,503,41,474,47"/>
-<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_start_border_node.html" title=" " alt="" coords="506,72,708,115"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="474,73,508,80,503,80,474,78"/>
-<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_border_node.html" title=" " alt="" coords="5,39,208,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,57,258,60,253,60,224,63"/>
-</map>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_1b79881ed2ff1a4522c16bccee9f0a52" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise</compoundname>
+    <innerdir refid="dir_815671b6e7fc8634421a4b775bbc1b4a">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor</innerdir>
+    <innerdir refid="dir_fc718e3a78c528ed521a50e00cd4c188">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples</innerdir>
+    <innerdir refid="dir_0f640b8fc34515d603d32b9893b623d3">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime</innerdir>
+    <innerdir refid="dir_d7c52a1a606bf9ecf007fc99beb35eff">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/"/>
+  </compounddef>
+</doxygen>

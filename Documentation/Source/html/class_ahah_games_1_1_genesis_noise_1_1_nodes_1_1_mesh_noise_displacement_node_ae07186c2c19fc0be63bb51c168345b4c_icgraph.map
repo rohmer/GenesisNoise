@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.ClearGeneratedMeshes" name="AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.ClearGeneratedMeshes">
-<area shape="rect" id="Node000001" title=" " alt="" coords="301,35,594,93"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node.html#a23b7526ac4c410c877e9c3deee4a95f0" title="Called when the node is disabled." alt="" coords="6,5,252,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="283,45,253,44,252,38,288,45"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node.html#a8441c1105bce8f0f2ad5b8136edfb99d" title=" " alt="" coords="5,72,253,131"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,83,254,89,253,84,288,83"/>
-</map>

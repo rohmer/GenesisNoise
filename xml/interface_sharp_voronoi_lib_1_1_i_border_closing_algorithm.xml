@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="interface_sharp_voronoi_lib_1_1_i_border_closing_algorithm" kind="interface" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::IBorderClosingAlgorithm</compoundname>
+    <derivedcompoundref refid="class_sharp_voronoi_lib_1_1_generic_border_closing" prot="public" virt="non-virtual">SharpVoronoiLib.GenericBorderClosing</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_sharp_voronoi_lib_1_1_i_border_closing_algorithm_1ae3c735773c2829c31069225052f74ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_edge" kindref="compound">VoronoiEdge</ref> &gt;</type>
+        <definition>List&lt; VoronoiEdge &gt; SharpVoronoiLib.IBorderClosingAlgorithm.Close</definition>
+        <argsstring>(List&lt; VoronoiEdge &gt; edges, double minX, double minY, double maxX, double maxY, List&lt; VoronoiSite &gt; sites)</argsstring>
+        <name>Close</name>
+        <qualifiedname>SharpVoronoiLib.IBorderClosingAlgorithm.Close</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_edge" kindref="compound">VoronoiEdge</ref> &gt;</type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minY</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxY</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref> &gt;</type>
+          <declname>sites</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/IBorderClosingAlgorithm.cs" line="8" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SharpVoronoiLib.IBorderClosingAlgorithm</label>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.GenericBorderClosing</label>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/IBorderClosingAlgorithm.cs" line="6" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/IBorderClosingAlgorithm.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+      <member refid="interface_sharp_voronoi_lib_1_1_i_border_closing_algorithm_1ae3c735773c2829c31069225052f74ac0" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::IBorderClosingAlgorithm</scope><name>Close</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

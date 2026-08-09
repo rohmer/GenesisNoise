@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer" prot="public" virt="non-virtual">AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Blend</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.GenesisBlendDrawer.Blend</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca960b44c579bc2f6818d2daaf9e4c16f0" prot="public">
+          <name>Normal</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca78d811e98514cd165dda532286610fd2" prot="public">
+          <name>Min</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca6a061313d22e51e0f25b7cd4dc065233" prot="public">
+          <name>Max</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca3f7b3d8ee7bf0d542bd50821c083888f" prot="public">
+          <name>Additive</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca1d9baf077ee87921f57a8fe42d510b65" prot="public">
+          <name>Subtract</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca11635778f116ce6922f6068638a39028" prot="public">
+          <name>Burn</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca28ed2ac6c29f64a3692c956004b8ff7a" prot="public">
+          <name>Difference</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35cab01b83048682460e96eb4bd2482b8c32" prot="public">
+          <name>Dodge</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca0b914e196182d02615487e9793ecff3d" prot="public">
+          <name>Divide</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca25218e43e67f1b1c1c833bc48c7ca7bb" prot="public">
+          <name>Exclusion</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35cad509708d332760c4dac5299aee3aa518" prot="public">
+          <name>HardLight</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35cafeb01491aea9a6331bd139e3a8581c06" prot="public">
+          <name>HardMix</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35cab290ab2d92931642607af4a8d874accf" prot="public">
+          <name>LinearBurn</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35cac665edb435111c0b676cc803af9cd390" prot="public">
+          <name>LinearLight</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca500622b49a84f0b1d238746e389bef13" prot="public">
+          <name>LinearLightAddSub</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35cae257376d913f3b53cbb4a9b19d770648" prot="public">
+          <name>Multiply</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35cac3feba4aa480f4c127c08c370d23415f" prot="public">
+          <name>Negation</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca6b551379c3c0b59326abdaf3b4395bd3" prot="public">
+          <name>Overlay</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca2f6f72458b7d5dec1115dfe3cf397f81" prot="public">
+          <name>PinLight</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca2fc3359e12b2a9104121dcf04246f6a0" prot="public">
+          <name>Screen</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca0110233d77ea3a1b09b5a5a5e3e48ec3" prot="public">
+          <name>SoftLight</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca1efcf7259608a6b49f30daab2d526f81" prot="public">
+          <name>VividLight</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35ca3d971943089a3388c01fb297a32d9ba7" prot="public">
+          <name>Transparent</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35caeec8d71daba88ee810b0d97fe8aa3c7b" prot="public">
+          <name>AddSub</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisBlendDrawer.cs" line="12" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisBlendDrawer.cs" bodystart="13" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1ac42f7a9cd6f6a020876c153e3b4e00e1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.PropertyDrawers.GenesisBlendDrawer.DrawerGUI</definition>
+        <argsstring>(Rect position, MaterialProperty prop, string label, MaterialEditor editor, GenesisGraph graph, GenesisNodeView nodeView)</argsstring>
+        <name>DrawerGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.GenesisBlendDrawer.DrawerGUI</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a435345fb6296a58a0b81e206eed64204">DrawerGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>MaterialProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view" kindref="compound">GenesisNodeView</ref></type>
+          <declname>nodeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisBlendDrawer.cs" line="46" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisBlendDrawer.cs" bodystart="46" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisBlendDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisBlendDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisBlendDrawer.cs" line="10" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisBlendDrawer.cs" bodystart="11" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1abd45cc0e0335189b983d34c0b080e35c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>Blend</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_blend_drawer_1ac42f7a9cd6f6a020876c153e3b4e00e1" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>DrawerGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1aa1a659ce976efcdd47477b5814cfc662" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>GetGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a04f2c16e2740c2536341ac358d17e111" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>GetNodeView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a1ff93c593f7ff4e8fb42eaa8ff8b18ad" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>GetPropertyHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1ae338df9a931472a43039b3d0bfa2034f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a7a9263b323f045ee82e8fdae797dfa65" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>RegisterEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a912353e0d4d75a07e7d4cda9aafe2fff" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisBlendDrawer</scope><name>UnregisterGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

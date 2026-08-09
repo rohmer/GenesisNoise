@@ -1,5 +1,0 @@
-<map id="GraphProcessor.NodeMenuItemAttribute" name="GraphProcessor.NodeMenuItemAttribute">
-<area shape="rect" id="Node000001" title="Register the node in the NodeProvider class. The node will also be available in the node creation win..." alt="" coords="5,80,214,123"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="74,5,145,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,46,112,81,107,79,108,50"/>
-</map>

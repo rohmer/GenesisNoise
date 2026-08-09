@@ -1,7 +1,0 @@
-<map id="RelayNode.OutputPortBehavior" name="RelayNode.OutputPortBehavior">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,210,40"/>
-<area shape="rect" id="Node000002" href="$class_relay_node.html#aa85a0afec35bbea31fa9ef68216678b7" title=" " alt="" coords="258,5,455,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,24,245,27,240,27,210,29"/>
-<area shape="rect" id="Node000003" href="$class_relay_node.html#a019334519ea53741e7d53ef00cb852d2" title=" " alt="" coords="503,13,709,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="455,24,490,27,485,27,455,29"/>
-</map>

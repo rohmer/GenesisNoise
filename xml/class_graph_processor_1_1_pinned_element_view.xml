@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_pinned_element_view" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>GraphProcessor::PinnedElementView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GraphElement</basecompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_exposed_parameter_view" prot="public" virt="non-virtual">GraphProcessor.ExposedParameterView</derivedcompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_processor_view" prot="public" virt="non-virtual">GraphProcessor.ProcessorView</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a2c99b3cf910f4395779bbf50750855dd" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_pinned_element" kindref="compound">PinnedElement</ref></type>
+        <definition>PinnedElement GraphProcessor.PinnedElementView.pinnedElement</definition>
+        <argsstring></argsstring>
+        <name>pinnedElement</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.pinnedElement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="12" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1abf8d6b66bf4c2f590f2f5f25a5a6ad26" prot="protected" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement GraphProcessor.PinnedElementView.root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.root</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="13" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a070e64c3f0774638a7fe86697ebbb813" prot="protected" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement GraphProcessor.PinnedElementView.content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.content</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="14" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a175c3813d2de38f9430d003a974d44f7" prot="protected" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement GraphProcessor.PinnedElementView.header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.header</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="15" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_graph_processor_1_1_pinned_element_view_1a84756d1ce855c27b6a0eb4f7e1dcc854" prot="protected" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action GraphProcessor.PinnedElementView.onResized</definition>
+        <argsstring></argsstring>
+        <name>onResized</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.onResized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="17" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a805af2a18fcbc3d2fdd460378fa5a4f6" prot="private" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement GraphProcessor.PinnedElementView.main</definition>
+        <argsstring></argsstring>
+        <name>main</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.main</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="19" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a949027ee1df755afbc7d3840c066d785" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label GraphProcessor.PinnedElementView.titleLabel</definition>
+        <argsstring></argsstring>
+        <name>titleLabel</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.titleLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="20" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a3b426a756d1fc5c4a4cbe308aeb45b70" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.PinnedElementView._scrollable</definition>
+        <argsstring></argsstring>
+        <name>_scrollable</name>
+        <qualifiedname>GraphProcessor.PinnedElementView._scrollable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="21" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a536bd594bef1a93778bf7184a5d3840b" prot="private" static="no" mutable="no">
+        <type>ScrollView</type>
+        <definition>ScrollView GraphProcessor.PinnedElementView.scrollView</definition>
+        <argsstring></argsstring>
+        <name>scrollView</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.scrollView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="22" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a97c60466ffa76ed0ee7b8bacfc7db54a" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string GraphProcessor.PinnedElementView.pinnedElementStyle</definition>
+        <argsstring></argsstring>
+        <name>pinnedElementStyle</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.pinnedElementStyle</qualifiedname>
+        <initializer>= &quot;GraphProcessorStyles/PinnedElementView&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="24" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_view_1a5ef362f71bfbd73aafa31ec8d728a04d" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string GraphProcessor.PinnedElementView.pinnedElementTree</definition>
+        <argsstring></argsstring>
+        <name>pinnedElementTree</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.pinnedElementTree</qualifiedname>
+        <initializer>= &quot;GraphProcessorElements/PinnedElement&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="25" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_pinned_element_view_1a27f2cb94870098da489aa054adb381b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string GraphProcessor.PinnedElementView.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="27" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_pinned_element_view_1a9dae6f9bb105a686a468dcefd23a3211" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.PinnedElementView.scrollable</definition>
+        <argsstring></argsstring>
+        <name>scrollable</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.scrollable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="33" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="34" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_pinned_element_view_1a527d3c0b1dfa78b0da7d5e07625d8ba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.PinnedElementView.PinnedElementView</definition>
+        <argsstring>()</argsstring>
+        <name>PinnedElementView</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.PinnedElementView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="64" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="64" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_pinned_element_view_1a1d52115bf23e32d17c754f3a573a36a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.PinnedElementView.InitializeGraphView</definition>
+        <argsstring>(PinnedElement pinnedElement, BaseGraphView graphView)</argsstring>
+        <name>InitializeGraphView</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.InitializeGraphView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_pinned_element" kindref="compound">PinnedElement</ref></type>
+          <declname>pinnedElement</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="102" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="102" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_pinned_element_view_1a74424bcb67fe0fb1f8bbab0f4e3a8ae5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.PinnedElementView.ResetPosition</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPosition</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.ResetPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="120" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="120" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_pinned_element_view_1a6eed71923f86759ac9986f31cc6d4bd0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.PinnedElementView.Initialize</definition>
+        <argsstring>(BaseGraphView graphView)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="126" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_pinned_element_view_1acb7921d9b1d70b63b534bf80abc38816" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.PinnedElementView.Destroy</definition>
+        <argsstring>()</argsstring>
+        <name>Destroy</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.Destroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="133" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="133" bodyend="133"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_pinned_element_view_1a8260e0f1064d31bf8d99a5d53c90f7ba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.PinnedElementView.~PinnedElementView</definition>
+        <argsstring>()</argsstring>
+        <name>~PinnedElementView</name>
+        <qualifiedname>GraphProcessor.PinnedElementView.~PinnedElementView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="128" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Graph.GenesisParameterView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_parameter_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphElement</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.PinnedElementView</label>
+        <link refid="class_graph_processor_1_1_pinned_element_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.ExposedParameterView</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_view"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.ProcessorView</label>
+        <link refid="class_graph_processor_1_1_processor_view"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>GraphElement</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.PinnedElementView</label>
+        <link refid="class_graph_processor_1_1_pinned_element_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>pinnedElement</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.PinnedElement</label>
+        <link refid="class_graph_processor_1_1_pinned_element"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>editorType</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.SerializableType</label>
+        <link refid="class_graph_processor_1_1_serializable_type"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" line="10" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/PinnedElementView.cs" bodystart="11" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a3b426a756d1fc5c4a4cbe308aeb45b70" prot="private" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>_scrollable</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a070e64c3f0774638a7fe86697ebbb813" prot="protected" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>content</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1acb7921d9b1d70b63b534bf80abc38816" prot="protected" virt="virtual"><scope>GraphProcessor::PinnedElementView</scope><name>Destroy</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a175c3813d2de38f9430d003a974d44f7" prot="protected" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>header</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a6eed71923f86759ac9986f31cc6d4bd0" prot="protected" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a1d52115bf23e32d17c754f3a573a36a9" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>InitializeGraphView</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a805af2a18fcbc3d2fdd460378fa5a4f6" prot="private" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>main</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a84756d1ce855c27b6a0eb4f7e1dcc854" prot="protected" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>onResized</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a2c99b3cf910f4395779bbf50750855dd" prot="protected" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>pinnedElement</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a97c60466ffa76ed0ee7b8bacfc7db54a" prot="private" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>pinnedElementStyle</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a5ef362f71bfbd73aafa31ec8d728a04d" prot="private" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>pinnedElementTree</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a527d3c0b1dfa78b0da7d5e07625d8ba4" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>PinnedElementView</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a74424bcb67fe0fb1f8bbab0f4e3a8ae5" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>ResetPosition</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1abf8d6b66bf4c2f590f2f5f25a5a6ad26" prot="protected" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>root</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a9dae6f9bb105a686a468dcefd23a3211" prot="protected" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>scrollable</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a536bd594bef1a93778bf7184a5d3840b" prot="private" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>scrollView</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a27f2cb94870098da489aa054adb381b8" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>title</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a949027ee1df755afbc7d3840c066d785" prot="private" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>titleLabel</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a8260e0f1064d31bf8d99a5d53c90f7ba" prot="private" virt="non-virtual"><scope>GraphProcessor::PinnedElementView</scope><name>~PinnedElementView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

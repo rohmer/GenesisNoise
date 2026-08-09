@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.ColorNodeView.UpdateLabel" name="AhahGames.GenesisNoise.Views.ColorNodeView.UpdateLabel">
-<area shape="rect" id="Node000001" title=" " alt="" coords="548,5,771,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_color_node_view.html#a8e2c2a347dacd883cf59f7e95ee61908" title=" " alt="" coords="5,5,229,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="530,20,500,21,277,21,229,23,229,18,277,16,500,16,535,20"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_color_node_view.html#ae1735e64002e143d5c49128b1afab4f4" title=" " alt="" coords="277,31,500,89"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="535,42,501,49,500,44,530,43"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="258,45,229,43,229,38,264,44"/>
-</map>

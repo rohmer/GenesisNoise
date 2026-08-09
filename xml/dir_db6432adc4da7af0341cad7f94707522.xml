@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_db6432adc4da7af0341cad7f94707522" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data</compoundname>
+    <innerfile refid="_constants_8cs">Constants.cs</innerfile>
+    <innerfile refid="_constants_8_mathematical_8cs">Constants.Mathematical.cs</innerfile>
+    <innerfile refid="_constants_8_physical_8cs">Constants.Physical.cs</innerfile>
+    <innerfile refid="_constant_short_names_8cs">ConstantShortNames.cs</innerfile>
+    <innerfile refid="_i_o_r_8cs">IOR.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/"/>
+  </compounddef>
+</doxygen>

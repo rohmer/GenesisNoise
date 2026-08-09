@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_node_graph_processor_menu_items" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeGraphProcessorMenuItems</compoundname>
+    <innerclass refid="class_graph_processor_1_1_node_graph_processor_menu_items_1_1_menu_item_position" prot="protected">GraphProcessor::NodeGraphProcessorMenuItems::MenuItemPosition</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_graph_processor_menu_items_1a3b8fbf0a62bf0292e1dcacf83f832128" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string GraphProcessor.NodeGraphProcessorMenuItems.nodeBaseName</definition>
+        <argsstring></argsstring>
+        <name>nodeBaseName</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems.nodeBaseName</qualifiedname>
+        <initializer>= &quot;Node.cs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="15" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_graph_processor_menu_items_1a7d3af5a6c98d0262a1f60f79892cd6ec" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string GraphProcessor.NodeGraphProcessorMenuItems.nodeViewBaseName</definition>
+        <argsstring></argsstring>
+        <name>nodeViewBaseName</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems.nodeViewBaseName</qualifiedname>
+        <initializer>= &quot;NodeView.cs&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="16" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_graph_processor_menu_items_1ac071317a885ed6b2637995efb6a9ac43" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeGraphProcessorMenuItems._nodeTemplatePath</definition>
+        <argsstring></argsstring>
+        <name>_nodeTemplatePath</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems._nodeTemplatePath</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="17" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_graph_processor_menu_items_1a4aa26bf73dfc58e121d27df30e59f5df" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeGraphProcessorMenuItems._nodeViewTemplatePath</definition>
+        <argsstring></argsstring>
+        <name>_nodeViewTemplatePath</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems._nodeViewTemplatePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="30" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_node_graph_processor_menu_items_1a1762d2dad0b7b08efa46d25b74afa5c4" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeGraphProcessorMenuItems.nodeTemplatePath</definition>
+        <argsstring></argsstring>
+        <name>nodeTemplatePath</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems.nodeTemplatePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="18" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="19" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_node_graph_processor_menu_items_1ad103326a81013d18ea5004a5e4e7d6c5" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeGraphProcessorMenuItems.nodeViewTemplatePath</definition>
+        <argsstring></argsstring>
+        <name>nodeViewTemplatePath</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems.nodeViewTemplatePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="31" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="32" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_graph_processor_menu_items_1ab7a4f3c36a66e55c48bbe34447054885" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GraphProcessor.NodeGraphProcessorMenuItems.GetCurrentProjectWindowPath</definition>
+        <argsstring>()</argsstring>
+        <name>GetCurrentProjectWindowPath</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems.GetCurrentProjectWindowPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="50" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="50" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_node_graph_processor_menu_items_1a0dc715c4eb749d39c3fb17c39458b3a6" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.NodeGraphProcessorMenuItems.CreateDefaultNodeCSharpScritpt</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDefaultNodeCSharpScritpt</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems.CreateDefaultNodeCSharpScritpt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="70" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_node_graph_processor_menu_items_1a60076a7cfbcb6a078fe2742236760ae1" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.NodeGraphProcessorMenuItems.CreateDefaultNodeViewCSharpScritpt</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDefaultNodeViewCSharpScritpt</name>
+        <qualifiedname>GraphProcessor.NodeGraphProcessorMenuItems.CreateDefaultNodeViewCSharpScritpt</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="75" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>To add the menu items that create node C# script templates files you can inherit from this class and use it&apos;s API combined with [MenuItem] See GraphProcessorMenuItems.cs in examples for implementation details. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/NodeGraphProcessorMenuItems.cs" bodystart="14" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1ac071317a885ed6b2637995efb6a9ac43" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>_nodeTemplatePath</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1a4aa26bf73dfc58e121d27df30e59f5df" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>_nodeViewTemplatePath</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1a0dc715c4eb749d39c3fb17c39458b3a6" prot="protected" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>CreateDefaultNodeCSharpScritpt</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1a60076a7cfbcb6a078fe2742236760ae1" prot="protected" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>CreateDefaultNodeViewCSharpScritpt</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1ab7a4f3c36a66e55c48bbe34447054885" prot="protected" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>GetCurrentProjectWindowPath</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1a3b8fbf0a62bf0292e1dcacf83f832128" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>nodeBaseName</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1a1762d2dad0b7b08efa46d25b74afa5c4" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>nodeTemplatePath</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1a7d3af5a6c98d0262a1f60f79892cd6ec" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>nodeViewBaseName</name></member>
+      <member refid="class_graph_processor_1_1_node_graph_processor_menu_items_1ad103326a81013d18ea5004a5e4e7d6c5" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeGraphProcessorMenuItems</scope><name>nodeViewTemplatePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

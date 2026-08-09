@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_package_exporter" kind="class" language="C#" prot="public">
+    <compoundname>PackageExporter</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_package_exporter_1a10ad0e95429908163fb4d59285493f92" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string PackageExporter.PackagePath</definition>
+        <argsstring></argsstring>
+        <name>PackagePath</name>
+        <qualifiedname>PackageExporter.PackagePath</qualifiedname>
+        <initializer>= &quot;Assets/Packages/com.ahahgames.genesisnoise&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" line="8" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_package_exporter_1a039850238d98b5f9c93ce3c1e3fc12b5" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string PackageExporter.OutputPath</definition>
+        <argsstring></argsstring>
+        <name>OutputPath</name>
+        <qualifiedname>PackageExporter.OutputPath</qualifiedname>
+        <initializer>= &quot;GenesisNoise.unitypackage&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" line="9" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_package_exporter_1adc678aa7e40623602a6b91e38394ddca" prot="private" static="yes" mutable="no">
+        <type>const ExportPackageOptions</type>
+        <definition>const ExportPackageOptions PackageExporter.Options</definition>
+        <argsstring></argsstring>
+        <name>Options</name>
+        <qualifiedname>PackageExporter.Options</qualifiedname>
+        <initializer>= ExportPackageOptions.Recurse | ExportPackageOptions.IncludeDependencies</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" line="10" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_package_exporter_1a4b3081dc3dfb069312bfce880c603b8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PackageExporter.Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <qualifiedname>PackageExporter.Build</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" line="13" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" bodystart="13" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" line="6" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/PackageExport.cs" bodystart="7" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_package_exporter_1a4b3081dc3dfb069312bfce880c603b8f" prot="public" virt="non-virtual"><scope>PackageExporter</scope><name>Build</name></member>
+      <member refid="class_package_exporter_1adc678aa7e40623602a6b91e38394ddca" prot="private" virt="non-virtual"><scope>PackageExporter</scope><name>Options</name></member>
+      <member refid="class_package_exporter_1a039850238d98b5f9c93ce3c1e3fc12b5" prot="private" virt="non-virtual"><scope>PackageExporter</scope><name>OutputPath</name></member>
+      <member refid="class_package_exporter_1a10ad0e95429908163fb4d59285493f92" prot="private" virt="non-virtual"><scope>PackageExporter</scope><name>PackagePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1_exp_tween" kind="class" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::ExpTween</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a31af7eccc4d402bbd28511803a42ab9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float x, float target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="13" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="13" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a262746009c7d2a27caf1e3ef21e355de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float x, float target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="16" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="16" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a3c5f955e4796ff1b8b2868bbeebc9120" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float2</type>
+        <definition>static float2 Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float2 x, float2 target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float2</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float2</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="23" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a9a20adae4bb2fa81e5c4028ff0aa1ccc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float2</type>
+        <definition>static float2 Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float2 x, float2 target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float2</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float2</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="26" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a58cfb874a4521c63adc1ba6519399351" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float3</type>
+        <definition>static float3 Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float3 x, float3 target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float3</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="33" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="33" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a31ada3dc5d1a46d4488b2b518984c5aa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float3</type>
+        <definition>static float3 Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float3 x, float3 target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float3</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="36" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="36" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1ad724bacd4f9943d32edf565dd6d7e3df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float4</type>
+        <definition>static float4 Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float4 x, float4 target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float4</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="43" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="43" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a83e1e6514c8ae92425a57ad8a40a7b49" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float4</type>
+        <definition>static float4 Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(float4 x, float4 target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>float4</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float4</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="46" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1ab1a8bde5e2121edd5005ad312fc4f179" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>quaternion</type>
+        <definition>static quaternion Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(quaternion x, quaternion target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>quaternion</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>quaternion</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="53" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="53" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_exp_tween_1a5d7007c8de9803bd5ace9642e6eb0948" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>quaternion</type>
+        <definition>static quaternion Unity.Mathematics.ExpTween.Step</definition>
+        <argsstring>(quaternion x, quaternion target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.ExpTween.Step</qualifiedname>
+        <param>
+          <type>quaternion</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>quaternion</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="56" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="56" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" line="9" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/ExpTween.cs" bodystart="10" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a31af7eccc4d402bbd28511803a42ab9f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a262746009c7d2a27caf1e3ef21e355de" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a3c5f955e4796ff1b8b2868bbeebc9120" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a9a20adae4bb2fa81e5c4028ff0aa1ccc" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a58cfb874a4521c63adc1ba6519399351" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a31ada3dc5d1a46d4488b2b518984c5aa" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1ad724bacd4f9943d32edf565dd6d7e3df" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a83e1e6514c8ae92425a57ad8a40a7b49" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1ab1a8bde5e2121edd5005ad312fc4f179" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_exp_tween_1a5d7007c8de9803bd5ace9642e6eb0948" prot="public" virt="non-virtual"><scope>Unity::Mathematics::ExpTween</scope><name>Step</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

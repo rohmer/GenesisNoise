@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.MeshOutputNode.ValidateInputMessages" name="AhahGames.GenesisNoise.Nodes.MeshOutputNode.ValidateInputMessages">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,268,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a7f1a1bf16ba20ccb27380772ebb2d24e" title="Add a message on the node." alt="" coords="316,5,500,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,41,303,39,298,40,269,46"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#a704c16ae1013d30f190bc70222d5ca47" title="Remove all messages on the node." alt="" coords="316,72,500,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,74,303,80,297,80,268,79"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.HistogramUtility.SetupHistogramPreviewMaterial" name="AhahGames.GenesisNoise.HistogramUtility.SetupHistogramPreviewMaterial">
-<area shape="rect" id="Node000001" title=" " alt="" coords="329,96,574,139"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_curve_node_view_1_1_draw_histogram.html#a813d69eb3f7e44bf342271f0b93b4ddc" title=" " alt="" coords="5,5,281,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="352,92,255,67,255,62,357,91"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_histogram_view_1_1_draw_histogram.html#a85f02931ae74f1acac650538bcf2addb" title=" " alt="" coords="8,88,278,147"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="311,118,279,120,278,115,316,117"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_levels_node_view_1_1_draw_levels_histogram.html#a617ad7bb415d075037d9f23dd1706eb9" title=" " alt="" coords="15,171,271,229"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="357,143,256,173,254,167,352,144"/>
-</map>

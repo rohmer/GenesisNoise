@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_mesh_parameter" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::MeshParameter</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_exposed_parameter" prot="public" virt="non-virtual">GraphProcessor.ExposedParameter</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_mesh_parameter_1ab42ca41b6a3e6c3b23d3ca6a8148093d" prot="private" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh GraphProcessor.MeshParameter.val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>GraphProcessor.MeshParameter.val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="531" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="531" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_mesh_parameter_1af20087640bb5107345ae702a10c612b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>override object</type>
+        <definition>override object GraphProcessor.MeshParameter.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>GraphProcessor.MeshParameter.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="533" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="533" bodyend="533"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_mesh_parameter_1ab46e29a7be1338e772436bcf7d53c243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override Type</type>
+        <definition>override Type GraphProcessor.MeshParameter.GetValueType</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueType</name>
+        <qualifiedname>GraphProcessor.MeshParameter.GetValueType</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_exposed_parameter_1a62b96b18c42a89b36ce49203e179c4b7">GetValueType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="534" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="534" bodyend="534"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.MeshParameter</label>
+        <link refid="class_graph_processor_1_1_mesh_parameter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameter</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.MeshParameter</label>
+        <link refid="class_graph_processor_1_1_mesh_parameter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameter</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>serializedValue</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.ExposedParameter.Settings</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_1_1_settings"/>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.SerializableObject</label>
+        <link refid="class_graph_processor_1_1_serializable_object"/>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="529" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="530" bodyend="535"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a5346fbe40d947a83457601c8bf3c265c" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>Clone</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1aa6bea0da240fb86c62c33532056ec2a2" prot="protected" virt="virtual"><scope>GraphProcessor::MeshParameter</scope><name>CreateSettings</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a746df6d51578529e19b96e08d11de699" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>Equals</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1ae05f9ef41ba176958cd4f30770667a55" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>Equals</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a94886a7abcfa78503cc9614952d52e7c" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>GetHashCode</name></member>
+      <member refid="class_graph_processor_1_1_mesh_parameter_1ab46e29a7be1338e772436bcf7d53c243" prot="public" virt="virtual"><scope>GraphProcessor::MeshParameter</scope><name>GetValueType</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1af2f7306638ef7e38b5d84dacdf66ff36" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>guid</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a6117d6c63e97eb98ceda194fbb07b94f" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1adc587d8bdc9a608e1a86883efe1a6da4" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>input</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a516ed3b39866149e896d1fa2bf2067d2" prot="package" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>Migrate</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1af875a0d4fc13e20293b60b6eebe08bad" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>name</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1ae97374575516e368eecfa3aed29ea115" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>operator!=</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1aa487bb9ca79e1635cfce21ee950109c3" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>operator==</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a85c7ad420b3c07d752dc5298077bbd72" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>serializedValue</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a112acd5707b616ebae8b9887d5aadaaa" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>settings</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a4add8c0a3d3725177b8b3965169efc6a" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>shortType</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1acf51e9882f923157167a77f789b85e4e" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>type</name></member>
+      <member refid="class_graph_processor_1_1_mesh_parameter_1ab42ca41b6a3e6c3b23d3ca6a8148093d" prot="private" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>val</name></member>
+      <member refid="class_graph_processor_1_1_mesh_parameter_1af20087640bb5107345ae702a10c612b9" prot="public" virt="non-virtual"><scope>GraphProcessor::MeshParameter</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

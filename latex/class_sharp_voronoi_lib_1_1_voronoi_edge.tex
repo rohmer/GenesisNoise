@@ -1,0 +1,39 @@
+\doxysection{Sharp\+Voronoi\+Lib.\+Voronoi\+Edge Class Reference}
+\hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge}{}\label{class_sharp_voronoi_lib_1_1_voronoi_edge}\index{SharpVoronoiLib.VoronoiEdge@{SharpVoronoiLib.VoronoiEdge}}
+
+
+The line segment making the Voronoi cells, i.\+e. the points equidistant to the two nearest Voronoi sites. These are the lines in the Voronoi\+Site.\+Cell. This has Voronoi\+Point end points, i.\+e. Start and End. This has the two Voronoi\+Sites they separate, i.\+e. Right and Left. This connects in a Neighbours node graph to other Voronoi\+Edges, i.\+e. shares end points with them.  
+
+
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge_a7a3a8a4afacdcfab644d0ee1ce41eca6}\label{class_sharp_voronoi_lib_1_1_voronoi_edge_a7a3a8a4afacdcfab644d0ee1ce41eca6} 
+\doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_point}{Voronoi\+Point}} {\bfseries Start}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\begin{DoxyCompactList}\small\item\em One of the two points making up this line segment, the other being End. Note that the order of start/\+End points is random. \end{DoxyCompactList}\item 
+\Hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge_a43af6e4d6d7070f4e4a4e64d53c3d159}\label{class_sharp_voronoi_lib_1_1_voronoi_edge_a43af6e4d6d7070f4e4a4e64d53c3d159} 
+\doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_point}{Voronoi\+Point}} {\bfseries End} = null!\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\begin{DoxyCompactList}\small\item\em One of the two points making up this line segment, the other being Start. Note that the order of Start/\+end points is random. \end{DoxyCompactList}\item 
+\Hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge_a5c28882260005709900b084ba81e54cf}\label{class_sharp_voronoi_lib_1_1_voronoi_edge_a5c28882260005709900b084ba81e54cf} 
+\doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_site}{Voronoi\+Site}}? {\bfseries Right}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em One of the two sites that this edge separates, the other being Left. Can be null if this is a border edge and there are no sites within the bounds. \end{DoxyCompactList}\item 
+\Hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge_a1dc5bf7d0372d5b47079d79f97159954}\label{class_sharp_voronoi_lib_1_1_voronoi_edge_a1dc5bf7d0372d5b47079d79f97159954} 
+\doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_site}{Voronoi\+Site}}? {\bfseries Left} = null!\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em One of the two sites that this edge separates, the other being Right. Can be null if this is a border edge. \end{DoxyCompactList}\item 
+\Hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge_a9e8396027afe8dd919df01cfdcca1063}\label{class_sharp_voronoi_lib_1_1_voronoi_edge_a9e8396027afe8dd919df01cfdcca1063} 
+\doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_point}{Voronoi\+Point}} {\bfseries Mid}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em The mid-\/point between Start and End points. \end{DoxyCompactList}\item 
+\Hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge_a40961fc1c58ff5e6e4bf82720deafcdd}\label{class_sharp_voronoi_lib_1_1_voronoi_edge_a40961fc1c58ff5e6e4bf82720deafcdd} 
+IEnumerable$<$ Voronoi\+Edge $>$ {\bfseries Neighbours}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_sharp_voronoi_lib_1_1_voronoi_edge_ae6464150ad5a42135203c8814174144d}\label{class_sharp_voronoi_lib_1_1_voronoi_edge_ae6464150ad5a42135203c8814174144d} 
+double {\bfseries Length}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em The length of this line segment, i.\+e. the distance between Start and End points. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The line segment making the Voronoi cells, i.\+e. the points equidistant to the two nearest Voronoi sites. These are the lines in the Voronoi\+Site.\+Cell. This has Voronoi\+Point end points, i.\+e. Start and End. This has the two Voronoi\+Sites they separate, i.\+e. Right and Left. This connects in a Neighbours node graph to other Voronoi\+Edges, i.\+e. shares end points with them. 
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+3rd\+Party/\+\+Sharp\+Voronoi\+Lib/\+\+Voronoi/\+Voronoi\+Edge.\+cs\end{DoxyCompactItemize}

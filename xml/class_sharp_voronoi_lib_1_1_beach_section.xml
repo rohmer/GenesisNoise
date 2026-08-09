@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_beach_section" kind="class" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::BeachSection</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_beach_section_1a3bf90cc3eda99ef874b2ac2d2ac11b13" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+        <definition>VoronoiSite SharpVoronoiLib.BeachSection.Site</definition>
+        <argsstring></argsstring>
+        <name>Site</name>
+        <qualifiedname>SharpVoronoiLib.BeachSection.Site</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" line="9" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_beach_section_1a5d5851806792db2ba0b6f9244d241498" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_edge" kindref="compound">VoronoiEdge</ref></type>
+        <definition>VoronoiEdge SharpVoronoiLib.BeachSection.Edge</definition>
+        <argsstring></argsstring>
+        <name>Edge</name>
+        <qualifiedname>SharpVoronoiLib.BeachSection.Edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" line="10" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_beach_section_1a46ebc2fcf521b7653b670fc7e33b3442" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>FortuneCircleEvent</type>
+        <definition>FortuneCircleEvent SharpVoronoiLib.BeachSection.CircleEvent</definition>
+        <argsstring></argsstring>
+        <name>CircleEvent</name>
+        <qualifiedname>SharpVoronoiLib.BeachSection.CircleEvent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" line="12" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_beach_section_1a08692d6f399c9af9512fc801caa9be57" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.BeachSection.BeachSection</definition>
+        <argsstring>(VoronoiSite site)</argsstring>
+        <name>BeachSection</name>
+        <qualifiedname>SharpVoronoiLib.BeachSection.BeachSection</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+          <declname>site</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" line="14" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" line="7" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/BeachLine.cs" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_beach_section_1a08692d6f399c9af9512fc801caa9be57" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::BeachSection</scope><name>BeachSection</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_beach_section_1a46ebc2fcf521b7653b670fc7e33b3442" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::BeachSection</scope><name>CircleEvent</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_beach_section_1a5d5851806792db2ba0b6f9244d241498" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::BeachSection</scope><name>Edge</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_beach_section_1a3bf90cc3eda99ef874b2ac2d2ac11b13" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::BeachSection</scope><name>Site</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,53 @@
+\doxysection{Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Noise\+Package Class Reference}
+\hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package}{}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package}\index{AhahGames.GenesisNoise.Graph.GenesisNoisePackage@{AhahGames.GenesisNoise.Graph.GenesisNoisePackage}}
+
+
+A packaged \doxylink{namespace_genesis}{Genesis} graph, stored as a single self-\/contained asset (no Asset\+Bundle). It embeds a clone of the source graph (as a sub-\/asset), the C\# source of any custom (non-\/package) nodes used by the graph, the source of the shaders referenced by those nodes, and the source of any property drawers referenced by shaders in the graph that are not part of the \doxylink{namespace_genesis}{Genesis} package. Shaders and drawers are stored as source text because runnable Shader/\+\+Drawer objects cannot live as sub-\/assets; the receiver reimports them.  
+
+
+
+
+Inheritance diagram for Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Noise\+Package:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=247pt]{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Genesis\+Noise\+Package:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_a500d1836a3a179708fce1ce82a542d58}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_a500d1836a3a179708fce1ce82a542d58} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph}{Genesis\+Graph}} {\bfseries source\+Graph}
+\begin{DoxyCompactList}\small\item\em The original graph this package was built from (reference for traceability). \end{DoxyCompactList}\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_acff57f52b34e0c860678e11b759ed414}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_acff57f52b34e0c860678e11b759ed414} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph}{Genesis\+Graph}} {\bfseries graph}
+\begin{DoxyCompactList}\small\item\em Self-\/contained clone of the graph, embedded as a sub-\/asset of this package. \end{DoxyCompactList}\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_ac0aa2e761e180101bbe47c6005a28549}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_ac0aa2e761e180101bbe47c6005a28549} 
+List$<$ \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_package_node_source}{Genesis\+Package\+Node\+Source}} $>$ {\bfseries custom\+Nodes} = new()
+\begin{DoxyCompactList}\small\item\em Custom (non-\/package) node types bundled with the graph, with their C\# source. \end{DoxyCompactList}\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_a3d05f8ddd297fadf538af9bd42c9362e}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_a3d05f8ddd297fadf538af9bd42c9362e} 
+List$<$ \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_package_shader_source}{Genesis\+Package\+Shader\+Source}} $>$ {\bfseries shaders} = new()
+\begin{DoxyCompactList}\small\item\em Shaders referenced by the custom nodes, bundled as source text. \end{DoxyCompactList}\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_a24ff9c051bfe19f23cce6a5349f78d5e}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_a24ff9c051bfe19f23cce6a5349f78d5e} 
+List$<$ \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_package_drawer_source}{Genesis\+Package\+Drawer\+Source}} $>$ {\bfseries property\+Drawers} = new()
+\begin{DoxyCompactList}\small\item\em Property drawers referenced by any shader in the graph that are not part of the \doxylink{namespace_genesis}{Genesis} package, bundled as source text. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A packaged \doxylink{namespace_genesis}{Genesis} graph, stored as a single self-\/contained asset (no Asset\+Bundle). It embeds a clone of the source graph (as a sub-\/asset), the C\# source of any custom (non-\/package) nodes used by the graph, the source of the shaders referenced by those nodes, and the source of any property drawers referenced by shaders in the graph that are not part of the \doxylink{namespace_genesis}{Genesis} package. Shaders and drawers are stored as source text because runnable Shader/\+\+Drawer objects cannot live as sub-\/assets; the receiver reimports them. 
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Graph/\+Genesis\+Noise\+Package.\+cs\end{DoxyCompactItemize}

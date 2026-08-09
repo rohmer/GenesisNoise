@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node" kind="class" language="C#" prot="private" abstract="yes">
+    <compoundname>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SharpVoronoiLib.GenericBorderClosing.BorderNode</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node_1a4795db007ab2cbecd52504e0cb63d842" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_edge" kindref="compound">VoronoiEdge</ref></type>
+        <definition>VoronoiEdge SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode.Edge</definition>
+        <argsstring></argsstring>
+        <name>Edge</name>
+        <qualifiedname>SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode.Edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" line="281" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" bodystart="281" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node_1abfadf41560daef41b25dfa378ce43a23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override int</type>
+        <definition>override int SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode.FallbackComparisonIndex</definition>
+        <argsstring></argsstring>
+        <name>FallbackComparisonIndex</name>
+        <qualifiedname>SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode.FallbackComparisonIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" line="283" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" bodystart="283" bodyend="283"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node_1ae0963ea1a6f9da9280e3265b0363225f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode.EdgeBorderNode</definition>
+        <argsstring>(VoronoiEdge edge, int fallbackComparisonIndex)</argsstring>
+        <name>EdgeBorderNode</name>
+        <qualifiedname>SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode.EdgeBorderNode</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_edge" kindref="compound">VoronoiEdge</ref></type>
+          <declname>edge</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fallbackComparisonIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" line="286" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" bodystart="286" bodyend="290"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.GenericBorderClosing.BorderNode</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SharpVoronoiLib.GenericBorderClosing.EdgeBorderNode</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.GenericBorderClosing.BorderNode</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" line="279" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing/GenericBorderClosing.cs" bodystart="280" bodyend="291"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_border_node_1ac6df640038e625874e31a577973fb8aa" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</scope><name>Angle</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_border_node_1aa70acb4a9548b65e41a6aac4aa95b6f9" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</scope><name>BorderLocation</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_border_node_1a763582cda2ec996002a46da20854634a" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</scope><name>CompareAngleTo</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node_1a4795db007ab2cbecd52504e0cb63d842" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</scope><name>Edge</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node_1ae0963ea1a6f9da9280e3265b0363225f" prot="protected" virt="non-virtual"><scope>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</scope><name>EdgeBorderNode</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_edge_border_node_1abfadf41560daef41b25dfa378ce43a23" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</scope><name>FallbackComparisonIndex</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_generic_border_closing_1_1_border_node_1a463e70cc86139cffa419ee873c38631e" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::GenericBorderClosing::EdgeBorderNode</scope><name>Point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

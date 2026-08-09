@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_2fa6ceb2d20bd6a9db225beda27926a0" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils</compoundname>
+    <innerfile refid="_base_edge_connector_8cs">BaseEdgeConnector.cs</innerfile>
+    <innerfile refid="_base_edge_drag_helper_8cs">BaseEdgeDragHelper.cs</innerfile>
+    <innerfile refid="_copy_paste_helper_8cs">CopyPasteHelper.cs</innerfile>
+    <innerfile refid="_exposed_parameter_drawer_8cs">ExposedParameterDrawer.cs</innerfile>
+    <innerfile refid="_field_factory_8cs">FieldFactory.cs</innerfile>
+    <innerfile refid="_node_provider_8cs">NodeProvider.cs</innerfile>
+    <innerfile refid="_stack_node_view_provider_8cs">StackNodeViewProvider.cs</innerfile>
+    <innerfile refid="_vector4_drawer_8cs">Vector4Drawer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/"/>
+  </compounddef>
+</doxygen>

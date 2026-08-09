@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_curvature_sobel_node_8cs" kind="file" language="C#">
+    <compoundname>CurvatureSobelNode.cs</compoundname>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_curvature_sobel_node" prot="public">AhahGames::GenesisNoise::Nodes::CurvatureSobelNode</innerclass>
+    <innernamespace refid="namespace_ahah_games">AhahGames</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise">AhahGames::GenesisNoise</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes">AhahGames::GenesisNoise::Nodes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_graph_processor" kindref="compound">GraphProcessor</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes" kindref="compound">AhahGames.GenesisNoise.Nodes</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>[Documentation(</highlight><highlight class="stringliteral">@&quot;</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">-<sp/>Sharper,<sp/>more<sp/>detailed<sp/>curvature</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">-<sp/>Better<sp/>edge<sp/>detection</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">-<sp/>More<sp/>stable<sp/>results<sp/>on<sp/>noisy<sp/>heightmaps</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">-<sp/>Convex<sp/>/<sp/>concave<sp/>separation</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">-<sp/>Fully<sp/>compatible<sp/>with<sp/>2D<sp/>/<sp/>3D<sp/>/<sp/>Cube<sp/>CRT<sp/>sampling</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Serializable,<sp/>NodeMenuItem(</highlight><highlight class="stringliteral">&quot;Effects/Curvature<sp/>Sobel&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="15" refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_curvature_sobel_node" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_curvature_sobel_node" kindref="compound">CurvatureSobelNode</ref><sp/>:<sp/><ref refid="class_fixed_noise_node" kindref="compound">FixedNoiseNode</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Curvature<sp/>Sobel&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>NodeGroup<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Effects&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ShaderName<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Hidden/Genesis/CurvatureSobel&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Effects/Effects/CurvatureSobelNode.cs"/>
+  </compounddef>
+</doxygen>

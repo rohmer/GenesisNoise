@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_examples_2_nodes_2_shader_01_node_2_read_me_8md" kind="file" language="Markdown">
+    <compoundname>ReadMe.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Simple<sp/>Example<sp/>of<sp/>a<sp/>Shader<sp/>Node</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Node<sp/>CS</highlight></codeline>
+<codeline><highlight class="normal">Necessary<sp/>includes</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">using<sp/>System.Collections.Generic;</highlight></codeline>
+<codeline><highlight class="normal">using<sp/>GraphProcessor;</highlight></codeline>
+<codeline><highlight class="normal">using<sp/>AhahGames.GenesisNoise.Nodes;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Serialziable<sp/>is<sp/>necessary<sp/>for<sp/>the<sp/>node<sp/>to<sp/>be<sp/>saved<sp/>in<sp/>the<sp/>graph.<sp/><sp/>NodeMenuItem<sp/>is<sp/>what<sp/>will<sp/>show<sp/>up<sp/>in<sp/>the<sp/>node<sp/>menu<sp/>when<sp/>you<sp/>right<sp/>click<sp/>in<sp/>the<sp/>graph<sp/>and<sp/>select<sp/>&quot;Add<sp/>Node&quot;.<sp/><sp/>The<sp/>string<sp/>you<sp/>pass<sp/>in<sp/>is<sp/>the<sp/>path<sp/>to<sp/>where<sp/>you<sp/>want<sp/>your<sp/>node<sp/>to<sp/>show<sp/>up<sp/>in<sp/>the<sp/>menu.<sp/><sp/>In<sp/>this<sp/>case,<sp/>it<sp/>will<sp/>show<sp/>up<sp/>under<sp/>&quot;Custom&quot;<sp/>and<sp/>then<sp/>&quot;Example<sp/>-<sp/>Noise<sp/>Luminosity&quot;.</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">[System.Serializable,<sp/>NodeMenuItem(&quot;Custom/Example<sp/>-<sp/>Noise<sp/>Luminosity&quot;)]</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Defines<sp/>the<sp/>name<sp/>of<sp/>the<sp/>node</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">public<sp/>override<sp/>string<sp/>name<sp/>=&gt;<sp/>&quot;Example<sp/>-<sp/>Noise<sp/>Luminosity&quot;;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Sets<sp/>the<sp/>name<sp/>of<sp/>the<sp/>shader<sp/>that<sp/>will<sp/>be<sp/>used<sp/>for<sp/>this<sp/>node.<sp/><sp/>This<sp/>is<sp/>the<sp/>name<sp/>of<sp/>the<sp/>shader<sp/>that<sp/>you<sp/>created<sp/>in<sp/>the<sp/>previous<sp/>step.<sp/><sp/>The<sp/>shader<sp/>must<sp/>be<sp/>in<sp/>a<sp/>Resources<sp/>folder<sp/>somewhere<sp/>in<sp/>your<sp/>project<sp/>for<sp/>it<sp/>to<sp/>be<sp/>found<sp/>by<sp/>the<sp/>node.</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">public<sp/>override<sp/>string<sp/>ShaderName<sp/>=&gt;<sp/>&quot;Hidden/Genesis/Custom/NoiseLuminosity&quot;;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">Boolean<sp/>to<sp/>define<sp/>how<sp/>the<sp/>options<sp/>are<sp/>displayed,<sp/>in<sp/>this<sp/>example<sp/>we<sp/>will<sp/>use<sp/>the<sp/>automatically<sp/>generated<sp/>options</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">public<sp/>override<sp/>bool<sp/>DisplayMaterialInspector<sp/>=&gt;<sp/>true;</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Our<sp/>example<sp/>will<sp/>only<sp/>output<sp/>Texture2D</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;public<sp/>override<sp/>List&lt;OutputDimension&gt;<sp/>supportedDimensions<sp/>=&gt;<sp/>new<sp/>List&lt;OutputDimension&gt;()<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OutputDimension.Texture2D<sp/></highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Shader</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Defines<sp/>the<sp/>name<sp/>and<sp/>where<sp/>to<sp/>find<sp/>the<sp/>shader,<sp/>needs<sp/>to<sp/>match<sp/>the<sp/>name<sp/>defined<sp/>in<sp/>the<sp/>node.<sp/><sp/>The<sp/>shader<sp/>must<sp/>be<sp/>in<sp/>a<sp/>Resources<sp/>folder<sp/>somewhere<sp/>in<sp/>your<sp/>project<sp/>for<sp/>it<sp/>to<sp/>be<sp/>found<sp/>by<sp/>the<sp/>node.</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">Shader<sp/>&quot;Hidden/Genesis/Custom/NoiseLuminosity&quot;<sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">All<sp/>of<sp/>the<sp/>input<sp/>and<sp/>modification<sp/>properties<sp/>of<sp/>the<sp/>shader<sp/>are<sp/>defined<sp/>in<sp/>the<sp/>Properties<sp/>block.<sp/><sp/>The<sp/>names<sp/>of<sp/>these<sp/>properties<sp/>must<sp/>match<sp/>the<sp/>names<sp/>of<sp/>the<sp/>properties<sp/>defined<sp/>in<sp/>the<sp/>node.<sp/><sp/>The<sp/>types<sp/>of<sp/>the<sp/>properties<sp/>must<sp/>also<sp/>match.<sp/><sp/>In<sp/>this<sp/>example,<sp/>we<sp/>have<sp/>a<sp/>float<sp/>property<sp/>called<sp/>&quot;Scale&quot;<sp/>and<sp/>a<sp/>color<sp/>property<sp/>called<sp/>&quot;Color&quot;.<sp/><sp/>The<sp/>default<sp/>values<sp/>are<sp/>set<sp/>here<sp/>as<sp/>well.</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">Properties</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>The<sp/>source<sp/>texture<sp/>that<sp/>we<sp/>will<sp/>be<sp/>modifying<sp/>the<sp/>luminosity<sp/>for</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[InlineTexture]_Source_2D(&quot;Source&quot;,<sp/>2D)<sp/>=<sp/>&quot;white&quot;<sp/>{}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[InlineTexture]_Source_3D(&quot;Source&quot;,<sp/>3D)<sp/>=<sp/>&quot;white&quot;<sp/>{}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[InlineTexture]_Source_Cube(&quot;Source&quot;,<sp/>Cube)<sp/>=<sp/>&quot;white&quot;<sp/>{}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>The<sp/>luminosity<sp/>texture<sp/>that<sp/>will<sp/>define<sp/>the<sp/>change<sp/>to<sp/>the<sp/>source</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[InlineTexture]_Luminosity_2D(&quot;Luminosity&quot;,<sp/>2D)<sp/>=<sp/>&quot;white&quot;<sp/>{}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[InlineTexture]_Luminosity_3D(&quot;Luminosity&quot;,<sp/>3D)<sp/>=<sp/>&quot;white&quot;<sp/>{}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[InlineTexture]_Luminosity_Cube(&quot;Luminosity&quot;,<sp/>Cube)<sp/>=<sp/>&quot;white&quot;<sp/>{}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>will<sp/>likely<sp/>be<sp/>the<sp/>same<sp/>for<sp/>most<sp/>shaders,<sp/>it<sp/>defines<sp/>the<sp/>subshader<sp/>and<sp/>the<sp/>pass<sp/>that<sp/>will<sp/>be<sp/>used<sp/>to<sp/>render<sp/>the<sp/>shader.<sp/><sp/>The<sp/>name<sp/>of<sp/>the<sp/>pass<sp/>must<sp/>match<sp/>the<sp/>name<sp/>defined<sp/>in<sp/>the<sp/>node.</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">SubShader</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Tags<sp/>{<sp/>&quot;RenderType&quot;=&quot;Opaque&quot;<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LOD<sp/>100</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Pass</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HLSLPROGRAM</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#include<sp/>&quot;Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/GenesisFixed.hlsl&quot;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>vertex<sp/>CustomRenderTextureVertexShader</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>fragment<sp/>GenesisFragment</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>target<sp/>3.0</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>The<sp/>list<sp/>of<sp/>defines<sp/>that<sp/>will<sp/>be<sp/>active<sp/>when<sp/>processing<sp/>the<sp/>node<sp/>with<sp/>a<sp/>certain<sp/>dimension</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>shader_feature<sp/>CRT_2D<sp/>CRT_3D<sp/>CRT_CUBE</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Here<sp/>the<sp/>variables<sp/>are<sp/>defined<sp/>for<sp/>the<sp/>shader.<sp/><sp/>In<sp/>our<sp/>example<sp/>it<sp/>is<sp/>two<sp/>input<sp/>textures,<sp/>so<sp/>we<sp/>use<sp/>the<sp/>TEXTURE_SAMPLER_X<sp/>macro</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>This<sp/>macro<sp/>will<sp/>declare<sp/>a<sp/>version<sp/>for<sp/>each<sp/>dimention<sp/>(2D,<sp/>3D<sp/>and<sp/>Cube)</highlight></codeline>
+<codeline><highlight class="normal">TEXTURE_SAMPLER_X(_Source);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">//<sp/>This<sp/>macro<sp/>will<sp/>declare<sp/>a<sp/>version<sp/>for<sp/>each<sp/>dimention<sp/>(2D,<sp/>3D<sp/>and<sp/>Cube)<sp/>for<sp/>luminosity</highlight></codeline>
+<codeline><highlight class="normal">TEXTURE_SAMPLER_X(_Luminosity);</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">An<sp/>example<sp/>shader<sp/>function:</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>An<sp/>example<sp/>shader<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">//<sp/>This<sp/>takes<sp/>a<sp/>color<sp/>and<sp/>adjusts<sp/>it<sp/>based<sp/>on<sp/>the<sp/>grayscale<sp/>luminance</highlight></codeline>
+<codeline><highlight class="normal">float4<sp/>adjust_Luminance(float4<sp/>color,<sp/>float<sp/>luminance)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Convert<sp/>the<sp/>color<sp/>to<sp/>grayscale</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>float<sp/>gray=dot(color.rgb,<sp/>float3(0.299,<sp/>0.587,<sp/>0.114));</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Calculate<sp/>the<sp/>difference<sp/>between<sp/>the<sp/>desired<sp/>luminance<sp/>and<sp/>the<sp/>current<sp/>luminance</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>float<sp/>diff=luminance-gray;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>//<sp/>Adjust<sp/>the<sp/>color<sp/>by<sp/>adding<sp/>the<sp/>difference<sp/>to<sp/>each<sp/>channel</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>color.rgb+=diff;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>color;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Every<sp/>shader<sp/>must<sp/>have<sp/>this<sp/>function,<sp/>it<sp/>is<sp/>the<sp/>definition<sp/>of<sp/>the<sp/>shader<sp/>that<sp/>will<sp/>be<sp/>used<sp/>to<sp/>process<sp/>the<sp/>input<sp/>textures<sp/>and<sp/>generate<sp/>the<sp/>output<sp/>texture.<sp/><sp/>The<sp/>name<sp/>of<sp/>this<sp/>function<sp/>must<sp/>match<sp/>the<sp/>name<sp/>defined<sp/>in<sp/>the<sp/>node.</highlight></codeline>
+<codeline><highlight class="normal">&lt;code&gt;</highlight></codeline>
+<codeline><highlight class="normal">float4<sp/>genesis(v2f_customrendertexture<sp/>i)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>The<sp/>SAMPLE_X<sp/>macro<sp/>handles<sp/>sampling<sp/>for<sp/>2D,<sp/>3D<sp/>and<sp/>cube<sp/>textures</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Here<sp/>we<sp/>will<sp/>sample<sp/>the<sp/>source<sp/>to<sp/>get<sp/>the<sp/>color<sp/>and<sp/>then<sp/>we<sp/>will<sp/>sample<sp/>the<sp/>luminosity<sp/>texture<sp/>to<sp/>get<sp/>the<sp/>luminosity<sp/>value</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float4<sp/>source=SAMPLE_X(_Source,<sp/>i.localTexcoord.xyz,<sp/>i.direction);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>Returns<sp/>the<sp/>luminosity<sp/>value</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float4<sp/>luminosity=SAMPLE_X(_Luminosity,<sp/>i.localTexcoord.xyz,<sp/>i.direction);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>We<sp/>will<sp/>convert<sp/>the<sp/>luminosity<sp/>to<sp/>grayscale</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float<sp/>gray=dot(luminosity.rgb,<sp/>float3(0.299,<sp/>0.587,<sp/>0.114));</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>float4<sp/>returnValue=adjust_Luminance(source,<sp/>gray);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>We<sp/>must<sp/>return<sp/>a<sp/>float4<sp/>from<sp/>out<sp/>shader<sp/>function</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>returnValue;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">&lt;/code&gt;</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node/ReadMe.md"/>
+  </compounddef>
+</doxygen>

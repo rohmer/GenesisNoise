@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_parameter_node_view" kind="class" language="C#" prot="public">
+    <compoundname>ParameterNodeView</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_base_node_view" prot="public" virt="non-virtual">GraphProcessor.BaseNodeView</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_parameter_node_view_1aae9ca4dc8c97f4782d691bb536e108af" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_parameter_node" kindref="compound">ParameterNode</ref></type>
+        <definition>ParameterNode ParameterNodeView.parameterNode</definition>
+        <argsstring></argsstring>
+        <name>parameterNode</name>
+        <qualifiedname>ParameterNodeView.parameterNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" line="8" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_parameter_node_view_1a87017d80c56e1387c78eb12f77ebec04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ParameterNodeView.Enable</definition>
+        <argsstring>(bool fromInspector=false)</argsstring>
+        <name>Enable</name>
+        <qualifiedname>ParameterNodeView.Enable</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_base_node_view_1a3adbd25d61c24a81e1d147788caed8f4">Enable</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>fromInspector</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" line="10" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" bodystart="10" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_parameter_node_view_1a9586b732143f9675b915f2dc0f69cb26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParameterNodeView.UpdateView</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateView</name>
+        <qualifiedname>ParameterNodeView.UpdateView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" line="38" column="10" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_parameter_node_view_1ac42489ec8490f6c83e103a363955eaf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParameterNodeView.UpdatePort</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePort</name>
+        <qualifiedname>ParameterNodeView.UpdatePort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" line="43" column="10" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" bodystart="43" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>GraphProcessor.BaseNodeView</label>
+        <link refid="class_graph_processor_1_1_base_node_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>NodeView</label>
+      </node>
+      <node id="1">
+        <label>ParameterNodeView</label>
+        <link refid="class_parameter_node_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>inputPorts</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>outputPorts</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.BaseNodeView</label>
+        <link refid="class_graph_processor_1_1_base_node_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>nodeTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.NodeInputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_input_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.NodeOutputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_output_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.NodePortContainer</label>
+        <link refid="class_graph_processor_1_1_node_port_container"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="7">
+        <label>List&lt; NodePort &gt;</label>
+      </node>
+      <node id="3">
+        <label>NodeView</label>
+      </node>
+      <node id="1">
+        <label>ParameterNodeView</label>
+        <link refid="class_parameter_node_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" line="6" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ParameterNodeView.cs" bodystart="7" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_node_view_1a50907ae2581b3dc8191c97ad53da80f5" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>AddControlField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af7f6ca08799d88b5a776ceaf4fecd43b" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>AddControlField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a1eb6c87db2252ea8b963c49ec37895dd" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>AddInputContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a350ab20790bfed0a1f07d761b7c3eba1" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AddMessageView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ab9ca0653976204e6b548b2a73f8bcc35" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AddMessageView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a99918747dbffad96134756cbd04bf0ff" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AddPort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a52a3bde26b6632c908a0bb7b7d917e70" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>AddSettingField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a106cefc3c32a1d6e380cd1de08e2d65f" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AlignToBottom</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aa99d13abf49ea3884cb87f2b4e47808e" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AlignToCenter</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ae975bafd92e7a016c32812fab4ecebc5" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AlignToLeft</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aaaa7e81ffbde2e5a80c35285b7ac9cbb" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AlignToMiddle</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a7dd61ba718134d6ea280773a9e8b9fe7" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AlignToRight</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac18f649600b73f47db3082cf0c0706d7" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>AlignToTop</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a69687fb46951998496528c103f094cca" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>bottomPortContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a1c72e0e91f6b94da6b59cebde80eb95c" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>BuildAlignMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a9fef0bb46e341b98307db72466f8d50c" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>BuildContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ae98bcebea1ad383d299ae8f7d4da378f" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>ChangeLockStatus</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aea821ac4a7d81e62435c262fbc9f6f71" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>CloseSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a9ca6a39161df5a6a12e4888025100f71" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>controlsContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aeee944017151ad57f938e5e3d3e27414" prot="protected" virt="virtual"><scope>ParameterNodeView</scope><name>CreatePortView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a358c0f4862e4e51868561caf5543bb6b" prot="protected" virt="virtual"><scope>ParameterNodeView</scope><name>CreateSettingsView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a65b6e1eafae6d4c8a7c2e33371d52678" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>debugContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a9b372446c22579c140f3ad30922b3b9a" prot="public" virt="virtual"><scope>ParameterNodeView</scope><name>Disable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac8f63db979a84407faba61da00b43dbd" prot="protected" virt="virtual"><scope>ParameterNodeView</scope><name>DrawDefaultInspector</name></member>
+      <member refid="class_parameter_node_view_1a87017d80c56e1387c78eb12f77ebec04" prot="public" virt="virtual"><scope>ParameterNodeView</scope><name>Enable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ae4d393781e912d16b95af3f397123073" prot="public" virt="virtual" ambiguityscope="GraphProcessor::BaseNodeView."><scope>ParameterNodeView</scope><name>Enable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a12e23ba2d84e4ae80c7b1aae11a02d9d" prot="package" virt="non-virtual"><scope>ParameterNodeView</scope><name>EnableSyncSelectionBorderHeight</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a09941c3dcfb2138943e33ff829df20f8" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>expanded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1afae8063e7740f2ab61d8fcf068fa3535" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>FindSerializedProperty</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a08b10e6812101308a44521a84185e09b" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>ForceUpdatePorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a824e0538b76963a89f02a254620667ef" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>GetFirstPortViewFromFieldName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a7f3d85a9410d3e45ab0321fe32164ab4" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>GetNodeRect</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a36353442e8b92ed24ec139b5d43ecce3" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>GetPortViewFromFieldName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a83a958d19f5be8fbca06c8ee69a32895" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>GetPortViewsFromFieldName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a8286daa9baf2ba703273247d16a17147" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>hasSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a3bee0399b1e8535e35d97907f050c48b" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>Highlight</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a9ec4f4547085b2fbc2736eb09243d47f" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aa61453b57289f283498e43307b688c2c" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>initializing</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1afe90a371ba6a422f76f3620c4f1cf84b" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>inputPortViews</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1abec514823b07a2da1308055ae9391bea" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>InsertPort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a277db53ee255872a93fb5712c4fc6a47" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>nodeTarget</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac8c5ced56f74d24bb1f9b535945a5279" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>NotifyNodeChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac431f0e789bdc8c3203d92af329ac107" prot="public" virt="virtual"><scope>ParameterNodeView</scope><name>OnCreated</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a70ccbe2fceccaf418680993f54b815cb" prot="package" virt="non-virtual"><scope>ParameterNodeView</scope><name>OnPortConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ad5d761525da47b53fef9cadf3cfe9b5f" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>onPortConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a39d847bc0e410c5171e051577558e412" prot="package" virt="non-virtual"><scope>ParameterNodeView</scope><name>OnPortDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ab06b6d2914674325892240c55cea9e03" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>onPortDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a0d0c4387126b77b93f5eb52db26fef37" prot="public" virt="virtual"><scope>ParameterNodeView</scope><name>OnRemoved</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a0dcc5f9da22fe658d42dd3e4c89e72df" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>OpenNodeScript</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a7aea2078fb3d74d5fcdc8bb70e08c6d9" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>OpenNodeViewScript</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a64bbd80a01c2d0bd7230425ae8f93ef4" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>OpenSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ad23c205eec5001df622a52c74ef48296" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>outputPortViews</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a13519c7d3f1d5aa3814585f7bf72af25" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>owner</name></member>
+      <member refid="class_parameter_node_view_1aae9ca4dc8c97f4782d691bb536e108af" prot="private" virt="non-virtual"><scope>ParameterNodeView</scope><name>parameterNode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a55aa757598007de7390174c5c50faf49" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>portsPerFieldName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af2d3b0f3533c62dbccaac8896826f744" prot="public" virt="virtual"><scope>ParameterNodeView</scope><name>RefreshPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a82110b7ee9867e9dc7ed0db690367c80" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>RemoveMessageView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af01d1fa88148113c38f45b8aee6e2083" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>RemoveMessageViewContains</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1afaf4312ed9d1da5380aef13e496042d2" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>RemovePort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1adb1c3f18456d1e3e11b6e775ba264f1a" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>rightTitleContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af749e83875d5703877e81e7bb52b21d3" prot="protected" virt="virtual"><scope>ParameterNodeView</scope><name>SetNodeColor</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ae319afc15cde75524450d6f903859b7d" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>SetPosition</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a75cc378f859d2fa7119d3ec9861a43b9" prot="package" virt="non-virtual"><scope>ParameterNodeView</scope><name>SyncSerializedPropertyPathes</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1abe08b235f647d32c9b69cc566b667e2c" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>ToggleDebug</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ad30d6d7a148fc53e45ea25544acffeaf" prot="protected" virt="non-virtual"><scope>ParameterNodeView</scope><name>topPortContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac2530b80af10fda2a9d0dc38f2f1e6e3" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>UnHighlight</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1adfcbe9a494775d9cfaf1e92faba2541e" prot="public" virt="non-virtual"><scope>ParameterNodeView</scope><name>UpdateDebugView</name></member>
+      <member refid="class_parameter_node_view_1ac42489ec8490f6c83e103a363955eaf1" prot="private" virt="non-virtual"><scope>ParameterNodeView</scope><name>UpdatePort</name></member>
+      <member refid="class_parameter_node_view_1a9586b732143f9675b915f2dc0f69cb26" prot="private" virt="non-virtual"><scope>ParameterNodeView</scope><name>UpdateView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

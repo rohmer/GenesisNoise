@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_epsilon_utils" kind="class" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::EpsilonUtils</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sharp_voronoi_lib_1_1_epsilon_utils_1a7e52fc02a2ba9cf9187a22c9ea866bac" prot="private" static="yes" mutable="no">
+        <type>const double</type>
+        <definition>const double SharpVoronoiLib.EpsilonUtils.epsilon</definition>
+        <argsstring></argsstring>
+        <name>epsilon</name>
+        <qualifiedname>SharpVoronoiLib.EpsilonUtils.epsilon</qualifiedname>
+        <initializer>= 1E-12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="15" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_epsilon_utils_1a1f7cb1b2d22e1e0145a9d18c07aee542" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SharpVoronoiLib.EpsilonUtils.ApproxEqual</definition>
+        <argsstring>(this double value1, double value2)</argsstring>
+        <name>ApproxEqual</name>
+        <qualifiedname>SharpVoronoiLib.EpsilonUtils.ApproxEqual</qualifiedname>
+        <param>
+          <type>this double</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="19" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="19" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_epsilon_utils_1ac1c8684fdbef02720aceea57ee7984b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SharpVoronoiLib.EpsilonUtils.ApproxGreaterThan</definition>
+        <argsstring>(this double value1, double value2)</argsstring>
+        <name>ApproxGreaterThan</name>
+        <qualifiedname>SharpVoronoiLib.EpsilonUtils.ApproxGreaterThan</qualifiedname>
+        <param>
+          <type>this double</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="25" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_epsilon_utils_1aa09035f4b760dc2d66c9bdb7672ad3a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SharpVoronoiLib.EpsilonUtils.ApproxGreaterThanOrEqualTo</definition>
+        <argsstring>(this double value1, double value2)</argsstring>
+        <name>ApproxGreaterThanOrEqualTo</name>
+        <qualifiedname>SharpVoronoiLib.EpsilonUtils.ApproxGreaterThanOrEqualTo</qualifiedname>
+        <param>
+          <type>this double</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="30" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_epsilon_utils_1a0eb429677d513fe3f47a3baa8d1e94cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SharpVoronoiLib.EpsilonUtils.ApproxLessThan</definition>
+        <argsstring>(this double value1, double value2)</argsstring>
+        <name>ApproxLessThan</name>
+        <qualifiedname>SharpVoronoiLib.EpsilonUtils.ApproxLessThan</qualifiedname>
+        <param>
+          <type>this double</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="35" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_epsilon_utils_1a14c3e2ba290b30621c926725975f9b6e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SharpVoronoiLib.EpsilonUtils.ApproxLessThanOrEqualTo</definition>
+        <argsstring>(this double value1, double value2)</argsstring>
+        <name>ApproxLessThanOrEqualTo</name>
+        <qualifiedname>SharpVoronoiLib.EpsilonUtils.ApproxLessThanOrEqualTo</qualifiedname>
+        <param>
+          <type>this double</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="40" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_epsilon_utils_1a5113321508ae20a77fe6ec8607fc2a84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int SharpVoronoiLib.EpsilonUtils.ApproxCompareTo</definition>
+        <argsstring>(this double value1, double value2)</argsstring>
+        <name>ApproxCompareTo</name>
+        <qualifiedname>SharpVoronoiLib.EpsilonUtils.ApproxCompareTo</qualifiedname>
+        <param>
+          <type>this double</type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="45" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="45" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" line="4" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/EpsilonUtils.cs" bodystart="5" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_epsilon_utils_1a5113321508ae20a77fe6ec8607fc2a84" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::EpsilonUtils</scope><name>ApproxCompareTo</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_epsilon_utils_1a1f7cb1b2d22e1e0145a9d18c07aee542" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::EpsilonUtils</scope><name>ApproxEqual</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_epsilon_utils_1ac1c8684fdbef02720aceea57ee7984b3" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::EpsilonUtils</scope><name>ApproxGreaterThan</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_epsilon_utils_1aa09035f4b760dc2d66c9bdb7672ad3a9" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::EpsilonUtils</scope><name>ApproxGreaterThanOrEqualTo</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_epsilon_utils_1a0eb429677d513fe3f47a3baa8d1e94cd" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::EpsilonUtils</scope><name>ApproxLessThan</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_epsilon_utils_1a14c3e2ba290b30621c926725975f9b6e" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::EpsilonUtils</scope><name>ApproxLessThanOrEqualTo</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_epsilon_utils_1a7e52fc02a2ba9cf9187a22c9ea866bac" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::EpsilonUtils</scope><name>epsilon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

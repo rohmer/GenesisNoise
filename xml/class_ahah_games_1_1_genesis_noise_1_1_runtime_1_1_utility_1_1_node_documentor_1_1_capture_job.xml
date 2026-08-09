@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1a5d64593328fbdac4ebf36977abc3e7d9" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.NodeType</definition>
+        <argsstring></argsstring>
+        <name>NodeType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.NodeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="41" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1abeb09c1297e173951786bae816665dad" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.DisplayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="42" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1a558c1f70333a3c0dfe9ada180dfa1be7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.PrimaryMenu</definition>
+        <argsstring></argsstring>
+        <name>PrimaryMenu</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.PrimaryMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="43" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1ad553de0da9eeff9d460421653f0be355" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.CategorySlug</definition>
+        <argsstring></argsstring>
+        <name>CategorySlug</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.CategorySlug</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="44" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1ab8e34d0dff5920b5c8f0ddb4f8de66bd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.NodeSlug</definition>
+        <argsstring></argsstring>
+        <name>NodeSlug</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.NodeSlug</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="45" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1a227e2d7bf263b8d6225682808a7225e2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.FileSlug</definition>
+        <argsstring></argsstring>
+        <name>FileSlug</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.FileSlug</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="46" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1aa67cd920275a1938e600a33c44c2e0aa" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.OutputPath</definition>
+        <argsstring></argsstring>
+        <name>OutputPath</name>
+        <qualifiedname>AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob.OutputPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="47" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" line="39" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeDocumentor.cs" bodystart="40" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1ad553de0da9eeff9d460421653f0be355" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</scope><name>CategorySlug</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1abeb09c1297e173951786bae816665dad" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</scope><name>DisplayName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1a227e2d7bf263b8d6225682808a7225e2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</scope><name>FileSlug</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1ab8e34d0dff5920b5c8f0ddb4f8de66bd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</scope><name>NodeSlug</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1a5d64593328fbdac4ebf36977abc3e7d9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</scope><name>NodeType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1aa67cd920275a1938e600a33c44c2e0aa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</scope><name>OutputPath</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job_1a558c1f70333a3c0dfe9ada180dfa1be7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Runtime::Utility::NodeDocumentor::CaptureJob</scope><name>PrimaryMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

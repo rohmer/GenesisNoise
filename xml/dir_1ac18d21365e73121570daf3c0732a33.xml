@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_1ac18d21365e73121570daf3c0732a33" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils</compoundname>
+    <innerfile refid="_app_domain_extension_8cs">AppDomainExtension.cs</innerfile>
+    <innerfile refid="_exception_to_log_8cs">ExceptionToLog.cs</innerfile>
+    <innerfile refid="_graph_utils_8cs">GraphUtils.cs</innerfile>
+    <innerfile refid="_json_serializer_8cs">JsonSerializer.cs</innerfile>
+    <innerfile refid="_message_type_8cs">MessageType.cs</innerfile>
+    <innerfile refid="_serializable_edge_8cs">SerializableEdge.cs</innerfile>
+    <innerfile refid="_serializable_type_8cs">SerializableType.cs</innerfile>
+    <innerfile refid="_serrializable_object_8cs">SerrializableObject.cs</innerfile>
+    <innerfile refid="_type_extension_8cs">TypeExtension.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/"/>
+  </compounddef>
+</doxygen>

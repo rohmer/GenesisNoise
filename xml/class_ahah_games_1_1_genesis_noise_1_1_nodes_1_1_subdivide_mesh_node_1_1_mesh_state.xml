@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a5ec6442513efa3b6c5395a0eeaa0c346" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.OriginalSourceMesh</definition>
+        <argsstring></argsstring>
+        <name>OriginalSourceMesh</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.OriginalSourceMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="677" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1adabb9a4614d4ac0054fbf2b77187b96a" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.GeneratedMesh</definition>
+        <argsstring></argsstring>
+        <name>GeneratedMesh</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.GeneratedMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="678" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a471fce63a3dcc511a3df5f00702e685f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.LastSubdivideCount</definition>
+        <argsstring></argsstring>
+        <name>LastSubdivideCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.LastSubdivideCount</qualifiedname>
+        <initializer>= int.MinValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="679" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1ae3c5b32c4c905d8277c2ee1b314bf3fa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.CachedVertexCount</definition>
+        <argsstring></argsstring>
+        <name>CachedVertexCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.CachedVertexCount</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="680" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a7a3c56426564c9a1af385ecbad5fd70e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.CachedIndexCount</definition>
+        <argsstring></argsstring>
+        <name>CachedIndexCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.CachedIndexCount</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="681" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a98bbf4e5c640df18b2fe9786bf090bbc" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.LastProcessedSourceMesh</definition>
+        <argsstring></argsstring>
+        <name>LastProcessedSourceMesh</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.LastProcessedSourceMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="682" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a6c6efd089ea0ca2ff897c3fb352e779c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.LastPreviewUpdateTime</definition>
+        <argsstring></argsstring>
+        <name>LastPreviewUpdateTime</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.LastPreviewUpdateTime</qualifiedname>
+        <initializer>= -1000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="683" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="683" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a8bfd695e596b2015eeacb2458cbb2afc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceVertexCount</definition>
+        <argsstring></argsstring>
+        <name>SourceVertexCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceVertexCount</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="684" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a6e6e63bec63824a36ce90833d743cd45" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceSubMeshCount</definition>
+        <argsstring></argsstring>
+        <name>SourceSubMeshCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceSubMeshCount</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="685" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="685" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a588d79cf23670231ca851a043a421c99" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceTotalIndexCount</definition>
+        <argsstring></argsstring>
+        <name>SourceTotalIndexCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceTotalIndexCount</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="686" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="686" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a4e0f0215a01cb97a021580fe8b68b023" prot="public" static="no" mutable="no">
+        <type>Bounds</type>
+        <definition>Bounds AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceBounds</definition>
+        <argsstring></argsstring>
+        <name>SourceBounds</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.SubdivideMeshNode.MeshState.SourceBounds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="687" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="687" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" line="675" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/SubdivideNode.cs" bodystart="676" bodyend="688"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a7a3c56426564c9a1af385ecbad5fd70e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>CachedIndexCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1ae3c5b32c4c905d8277c2ee1b314bf3fa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>CachedVertexCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1adabb9a4614d4ac0054fbf2b77187b96a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>GeneratedMesh</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a6c6efd089ea0ca2ff897c3fb352e779c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>LastPreviewUpdateTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a98bbf4e5c640df18b2fe9786bf090bbc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>LastProcessedSourceMesh</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a471fce63a3dcc511a3df5f00702e685f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>LastSubdivideCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a5ec6442513efa3b6c5395a0eeaa0c346" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>OriginalSourceMesh</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a4e0f0215a01cb97a021580fe8b68b023" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>SourceBounds</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a6e6e63bec63824a36ce90833d743cd45" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>SourceSubMeshCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a588d79cf23670231ca851a043a421c99" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>SourceTotalIndexCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_1_1_mesh_state_1a8bfd695e596b2015eeacb2458cbb2afc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::SubdivideMeshNode::MeshState</scope><name>SourceVertexCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

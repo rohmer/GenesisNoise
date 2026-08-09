@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.GenesisUpdater.FinishActiveGraph" name="AhahGames.GenesisNoise.Graph.GenesisUpdater.FinishActiveGraph">
-<area shape="rect" id="Node000001" title=" " alt="" coords="546,5,772,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_updater.html#aa18d069fd47189e6d05e2bfcfc00e05b" title=" " alt="" coords="276,5,498,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="527,27,499,29,499,24,533,27"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_updater.html#a6538273f03996ce2cb4fabcb979519a1" title=" " alt="" coords="5,5,228,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="257,27,228,29,228,24,263,27"/>
-</map>

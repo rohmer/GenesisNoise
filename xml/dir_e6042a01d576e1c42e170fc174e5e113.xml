@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_e6042a01d576e1c42e170fc174e5e113" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib</compoundname>
+    <innerdir refid="dir_85a0baa8354d39cf14ff17c91cf3766e">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Clipping</innerdir>
+    <innerdir refid="dir_5525f0afb77b3474553416c0de5e834d">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Border Closing</innerdir>
+    <innerdir refid="dir_cd99ff52d8627ce20ba77a4363a38be6">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions</innerdir>
+    <innerdir refid="dir_1c37cda9e97baea1ae4c6bc577cea3d1">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup</innerdir>
+    <innerdir refid="dir_311e713157f4de2547b7173932370d73">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation</innerdir>
+    <innerdir refid="dir_d0508b80843afab0bcea4d85abefc9f7">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Relaxation</innerdir>
+    <innerdir refid="dir_ae30e43fce843452c5be4cfbe24a424c">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Site Merging</innerdir>
+    <innerdir refid="dir_5a86b89096c2cfc9aaf94f94afc76ed8">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation</innerdir>
+    <innerdir refid="dir_baaf003efb4c8b69a41ad0f97a95273b">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi</innerdir>
+    <innerfile refid="_epsilon_utils_8cs">EpsilonUtils.cs</innerfile>
+    <innerfile refid="_voronoi_plane_8cs">VoronoiPlane.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/"/>
+  </compounddef>
+</doxygen>

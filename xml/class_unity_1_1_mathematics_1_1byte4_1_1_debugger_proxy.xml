@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy" kind="class" language="C#" prot="package" sealed="yes">
+    <compoundname>Unity::Mathematics::byte4::DebuggerProxy</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1adb27c78702b20e411578d668d062cc5c" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Unity.Mathematics.byte4.DebuggerProxy.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Unity.Mathematics.byte4.DebuggerProxy.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" line="1808" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" bodystart="1808" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1aa4f8699efe83e06da9a4cd6766b4e35e" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Unity.Mathematics.byte4.DebuggerProxy.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>Unity.Mathematics.byte4.DebuggerProxy.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" line="1809" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" bodystart="1809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1a696abd89772ee44d711027e88e9612e1" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Unity.Mathematics.byte4.DebuggerProxy.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>Unity.Mathematics.byte4.DebuggerProxy.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" line="1810" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" bodystart="1810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1a4ccb14aeeeca976738f26672aa4d62ea" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Unity.Mathematics.byte4.DebuggerProxy.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>Unity.Mathematics.byte4.DebuggerProxy.w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" line="1811" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1a456bbca5239378c864795df0e3e0a42b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.byte4.DebuggerProxy.DebuggerProxy</definition>
+        <argsstring>(byte4 v)</argsstring>
+        <name>DebuggerProxy</name>
+        <qualifiedname>Unity.Mathematics.byte4.DebuggerProxy.DebuggerProxy</qualifiedname>
+        <param>
+          <type><ref refid="struct_unity_1_1_mathematics_1_1byte4_1a0a63bb7be6b67f010e024c680e7950bf" kindref="member">byte4</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" line="1812" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" bodystart="1812" bodyend="1817"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" line="1806" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte4.cs" bodystart="1807" bodyend="1818"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1a456bbca5239378c864795df0e3e0a42b" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte4::DebuggerProxy</scope><name>DebuggerProxy</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1a4ccb14aeeeca976738f26672aa4d62ea" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte4::DebuggerProxy</scope><name>w</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1adb27c78702b20e411578d668d062cc5c" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte4::DebuggerProxy</scope><name>x</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1aa4f8699efe83e06da9a4cd6766b4e35e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte4::DebuggerProxy</scope><name>y</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1byte4_1_1_debugger_proxy_1a696abd89772ee44d711027e88e9612e1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte4::DebuggerProxy</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

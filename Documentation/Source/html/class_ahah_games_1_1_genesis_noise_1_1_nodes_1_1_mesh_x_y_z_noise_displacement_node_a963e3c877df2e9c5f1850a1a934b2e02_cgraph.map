@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.SampleNoise" name="AhahGames.GenesisNoise.Nodes.MeshXYZNoiseDisplacementNode.SampleNoise">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,312,115"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node.html#af5c9ea85434716875ccdb4503b9ac2ee" title=" " alt="" coords="365,5,646,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="272,69,378,51,373,52,274,74"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node.html#a3612a1f0d7d195c660fa0e72c63acc77" title=" " alt="" coords="379,72,632,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="312,91,366,93,361,94,313,96"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node.html#ad5304f90ba6bff488c9ca1a5893a1013" title=" " alt="" coords="360,139,651,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,113,379,135,373,136,273,118"/>
-</map>

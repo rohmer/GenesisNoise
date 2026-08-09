@@ -33,7 +33,7 @@ Applies `ASIN(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 432df805-1e04-4307-acfb-2e80028bb1e5 | |
+| GUID | String | 5f0a0caa-b9b9-4b5d-aada-ce9de17ee3df | |
 | expanded | Boolean | False | |
 
 ## See Also

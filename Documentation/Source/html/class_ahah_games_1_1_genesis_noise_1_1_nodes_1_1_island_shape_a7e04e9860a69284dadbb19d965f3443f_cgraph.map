@@ -1,5 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.IslandShape.ComputeCoasts" name="AhahGames.GenesisNoise.Nodes.IslandShape.ComputeCoasts">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,231,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node.html#a19d06fd442e8cd877b0df003c55f5720" title=" " alt="" coords="279,5,504,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,24,266,27,260,27,231,29"/>
-</map>

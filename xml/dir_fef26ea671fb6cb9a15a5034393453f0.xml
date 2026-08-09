@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_fef26ea671fb6cb9a15a5034393453f0" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material/URP</compoundname>
+    <innerfile refid="_u_r_p_baked_lit_material_node_view_8cs">URPBakedLitMaterialNodeView.cs</innerfile>
+    <innerfile refid="_u_r_p_complex_lit_material_node_view_8cs">URPComplexLitMaterialNodeView.cs</innerfile>
+    <innerfile refid="_u_r_p_lit_material_node_view_8cs">URPLitMaterialNodeView.cs</innerfile>
+    <innerfile refid="_u_r_p_simple_lit_material_node_view_8cs">URPSimpleLitMaterialNodeView.cs</innerfile>
+    <innerfile refid="_u_r_p_unlit_material_node_view_8cs">URPUnlitMaterialNodeView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material/URP/"/>
+  </compounddef>
+</doxygen>

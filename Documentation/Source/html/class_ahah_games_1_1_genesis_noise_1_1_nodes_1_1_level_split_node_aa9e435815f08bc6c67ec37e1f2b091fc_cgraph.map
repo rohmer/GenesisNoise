@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.LevelSplitNode.PullTextureInput" name="AhahGames.GenesisNoise.Nodes.LevelSplitNode.PullTextureInput">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,231,72"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_level_split_node.html#a10d31735af93eb4501095d1a8aa243d2" title=" " alt="" coords="279,29,520,72"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,48,266,51,260,51,231,53"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_level_split_node.html#ac53a030f65b6811d4fa9e562af08a5ff" title=" " alt="" coords="568,29,835,72"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="520,48,555,51,550,51,520,53"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="646,27,643,19,652,10,672,5,702,3,734,5,755,14,750,14,733,10,702,8,673,10,655,15,648,21,650,30"/>
-</map>

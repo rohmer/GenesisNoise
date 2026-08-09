@@ -1,0 +1,32 @@
+\doxysection{Graph\+Processor.\+IType\+Adapter Class Reference}
+\hypertarget{class_graph_processor_1_1_i_type_adapter}{}\label{class_graph_processor_1_1_i_type_adapter}\index{GraphProcessor.ITypeAdapter@{GraphProcessor.ITypeAdapter}}
+
+
+Implement this interface to use the inside your class to define type convertions to use inside the graph. Example:\+  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_i_type_adapter_a3a4152b0c7ff0ca5af40d567a55b8d91}\label{class_graph_processor_1_1_i_type_adapter_a3a4152b0c7ff0ca5af40d567a55b8d91} 
+virtual IEnumerable$<$(Type, Type)$>$ {\bfseries Get\+Incompatible\+Types} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implement this interface to use the inside your class to define type convertions to use inside the graph. Example:\+ 
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{public}\ \textcolor{keyword}{class\ }CustomConvertions\ :\ ITypeAdapter}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{static}\ Vector4\ ConvertFloatToVector(\textcolor{keywordtype}{float}\ from)\ =>\ \textcolor{keyword}{new}\ Vector4(from,\ from,\ from,\ from);}
+\DoxyCodeLine{\ \ \ \ ...}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+ 
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Node\+Graph\+Processor/\+\+Runtime/\+\+Processing/\+Type\+Adapter.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_node_provider_1_1_node_descriptions" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeProvider::NodeDescriptions</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_provider_1_1_node_descriptions_1a6d2fc8d6b872dcb7aa56ed199d78c055" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, Type &gt;</type>
+        <definition>Dictionary&lt;string, Type&gt; GraphProcessor.NodeProvider.NodeDescriptions.nodePerMenuTitle</definition>
+        <argsstring></argsstring>
+        <name>nodePerMenuTitle</name>
+        <qualifiedname>GraphProcessor.NodeProvider.NodeDescriptions.nodePerMenuTitle</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="32" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_provider_1_1_node_descriptions_1ae0079affea6e5ccb382fece9bd56184a" prot="public" static="no" mutable="no">
+        <type>List&lt; Type &gt;</type>
+        <definition>List&lt;Type&gt; GraphProcessor.NodeProvider.NodeDescriptions.slotTypes</definition>
+        <argsstring></argsstring>
+        <name>slotTypes</name>
+        <qualifiedname>GraphProcessor.NodeProvider.NodeDescriptions.slotTypes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="33" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_provider_1_1_node_descriptions_1af73dcb59e012193c19297f79947c51b4" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_graph_processor_1_1_node_provider_1_1_port_description" kindref="compound">PortDescription</ref> &gt;</type>
+        <definition>List&lt;PortDescription&gt; GraphProcessor.NodeProvider.NodeDescriptions.nodeCreatePortDescription</definition>
+        <argsstring></argsstring>
+        <name>nodeCreatePortDescription</name>
+        <qualifiedname>GraphProcessor.NodeProvider.NodeDescriptions.nodeCreatePortDescription</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="34" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="30" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="31" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_node_provider_1_1_node_descriptions_1af73dcb59e012193c19297f79947c51b4" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::NodeDescriptions</scope><name>nodeCreatePortDescription</name></member>
+      <member refid="class_graph_processor_1_1_node_provider_1_1_node_descriptions_1a6d2fc8d6b872dcb7aa56ed199d78c055" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::NodeDescriptions</scope><name>nodePerMenuTitle</name></member>
+      <member refid="class_graph_processor_1_1_node_provider_1_1_node_descriptions_1ae0079affea6e5ccb382fece9bd56184a" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::NodeDescriptions</scope><name>slotTypes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

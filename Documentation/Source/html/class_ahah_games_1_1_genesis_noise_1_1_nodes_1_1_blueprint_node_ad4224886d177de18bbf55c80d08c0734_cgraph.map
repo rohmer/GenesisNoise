@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.BlueprintNode.CoerceInputValue" name="AhahGames.GenesisNoise.Nodes.BlueprintNode.CoerceInputValue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,231,115"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_type_casting.html#a22a7f2d1ec25398ca82c66d10cf7544e" title=" " alt="" coords="279,5,490,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,69,284,51,279,53,207,74"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_type_casting.html#ab7fcae64699ed2ad958cbdcbe2a08579" title=" " alt="" coords="279,72,490,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,91,265,93,260,94,232,96"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_type_casting.html#ae2c22339a6cf91f17e630111c20186a7" title=" " alt="" coords="279,139,490,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,113,284,134,279,135,206,118"/>
-</map>

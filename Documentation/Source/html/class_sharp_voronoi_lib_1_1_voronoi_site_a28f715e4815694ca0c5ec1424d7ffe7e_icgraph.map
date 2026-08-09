@@ -1,7 +1,0 @@
-<map id="SharpVoronoiLib.VoronoiSite.AddEdge" name="SharpVoronoiLib.VoronoiSite.AddEdge">
-<area shape="rect" id="Node000001" title=" " alt="" coords="292,27,481,69"/>
-<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_generic_clipping.html#accb3a5c68e1c0d80a1045c2cd8da9397" title=" " alt="" coords="5,5,244,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="273,36,244,35,244,29,279,35"/>
-<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_generic_border_closing.html#a8645c2e9391d05623eacdf9f7e3a2b17" title=" " alt="" coords="23,56,226,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,61,226,69,226,63,279,60"/>
-</map>

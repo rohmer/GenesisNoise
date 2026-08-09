@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="namespace_supercluster_1_1_k_d_tree" kind="namespace" language="C#">
+    <compoundname>Supercluster::KDTree</compoundname>
+    <innerclass refid="class_supercluster_1_1_k_d_tree_1_1_bounded_priority_list-1-g" prot="public">Supercluster::KDTree::BoundedPriorityList-1-g</innerclass>
+    <innerclass refid="struct_supercluster_1_1_k_d_tree_1_1_hyper_rect" prot="public">Supercluster::KDTree::HyperRect</innerclass>
+    <innerclass refid="class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g" prot="public">Supercluster::KDTree::KDTree-1-g</innerclass>
+    <innernamespace refid="namespace_supercluster_1_1_k_d_tree_1_1_utilities">Supercluster::KDTree::Utilities</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/BoundedPriorityList.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.GenesisNodeView.OnProcessingTimeRefresh" name="AhahGames.GenesisNoise.Views.GenesisNodeView.OnProcessingTimeRefresh">
-<area shape="rect" id="Node000001" title=" " alt="" coords="600,31,843,89"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view.html#a2e96db9f6669a201555a0dd42d39e7b6" title=" " alt="" coords="303,5,526,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="582,45,526,41,526,36,587,45"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view.html#aedf818866c9aa6f04065c137e91cb777" title=" " alt="" coords="277,72,552,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="587,75,553,81,552,76,582,75"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view.html#ab921c4ff93c4edfb03733c77ee5739a7" title=" " alt="" coords="5,72,229,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="258,93,229,96,229,91,263,93"/>
-</map>

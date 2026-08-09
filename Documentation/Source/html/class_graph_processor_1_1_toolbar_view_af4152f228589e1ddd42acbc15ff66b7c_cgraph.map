@@ -1,7 +1,0 @@
-<map id="GraphProcessor.ToolbarView.AddButtons" name="GraphProcessor.ToolbarView.AddButtons">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,199,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_toolbar_view.html#a925df8112122127da647fd611ef4388e" title=" " alt="" coords="247,5,440,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="198,44,234,41,229,43,200,49"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_toolbar_view.html#a66525c35667e9ae88e103e972bc43753" title=" " alt="" coords="247,72,440,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,71,234,78,229,78,199,76"/>
-</map>

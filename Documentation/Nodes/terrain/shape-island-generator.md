@@ -35,7 +35,7 @@ _No description available._
 | noiseInfluence | Single | 0.5 | |
 | allowLakes | Boolean | True | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 1ffff75d-18de-4215-af37-387ed6cb4dc5 | |
+| GUID | String | 246166d3-c9ef-4b2d-b61d-feaab971990c | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer" prot="public" virt="non-virtual">AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfae" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GradientType</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.GenesisGradientTypeDrawer.GradientType</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea99b4c3afc6aaa3ab4de17c90455a55eb" prot="public">
+          <name>Ramp</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea5e5500cb2b82eb72d550de644bd1b64b" prot="public">
+          <name>Triangle</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea46ff06ae696616afdf3a695efd3db84c" prot="public">
+          <name>Cosine</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaeafdc32a55217f1ca054f1f2b51ef4f6ec" prot="public">
+          <name>Radial</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea360c83b790f82507ccca297d4a419352" prot="public">
+          <name>Circlular</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaeac31c335ef37283c451b18ba0dd317de1" prot="public">
+          <name>Angular</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea8f7671185d590914ac21c7511767b699" prot="public">
+          <name>Diamond</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaeaaf17c98bbd83c27d6426d2ff3fa81d7f" prot="public">
+          <name>Bilinear</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaeae9017664588010860a92ceb5f8fcb824" prot="public">
+          <name>Quad</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea31aa08a905ffdb74542a88cb7320c69d" prot="public">
+          <name>Bezier</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaeace7898536dd0e928d1640ee2ad531cc8" prot="public">
+          <name>Multi</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea0a976d68740640e3a1cb5400db830a5e" prot="public">
+          <name>Bands</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfaea9b27ee4c75799bd59f202735ce258699" prot="public">
+          <name>Noise</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisGradientModesDrawer.cs" line="12" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisGradientModesDrawer.cs" bodystart="13" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a88f82010a54ab390a6e68175ea151f0c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.PropertyDrawers.GenesisGradientTypeDrawer.DrawerGUI</definition>
+        <argsstring>(Rect position, MaterialProperty prop, string label, MaterialEditor editor, GenesisGraph graph, GenesisNodeView nodeView)</argsstring>
+        <name>DrawerGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.GenesisGradientTypeDrawer.DrawerGUI</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a435345fb6296a58a0b81e206eed64204">DrawerGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>MaterialProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view" kindref="compound">GenesisNodeView</ref></type>
+          <declname>nodeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisGradientModesDrawer.cs" line="42" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisGradientModesDrawer.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisGradientTypeDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisGradientTypeDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisGradientModesDrawer.cs" line="10" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/GenesisGradientModesDrawer.cs" bodystart="11" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a88f82010a54ab390a6e68175ea151f0c" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>DrawerGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1aa1a659ce976efcdd47477b5814cfc662" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>GetGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a04f2c16e2740c2536341ac358d17e111" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>GetNodeView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a1ff93c593f7ff4e8fb42eaa8ff8b18ad" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>GetPropertyHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer_1a8459b4bbc2ea041d97e086d4e9d5bfae" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>GradientType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1ae338df9a931472a43039b3d0bfa2034f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a7a9263b323f045ee82e8fdae797dfa65" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>RegisterEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a912353e0d4d75a07e7d4cda9aafe2fff" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::GenesisGradientTypeDrawer</scope><name>UnregisterGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

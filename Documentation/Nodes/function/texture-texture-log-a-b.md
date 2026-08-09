@@ -33,7 +33,7 @@ Applies `LOG(A,B)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d1ead2fc-f59d-43d9-8162-e7bc7d35f8e9 | |
+| GUID | String | 5252a26e-adb8-47f5-8138-24d52f7e2018 | |
 | expanded | Boolean | False | |
 
 ## See Also

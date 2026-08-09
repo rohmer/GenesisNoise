@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::HistogramData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a13d47ddc4880eb657a673ec0c741164d" prot="public" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer AhahGames.GenesisNoise.HistogramData.histogram</definition>
+        <argsstring></argsstring>
+        <name>histogram</name>
+        <qualifiedname>AhahGames.GenesisNoise.HistogramData.histogram</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="17" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1abbbfe51e9f21fe6742e5ef77ae024ea1" prot="public" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer AhahGames.GenesisNoise.HistogramData.histogramData</definition>
+        <argsstring></argsstring>
+        <name>histogramData</name>
+        <qualifiedname>AhahGames.GenesisNoise.HistogramData.histogramData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="19" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1ab29a4afafa8f5706069c894ac22b8203" prot="public" static="no" mutable="no">
+        <type>HistogramMode</type>
+        <definition>HistogramMode AhahGames.GenesisNoise.HistogramData.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>AhahGames.GenesisNoise.HistogramData.mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="20" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1ab7f866b605781b3dc57618acaaa889d6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.HistogramData.bucketCount</definition>
+        <argsstring></argsstring>
+        <name>bucketCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.HistogramData.bucketCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="21" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a214350c9f1d9b0f2a7cccfa2c3d90bb0" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material AhahGames.GenesisNoise.HistogramData.previewMaterial</definition>
+        <argsstring></argsstring>
+        <name>previewMaterial</name>
+        <qualifiedname>AhahGames.GenesisNoise.HistogramData.previewMaterial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="23" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a888f47c1b3a5686f8b15b0955a832a58" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.HistogramData.minLuminance</definition>
+        <argsstring></argsstring>
+        <name>minLuminance</name>
+        <qualifiedname>AhahGames.GenesisNoise.HistogramData.minLuminance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="24" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a6781493925b7d3d2c2439120b3da10e4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.HistogramData.maxLuminance</definition>
+        <argsstring></argsstring>
+        <name>maxLuminance</name>
+        <qualifiedname>AhahGames.GenesisNoise.HistogramData.maxLuminance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="25" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/HistogramUtility.cs" bodystart="14" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1ab7f866b605781b3dc57618acaaa889d6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::HistogramData</scope><name>bucketCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a13d47ddc4880eb657a673ec0c741164d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::HistogramData</scope><name>histogram</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1abbbfe51e9f21fe6742e5ef77ae024ea1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::HistogramData</scope><name>histogramData</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a6781493925b7d3d2c2439120b3da10e4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::HistogramData</scope><name>maxLuminance</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a888f47c1b3a5686f8b15b0955a832a58" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::HistogramData</scope><name>minLuminance</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1ab29a4afafa8f5706069c894ac22b8203" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::HistogramData</scope><name>mode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_histogram_data_1a214350c9f1d9b0f2a7cccfa2c3d90bb0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::HistogramData</scope><name>previewMaterial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

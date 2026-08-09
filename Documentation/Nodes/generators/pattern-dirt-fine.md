@@ -40,7 +40,7 @@ Output:
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4864e5b5-d14c-40c1-b751-71b633f5c8c5 | |
+| GUID | String | 67438b79-4bb1-48d5-b9d7-ec88083af105 | |
 | expanded | Boolean | False | |
 
 ## See Also

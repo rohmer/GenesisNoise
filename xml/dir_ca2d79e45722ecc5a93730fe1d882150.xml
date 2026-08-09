@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_ca2d79e45722ecc5a93730fe1d882150" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Filters/Enhance</compoundname>
+    <innerfile refid="_antialias_node_8cs">AntialiasNode.cs</innerfile>
+    <innerfile refid="_deinterlace_node_8cs">DeinterlaceNode.cs</innerfile>
+    <innerfile refid="_despeckle_node_8cs">DespeckleNode.cs</innerfile>
+    <innerfile refid="_high_pass_node_8cs">HighPassNode.cs</innerfile>
+    <innerfile refid="_noise_reduction_node_8cs">NoiseReductionNode.cs</innerfile>
+    <innerfile refid="_sharpen_node_8cs">SharpenNode.cs</innerfile>
+    <innerfile refid="_symmetric_nearest_neighbor_node_8cs">SymmetricNearestNeighborNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Filters/Enhance/"/>
+  </compounddef>
+</doxygen>

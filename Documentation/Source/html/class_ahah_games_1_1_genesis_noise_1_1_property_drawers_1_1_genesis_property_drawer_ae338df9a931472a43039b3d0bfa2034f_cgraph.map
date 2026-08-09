@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer.OnGUI" name="AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer.OnGUI">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,264,115"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer.html#a435345fb6296a58a0b81e206eed64204" title=" " alt="" coords="319,5,602,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,69,341,51,336,53,243,74"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer.html#aa1a659ce976efcdd47477b5814cfc662" title=" " alt="" coords="324,72,598,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,91,312,93,306,94,265,96"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer.html#a04f2c16e2740c2536341ac358d17e111" title=" " alt="" coords="312,139,610,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,113,341,135,336,135,242,118"/>
-</map>

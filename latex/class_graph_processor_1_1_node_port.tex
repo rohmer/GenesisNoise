@@ -1,0 +1,177 @@
+\doxysection{Graph\+Processor.\+Node\+Port Class Reference}
+\hypertarget{class_graph_processor_1_1_node_port}{}\label{class_graph_processor_1_1_node_port}\index{GraphProcessor.NodePort@{GraphProcessor.NodePort}}
+
+
+Runtime class that stores all info about one port that is needed for the processing.  
+
+
+
+
+Collaboration diagram for Graph\+Processor.\+Node\+Port:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_node_port__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_node_port_a337a13507a3a5a7da1cbdac7c3feed1c}\label{class_graph_processor_1_1_node_port_a337a13507a3a5a7da1cbdac7c3feed1c} 
+delegate void {\bfseries Push\+Data\+Delegate} ()
+\begin{DoxyCompactList}\small\item\em Delegate that is made to send the data from this port to another port connected through an edge This is an optimization compared to dynamically setting values using Reflection (which is really slow) More info:\+ \href{https://codeblog.jonskeet.uk/2008/08/09/making-reflection-fly-and-exploring-delegates/}{\texttt{https:\+/\+/\+codeblog.\+jonskeet.\+uk/\+2008/\+08/\+09/\+making-\/reflection-\/fly-\/and-\/exploring-\/delegates/\+}}. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_node_port_a6df7d81c13fedf0e863ca2e31710604c}{Node\+Port}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} owner, string field\+Name, \doxymbox{\hyperlink{class_graph_processor_1_1_port_data}{Port\+Data}} port\+Data)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_node_port_a9633685465a211c8395efe209e8f8e43}{Node\+Port}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} owner, object field\+Owner, string field\+Name, \doxymbox{\hyperlink{class_graph_processor_1_1_port_data}{Port\+Data}} port\+Data)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_node_port_aad9820c70c4a73c0443338be925e1896}{Add}} (\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} edge)
+\begin{DoxyCompactList}\small\item\em Connect an edge to this port. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_node_port_aa209af3a6a6bac6021e8b7940c9087b6}{Remove}} (\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} edge)
+\begin{DoxyCompactList}\small\item\em Disconnect an Edge from this port. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_node_port_a8a52c82b7869f2f0954c9ea9bf1a8c0a}{Get\+Edges}} ()
+\begin{DoxyCompactList}\small\item\em Get all the edges connected to this port. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_node_port_a1087f17c3aec26dbf82295c07f7f2063}\label{class_graph_processor_1_1_node_port_a1087f17c3aec26dbf82295c07f7f2063} 
+void {\bfseries Push\+Data} ()
+\begin{DoxyCompactList}\small\item\em Push the value of the port through the edges This method can only be called on output ports. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_node_port_a5a7edc8509783f871f9c14094fb90593}\label{class_graph_processor_1_1_node_port_a5a7edc8509783f871f9c14094fb90593} 
+void {\bfseries Reset\+To\+Default} ()
+\begin{DoxyCompactList}\small\item\em Reset the value of the field to default if possible. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_node_port_a795576ce8d3e0c1ae6fd2747587a749b}\label{class_graph_processor_1_1_node_port_a795576ce8d3e0c1ae6fd2747587a749b} 
+void {\bfseries Pull\+Data} ()
+\begin{DoxyCompactList}\small\item\em Pull values from the edge (in case of a custom convertion method) This method can only be called on input ports. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_node_port_abcd40d061e27c93ae958764dc03ebc19}\label{class_graph_processor_1_1_node_port_abcd40d061e27c93ae958764dc03ebc19} 
+string {\bfseries field\+Name}
+\begin{DoxyCompactList}\small\item\em The actual name of the property behind the port (must be exact, it is used for Reflection). \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_node_port_a389c79b5c033f7d648dad970799ef468}\label{class_graph_processor_1_1_node_port_a389c79b5c033f7d648dad970799ef468} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} {\bfseries owner}
+\begin{DoxyCompactList}\small\item\em The node on which the port is. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_node_port_ae6c29ac1abd074ab8db430176fe1403e}\label{class_graph_processor_1_1_node_port_ae6c29ac1abd074ab8db430176fe1403e} 
+Field\+Info {\bfseries field\+Info}
+\begin{DoxyCompactList}\small\item\em The field\+Info from the field\+Name. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_node_port_a9ca3b1112b1bfd1292c36776330e98c3}\label{class_graph_processor_1_1_node_port_a9ca3b1112b1bfd1292c36776330e98c3} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_port_data}{Port\+Data}} {\bfseries port\+Data}
+\begin{DoxyCompactList}\small\item\em Data of the port. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_node_port_a70d2a41634082970703e51b6d1cb766a}\label{class_graph_processor_1_1_node_port_a70d2a41634082970703e51b6d1cb766a} 
+object {\bfseries field\+Owner}
+\begin{DoxyCompactList}\small\item\em Owner of the Field\+Info, to be used in case of Get/\+\+Set\+Value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Runtime class that stores all info about one port that is needed for the processing. 
+
+\label{class_graph_processor_1_1_node_port_doc-constructors}
+\Hypertarget{class_graph_processor_1_1_node_port_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_graph_processor_1_1_node_port_a6df7d81c13fedf0e863ca2e31710604c}\index{GraphProcessor.NodePort@{GraphProcessor.NodePort}!NodePort@{NodePort}}
+\index{NodePort@{NodePort}!GraphProcessor.NodePort@{GraphProcessor.NodePort}}
+\doxysubsubsection{\texorpdfstring{NodePort()}{NodePort()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_node_port_a6df7d81c13fedf0e863ca2e31710604c} 
+Graph\+Processor.\+Node\+Port.\+Node\+Port (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}}]{owner}{, }\item[{string}]{field\+Name}{, }\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_port_data}{Port\+Data}}}]{port\+Data}{}\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em owner} & owner node\\
+\hline
+{\em field\+Name} & the C\# property name\\
+\hline
+{\em port\+Data} & Data of the port\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_node_port_a9633685465a211c8395efe209e8f8e43}\index{GraphProcessor.NodePort@{GraphProcessor.NodePort}!NodePort@{NodePort}}
+\index{NodePort@{NodePort}!GraphProcessor.NodePort@{GraphProcessor.NodePort}}
+\doxysubsubsection{\texorpdfstring{NodePort()}{NodePort()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_node_port_a9633685465a211c8395efe209e8f8e43} 
+Graph\+Processor.\+Node\+Port.\+Node\+Port (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}}]{owner}{, }\item[{object}]{field\+Owner}{, }\item[{string}]{field\+Name}{, }\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_port_data}{Port\+Data}}}]{port\+Data}{}\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em owner} & owner node\\
+\hline
+{\em field\+Owner} & \\
+\hline
+{\em field\+Name} & the C\# property name\\
+\hline
+{\em port\+Data} & Data of the port\\
+\hline
+\end{DoxyParams}
+
+
+\label{class_graph_processor_1_1_node_port_doc-func-members}
+\Hypertarget{class_graph_processor_1_1_node_port_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_graph_processor_1_1_node_port_aad9820c70c4a73c0443338be925e1896}\index{GraphProcessor.NodePort@{GraphProcessor.NodePort}!Add@{Add}}
+\index{Add@{Add}!GraphProcessor.NodePort@{GraphProcessor.NodePort}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_node_port_aad9820c70c4a73c0443338be925e1896} 
+void Graph\+Processor.\+Node\+Port.\+Add (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}}}]{edge}{}\end{DoxyParamCaption})}
+
+
+
+Connect an edge to this port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em edge} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_node_port_aad9820c70c4a73c0443338be925e1896_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_node_port_a8a52c82b7869f2f0954c9ea9bf1a8c0a}\index{GraphProcessor.NodePort@{GraphProcessor.NodePort}!GetEdges@{GetEdges}}
+\index{GetEdges@{GetEdges}!GraphProcessor.NodePort@{GraphProcessor.NodePort}}
+\doxysubsubsection{\texorpdfstring{GetEdges()}{GetEdges()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_node_port_a8a52c82b7869f2f0954c9ea9bf1a8c0a} 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ Graph\+Processor.\+Node\+Port.\+Get\+Edges (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Get all the edges connected to this port. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_node_port_a8a52c82b7869f2f0954c9ea9bf1a8c0a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_node_port_aa209af3a6a6bac6021e8b7940c9087b6}\index{GraphProcessor.NodePort@{GraphProcessor.NodePort}!Remove@{Remove}}
+\index{Remove@{Remove}!GraphProcessor.NodePort@{GraphProcessor.NodePort}}
+\doxysubsubsection{\texorpdfstring{Remove()}{Remove()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_node_port_aa209af3a6a6bac6021e8b7940c9087b6} 
+void Graph\+Processor.\+Node\+Port.\+Remove (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}}}]{edge}{}\end{DoxyParamCaption})}
+
+
+
+Disconnect an Edge from this port. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em edge} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Node\+Graph\+Processor/\+\+Runtime/\+\+Elements/\+Node\+Port.\+cs\end{DoxyCompactItemize}

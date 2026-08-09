@@ -1,5 +1,0 @@
-<map id="GraphProcessor.EnumPatternParameterDrawer.GetTargetParameter" name="GraphProcessor.EnumPatternParameterDrawer.GetTargetParameter">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,250,48"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph.html#a3a5add33b5068b803244988b6cd6c98c" title="Get exposed parameter from GUID." alt="" coords="298,5,515,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,24,285,27,280,27,250,29"/>
-</map>

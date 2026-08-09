@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_voronoi_edge" kind="class" language="C#" prot="public">
+    <compoundname>SharpVoronoiLib::VoronoiEdge</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a7a3a8a4afacdcfab644d0ee1ce41eca6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+        <definition>VoronoiPoint SharpVoronoiLib.VoronoiEdge.Start</definition>
+        <argsstring></argsstring>
+        <name>Start</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Start</qualifiedname>
+        <briefdescription>
+<para>One of the two points making up this line segment, the other being End. Note that the order of start/End points is random. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="25" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a43af6e4d6d7070f4e4a4e64d53c3d159" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+        <definition>VoronoiPoint SharpVoronoiLib.VoronoiEdge.End</definition>
+        <argsstring></argsstring>
+        <name>End</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.End</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+<para>One of the two points making up this line segment, the other being Start. Note that the order of Start/end points is random. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="32" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a5c28882260005709900b084ba81e54cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref>?</type>
+        <definition>VoronoiSite? SharpVoronoiLib.VoronoiEdge.Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Right</qualifiedname>
+        <briefdescription>
+<para>One of the two sites that this edge separates, the other being Left. Can be null if this is a border edge and there are no sites within the bounds. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="39" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a1dc5bf7d0372d5b47079d79f97159954" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref>?</type>
+        <definition>VoronoiSite? SharpVoronoiLib.VoronoiEdge.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Left</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+<para>One of the two sites that this edge separates, the other being Right. Can be null if this is a border edge. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="46" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a9e8396027afe8dd919df01cfdcca1063" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+        <definition>VoronoiPoint SharpVoronoiLib.VoronoiEdge.Mid</definition>
+        <argsstring></argsstring>
+        <name>Mid</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Mid</qualifiedname>
+        <briefdescription>
+<para>The mid-point between Start and End points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="53" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="54" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a40961fc1c58ff5e6e4bf82720deafcdd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; VoronoiEdge &gt;</type>
+        <definition>IEnumerable&lt;VoronoiEdge&gt; SharpVoronoiLib.VoronoiEdge.Neighbours</definition>
+        <argsstring></argsstring>
+        <name>Neighbours</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Neighbours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="68" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="69" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1ae6464150ad5a42135203c8814174144d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double SharpVoronoiLib.VoronoiEdge.Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Length</qualifiedname>
+        <briefdescription>
+<para>The length of this line segment, i.e. the distance between Start and End points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="215" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="216" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a014b67db68cb668e6bca06cfbf5ffcf2" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VoronoiEdge?</type>
+        <definition>VoronoiEdge? SharpVoronoiLib.VoronoiEdge.BorderNeighbour1</definition>
+        <argsstring></argsstring>
+        <name>BorderNeighbour1</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.BorderNeighbour1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="231" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a751aac95ac703bc5d16e271288189dde" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VoronoiEdge?</type>
+        <definition>VoronoiEdge? SharpVoronoiLib.VoronoiEdge.BorderNeighbour2</definition>
+        <argsstring></argsstring>
+        <name>BorderNeighbour2</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.BorderNeighbour2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="232" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="232" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a559a2e2ec870e64cae1070905bc79dbe" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double SharpVoronoiLib.VoronoiEdge.SlopeRise</definition>
+        <argsstring></argsstring>
+        <name>SlopeRise</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.SlopeRise</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="234" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="234" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1abe1203e34cea9df477c348d9ab9d19a5" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double SharpVoronoiLib.VoronoiEdge.SlopeRun</definition>
+        <argsstring></argsstring>
+        <name>SlopeRun</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.SlopeRun</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="235" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="235" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a0a48033fa009f72d8b514742aedec4df" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? SharpVoronoiLib.VoronoiEdge.Slope</definition>
+        <argsstring></argsstring>
+        <name>Slope</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Slope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="236" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="236" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a008ea6b31159e31c88dbfc03c5ab44cc" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double?</type>
+        <definition>double? SharpVoronoiLib.VoronoiEdge.Intercept</definition>
+        <argsstring></argsstring>
+        <name>Intercept</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Intercept</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="237" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="237" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1ac52adbcadcae9ad6f7663ec6646c7d22" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VoronoiEdge?</type>
+        <definition>VoronoiEdge? SharpVoronoiLib.VoronoiEdge.LastBeachLineNeighbor</definition>
+        <argsstring></argsstring>
+        <name>LastBeachLineNeighbor</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.LastBeachLineNeighbor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="238" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="238" bodyend="238"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a67f3776fe2560710bc0dfadbed173dd5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref>?</type>
+        <definition>VoronoiPoint? SharpVoronoiLib.VoronoiEdge._mid</definition>
+        <argsstring></argsstring>
+        <name>_mid</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge._mid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="241" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a444849a1bf06efcd5dbfb8583779ade7" prot="private" static="no" mutable="no">
+        <type>List&lt; VoronoiEdge &gt;?</type>
+        <definition>List&lt;VoronoiEdge&gt;? SharpVoronoiLib.VoronoiEdge._neighbours</definition>
+        <argsstring></argsstring>
+        <name>_neighbours</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge._neighbours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="242" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a3f50996ef7db80dece3f2141f19f9782" prot="private" static="no" mutable="no">
+        <type>double?</type>
+        <definition>double? SharpVoronoiLib.VoronoiEdge._length</definition>
+        <argsstring></argsstring>
+        <name>_length</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge._length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="243" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a1b8f2fdc3d354a02e7a67a399091acde" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.VoronoiEdge.VoronoiEdge</definition>
+        <argsstring>(VoronoiPoint start, VoronoiSite left, VoronoiSite right)</argsstring>
+        <name>VoronoiEdge</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.VoronoiEdge</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="246" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="246" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a392e43f6f9eed06684b7af8e33432d7d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.VoronoiEdge.VoronoiEdge</definition>
+        <argsstring>(VoronoiPoint start, VoronoiPoint end, VoronoiSite? right)</argsstring>
+        <name>VoronoiEdge</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.VoronoiEdge</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref>?</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="268" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="268" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1abd9535cb457f56b84c37cc7e4644859f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.VoronoiEdge.VoronoiEdge</definition>
+        <argsstring>(VoronoiPoint start, VoronoiPoint end, VoronoiSite? right, VoronoiSite? left)</argsstring>
+        <name>VoronoiEdge</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.VoronoiEdge</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref>?</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref>?</type>
+          <declname>left</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="277" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="277" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_voronoi_edge_1a3b5c317759f8528f67eac848d8553167" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoronoiEdge</type>
+        <definition>VoronoiEdge SharpVoronoiLib.VoronoiEdge.Reversed</definition>
+        <argsstring>()</argsstring>
+        <name>Reversed</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiEdge.Reversed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="285" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="285" bodyend="288"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The line segment making the Voronoi cells, i.e. the points equidistant to the two nearest Voronoi sites. These are the lines in the VoronoiSite.Cell. This has VoronoiPoint end points, i.e. Start and End. This has the two VoronoiSites they separate, i.e. Right and Left. This connects in a Neighbours node graph to other VoronoiEdges, i.e. shares end points with them. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" line="18" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiEdge.cs" bodystart="19" bodyend="302"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a3f50996ef7db80dece3f2141f19f9782" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>_length</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a67f3776fe2560710bc0dfadbed173dd5" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>_mid</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a444849a1bf06efcd5dbfb8583779ade7" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>_neighbours</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a014b67db68cb668e6bca06cfbf5ffcf2" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>BorderNeighbour1</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a751aac95ac703bc5d16e271288189dde" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>BorderNeighbour2</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a43af6e4d6d7070f4e4a4e64d53c3d159" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>End</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a008ea6b31159e31c88dbfc03c5ab44cc" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Intercept</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1ac52adbcadcae9ad6f7663ec6646c7d22" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>LastBeachLineNeighbor</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a1dc5bf7d0372d5b47079d79f97159954" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Left</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1ae6464150ad5a42135203c8814174144d" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Length</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a9e8396027afe8dd919df01cfdcca1063" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Mid</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a40961fc1c58ff5e6e4bf82720deafcdd" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Neighbours</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a3b5c317759f8528f67eac848d8553167" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Reversed</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a5c28882260005709900b084ba81e54cf" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Right</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a0a48033fa009f72d8b514742aedec4df" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Slope</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a559a2e2ec870e64cae1070905bc79dbe" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>SlopeRise</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1abe1203e34cea9df477c348d9ab9d19a5" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>SlopeRun</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a7a3a8a4afacdcfab644d0ee1ce41eca6" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>Start</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a1b8f2fdc3d354a02e7a67a399091acde" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>VoronoiEdge</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1a392e43f6f9eed06684b7af8e33432d7d" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>VoronoiEdge</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_edge_1abd9535cb457f56b84c37cc7e4644859f" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiEdge</scope><name>VoronoiEdge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

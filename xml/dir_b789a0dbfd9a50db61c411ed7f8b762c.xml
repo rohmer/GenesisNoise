@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_b789a0dbfd9a50db61c411ed7f8b762c" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/SDF</compoundname>
+    <innerfile refid="_s_d_f_8cs">SDF.cs</innerfile>
+    <innerfile refid="_s_d_f_8_distance_operations_8cs">SDF.DistanceOperations.cs</innerfile>
+    <innerfile refid="_s_d_f_8_domain_operations_8cs">SDF.DomainOperations.cs</innerfile>
+    <innerfile refid="_s_d_f_8_primitive_combination_8cs">SDF.PrimitiveCombination.cs</innerfile>
+    <innerfile refid="_s_d_f2_8cs">SDF2.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/SDF/"/>
+  </compounddef>
+</doxygen>

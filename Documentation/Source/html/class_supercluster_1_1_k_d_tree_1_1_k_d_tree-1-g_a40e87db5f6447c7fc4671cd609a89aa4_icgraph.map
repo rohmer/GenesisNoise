@@ -1,6 +1,0 @@
-<map id="Supercluster.KDTree.KDTree&#45;1&#45;g.GenerateTree" name="Supercluster.KDTree.KDTree&#45;1&#45;g.GenerateTree">
-<area shape="rect" id="Node000001" title="Grows a KD tree recursively via median splitting. We find the median by doing a full sort." alt="" coords="246,29,438,72"/>
-<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="379,13,366,10,342,8,319,10,305,15,300,21,301,30,297,27,295,19,302,10,318,5,342,3,367,5,385,14"/>
-<area shape="rect" id="Node000002" href="$class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g.html#a1a7d2146ce4c5272ada95895338e3ef3" title="Initializes a new instance of the KDTree&lt;TNode&gt; class." alt="" coords="5,29,198,72"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="228,51,198,53,198,48,233,50"/>
-</map>

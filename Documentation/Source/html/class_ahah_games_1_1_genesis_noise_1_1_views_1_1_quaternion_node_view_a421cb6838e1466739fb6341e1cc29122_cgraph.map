@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.QuaternionNodeView.Enable" name="AhahGames.GenesisNoise.Views.QuaternionNodeView.Enable">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,229,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#ac8c5ced56f74d24bb1f9b535945a5279" title="Send an event to the graph telling that the content of this node have changed." alt="" coords="282,5,494,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,44,269,41,264,42,230,49"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_quaternion_node_view.html#a012858f836c62cc7f3800811abe9cb7e" title=" " alt="" coords="277,72,500,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,71,264,78,259,78,229,76"/>
-</map>

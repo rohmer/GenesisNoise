@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Views::HelpTools</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools_1a7eee7d132f9886aced0f5a23abb5be75" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Views.HelpTools.GenerateHelpText</definition>
+        <argsstring>(GenesisNode node)</argsstring>
+        <name>GenerateHelpText</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.HelpTools.GenerateHelpText</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" kindref="compound">GenesisNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" line="13" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" bodystart="13" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools_1a93a6239ee789f3dc13a5de622f94fa3e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Views.HelpTools.GetDocumentation</definition>
+        <argsstring>(Type targetType)</argsstring>
+        <name>GetDocumentation</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.HelpTools.GetDocumentation</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" line="29" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools_1aa497ae148a1651e1f430e9cc84298b92" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Views.HelpTools.GetPortDoc</definition>
+        <argsstring>(GenesisNode node)</argsstring>
+        <name>GetPortDoc</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.HelpTools.GetPortDoc</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" kindref="compound">GenesisNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" line="39" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" bodystart="39" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" line="11" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/HelpTools.cs" bodystart="12" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools_1a7eee7d132f9886aced0f5a23abb5be75" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::HelpTools</scope><name>GenerateHelpText</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools_1a93a6239ee789f3dc13a5de622f94fa3e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::HelpTools</scope><name>GetDocumentation</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools_1aa497ae148a1651e1f430e9cc84298b92" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::HelpTools</scope><name>GetPortDoc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

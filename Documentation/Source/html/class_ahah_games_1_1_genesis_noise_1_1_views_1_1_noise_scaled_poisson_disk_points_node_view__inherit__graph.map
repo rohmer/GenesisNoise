@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.NoiseScaledPoissonDiskPointsNodeView" name="AhahGames.GenesisNoise.Views.NoiseScaledPoissonDiskPointsNodeView">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,245,272,288"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view.html" title=" " alt="" coords="27,155,250,197"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,211,141,246,136,244,137,215"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html" title=" " alt="" coords="34,80,243,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="140,120,141,155,136,154,137,125"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="98,5,179,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="139,45,141,80,136,79,138,50"/>
-</map>

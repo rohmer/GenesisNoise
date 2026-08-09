@@ -1,4 +1,0 @@
-var class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_asset_creation_1_1_create_graph_action =
-[
-    [ "CreateNoiseGraphAsset", "class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_asset_creation_1_1_create_graph_action.html#a2448f2364fc5bdc8206c958080290737", null ]
-];

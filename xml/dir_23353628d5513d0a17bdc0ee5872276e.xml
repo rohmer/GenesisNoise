@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_23353628d5513d0a17bdc0ee5872276e" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune</compoundname>
+    <innerfile refid="_beach_line_8cs">BeachLine.cs</innerfile>
+    <innerfile refid="_fortune_circle_event_8cs">FortuneCircleEvent.cs</innerfile>
+    <innerfile refid="_fortune_event_8cs">FortuneEvent.cs</innerfile>
+    <innerfile refid="_fortune_site_event_8cs">FortuneSiteEvent.cs</innerfile>
+    <innerfile refid="_fortunes_tessellation_8cs">FortunesTessellation.cs</innerfile>
+    <innerfile refid="_min_heap_8cs">MinHeap.cs</innerfile>
+    <innerfile refid="_parabola_math_8cs">ParabolaMath.cs</innerfile>
+    <innerfile refid="_r_b_tree_8cs">RBTree.cs</innerfile>
+    <innerfile refid="_voronoi_site_comparer_8cs">VoronoiSiteComparer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/"/>
+  </compounddef>
+</doxygen>

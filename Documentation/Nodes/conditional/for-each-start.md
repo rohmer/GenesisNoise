@@ -35,7 +35,7 @@ The loop carries an input value between iterations while also exposing the curre
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4b7e29c3-5ba8-470d-b49e-12359c8e2c42 | |
+| GUID | String | 2881455c-af13-4860-8cff-8b09c2844c97 | |
 | expanded | Boolean | False | |
 
 ## See Also

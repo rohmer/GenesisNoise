@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_exposed_parameter_drawer" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::ExposedParameterDrawer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_color_parameter_drawer" prot="public" virt="non-virtual">GraphProcessor.ColorParameterDrawer</derivedcompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_enum_pattern_parameter_drawer" prot="public" virt="non-virtual">GraphProcessor.EnumPatternParameterDrawer</derivedcompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_float_parameter_drawer" prot="public" virt="non-virtual">GraphProcessor.FloatParameterDrawer</derivedcompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_gradient_parameter_drawer" prot="public" virt="non-virtual">GraphProcessor.GradientParameterDrawer</derivedcompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_int_parameter_drawer" prot="public" virt="non-virtual">GraphProcessor.IntParameterDrawer</derivedcompoundref>
+    <derivedcompoundref refid="class_graph_processor_1_1_vector2_parameter_drawer" prot="public" virt="non-virtual">GraphProcessor.Vector2ParameterDrawer</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_exposed_parameter_drawer_1a1fd0cb76381e1e0ba33eec1c437ecf8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override VisualElement</type>
+        <definition>override VisualElement GraphProcessor.ExposedParameterDrawer.CreatePropertyGUI</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>CreatePropertyGUI</name>
+        <qualifiedname>GraphProcessor.ExposedParameterDrawer.CreatePropertyGUI</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="15" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_exposed_parameter_drawer_1a9d8c392546184c5040e118f7b25a5690" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VisualElement</type>
+        <definition>VisualElement GraphProcessor.ExposedParameterDrawer.CreateValProperty</definition>
+        <argsstring>(SerializedProperty property, string displayName=null)</argsstring>
+        <name>CreateValProperty</name>
+        <qualifiedname>GraphProcessor.ExposedParameterDrawer.CreateValProperty</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="25" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="25" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_exposed_parameter_drawer_1a87f2eb216d90815a76aa4cd6c28aef29" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty GraphProcessor.ExposedParameterDrawer.GetSettingsProperty</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>GetSettingsProperty</name>
+        <qualifiedname>GraphProcessor.ExposedParameterDrawer.GetSettingsProperty</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="40" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_exposed_parameter_drawer_1ab92fab7ef6a10b7f63eb7fdce6184b90" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty GraphProcessor.ExposedParameterDrawer.GetValProperty</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>GetValProperty</name>
+        <qualifiedname>GraphProcessor.ExposedParameterDrawer.GetValProperty</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="41" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_exposed_parameter_drawer_1a7fae081f9bc23ec39ebcede955269912" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializedProperty</type>
+        <definition>SerializedProperty GraphProcessor.ExposedParameterDrawer.GetNameProperty</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>GetNameProperty</name>
+        <qualifiedname>GraphProcessor.ExposedParameterDrawer.GetNameProperty</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="42" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_exposed_parameter_drawer_1ac2ed13b9ec1a193efc37da9d14aa82ce" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ExposedParameterDrawer.ApplyModifiedProperties</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>ApplyModifiedProperties</name>
+        <qualifiedname>GraphProcessor.ExposedParameterDrawer.ApplyModifiedProperties</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="44" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="44" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.ExposedParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.ColorParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_color_parameter_drawer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.EnumPatternParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_enum_pattern_parameter_drawer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.FloatParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_float_parameter_drawer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.GradientParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_gradient_parameter_drawer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.IntParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_int_parameter_drawer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.Vector2ParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_vector2_parameter_drawer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.ExposedParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="14" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1ac2ed13b9ec1a193efc37da9d14aa82ce" prot="protected" virt="non-virtual"><scope>GraphProcessor::ExposedParameterDrawer</scope><name>ApplyModifiedProperties</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1a1fd0cb76381e1e0ba33eec1c437ecf8b" prot="public" virt="non-virtual"><scope>GraphProcessor::ExposedParameterDrawer</scope><name>CreatePropertyGUI</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1a9d8c392546184c5040e118f7b25a5690" prot="protected" virt="non-virtual"><scope>GraphProcessor::ExposedParameterDrawer</scope><name>CreateValProperty</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1a7fae081f9bc23ec39ebcede955269912" prot="protected" virt="non-virtual"><scope>GraphProcessor::ExposedParameterDrawer</scope><name>GetNameProperty</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1a87f2eb216d90815a76aa4cd6c28aef29" prot="protected" virt="non-virtual"><scope>GraphProcessor::ExposedParameterDrawer</scope><name>GetSettingsProperty</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1ab92fab7ef6a10b7f63eb7fdce6184b90" prot="protected" virt="non-virtual"><scope>GraphProcessor::ExposedParameterDrawer</scope><name>GetValProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a9db175f4e6df15101b645401c989fd26" prot="private" static="yes" mutable="no">
+        <type>readonly Type</type>
+        <definition>readonly Type AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.genesisNodeType</definition>
+        <argsstring></argsstring>
+        <name>genesisNodeType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.genesisNodeType</qualifiedname>
+        <initializer>= typeof(<ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" kindref="compound">GenesisNode</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="19" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a71a87e70ce16c135d0742b3af9c954af" prot="private" static="yes" mutable="no">
+        <type>readonly Type[]</type>
+        <definition>readonly Type [] AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.assemblyNodeTypes</definition>
+        <argsstring></argsstring>
+        <name>assemblyNodeTypes</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.assemblyNodeTypes</qualifiedname>
+        <initializer>= GetAssemblyNodeTypes()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="20" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a4780e32b23886461c2f2c9de476fb37c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type[]</type>
+        <definition>static Type[] AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.GetAssemblyNodeTypes</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssemblyNodeTypes</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.GetAssemblyNodeTypes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="22" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="22" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a3676878673145ef339be27615bb854d2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.IsConcreteGenesisNodeType</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>IsConcreteGenesisNodeType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.IsConcreteGenesisNodeType</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="41" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1acb5440517072fc29c393bbf146acf291" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>static GenesisGraph AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.CreateGraph</definition>
+        <argsstring>()</argsstring>
+        <name>CreateGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.CreateGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="126" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="126" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1ab4fd92b49062e8b669b8f395b581fb98" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.DestroyGraph</definition>
+        <argsstring>(GenesisGraph graph)</argsstring>
+        <name>DestroyGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.DestroyGraph</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="133" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="133" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a799b47f082511eaad20d5be40fb9e2d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; TestCaseData &gt;</type>
+        <definition>static IEnumerable&lt; TestCaseData &gt; AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeCreationCases</definition>
+        <argsstring>()</argsstring>
+        <name>AssemblyNodeCreationCases</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeCreationCases</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="51" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1ae5a7a34b6c8ad3fec6227768d7f83267" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; TestCaseData &gt;</type>
+        <definition>static IEnumerable&lt; TestCaseData &gt; AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeDeletionCases</definition>
+        <argsstring>()</argsstring>
+        <name>AssemblyNodeDeletionCases</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeDeletionCases</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="60" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="60" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a3099a1216e0c90172f3323c56e5f9708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AllAssemblyNodesAreDiscovered</definition>
+        <argsstring>()</argsstring>
+        <name>AllAssemblyNodesAreDiscovered</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AllAssemblyNodesAreDiscovered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="70" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1aa56e8d2af3f585cea7bad772bfec951b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeCanBeInstantiatedOnAGraph</definition>
+        <argsstring>(Type nodeType)</argsstring>
+        <name>AssemblyNodeCanBeInstantiatedOnAGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeCanBeInstantiatedOnAGraph</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>nodeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="76" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="76" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a7f326135ef843c38d45e2904bf9facb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeCanBeDeletedFromAGraph</definition>
+        <argsstring>(Type nodeType)</argsstring>
+        <name>AssemblyNodeCanBeDeletedFromAGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.AssemblyNodeCanBeDeletedFromAGraph</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>nodeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="102" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="102" bodyend="124"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" line="17" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Tests/NodeTests/Nodes/AssemblyNodeLifecycleTests.cs" bodystart="18" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a3099a1216e0c90172f3323c56e5f9708" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>AllAssemblyNodesAreDiscovered</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a7f326135ef843c38d45e2904bf9facb3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>AssemblyNodeCanBeDeletedFromAGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1aa56e8d2af3f585cea7bad772bfec951b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>AssemblyNodeCanBeInstantiatedOnAGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a799b47f082511eaad20d5be40fb9e2d8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>AssemblyNodeCreationCases</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1ae5a7a34b6c8ad3fec6227768d7f83267" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>AssemblyNodeDeletionCases</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a71a87e70ce16c135d0742b3af9c954af" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>assemblyNodeTypes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1acb5440517072fc29c393bbf146acf291" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>CreateGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1ab4fd92b49062e8b669b8f395b581fb98" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>DestroyGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a9db175f4e6df15101b645401c989fd26" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>genesisNodeType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a4780e32b23886461c2f2c9de476fb37c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>GetAssemblyNodeTypes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests_1a3676878673145ef339be27615bb854d2" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Tests::Nodes::AssemblyNodeLifecycleTests</scope><name>IsConcreteGenesisNodeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

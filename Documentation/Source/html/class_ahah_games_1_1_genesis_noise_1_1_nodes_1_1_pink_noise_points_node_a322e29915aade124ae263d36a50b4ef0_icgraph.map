@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.PinkNoisePointsNode.GenerateUniformFallback" name="AhahGames.GenesisNoise.Nodes.PinkNoisePointsNode.GenerateUniformFallback">
-<area shape="rect" id="Node000001" title=" " alt="" coords="577,5,829,64"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_pink_noise_points_node.html#a373926bf99f8c88a5ab6ea19461f4893" title=" " alt="" coords="286,13,529,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="559,35,529,37,529,32,564,35"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_pink_noise_points_node.html#adefc657a24c87eaf64e3dbf240ac7c85" title=" " alt="" coords="5,13,238,56"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="267,35,238,37,238,32,273,34"/>
-</map>

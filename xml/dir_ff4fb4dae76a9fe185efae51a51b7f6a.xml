@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_ff4fb4dae76a9fe185efae51a51b7f6a" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph</compoundname>
+    <innerdir refid="dir_93f0d5a81e9d9669da193663217bc446">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/Processing</innerdir>
+    <innerfile refid="_custom_texture_manager_8cs">CustomTextureManager.cs</innerfile>
+    <innerfile refid="_default_noise_settings_8cs">DefaultNoiseSettings.cs</innerfile>
+    <innerfile refid="_genesis_exposed_parameter_property_view_8cs">GenesisExposedParameterPropertyView.cs</innerfile>
+    <innerfile refid="_genesis_graph_8cs">GenesisGraph.cs</innerfile>
+    <innerfile refid="_genesis_main_window_8cs">GenesisMainWindow.cs</innerfile>
+    <innerfile refid="_genesis_mesh_8cs">GenesisMesh.cs</innerfile>
+    <innerfile refid="_genesis_noise_package_8cs">GenesisNoisePackage.cs</innerfile>
+    <innerfile refid="_genesis_noise_settings_8cs">GenesisNoiseSettings.cs</innerfile>
+    <innerfile refid="_genesis_sub_graph_8cs">GenesisSubGraph.cs</innerfile>
+    <innerfile refid="_help_window_8cs">HelpWindow.cs</innerfile>
+    <innerfile refid="_recipe_data_8cs">RecipeData.cs</innerfile>
+    <innerfile refid="_variable_8cs">Variable.cs</innerfile>
+    <innerfile refid="_variable_storage_8cs">VariableStorage.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/"/>
+  </compounddef>
+</doxygen>

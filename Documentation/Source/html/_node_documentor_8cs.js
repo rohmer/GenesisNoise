@@ -1,6 +1,0 @@
-var _node_documentor_8cs =
-[
-    [ "AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor", "class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor.html", "class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor" ],
-    [ "AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.CaptureJob", "class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job.html", "class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_capture_job" ],
-    [ "AhahGames.GenesisNoise.Runtime.Utility.NodeDocumentor.ShaderPropertyDoc", "class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc.html", "class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_node_documentor_1_1_shader_property_doc" ]
-];

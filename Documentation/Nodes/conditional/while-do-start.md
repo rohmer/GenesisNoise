@@ -35,7 +35,7 @@ The loop body always runs once, then continues while the condition input remains
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4c5f5e65-2904-4b31-a4e7-8146b5b568da | |
+| GUID | String | 3beaa268-1a24-42c6-a083-ad0ef3d05097 | |
 | expanded | Boolean | False | |
 
 ## See Also

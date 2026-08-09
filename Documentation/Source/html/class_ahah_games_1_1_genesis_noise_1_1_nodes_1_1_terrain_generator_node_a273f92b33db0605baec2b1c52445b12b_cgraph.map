@@ -1,5 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.TessellateOceanPolygon" name="AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.TessellateOceanPolygon">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,255,64"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node.html#a0ec7fcc2c589b962018294a4e23fd1e7" title=" " alt="" coords="303,5,559,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="255,32,290,34,284,35,255,37"/>
-</map>

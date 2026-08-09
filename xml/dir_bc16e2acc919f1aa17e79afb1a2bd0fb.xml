@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_bc16e2acc919f1aa17e79afb1a2bd0fb" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node - Custom Property Drawer</compoundname>
+    <innerfile refid="_genesis_noise_example_property_8cs">GenesisNoiseExampleProperty.cs</innerfile>
+    <innerfile refid="_genesis_noise_example_property_drawer_8cs">GenesisNoiseExamplePropertyDrawer.cs</innerfile>
+    <innerfile refid="_genesis_noise_example_property_drawer_node_8cs">GenesisNoiseExamplePropertyDrawerNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node - Custom Property Drawer/"/>
+  </compounddef>
+</doxygen>

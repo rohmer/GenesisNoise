@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_node_settings_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeSettingsView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VisualElement</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_settings_view_1afa177a5dd81dd44f0d0608111af5464b" prot="private" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement GraphProcessor.NodeSettingsView.m_ContentContainer</definition>
+        <argsstring></argsstring>
+        <name>m_ContentContainer</name>
+        <qualifiedname>GraphProcessor.NodeSettingsView.m_ContentContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" line="8" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_node_settings_view_1ad2c6b32cb9947aebf40537843e5bb059" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override VisualElement</type>
+        <definition>override VisualElement GraphProcessor.NodeSettingsView.contentContainer</definition>
+        <argsstring></argsstring>
+        <name>contentContainer</name>
+        <qualifiedname>GraphProcessor.NodeSettingsView.contentContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" line="33" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" bodystart="34" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_settings_view_1ae21d50aa2949a1d08a3a9730e2f73a37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.NodeSettingsView.NodeSettingsView</definition>
+        <argsstring>()</argsstring>
+        <name>NodeSettingsView</name>
+        <qualifiedname>GraphProcessor.NodeSettingsView.NodeSettingsView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" line="10" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" bodystart="10" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_settings_view_1a62ad0c432aa823450200cb7b1161648a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.NodeSettingsView.OnMouseUp</definition>
+        <argsstring>(MouseUpEvent evt)</argsstring>
+        <name>OnMouseUp</name>
+        <qualifiedname>GraphProcessor.NodeSettingsView.OnMouseUp</qualifiedname>
+        <param>
+          <type>MouseUpEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" line="23" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_node_settings_view_1a26c993397f6d1ec9b059681aa5859a46" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.NodeSettingsView.OnMouseDown</definition>
+        <argsstring>(MouseDownEvent evt)</argsstring>
+        <name>OnMouseDown</name>
+        <qualifiedname>GraphProcessor.NodeSettingsView.OnMouseDown</qualifiedname>
+        <param>
+          <type>MouseDownEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" line="28" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.NodeSettingsView</label>
+        <link refid="class_graph_processor_1_1_node_settings_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.NodeSettingsView</label>
+        <link refid="class_graph_processor_1_1_node_settings_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" line="6" column="5" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeSettingsView.cs" bodystart="7" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_node_settings_view_1ad2c6b32cb9947aebf40537843e5bb059" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeSettingsView</scope><name>contentContainer</name></member>
+      <member refid="class_graph_processor_1_1_node_settings_view_1afa177a5dd81dd44f0d0608111af5464b" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeSettingsView</scope><name>m_ContentContainer</name></member>
+      <member refid="class_graph_processor_1_1_node_settings_view_1ae21d50aa2949a1d08a3a9730e2f73a37" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeSettingsView</scope><name>NodeSettingsView</name></member>
+      <member refid="class_graph_processor_1_1_node_settings_view_1a26c993397f6d1ec9b059681aa5859a46" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeSettingsView</scope><name>OnMouseDown</name></member>
+      <member refid="class_graph_processor_1_1_node_settings_view_1a62ad0c432aa823450200cb7b1161648a" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeSettingsView</scope><name>OnMouseUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

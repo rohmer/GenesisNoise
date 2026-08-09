@@ -1,0 +1,1150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.GenesisNode</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ace1aa0ab098396fa329efc4523828c75" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.epsilon</definition>
+        <argsstring></argsstring>
+        <name>epsilon</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.epsilon</qualifiedname>
+        <initializer>= 0.0001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="37" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a2aefde6b081faa4327d645fad78362b4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.seed</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="40" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a42d498390a9cd1b6c4a4783cf97cc75c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.numberOfPoints</definition>
+        <argsstring></argsstring>
+        <name>numberOfPoints</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.numberOfPoints</qualifiedname>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="43" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac71d7cf48a66d8f567c0ea9a68c254f2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.distributionResolution</definition>
+        <argsstring></argsstring>
+        <name>distributionResolution</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.distributionResolution</qualifiedname>
+        <initializer>= 512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="46" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a386ca0e60c22c4c73cc015e3f093353e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.baseFrequency</definition>
+        <argsstring></argsstring>
+        <name>baseFrequency</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.baseFrequency</qualifiedname>
+        <initializer>= 1.25f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="49" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ae50a14ddbbe9a53b8dc29714889c40de" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.octaves</definition>
+        <argsstring></argsstring>
+        <name>octaves</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.octaves</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="52" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ad1242a86989387aa018ad6fa32c2f166" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.amplitudeFalloff</definition>
+        <argsstring></argsstring>
+        <name>amplitudeFalloff</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.amplitudeFalloff</qualifiedname>
+        <initializer>= 0.35f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="55" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a094bb63d8b52c88bd2c8a6155eaa1119" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.densityPower</definition>
+        <argsstring></argsstring>
+        <name>densityPower</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.densityPower</qualifiedname>
+        <initializer>= 2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="58" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aa1a6e5ec9f276da92e2ea11467d900b9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pointRadiusPixels</definition>
+        <argsstring></argsstring>
+        <name>pointRadiusPixels</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pointRadiusPixels</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="61" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a2a5b8d2128f6bb3aa9571c28a1459396" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.backgroundColor</definition>
+        <argsstring></argsstring>
+        <name>backgroundColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.backgroundColor</qualifiedname>
+        <initializer>= Color.black</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="64" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ad4cdfffd8f0e1ac129da952ecc91d127" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pointColor</definition>
+        <argsstring></argsstring>
+        <name>pointColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pointColor</qualifiedname>
+        <initializer>= Color.white</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="67" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a47019f8eae06b04fe2c44923b88ed200" prot="public" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="70" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac979fe2853db26dfcb21631276ddd3fc" prot="public" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.points</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="73" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aaf8c1bfc810a9e40e7338e1447451251" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pointCount</definition>
+        <argsstring></argsstring>
+        <name>pointCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pointCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="76" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a7579f73c140f81ab317b4b6d59d10e10" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastWidth</definition>
+        <argsstring></argsstring>
+        <name>lastWidth</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastWidth</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="79" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aee67adfdad2dfb3757f1af19bb562b6c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastHeight</definition>
+        <argsstring></argsstring>
+        <name>lastHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastHeight</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="82" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a55e4582cb93d5ff9657e64eba206d0c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastSeed</definition>
+        <argsstring></argsstring>
+        <name>lastSeed</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastSeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="85" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ab6681b65021c8982e82af2e00799efd9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastNumberOfPoints</definition>
+        <argsstring></argsstring>
+        <name>lastNumberOfPoints</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastNumberOfPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="88" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1adf186021e816646247d714fb96795146" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastDistributionResolution</definition>
+        <argsstring></argsstring>
+        <name>lastDistributionResolution</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastDistributionResolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="91" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a449950477fdb1f74f27a9160b551268b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastOctaves</definition>
+        <argsstring></argsstring>
+        <name>lastOctaves</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastOctaves</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="94" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac7420da65b0090d7334678779ad3c29f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastPointRadiusPixels</definition>
+        <argsstring></argsstring>
+        <name>lastPointRadiusPixels</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastPointRadiusPixels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="97" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1acd405f9d4131d357cb02e6b8584f1bb1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastBaseFrequency</definition>
+        <argsstring></argsstring>
+        <name>lastBaseFrequency</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastBaseFrequency</qualifiedname>
+        <initializer>= -1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="100" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a343ef1e3f43b87ae3815ed3aee73d346" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastAmplitudeFalloff</definition>
+        <argsstring></argsstring>
+        <name>lastAmplitudeFalloff</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastAmplitudeFalloff</qualifiedname>
+        <initializer>= -1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="103" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ab559ec907fb8c2217db6f11e81488e48" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastDensityPower</definition>
+        <argsstring></argsstring>
+        <name>lastDensityPower</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastDensityPower</qualifiedname>
+        <initializer>= -1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="106" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a8b787fde5c849a61509647bd91b77f4f" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>lastBackgroundColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastBackgroundColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="109" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a0f1da079e9d69c47e884ab328cffbec5" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastPointColor</definition>
+        <argsstring></argsstring>
+        <name>lastPointColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.lastPointColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="112" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a10113fa4cd64bdb6af1faf52cd1b0b4c" prot="private" static="no" mutable="no">
+        <type>Color32[]</type>
+        <definition>Color32 [] AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pixelBuffer</definition>
+        <argsstring></argsstring>
+        <name>pixelBuffer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.pixelBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="114" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ad74c766012833d3b8f426c230c666d99" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.cumulativeWeights</definition>
+        <argsstring></argsstring>
+        <name>cumulativeWeights</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.cumulativeWeights</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="115" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aaec9c86140d796568570bfdfca1c3d1e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="117" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a178a936bc2b92a11d1b1800425bb028c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NodeGroup</definition>
+        <argsstring></argsstring>
+        <name>NodeGroup</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NodeGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="118" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a88ccc054b98f5d0679dc3e85891aec56" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override Texture</type>
+        <definition>override Texture AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.previewTexture</definition>
+        <argsstring></argsstring>
+        <name>previewTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.previewTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="119" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1af5227f9d84295099b66d10f1daf41044" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.showDefaultInspector</definition>
+        <argsstring></argsstring>
+        <name>showDefaultInspector</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.showDefaultInspector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="120" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a2e09e1eff3d3d97a97c759a061e4d494" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override float</type>
+        <definition>override float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.nodeWidth</definition>
+        <argsstring></argsstring>
+        <name>nodeWidth</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.nodeWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="121" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a23a3de64718be8d97940240f0b5f6fe2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override PreviewChannels</type>
+        <definition>override PreviewChannels AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.defaultPreviewChannels</definition>
+        <argsstring></argsstring>
+        <name>defaultPreviewChannels</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.defaultPreviewChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="122" column="41" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1add2c3fa7d166137a083f32cb40a86453" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override List&lt; OutputDimension &gt;</type>
+        <definition>override List&lt;OutputDimension&gt; AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.supportedDimensions</definition>
+        <argsstring></argsstring>
+        <name>supportedDimensions</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.supportedDimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="123" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aaeeddb264d3145a6fd1bcc3793d7b0cb" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings" kindref="compound">GenesisNoiseSettings</ref></type>
+        <definition>override GenesisNoiseSettings AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.defaultSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="124" column="49" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a5e9030d08ff96f92414dcfee6df164bb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.ProcessNode</definition>
+        <argsstring>(CommandBuffer cmd)</argsstring>
+        <name>ProcessNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.ProcessNode</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae1f8726aacf29567700dd33e3a1c6077">ProcessNode</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="126" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="126" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a51c0ab6758a53368526d6783381c41a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.Disable</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_base_node_1afc7829797eb33e1026d3e9bc8422c12f">Disable</reimplements>
+        <briefdescription>
+<para>Called when the node is disabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="413" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="413" bodyend="425"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a54b9cea3aae1380c08c44e08d0daf848" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GetCoordinatesText</definition>
+        <argsstring>()</argsstring>
+        <name>GetCoordinatesText</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GetCoordinatesText</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="141" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="141" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a9913f5413541eb8fb4a6ce616930b127" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GeneratePoints</definition>
+        <argsstring>()</argsstring>
+        <name>GeneratePoints</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GeneratePoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="164" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="164" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a7b722ea9fa900ccde0a390a6812bbdf0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.TryBuildCumulativeWeights</definition>
+        <argsstring>(int resolution, out float totalWeight)</argsstring>
+        <name>TryBuildCumulativeWeights</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.TryBuildCumulativeWeights</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>totalWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="201" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="201" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1acd1f5567bc7ed6b7ea5e38e306b98a0f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GenerateUniformFallback</definition>
+        <argsstring>(System.Random random, int pointTarget)</argsstring>
+        <name>GenerateUniformFallback</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.GenerateUniformFallback</qualifiedname>
+        <param>
+          <type>System.Random</type>
+          <declname>random</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="288" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="288" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a261fee11e6f086c73695b1f6164dd31a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.BuildTexture</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>BuildTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.BuildTexture</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="294" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="294" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1af7ddbe331fff6baf6f23ad8148ddfcea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.EnsureOutputTexture</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>EnsureOutputTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.EnsureOutputTexture</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="341" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="341" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac7bfb3d8870f6aee331fc1222fac18e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NeedsRebuild</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>NeedsRebuild</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NeedsRebuild</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="362" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="362" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a81f640b99db38cc2ff5c5d997f8acd20" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.CacheSettings</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>CacheSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.CacheSettings</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="392" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="392" bodyend="406"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a8ca8e13ab078af017529edaa9cab1cc4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.BrownianNoise01</definition>
+        <argsstring>(float u, float v, float baseFrequency, int octaves, float amplitudeFalloff, int seed)</argsstring>
+        <name>BrownianNoise01</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.BrownianNoise01</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baseFrequency</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>octaves</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amplitudeFalloff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="231" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="231" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ab6560351c4378b628110c35426276fdc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.ValueNoise</definition>
+        <argsstring>(float x, float y, int seed)</argsstring>
+        <name>ValueNoise</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.ValueNoise</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="250" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="250" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a8dc33bf9d65062c6f62ca51c9ce5573a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.Smooth</definition>
+        <argsstring>(float t)</argsstring>
+        <name>Smooth</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.Smooth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="270" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="270" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a1781753a5adc0bf7a19cb249cb3d5e53" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.Hash01</definition>
+        <argsstring>(int x, int y, int seed)</argsstring>
+        <name>Hash01</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.Hash01</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="275" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="275" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a629f8897dfcb62914c7db55691643558" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NextFloat</definition>
+        <argsstring>(System.Random random)</argsstring>
+        <name>NextFloat</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode.NextFloat</qualifiedname>
+        <param>
+          <type>System.Random</type>
+          <declname>random</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="408" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="408" bodyend="411"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.BrownianNoisePointsNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoiseSettings</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings"/>
+        <childnode refid="11" relation="usage">
+          <edgelabel>resolvedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>AhahGames.GenesisNoise.Graph.VariableStorage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage"/>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>nodeVariables</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>childSettingsNode</edgelabel>
+          <edgelabel>parentSettingsNode</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>inputPorts</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>outputPorts</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.NodeInputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_input_port_container"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.NodeOutputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_output_port_container"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.NodePortContainer</label>
+        <link refid="class_graph_processor_1_1_node_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="6">
+        <label>List&lt; NodePort &gt;</label>
+      </node>
+      <node id="9">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" line="35" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/PointGenerator/BrownianNoisePointsNode.cs" bodystart="36" bodyend="426"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_node_1a7f1a1bf16ba20ccb27380772ebb2d24e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>AddMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7a7f9b9e938983dd368f8775cd178fb6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>AddPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a76820a82d2b5147460416da975ecf161" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>afterProcessCleanup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ad1242a86989387aa018ad6fa32c2f166" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>amplitudeFalloff</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a61a962da2016d81a28e54b0def60cb3a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>AssignMaterialPropertiesFromEdges</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a2a5b8d2128f6bb3aa9571c28a1459396" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>backgroundColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a386ca0e60c22c4c73cc015e3f093353e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>baseFrequency</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8f81412bbb2f0739a30067c3a58c2f36" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>BaseNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7e0756744579f7b061132c2476248ef9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>beforeProcessSetup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a8ca8e13ab078af017529edaa9cab1cc4" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>BrownianNoise01</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a261fee11e6f086c73695b1f6164dd31a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>BuildTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a81f640b99db38cc2ff5c5d997f8acd20" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>CacheSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7ef6e68115f35b239b9441759710f5fd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>canEditPreviewSRGB</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ac79beb1e4729dd37824a80dc866dfbc9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>canProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1abaf6573d2bace3dcc07140b7b4e22742" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>CanResetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aed4da88d35a7ae27d5f60fdb1cd99bb1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>canUseUpstreamCaching</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0d51445127a9c418c8943b912088886a" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>CaptureProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a44d1e75ca73370b68092fbdf92e597f2" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>childSettingsNode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a704c16ae1013d30f190bc70222d5ca47" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>ClearMessages</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d02896a1d4b50cc973aa80e4e0d375" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>color</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afcb0cf850ae52d1deff3a246c0793317" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>computeOrder</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4d7a5ef6e1b8432335127e48c2d6fd55" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>createdFromDuplication</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a69a1c9d13de7661d60b93cfd28e084fc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>createdWithinGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae5e8f3355352088b223e606c0bf888b1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>CreateFromType</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4173020ec35f52ee6895b6d452458844" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>CreateFromType&lt; T &gt;</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ad74c766012833d3b8f426c230c666d99" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>cumulativeWeights</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d9ac2e3615e9559e7290c821637006" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>customPortTypeBehaviorMap</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a01cb8b11fca46da39f50f7356ad34c22" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>debug</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a23a3de64718be8d97940240f0b5f6fe2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>defaultPreviewChannels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a329acc5613f65bade5206c3aa4238c64" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>defaultPreviewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aaeeddb264d3145a6fd1bcc3793d7b0cb" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>defaultSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bd1646c5787c67c6e74117568920836" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>deletable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a094bb63d8b52c88bd2c8a6155eaa1119" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>densityPower</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab162637e669c4ece567afec1f1f41d7b" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Destroy</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aac58be393f88c66b6b23e4bd1ec583ab" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>DestroyInternal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a51c0ab6758a53368526d6783381c41a3" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Disable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ff04c4d0b921864c27065e129c34cef" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>DisableInternal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac71d7cf48a66d8f567c0ea9a68c254f2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>distributionResolution</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a1352c4961fb1d6bda9c1fafed5a7f229" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Enable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1af7ddbe331fff6baf6f23ad8148ddfcea" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>EnsureOutputTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ace1aa0ab098396fa329efc4523828c75" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>epsilon</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a756f6a134b0b84de3a4fdc9a9b230e1c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>expanded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a57676af544a5908c4701a19b985bb3af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>FindInDependencies</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a9913f5413541eb8fb4a6ce616930b127" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GeneratePoints</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1acd1f5567bc7ed6b7ea5e38e306b98a0f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GenerateUniformFallback</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abf837daf3d33078852d62a21c8062be3" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Get2DOnlyRTSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a237991298f4913e660a06b3e8a41e05a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Get3DOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ad07e81b9256ef040b7902631a0b04d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetAllEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a99c2ca0ec0005de8cf9dd4a9d1a47efb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetAllPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab721de1674b3cd6917d732d3319f5654" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetBackgroundColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab05728a9f043ba4293861f6193c67b32" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetBorderColors</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a54b9cea3aae1380c08c44e08d0daf848" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetCoordinatesText</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0c911621c7f5e9cdd6a330109e2ebb4d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetCubeOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a950ca137f866af690dcab0e00843f5cf" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae4e99e930ae2824244ac15e1c7e48978" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetDefaultMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a57e2e9d230697e8afd9f41537fcd6893" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetHeaderGradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a87da02ff097e967521534d7749fb0311" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetHeaderTextColor</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6ebbe51d191e0898ebd6519bdb7e4216" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetInputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7cce66f8469e68e6143a15f3d0bd9f49" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetInputPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3d8c432f8ff3279f3deec268abd3d717" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetMaterialPortDatas</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab813e29af0abfb435e185157079266c2" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetNodeFields</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a51cf262aa06ff1a09d9dbab77619ca15" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetOutputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a88944abd0e3cd15563eb20fa5805ed91" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetOutputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acc62ac7f944e29ed82300959bfa56fb2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa77d8367ebc840af1fcf25a0e0a4d2f7" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetPropertyType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1adcb16797a7972565989a979173be98aa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetTempMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae205d4ff2a0946aa8622634fc5bbec11" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetTempTextureDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3c33e89ca25eaff0f4d39c0d28eb683d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GetThemeIcon</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa87612dc45b0d0f8c45d7c602d178de6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>graph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afd51b374801e1d76b89b23f437decac8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>GUID</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a1781753a5adc0bf7a19cb249cb3d5e53" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Hash01</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae9c448f523310604565a9bb891eaedde" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>hasPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3aba7cbd9364033a82fe12681971b624" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>hasSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ada3d797ea4b486dfd153ed0fe0c36651" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>height</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a31e00c888362ea5becbbc5ce460e17cd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Initialize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a31610ee6992e59220900294dbec98ea8" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>InitializePorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a05254f324f12c502ad9f0972341392eb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>inputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af443e52b8cdbb0e3b44259d8f45bdb9c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>InvokeOnProcessed</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3a6f9e7fd1a88cdc10286e30dbf30856" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>IsFieldInput</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af8ca928a9b8673672411c7b4719f7173" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>isLocked</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a80fe3011ae9961a862e717dcc07fa9f7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>IsNodeCompatibleWithGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac87f378268a22045f5ae1a8a16b7232a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>isOutputNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad00389b02c9a09a99c8614ce0e4fd233" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>isPinned</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8beb2567851d18d9fc5a5cc1c3303126" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>isPreviewCollapsed</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a93a5987d90478ea06cdcf4806f66dc8c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>isRenamable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a343ef1e3f43b87ae3815ed3aee73d346" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastAmplitudeFalloff</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a8b787fde5c849a61509647bd91b77f4f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastBackgroundColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1acd405f9d4131d357cb02e6b8584f1bb1" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastBaseFrequency</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ab559ec907fb8c2217db6f11e81488e48" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastDensityPower</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1adf186021e816646247d714fb96795146" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastDistributionResolution</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aee67adfdad2dfb3757f1af19bb562b6c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ab6681b65021c8982e82af2e00799efd9" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastNumberOfPoints</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a449950477fdb1f74f27a9160b551268b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastOctaves</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a0f1da079e9d69c47e884ab328cffbec5" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastPointColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac7420da65b0090d7334678779ad3c29f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastPointRadiusPixels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8effb1a08e7dce12a3f8b6d30350c2ee" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastProcessingRunId</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a55e4582cb93d5ff9657e64eba206d0c9" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastSeed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a7579f73c140f81ab317b4b6d59d10e10" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>lastWidth</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aef96ad66810e97751f7e160615458618" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>layoutStyle</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a03b0a5e8a8543da215595f477adf50c4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>minimized</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aaec9c86140d796568570bfdfca1c3d1e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>name</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad8cbbd520ce3557f4b24df1785375d4c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>needsInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac7bfb3d8870f6aee331fc1222fac18e6" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>NeedsRebuild</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a629f8897dfcb62914c7db55691643558" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>NextFloat</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acd2d4b6e55ffc47cabe17e16fe31675c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>nodeCustomName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1f639abb7529d9b879b92f2afd1682b7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>nodeFields</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a178a936bc2b92a11d1b1800425bb028c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>NodeGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1e1ee0622daaf98a1d6de7556f0f65af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>nodeLock</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4a872031c7028d963dc33541100ac2ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>nodeVariables</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a2e09e1eff3d3d97a97c759a061e4d494" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>nodeWidth</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a42d498390a9cd1b6c4a4783cf97cc75c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>numberOfPoints</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ae50a14ddbbe9a53b8dc29714889c40de" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>octaves</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1add9b6386c1e920ef46150fd89c5813f8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onAfterEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1b463152735c6d332c7592109b36a60d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onAfterEdgeDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aeedf4b5df10c557174fee10e26837e59" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>OnEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab183105d93c08ba4dcd98c676b822219" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>OnEdgeDisconnected</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9f157e811b20835650c373062c79503f" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onEnabled</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6e596c01a69414bb25c60459bdb06169" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onMessageAdded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7ad6ed4490233057789e4b40e951832c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onMessageRemoved</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a5ec30bd641850b926c4a9e3cdf88303c" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>OnNodeCreated</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab195555bf3146982c7312e61fb543401" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onPortsUpdated</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a29d4f3eb49110d5659b49256b254e15c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a2ac9a8f02ee72ed34b3089f752f93084" prot="public" virt="non-virtual" ambiguityscope="GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a030b0236dd7a9db5ea65406d34fc2535" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onProcessed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9ca08398a3f776e7a9316e79498aaae3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>OnSettingsChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade9b893d3d815a67009e0719002177b2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>onSettingsChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a47019f8eae06b04fe2c44923b88ed200" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>output</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ac4de76cb09b7136294dc9b6b4575bb0a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>outputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a53d8083629ad9a0d37234529785b3ca4" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>OverrideFieldOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abed097a642b52963448a8806ad148e82" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>parentSettingsNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a10113fa4cd64bdb6af1faf52cd1b0b4c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>pixelBuffer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ad4cdfffd8f0e1ac129da952ecc91d127" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>pointColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aaf8c1bfc810a9e40e7338e1447451251" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>pointCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1aa1a6e5ec9f276da92e2ea11467d900b9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>pointRadiusPixels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ac979fe2853db26dfcb21631276ddd3fc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>points</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ae89bccf3ff356ad2bcd82717770007" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>position</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a117e5fc80f3871ad57bfcbc2e7fdadd0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>preserveUpstreamCacheOnForceReprocess</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae37b8d09265bf71dad1ccbac15a3efbe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>previewEV100</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade028e455fdb1dacc393254201f9f9a5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>previewMip</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a968b2a26bdfe310308a1f3833dbf62ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>previewMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e149c2af9061b0821cd0b305aee2206" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>previewSlice</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a646d4d2208786afdf5ee2fcbdb9b4efe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>previewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a88ccc054b98f5d0679dc3e85891aec56" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>previewTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac65cb97aa0fcb75bf97d24089bd1d13a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>previewVisible</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a037a456c63ff355e211c83213564050d" prot="public" virt="virtual" ambiguityscope="AhahGames::GenesisNoise::Nodes::GenesisNode.GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Process</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aab74c52f5f6efe864f949a0fb9841bba" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>ProcessDelegate</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8f8437e7c6dff6d8fb2e228067c0ef66" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>processingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a5e9030d08ff96f92414dcfee6df164bb" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>ProcessNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac663b794981bfdd4740952a1bc9ac907" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>rawProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3a1464fcac0707ff639f92e2630fef49" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>recorder</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3d39867e5312326ca78fa69560fe09e6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>RemoveMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a518d031ca0661f9891afd8885b5a8ded" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>RemoveMessageContains</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e614aa4ed9d07708b27abfd02ffe42d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>RemoveObjectFromGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae0aa2df35295cb4e114aefe2042e23f2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>RemovePort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bf8e068e47410823e4c71f6674d38b0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>RemovePort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae8a5145f94fe8974fd0e3dcb942c98db" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>ResetMaterialPropertyToDefault</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a2aefde6b081faa4327d645fad78362b4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>seed</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae6bb7499f93af07683d0da44a3429fe1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>SetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a600ee9ad2ced1521787a7f55d23ff2af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>setPosition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4c5223ea087cab06905544654d799bea" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>settings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae19af14ebd650c83ab88553569dc9c51" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>showControlsOnHover</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1af5227f9d84295099b66d10f1daf41044" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>showDefaultInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac6277d71a391432e24638c8b547afd5c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>showPreviewExposure</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a8dc33bf9d65062c6f62ca51c9ce5573a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>Smooth</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1add2c3fa7d166137a083f32cb40a86453" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>supportedDimensions</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3bdbe7dd6511a2455646cffdaf22b6e9" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>temporaryMaterials</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1a7b722ea9fa900ccde0a390a6812bbdf0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>TryBuildCumulativeWeights</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6226790bf89b8f53c774ed2ca8abc86f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>unlockable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a83d07b4c73420d4004e698aa3bf583b9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>UpdateAllPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a618b3d080d9cf037e59ef8c272dc67ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>UpdateAllPortsLocal</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae7b59559c7e600b089f61ac6f5ade6ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>UpdatePortsForField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8804a804535d34a6e653f0bdf960102d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>UpdatePortsForFieldLocal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1acf9a902849fa28b58c0d5c66f7c42397" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>UpdateTempRenderTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node_1ab6560351c4378b628110c35426276fdc" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BrownianNoisePointsNode</scope><name>ValueNoise</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

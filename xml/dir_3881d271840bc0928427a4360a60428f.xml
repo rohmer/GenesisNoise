@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_3881d271840bc0928427a4360a60428f" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Filters/Artistic</compoundname>
+    <innerfile refid="_canvas_node_8cs">CanvasNode.cs</innerfile>
+    <innerfile refid="_cartoon_filter_node_8cs">CartoonFilterNode.cs</innerfile>
+    <innerfile refid="_clothify_node_8cs">ClothifyNode.cs</innerfile>
+    <innerfile refid="_cubism_node_8cs">CubismNode.cs</innerfile>
+    <innerfile refid="_glass_tile_node_8cs">GlassTileNode.cs</innerfile>
+    <innerfile refid="_impressionist_node_8cs">ImpressionistNode.cs</innerfile>
+    <innerfile refid="_oilify_node_8cs">OilifyNode.cs</innerfile>
+    <innerfile refid="_old_photo_node_8cs">OldPhotoNode.cs</innerfile>
+    <innerfile refid="_photocopy_node_8cs">PhotocopyNode.cs</innerfile>
+    <innerfile refid="_softglow_node_8cs">SoftglowNode.cs</innerfile>
+    <innerfile refid="_waterpixels_node_8cs">WaterpixelsNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Filters/Artistic/"/>
+  </compounddef>
+</doxygen>

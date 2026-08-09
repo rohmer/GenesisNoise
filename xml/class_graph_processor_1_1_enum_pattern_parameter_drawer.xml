@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_enum_pattern_parameter_drawer" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::EnumPatternParameterDrawer</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_exposed_parameter_drawer" prot="public" virt="non-virtual">GraphProcessor.ExposedParameterDrawer</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a610908b8c32c0931bcc2d77767aa2813" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override VisualElement</type>
+        <definition>override VisualElement GraphProcessor.EnumPatternParameterDrawer.CreatePropertyGUI</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>CreatePropertyGUI</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.CreatePropertyGUI</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="176" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="176" bodyend="204"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a63fbb33ccd1610a860f77df63efab018" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GraphProcessor.EnumPatternParameterDrawer.GetSelectedIndex</definition>
+        <argsstring>(BaseGraph graph, EnumPatternParameter parameter, SerializedProperty valueProperty, int optionCount)</argsstring>
+        <name>GetSelectedIndex</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.GetSelectedIndex</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_enum_pattern_parameter" kindref="compound">EnumPatternParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>valueProperty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>optionCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="206" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="206" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1acac1ff163d7122491c3aa3e955df9f24" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_enum_pattern_parameter" kindref="compound">EnumPatternParameter</ref></type>
+        <definition>static EnumPatternParameter GraphProcessor.EnumPatternParameterDrawer.GetTargetParameter</definition>
+        <argsstring>(BaseGraph graph, EnumPatternParameter parameter)</argsstring>
+        <name>GetTargetParameter</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.GetTargetParameter</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_enum_pattern_parameter" kindref="compound">EnumPatternParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="213" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="213" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a27950d01432dcea61c81cd6f18b36d3a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.EnumPatternParameterDrawer.SyncSerializedEnumFields</definition>
+        <argsstring>(SerializedProperty property, SerializedProperty valueProperty, SerializedProperty defaultValueProperty, int selectedIndex)</argsstring>
+        <name>SyncSerializedEnumFields</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.SyncSerializedEnumFields</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>valueProperty</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>defaultValueProperty</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>selectedIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="220" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="220" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a13e94bda67f3b0caf8d62ea60cad1161" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.EnumPatternParameterDrawer.ApplyEnumValue</definition>
+        <argsstring>(SerializedProperty property, SerializedProperty valueProperty, SerializedProperty defaultValueProperty, BaseGraph graph, EnumPatternParameter parameter, int selectedIndex)</argsstring>
+        <name>ApplyEnumValue</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.ApplyEnumValue</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>valueProperty</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>defaultValueProperty</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_enum_pattern_parameter" kindref="compound">EnumPatternParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>selectedIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="238" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="238" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1afe54ca360ea04907a1fa437dcb78861d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] GraphProcessor.EnumPatternParameterDrawer.GetOptions</definition>
+        <argsstring>(System.Collections.Generic.IReadOnlyList&lt; string &gt; optionLabels)</argsstring>
+        <name>GetOptions</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.GetOptions</qualifiedname>
+        <param>
+          <type>System.Collections.Generic.IReadOnlyList&lt; string &gt;</type>
+          <declname>optionLabels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="277" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="277" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a90b7b4d70e5ae65b4d64cf9cfc58d6aa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string GraphProcessor.EnumPatternParameterDrawer.FormatOption</definition>
+        <argsstring>(string option, int index)</argsstring>
+        <name>FormatOption</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.FormatOption</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="289" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="289" bodyend="292"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1ad503d1f7149b148ab64250ec12dcd7d4" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.EnumPatternParameterDrawer.ApplySerializedEnumValue</definition>
+        <argsstring>(SerializedProperty property, BaseGraph graph, EnumPatternParameter parameter, int selectedIndex)</argsstring>
+        <name>ApplySerializedEnumValue</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.ApplySerializedEnumValue</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_enum_pattern_parameter" kindref="compound">EnumPatternParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>selectedIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="244" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="244" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a7c7359081a1be2ac93ad7934edb07003" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] GraphProcessor.EnumPatternParameterDrawer.GetOptions</definition>
+        <argsstring>(BaseGraph graph, EnumPatternParameter parameter, SerializedProperty optionsProperty)</argsstring>
+        <name>GetOptions</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.GetOptions</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_enum_pattern_parameter" kindref="compound">EnumPatternParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>optionsProperty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="256" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="256" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_enum_pattern_parameter_drawer_1aa640f6e27817a0471b0df720394f99b0" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>static string[] GraphProcessor.EnumPatternParameterDrawer.GetOptions</definition>
+        <argsstring>(SerializedProperty optionsProperty)</argsstring>
+        <name>GetOptions</name>
+        <qualifiedname>GraphProcessor.EnumPatternParameterDrawer.GetOptions</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>optionsProperty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="265" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="265" bodyend="275"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.EnumPatternParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_enum_pattern_parameter_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.EnumPatternParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_enum_pattern_parameter_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameterDrawer</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="174" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="175" bodyend="293"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a13e94bda67f3b0caf8d62ea60cad1161" prot="private" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>ApplyEnumValue</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1ac2ed13b9ec1a193efc37da9d14aa82ce" prot="protected" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>ApplyModifiedProperties</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1ad503d1f7149b148ab64250ec12dcd7d4" prot="package" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>ApplySerializedEnumValue</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a610908b8c32c0931bcc2d77767aa2813" prot="public" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>CreatePropertyGUI</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1a9d8c392546184c5040e118f7b25a5690" prot="protected" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>CreateValProperty</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a90b7b4d70e5ae65b4d64cf9cfc58d6aa" prot="private" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>FormatOption</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1a7fae081f9bc23ec39ebcede955269912" prot="protected" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetNameProperty</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a7c7359081a1be2ac93ad7934edb07003" prot="package" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetOptions</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1aa640f6e27817a0471b0df720394f99b0" prot="package" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetOptions</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1afe54ca360ea04907a1fa437dcb78861d" prot="private" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetOptions</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a63fbb33ccd1610a860f77df63efab018" prot="private" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetSelectedIndex</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1a87f2eb216d90815a76aa4cd6c28aef29" prot="protected" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetSettingsProperty</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1acac1ff163d7122491c3aa3e955df9f24" prot="private" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetTargetParameter</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_drawer_1ab92fab7ef6a10b7f63eb7fdce6184b90" prot="protected" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>GetValProperty</name></member>
+      <member refid="class_graph_processor_1_1_enum_pattern_parameter_drawer_1a27950d01432dcea61c81cd6f18b36d3a" prot="private" virt="non-virtual"><scope>GraphProcessor::EnumPatternParameterDrawer</scope><name>SyncSerializedEnumFields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Graph::VariableStorage</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a7ecd8a920228a25c8732df3e240d5e47" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable" kindref="compound">Variable</ref> &gt;</type>
+        <definition>Dictionary&lt;string, Variable&gt; AhahGames.GenesisNoise.Graph.VariableStorage.variables</definition>
+        <argsstring></argsstring>
+        <name>variables</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.variables</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="9" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aaf871b7e4433eeeb64b8688a0f826ce3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Graph.VariableStorage.VariableStorage</definition>
+        <argsstring>()</argsstring>
+        <name>VariableStorage</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.VariableStorage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="10" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a929fba5d68309f176048167f9ecb1ca7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable" kindref="compound">Variable</ref></type>
+        <definition>Variable AhahGames.GenesisNoise.Graph.VariableStorage.GetVariable</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetVariable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.GetVariable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="15" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="15" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a39ab3e01a45711a858c43e299fb71076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.VariableStorage.SetVariable</definition>
+        <argsstring>(string name, Variable variable)</argsstring>
+        <name>SetVariable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.SetVariable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable" kindref="compound">Variable</ref></type>
+          <declname>variable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="24" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="24" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a0947a3cebb51133b88125afcc301bfc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.VariableStorage.RemoveVariable</definition>
+        <argsstring>(string name)</argsstring>
+        <name>RemoveVariable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.RemoveVariable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="36" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aa11039aadf32aac8e92f97cbb46ccd0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.VariableStorage.ContainsVariable</definition>
+        <argsstring>(string name)</argsstring>
+        <name>ContainsVariable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.ContainsVariable</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="44" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1ad44f77795aec7f7531f4897a7b110759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.VariableStorage.AddIterator</definition>
+        <argsstring>(string name, int value, int MaxValue)</argsstring>
+        <name>AddIterator</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.AddIterator</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MaxValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="49" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="49" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a7bc55e45f101e03e3994f0c3ddc90124" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.VariableStorage.SetIterator</definition>
+        <argsstring>(string name, int value, int MaxValue)</argsstring>
+        <name>SetIterator</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.SetIterator</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>MaxValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="59" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="59" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1afd87cc92d8d96f7a4fb393fc3f650a74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.VariableStorage.IteratorGreaterThan</definition>
+        <argsstring>(string name, int value)</argsstring>
+        <name>IteratorGreaterThan</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.IteratorGreaterThan</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="70" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="70" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aac5e06e9dbfed627d80a97086818ee32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.VariableStorage.IteratorGreaterEqualTo</definition>
+        <argsstring>(string name, int value)</argsstring>
+        <name>IteratorGreaterEqualTo</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.IteratorGreaterEqualTo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="85" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="85" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a406155c3cb9061cb3b3a9844d766e382" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.VariableStorage.IteratorLessThan</definition>
+        <argsstring>(string name, int value)</argsstring>
+        <name>IteratorLessThan</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.IteratorLessThan</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="100" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="100" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aa27a05c2bd548273b863f321b7d6d02a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.VariableStorage.IteratorLessEqualTo</definition>
+        <argsstring>(string name, int value)</argsstring>
+        <name>IteratorLessEqualTo</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.VariableStorage.IteratorLessEqualTo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="115" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="115" bodyend="128"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" line="7" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/VariableStorage.cs" bodystart="8" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1ad44f77795aec7f7531f4897a7b110759" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>AddIterator</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aa11039aadf32aac8e92f97cbb46ccd0d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>ContainsVariable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a929fba5d68309f176048167f9ecb1ca7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>GetVariable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aac5e06e9dbfed627d80a97086818ee32" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>IteratorGreaterEqualTo</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1afd87cc92d8d96f7a4fb393fc3f650a74" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>IteratorGreaterThan</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aa27a05c2bd548273b863f321b7d6d02a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>IteratorLessEqualTo</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a406155c3cb9061cb3b3a9844d766e382" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>IteratorLessThan</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a0947a3cebb51133b88125afcc301bfc1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>RemoveVariable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a7bc55e45f101e03e3994f0c3ddc90124" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>SetIterator</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a39ab3e01a45711a858c43e299fb71076" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>SetVariable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1a7ecd8a920228a25c8732df3e240d5e47" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>variables</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage_1aaf871b7e4433eeeb64b8688a0f826ce3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::VariableStorage</scope><name>VariableStorage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

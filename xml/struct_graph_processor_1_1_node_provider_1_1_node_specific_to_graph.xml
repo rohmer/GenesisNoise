@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_graph_processor_1_1_node_provider_1_1_node_specific_to_graph" kind="struct" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeProvider::NodeSpecificToGraph</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_node_specific_to_graph_1a59750caba1d6ba1002865a1454bf78ee" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type GraphProcessor.NodeProvider.NodeSpecificToGraph.nodeType</definition>
+        <argsstring></argsstring>
+        <name>nodeType</name>
+        <qualifiedname>GraphProcessor.NodeProvider.NodeSpecificToGraph.nodeType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="39" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_node_specific_to_graph_1a979890221f89c9fd657a3ce2842bfe57" prot="public" static="no" mutable="no">
+        <type>List&lt; MethodInfo &gt;</type>
+        <definition>List&lt;MethodInfo&gt; GraphProcessor.NodeProvider.NodeSpecificToGraph.isCompatibleWithGraph</definition>
+        <argsstring></argsstring>
+        <name>isCompatibleWithGraph</name>
+        <qualifiedname>GraphProcessor.NodeProvider.NodeSpecificToGraph.isCompatibleWithGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="40" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_node_provider_1_1_node_specific_to_graph_1a76a026d7323e81552352c46e8df9f1a7" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type GraphProcessor.NodeProvider.NodeSpecificToGraph.compatibleWithGraphType</definition>
+        <argsstring></argsstring>
+        <name>compatibleWithGraphType</name>
+        <qualifiedname>GraphProcessor.NodeProvider.NodeSpecificToGraph.compatibleWithGraphType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="41" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" line="37" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/NodeProvider.cs" bodystart="38" bodyend="42"/>
+    <listofallmembers>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_node_specific_to_graph_1a76a026d7323e81552352c46e8df9f1a7" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::NodeSpecificToGraph</scope><name>compatibleWithGraphType</name></member>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_node_specific_to_graph_1a979890221f89c9fd657a3ce2842bfe57" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::NodeSpecificToGraph</scope><name>isCompatibleWithGraph</name></member>
+      <member refid="struct_graph_processor_1_1_node_provider_1_1_node_specific_to_graph_1a59750caba1d6ba1002865a1454bf78ee" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeProvider::NodeSpecificToGraph</scope><name>nodeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

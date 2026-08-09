@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Graph::GenesisExposedParameterPropertyView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VisualElement</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a49d1411538b233615bc3e9639aab859a" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kindref="compound">GenesisGraphView</ref></type>
+        <definition>GenesisGraphView AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.genesisGraphView</definition>
+        <argsstring></argsstring>
+        <name>genesisGraphView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.genesisGraphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" line="10" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a39fd06bc3eec81b8420d88ce767a3c99" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+        <definition>ExposedParameter AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.parameter</definition>
+        <argsstring></argsstring>
+        <name>parameter</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.parameter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" line="12" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a1438c9e432303ad1aabdd4aca3ad1505" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.hideInInspector</definition>
+        <argsstring></argsstring>
+        <name>hideInInspector</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.hideInInspector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" line="14" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a18fd0e479c9bc06a2dee791331a73c41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.GenesisExposedParameterPropertyView</definition>
+        <argsstring>(BaseGraphView graphView, ExposedParameter param)</argsstring>
+        <name>GenesisExposedParameterPropertyView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView.GenesisExposedParameterPropertyView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" line="16" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" bodystart="16" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisExposedParameterPropertyView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>genesisGraphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Views.GenesisGraphView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphView</label>
+      </node>
+      <node id="6">
+        <label>IDisposable</label>
+      </node>
+      <node id="11">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="9">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="8">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" line="8" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisExposedParameterPropertyView.cs" bodystart="9" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a18fd0e479c9bc06a2dee791331a73c41" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisExposedParameterPropertyView</scope><name>GenesisExposedParameterPropertyView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a49d1411538b233615bc3e9639aab859a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisExposedParameterPropertyView</scope><name>genesisGraphView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a1438c9e432303ad1aabdd4aca3ad1505" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisExposedParameterPropertyView</scope><name>hideInInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_exposed_parameter_property_view_1a39fd06bc3eec81b8420d88ce767a3c99" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisExposedParameterPropertyView</scope><name>parameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

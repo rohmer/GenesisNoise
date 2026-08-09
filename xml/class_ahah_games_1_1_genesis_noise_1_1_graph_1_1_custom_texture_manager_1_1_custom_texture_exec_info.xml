@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager_1_1_custom_texture_exec_info" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Graph::CustomTextureManager::CustomTextureExecInfo</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager_1_1_custom_texture_exec_info_1ad70c20f1454e694ad04d129b6cb7323b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Graph.CustomTextureManager.CustomTextureExecInfo.runOnAllMips</definition>
+        <argsstring></argsstring>
+        <name>runOnAllMips</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.CustomTextureManager.CustomTextureExecInfo.runOnAllMips</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/CustomTextureManager.cs" line="446" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/CustomTextureManager.cs" bodystart="446" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/CustomTextureManager.cs" line="444" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/CustomTextureManager.cs" bodystart="445" bodyend="447"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager_1_1_custom_texture_exec_info_1ad70c20f1454e694ad04d129b6cb7323b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::CustomTextureManager::CustomTextureExecInfo</scope><name>runOnAllMips</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

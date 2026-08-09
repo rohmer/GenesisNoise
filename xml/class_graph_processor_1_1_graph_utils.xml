@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_graph_utils" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::GraphUtils</compoundname>
+    <innerclass refid="class_graph_processor_1_1_graph_utils_1_1_tarversal_node" prot="private">GraphProcessor::GraphUtils::TarversalNode</innerclass>
+    <innerclass refid="class_graph_processor_1_1_graph_utils_1_1_traversal_graph" prot="private">GraphProcessor::GraphUtils::TraversalGraph</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_graph_processor_1_1_graph_utils_1ab91cae0cac97653306f3a26cde63e5fd" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>State</name>
+        <qualifiedname>GraphProcessor.GraphUtils.State</qualifiedname>
+        <enumvalue id="class_graph_processor_1_1_graph_utils_1ab91cae0cac97653306f3a26cde63e5fda25a81701fbfa4a1efdf660a950c1d006" prot="private">
+          <name>White</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_graph_utils_1ab91cae0cac97653306f3a26cde63e5fdacaf3a042a037c064b7513ed640c22f77" prot="private">
+          <name>Grey</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_graph_utils_1ab91cae0cac97653306f3a26cde63e5fdae90dfb84e30edf611e326eeb04d680de" prot="private">
+          <name>Black</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" line="8" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_graph_utils_1a4e8e471808771a49e4ba9a8144503506" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TraversalGraph</type>
+        <definition>static TraversalGraph GraphProcessor.GraphUtils.ConvertGraphToTraversalGraph</definition>
+        <argsstring>(BaseGraph graph)</argsstring>
+        <name>ConvertGraphToTraversalGraph</name>
+        <qualifiedname>GraphProcessor.GraphUtils.ConvertGraphToTraversalGraph</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" line="63" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" bodystart="63" bodyend="99"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_graph_utils_1a09025b4a4dfcef2e4d19ff0af007f94c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+        <definition>static List&lt; BaseNode &gt; GraphProcessor.GraphUtils.DepthFirstSort</definition>
+        <argsstring>(BaseGraph g)</argsstring>
+        <name>DepthFirstSort</name>
+        <qualifiedname>GraphProcessor.GraphUtils.DepthFirstSort</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" line="101" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" bodystart="101" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_graph_utils_1a952bde68c65d7a4bdf059ebe756c130d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.GraphUtils.FindCyclesInGraph</definition>
+        <argsstring>(BaseGraph g, Action&lt; BaseNode &gt; cyclicNode)</argsstring>
+        <name>FindCyclesInGraph</name>
+        <qualifiedname>GraphProcessor.GraphUtils.FindCyclesInGraph</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>g</declname>
+        </param>
+        <param>
+          <type>Action&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+          <declname>cyclicNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" line="147" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" bodystart="147" bodyend="175"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" line="6" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/GraphUtils.cs" bodystart="7" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_graph_utils_1a4e8e471808771a49e4ba9a8144503506" prot="private" virt="non-virtual"><scope>GraphProcessor::GraphUtils</scope><name>ConvertGraphToTraversalGraph</name></member>
+      <member refid="class_graph_processor_1_1_graph_utils_1a09025b4a4dfcef2e4d19ff0af007f94c" prot="public" virt="non-virtual"><scope>GraphProcessor::GraphUtils</scope><name>DepthFirstSort</name></member>
+      <member refid="class_graph_processor_1_1_graph_utils_1a952bde68c65d7a4bdf059ebe756c130d" prot="public" virt="non-virtual"><scope>GraphProcessor::GraphUtils</scope><name>FindCyclesInGraph</name></member>
+      <member refid="class_graph_processor_1_1_graph_utils_1ab91cae0cac97653306f3a26cde63e5fd" prot="private" virt="non-virtual"><scope>GraphProcessor::GraphUtils</scope><name>State</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

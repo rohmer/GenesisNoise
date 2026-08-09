@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.BiomeManagerNode.GetOneBasedBandMax" name="AhahGames.GenesisNoise.Nodes.BiomeManagerNode.GetOneBasedBandMax">
-<area shape="rect" id="Node000001" title=" " alt="" coords="928,5,1209,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_manager_node.html#a1f92cd04e2af140ae2640364ed5b14b4" title=" " alt="" coords="585,5,880,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="910,27,881,29,881,24,915,27"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_manager_node.html#ad173de61ccc3db304373bff13f02ee6f" title=" " alt="" coords="279,5,537,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="567,27,538,29,538,24,572,27"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_manager_node.html#aea34502446d715188386ab88b73882a2" title=" " alt="" coords="5,5,231,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="260,27,231,29,231,24,266,27"/>
-</map>

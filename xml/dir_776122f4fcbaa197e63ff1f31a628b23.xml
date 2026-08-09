@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_776122f4fcbaa197e63ff1f31a628b23" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets</compoundname>
+    <innerdir refid="dir_77b818250e9b164574b694d41e4363cf">E:/Unity/Genesis_NG/Assets/Packages</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/"/>
+  </compounddef>
+</doxygen>

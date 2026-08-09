@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_fortune_site_event" kind="class" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::FortuneSiteEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SharpVoronoiLib.FortuneEvent</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_fortune_site_event_1afb012b6828d9f05590b8323141c7d50f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double SharpVoronoiLib.FortuneSiteEvent.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>SharpVoronoiLib.FortuneSiteEvent.X</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" line="6" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_fortune_site_event_1a4777a9f0be12d2618c671ef968f0d98e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double SharpVoronoiLib.FortuneSiteEvent.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>SharpVoronoiLib.FortuneSiteEvent.Y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" line="7" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_fortune_site_event_1a0adaceda7ac9c32301c455a2e8c6f8f8" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+        <definition>VoronoiSite SharpVoronoiLib.FortuneSiteEvent.Site</definition>
+        <argsstring></argsstring>
+        <name>Site</name>
+        <qualifiedname>SharpVoronoiLib.FortuneSiteEvent.Site</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" line="9" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_fortune_site_event_1aa2b5e5b2d6912f8bf1dcd567103c6696" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.FortuneSiteEvent.FortuneSiteEvent</definition>
+        <argsstring>(VoronoiSite site)</argsstring>
+        <name>FortuneSiteEvent</name>
+        <qualifiedname>SharpVoronoiLib.FortuneSiteEvent.FortuneSiteEvent</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+          <declname>site</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" line="12" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_fortune_site_event_1ac8caf78dfde2adf252c2321405135677" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SharpVoronoiLib.FortuneSiteEvent.CompareTo</definition>
+        <argsstring>(FortuneEvent other)</argsstring>
+        <name>CompareTo</name>
+        <qualifiedname>SharpVoronoiLib.FortuneSiteEvent.CompareTo</qualifiedname>
+        <param>
+          <type>FortuneEvent</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" line="18" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_fortune_site_event_1a4a726c6f44a91016ea1f8ebaf1642898" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string SharpVoronoiLib.FortuneSiteEvent.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>SharpVoronoiLib.FortuneSiteEvent.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" line="25" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>IComparable&lt; FortuneEvent &gt;</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.FortuneSiteEvent</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.FortuneEvent</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IComparable&lt; FortuneEvent &gt;</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.FortuneSiteEvent</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.FortuneEvent</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" line="4" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortuneSiteEvent.cs" bodystart="5" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_fortune_site_event_1ac8caf78dfde2adf252c2321405135677" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::FortuneSiteEvent</scope><name>CompareTo</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_fortune_site_event_1aa2b5e5b2d6912f8bf1dcd567103c6696" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::FortuneSiteEvent</scope><name>FortuneSiteEvent</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_fortune_site_event_1a0adaceda7ac9c32301c455a2e8c6f8f8" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::FortuneSiteEvent</scope><name>Site</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_fortune_site_event_1a4a726c6f44a91016ea1f8ebaf1642898" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::FortuneSiteEvent</scope><name>ToString</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_fortune_site_event_1afb012b6828d9f05590b8323141c7d50f" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::FortuneSiteEvent</scope><name>X</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_fortune_site_event_1a4777a9f0be12d2618c671ef968f0d98e" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::FortuneSiteEvent</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

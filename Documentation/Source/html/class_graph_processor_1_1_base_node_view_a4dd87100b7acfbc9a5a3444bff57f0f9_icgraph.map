@@ -1,9 +1,0 @@
-<map id="GraphProcessor.BaseNodeView.AddEmptyField" name="GraphProcessor.BaseNodeView.AddEmptyField">
-<area shape="rect" id="Node000001" title=" " alt="" coords="537,39,749,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#af7f6ca08799d88b5a776ceaf4fecd43b" title=" " alt="" coords="277,5,489,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="519,44,489,43,489,38,524,44"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#ac8f63db979a84407faba61da00b43dbd" title=" " alt="" coords="277,72,489,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="524,75,490,82,489,77,519,76"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view.html#ab921c4ff93c4edfb03733c77ee5739a7" title=" " alt="" coords="5,72,229,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,93,229,96,229,91,264,93"/>
-</map>

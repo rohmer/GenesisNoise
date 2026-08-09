@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.ForEachStart.TryGetConnectedPortType" name="AhahGames.GenesisNoise.Nodes.ForEachStart.TryGetConnectedPortType">
-<area shape="rect" id="Node000001" title=" " alt="" coords="579,5,836,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_each_start.html#a7e1472d5d9b859be938509c230743d49" title=" " alt="" coords="295,5,531,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="561,27,532,29,531,24,566,27"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_each_start.html#a0e9021a7d464996af9abfadcc2330b8c" title=" " alt="" coords="5,5,247,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="277,27,247,29,247,24,282,27"/>
-</map>

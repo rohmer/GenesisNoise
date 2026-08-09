@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_create_node_menu_window" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::CreateNodeMenuWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISearchWindowProvider</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_create_node_menu_window_1a9497f10aa8249d409c3372ae12ec1c11" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+        <definition>BaseGraphView GraphProcessor.CreateNodeMenuWindow.graphView</definition>
+        <argsstring></argsstring>
+        <name>graphView</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.graphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="16" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_create_node_menu_window_1ad7ad13b202d7f0afa0d2d852d10348d7" prot="private" static="no" mutable="no">
+        <type>EditorWindow</type>
+        <definition>EditorWindow GraphProcessor.CreateNodeMenuWindow.window</definition>
+        <argsstring></argsstring>
+        <name>window</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.window</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="17" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_create_node_menu_window_1a4c0d396a2637334b71da8d396acba5f0" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D GraphProcessor.CreateNodeMenuWindow.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.icon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="18" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_create_node_menu_window_1af5724aa972e8c6355e566c89a87b8e01" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+        <definition>EdgeView GraphProcessor.CreateNodeMenuWindow.edgeFilter</definition>
+        <argsstring></argsstring>
+        <name>edgeFilter</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.edgeFilter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="19" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_create_node_menu_window_1a161050ebd5b889ce91f8f54a507543a8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref></type>
+        <definition>PortView GraphProcessor.CreateNodeMenuWindow.inputPortView</definition>
+        <argsstring></argsstring>
+        <name>inputPortView</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.inputPortView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="20" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_create_node_menu_window_1ab0884b072e5d38b0c5cf3989c9619cc9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref></type>
+        <definition>PortView GraphProcessor.CreateNodeMenuWindow.outputPortView</definition>
+        <argsstring></argsstring>
+        <name>outputPortView</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.outputPortView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="21" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_create_node_menu_window_1aceaf93b9084fb6e81caad65694cdfd0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.CreateNodeMenuWindow.Initialize</definition>
+        <argsstring>(BaseGraphView graphView, EditorWindow window, EdgeView edgeFilter=null)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <param>
+          <type>EditorWindow</type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+          <declname>edgeFilter</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="23" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="23" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_create_node_menu_window_1afdae097805a5ffe3e3f26b8da4e2c1eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; SearchTreeEntry &gt;</type>
+        <definition>List&lt; SearchTreeEntry &gt; GraphProcessor.CreateNodeMenuWindow.CreateSearchTree</definition>
+        <argsstring>(SearchWindowContext context)</argsstring>
+        <name>CreateSearchTree</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.CreateSearchTree</qualifiedname>
+        <param>
+          <type>SearchWindowContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="47" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="47" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_create_node_menu_window_1a6d96424cd8c7ec1769c417e5e3d0f9ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.CreateNodeMenuWindow.OnSelectEntry</definition>
+        <argsstring>(SearchTreeEntry searchTreeEntry, SearchWindowContext context)</argsstring>
+        <name>OnSelectEntry</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.OnSelectEntry</qualifiedname>
+        <param>
+          <type>SearchTreeEntry</type>
+          <declname>searchTreeEntry</declname>
+        </param>
+        <param>
+          <type>SearchWindowContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="177" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="177" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_create_node_menu_window_1a201cb9b6e1f9382cdf0ebe9b336d2240" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.CreateNodeMenuWindow.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.OnDestroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="38" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="38" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_create_node_menu_window_1ae4345f6daf80efd2172b6eb5f935d4f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.CreateNodeMenuWindow.CreateStandardNodeMenu</definition>
+        <argsstring>(List&lt; SearchTreeEntry &gt; tree)</argsstring>
+        <name>CreateStandardNodeMenu</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.CreateStandardNodeMenu</qualifiedname>
+        <param>
+          <type>List&lt; SearchTreeEntry &gt;</type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="62" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="62" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_create_node_menu_window_1ad12bbe151563537c8b3e8ffbde96e923" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.CreateNodeMenuWindow.CreateEdgeNodeMenu</definition>
+        <argsstring>(List&lt; SearchTreeEntry &gt; tree)</argsstring>
+        <name>CreateEdgeNodeMenu</name>
+        <qualifiedname>GraphProcessor.CreateNodeMenuWindow.CreateEdgeNodeMenu</qualifiedname>
+        <param>
+          <type>List&lt; SearchTreeEntry &gt;</type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="107" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="107" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.CreateNodeMenuWindow</label>
+        <link refid="class_graph_processor_1_1_create_node_menu_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISearchWindowProvider</label>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.CreateNodeMenuWindow</label>
+        <link refid="class_graph_processor_1_1_create_node_menu_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISearchWindowProvider</label>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" line="14" column="5" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/CreateNodeMenuWindow.cs" bodystart="15" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1ad12bbe151563537c8b3e8ffbde96e923" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>CreateEdgeNodeMenu</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1afdae097805a5ffe3e3f26b8da4e2c1eb" prot="public" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>CreateSearchTree</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1ae4345f6daf80efd2172b6eb5f935d4f2" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>CreateStandardNodeMenu</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1af5724aa972e8c6355e566c89a87b8e01" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>edgeFilter</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1a9497f10aa8249d409c3372ae12ec1c11" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>graphView</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1a4c0d396a2637334b71da8d396acba5f0" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>icon</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1aceaf93b9084fb6e81caad65694cdfd0b" prot="public" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1a161050ebd5b889ce91f8f54a507543a8" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>inputPortView</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1a201cb9b6e1f9382cdf0ebe9b336d2240" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>OnDestroy</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1a6d96424cd8c7ec1769c417e5e3d0f9ee" prot="public" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>OnSelectEntry</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1ab0884b072e5d38b0c5cf3989c9619cc9" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>outputPortView</name></member>
+      <member refid="class_graph_processor_1_1_create_node_menu_window_1ad7ad13b202d7f0afa0d2d852d10348d7" prot="private" virt="non-virtual"><scope>GraphProcessor::CreateNodeMenuWindow</scope><name>window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

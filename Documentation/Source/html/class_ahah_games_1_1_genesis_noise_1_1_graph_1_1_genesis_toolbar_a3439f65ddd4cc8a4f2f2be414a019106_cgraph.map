@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.GenesisToolbar.ToggleRealtime" name="AhahGames.GenesisNoise.Graph.GenesisToolbar.ToggleRealtime">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,228,115"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_updater.html#a95d940572071157130e4ecc5851b237a" title=" " alt="" coords="276,5,515,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,69,291,51,286,53,209,74"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_toolbar_view.html#a8240d303dc36cc3ecf659566c41e565a" title="Hide the button." alt="" coords="299,72,492,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,91,286,93,280,94,229,96"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_toolbar_view.html#aa36aafb2a6d0bc698114ea6a50c1ec53" title="Show the button." alt="" coords="299,139,492,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="209,113,291,134,286,135,208,118"/>
-</map>

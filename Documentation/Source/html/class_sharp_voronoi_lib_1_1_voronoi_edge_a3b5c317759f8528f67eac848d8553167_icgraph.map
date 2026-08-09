@@ -1,7 +1,0 @@
-<map id="SharpVoronoiLib.VoronoiEdge.Reversed" name="SharpVoronoiLib.VoronoiEdge.Reversed">
-<area shape="rect" id="Node000001" title=" " alt="" coords="502,5,698,48"/>
-<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_generic_site_merging_algorithm.html#a31d7a6f6014290675bdcf013649629dd" title=" " alt="" coords="246,5,454,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,27,455,29,455,24,489,27"/>
-<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_generic_site_merging_algorithm.html#ad20938caae9644422c28f519ddbeb579" title=" " alt="" coords="5,5,198,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="227,27,198,29,198,24,233,26"/>
-</map>

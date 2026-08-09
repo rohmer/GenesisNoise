@@ -1,0 +1,74 @@
+\doxysection{Graph\+Processor.\+Base\+Stack\+Node\+View Class Reference}
+\hypertarget{class_graph_processor_1_1_base_stack_node_view}{}\label{class_graph_processor_1_1_base_stack_node_view}\index{GraphProcessor.BaseStackNodeView@{GraphProcessor.BaseStackNodeView}}
+
+
+Stack node view implementation, can be used to stack multiple node inside a context like VFX graph does.  
+
+
+
+
+Inheritance diagram for Graph\+Processor.\+Base\+Stack\+Node\+View:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_graph_processor_1_1_base_stack_node_view__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Graph\+Processor.\+Base\+Stack\+Node\+View:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_stack_node_view__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_aec861e091f52e7b216f151bb6b0e72f6}\label{class_graph_processor_1_1_base_stack_node_view_aec861e091f52e7b216f151bb6b0e72f6} 
+delegate void {\bfseries Reorder\+Node\+Action} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node_view}{Base\+Node\+View}} node\+View, int old\+Index, int new\+Index)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_ad8060d8ec7227e1f6b79488eb671a25e}\label{class_graph_processor_1_1_base_stack_node_view_ad8060d8ec7227e1f6b79488eb671a25e} 
+{\bfseries Base\+Stack\+Node\+View} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}} stack\+Node)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_a076e5d21a281f3ef87fe1e3e7fa09805}\label{class_graph_processor_1_1_base_stack_node_view_a076e5d21a281f3ef87fe1e3e7fa09805} 
+virtual void {\bfseries Initialize} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_view}{Base\+Graph\+View}} graph\+View)
+\begin{DoxyCompactList}\small\item\em Called after the Stack\+Node have been added to the graph view. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_a616c3b33f5a4a63a40c718b91cb60729}\label{class_graph_processor_1_1_base_stack_node_view_a616c3b33f5a4a63a40c718b91cb60729} 
+override void {\bfseries Set\+Position} (Rect new\+Pos)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_a133487c0d7ea75ae7493f67f922a41bd}\label{class_graph_processor_1_1_base_stack_node_view_a133487c0d7ea75ae7493f67f922a41bd} 
+override bool {\bfseries Drag\+Leave} (Drag\+Leave\+Event evt, IEnumerable$<$ ISelectable $>$ selection, IDrop\+Target left\+Target, ISelection drag\+Source)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_a59682c38fc5de1897748bc4944f110a3}\label{class_graph_processor_1_1_base_stack_node_view_a59682c38fc5de1897748bc4944f110a3} 
+override void {\bfseries On\+Separator\+Contextual\+Menu\+Event} (Contextual\+Menu\+Populate\+Event evt, int separator\+Index)
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_a9249e80a6786124337ce334c8db4dbd1}\label{class_graph_processor_1_1_base_stack_node_view_a9249e80a6786124337ce334c8db4dbd1} 
+override bool {\bfseries Accepts\+Element} (Graph\+Element element, ref int proposed\+Index, int max\+Index)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_a50b89cbfe308a1aa3dd8deebafb0f4f0}\label{class_graph_processor_1_1_base_stack_node_view_a50b89cbfe308a1aa3dd8deebafb0f4f0} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_view}{Base\+Graph\+View}} {\bfseries owner}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_stack_node_view_ad8521de4657bef4815031a998c986dc0}\label{class_graph_processor_1_1_base_stack_node_view_ad8521de4657bef4815031a998c986dc0} 
+Reorder\+Node\+Action {\bfseries on\+Node\+Reordered}
+\begin{DoxyCompactList}\small\item\em Triggered when a node is re-\/ordered in the stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Stack node view implementation, can be used to stack multiple node inside a context like VFX graph does. 
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Editor/\+\+Node\+Graph\+Processor/\+\+Editor/\+\+Views/\+Base\+Stack\+Node\+View.\+cs\end{DoxyCompactItemize}

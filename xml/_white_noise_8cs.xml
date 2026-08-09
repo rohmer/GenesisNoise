@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_white_noise_8cs" kind="file" language="C#">
+    <compoundname>WhiteNoise.cs</compoundname>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_white_noise" prot="public">AhahGames::GenesisNoise::Nodes::WhiteNoise</innerclass>
+    <innernamespace refid="namespace_ahah_games">AhahGames</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise">AhahGames::GenesisNoise</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes">AhahGames::GenesisNoise::Nodes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_graph_processor" kindref="compound">GraphProcessor</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes" kindref="compound">AhahGames.GenesisNoise.Nodes</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>[Documentation(</highlight><highlight class="stringliteral">@&quot;Generates<sp/>white<sp/>noise<sp/>procedural<sp/>noise.</highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">Inputs:</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">-<sp/>No<sp/>external<sp/>inputs.<sp/>This<sp/>node<sp/>generates<sp/>its<sp/>output<sp/>from<sp/>its<sp/>internal<sp/>parameters.</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">Settings:</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">-<sp/>No<sp/>additional<sp/>settings.<sp/>This<sp/>node<sp/>is<sp/>controlled<sp/>by<sp/>its<sp/>built-in<sp/>behavior.</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">Output:</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">-<sp/>A<sp/>generated<sp/>procedural<sp/>texture<sp/>based<sp/>on<sp/>the<sp/>node<sp/>parameters.&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Serializable,<sp/>NodeMenuItem(</highlight><highlight class="stringliteral">&quot;Generators/Noise/White<sp/>Noise&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="17" refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_white_noise" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_white_noise" kindref="compound">WhiteNoise</ref><sp/>:<sp/><ref refid="class_fixed_noise_node" kindref="compound">FixedNoiseNode</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;White<sp/>Noise&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ShaderName<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Hidden/Genesis/WhiteNoise&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Noise/WhiteNoise.cs"/>
+  </compounddef>
+</doxygen>

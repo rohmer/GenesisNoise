@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point" kind="struct" language="C#" prot="private">
+    <compoundname>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions::Point</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point_1a5196a732f16623819bc4f6a7ffe9ec6b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Point.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Point.X</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="270" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point_1a93ef606a20048b9f3787bfb9db3edb8b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Point.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Point.Y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="271" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="271" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point_1ac39d4040b71401e0b82f33c827a0b44a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Point.Point</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Point</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Point.Point</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="273" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="273" bodyend="277"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="268" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="269" bodyend="278"/>
+    <listofallmembers>
+      <member refid="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point_1ac39d4040b71401e0b82f33c827a0b44a" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions::Point</scope><name>Point</name></member>
+      <member refid="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point_1a5196a732f16623819bc4f6a7ffe9ec6b" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions::Point</scope><name>X</name></member>
+      <member refid="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point_1a93ef606a20048b9f3787bfb9db3edb8b" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions::Point</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

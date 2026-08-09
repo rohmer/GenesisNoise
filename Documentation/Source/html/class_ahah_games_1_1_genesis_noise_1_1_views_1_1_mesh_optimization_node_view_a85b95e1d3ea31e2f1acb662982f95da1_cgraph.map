@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.MeshOptimizationNodeView.Disable" name="AhahGames.GenesisNoise.Views.MeshOptimizationNodeView.Disable">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,239,56"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_optimization_node_view.html#a661fd4b5e4cd955a4badd182a1b54963" title=" " alt="" coords="287,5,560,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,32,274,34,268,35,239,37"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_optimization_node_view.html#ac5f53ff1f73772d68c8ade1a988e43c6" title=" " alt="" coords="608,5,843,64"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="560,32,595,35,590,35,561,37"/>
-</map>

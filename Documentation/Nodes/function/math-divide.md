@@ -33,7 +33,7 @@ Divides one input by another.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5f3201fa-8dc2-4dc6-b9db-f8a741ad5aa5 | |
+| GUID | String | 479040bd-af39-4e9a-9837-d1f83417a423 | |
 | expanded | Boolean | False | |
 
 ## See Also

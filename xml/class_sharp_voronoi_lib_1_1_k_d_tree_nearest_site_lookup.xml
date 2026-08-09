@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup" kind="class" language="C#" prot="public">
+    <compoundname>SharpVoronoiLib::KDTreeNearestSiteLookup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SharpVoronoiLib.INearestSiteLookup</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1a6d5a3cc6f4eac5e249d23b0664cba6fd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SharpVoronoiLib.KDTreeNearestSiteLookup._lastVersion</definition>
+        <argsstring></argsstring>
+        <name>_lastVersion</name>
+        <qualifiedname>SharpVoronoiLib.KDTreeNearestSiteLookup._lastVersion</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" line="11" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1a16a68ae7b8ea097bb28f9b3756d892b6" prot="private" static="no" mutable="no">
+        <type>KDTree&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref> &gt;</type>
+        <definition>KDTree&lt;VoronoiSite&gt; SharpVoronoiLib.KDTreeNearestSiteLookup._kdTree</definition>
+        <argsstring></argsstring>
+        <name>_kdTree</name>
+        <qualifiedname>SharpVoronoiLib.KDTreeNearestSiteLookup._kdTree</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" line="13" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1ab4610a6d8939017756053f3ee61eb8dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+        <definition>VoronoiSite SharpVoronoiLib.KDTreeNearestSiteLookup.GetNearestSiteTo</definition>
+        <argsstring>(List&lt; VoronoiSite &gt; sites, double x, double y, int version)</argsstring>
+        <name>GetNearestSiteTo</name>
+        <qualifiedname>SharpVoronoiLib.KDTreeNearestSiteLookup.GetNearestSiteTo</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref> &gt;</type>
+          <declname>sites</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" line="16" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" bodystart="16" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1a1d9a3a8398830d85a58545808b5c4321" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[][]</type>
+        <definition>static double[][] SharpVoronoiLib.KDTreeNearestSiteLookup.PointsFromSites</definition>
+        <argsstring>(List&lt; VoronoiSite &gt; sites)</argsstring>
+        <name>PointsFromSites</name>
+        <qualifiedname>SharpVoronoiLib.KDTreeNearestSiteLookup.PointsFromSites</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref> &gt;</type>
+          <declname>sites</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" line="31" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" bodystart="31" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SharpVoronoiLib.KDTreeNearestSiteLookup</label>
+        <link refid="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.INearestSiteLookup</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SharpVoronoiLib.KDTreeNearestSiteLookup</label>
+        <link refid="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.INearestSiteLookup</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" line="9" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTreeNearestSiteLookup.cs" bodystart="10" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1a16a68ae7b8ea097bb28f9b3756d892b6" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::KDTreeNearestSiteLookup</scope><name>_kdTree</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1a6d5a3cc6f4eac5e249d23b0664cba6fd" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::KDTreeNearestSiteLookup</scope><name>_lastVersion</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1ab4610a6d8939017756053f3ee61eb8dd" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::KDTreeNearestSiteLookup</scope><name>GetNearestSiteTo</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup_1a1d9a3a8398830d85a58545808b5c4321" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::KDTreeNearestSiteLookup</scope><name>PointsFromSites</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

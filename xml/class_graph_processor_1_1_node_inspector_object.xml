@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_node_inspector_object" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeInspectorObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Graph.GenesisNodeInspector</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_inspector_object_1a982c08afdd324ab019dc3988fb812859" prot="public" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object GraphProcessor.NodeInspectorObject.previouslySelectedObject</definition>
+        <argsstring></argsstring>
+        <name>previouslySelectedObject</name>
+        <qualifiedname>GraphProcessor.NodeInspectorObject.previouslySelectedObject</qualifiedname>
+        <briefdescription>
+<para>Previously selected object by the inspector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" line="78" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_node_inspector_object_1a5ad757202a39d32f5d37e83c3777a121" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>HashSet&lt; <ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref> &gt;</type>
+        <definition>HashSet&lt;BaseNodeView&gt; GraphProcessor.NodeInspectorObject.selectedNodes</definition>
+        <argsstring></argsstring>
+        <name>selectedNodes</name>
+        <qualifiedname>GraphProcessor.NodeInspectorObject.selectedNodes</qualifiedname>
+        <initializer>= new HashSet&lt;<ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref>&gt;()</initializer>
+        <briefdescription>
+<para>List of currently selected nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" line="80" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" bodystart="80" bodyend="80"/>
+        <referencedby refid="class_graph_processor_1_1_node_inspector_object_1a15c4d66a6ab9780c5680ad87ef070361" compoundref="_node_inspector_object_8cs" startline="86" endline="90">GraphProcessor.NodeInspectorObject.UpdateSelectedNodes</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_graph_processor_1_1_node_inspector_object_1aa9d20bfe601c8e36c0a9e08e1124d856" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action GraphProcessor.NodeInspectorObject.nodeSelectionUpdated</definition>
+        <argsstring></argsstring>
+        <name>nodeSelectionUpdated</name>
+        <qualifiedname>GraphProcessor.NodeInspectorObject.nodeSelectionUpdated</qualifiedname>
+        <briefdescription>
+<para>Triggered when the selection is updated. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" line="83" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_node_inspector_object_1a15c4d66a6ab9780c5680ad87ef070361" compoundref="_node_inspector_object_8cs" startline="86" endline="90">GraphProcessor.NodeInspectorObject.UpdateSelectedNodes</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_inspector_object_1a15c4d66a6ab9780c5680ad87ef070361" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.NodeInspectorObject.UpdateSelectedNodes</definition>
+        <argsstring>(HashSet&lt; BaseNodeView &gt; views)</argsstring>
+        <name>UpdateSelectedNodes</name>
+        <qualifiedname>GraphProcessor.NodeInspectorObject.UpdateSelectedNodes</qualifiedname>
+        <param>
+          <type>HashSet&lt; <ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref> &gt;</type>
+          <declname>views</declname>
+        </param>
+        <briefdescription>
+<para>Updates the selection from the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" line="86" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" bodystart="86" bodyend="90"/>
+        <references refid="class_graph_processor_1_1_node_inspector_object_1aa9d20bfe601c8e36c0a9e08e1124d856" compoundref="_node_inspector_object_8cs" startline="83">GraphProcessor.NodeInspectorObject.nodeSelectionUpdated</references>
+        <references refid="class_graph_processor_1_1_node_inspector_object_1a5ad757202a39d32f5d37e83c3777a121" compoundref="_node_inspector_object_8cs" startline="80" endline="80">GraphProcessor.NodeInspectorObject.selectedNodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_node_inspector_object_1a97c1c30474cdacbf539994cf751483f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.NodeInspectorObject.RefreshNodes</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshNodes</name>
+        <qualifiedname>GraphProcessor.NodeInspectorObject.RefreshNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" line="92" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_node_inspector_object_1a115210d43cef332397699893fd22e68c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.NodeInspectorObject.NodeViewRemoved</definition>
+        <argsstring>(BaseNodeView view)</argsstring>
+        <name>NodeViewRemoved</name>
+        <qualifiedname>GraphProcessor.NodeInspectorObject.NodeViewRemoved</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector_1a1d363bf5e06aa91365d20b046e06a13d">NodeViewRemoved</reimplementedby>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref></type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" line="94" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" bodystart="94" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Node inspector object, you can inherit from this class to customize your node inspector. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNodeInspector</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.NodeInspectorObject</label>
+        <link refid="class_graph_processor_1_1_node_inspector_object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.NodeInspectorObject</label>
+        <link refid="class_graph_processor_1_1_node_inspector_object"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" line="75" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/NodeInspectorObject.cs" bodystart="76" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_node_inspector_object_1aa9d20bfe601c8e36c0a9e08e1124d856" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeInspectorObject</scope><name>nodeSelectionUpdated</name></member>
+      <member refid="class_graph_processor_1_1_node_inspector_object_1a115210d43cef332397699893fd22e68c" prot="public" virt="virtual"><scope>GraphProcessor::NodeInspectorObject</scope><name>NodeViewRemoved</name></member>
+      <member refid="class_graph_processor_1_1_node_inspector_object_1a982c08afdd324ab019dc3988fb812859" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeInspectorObject</scope><name>previouslySelectedObject</name></member>
+      <member refid="class_graph_processor_1_1_node_inspector_object_1a97c1c30474cdacbf539994cf751483f8" prot="public" virt="virtual"><scope>GraphProcessor::NodeInspectorObject</scope><name>RefreshNodes</name></member>
+      <member refid="class_graph_processor_1_1_node_inspector_object_1a5ad757202a39d32f5d37e83c3777a121" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeInspectorObject</scope><name>selectedNodes</name></member>
+      <member refid="class_graph_processor_1_1_node_inspector_object_1a15c4d66a6ab9780c5680ad87ef070361" prot="public" virt="virtual"><scope>GraphProcessor::NodeInspectorObject</scope><name>UpdateSelectedNodes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

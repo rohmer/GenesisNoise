@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_group_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::GroupView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditor.Experimental.GraphView.Group</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_group_view_1a1d9d65981be876cf5cd378064a978350" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+        <definition>BaseGraphView GraphProcessor.GroupView.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <qualifiedname>GraphProcessor.GroupView.owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="14" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_group_view_1a02844156a6c506c95e9c1499c44059c2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref></type>
+        <definition>Group GraphProcessor.GroupView.group</definition>
+        <argsstring></argsstring>
+        <name>group</name>
+        <qualifiedname>GraphProcessor.GroupView.group</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="15" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_group_view_1aa5a3d8c4e1265c12db82703a2834a84e" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label GraphProcessor.GroupView.titleLabel</definition>
+        <argsstring></argsstring>
+        <name>titleLabel</name>
+        <qualifiedname>GraphProcessor.GroupView.titleLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="17" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_group_view_1ad6bf367a40d7b8e49ced93ae919cc589" prot="private" static="no" mutable="no">
+        <type>ColorField</type>
+        <definition>ColorField GraphProcessor.GroupView.colorField</definition>
+        <argsstring></argsstring>
+        <name>colorField</name>
+        <qualifiedname>GraphProcessor.GroupView.colorField</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="18" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_group_view_1a3891ba6f776c468aaaaa989e3bd1ccab" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string GraphProcessor.GroupView.groupStyle</definition>
+        <argsstring></argsstring>
+        <name>groupStyle</name>
+        <qualifiedname>GraphProcessor.GroupView.groupStyle</qualifiedname>
+        <initializer>= &quot;GraphProcessorStyles/GroupView&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="20" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1a9fde35b19b02dba0b25ffd640e059d1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.GroupView.GroupView</definition>
+        <argsstring>()</argsstring>
+        <name>GroupView</name>
+        <qualifiedname>GraphProcessor.GroupView.GroupView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="22" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1a4783e49f085f478510652a2cd982fed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.GroupView.Initialize</definition>
+        <argsstring>(BaseGraphView graphView, Group block)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>GraphProcessor.GroupView.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="29" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="29" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1a171f961eb00f3beba7cc54d0343692c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.GroupView.UpdateGroupColor</definition>
+        <argsstring>(Color newColor)</argsstring>
+        <name>UpdateGroupColor</name>
+        <qualifiedname>GraphProcessor.GroupView.UpdateGroupColor</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>newColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="104" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="104" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1a86827e2679f52ab22e6a24cb27d0b427" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.GroupView.SetPosition</definition>
+        <argsstring>(Rect newPos)</argsstring>
+        <name>SetPosition</name>
+        <qualifiedname>GraphProcessor.GroupView.SetPosition</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>newPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="115" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="115" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1aeeec07f089160a82c7db0f354cbc8c28" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.GroupView.BuildContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt)</argsstring>
+        <name>BuildContextualMenu</name>
+        <qualifiedname>GraphProcessor.GroupView.BuildContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="27" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1a30b2b91560c45fc3e3e05785f6d2b2ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.GroupView.InitializeInnerNodes</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeInnerNodes</name>
+        <qualifiedname>GraphProcessor.GroupView.InitializeInnerNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="54" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="54" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1aae78037f2cd49e80f069b2699fe99326" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.GroupView.TitleChangedCallback</definition>
+        <argsstring>(ChangeEvent&lt; string &gt; e)</argsstring>
+        <name>TitleChangedCallback</name>
+        <qualifiedname>GraphProcessor.GroupView.TitleChangedCallback</qualifiedname>
+        <param>
+          <type>ChangeEvent&lt; string &gt;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="110" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1a5f51b3a40b32cb52cd06fff4b9061b6b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.GroupView.OnElementsAdded</definition>
+        <argsstring>(IEnumerable&lt; GraphElement &gt; elements)</argsstring>
+        <name>OnElementsAdded</name>
+        <qualifiedname>GraphProcessor.GroupView.OnElementsAdded</qualifiedname>
+        <param>
+          <type>IEnumerable&lt; GraphElement &gt;</type>
+          <declname>elements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="71" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="71" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_group_view_1a8b3a58a6c36d0cceee0318ffd325fa82" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.GroupView.OnElementsRemoved</definition>
+        <argsstring>(IEnumerable&lt; GraphElement &gt; elements)</argsstring>
+        <name>OnElementsRemoved</name>
+        <qualifiedname>GraphProcessor.GroupView.OnElementsRemoved</qualifiedname>
+        <param>
+          <type>IEnumerable&lt; GraphElement &gt;</type>
+          <declname>elements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="87" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="87" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.GroupView</label>
+        <link refid="class_graph_processor_1_1_group_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEditor::Experimental::GraphView::Group</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.GroupView</label>
+        <link refid="class_graph_processor_1_1_group_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>group</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>GraphProcessor.Group</label>
+        <link refid="class_graph_processor_1_1_group"/>
+      </node>
+      <node id="4">
+        <label>GraphView</label>
+      </node>
+      <node id="5">
+        <label>IDisposable</label>
+      </node>
+      <node id="10">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="8">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="7">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>UnityEditor::Experimental::GraphView::Group</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" line="12" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/GroupView.cs" bodystart="13" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_group_view_1aeeec07f089160a82c7db0f354cbc8c28" prot="private" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>BuildContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1ad6bf367a40d7b8e49ced93ae919cc589" prot="private" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>colorField</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a02844156a6c506c95e9c1499c44059c2" prot="public" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>group</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a3891ba6f776c468aaaaa989e3bd1ccab" prot="private" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>groupStyle</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a9fde35b19b02dba0b25ffd640e059d1e" prot="public" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>GroupView</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a4783e49f085f478510652a2cd982fed3" prot="public" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a30b2b91560c45fc3e3e05785f6d2b2ee" prot="private" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>InitializeInnerNodes</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a5f51b3a40b32cb52cd06fff4b9061b6b" prot="protected" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>OnElementsAdded</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a8b3a58a6c36d0cceee0318ffd325fa82" prot="protected" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>OnElementsRemoved</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a1d9d65981be876cf5cd378064a978350" prot="public" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>owner</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a86827e2679f52ab22e6a24cb27d0b427" prot="public" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>SetPosition</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1aae78037f2cd49e80f069b2699fe99326" prot="private" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>TitleChangedCallback</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1aa5a3d8c4e1265c12db82703a2834a84e" prot="private" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>titleLabel</name></member>
+      <member refid="class_graph_processor_1_1_group_view_1a171f961eb00f3beba7cc54d0343692c8" prot="public" virt="non-virtual"><scope>GraphProcessor::GroupView</scope><name>UpdateGroupColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

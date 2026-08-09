@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_311e713157f4de2547b7173932370d73" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation</compoundname>
+    <innerfile refid="_i_point_generation_algorithm_8cs">IPointGenerationAlgorithm.cs</innerfile>
+    <innerfile refid="_point_generation_method_8cs">PointGenerationMethod.cs</innerfile>
+    <innerfile refid="_random_gaussian_point_generation_8cs">RandomGaussianPointGeneration.cs</innerfile>
+    <innerfile refid="_random_point_generation_8cs">RandomPointGeneration.cs</innerfile>
+    <innerfile refid="_random_uniform_point_generation_8cs">RandomUniformPointGeneration.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation/"/>
+  </compounddef>
+</doxygen>

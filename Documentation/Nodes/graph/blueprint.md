@@ -34,7 +34,7 @@ Assign a Genesis graph asset, choose one of its output nodes, and this node will
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c4d20825-3fd6-4040-94f9-bec0a5052da5 | |
+| GUID | String | cb6b6a7e-b9bc-44e6-aa25-94fb4c3fa4cd | |
 | expanded | Boolean | False | |
 
 ## See Also

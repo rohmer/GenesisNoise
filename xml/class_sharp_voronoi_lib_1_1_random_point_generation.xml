@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_random_point_generation" kind="class" language="C#" prot="package" abstract="yes">
+    <compoundname>SharpVoronoiLib::RandomPointGeneration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SharpVoronoiLib.IPointGenerationAlgorithm</basecompoundref>
+    <derivedcompoundref refid="class_sharp_voronoi_lib_1_1_random_gaussian_point_generation" prot="public" virt="non-virtual">SharpVoronoiLib.RandomGaussianPointGeneration</derivedcompoundref>
+    <derivedcompoundref refid="class_sharp_voronoi_lib_1_1_random_uniform_point_generation" prot="public" virt="non-virtual">SharpVoronoiLib.RandomUniformPointGeneration</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_random_point_generation_1a1a46d6f1093099711eda65620c2a355c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref> &gt;</type>
+        <definition>List&lt; VoronoiSite &gt; SharpVoronoiLib.RandomPointGeneration.Generate</definition>
+        <argsstring>(double minX, double minY, double maxX, double maxY, int count)</argsstring>
+        <name>Generate</name>
+        <qualifiedname>SharpVoronoiLib.RandomPointGeneration.Generate</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>minX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minY</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation/RandomPointGeneration.cs" line="10" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation/RandomPointGeneration.cs" bodystart="10" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_random_point_generation_1aa636fe51f7396e5d50863a69eb5b1ce2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double SharpVoronoiLib.RandomPointGeneration.GetNextRandomValue</definition>
+        <argsstring>(Random random, double min, double max)</argsstring>
+        <name>GetNextRandomValue</name>
+        <qualifiedname>SharpVoronoiLib.RandomPointGeneration.GetNextRandomValue</qualifiedname>
+        <param>
+          <type>Random</type>
+          <declname>random</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation/RandomPointGeneration.cs" line="41" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SharpVoronoiLib.RandomPointGeneration</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.IPointGenerationAlgorithm</label>
+      </node>
+      <node id="3">
+        <label>SharpVoronoiLib.RandomGaussianPointGeneration</label>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>SharpVoronoiLib.RandomUniformPointGeneration</label>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SharpVoronoiLib.RandomPointGeneration</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.IPointGenerationAlgorithm</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation/RandomPointGeneration.cs" line="8" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Point Generation/RandomPointGeneration.cs" bodystart="9" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_random_point_generation_1a1a46d6f1093099711eda65620c2a355c" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::RandomPointGeneration</scope><name>Generate</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_random_point_generation_1aa636fe51f7396e5d50863a69eb5b1ce2" prot="protected" virt="non-virtual"><scope>SharpVoronoiLib::RandomPointGeneration</scope><name>GetNextRandomValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_normalize_alphamaps_job" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::NormalizeAlphamapsJob</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IJobParallelFor</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_normalize_alphamaps_job_1a8707a0a628b3e669e31153f8879ba631" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob.LayerCount</definition>
+        <argsstring></argsstring>
+        <name>LayerCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob.LayerCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1053" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_normalize_alphamaps_job_1a828d7dd390063b99986b15f424231ea6" prot="public" static="no" mutable="no">
+        <type>NativeArray&lt; float &gt;</type>
+        <definition>NativeArray&lt;float&gt; AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob.Alphamaps</definition>
+        <argsstring></argsstring>
+        <name>Alphamaps</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob.Alphamaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1054" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1054" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_normalize_alphamaps_job_1ac3887d240ff45f436cfee7ea9f3a70f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob.Execute</definition>
+        <argsstring>(int pixelIndex)</argsstring>
+        <name>Execute</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob.Execute</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pixelIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1056" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1056" bodyend="1087"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.NormalizeAlphamapsJob</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IJobParallelFor</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1051" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1052" bodyend="1088"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_normalize_alphamaps_job_1a828d7dd390063b99986b15f424231ea6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::NormalizeAlphamapsJob</scope><name>Alphamaps</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_normalize_alphamaps_job_1ac3887d240ff45f436cfee7ea9f3a70f1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::NormalizeAlphamapsJob</scope><name>Execute</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_normalize_alphamaps_job_1a8707a0a628b3e669e31153f8879ba631" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::NormalizeAlphamapsJob</scope><name>LayerCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

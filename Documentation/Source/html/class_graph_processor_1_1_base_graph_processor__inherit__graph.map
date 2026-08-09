@@ -1,9 +1,0 @@
-<map id="GraphProcessor.BaseGraphProcessor" name="GraphProcessor.BaseGraphProcessor">
-<area shape="rect" id="Node000001" title="Graph processor." alt="" coords="5,64,190,107"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_processor.html" title=" " alt="" coords="244,5,466,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,58,261,48,256,50,206,63"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_job_graph_processor.html" title="Graph processor." alt="" coords="238,72,472,99"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,83,240,85,235,86,206,88"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_process_graph_processor.html" title="Graph processor." alt="" coords="254,123,456,165"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,107,261,122,256,122,205,112"/>
-</map>

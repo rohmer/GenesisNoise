@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_unity_1_1_mathematics_1_1mathx_1_1_converter_struct2" kind="struct" language="C#" prot="private">
+    <compoundname>Unity::Mathematics::mathx::ConverterStruct2</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1mathx_1_1_converter_struct2_1a580ee216eb7ea6aea5cac24077d86dcf" prot="public" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong Unity.Mathematics.mathx.ConverterStruct2.asLong</definition>
+        <argsstring></argsstring>
+        <name>asLong</name>
+        <qualifiedname>Unity.Mathematics.mathx.ConverterStruct2.asLong</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" line="67" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1mathx_1_1_converter_struct2_1acd23f082ec337456fcae0dbb5acc8978" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Unity.Mathematics.mathx.ConverterStruct2.asDouble</definition>
+        <argsstring></argsstring>
+        <name>asDouble</name>
+        <qualifiedname>Unity.Mathematics.mathx.ConverterStruct2.asDouble</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" line="68" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ulink url="https://github.com/SunsetQuest/Fast-Integer-Log2">https://github.com/SunsetQuest/Fast-Integer-Log2</ulink> -----------------------<mdash/> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" line="65" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" bodystart="66" bodyend="69"/>
+    <listofallmembers>
+      <member refid="struct_unity_1_1_mathematics_1_1mathx_1_1_converter_struct2_1acd23f082ec337456fcae0dbb5acc8978" prot="public" virt="non-virtual"><scope>Unity::Mathematics::mathx::ConverterStruct2</scope><name>asDouble</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1mathx_1_1_converter_struct2_1a580ee216eb7ea6aea5cac24077d86dcf" prot="public" virt="non-virtual"><scope>Unity::Mathematics::mathx::ConverterStruct2</scope><name>asLong</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

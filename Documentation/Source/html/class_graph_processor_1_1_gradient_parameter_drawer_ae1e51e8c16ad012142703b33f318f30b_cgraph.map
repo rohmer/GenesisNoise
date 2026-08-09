@@ -1,7 +1,0 @@
-<map id="GraphProcessor.GradientParameterDrawer.CreatePropertyGUI" name="GraphProcessor.GradientParameterDrawer.CreatePropertyGUI">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,234,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_exposed_parameter_drawer.html#a7fae081f9bc23ec39ebcede955269912" title=" " alt="" coords="282,5,512,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,44,269,42,263,43,235,49"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_exposed_parameter_drawer.html#a87f2eb216d90815a76aa4cd6c28aef29" title=" " alt="" coords="282,72,512,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,71,269,77,263,78,234,76"/>
-</map>

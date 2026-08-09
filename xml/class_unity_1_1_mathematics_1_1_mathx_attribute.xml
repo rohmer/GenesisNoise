@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1_mathx_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::MathxAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_mathx_attribute_1a1ef11b3deb1ec866e2acd91197f7df1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Attribute</type>
+        <definition>Attribute Unity.Mathematics.MathxAttribute.Process</definition>
+        <argsstring>()</argsstring>
+        <name>Process</name>
+        <qualifiedname>Unity.Mathematics.MathxAttribute.Process</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" line="46" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Unity.Mathematics.MathxAttribute</label>
+        <link refid="class_unity_1_1_mathematics_1_1_mathx_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Unity.Mathematics.MathxAttribute</label>
+        <link refid="class_unity_1_1_mathematics_1_1_mathx_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" line="44" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" bodystart="45" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1_mathx_attribute_1a1ef11b3deb1ec866e2acd91197f7df1f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::MathxAttribute</scope><name>Process</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

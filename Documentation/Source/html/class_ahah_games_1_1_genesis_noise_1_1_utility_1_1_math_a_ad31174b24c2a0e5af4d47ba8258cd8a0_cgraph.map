@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Utility.MathA.Divide" name="AhahGames.GenesisNoise.Utility.MathA.Divide">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,226,48"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1e0c6705e0f4b3640b6f580085fed644" title="Multiplies a vector to each component of a matrix." alt="" coords="274,13,473,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,24,261,27,256,27,226,29"/>
-<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="521,13,699,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="474,24,508,27,503,27,474,29"/>
-</map>

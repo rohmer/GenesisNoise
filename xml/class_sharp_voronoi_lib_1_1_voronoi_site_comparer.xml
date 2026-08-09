@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_voronoi_site_comparer" kind="class" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::VoronoiSiteComparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEqualityComparer</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1a477d7be5d5ff8933d3e54063b2a1ec5b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>VoronoiSiteComparer</type>
+        <definition>VoronoiSiteComparer SharpVoronoiLib.VoronoiSiteComparer.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiSiteComparer.Instance</qualifiedname>
+        <initializer>= new VoronoiSiteComparer()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" line="8" column="43" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1af277a545854987df6bf8471be54a9438" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.VoronoiSiteComparer.VoronoiSiteComparer</definition>
+        <argsstring>()</argsstring>
+        <name>VoronoiSiteComparer</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiSiteComparer.VoronoiSiteComparer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" line="9" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1aaa1950ed82932f6615401d2060d569a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SharpVoronoiLib.VoronoiSiteComparer.Equals</definition>
+        <argsstring>(VoronoiSite a, VoronoiSite b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiSiteComparer.Equals</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" line="12" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1ae6e51453a4f639a0d2cbcbc95c9257e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SharpVoronoiLib.VoronoiSiteComparer.GetHashCode</definition>
+        <argsstring>(VoronoiSite obj)</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>SharpVoronoiLib.VoronoiSiteComparer.GetHashCode</qualifiedname>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" line="17" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEqualityComparer&lt; VoronoiSite &gt;</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.VoronoiSiteComparer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEqualityComparer&lt; VoronoiSite &gt;</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.VoronoiSiteComparer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" line="6" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/VoronoiSiteComparer.cs" bodystart="7" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1aaa1950ed82932f6615401d2060d569a7" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiSiteComparer</scope><name>Equals</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1ae6e51453a4f639a0d2cbcbc95c9257e3" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiSiteComparer</scope><name>GetHashCode</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1a477d7be5d5ff8933d3e54063b2a1ec5b" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiSiteComparer</scope><name>Instance</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_voronoi_site_comparer_1af277a545854987df6bf8471be54a9438" prot="private" virt="non-virtual"><scope>SharpVoronoiLib::VoronoiSiteComparer</scope><name>VoronoiSiteComparer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

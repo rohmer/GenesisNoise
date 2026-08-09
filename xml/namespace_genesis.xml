@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="namespace_genesis" kind="namespace" language="C#">
+    <compoundname>Genesis</compoundname>
+    <innerclass refid="class_genesis_1_1_genesis_noise_example_custom_view_node" prot="public">Genesis::GenesisNoiseExampleCustomViewNode</innerclass>
+    <innerclass refid="class_genesis_1_1_genesis_noise_example_noise_luminosity" prot="public">Genesis::GenesisNoiseExampleNoiseLuminosity</innerclass>
+    <innerclass refid="class_genesis_1_1_genesis_noise_example_property_drawer_node" prot="public">Genesis::GenesisNoiseExamplePropertyDrawerNode</innerclass>
+    <innerclass refid="class_genesis_1_1_genesis_noise_shader_node_view_node_view" prot="public">Genesis::GenesisNoiseShaderNodeViewNodeView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node - Custom Property Drawer/GenesisNoiseExamplePropertyDrawerNode.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

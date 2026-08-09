@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_3c25ee1457eb2d027a4c6870bba2200c" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Jobify</compoundname>
+    <innerfile refid="_function_pointers_8cs">FunctionPointers.cs</innerfile>
+    <innerfile refid="_function_pointers_8_experimental_8cs">FunctionPointers.Experimental.cs</innerfile>
+    <innerfile refid="_function_pointers_8_method_signatures_8cs">FunctionPointers.MethodSignatures.cs</innerfile>
+    <innerfile refid="_function_pointers_8_operations_8cs">FunctionPointers.Operations.cs</innerfile>
+    <innerfile refid="_jobify_8cs">Jobify.cs</innerfile>
+    <innerfile refid="_jobify_extensions_8cs">JobifyExtensions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Jobify/"/>
+  </compounddef>
+</doxygen>

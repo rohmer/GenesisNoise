@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.TitleBarManager.GetIcon" name="AhahGames.GenesisNoise.Views.TitleBarManager.GetIcon">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,229,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a5df3e0e701d46dfd7926562e1cfc8197" title=" " alt="" coords="277,5,500,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,44,264,42,259,43,230,49"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager.html#a5627eb33fa1e132b637b8eb7b64c870e" title=" " alt="" coords="277,72,500,115"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,71,264,78,259,78,229,76"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a116510a168ac99d8162b2891fcb9fc9b" title=" " alt="" coords="548,5,771,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="500,24,535,26,530,27,501,29"/>
-</map>

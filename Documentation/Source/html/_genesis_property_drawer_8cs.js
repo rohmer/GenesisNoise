@@ -1,5 +1,0 @@
-var _genesis_property_drawer_8cs =
-[
-    [ "AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer", "class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer.html", "class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer" ],
-    [ "AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer.GenesisDrawerInfo", "class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1_1_genesis_drawer_info.html", "class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1_1_genesis_drawer_info" ]
-];

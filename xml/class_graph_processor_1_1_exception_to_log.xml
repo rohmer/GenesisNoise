@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_exception_to_log" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::ExceptionToLog</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_exception_to_log_1af0c8833e07e966f55aedbc1316d9e38b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.ExceptionToLog.Call</definition>
+        <argsstring>(Action a)</argsstring>
+        <name>Call</name>
+        <qualifiedname>GraphProcessor.ExceptionToLog.Call</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/ExceptionToLog.cs" line="9" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/ExceptionToLog.cs" bodystart="9" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/ExceptionToLog.cs" line="7" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/ExceptionToLog.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_exception_to_log_1af0c8833e07e966f55aedbc1316d9e38b" prot="public" virt="non-virtual"><scope>GraphProcessor::ExceptionToLog</scope><name>Call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

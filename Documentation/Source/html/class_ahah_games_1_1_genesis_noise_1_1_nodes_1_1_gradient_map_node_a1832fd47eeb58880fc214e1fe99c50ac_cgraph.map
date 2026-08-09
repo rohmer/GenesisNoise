@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.GradientMapNode.GetActiveGradientTexture" name="AhahGames.GenesisNoise.Nodes.GradientMapNode.GetActiveGradientTexture">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,243,89"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_map_node.html#a1d6133fc8da515b7592ca469fd83ed42" title=" " alt="" coords="326,5,551,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,45,313,40,307,41,244,50"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_map_node.html#a47f1f66ec20b0faba9dd164dd8d3877d" title=" " alt="" coords="291,72,586,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,70,278,76,272,76,243,75"/>
-</map>

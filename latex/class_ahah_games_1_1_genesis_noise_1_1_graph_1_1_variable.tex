@@ -1,0 +1,92 @@
+\doxysection{Ahah\+Games.\+Genesis\+Noise.\+Graph.\+Variable Class Reference}
+\hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable}{}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable}\index{AhahGames.GenesisNoise.Graph.Variable@{AhahGames.GenesisNoise.Graph.Variable}}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a59a7d24d3b32af56321ec24cf8441cf3}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a59a7d24d3b32af56321ec24cf8441cf3} 
+enum {\bfseries e\+Variable\+Type} \{ \newline
+{\bfseries Float}
+, {\bfseries Int}
+, {\bfseries Vector2}
+, {\bfseries Vector3}
+, \newline
+{\bfseries Vector4}
+, {\bfseries Color}
+, {\bfseries Iterator}
+, {\bfseries String}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a4abfa5c85edbd26f7dc98730d38aad41}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a4abfa5c85edbd26f7dc98730d38aad41} 
+{\bfseries Variable} (string name, int value, int iterator\+Max=0)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a409a75ae5d60b102cf43ac88c1b8b212}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a409a75ae5d60b102cf43ac88c1b8b212} 
+{\bfseries Variable} (string name, object value)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a9b11b00b1c22e8afd1479a35dccf1617}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a9b11b00b1c22e8afd1479a35dccf1617} 
+override string {\bfseries To\+String} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a36edc14ad296050f77b837954c424a7b}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a36edc14ad296050f77b837954c424a7b} 
+int {\bfseries To\+Int} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_aa55387ec3f2236d5c3daecb32da0b595}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_aa55387ec3f2236d5c3daecb32da0b595} 
+Unity\+Engine.\+Vector2 {\bfseries To\+Vector2} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a5e5fd4337f6915c435f8f5e592f6234e}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a5e5fd4337f6915c435f8f5e592f6234e} 
+Unity\+Engine.\+Vector3 {\bfseries To\+Vector3} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a5db296f361dcce3e60fd00d141011ce4}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a5db296f361dcce3e60fd00d141011ce4} 
+Unity\+Engine.\+Vector4 {\bfseries To\+Vector4} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a4c5f27c2fc6c8690c8f00ae14402300f}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a4c5f27c2fc6c8690c8f00ae14402300f} 
+static Variable {\bfseries operator+} (Variable variable, object value)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a6d0aaafc63f224936c23b680c430ee95}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a6d0aaafc63f224936c23b680c430ee95} 
+static Variable {\bfseries operator-\/} (Variable variable, object value)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a40867ad545c33bd9a9d638407cb3e5b1}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a40867ad545c33bd9a9d638407cb3e5b1} 
+static Variable {\bfseries operator\texorpdfstring{$\ast$}{*}} (Variable variable, object value)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_ab54c0362deff92dae431a3075caf43ef}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_ab54c0362deff92dae431a3075caf43ef} 
+static Variable {\bfseries operator/\+} (Variable variable, object value)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a3c536e92d665293104c08f3bc54e034f}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a3c536e92d665293104c08f3bc54e034f} 
+static Variable {\bfseries operator+} (Variable variable1, Variable variable2)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a489377c16bb6d48ee2896d794da40e0d}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a489377c16bb6d48ee2896d794da40e0d} 
+static Variable {\bfseries operator-\/} (Variable variable1, Variable variable2)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_ad782724ab142b06780fd2996c398eabd}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_ad782724ab142b06780fd2996c398eabd} 
+static Variable {\bfseries operator\texorpdfstring{$\ast$}{*}} (Variable variable1, Variable variable2)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a9c6f4997d4f75b83f2cfca3848d59db1}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a9c6f4997d4f75b83f2cfca3848d59db1} 
+static Variable {\bfseries operator/\+} (Variable variable1, Variable variable2)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a8155a6ff38404c37e518b993a727eb00}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a8155a6ff38404c37e518b993a727eb00} 
+int {\bfseries Iterator\+Max} = 0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a9cf9b666fac5c83d154fdc3200ff4f21}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a9cf9b666fac5c83d154fdc3200ff4f21} 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_af2a44a383cc1a204f5a51f1e00f96087}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_af2a44a383cc1a204f5a51f1e00f96087} 
+object {\bfseries Value}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a8c593055de6eef4645426aaefe401f18}\label{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_a8c593055de6eef4645426aaefe401f18} 
+e\+Variable\+Type {\bfseries Variable\+Object\+Type}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Graph/\+Variable.\+cs\end{DoxyCompactItemize}

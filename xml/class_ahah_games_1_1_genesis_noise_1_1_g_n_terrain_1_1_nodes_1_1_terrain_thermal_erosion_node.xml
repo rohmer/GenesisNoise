@@ -1,0 +1,1148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_cached_terrain_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.CachedTerrainNode</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a37d92b77b414f6126bfe93b868574c37" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_assets_1_1_packages_1_1com_1_1ahahgames_1_1genesisnoise_11952984589c6eb639eee72bab08aeac8" kindref="compound">HeightField</ref></type>
+        <definition>HeightField AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.TerrainInput</definition>
+        <argsstring></argsstring>
+        <name>TerrainInput</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.TerrainInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="21" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ac2f72a7fdaabe861f3ea1246d0d68c3b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_assets_1_1_packages_1_1com_1_1ahahgames_1_1genesisnoise_11952984589c6eb639eee72bab08aeac8" kindref="compound">HeightField</ref></type>
+        <definition>HeightField AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.TerrainOutput</definition>
+        <argsstring></argsstring>
+        <name>TerrainOutput</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.TerrainOutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="24" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ad57223b5b4bfba5d23f816702145deb4" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.iterations</definition>
+        <argsstring></argsstring>
+        <name>iterations</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.iterations</qualifiedname>
+        <initializer>= 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="26" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a63dcbccbc48f4d91278ccb8e01f93546" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.talus</definition>
+        <argsstring></argsstring>
+        <name>talus</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.talus</qualifiedname>
+        <initializer>= 0.0025f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="27" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1acf4295b2e1ba9344057fb6d7269e7937" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.strength</definition>
+        <argsstring></argsstring>
+        <name>strength</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.strength</qualifiedname>
+        <initializer>= 0.85f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="28" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afc75025ec5653fb1a59021c99e446b28" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.transferRate</definition>
+        <argsstring></argsstring>
+        <name>transferRate</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.transferRate</qualifiedname>
+        <initializer>= 0.85f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="29" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aae184037df96b934017c67768c4e6f83" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.sampleRadius</definition>
+        <argsstring></argsstring>
+        <name>sampleRadius</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.sampleRadius</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="30" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a27ace09fa5550dc34e24463b6ce092ce" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.settingsVersion</definition>
+        <argsstring></argsstring>
+        <name>settingsVersion</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.settingsVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="31" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afe0c8f87c99acc0aa9d3313977250e30" prot="private" static="no" mutable="no">
+        <type>Texture2D</type>
+        <definition>Texture2D AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.preview</definition>
+        <argsstring></argsstring>
+        <name>preview</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.preview</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="33" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4fef012f4780b1d3d3e025022f1b0edf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.previewRequestVersion</definition>
+        <argsstring></argsstring>
+        <name>previewRequestVersion</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.previewRequestVersion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="34" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a1efff589ab93055f1c73f4543b59b95a" prot="private" static="no" mutable="no">
+        <type>ComputeShader</type>
+        <definition>ComputeShader AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.shader</definition>
+        <argsstring></argsstring>
+        <name>shader</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.shader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="35" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa85dd86f72b682629e9c775850700e66" prot="private" static="no" mutable="no">
+        <type>CommandBuffer</type>
+        <definition>CommandBuffer AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.syncCommandBuffer</definition>
+        <argsstring></argsstring>
+        <name>syncCommandBuffer</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.syncCommandBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="36" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a45c6a36234cc8c13d57963c42c348b68" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.computeFluxKernel</definition>
+        <argsstring></argsstring>
+        <name>computeFluxKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.computeFluxKernel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="37" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa2fd646993705e7561210f7ba22240bf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.applyFluxKernel</definition>
+        <argsstring></argsstring>
+        <name>applyFluxKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.applyFluxKernel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="38" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1abd1d0e7234bca8b2888a62b5e286f79f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.copyHeightToGrayscaleKernel</definition>
+        <argsstring></argsstring>
+        <name>copyHeightToGrayscaleKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.copyHeightToGrayscaleKernel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="39" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afd0a40ae5c484d56451a53eade79cb34" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.kernelsInitialized</definition>
+        <argsstring></argsstring>
+        <name>kernelsInitialized</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.kernelsInitialized</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="40" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa3ec73d0a0614d23ace201d525a2d2a6" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.heightScratchA</definition>
+        <argsstring></argsstring>
+        <name>heightScratchA</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.heightScratchA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="42" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a5daa98a54e63e4a24cfe0e56b4570991" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.heightScratchB</definition>
+        <argsstring></argsstring>
+        <name>heightScratchB</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.heightScratchB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="43" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa1441f5d17e792d40e375239c5bc9715" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.cardinalFluxScratch</definition>
+        <argsstring></argsstring>
+        <name>cardinalFluxScratch</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.cardinalFluxScratch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="44" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afbe19564f2691a2f81d9cefb159caef7" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.diagonalFluxScratch</definition>
+        <argsstring></argsstring>
+        <name>diagonalFluxScratch</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.diagonalFluxScratch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="45" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ac4779011ca94430b380be856412b7c8b" prot="private" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.previewScratch</definition>
+        <argsstring></argsstring>
+        <name>previewScratch</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.previewScratch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="46" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ade67edb9b9cbe4d5e7c0eecee216b91b" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ThreadGroupSize</definition>
+        <argsstring></argsstring>
+        <name>ThreadGroupSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ThreadGroupSize</qualifiedname>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="48" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a035c3b52cd627fb75ae30d69ef3c3d72" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.CurrentSettingsVersion</definition>
+        <argsstring></argsstring>
+        <name>CurrentSettingsVersion</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.CurrentSettingsVersion</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="49" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ae0f0a7d69b0b27aacb8d3060092590e7" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.LegacyTalusReferenceResolution</definition>
+        <argsstring></argsstring>
+        <name>LegacyTalusReferenceResolution</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.LegacyTalusReferenceResolution</qualifiedname>
+        <initializer>= 256.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="50" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a0ac21d7e8d57f6c273f8f78690f99b76" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.OverUpgradedTalusThreshold</definition>
+        <argsstring></argsstring>
+        <name>OverUpgradedTalusThreshold</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.OverUpgradedTalusThreshold</qualifiedname>
+        <initializer>= 0.05f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="51" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a70a85a0f66a8f598820fdc93c22d0589" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.MaxSafeTextureSize</definition>
+        <argsstring></argsstring>
+        <name>MaxSafeTextureSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.MaxSafeTextureSize</qualifiedname>
+        <initializer>= 4096</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="52" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa0d3d61d10813b0bf2209f1c742135e1" prot="private" static="yes" mutable="no">
+        <type>const long</type>
+        <definition>const long AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.MaxTexelIterations</definition>
+        <argsstring></argsstring>
+        <name>MaxTexelIterations</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.MaxTexelIterations</qualifiedname>
+        <initializer>= 64L * 1024L * 1024L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="53" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afb9106e4961d45ea8abff8bdd1e23f9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="55" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a177232466199b0e79268b0491ef26786" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.showDefaultInspector</definition>
+        <argsstring></argsstring>
+        <name>showDefaultInspector</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.showDefaultInspector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="56" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a5c1773661531c1436f822236cdf49cf1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.hasPreview</definition>
+        <argsstring></argsstring>
+        <name>hasPreview</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.hasPreview</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="57" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a15e373754782fa829f39f65b67227ce5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.hasSettings</definition>
+        <argsstring></argsstring>
+        <name>hasSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.hasSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="58" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4a07f6b72ee1e21aa07d8a8e621d346e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override float</type>
+        <definition>override float AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.nodeWidth</definition>
+        <argsstring></argsstring>
+        <name>nodeWidth</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.nodeWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="59" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ae5fab08333216cba2919e755a039006a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override Texture</type>
+        <definition>override Texture AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.previewTexture</definition>
+        <argsstring></argsstring>
+        <name>previewTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.previewTexture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="60" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a06b716f43243772e94143e3c175146de" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Enable</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a1352c4961fb1d6bda9c1fafed5a7f229">Enable</reimplements>
+        <briefdescription>
+<para>Called when the node is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="62" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a11790a6931afc1f2b06323aa27c0bb18" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ProcessNode</definition>
+        <argsstring>(CommandBuffer cmd)</argsstring>
+        <name>ProcessNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ProcessNode</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae1f8726aacf29567700dd33e3a1c6077">ProcessNode</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="69" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="69" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a633b54c6de86c70ca400174bde4fc4d2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Disable</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a1adc25707e8ef4a84bc4e62ae03ff08e">Disable</reimplements>
+        <briefdescription>
+<para>Called when the node is disabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="360" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="360" bodyend="372"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1acd810f1c0da6a273320420c020d7e674" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Erode</definition>
+        <argsstring>()</argsstring>
+        <name>Erode</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Erode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="86" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="86" bodyend="157"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a62034f6d8a41e320d359553add12d4c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.InitializeKernels</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeKernels</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.InitializeKernels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="159" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="159" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ac7c3a0bff334f5775c9c383492474310" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.PassThroughInput</definition>
+        <argsstring>()</argsstring>
+        <name>PassThroughInput</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.PassThroughInput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="177" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="177" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a471d9297691b45b64f0ecf24c0d58c9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.FlushGpuWork</definition>
+        <argsstring>()</argsstring>
+        <name>FlushGpuWork</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.FlushGpuWork</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="192" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="192" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1abfc3245075af357a81dd3bb07974440c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.GetSafeIterationCount</definition>
+        <argsstring>(int textureSize)</argsstring>
+        <name>GetSafeIterationCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.GetSafeIterationCount</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>textureSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="198" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="198" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a8899e3aa192a035e121d81e6bf6aabf8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.EnsureWorkingTextures</definition>
+        <argsstring>(int size)</argsstring>
+        <name>EnsureWorkingTextures</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.EnsureWorkingTextures</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="208" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="208" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4fd47219a3f41d383b67663f5df7ba60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ReleaseWorkingTextures</definition>
+        <argsstring>()</argsstring>
+        <name>ReleaseWorkingTextures</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.ReleaseWorkingTextures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="216" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="216" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a3e7a9b22ef8ef472d82b933ab29c9509" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DispatchComputeFlux</definition>
+        <argsstring>(RenderTexture heightRead, RenderTexture cardinalFlux, RenderTexture diagonalFlux, int groupsX, int groupsY)</argsstring>
+        <name>DispatchComputeFlux</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DispatchComputeFlux</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>heightRead</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>cardinalFlux</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>diagonalFlux</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>groupsX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>groupsY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="224" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="224" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a0a5cf0476ecde6a6735ae336be92271a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DispatchApplyFlux</definition>
+        <argsstring>(RenderTexture heightRead, RenderTexture cardinalFlux, RenderTexture diagonalFlux, RenderTexture heightWrite, int groupsX, int groupsY)</argsstring>
+        <name>DispatchApplyFlux</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DispatchApplyFlux</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>heightRead</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>cardinalFlux</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>diagonalFlux</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>heightWrite</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>groupsX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>groupsY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="237" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="237" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a1d95b11bd45e7ecdb68199e92652d760" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DispatchCopyHeightToGrayscale</definition>
+        <argsstring>(RenderTexture heightRead, RenderTexture heightWrite, int groupsX, int groupsY)</argsstring>
+        <name>DispatchCopyHeightToGrayscale</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DispatchCopyHeightToGrayscale</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>heightRead</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>heightWrite</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>groupsX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>groupsY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="252" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="252" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a99955e0719b7f246abde4f363e72199c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.UpgradeSettings</definition>
+        <argsstring>()</argsstring>
+        <name>UpgradeSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.UpgradeSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="263" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="263" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ad82afc9795edcf389548da30c4b2a55e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.UpdatePreview</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>UpdatePreview</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.UpdatePreview</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="307" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="307" bodyend="344"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4535b2415abed2fb9d35658ef324c68e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DestroyPreview</definition>
+        <argsstring>(Texture2D texture)</argsstring>
+        <name>DestroyPreview</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.DestroyPreview</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="345" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="345" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a0ee7b9bf5b52c84fba4c3b1b49f5b9fa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Swap</definition>
+        <argsstring>(ref RenderTexture a, ref RenderTexture b)</argsstring>
+        <name>Swap</name>
+        <qualifiedname>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode.Swap</qualifiedname>
+        <param>
+          <type>ref RenderTexture</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>ref RenderTexture</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="355" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="355" bodyend="358"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.CachedTerrainNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_cached_terrain_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.GNTerrain.Nodes.TerrainThermalErosionNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>TerrainInput</edgelabel>
+          <edgelabel>TerrainOutput</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>AhahGames.GenesisNoise.Assets.Packages.com.ahahgames.genesisnoise.Runtime.Nodes.Terrain.Height.HeightField</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_assets_1_1_packages_1_1com_1_1ahahgames_1_1genesisnoise_11952984589c6eb639eee72bab08aeac8"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>IslandShape</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoiseSettings</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>resolvedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>AhahGames.GenesisNoise.Graph.VariableStorage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage"/>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.CachedTerrainNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_cached_terrain_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>nodeVariables</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>childSettingsNode</edgelabel>
+          <edgelabel>parentSettingsNode</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>AhahGames.GenesisNoise.Nodes.IslandShape</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_island_shape"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>inputPorts</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>outputPorts</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.NodeInputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_input_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.NodeOutputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_output_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.NodePortContainer</label>
+        <link refid="class_graph_processor_1_1_node_port_container"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IDisposable</label>
+      </node>
+      <node id="11">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="7">
+        <label>List&lt; NodePort &gt;</label>
+      </node>
+      <node id="10">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" line="18" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Erosion/TerrainThermalErosionNode.cs" bodystart="19" bodyend="373"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_node_1a7f1a1bf16ba20ccb27380772ebb2d24e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>AddMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7a7f9b9e938983dd368f8775cd178fb6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>AddPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a76820a82d2b5147460416da975ecf161" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>afterProcessCleanup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa2fd646993705e7561210f7ba22240bf" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>applyFluxKernel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a61a962da2016d81a28e54b0def60cb3a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>AssignMaterialPropertiesFromEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8f81412bbb2f0739a30067c3a58c2f36" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>BaseNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7e0756744579f7b061132c2476248ef9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>beforeProcessSetup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7ef6e68115f35b239b9441759710f5fd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>canEditPreviewSRGB</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ac79beb1e4729dd37824a80dc866dfbc9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>canProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1abaf6573d2bace3dcc07140b7b4e22742" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>CanResetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aed4da88d35a7ae27d5f60fdb1cd99bb1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>canUseUpstreamCaching</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0d51445127a9c418c8943b912088886a" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>CaptureProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa1441f5d17e792d40e375239c5bc9715" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>cardinalFluxScratch</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a44d1e75ca73370b68092fbdf92e597f2" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>childSettingsNode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a704c16ae1013d30f190bc70222d5ca47" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>ClearMessages</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d02896a1d4b50cc973aa80e4e0d375" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>color</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a45c6a36234cc8c13d57963c42c348b68" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>computeFluxKernel</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afcb0cf850ae52d1deff3a246c0793317" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>computeOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1abd1d0e7234bca8b2888a62b5e286f79f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>copyHeightToGrayscaleKernel</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4d7a5ef6e1b8432335127e48c2d6fd55" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>createdFromDuplication</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a69a1c9d13de7661d60b93cfd28e084fc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>createdWithinGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae5e8f3355352088b223e606c0bf888b1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>CreateFromType</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4173020ec35f52ee6895b6d452458844" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>CreateFromType&lt; T &gt;</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a035c3b52cd627fb75ae30d69ef3c3d72" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>CurrentSettingsVersion</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d9ac2e3615e9559e7290c821637006" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>customPortTypeBehaviorMap</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a01cb8b11fca46da39f50f7356ad34c22" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>debug</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a942b64a4d4e7d1ce05bfe07db82ce0ae" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>defaultPreviewChannels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a329acc5613f65bade5206c3aa4238c64" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>defaultPreviewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1af6a578d2da4b6d51e55792d69e58cd24" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>defaultSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bd1646c5787c67c6e74117568920836" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>deletable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab162637e669c4ece567afec1f1f41d7b" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Destroy</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aac58be393f88c66b6b23e4bd1ec583ab" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>DestroyInternal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4535b2415abed2fb9d35658ef324c68e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>DestroyPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afbe19564f2691a2f81d9cefb159caef7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>diagonalFluxScratch</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a633b54c6de86c70ca400174bde4fc4d2" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Disable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ff04c4d0b921864c27065e129c34cef" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>DisableInternal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a0a5cf0476ecde6a6735ae336be92271a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>DispatchApplyFlux</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a3e7a9b22ef8ef472d82b933ab29c9509" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>DispatchComputeFlux</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a1d95b11bd45e7ecdb68199e92652d760" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>DispatchCopyHeightToGrayscale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a06b716f43243772e94143e3c175146de" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Enable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a8899e3aa192a035e121d81e6bf6aabf8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>EnsureWorkingTextures</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1acd810f1c0da6a273320420c020d7e674" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Erode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a756f6a134b0b84de3a4fdc9a9b230e1c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>expanded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a57676af544a5908c4701a19b985bb3af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>FindInDependencies</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a471d9297691b45b64f0ecf24c0d58c9f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>FlushGpuWork</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abf837daf3d33078852d62a21c8062be3" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Get2DOnlyRTSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a237991298f4913e660a06b3e8a41e05a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Get3DOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ad07e81b9256ef040b7902631a0b04d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetAllEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a99c2ca0ec0005de8cf9dd4a9d1a47efb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetAllPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab721de1674b3cd6917d732d3319f5654" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetBackgroundColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab05728a9f043ba4293861f6193c67b32" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetBorderColors</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0c911621c7f5e9cdd6a330109e2ebb4d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetCubeOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a950ca137f866af690dcab0e00843f5cf" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae4e99e930ae2824244ac15e1c7e48978" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetDefaultMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a57e2e9d230697e8afd9f41537fcd6893" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetHeaderGradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a87da02ff097e967521534d7749fb0311" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetHeaderTextColor</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6ebbe51d191e0898ebd6519bdb7e4216" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetInputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7cce66f8469e68e6143a15f3d0bd9f49" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetInputPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3d8c432f8ff3279f3deec268abd3d717" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetMaterialPortDatas</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab813e29af0abfb435e185157079266c2" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetNodeFields</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a51cf262aa06ff1a09d9dbab77619ca15" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetOutputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a88944abd0e3cd15563eb20fa5805ed91" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetOutputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acc62ac7f944e29ed82300959bfa56fb2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa77d8367ebc840af1fcf25a0e0a4d2f7" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetPropertyType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1abfc3245075af357a81dd3bb07974440c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetSafeIterationCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1adcb16797a7972565989a979173be98aa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetTempMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae205d4ff2a0946aa8622634fc5bbec11" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetTempTextureDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3c33e89ca25eaff0f4d39c0d28eb683d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GetThemeIcon</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa87612dc45b0d0f8c45d7c602d178de6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>graph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afd51b374801e1d76b89b23f437decac8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>GUID</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a5c1773661531c1436f822236cdf49cf1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>hasPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a15e373754782fa829f39f65b67227ce5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>hasSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ada3d797ea4b486dfd153ed0fe0c36651" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>height</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa3ec73d0a0614d23ace201d525a2d2a6" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>heightScratchA</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a5daa98a54e63e4a24cfe0e56b4570991" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>heightScratchB</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a31e00c888362ea5becbbc5ce460e17cd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Initialize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a62034f6d8a41e320d359553add12d4c0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>InitializeKernels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a31610ee6992e59220900294dbec98ea8" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>InitializePorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a05254f324f12c502ad9f0972341392eb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>inputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af443e52b8cdbb0e3b44259d8f45bdb9c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>InvokeOnProcessed</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3a6f9e7fd1a88cdc10286e30dbf30856" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>IsFieldInput</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af8ca928a9b8673672411c7b4719f7173" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>isLocked</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a80fe3011ae9961a862e717dcc07fa9f7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>IsNodeCompatibleWithGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac87f378268a22045f5ae1a8a16b7232a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>isOutputNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad00389b02c9a09a99c8614ce0e4fd233" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>isPinned</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8beb2567851d18d9fc5a5cc1c3303126" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>isPreviewCollapsed</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a93a5987d90478ea06cdcf4806f66dc8c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>isRenamable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ad57223b5b4bfba5d23f816702145deb4" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>iterations</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afd0a40ae5c484d56451a53eade79cb34" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>kernelsInitialized</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8effb1a08e7dce12a3f8b6d30350c2ee" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>lastProcessingRunId</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aef96ad66810e97751f7e160615458618" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>layoutStyle</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ae0f0a7d69b0b27aacb8d3060092590e7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>LegacyTalusReferenceResolution</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a70a85a0f66a8f598820fdc93c22d0589" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>MaxSafeTextureSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa0d3d61d10813b0bf2209f1c742135e1" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>MaxTexelIterations</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a03b0a5e8a8543da215595f477adf50c4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>minimized</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afb9106e4961d45ea8abff8bdd1e23f9f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>name</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad8cbbd520ce3557f4b24df1785375d4c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>needsInspector</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acd2d4b6e55ffc47cabe17e16fe31675c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>nodeCustomName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1f639abb7529d9b879b92f2afd1682b7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>nodeFields</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad3c5d71dce35d236875c7dc548115ced" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>NodeGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1e1ee0622daaf98a1d6de7556f0f65af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>nodeLock</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4a872031c7028d963dc33541100ac2ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>nodeVariables</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4a07f6b72ee1e21aa07d8a8e621d346e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>nodeWidth</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1add9b6386c1e920ef46150fd89c5813f8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onAfterEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1b463152735c6d332c7592109b36a60d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onAfterEdgeDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aeedf4b5df10c557174fee10e26837e59" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OnEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab183105d93c08ba4dcd98c676b822219" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OnEdgeDisconnected</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9f157e811b20835650c373062c79503f" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onEnabled</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6e596c01a69414bb25c60459bdb06169" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onMessageAdded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7ad6ed4490233057789e4b40e951832c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onMessageRemoved</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a5ec30bd641850b926c4a9e3cdf88303c" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OnNodeCreated</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab195555bf3146982c7312e61fb543401" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onPortsUpdated</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a29d4f3eb49110d5659b49256b254e15c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a2ac9a8f02ee72ed34b3089f752f93084" prot="public" virt="non-virtual" ambiguityscope="GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a030b0236dd7a9db5ea65406d34fc2535" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onProcessed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9ca08398a3f776e7a9316e79498aaae3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OnSettingsChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade9b893d3d815a67009e0719002177b2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>onSettingsChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ac4de76cb09b7136294dc9b6b4575bb0a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>outputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a53d8083629ad9a0d37234529785b3ca4" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OverrideFieldOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a0ac21d7e8d57f6c273f8f78690f99b76" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>OverUpgradedTalusThreshold</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abed097a642b52963448a8806ad148e82" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>parentSettingsNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ac7c3a0bff334f5775c9c383492474310" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>PassThroughInput</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ae89bccf3ff356ad2bcd82717770007" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>position</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_cached_terrain_node_1a8b18628eea1d06f4170bbb551502fce1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>preserveUpstreamCacheOnForceReprocess</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afe0c8f87c99acc0aa9d3313977250e30" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>preview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae37b8d09265bf71dad1ccbac15a3efbe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewEV100</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade028e455fdb1dacc393254201f9f9a5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewMip</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a968b2a26bdfe310308a1f3833dbf62ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4fef012f4780b1d3d3e025022f1b0edf" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewRequestVersion</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ac4779011ca94430b380be856412b7c8b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewScratch</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e149c2af9061b0821cd0b305aee2206" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewSlice</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a646d4d2208786afdf5ee2fcbdb9b4efe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ae5fab08333216cba2919e755a039006a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac65cb97aa0fcb75bf97d24089bd1d13a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>previewVisible</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a037a456c63ff355e211c83213564050d" prot="public" virt="virtual" ambiguityscope="AhahGames::GenesisNoise::Nodes::GenesisNode.GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Process</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aab74c52f5f6efe864f949a0fb9841bba" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>ProcessDelegate</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8f8437e7c6dff6d8fb2e228067c0ef66" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>processingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a11790a6931afc1f2b06323aa27c0bb18" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>ProcessNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac663b794981bfdd4740952a1bc9ac907" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>rawProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3a1464fcac0707ff639f92e2630fef49" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>recorder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a4fd47219a3f41d383b67663f5df7ba60" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>ReleaseWorkingTextures</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3d39867e5312326ca78fa69560fe09e6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>RemoveMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a518d031ca0661f9891afd8885b5a8ded" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>RemoveMessageContains</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e614aa4ed9d07708b27abfd02ffe42d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>RemoveObjectFromGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae0aa2df35295cb4e114aefe2042e23f2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>RemovePort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bf8e068e47410823e4c71f6674d38b0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>RemovePort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae8a5145f94fe8974fd0e3dcb942c98db" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>ResetMaterialPropertyToDefault</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aae184037df96b934017c67768c4e6f83" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>sampleRadius</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae6bb7499f93af07683d0da44a3429fe1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>SetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a600ee9ad2ced1521787a7f55d23ff2af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>setPosition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4c5223ea087cab06905544654d799bea" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>settings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a27ace09fa5550dc34e24463b6ce092ce" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>settingsVersion</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a1efff589ab93055f1c73f4543b59b95a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>shader</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae19af14ebd650c83ab88553569dc9c51" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>showControlsOnHover</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a177232466199b0e79268b0491ef26786" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>showDefaultInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac6277d71a391432e24638c8b547afd5c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>showPreviewExposure</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1acf4295b2e1ba9344057fb6d7269e7937" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>strength</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae180312790c2622ac561bdec8dbf6d19" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>supportedDimensions</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a0ee7b9bf5b52c84fba4c3b1b49f5b9fa" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>Swap</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1aa85dd86f72b682629e9c775850700e66" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>syncCommandBuffer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a63dcbccbc48f4d91278ccb8e01f93546" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>talus</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3bdbe7dd6511a2455646cffdaf22b6e9" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>temporaryMaterials</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a37d92b77b414f6126bfe93b868574c37" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>TerrainInput</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ac2f72a7fdaabe861f3ea1246d0d68c3b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>TerrainOutput</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ade67edb9b9cbe4d5e7c0eecee216b91b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>ThreadGroupSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1afc75025ec5653fb1a59021c99e446b28" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>transferRate</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6226790bf89b8f53c774ed2ca8abc86f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>unlockable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a83d07b4c73420d4004e698aa3bf583b9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>UpdateAllPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a618b3d080d9cf037e59ef8c272dc67ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>UpdateAllPortsLocal</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae7b59559c7e600b089f61ac6f5ade6ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>UpdatePortsForField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8804a804535d34a6e653f0bdf960102d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>UpdatePortsForFieldLocal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1ad82afc9795edcf389548da30c4b2a55e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>UpdatePreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1acf9a902849fa28b58c0d5c66f7c42397" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>UpdateTempRenderTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_1a99955e0719b7f246abde4f363e72199c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::GNTerrain::Nodes::TerrainThermalErosionNode</scope><name>UpgradeSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,9 +1,0 @@
-<map id="GraphProcessor.NodeInspectorObjectEditor" name="GraphProcessor.NodeInspectorObjectEditor">
-<area shape="rect" id="Node000001" title="Custom editor of the node inspector, you can inherit from this class to customize your node inspector..." alt="" coords="23,196,227,239"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,89,130,116"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,128,117,195,112,196,79,132"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_node_inspector_object.html" title="Node inspector object, you can inherit from this class to customize your node inspector." alt="" coords="153,81,358,124"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,134,150,198,147,193,218,135"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="197,5,314,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="257,45,258,82,253,80,254,50"/>
-</map>

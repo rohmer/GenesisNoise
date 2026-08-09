@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_780f64adbff36daf2057398cacc5b58e" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Function/Math</compoundname>
+    <innerfile refid="_add_node_view_8cs">AddNodeView.cs</innerfile>
+    <innerfile refid="_clamp_node_view_8cs">ClampNodeView.cs</innerfile>
+    <innerfile refid="_divide_node_view_8cs">DivideNodeView.cs</innerfile>
+    <innerfile refid="_multiply_node_view_8cs">MultiplyNodeView.cs</innerfile>
+    <innerfile refid="_pow_node_view_8cs">PowNodeView.cs</innerfile>
+    <innerfile refid="_subtract_node_view_8cs">SubtractNodeView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Function/Math/"/>
+  </compounddef>
+</doxygen>

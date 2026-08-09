@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_141ec0a52aa12c0c5f17c89d5778e5a0" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Filters/Light and Shadow</compoundname>
+    <innerfile refid="_bloom_node_8cs">BloomNode.cs</innerfile>
+    <innerfile refid="_drop_shadow_node_8cs">DropShadowNode.cs</innerfile>
+    <innerfile refid="_gradient_flare_node_8cs">GradientFlareNode.cs</innerfile>
+    <innerfile refid="_inner_glow_node_8cs">InnerGlowNode.cs</innerfile>
+    <innerfile refid="_lens_flare_node_8cs">LensFlareNode.cs</innerfile>
+    <innerfile refid="_long_shadow_node_8cs">LongShadowNode.cs</innerfile>
+    <innerfile refid="_perspective_node_8cs">PerspectiveNode.cs</innerfile>
+    <innerfile refid="_sparkle_node_8cs">SparkleNode.cs</innerfile>
+    <innerfile refid="_supernova_node_8cs">SupernovaNode.cs</innerfile>
+    <innerfile refid="_vignette_node_8cs">VignetteNode.cs</innerfile>
+    <innerfile refid="_xach_effect_node_8cs">XachEffectNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Filters/Light and Shadow/"/>
+  </compounddef>
+</doxygen>

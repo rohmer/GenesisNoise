@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::BiomeData</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1ae6a58a1bf29684b24b41a5581d1df6be" prot="package" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome" kindref="compound">Biome</ref> &gt;</type>
+        <definition>List&lt;Biome&gt; AhahGames.GenesisNoise.Nodes.BiomeData.biomes</definition>
+        <argsstring></argsstring>
+        <name>biomes</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeData.biomes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" line="11" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1ad93b6933d64fca9876058344679e227e" prot="package" static="no" mutable="no">
+        <type>eTerrainSize</type>
+        <definition>eTerrainSize AhahGames.GenesisNoise.Nodes.BiomeData.terrainSize</definition>
+        <argsstring></argsstring>
+        <name>terrainSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeData.terrainSize</qualifiedname>
+        <initializer>=eTerrainSize.x4096</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" line="13" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1a45d48ced28f3c2fbecf997f1757e4daa" prot="package" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome" kindref="compound">Biome</ref>, uint &gt;</type>
+        <definition>Dictionary&lt;Biome, uint&gt; AhahGames.GenesisNoise.Nodes.BiomeData.biomeMapping</definition>
+        <argsstring></argsstring>
+        <name>biomeMapping</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeData.biomeMapping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" line="23" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1a3004a3194df8b2928d335ea0be975098" prot="package" static="no" mutable="no">
+        <type>List&lt; RenderTexture &gt;</type>
+        <definition>List&lt;RenderTexture&gt; AhahGames.GenesisNoise.Nodes.BiomeData.splatMaps</definition>
+        <argsstring></argsstring>
+        <name>splatMaps</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeData.splatMaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" line="25" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1a600457b19977e547f0517dd6a43c49a8" prot="package" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_assets_1_1_packages_1_1com_1_1ahahgames_1_1genesisnoise_11952984589c6eb639eee72bab08aeac8" kindref="compound">HeightField</ref></type>
+        <definition>HeightField AhahGames.GenesisNoise.Nodes.BiomeData.heightField</definition>
+        <argsstring></argsstring>
+        <name>heightField</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeData.heightField</qualifiedname>
+        <briefdescription>
+<para>Carry over to feed to terrain Generator. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" line="30" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.BiomeData</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>heightField</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Assets.Packages.com.ahahgames.genesisnoise.Runtime.Nodes.Terrain.Height.HeightField</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_assets_1_1_packages_1_1com_1_1ahahgames_1_1genesisnoise_11952984589c6eb639eee72bab08aeac8"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>IslandShape</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Nodes.IslandShape</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_island_shape"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" line="9" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/BiomeData.cs" bodystart="10" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1a45d48ced28f3c2fbecf997f1757e4daa" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeData</scope><name>biomeMapping</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1ae6a58a1bf29684b24b41a5581d1df6be" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeData</scope><name>biomes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1a600457b19977e547f0517dd6a43c49a8" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeData</scope><name>heightField</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1a3004a3194df8b2928d335ea0be975098" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeData</scope><name>splatMaps</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_data_1ad93b6933d64fca9876058344679e227e" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeData</scope><name>terrainSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

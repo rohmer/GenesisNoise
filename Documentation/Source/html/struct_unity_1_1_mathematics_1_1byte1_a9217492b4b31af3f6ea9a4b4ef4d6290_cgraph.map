@@ -1,6 +1,0 @@
-<map id="Unity.Mathematics.byte1.operator&lt;=" name="Unity.Mathematics.byte1.operator&lt;=">
-<area shape="rect" id="Node000001" title="Returns True if the a is less or equal than the b, false otherwise." alt="" coords="5,29,239,56"/>
-<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1byte1.html#ac48cf384a38d8c5e04a5066420353a33" title=" " alt="" coords="287,29,489,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,40,274,43,268,43,239,45"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="343,28,335,21,341,11,359,5,388,3,420,5,438,15,433,14,419,11,388,8,360,10,344,15,341,20,348,30"/>
-</map>

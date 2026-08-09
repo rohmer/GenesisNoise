@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_0f640b8fc34515d603d32b9893b623d3" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime</compoundname>
+    <innerdir refid="dir_7bd7f49150f0d96aa844f6b05a67dbef">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty</innerdir>
+    <innerdir refid="dir_ff4fb4dae76a9fe185efae51a51b7f6a">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph</innerdir>
+    <innerdir refid="dir_50d4f44297b4e4459554729659bf8063">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX</innerdir>
+    <innerdir refid="dir_708fed860b786383bafa8ce32b81700b">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor</innerdir>
+    <innerdir refid="dir_cd10b177134ae2ab77c76f1e601e0faf">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes</innerdir>
+    <innerdir refid="dir_598744d5ec9ab73d2b4b764ac961d573">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders</innerdir>
+    <innerdir refid="dir_03d8f3f5d2b97473857477d42c4c2e69">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/"/>
+  </compounddef>
+</doxygen>

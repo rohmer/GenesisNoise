@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_genesis_noise_example_noise_luminosity_8cs" kind="file" language="C#">
+    <compoundname>GenesisNoiseExampleNoiseLuminosity.cs</compoundname>
+    <innerclass refid="class_genesis_1_1_genesis_noise_example_noise_luminosity" prot="public">Genesis::GenesisNoiseExampleNoiseLuminosity</innerclass>
+    <innernamespace refid="namespace_genesis">Genesis</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_graph_processor" kindref="compound">GraphProcessor</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes" kindref="compound">AhahGames.GenesisNoise.Nodes</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_genesis" kindref="compound">Genesis</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Serializable,<sp/>NodeMenuItem(</highlight><highlight class="stringliteral">&quot;Custom/Example<sp/>-<sp/>Noise<sp/>Luminosity&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="8" refid="class_genesis_1_1_genesis_noise_example_noise_luminosity" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_genesis_1_1_genesis_noise_example_noise_luminosity" kindref="compound">GenesisNoiseExampleNoiseLuminosity</ref><sp/>:<sp/><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node" kindref="compound">FixedShaderNode</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a27eefa0f1b41f0958d5ebd859a25caeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a27eefa0f1b41f0958d5ebd859a25caeb" kindref="member">name</ref><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Example<sp/>-<sp/>Noise<sp/>Luminosity&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a9aee84ac965840e09b87da3bf4c7678a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a9aee84ac965840e09b87da3bf4c7678a" kindref="member">ShaderName</ref><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Hidden/Genesis/Custom/NoiseLuminosity&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a4e1ab42d6a14d94b13bb107352f69b61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a4e1ab42d6a14d94b13bb107352f69b61" kindref="member">DisplayMaterialInspector</ref><sp/>=&gt;<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Enumerate<sp/>the<sp/>list<sp/>of<sp/>material<sp/>properties<sp/>that<sp/>you<sp/>don&apos;t<sp/>want<sp/>to<sp/>be<sp/>turned<sp/>into<sp/>a<sp/>connectable<sp/>port.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>IEnumerable&lt;string&gt;<sp/>filteredOutProperties<sp/>=&gt;<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]{};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a6d546df5b0deb8a28a668de9b2c04178" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>List&lt;OutputDimension&gt;<sp/><ref refid="class_genesis_1_1_genesis_noise_example_noise_luminosity_1a6d546df5b0deb8a28a668de9b2c04178" kindref="member">supportedDimensions</ref><sp/>=&gt;<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;OutputDimension&gt;()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>OutputDimension.Texture2D<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node/GenesisNoiseExampleNoiseLuminosity.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_9c951e2862b1fff02a4260b4ab22059d" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks</compoundname>
+    <innerfile refid="_node_graph_processor_menu_items_8cs">NodeGraphProcessorMenuItems.cs</innerfile>
+    <innerfile refid="_on_base_graph_deleted_8cs">OnBaseGraphDeleted.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Callbacks/"/>
+  </compounddef>
+</doxygen>

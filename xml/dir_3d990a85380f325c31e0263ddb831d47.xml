@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_3d990a85380f325c31e0263ddb831d47" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views</compoundname>
+    <innerfile refid="_base_graph_view_8cs">BaseGraphView.cs</innerfile>
+    <innerfile refid="_base_node_view_8cs">BaseNodeView.cs</innerfile>
+    <innerfile refid="_base_stack_node_view_8cs">BaseStackNodeView.cs</innerfile>
+    <innerfile refid="_create_node_menu_window_8cs">CreateNodeMenuWindow.cs</innerfile>
+    <innerfile refid="_edge_view_8cs">EdgeView.cs</innerfile>
+    <innerfile refid="_exposed_parameter_field_factory_8cs">ExposedParameterFieldFactory.cs</innerfile>
+    <innerfile refid="_exposed_parameter_field_view_8cs">ExposedParameterFieldView.cs</innerfile>
+    <innerfile refid="_exposed_parameter_property_view_8cs">ExposedParameterPropertyView.cs</innerfile>
+    <innerfile refid="_exposed_parameter_view_8cs">ExposedParameterView.cs</innerfile>
+    <innerfile refid="_exposed_parameter_workaround_8cs">ExposedParameterWorkaround.cs</innerfile>
+    <innerfile refid="_group_view_8cs">GroupView.cs</innerfile>
+    <innerfile refid="_mini_map_view_8cs">MiniMapView.cs</innerfile>
+    <innerfile refid="_node_badge_view_8cs">NodeBadgeView.cs</innerfile>
+    <innerfile refid="_node_settings_view_8cs">NodeSettingsView.cs</innerfile>
+    <innerfile refid="_parameter_node_view_8cs">ParameterNodeView.cs</innerfile>
+    <innerfile refid="_pinned_element_view_8cs">PinnedElementView.cs</innerfile>
+    <innerfile refid="_port_view_8cs">PortView.cs</innerfile>
+    <innerfile refid="_processor_view_8cs">ProcessorView.cs</innerfile>
+    <innerfile refid="_relay_node_view_8cs">RelayNodeView.cs</innerfile>
+    <innerfile refid="_sticky_note_view_8cs">StickyNoteView.cs</innerfile>
+    <innerfile refid="_toolbar_view_8cs">ToolbarView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/"/>
+  </compounddef>
+</doxygen>

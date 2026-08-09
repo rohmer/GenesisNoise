@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.EdgeKey" name="AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.EdgeKey">
-<area shape="rect" id="Node000001" title=" " alt="" coords="616,35,886,77"/>
-<area shape="rect" id="Node000002" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key.html#a88cc84a28b13df43ebf1a96f7c70fc95" title=" " alt="" coords="311,5,568,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="598,42,568,41,569,36,603,42"/>
-<area shape="rect" id="Node000003" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key.html#a35c253c5db3f03e6c421c1ccb06695c6" title=" " alt="" coords="5,35,263,77"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="598,60,568,63,311,63,263,62,263,57,311,57,568,57,603,59"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="292,41,264,46,263,41,298,40"/>
-</map>

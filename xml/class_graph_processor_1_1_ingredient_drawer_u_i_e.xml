@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_ingredient_drawer_u_i_e" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::IngredientDrawerUIE</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PropertyDrawer</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_ingredient_drawer_u_i_e_1a09436d7a679acd863ed9965b44aefd29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override VisualElement</type>
+        <definition>override VisualElement GraphProcessor.IngredientDrawerUIE.CreatePropertyGUI</definition>
+        <argsstring>(SerializedProperty property)</argsstring>
+        <name>CreatePropertyGUI</name>
+        <qualifiedname>GraphProcessor.IngredientDrawerUIE.CreatePropertyGUI</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/Vector4Drawer.cs" line="12" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/Vector4Drawer.cs" bodystart="12" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.IngredientDrawerUIE</label>
+        <link refid="class_graph_processor_1_1_ingredient_drawer_u_i_e"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.IngredientDrawerUIE</label>
+        <link refid="class_graph_processor_1_1_ingredient_drawer_u_i_e"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/Vector4Drawer.cs" line="10" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/Vector4Drawer.cs" bodystart="11" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_ingredient_drawer_u_i_e_1a09436d7a679acd863ed9965b44aefd29" prot="public" virt="non-virtual"><scope>GraphProcessor::IngredientDrawerUIE</scope><name>CreatePropertyGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

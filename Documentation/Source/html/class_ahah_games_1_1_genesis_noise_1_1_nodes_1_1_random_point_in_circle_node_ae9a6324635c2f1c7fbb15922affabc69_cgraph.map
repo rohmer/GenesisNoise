@@ -1,5 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.RandomPointInCircleNode.ProcessNode" name="AhahGames.GenesisNoise.Nodes.RandomPointInCircleNode.ProcessNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,265,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_random_point_in_circle_node.html#a9b0a9134651231b8224fcf2f61ea956f" title="Override this method to implement custom processing." alt="" coords="313,5,541,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="265,24,300,27,294,27,265,29"/>
-</map>

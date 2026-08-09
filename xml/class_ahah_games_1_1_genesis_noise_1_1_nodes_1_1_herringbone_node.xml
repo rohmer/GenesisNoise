@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::HerringboneNode</compoundname>
+    <basecompoundref refid="class_fixed_noise_node" prot="public" virt="non-virtual">FixedNoiseNode</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1aaf29cfc77a84ef2386c06e224bad8c03" prot="public" static="no" mutable="no">
+        <type>CustomRenderTexture</type>
+        <definition>CustomRenderTexture AhahGames.GenesisNoise.Nodes.HerringboneNode.horizontalMask</definition>
+        <argsstring></argsstring>
+        <name>horizontalMask</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.horizontalMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="26" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a2acf3798e87f6377af7796b4ca4ac868" prot="public" static="no" mutable="no">
+        <type>CustomRenderTexture</type>
+        <definition>CustomRenderTexture AhahGames.GenesisNoise.Nodes.HerringboneNode.verticalMask</definition>
+        <argsstring></argsstring>
+        <name>verticalMask</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.verticalMask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="29" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a6c3848f82f9baa316e433723eef1ed7c" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AhahGames.GenesisNoise.Nodes.HerringboneNode.OutputModeProperty</definition>
+        <argsstring></argsstring>
+        <name>OutputModeProperty</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.OutputModeProperty</qualifiedname>
+        <initializer>= &quot;_OutputMode&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="31" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a71215f86966fb7f0b220a0f781e1c052" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material AhahGames.GenesisNoise.Nodes.HerringboneNode.horizontalMaskMaterial</definition>
+        <argsstring></argsstring>
+        <name>horizontalMaskMaterial</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.horizontalMaskMaterial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="33" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1afaf382e2e2781c65447adc1a460e739c" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material AhahGames.GenesisNoise.Nodes.HerringboneNode.verticalMaskMaterial</definition>
+        <argsstring></argsstring>
+        <name>verticalMaskMaterial</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.verticalMaskMaterial</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="34" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ace056fdfe00701d52c69fb6a095f54ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.HerringboneNode.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="36" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ae18b5234f3026735808dc47dadcf0064" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.HerringboneNode.ShaderName</definition>
+        <argsstring></argsstring>
+        <name>ShaderName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.ShaderName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="37" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1afdb243db32d50c3aa8cdb68538dcbe12" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.HerringboneNode.NodeGroup</definition>
+        <argsstring></argsstring>
+        <name>NodeGroup</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.NodeGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="38" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1aed2d1d7fabe580d0591b39d323138756" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override IEnumerable&lt; string &gt;</type>
+        <definition>override IEnumerable&lt;string&gt; AhahGames.GenesisNoise.Nodes.HerringboneNode.filteredOutProperties</definition>
+        <argsstring></argsstring>
+        <name>filteredOutProperties</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.filteredOutProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="40" column="40" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a637e9ba057b63031a9826de75421f518" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.HerringboneNode.ProcessNode</definition>
+        <argsstring>(CommandBuffer cmd)</argsstring>
+        <name>ProcessNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.ProcessNode</qualifiedname>
+        <reimplements refid="class_fixed_noise_node_1aeb368eaa32c009e81b127775c234ad9a">ProcessNode</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="42" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="42" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a3d9ca2ac6172be0717466e6fd765bb16" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Nodes.HerringboneNode.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.Disable</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a1adc25707e8ef4a84bc4e62ae03ff08e">Disable</reimplements>
+        <briefdescription>
+<para>Called when the node is disabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="77" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="77" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ab643be237873d7cd3541c9197188682d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override IEnumerable&lt; CustomRenderTexture &gt;</type>
+        <definition>override IEnumerable&lt; CustomRenderTexture &gt; AhahGames.GenesisNoise.Nodes.HerringboneNode.GetCustomRenderTextures</definition>
+        <argsstring>()</argsstring>
+        <name>GetCustomRenderTextures</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.GetCustomRenderTextures</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a9099c6f02f78bcbc47695cb382f295e6">GetCustomRenderTextures</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="65" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="65" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1aa95f355cf3778188869b666f87e554a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.HerringboneNode.EnsureMaskMaterials</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureMaskMaterials</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.EnsureMaskMaterials</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="90" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="90" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ab08145f1fd50938d762caa5add9b9eb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.HerringboneNode.CopyMaterialProperties</definition>
+        <argsstring>(Material source, Material destination)</argsstring>
+        <name>CopyMaterialProperties</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.HerringboneNode.CopyMaterialProperties</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>destination</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="109" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="109" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.HerringboneNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.FixedShaderNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>AhahGames.GenesisNoise.Nodes.IUseCustomRenderTextureProcessing</label>
+        <link refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_use_custom_render_texture_processing"/>
+      </node>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Nodes.ShaderNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FixedNoiseNode</label>
+        <link refid="class_fixed_noise_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.ICreateNodeFrom&lt; T &gt;</label>
+        <link refid="interface_graph_processor_1_1_i_create_node_from-1-g"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.HerringboneNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoiseSettings</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>resolvedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>AhahGames.GenesisNoise.Graph.VariableStorage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage"/>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.FixedShaderNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>nodeVariables</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>childSettingsNode</edgelabel>
+          <edgelabel>parentSettingsNode</edgelabel>
+        </childnode>
+      </node>
+      <node id="16">
+        <label>AhahGames.GenesisNoise.Nodes.IUseCustomRenderTextureProcessing</label>
+        <link refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_use_custom_render_texture_processing"/>
+      </node>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Nodes.ShaderNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FixedNoiseNode</label>
+        <link refid="class_fixed_noise_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>inputPorts</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>outputPorts</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>GraphProcessor.ICreateNodeFrom&lt; T &gt;</label>
+        <link refid="interface_graph_processor_1_1_i_create_node_from-1-g"/>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.NodeInputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_input_port_container"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GraphProcessor.NodeOutputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_output_port_container"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.NodePortContainer</label>
+        <link refid="class_graph_processor_1_1_node_port_container"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="9">
+        <label>List&lt; NodePort &gt;</label>
+      </node>
+      <node id="12">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" line="23" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/HerringboneNode.cs" bodystart="24" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_node_1a7f1a1bf16ba20ccb27380772ebb2d24e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>AddMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7a7f9b9e938983dd368f8775cd178fb6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>AddPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a76820a82d2b5147460416da975ecf161" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>afterProcessCleanup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a61a962da2016d81a28e54b0def60cb3a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>AssignMaterialPropertiesFromEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8f81412bbb2f0739a30067c3a58c2f36" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>BaseNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7e0756744579f7b061132c2476248ef9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>beforeProcessSetup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7ef6e68115f35b239b9441759710f5fd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>canEditPreviewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node_1a1fc5f59f7b9dea55ccd753d5097879f2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>canProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1abaf6573d2bace3dcc07140b7b4e22742" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>CanResetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aed4da88d35a7ae27d5f60fdb1cd99bb1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>canUseUpstreamCaching</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0d51445127a9c418c8943b912088886a" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>CaptureProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a44d1e75ca73370b68092fbdf92e597f2" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>childSettingsNode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a704c16ae1013d30f190bc70222d5ca47" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>ClearMessages</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d02896a1d4b50cc973aa80e4e0d375" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>color</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afcb0cf850ae52d1deff3a246c0793317" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>computeOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ab08145f1fd50938d762caa5add9b9eb5" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>CopyMaterialProperties</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4d7a5ef6e1b8432335127e48c2d6fd55" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>createdFromDuplication</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a69a1c9d13de7661d60b93cfd28e084fc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>createdWithinGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae5e8f3355352088b223e606c0bf888b1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>CreateFromType</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4173020ec35f52ee6895b6d452458844" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>CreateFromType&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d9ac2e3615e9559e7290c821637006" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>customPortTypeBehaviorMap</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a01cb8b11fca46da39f50f7356ad34c22" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>debug</name></member>
+      <member refid="class_fixed_noise_node_1a900c8c24790ca550b0e1bbc02ca46d7d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>defaultPreviewChannels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a329acc5613f65bade5206c3aa4238c64" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>defaultPreviewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1acfad581800102da77b0a73013d66c169" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>defaultSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a6932f25c983aacfc81ab81bc2418579d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>DefaultShaderName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bd1646c5787c67c6e74117568920836" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>deletable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab162637e669c4ece567afec1f1f41d7b" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>Destroy</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aac58be393f88c66b6b23e4bd1ec583ab" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>DestroyInternal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a3d9ca2ac6172be0717466e6fd765bb16" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>Disable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ff04c4d0b921864c27065e129c34cef" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>DisableInternal</name></member>
+      <member refid="class_fixed_noise_node_1aec42e55394cd87a4146644c0d3bb0df8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>DisplayMaterialInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node_1abe00e44fb5313e8008336d92a5e9a124" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>Enable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1aa95f355cf3778188869b666f87e554a9" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>EnsureMaskMaterials</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a756f6a134b0b84de3a4fdc9a9b230e1c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>expanded</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1aed2d1d7fabe580d0591b39d323138756" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>filteredOutProperties</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a57676af544a5908c4701a19b985bb3af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>FindInDependencies</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abf837daf3d33078852d62a21c8062be3" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>Get2DOnlyRTSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a237991298f4913e660a06b3e8a41e05a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>Get3DOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ad07e81b9256ef040b7902631a0b04d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetAllEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a99c2ca0ec0005de8cf9dd4a9d1a47efb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetAllPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab721de1674b3cd6917d732d3319f5654" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetBackgroundColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab05728a9f043ba4293861f6193c67b32" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetBorderColors</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0c911621c7f5e9cdd6a330109e2ebb4d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetCubeOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a950ca137f866af690dcab0e00843f5cf" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ab643be237873d7cd3541c9197188682d" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetCustomRenderTextures</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae4e99e930ae2824244ac15e1c7e48978" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetDefaultMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a37df681312b36ce69d554e0b87ccbd2b" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetFilterOutProperties</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a57e2e9d230697e8afd9f41537fcd6893" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetHeaderGradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a87da02ff097e967521534d7749fb0311" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetHeaderTextColor</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6ebbe51d191e0898ebd6519bdb7e4216" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetInputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7cce66f8469e68e6143a15f3d0bd9f49" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetInputPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a7432a9c3a2554d46d9ef3c22e72b4ee9" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetMaterialInputs</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3d8c432f8ff3279f3deec268abd3d717" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetMaterialPortDatas</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab813e29af0abfb435e185157079266c2" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetNodeFields</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a51cf262aa06ff1a09d9dbab77619ca15" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetOutputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a88944abd0e3cd15563eb20fa5805ed91" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetOutputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acc62ac7f944e29ed82300959bfa56fb2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa77d8367ebc840af1fcf25a0e0a4d2f7" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetPropertyType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1adcb16797a7972565989a979173be98aa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetTempMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae205d4ff2a0946aa8622634fc5bbec11" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetTempTextureDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3c33e89ca25eaff0f4d39c0d28eb683d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GetThemeIcon</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa87612dc45b0d0f8c45d7c602d178de6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>graph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afd51b374801e1d76b89b23f437decac8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>GUID</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a9e1fb81796c96ac0bdc025d8aad54c08" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>hasMips</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae9c448f523310604565a9bb891eaedde" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>hasPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3aba7cbd9364033a82fe12681971b624" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>hasSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ada3d797ea4b486dfd153ed0fe0c36651" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>height</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1aaf29cfc77a84ef2386c06e224bad8c03" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>horizontalMask</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a71215f86966fb7f0b220a0f781e1c052" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>horizontalMaskMaterial</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a31e00c888362ea5becbbc5ce460e17cd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>Initialize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a232d7c16ea03b294ebd1b33f1d12a7b3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>InitializeNodeFromObject</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1af5d7306247cfd0bc1ab875a95f5b73c0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>InitializeNodeFromObject</name></member>
+      <member refid="interface_graph_processor_1_1_i_create_node_from-1-g_1a656b664ec035b81eea01deff661510bb" prot="public" virt="non-virtual" ambiguityscope="GraphProcessor::ICreateNodeFrom-1-g."><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>InitializeNodeFromObject</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node_1a4991d36577e89af61be7943fb6dc6bed" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>InitializePorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a05254f324f12c502ad9f0972341392eb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>inputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af443e52b8cdbb0e3b44259d8f45bdb9c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>InvokeOnProcessed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a41329d614d866d16b446a311281170d8" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>IsCompatibleWithGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3a6f9e7fd1a88cdc10286e30dbf30856" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>IsFieldInput</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af8ca928a9b8673672411c7b4719f7173" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>isLocked</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a80fe3011ae9961a862e717dcc07fa9f7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>IsNodeCompatibleWithGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac87f378268a22045f5ae1a8a16b7232a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>isOutputNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad00389b02c9a09a99c8614ce0e4fd233" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>isPinned</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8beb2567851d18d9fc5a5cc1c3303126" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>isPreviewCollapsed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a283b2f2e25a91b0ede02479e28da5126" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>isRenamable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8effb1a08e7dce12a3f8b6d30350c2ee" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>lastProcessingRunId</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aef96ad66810e97751f7e160615458618" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>layoutStyle</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1aa8a92fdc91b1bea18ada6e5de7eb468c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>ListMaterialProperties</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a47bd2a16f62964a6da4fec0960e203c9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>material</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a78450e47c4a4b74bae0f848693350c5c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>materialInputs</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a03b0a5e8a8543da215595f477adf50c4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>minimized</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ace056fdfe00701d52c69fb6a095f54ab" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>name</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad8cbbd520ce3557f4b24df1785375d4c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>needsInspector</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acd2d4b6e55ffc47cabe17e16fe31675c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>nodeCustomName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1f639abb7529d9b879b92f2afd1682b7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>nodeFields</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1afdb243db32d50c3aa8cdb68538dcbe12" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>NodeGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1e1ee0622daaf98a1d6de7556f0f65af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>nodeLock</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4a872031c7028d963dc33541100ac2ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>nodeVariables</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aeaebd34f3442326396b3e1d290dbed18" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>nodeWidth</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1add9b6386c1e920ef46150fd89c5813f8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onAfterEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1b463152735c6d332c7592109b36a60d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onAfterEdgeDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aeedf4b5df10c557174fee10e26837e59" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OnEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab183105d93c08ba4dcd98c676b822219" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OnEdgeDisconnected</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9f157e811b20835650c373062c79503f" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onEnabled</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6e596c01a69414bb25c60459bdb06169" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onMessageAdded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7ad6ed4490233057789e4b40e951832c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onMessageRemoved</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a5ec30bd641850b926c4a9e3cdf88303c" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OnNodeCreated</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab195555bf3146982c7312e61fb543401" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onPortsUpdated</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a29d4f3eb49110d5659b49256b254e15c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a2ac9a8f02ee72ed34b3089f752f93084" prot="public" virt="non-virtual" ambiguityscope="GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a030b0236dd7a9db5ea65406d34fc2535" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onProcessed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9ca08398a3f776e7a9316e79498aaae3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OnSettingsChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade9b893d3d815a67009e0719002177b2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>onSettingsChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a4b67cbb1c2fb01c797aa9f0a98f3c1b4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>output</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a6c3848f82f9baa316e433723eef1ed7c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OutputModeProperty</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ac4de76cb09b7136294dc9b6b4575bb0a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>outputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a53d8083629ad9a0d37234529785b3ca4" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>OverrideFieldOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abed097a642b52963448a8806ad148e82" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>parentSettingsNode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ae89bccf3ff356ad2bcd82717770007" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>position</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a117e5fc80f3871ad57bfcbc2e7fdadd0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>preserveUpstreamCacheOnForceReprocess</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae37b8d09265bf71dad1ccbac15a3efbe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>previewEV100</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade028e455fdb1dacc393254201f9f9a5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>previewMip</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a968b2a26bdfe310308a1f3833dbf62ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>previewMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e149c2af9061b0821cd0b305aee2206" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>previewSlice</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a646d4d2208786afdf5ee2fcbdb9b4efe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>previewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_fixed_shader_node_1a97327212f94998272fca3d797df54166" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>previewTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac65cb97aa0fcb75bf97d24089bd1d13a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>previewVisible</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a037a456c63ff355e211c83213564050d" prot="public" virt="virtual" ambiguityscope="AhahGames::GenesisNoise::Nodes::GenesisNode.GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>Process</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aab74c52f5f6efe864f949a0fb9841bba" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>ProcessDelegate</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8f8437e7c6dff6d8fb2e228067c0ef66" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>processingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a637e9ba057b63031a9826de75421f518" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>ProcessNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1ad78ee3abf93112acc2f8f383751d592c" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>rawProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3a1464fcac0707ff639f92e2630fef49" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>recorder</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3d39867e5312326ca78fa69560fe09e6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>RemoveMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a518d031ca0661f9891afd8885b5a8ded" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>RemoveMessageContains</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e614aa4ed9d07708b27abfd02ffe42d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>RemoveObjectFromGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae0aa2df35295cb4e114aefe2042e23f2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>RemovePort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bf8e068e47410823e4c71f6674d38b0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>RemovePort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae8a5145f94fe8974fd0e3dcb942c98db" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>ResetMaterialPropertyToDefault</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae6bb7499f93af07683d0da44a3429fe1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>SetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a600ee9ad2ced1521787a7f55d23ff2af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>setPosition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4c5223ea087cab06905544654d799bea" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>settings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a2e86dbc028a25e69363638c49454ab70" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>shader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1ae18b5234f3026735808dc47dadcf0064" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>ShaderName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae19af14ebd650c83ab88553569dc9c51" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>showControlsOnHover</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a82123182cb5bb88baf83bedf2a57388f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>showDefaultInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac6277d71a391432e24638c8b547afd5c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>showPreviewExposure</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae180312790c2622ac561bdec8dbf6d19" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>supportedDimensions</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3bdbe7dd6511a2455646cffdaf22b6e9" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>temporaryMaterials</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6226790bf89b8f53c774ed2ca8abc86f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>unlockable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a83d07b4c73420d4004e698aa3bf583b9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>UpdateAllPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a618b3d080d9cf037e59ef8c272dc67ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>UpdateAllPortsLocal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1a3faba3b42000b143c81f20edaad1719c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>UpdateExposedProperties</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae7b59559c7e600b089f61ac6f5ade6ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>UpdatePortsForField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8804a804535d34a6e653f0bdf960102d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>UpdatePortsForFieldLocal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1acf9a902849fa28b58c0d5c66f7c42397" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>UpdateTempRenderTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_1aac41b4ca2b183b796ddf2c9041fbe91e" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>ValidateShader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1a2acf3798e87f6377af7796b4ca4ac868" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>verticalMask</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_1afaf382e2e2781c65447adc1a460e739c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::HerringboneNode</scope><name>verticalMaskMaterial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

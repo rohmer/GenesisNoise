@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_4decb9f8c8d6f3efb0a8dc455a394bb4" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node</compoundname>
+    <innerfile refid="_genesis_noise_example_noise_luminosity_8cs">GenesisNoiseExampleNoiseLuminosity.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="dir_4decb9f8c8d6f3efb0a8dc455a394bb4_1autotoc_md0">
+<title>Simple Example of a Shader Node</title></sect1>
+<sect1 id="dir_4decb9f8c8d6f3efb0a8dc455a394bb4_1autotoc_md1">
+<title>Node CS</title><para>Necessary includes <computeroutput> using System.Collections.Generic; using <ref refid="namespace_graph_processor" kindref="compound">GraphProcessor</ref>; using <ref refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes" kindref="compound">AhahGames.GenesisNoise.Nodes</ref>; </computeroutput></para>
+<para>Serialziable is necessary for the node to be saved in the graph. NodeMenuItem is what will show up in the node menu when you right click in the graph and select &quot;Add Node&quot;. The string you pass in is the path to where you want your node to show up in the menu. In this case, it will show up under &quot;Custom&quot; and then &quot;Example - Noise Luminosity&quot;. <computeroutput> [System.Serializable, NodeMenuItem(&quot;Custom/Example - Noise Luminosity&quot;)] </computeroutput></para>
+<para>Defines the name of the node <computeroutput> public override string name =&gt; &quot;Example - Noise Luminosity&quot;; </computeroutput></para>
+<para>Sets the name of the shader that will be used for this node. This is the name of the shader that you created in the previous step. The shader must be in a Resources folder somewhere in your project for it to be found by the node. <computeroutput> public override string ShaderName =&gt; &quot;Hidden/Genesis/Custom/NoiseLuminosity&quot;; </computeroutput></para>
+<para>Boolean to define how the options are displayed, in this example we will use the automatically generated options <computeroutput> public override bool DisplayMaterialInspector =&gt; true; </computeroutput></para>
+<para>Our example will only output Texture2D <computeroutput>public override List&lt;OutputDimension&gt; supportedDimensions =&gt; new List&lt;OutputDimension&gt;() { OutputDimension.Texture2D <computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput></computeroutput></computeroutput></para>
+</sect1>
+<sect1 id="dir_4decb9f8c8d6f3efb0a8dc455a394bb4_1autotoc_md2">
+<title><computeroutput><computeroutput>Shader</computeroutput></computeroutput></title><para><computeroutput><computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput>Defines the name and where to find the shader, needs to match the name defined in the node. The shader must be in a Resources folder somewhere in your project for it to be found by the node. <computeroutput> Shader &quot;Hidden/Genesis/Custom/NoiseLuminosity&quot; <linebreak/>
+ </computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput>All of the input and modification properties of the shader are defined in the Properties block. The names of these properties must match the names of the properties defined in the node. The types of the properties must also match. In this example, we have a float property called &quot;Scale&quot; and a color property called &quot;Color&quot;. The default values are set here as well. <computeroutput> Properties { <linebreak/>
+ // The source texture that we will be modifying the luminosity for [InlineTexture]_Source_2D(&quot;Source&quot;, 2D) = &quot;white&quot; {} [InlineTexture]_Source_3D(&quot;Source&quot;, 3D) = &quot;white&quot; {} [InlineTexture]_Source_Cube(&quot;Source&quot;, Cube) = &quot;white&quot; {}</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput> // The luminosity texture that will define the change to the source [InlineTexture]_Luminosity_2D(&quot;Luminosity&quot;, 2D) = &quot;white&quot; {} [InlineTexture]_Luminosity_3D(&quot;Luminosity&quot;, 3D) = &quot;white&quot; {} [InlineTexture]_Luminosity_Cube(&quot;Luminosity&quot;, Cube) = &quot;white&quot; {} <linebreak/>
+ } </computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput>This section will likely be the same for most shaders, it defines the subshader and the pass that will be used to render the shader. The name of the pass must match the name defined in the node. <computeroutput> SubShader { Tags { &quot;RenderType&quot;=&quot;Opaque&quot; } LOD 100</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput> Pass { HLSLPROGRAM #include &quot;Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/GenesisFixed.hlsl&quot; #pragma vertex CustomRenderTextureVertexShader #pragma fragment GenesisFragment #pragma target 3.0</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput> // The list of defines that will be active when processing the node with a certain dimension #pragma shader_feature CRT_2D CRT_3D CRT_CUBE </computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput>Here the variables are defined for the shader. In our example it is two input textures, so we use the TEXTURE_SAMPLER_X macro <computeroutput> // This macro will declare a version for each dimention (2D, 3D and Cube) TEXTURE_SAMPLER_X(_Source);</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput>// This macro will declare a version for each dimention (2D, 3D and Cube) for luminosity TEXTURE_SAMPLER_X(_Luminosity); </computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput>An example shader function: <computeroutput> // An example shader function // This takes a color and adjusts it based on the grayscale luminance float4 adjust_Luminance(float4 color, float luminance) { // Convert the color to grayscale float gray=dot(color.rgb, float3(0.299, 0.587, 0.114)); // Calculate the difference between the desired luminance and the current luminance float diff=luminance-gray; // Adjust the color by adding the difference to each channel color.rgb+=diff; return color; } </computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput>Every shader must have this function, it is the definition of the shader that will be used to process the input textures and generate the output texture. The name of this function must match the name defined in the node. <computeroutput> float4 genesis(v2f_customrendertexture i) { // The SAMPLE_X macro handles sampling for 2D, 3D and cube textures // Here we will sample the source to get the color and then we will sample the luminosity texture to get the luminosity value float4 source=SAMPLE_X(_Source, i.localTexcoord.xyz, i.direction);</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput> // Returns the luminosity value float4 luminosity=SAMPLE_X(_Luminosity, i.localTexcoord.xyz, i.direction);</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput> // We will convert the luminosity to grayscale float gray=dot(luminosity.rgb, float3(0.299, 0.587, 0.114));</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput> float4 returnValue=adjust_Luminance(source, gray);</computeroutput></computeroutput></computeroutput></para>
+<para><computeroutput><computeroutput><computeroutput> // We must return a float4 from out shader function return returnValue; } </computeroutput> </computeroutput></computeroutput></para>
+</sect1>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Examples/Nodes/Shader Node/"/>
+  </compounddef>
+</doxygen>

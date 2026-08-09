@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.GenesisNodeView.DrawTextureInfoHover" name="AhahGames.GenesisNoise.Views.GenesisNodeView.DrawTextureInfoHover">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,269,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_window.html#a29c8dfb0a01914955659f818e491228e" title=" " alt="" coords="317,5,570,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,43,304,42,299,43,270,48"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_texture_utils.html#ad6be80af5cb5e594ef40ae03ae47683f" title=" " alt="" coords="330,72,556,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,72,317,79,312,79,269,77"/>
-</map>

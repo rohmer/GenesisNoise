@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_edge_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::EdgeView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Edge</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_edge_view_1abaf62658767c7a747cbb12485e9c47b3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.EdgeView.isConnected</definition>
+        <argsstring></argsstring>
+        <name>isConnected</name>
+        <qualifiedname>GraphProcessor.EdgeView.isConnected</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="10" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_edge_view_1a87445de7b4d1c5b6e7d2a6da3442b6ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref></type>
+        <definition>SerializableEdge GraphProcessor.EdgeView.serializedEdge</definition>
+        <argsstring></argsstring>
+        <name>serializedEdge</name>
+        <qualifiedname>GraphProcessor.EdgeView.serializedEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="12" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_edge_view_1a6445f028b9c9270a2424fee382115dd9" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+        <definition>BaseGraphView GraphProcessor.EdgeView.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <qualifiedname>GraphProcessor.EdgeView.owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="16" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_edge_view_1a39122f116f3fcc840fec60ca795bb290" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string GraphProcessor.EdgeView.edgeStyle</definition>
+        <argsstring></argsstring>
+        <name>edgeStyle</name>
+        <qualifiedname>GraphProcessor.EdgeView.edgeStyle</qualifiedname>
+        <initializer>= &quot;GraphProcessorStyles/EdgeView&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="14" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_edge_view_1a5a222b6e094f3a53b0239c84ba56b7b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.EdgeView.EdgeView</definition>
+        <argsstring>()</argsstring>
+        <name>EdgeView</name>
+        <qualifiedname>GraphProcessor.EdgeView.EdgeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="18" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_edge_view_1a8953da97f311a5ba170556769b3df449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.EdgeView.OnPortChanged</definition>
+        <argsstring>(bool isInput)</argsstring>
+        <name>OnPortChanged</name>
+        <qualifiedname>GraphProcessor.EdgeView.OnPortChanged</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isInput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="24" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_edge_view_1abaf72816a115cd7428b7a74421d05667" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool GraphProcessor.EdgeView.UpdateEdgeControl</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateEdgeControl</name>
+        <qualifiedname>GraphProcessor.EdgeView.UpdateEdgeControl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="35" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_edge_view_1ad7d80182a41567d52adfea9e1e22ef49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.EdgeView.UpdateEdgeSize</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateEdgeSize</name>
+        <qualifiedname>GraphProcessor.EdgeView.UpdateEdgeSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="57" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="57" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_edge_view_1a26de1181fc221c4ef15e57ea98ceadf3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.EdgeView.ApplyPortGradientColors</definition>
+        <argsstring>()</argsstring>
+        <name>ApplyPortGradientColors</name>
+        <qualifiedname>GraphProcessor.EdgeView.ApplyPortGradientColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="42" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="42" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_edge_view_1a11b4946fb3fcfb0d2b2910193cb0b3cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.EdgeView.OnMouseDown</definition>
+        <argsstring>(MouseDownEvent e)</argsstring>
+        <name>OnMouseDown</name>
+        <qualifiedname>GraphProcessor.EdgeView.OnMouseDown</qualifiedname>
+        <param>
+          <type>MouseDownEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="79" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="79" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_edge_view_1ac49278f00429fc16eb0bfe75712cdbb4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.EdgeView.OnCustomStyleResolved</definition>
+        <argsstring>(ICustomStyle styles)</argsstring>
+        <name>OnCustomStyleResolved</name>
+        <qualifiedname>GraphProcessor.EdgeView.OnCustomStyleResolved</qualifiedname>
+        <param>
+          <type>ICustomStyle</type>
+          <declname>styles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="72" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="72" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Edge</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.EdgeView</label>
+        <link refid="class_graph_processor_1_1_edge_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Edge</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.EdgeView</label>
+        <link refid="class_graph_processor_1_1_edge_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" line="8" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/EdgeView.cs" bodystart="9" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_edge_view_1a26de1181fc221c4ef15e57ea98ceadf3" prot="private" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>ApplyPortGradientColors</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1a39122f116f3fcc840fec60ca795bb290" prot="private" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>edgeStyle</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1a5a222b6e094f3a53b0239c84ba56b7b4" prot="public" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>EdgeView</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1abaf62658767c7a747cbb12485e9c47b3" prot="public" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>isConnected</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1ac49278f00429fc16eb0bfe75712cdbb4" prot="protected" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>OnCustomStyleResolved</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1a11b4946fb3fcfb0d2b2910193cb0b3cc" prot="private" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>OnMouseDown</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1a8953da97f311a5ba170556769b3df449" prot="public" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>OnPortChanged</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1a6445f028b9c9270a2424fee382115dd9" prot="protected" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>owner</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1a87445de7b4d1c5b6e7d2a6da3442b6ac" prot="public" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>serializedEdge</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1abaf72816a115cd7428b7a74421d05667" prot="public" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>UpdateEdgeControl</name></member>
+      <member refid="class_graph_processor_1_1_edge_view_1ad7d80182a41567d52adfea9e1e22ef49" prot="public" virt="non-virtual"><scope>GraphProcessor::EdgeView</scope><name>UpdateEdgeSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

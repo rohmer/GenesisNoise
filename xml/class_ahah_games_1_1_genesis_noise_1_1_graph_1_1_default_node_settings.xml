@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1ac80ed7db9d8d47710c197966f6c6de21" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.CreateSettings</definition>
+        <argsstring>()</argsstring>
+        <name>CreateSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.CreateSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="11" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="11" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1afadb184de7d485daf709f3a9b11a50c7" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.NoiseNode</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>NoiseNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.NoiseNode</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="27" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="27" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a3ee30fc1d03ff520f456de80b821ff0f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.Generators</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>Generators</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.Generators</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="49" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="49" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a15cf14c77c51336d968a8357b98a5edb" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.Colors</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>Colors</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.Colors</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="61" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="61" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a19055be251eb1d7cac6cded8d57392db" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.RidgedPerlinNoise</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>RidgedPerlinNoise</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.RidgedPerlinNoise</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="74" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="74" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a5876b7be228a252c39d85927fb151351" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.PerlinNoise</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>PerlinNoise</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.PerlinNoise</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="86" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="86" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a15260f6982d0f52bbd7ae9a450e39016" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.RidgedCellularNoise</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>RidgedCellularNoise</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.RidgedCellularNoise</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="98" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="98" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1ac2a1216e822aee2b742be46ca8c1b438" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.VoronoiNoise</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>VoronoiNoise</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.VoronoiNoise</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="110" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="110" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a90c0155a68f291908a2205532333ef2c" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.Constants</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>Constants</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.Constants</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="126" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="126" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1ae5451e980f4b8e0d642dc949a1e10964" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+        <definition>static Dictionary&lt; string, NodeTheme &gt; AhahGames.GenesisNoise.Graph.DefaultNodeSettings.WhiteNoise</definition>
+        <argsstring>(Dictionary&lt; string, NodeTheme &gt; settings)</argsstring>
+        <name>WhiteNoise</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.DefaultNodeSettings.WhiteNoise</qualifiedname>
+        <param>
+          <type>Dictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_node_theme" kindref="compound">NodeTheme</ref> &gt;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="142" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="142" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" line="9" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/DefaultNoiseSettings.cs" bodystart="10" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a15cf14c77c51336d968a8357b98a5edb" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>Colors</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a90c0155a68f291908a2205532333ef2c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>Constants</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1ac80ed7db9d8d47710c197966f6c6de21" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>CreateSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a3ee30fc1d03ff520f456de80b821ff0f" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>Generators</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1afadb184de7d485daf709f3a9b11a50c7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>NoiseNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a5876b7be228a252c39d85927fb151351" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>PerlinNoise</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a15260f6982d0f52bbd7ae9a450e39016" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>RidgedCellularNoise</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1a19055be251eb1d7cac6cded8d57392db" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>RidgedPerlinNoise</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1ac2a1216e822aee2b742be46ca8c1b438" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>VoronoiNoise</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_default_node_settings_1ae5451e980f4b8e0d642dc949a1e10964" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::DefaultNodeSettings</scope><name>WhiteNoise</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

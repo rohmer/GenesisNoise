@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Views::GenesisSettingsView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VisualElement</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab2d5a5a1fe07b50e483de873e9068dae" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GraphOutputDimension</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.GraphOutputDimension</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab2d5a5a1fe07b50e483de873e9068daeaa6e2bae752d3bf4e34cb392bca789995" prot="public">
+          <name>Texture2D</name>
+          <initializer>= TextureDimension.Tex2D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab2d5a5a1fe07b50e483de873e9068daea6c4765d2cb592dcc2f21f311db02f43b" prot="public">
+          <name>CubeMap</name>
+          <initializer>= TextureDimension.Cube</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab2d5a5a1fe07b50e483de873e9068daea89c915587e16bcf8963be7cf41a0d9fd" prot="public">
+          <name>Texture3D</name>
+          <initializer>= TextureDimension.Tex3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="17" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a6272af7ed96032c4bfd5f47842258871" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GraphOutputSizeMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.GraphOutputSizeMode</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a6272af7ed96032c4bfd5f47842258871ab51ca26c6c89cfc9bec338f7a0d3e0c8" prot="public">
+          <name>Absolute</name>
+          <initializer>= OutputSizeMode.Absolute</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="24" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a56deba4f34a102fbea22c39dd3f1d255" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GraphOutputPrecision</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.GraphOutputPrecision</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a56deba4f34a102fbea22c39dd3f1d255a6645d4de79aee6373f120d72c0030e5f" prot="public">
+          <name>LDR</name>
+          <initializer>= OutputPrecision.LDR</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a56deba4f34a102fbea22c39dd3f1d255ac48615a1bc4197056d522af276aa5a85" prot="public">
+          <name>Half</name>
+          <initializer>= OutputPrecision.Half</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a56deba4f34a102fbea22c39dd3f1d255abbd47109890259c0127154db1af26c75" prot="public">
+          <name>Full</name>
+          <initializer>= OutputPrecision.Full</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="29" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a88fe65255cba5f1380527810f87ad902" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GraphOutputChannel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.GraphOutputChannel</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a88fe65255cba5f1380527810f87ad902aea3495a278957dc58165e48a8945469f" prot="public">
+          <name>RGBA</name>
+          <initializer>= OutputChannel.RGBA</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a88fe65255cba5f1380527810f87ad902abac953e88f6d79514b0b6fc42eb6f3b7" prot="public">
+          <name>RG</name>
+          <initializer>= OutputChannel.RG</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a88fe65255cba5f1380527810f87ad902ae1e1d3d40573127e9ee0480caf1283d6" prot="public">
+          <name>R</name>
+          <initializer>= OutputChannel.R</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="36" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aee03242a46d40169f23a8f932ad12ace" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GraphOutputWrapMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.GraphOutputWrapMode</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aee03242a46d40169f23a8f932ad12acea7020426cfb0a204051be4b3053d2acc8" prot="public">
+          <name>Repeat</name>
+          <initializer>= OutputWrapMode.Repeat</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aee03242a46d40169f23a8f932ad12acea08825280e3f8137556325061ba67ff8c" prot="public">
+          <name>Clamp</name>
+          <initializer>= OutputWrapMode.Clamp</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aee03242a46d40169f23a8f932ad12acea2403def5083f02105e7802b3b315681e" prot="public">
+          <name>Mirror</name>
+          <initializer>= OutputWrapMode.Mirror</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aee03242a46d40169f23a8f932ad12aceabbfe58735042c726d2d04562ea4e265a" prot="public">
+          <name>MirrorOnce</name>
+          <initializer>= OutputWrapMode.MirrorOnce</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="43" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac2106ff80bb85dedba563e8c52bc71bb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GraphOutputFilterMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.GraphOutputFilterMode</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac2106ff80bb85dedba563e8c52bc71bba2a3cd5946cfd317eb99c3d32e35e2d4c" prot="public">
+          <name>Point</name>
+          <initializer>= OutputFilterMode.Point</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac2106ff80bb85dedba563e8c52bc71bbaaf17c98bbd83c27d6426d2ff3fa81d7f" prot="public">
+          <name>Bilinear</name>
+          <initializer>= OutputFilterMode.Bilinear</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac2106ff80bb85dedba563e8c52bc71bba969a7b6f1f3951ef293b3ff281dc293d" prot="public">
+          <name>Trilinear</name>
+          <initializer>= OutputFilterMode.Trilinear</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="51" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="52" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a557b1173d406b7682b3431a54c538680" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>SRGBOutputChannels</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.SRGBOutputChannels</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a557b1173d406b7682b3431a54c538680aea3495a278957dc58165e48a8945469f" prot="private">
+          <name>RGBA</name>
+          <initializer>= OutputChannel.RGBA</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="93" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a37d5a86b9441ad99fa241481dd75ddb0" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float AhahGames.GenesisNoise.Views.GenesisSettingsView.k_MaxSizeScale</definition>
+        <argsstring></argsstring>
+        <name>k_MaxSizeScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.k_MaxSizeScale</qualifiedname>
+        <initializer>= 64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="14" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a69666920250b7d3b354815d9c38913c6" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AhahGames.GenesisNoise.Views.GenesisSettingsView.headerStyleClass</definition>
+        <argsstring></argsstring>
+        <name>headerStyleClass</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.headerStyleClass</qualifiedname>
+        <initializer>= &quot;PropertyEditorHeader&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="58" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aaa0290f701322cb3f23b6e06acf64917" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label AhahGames.GenesisNoise.Views.GenesisSettingsView.sizeHeader</definition>
+        <argsstring></argsstring>
+        <name>sizeHeader</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.sizeHeader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="59" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a96312da6e88a3cc846444c89d0aee0ee" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label AhahGames.GenesisNoise.Views.GenesisSettingsView.smpHeader</definition>
+        <argsstring></argsstring>
+        <name>smpHeader</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.smpHeader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="60" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a2e075f06f9f20ed09f704fa224f6fb49" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label AhahGames.GenesisNoise.Views.GenesisSettingsView.formatHeader</definition>
+        <argsstring></argsstring>
+        <name>formatHeader</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.formatHeader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="61" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aca8c8aedf70b9524b07113fc70dab726" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label AhahGames.GenesisNoise.Views.GenesisSettingsView.otherHeader</definition>
+        <argsstring></argsstring>
+        <name>otherHeader</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.otherHeader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="62" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a839095e498542565013fffdf007f1328" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.outputSizeMode</definition>
+        <argsstring></argsstring>
+        <name>outputSizeMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputSizeMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="64" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a4d492276a4d771010bce464336be9ef6" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.outputDimension</definition>
+        <argsstring></argsstring>
+        <name>outputDimension</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputDimension</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="65" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab61594fd836020ff7ddfa5a4172f2a17" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.outputChannels</definition>
+        <argsstring></argsstring>
+        <name>outputChannels</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputChannels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="66" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a7ed2c134cb1131b7afa85ab7e9363b8f" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.outputPrecision</definition>
+        <argsstring></argsstring>
+        <name>outputPrecision</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputPrecision</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="67" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a9de1f78bb67244103d44fd25d5b5926c" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.wrapMode</definition>
+        <argsstring></argsstring>
+        <name>wrapMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.wrapMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="68" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a07ee4b9b436a2ffe4c990fb71e869f9f" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.filterMode</definition>
+        <argsstring></argsstring>
+        <name>filterMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.filterMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="69" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a9b88754a2c0330a1fcafbc20f928c4f2" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.potSize</definition>
+        <argsstring></argsstring>
+        <name>potSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.potSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="70" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a3a69e6de93d2c6244537c710ee338a8f" prot="private" static="no" mutable="no">
+        <type>IntegerField</type>
+        <definition>IntegerField AhahGames.GenesisNoise.Views.GenesisSettingsView.outputWidth</definition>
+        <argsstring></argsstring>
+        <name>outputWidth</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="72" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1adc42643b135255f75db87225fedd49bb" prot="private" static="no" mutable="no">
+        <type>SliderInt</type>
+        <definition>SliderInt AhahGames.GenesisNoise.Views.GenesisSettingsView.outputWidthScale</definition>
+        <argsstring></argsstring>
+        <name>outputWidthScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputWidthScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="73" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1af5926adee1be4812525331d8c0dc1c0d" prot="private" static="no" mutable="no">
+        <type>IntegerField</type>
+        <definition>IntegerField AhahGames.GenesisNoise.Views.GenesisSettingsView.outputHeight</definition>
+        <argsstring></argsstring>
+        <name>outputHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="74" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1af68be7f0eed96685ebcf446573812897" prot="private" static="no" mutable="no">
+        <type>SliderInt</type>
+        <definition>SliderInt AhahGames.GenesisNoise.Views.GenesisSettingsView.outputHeightScale</definition>
+        <argsstring></argsstring>
+        <name>outputHeightScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputHeightScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="75" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a05197593193baab416ff45be22bac5c0" prot="private" static="no" mutable="no">
+        <type>IntegerField</type>
+        <definition>IntegerField AhahGames.GenesisNoise.Views.GenesisSettingsView.outputDepth</definition>
+        <argsstring></argsstring>
+        <name>outputDepth</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputDepth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="76" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1acd2930399cca720158438e257d6f003f" prot="private" static="no" mutable="no">
+        <type>SliderInt</type>
+        <definition>SliderInt AhahGames.GenesisNoise.Views.GenesisSettingsView.outputDepthScale</definition>
+        <argsstring></argsstring>
+        <name>outputDepthScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.outputDepthScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="77" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a6eab5ac145c1bfa7600f983ef4503444" prot="private" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Views.GenesisSettingsView.doubleBuffered</definition>
+        <argsstring></argsstring>
+        <name>doubleBuffered</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.doubleBuffered</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="79" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac590823b84367c6d88a7ee4b8b5c7797" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.GenesisSettingsView.refreshMode</definition>
+        <argsstring></argsstring>
+        <name>refreshMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.refreshMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="81" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac8204061b17a28cc833e396334c99c54" prot="private" static="no" mutable="no">
+        <type>FloatField</type>
+        <definition>FloatField AhahGames.GenesisNoise.Views.GenesisSettingsView.period</definition>
+        <argsstring></argsstring>
+        <name>period</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.period</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="82" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab7bfb9b0c7e28e78794b557f50f34d16" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kindref="compound">GenesisGraphView</ref></type>
+        <definition>GenesisGraphView AhahGames.GenesisNoise.Views.GenesisSettingsView.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="86" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a4688380db050fb1e73ca3f730673dafa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings" kindref="compound">GenesisNoiseSettings</ref></type>
+        <definition>GenesisNoiseSettings AhahGames.GenesisNoise.Views.GenesisSettingsView.settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="87" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a784b752f152cee4e690231f1ceca48fa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>GenesisGraph AhahGames.GenesisNoise.Views.GenesisSettingsView.graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.graph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="88" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a98573c7f918caf8b6c690663084c6fed" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Views.GenesisSettingsView.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.title</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="89" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ae24b0968115f3c924df18dd8b1c39d40" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Views.GenesisSettingsView.showSettingsForNode</definition>
+        <argsstring></argsstring>
+        <name>showSettingsForNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.showSettingsForNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="90" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a3de8a3174082417632abd8f8c1c413d0" prot="private" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action AhahGames.GenesisNoise.Views.GenesisSettingsView.onChanged</definition>
+        <argsstring></argsstring>
+        <name>onChanged</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.onChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="84" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a20d30eed7c2bc47c677fd961ba17a6ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Views.GenesisSettingsView.GenesisSettingsView</definition>
+        <argsstring>(GenesisNoiseSettings settings, GenesisGraphView owner, string title=&quot;Node Output Settings&quot;, bool showSettingsForNode=true)</argsstring>
+        <name>GenesisSettingsView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.GenesisSettingsView</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings" kindref="compound">GenesisNoiseSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kindref="compound">GenesisGraphView</ref></type>
+          <declname>owner</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+          <defval>&quot;Node Output Settings&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showSettingsForNode</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="99" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="99" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a36db0388c6712a6f716d9415b0fa5f14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisSettingsView.RegisterChangedCallback</definition>
+        <argsstring>(Action callback)</argsstring>
+        <name>RegisterChangedCallback</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.RegisterChangedCallback</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="398" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="398" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a8ba0f33fd36328a92ef70a42f01b3949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisSettingsView.RefreshSettingsValues</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshSettingsValues</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.RefreshSettingsValues</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="414" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="414" bodyend="435"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a907881d02f01559378c0487af1e6f82b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisSettingsView.ReloadSettingsView</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadSettingsView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.ReloadSettingsView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="113" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="113" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a8453d3d19ce03398f1a7bb1b1a7a5405" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisSettingsView.AddRealtimeFields</definition>
+        <argsstring>(GenesisGraphView owner)</argsstring>
+        <name>AddRealtimeFields</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.AddRealtimeFields</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kindref="compound">GenesisGraphView</ref></type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="350" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="350" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac598af2a16542fddf2b73f520437cebe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisSettingsView.SetVisible</definition>
+        <argsstring>(VisualElement element, bool visible)</argsstring>
+        <name>SetVisible</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.SetVisible</qualifiedname>
+        <param>
+          <type>VisualElement</type>
+          <declname>element</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>visible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="373" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="373" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a23be792205547c4d5fde15240b7b6e3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisSettingsView.UpdateFieldVisibility</definition>
+        <argsstring>(GenesisNoiseSettings settings)</argsstring>
+        <name>UpdateFieldVisibility</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.UpdateFieldVisibility</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings" kindref="compound">GenesisNoiseSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="381" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="381" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a696132aa0092c91cad1d3b55b5a3632c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Views.GenesisSettingsView.SizeScaleToInt</definition>
+        <argsstring>(float scale)</argsstring>
+        <name>SizeScaleToInt</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.SizeScaleToInt</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="400" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="400" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a53628d7e24e16f873ded209d7b02a5b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Views.GenesisSettingsView.IntToSizeScale</definition>
+        <argsstring>(int i)</argsstring>
+        <name>IntToSizeScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisSettingsView.IntToSizeScale</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="408" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="408" bodyend="412"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Views.GenesisSettingsView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Views.GenesisSettingsView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" line="12" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisSettingsView.cs" bodystart="13" bodyend="436"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a8453d3d19ce03398f1a7bb1b1a7a5405" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>AddRealtimeFields</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a6eab5ac145c1bfa7600f983ef4503444" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>doubleBuffered</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a07ee4b9b436a2ffe4c990fb71e869f9f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>filterMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a2e075f06f9f20ed09f704fa224f6fb49" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>formatHeader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a20d30eed7c2bc47c677fd961ba17a6ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>GenesisSettingsView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a784b752f152cee4e690231f1ceca48fa" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>graph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a88fe65255cba5f1380527810f87ad902" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>GraphOutputChannel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab2d5a5a1fe07b50e483de873e9068dae" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>GraphOutputDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac2106ff80bb85dedba563e8c52bc71bb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>GraphOutputFilterMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a56deba4f34a102fbea22c39dd3f1d255" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>GraphOutputPrecision</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a6272af7ed96032c4bfd5f47842258871" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>GraphOutputSizeMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aee03242a46d40169f23a8f932ad12ace" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>GraphOutputWrapMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a69666920250b7d3b354815d9c38913c6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>headerStyleClass</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a53628d7e24e16f873ded209d7b02a5b7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>IntToSizeScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a37d5a86b9441ad99fa241481dd75ddb0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>k_MaxSizeScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a3de8a3174082417632abd8f8c1c413d0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>onChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aca8c8aedf70b9524b07113fc70dab726" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>otherHeader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab61594fd836020ff7ddfa5a4172f2a17" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputChannels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a05197593193baab416ff45be22bac5c0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputDepth</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1acd2930399cca720158438e257d6f003f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputDepthScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a4d492276a4d771010bce464336be9ef6" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1af5926adee1be4812525331d8c0dc1c0d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1af68be7f0eed96685ebcf446573812897" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputHeightScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a7ed2c134cb1131b7afa85ab7e9363b8f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputPrecision</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a839095e498542565013fffdf007f1328" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputSizeMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a3a69e6de93d2c6244537c710ee338a8f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputWidth</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1adc42643b135255f75db87225fedd49bb" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>outputWidthScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ab7bfb9b0c7e28e78794b557f50f34d16" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>owner</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac8204061b17a28cc833e396334c99c54" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>period</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a9b88754a2c0330a1fcafbc20f928c4f2" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>potSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac590823b84367c6d88a7ee4b8b5c7797" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>refreshMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a8ba0f33fd36328a92ef70a42f01b3949" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>RefreshSettingsValues</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a36db0388c6712a6f716d9415b0fa5f14" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>RegisterChangedCallback</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a907881d02f01559378c0487af1e6f82b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>ReloadSettingsView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a4688380db050fb1e73ca3f730673dafa" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>settings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ac598af2a16542fddf2b73f520437cebe" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>SetVisible</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1ae24b0968115f3c924df18dd8b1c39d40" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>showSettingsForNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1aaa0290f701322cb3f23b6e06acf64917" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>sizeHeader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a696132aa0092c91cad1d3b55b5a3632c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>SizeScaleToInt</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a96312da6e88a3cc846444c89d0aee0ee" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>smpHeader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a557b1173d406b7682b3431a54c538680" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>SRGBOutputChannels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a98573c7f918caf8b6c690663084c6fed" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>title</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a23be792205547c4d5fde15240b7b6e3e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>UpdateFieldVisibility</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view_1a9de1f78bb67244103d44fd25d5b5926c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisSettingsView</scope><name>wrapMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

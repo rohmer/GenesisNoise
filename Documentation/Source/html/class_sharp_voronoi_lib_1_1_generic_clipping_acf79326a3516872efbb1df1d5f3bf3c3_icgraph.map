@@ -1,8 +1,0 @@
-<map id="SharpVoronoiLib.GenericClipping.ClipRay" name="SharpVoronoiLib.GenericClipping.ClipRay">
-<area shape="rect" id="Node000001" title=" " alt="" coords="555,29,770,72"/>
-<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_generic_clipping.html#ae94869abc3e85e8cc246b90155a3c4c5" title="Combination of personal ray clipping alg and cohen sutherland." alt="" coords="292,29,507,72"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="537,51,507,53,507,48,542,51"/>
-<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="441,13,426,10,399,8,374,10,359,15,353,21,355,30,350,27,348,19,356,10,373,5,399,3,427,5,446,14"/>
-<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_generic_clipping.html#accb3a5c68e1c0d80a1045c2cd8da9397" title=" " alt="" coords="5,37,244,64"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,51,244,53,244,48,279,51"/>
-</map>

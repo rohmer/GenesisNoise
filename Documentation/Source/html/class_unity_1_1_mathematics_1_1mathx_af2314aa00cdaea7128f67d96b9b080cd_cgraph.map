@@ -1,9 +1,0 @@
-<map id="Unity.Mathematics.mathx.List" name="Unity.Mathematics.mathx.List">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,7,201,33"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="492,7,670,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,8,249,5,346,3,444,5,479,10,474,10,444,11,346,8,249,11,202,14"/>
-<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#aa252275f226f626e09a5ae7b1bf72329" title="Returns a list containing individual components of this vector." alt="" coords="249,44,444,71"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,31,242,41,237,41,194,37"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="434,41,475,37,481,36,434,46"/>
-<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="307,43,300,35,305,26,320,20,346,17,375,20,391,30,386,29,373,25,346,23,322,25,308,30,305,35,311,45"/>
-</map>

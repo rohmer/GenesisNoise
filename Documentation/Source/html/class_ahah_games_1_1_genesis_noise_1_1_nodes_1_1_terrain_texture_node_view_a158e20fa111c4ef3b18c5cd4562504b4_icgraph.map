@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.TerrainTextureNodeView.SetValue" name="AhahGames.GenesisNoise.Nodes.TerrainTextureNodeView.SetValue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="556,5,781,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_texture_node_view.html#a97130c6336fd9bd38f0e453dc1fd8185" title=" " alt="" coords="5,5,231,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="538,23,508,25,279,25,231,26,231,21,279,20,508,20,543,23"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_texture_node_view.html#aacbf1e1b654a6da83c5dc39c7c2e4be4" title=" " alt="" coords="279,35,508,77"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="543,40,509,46,508,41,538,41"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="261,42,231,41,231,36,266,42"/>
-</map>

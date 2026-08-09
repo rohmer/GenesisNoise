@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.GenesisNodeInspectorEditor.HandleZoomAndPan" name="AhahGames.GenesisNoise.Graph.GenesisNodeInspectorEditor.HandleZoomAndPan">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,35,239,93"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector_editor.html#a1a1dc5655aecb947a440d7ce408369ca" title=" " alt="" coords="287,5,561,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,47,274,45,268,46,240,52"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector_editor.html#a7f612bb79dfe27fc4d47fdb5f26349dd" title=" " alt="" coords="312,72,536,131"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,76,299,85,294,86,239,81"/>
-</map>

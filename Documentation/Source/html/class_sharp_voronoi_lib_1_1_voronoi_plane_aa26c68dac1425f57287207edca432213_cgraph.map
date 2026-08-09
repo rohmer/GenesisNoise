@@ -1,7 +1,0 @@
-<map id="SharpVoronoiLib.VoronoiPlane.GetNearestSiteTo" name="SharpVoronoiLib.VoronoiPlane.GetNearestSiteTo">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,205,81"/>
-<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_voronoi_plane.html#a7da07fc5491adbec9debd13a2a088fca" title=" " alt="" coords="253,5,461,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,44,240,42,235,43,206,49"/>
-<area shape="rect" id="Node000003" href="$interface_sharp_voronoi_lib_1_1_i_nearest_site_lookup.html#a66d6282a7d8cb23c698f567a12901acf" title=" " alt="" coords="260,72,454,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,71,247,78,241,79,205,76"/>
-</map>

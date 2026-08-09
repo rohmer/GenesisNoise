@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1ab4a9e0d4a7dece1f09cc2a1b412541cc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.identifier</definition>
+        <argsstring></argsstring>
+        <name>identifier</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.identifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="42" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a259ca65b57ddd6dbf713faeb77195f5a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.displayName</definition>
+        <argsstring></argsstring>
+        <name>displayName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.displayName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="43" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a645c4563d7e01ba85c8dd20f02873a55" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_serializable_type" kindref="compound">SerializableType</ref></type>
+        <definition>SerializableType AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.displayType</definition>
+        <argsstring></argsstring>
+        <name>displayType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.displayType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="44" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1ade925e8af5ef78bf07aba8818180f951" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.acceptMultipleEdges</definition>
+        <argsstring></argsstring>
+        <name>acceptMultipleEdges</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.acceptMultipleEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="45" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a6a57d8d9a5ab0f664738078769fbb4bf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.sizeInPixel</definition>
+        <argsstring></argsstring>
+        <name>sizeInPixel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.sizeInPixel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="46" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a3e2b015ea75eb09a2c942cfa54446d1c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.tooltip</definition>
+        <argsstring></argsstring>
+        <name>tooltip</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.tooltip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="47" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1ab6b00fd345db427d7902fa703a8dcdc3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.vertical</definition>
+        <argsstring></argsstring>
+        <name>vertical</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.vertical</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="48" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a8f2e3b24ca1655d6f4990af405689773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.BlueprintPortSnapshot</definition>
+        <argsstring>(PortData port)</argsstring>
+        <name>BlueprintPortSnapshot</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.BlueprintPortSnapshot</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_port_data" kindref="compound">PortData</ref></type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="50" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a52a1b0d7d5d66394335a8de1a1caf695" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_port_data" kindref="compound">PortData</ref></type>
+        <definition>PortData AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.ToPortData</definition>
+        <argsstring>()</argsstring>
+        <name>ToPortData</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BlueprintPortSnapshot.ToPortData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="61" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="61" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" line="40" column="5" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/BlueprintNode.cs" bodystart="41" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1ade925e8af5ef78bf07aba8818180f951" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>acceptMultipleEdges</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a8f2e3b24ca1655d6f4990af405689773" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>BlueprintPortSnapshot</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a259ca65b57ddd6dbf713faeb77195f5a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>displayName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a645c4563d7e01ba85c8dd20f02873a55" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>displayType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1ab4a9e0d4a7dece1f09cc2a1b412541cc" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>identifier</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a6a57d8d9a5ab0f664738078769fbb4bf" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>sizeInPixel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a3e2b015ea75eb09a2c942cfa54446d1c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>tooltip</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1a52a1b0d7d5d66394335a8de1a1caf695" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>ToPortData</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_port_snapshot_1ab6b00fd345db427d7902fa703a8dcdc3" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BlueprintPortSnapshot</scope><name>vertical</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

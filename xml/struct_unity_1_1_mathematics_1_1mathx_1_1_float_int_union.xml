@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_unity_1_1_mathematics_1_1mathx_1_1_float_int_union" kind="struct" language="C#" prot="private">
+    <compoundname>Unity::Mathematics::mathx::FloatIntUnion</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1mathx_1_1_float_int_union_1a6ed2f2097ff4a458e0724f296f2383f5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Unity.Mathematics.mathx.FloatIntUnion.f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <qualifiedname>Unity.Mathematics.mathx.FloatIntUnion.f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" line="20" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1mathx_1_1_float_int_union_1ad86054a897134ce5ba56458eb3654fa5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Unity.Mathematics.mathx.FloatIntUnion.tmp</definition>
+        <argsstring></argsstring>
+        <name>tmp</name>
+        <qualifiedname>Unity.Mathematics.mathx.FloatIntUnion.tmp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" line="21" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" line="18" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath/FastFunctions.cs" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="struct_unity_1_1_mathematics_1_1mathx_1_1_float_int_union_1a6ed2f2097ff4a458e0724f296f2383f5" prot="public" virt="non-virtual"><scope>Unity::Mathematics::mathx::FloatIntUnion</scope><name>f</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1mathx_1_1_float_int_union_1ad86054a897134ce5ba56458eb3654fa5" prot="public" virt="non-virtual"><scope>Unity::Mathematics::mathx::FloatIntUnion</scope><name>tmp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

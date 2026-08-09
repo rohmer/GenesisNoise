@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.ComputeShaderNode.ComputeIsValid" name="AhahGames.GenesisNoise.Nodes.ComputeShaderNode.ComputeIsValid">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,248,115"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node.html#a7f1a1bf16ba20ccb27380772ebb2d24e" title="Add a message on the node." alt="" coords="340,5,524,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,69,327,49,322,51,228,74"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node.html#a704c16ae1013d30f190bc70222d5ca47" title="Remove all messages on the node." alt="" coords="340,72,524,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,91,327,93,322,94,249,96"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node.html#ab81594873840296db1ce62d4d9764b2c" title=" " alt="" coords="296,139,568,181"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,113,319,134,314,135,227,118"/>
-</map>

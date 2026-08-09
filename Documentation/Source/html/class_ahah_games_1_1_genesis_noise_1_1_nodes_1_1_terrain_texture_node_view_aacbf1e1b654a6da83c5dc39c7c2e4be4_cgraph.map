@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.TerrainTextureNodeView.SetTexture" name="AhahGames.GenesisNoise.Nodes.TerrainTextureNodeView.SetTexture">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,43,235,85"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_texture_node_view.html#a158e20fa111c4ef3b18c5cd4562504b4" title=" " alt="" coords="283,43,508,85"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,61,270,64,265,64,235,67"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html#ac8c5ced56f74d24bb1f9b535945a5279" title="Send an event to the graph telling that the content of this node have changed." alt="" coords="569,5,781,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="508,46,556,42,551,43,509,52"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_texture_node_view.html#a124299f0b546054d6d69d28e1649f25a" title=" " alt="" coords="556,72,794,131"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="509,76,543,83,538,83,509,82"/>
-</map>

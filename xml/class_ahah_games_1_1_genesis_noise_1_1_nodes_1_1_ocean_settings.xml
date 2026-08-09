@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings" kind="class" language="C#" prot="package">
+    <compoundname>AhahGames::GenesisNoise::Nodes::OceanSettings</compoundname>
+    <sectiondef kind="package-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a5e8eafd8c3918457732480f1eb8b9eb1" prot="package" static="no" strong="yes">
+        <type></type>
+        <name>eOceanType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.OceanSettings.eOceanType</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a5e8eafd8c3918457732480f1eb8b9eb1a6adf97f83acf6453d4a6a4b1070f3754" prot="package">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a5e8eafd8c3918457732480f1eb8b9eb1a1fbb1e3943c2c6c560247ac8f9289780" prot="package">
+          <name>Simple</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" line="10" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" bodystart="11" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a67868a7afa505a54cf5b79512a82d57c" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.OceanSettings.generateOceanMesh</definition>
+        <argsstring></argsstring>
+        <name>generateOceanMesh</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.OceanSettings.generateOceanMesh</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" line="25" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a05681069bd127e4a6151979887ae19ca" prot="package" static="no" mutable="no">
+        <type>eOceanType</type>
+        <definition>eOceanType AhahGames.GenesisNoise.Nodes.OceanSettings.oceanType</definition>
+        <argsstring></argsstring>
+        <name>oceanType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.OceanSettings.oceanType</qualifiedname>
+        <initializer>= eOceanType.Simple</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" line="34" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1af312518239b24d3ede3d0a1b13a4053b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.OceanSettings.generateSettings</definition>
+        <argsstring>()</argsstring>
+        <name>generateSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.OceanSettings.generateSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" line="47" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" bodystart="47" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" line="8" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/OceanSettings.cs" bodystart="9" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a5e8eafd8c3918457732480f1eb8b9eb1" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::OceanSettings</scope><name>eOceanType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a67868a7afa505a54cf5b79512a82d57c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::OceanSettings</scope><name>generateOceanMesh</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1af312518239b24d3ede3d0a1b13a4053b" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::OceanSettings</scope><name>generateSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_1a05681069bd127e4a6151979887ae19ca" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::OceanSettings</scope><name>oceanType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

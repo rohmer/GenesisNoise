@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_doesnt_have_sites_exception" kind="class" language="C#" prot="public">
+    <compoundname>SharpVoronoiLib::Exceptions::VoronoiDoesntHaveSitesException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_doesnt_have_sites_exception_1a43ba165297cab1fd1ec97d068011c80d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.Exceptions.VoronoiDoesntHaveSitesException.VoronoiDoesntHaveSitesException</definition>
+        <argsstring>()</argsstring>
+        <name>VoronoiDoesntHaveSitesException</name>
+        <qualifiedname>SharpVoronoiLib.Exceptions.VoronoiDoesntHaveSitesException.VoronoiDoesntHaveSitesException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiDoesntHaveSitesException.cs" line="8" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiDoesntHaveSitesException.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.Exceptions.VoronoiDoesntHaveSitesException</label>
+        <link refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_doesnt_have_sites_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.Exceptions.VoronoiDoesntHaveSitesException</label>
+        <link refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_doesnt_have_sites_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiDoesntHaveSitesException.cs" line="6" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiDoesntHaveSitesException.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_doesnt_have_sites_exception_1a43ba165297cab1fd1ec97d068011c80d" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::Exceptions::VoronoiDoesntHaveSitesException</scope><name>VoronoiDoesntHaveSitesException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

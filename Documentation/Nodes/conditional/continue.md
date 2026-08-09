@@ -35,7 +35,7 @@ Place this node on the loop's main value path when you want its input to become 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 73f3d89f-d680-4c25-85d9-84cd5ae27afd | |
+| GUID | String | 0bf62e54-d6a1-4bf6-9fe8-17b64aea4546 | |
 | expanded | Boolean | False | |
 
 ## See Also

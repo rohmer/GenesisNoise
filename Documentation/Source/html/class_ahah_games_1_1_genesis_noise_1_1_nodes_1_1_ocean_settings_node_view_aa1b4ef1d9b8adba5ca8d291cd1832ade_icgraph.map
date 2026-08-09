@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.ApplySettingsChangeAndRedraw" name="AhahGames.GenesisNoise.Nodes.OceanSettingsNodeView.ApplySettingsChangeAndRedraw">
-<area shape="rect" id="Node000001" title=" " alt="" coords="580,5,831,64"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#adfc81b5fcd0d6ae15fac358ec3a30b32" title=" " alt="" coords="291,5,532,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="562,35,532,37,532,32,567,35"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_ocean_settings_node_view.html#afc73f228790ea246484f98f8539eacb3" title=" " alt="" coords="5,13,243,56"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="272,35,243,37,243,32,277,34"/>
-</map>

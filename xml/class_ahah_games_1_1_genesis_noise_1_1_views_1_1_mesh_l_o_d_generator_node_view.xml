@@ -1,0 +1,537 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view" kind="class" language="C#" prot="package">
+    <compoundname>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Views.GenesisNodeView</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a3bb7c5b7b49afda8d7895295d96f4ee2" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node" kindref="compound">MeshLODGeneratorNode</ref></type>
+        <definition>MeshLODGeneratorNode AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="12" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ab52d315ec1c5c119156b6d5594f8b553" prot="private" static="no" mutable="no">
+        <type>EnumField</type>
+        <definition>EnumField AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.preset</definition>
+        <argsstring></argsstring>
+        <name>preset</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.preset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="14" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a0990e9a82f0fc34d13acdf1befa2260e" prot="private" static="no" mutable="no">
+        <type>SliderInt</type>
+        <definition>SliderInt AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.lodLevels</definition>
+        <argsstring></argsstring>
+        <name>lodLevels</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.lodLevels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="15" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ab453fbdcbfb50309a9d954ea7d322297" prot="private" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.includeCulledLevel</definition>
+        <argsstring></argsstring>
+        <name>includeCulledLevel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.includeCulledLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="16" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ad3f0c06f0cef3cdca39df55d820b69b5" prot="private" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.regenerateOnProcess</definition>
+        <argsstring></argsstring>
+        <name>regenerateOnProcess</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.regenerateOnProcess</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="17" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a7da2bd8407a8f43602b77c0fce2a2250" prot="private" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.recalculateNormals</definition>
+        <argsstring></argsstring>
+        <name>recalculateNormals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.recalculateNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="18" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a2a73e2512bd204ce3300d0dda008832b" prot="private" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.customControls</definition>
+        <argsstring></argsstring>
+        <name>customControls</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.customControls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="19" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a3993f185f0b4c42fa74b6b54a8b0f079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.Enable</definition>
+        <argsstring>(bool fromInspector)</argsstring>
+        <name>Enable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.Enable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>fromInspector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="21" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="21" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a7f0d43f945a041f4b0a446df3b4c9937" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.RedrawControls</definition>
+        <argsstring>()</argsstring>
+        <name>RedrawControls</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.RedrawControls</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="41" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="41" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ab78e659327e465d2bfd6e6ad3ef6a0ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Slider</type>
+        <definition>Slider AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.CreateQualitySlider</definition>
+        <argsstring>(int lodIndex)</argsstring>
+        <name>CreateQualitySlider</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.CreateQualitySlider</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="104" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="104" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a0f36b7c1c56ef4e653177dcead9732b8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Slider</type>
+        <definition>Slider AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.CreateTransitionSlider</definition>
+        <argsstring>(int lodIndex)</argsstring>
+        <name>CreateTransitionSlider</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.CreateTransitionSlider</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="115" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="115" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1af2f54fb3a43e5a8afb0d7a314791847d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.SetValue</definition>
+        <argsstring>(string undoName, System.Action setter)</argsstring>
+        <name>SetValue</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.SetValue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>undoName</declname>
+        </param>
+        <param>
+          <type>System.Action</type>
+          <declname>setter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="127" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="127" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a26c3b53cf3c0dfb3c70d0a5b0aeabb1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.GetQuality</definition>
+        <argsstring>(int lodIndex)</argsstring>
+        <name>GetQuality</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.GetQuality</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="137" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="137" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a5e5616433d71acc4d269c7e8d59e46b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.SetQuality</definition>
+        <argsstring>(int lodIndex, float value)</argsstring>
+        <name>SetQuality</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.SetQuality</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="147" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="147" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ae860c01d35e6a6ec7c36ea0d804ebfa0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.GetTransition</definition>
+        <argsstring>(int lodIndex)</argsstring>
+        <name>GetTransition</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.GetTransition</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="159" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="159" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1acc18ced15ca9fb948987200503692a58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.SetTransition</definition>
+        <argsstring>(int lodIndex, float value)</argsstring>
+        <name>SetTransition</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.SetTransition</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="170" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="170" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a3cdbe497dd15bfb78e94a35426a35e3b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.ImpostorResolutionToIndex</definition>
+        <argsstring>(int resolution)</argsstring>
+        <name>ImpostorResolutionToIndex</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.ImpostorResolutionToIndex</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="183" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="183" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a22d28418f10ef0071c85703c95e0b2b7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.ImpostorIndexToResolution</definition>
+        <argsstring>(int index)</argsstring>
+        <name>ImpostorIndexToResolution</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView.ImpostorIndexToResolution</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="192" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="192" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Views.GenesisNodeView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseNodeView</label>
+        <link refid="class_graph_processor_1_1_base_node_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>NodeView</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Views.MeshLODGeneratorNodeView</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Views.GenesisNodeView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>settingsView</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>AhahGames.GenesisNoise.Views.GenesisSettingsView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_settings_view"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>inputPorts</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>outputPorts</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseNodeView</label>
+        <link refid="class_graph_processor_1_1_base_node_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>nodeTarget</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.NodeInputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_input_port_container"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.NodeOutputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_output_port_container"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.NodePortContainer</label>
+        <link refid="class_graph_processor_1_1_node_port_container"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="8">
+        <label>List&lt; NodePort &gt;</label>
+      </node>
+      <node id="4">
+        <label>NodeView</label>
+      </node>
+      <node id="11">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="14">
+        <label>VisualElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" line="10" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/MeshLODGeneratorNodeView.cs" bodystart="11" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_node_view_1a50907ae2581b3dc8191c97ad53da80f5" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AddControlField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af7f6ca08799d88b5a776ceaf4fecd43b" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AddControlField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a1eb6c87db2252ea8b963c49ec37895dd" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AddInputContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a350ab20790bfed0a1f07d761b7c3eba1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AddMessageView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ab9ca0653976204e6b548b2a73f8bcc35" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AddMessageView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a99918747dbffad96134756cbd04bf0ff" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AddPort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a52a3bde26b6632c908a0bb7b7d917e70" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AddSettingField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a106cefc3c32a1d6e380cd1de08e2d65f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AlignToBottom</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aa99d13abf49ea3884cb87f2b4e47808e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AlignToCenter</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ae975bafd92e7a016c32812fab4ecebc5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AlignToLeft</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aaaa7e81ffbde2e5a80c35285b7ac9cbb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AlignToMiddle</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a7dd61ba718134d6ea280773a9e8b9fe7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AlignToRight</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac18f649600b73f47db3082cf0c0706d7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>AlignToTop</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a69687fb46951998496528c103f094cca" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>bottomPortContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a1c72e0e91f6b94da6b59cebde80eb95c" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>BuildAlignMenu</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a6c1e4519bbb579071ed31ecb8b7cb541" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>BuildContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ae98bcebea1ad383d299ae8f7d4da378f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>ChangeLockStatus</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a710e711279ae0f63be2c512b6644b1ea" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>CheckPropertyChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aea821ac4a7d81e62435c262fbc9f6f71" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>CloseSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a9ca6a39161df5a6a12e4888025100f71" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>controlsContainer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1aba1ccd02ff4fce1f74030574b504dade" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>CreatePortView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ab78e659327e465d2bfd6e6ad3ef6a0ea" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>CreateQualitySlider</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1ab20a016d74b30ee23a475187a7fc04ad" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>CreateSettingsView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a0d2de2bf56056287c98f503167138178" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>CreateTexturePreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a0f36b7c1c56ef4e653177dcead9732b8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>CreateTransitionSlider</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a2a73e2512bd204ce3300d0dda008832b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>customControls</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a65b6e1eafae6d4c8a7c2e33371d52678" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>debugContainer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a2e96db9f6669a201555a0dd42d39e7b6" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>Disable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac8f63db979a84407faba61da00b43dbd" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>DrawDefaultInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1afbf445ba610f984a6fd8fb9da911a743" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>DrawImGUIPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a7261ac9d1a8f3406b074fa21b8ee56bb" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>DrawPreviewSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a136b32d515a8717ae4254112ad8ffc4d" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>DrawPreviewToolbar</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a3993f185f0b4c42fa74b6b54a8b0f079" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>Enable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ae4d393781e912d16b95af3f397123073" prot="public" virt="virtual" ambiguityscope="GraphProcessor::BaseNodeView."><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>Enable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a12e23ba2d84e4ae80c7b1aae11a02d9d" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>EnableSyncSelectionBorderHeight</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a09941c3dcfb2138943e33ff829df20f8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>expanded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1afae8063e7740f2ab61d8fcf068fa3535" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>FindSerializedProperty</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a08b10e6812101308a44521a84185e09b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>ForceUpdatePorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1aa48f7d0563c045b9ccadfb5bf87ec6d7" prot="package" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>FormatProcessingTime</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a824e0538b76963a89f02a254620667ef" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetFirstPortViewFromFieldName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1aa65b7926aebc303572b9b9ff7cffcdb6" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetMaterialHash</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a7f3d85a9410d3e45ab0321fe32164ab4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetNodeRect</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a36353442e8b92ed24ec139b5d43ecce3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetPortViewFromFieldName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a83a958d19f5be8fbca06c8ee69a32895" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetPortViewsFromFieldName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1ae7fa9a063b60f8428e9b8a367da8cf45" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetPreviewMousePositionBetween01</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a26c3b53cf3c0dfb3c70d0a5b0aeabb1b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetQuality</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ae860c01d35e6a6ec7c36ea0d804ebfa0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>GetTransition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a4d3870d1ab8dfc9eab80989c9aac0f03" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>hasSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1aa4a4d6184b22dfb2b7e9bdf9f8c3e52b" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>header</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a3bee0399b1e8535e35d97907f050c48b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>Highlight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a22d28418f10ef0071c85703c95e0b2b7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>ImpostorIndexToResolution</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a3cdbe497dd15bfb78e94a35426a35e3b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>ImpostorResolutionToIndex</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ab453fbdcbfb50309a9d954ea7d322297" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>includeCulledLevel</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a9ec4f4547085b2fbc2736eb09243d47f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1aa61453b57289f283498e43307b688c2c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>initializing</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1afe90a371ba6a422f76f3620c4f1cf84b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>inputPortViews</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1abec514823b07a2da1308055ae9391bea" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>InsertPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a0990e9a82f0fc34d13acdf1befa2260e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>lodLevels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a7ad2e3ebb876b8bf46a90be922beb162" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>materialEditors</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1ab167d16555804a57733f8779d4b10f55" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>MaterialPropertiesGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a3bb7c5b7b49afda8d7895295d96f4ee2" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>node</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a4fb84d39f7ca614767aa6e86f05fc28b" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>nodeTarget</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac8c5ced56f74d24bb1f9b535945a5279" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>NotifyNodeChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac431f0e789bdc8c3203d92af329ac107" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>OnCreated</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a70ccbe2fceccaf418680993f54b815cb" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>OnPortConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ad5d761525da47b53fef9cadf3cfe9b5f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>onPortConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a39d847bc0e410c5171e051577558e412" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>OnPortDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ab06b6d2914674325892240c55cea9e03" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>onPortDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a0d0c4387126b77b93f5eb52db26fef37" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>OnRemoved</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a0dcc5f9da22fe658d42dd3e4c89e72df" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>OpenNodeScript</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a7aea2078fb3d74d5fcdc8bb70e08c6d9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>OpenNodeViewScript</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a64bbd80a01c2d0bd7230425ae8f93ef4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>OpenSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ad23c205eec5001df622a52c74ef48296" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>outputPortViews</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a5dcc6bb9927ff8c67620148f3f56b724" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>owner</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1ade0e834d8965f725368789aa804696cc" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>PinView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a55aa757598007de7390174c5c50faf49" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>portsPerFieldName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ab52d315ec1c5c119156b6d5594f8b553" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>preset</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1adccf2756b166d0a8111094cee82047d1" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>previewContainer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a7da2bd8407a8f43602b77c0fce2a2250" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>recalculateNormals</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a7f0d43f945a041f4b0a446df3b4c9937" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>RedrawControls</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af2d3b0f3533c62dbccaac8896826f744" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>RefreshPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a866cedaf78c46087931c628288f5ba07" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>RefreshSettingsValues</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1ad3f0c06f0cef3cdca39df55d820b69b5" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>regenerateOnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a82110b7ee9867e9dc7ed0db690367c80" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>RemoveMessageView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af01d1fa88148113c38f45b8aee6e2083" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>RemoveMessageViewContains</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1afaf4312ed9d1da5380aef13e496042d2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>RemovePort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1adb1c3f18456d1e3e11b6e775ba264f1a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>rightTitleContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1af749e83875d5703877e81e7bb52b21d3" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>SetNodeColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1ab14d8fcbba22141c699d38f9410ae054" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>SetPosition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1a5e5616433d71acc4d269c7e8d59e46b4" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>SetQuality</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a39f07585ad31456f132aa90fde129a52" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>settingsView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1acc18ced15ca9fb948987200503692a58" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>SetTransition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_mesh_l_o_d_generator_node_view_1af2f54fb3a43e5a8afb0d7a314791847d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>SetValue</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1a75cc378f859d2fa7119d3ec9861a43b9" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>SyncSerializedPropertyPathes</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1abe08b235f647d32c9b69cc566b667e2c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>ToggleDebug</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ad30d6d7a148fc53e45ea25544acffeaf" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>topPortContainer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1ac2530b80af10fda2a9d0dc38f2f1e6e3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>UnHighlight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view_1a48268255161f2eac648de59b60a1b68e" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>UnpinView</name></member>
+      <member refid="class_graph_processor_1_1_base_node_view_1adfcbe9a494775d9cfaf1e92faba2541e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MeshLODGeneratorNodeView</scope><name>UpdateDebugView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

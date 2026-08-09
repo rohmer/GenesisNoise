@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_2fb3fb727f463b377372a3c5aa00e9c4" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials</compoundname>
+    <innerdir refid="dir_79e3c3f16785e26a13bb25ffbd4c45d6">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations</innerdir>
+    <innerdir refid="dir_c915aa1c0f7aa667aa498814158c5116">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean</innerdir>
+    <innerfile refid="_biome_8cs">Biome.cs</innerfile>
+    <innerfile refid="_biome_data_8cs">BiomeData.cs</innerfile>
+    <innerfile refid="_biome_manager_node_8cs">BiomeManagerNode.cs</innerfile>
+    <innerfile refid="_biome_node_8cs">BiomeNode.cs</innerfile>
+    <innerfile refid="_terrain_texture_node_8cs">TerrainTextureNode.cs</innerfile>
+    <innerfile refid="_texture_definition_8cs">TextureDefinition.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/"/>
+  </compounddef>
+</doxygen>

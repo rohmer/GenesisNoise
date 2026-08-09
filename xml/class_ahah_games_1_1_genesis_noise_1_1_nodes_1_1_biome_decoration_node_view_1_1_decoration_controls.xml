@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1aa55429f9c5709491d550339203ad0d3c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Slider</type>
+        <definition>Slider AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.Coverage</definition>
+        <argsstring></argsstring>
+        <name>Coverage</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.Coverage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="351" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="351" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a44affe0b402dd26b9e9ff22b7f6135c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.PlacementDrop</definition>
+        <argsstring></argsstring>
+        <name>PlacementDrop</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.PlacementDrop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="352" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="352" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a4655603f332d5e7f2ad3abb78b2b5bd2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Slider</type>
+        <definition>Slider AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.DropHeight</definition>
+        <argsstring></argsstring>
+        <name>DropHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.DropHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="353" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="353" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a1ae573a60e1f4de2b6ad4d4da53c8d38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeRotation</definition>
+        <argsstring></argsstring>
+        <name>RandomizeRotation</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="354" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="354" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a4ef3c37cad1e699d942ce2aa063fbb66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeX</definition>
+        <argsstring></argsstring>
+        <name>RandomizeX</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="355" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="355" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a1953d079f23d2e26c152da70386d1c6f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeY</definition>
+        <argsstring></argsstring>
+        <name>RandomizeY</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="356" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="356" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1af09bae6467da3be45e44563473bf9cf2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeZ</definition>
+        <argsstring></argsstring>
+        <name>RandomizeZ</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="357" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="357" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a4225a0ddcfd1a913bda6cb5e62f11d08" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeSize</definition>
+        <argsstring></argsstring>
+        <name>RandomizeSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RandomizeSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="358" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="358" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a82bac163ba335faf87b40da6d3239283" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>FloatField</type>
+        <definition>FloatField AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.MinSize</definition>
+        <argsstring></argsstring>
+        <name>MinSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.MinSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="359" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="359" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a62de9443b4402de78aa42d6a9e41e8cc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>FloatField</type>
+        <definition>FloatField AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.MaxSize</definition>
+        <argsstring></argsstring>
+        <name>MaxSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.MaxSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="360" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="360" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a43e4c7de212f6ca0cffa9034ccbd12d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RotationAxesContainer</definition>
+        <argsstring></argsstring>
+        <name>RotationAxesContainer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.RotationAxesContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="361" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="361" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1aab7938c2cedb2c3bab1721c86731d935" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.SizeRangeContainer</definition>
+        <argsstring></argsstring>
+        <name>SizeRangeContainer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.SizeRangeContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="362" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="362" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1af1d645adafb367deddaec9e79f3b5638" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.DropHeightContainer</definition>
+        <argsstring></argsstring>
+        <name>DropHeightContainer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecorationNodeView.DecorationControls.DropHeightContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="363" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="363" bodyend="363"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" line="349" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/BiomeDecorationNodeView.cs" bodystart="350" bodyend="364"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1aa55429f9c5709491d550339203ad0d3c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>Coverage</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a4655603f332d5e7f2ad3abb78b2b5bd2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>DropHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1af1d645adafb367deddaec9e79f3b5638" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>DropHeightContainer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a62de9443b4402de78aa42d6a9e41e8cc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>MaxSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a82bac163ba335faf87b40da6d3239283" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>MinSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a44affe0b402dd26b9e9ff22b7f6135c4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>PlacementDrop</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a1ae573a60e1f4de2b6ad4d4da53c8d38" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>RandomizeRotation</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a4225a0ddcfd1a913bda6cb5e62f11d08" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>RandomizeSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a4ef3c37cad1e699d942ce2aa063fbb66" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>RandomizeX</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a1953d079f23d2e26c152da70386d1c6f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>RandomizeY</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1af09bae6467da3be45e44563473bf9cf2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>RandomizeZ</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1a43e4c7de212f6ca0cffa9034ccbd12d2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>RotationAxesContainer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node_view_1_1_decoration_controls_1aab7938c2cedb2c3bab1721c86731d935" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecorationNodeView::DecorationControls</scope><name>SizeRangeContainer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

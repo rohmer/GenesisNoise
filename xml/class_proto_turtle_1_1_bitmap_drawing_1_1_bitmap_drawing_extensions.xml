@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions" kind="class" language="C#" prot="public">
+    <compoundname>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</compoundname>
+    <innerclass refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_flat2_d_array" prot="private">ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions::Flat2DArray</innerclass>
+    <innerclass refid="struct_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1_1_point" prot="private">ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions::Point</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a2a14f7d37cde7afe7100db67facbbc67" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawPixel</definition>
+        <argsstring>(this Texture2D texture, int x, int y, Color color)</argsstring>
+        <name>DrawPixel</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawPixel</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Draws a pixel just like SetPixel except 0,0 is the left top corner. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="45" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ad4a154f73cef2e81dc2ae832062c8666" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawPixel</definition>
+        <argsstring>(this Texture2D texture, int x, int y, int width, int height, Color color)</argsstring>
+        <name>DrawPixel</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawPixel</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Draws a pixel just like SetPixel except 0,0 is the left top corner. Takes the width and height as parameters - faster for calling this in a loop. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of the target bitmap</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of the target bitmap</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="60" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ab3d8afd6c832e066400fe2647490e272" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawCircle</definition>
+        <argsstring>(this Texture2D texture, int x, int y, int radius, Color color)</argsstring>
+        <name>DrawCircle</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawCircle</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Draws a circle with the midpoint being x0, x1. Implementation of Bresenham&apos;s circle algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="73" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ad9f628564b01996066bbd09ca2b0c2e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledCircle</definition>
+        <argsstring>(this Texture2D texture, int x, int y, int radius, Color color)</argsstring>
+        <name>DrawFilledCircle</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledCircle</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Draws a filled circle with the midpoint being x0, x1. Implementation of Bresenham&apos;s circle algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="82" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aaa414fa28130131cb72e08c06967d323" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.FloodFill</definition>
+        <argsstring>(this Texture2D texture, int startX, int startY, Color newColor)</argsstring>
+        <name>FloodFill</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.FloodFill</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startY</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>newColor</declname>
+        </param>
+        <briefdescription>
+<para>Starts a flood fill at point startX, startY. This is a pretty slow flood fill, biggest bottle neck is comparing two colors which happens a lot. Should be a way to make it much faster. O(n) space. n = width*height - makes a copy of the bitmap temporarily in the memory. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>texture</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startX</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startY</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newColor</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="163" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="163" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a9a81871db143ed2e3c82d7de9c3a465b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawRectangle</definition>
+        <argsstring>(this Texture2D texture, Rect rectangle, Color color)</argsstring>
+        <name>DrawRectangle</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawRectangle</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>rectangle</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Draws a rectangle. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="283" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="283" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ae5f0145bfb27a5d6eba07a544c7fa817" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledRectangle</definition>
+        <argsstring>(this Texture2D texture, Rect rectangle, Color color)</argsstring>
+        <name>DrawFilledRectangle</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledRectangle</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>rectangle</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Fills the given rectangle area with a solid color. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="307" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="307" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aa014051d7817ee13043c46203e02aa17" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledPolygon</definition>
+        <argsstring>(this Texture2D texture, IList&lt; Vector2 &gt; points, Color color)</argsstring>
+        <name>DrawFilledPolygon</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawFilledPolygon</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>IList&lt; Vector2 &gt;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Draws a filled polygon from a list of points. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="325" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="325" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a40e2d6d9662600b6c0f544dcde7052f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawLine</definition>
+        <argsstring>(this Texture2D texture, Vector3 start, Vector3 end, Color color)</argsstring>
+        <name>DrawLine</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawLine</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="391" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="391" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aed92f46c107a00fed28bba1376271a1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawLine</definition>
+        <argsstring>(this Texture2D texture, Vector2 start, Vector2 end, Color color)</argsstring>
+        <name>DrawLine</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawLine</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="396" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="396" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a0c5d79ec7592ce17058587399f5cbc98" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawLine</definition>
+        <argsstring>(this Texture2D texture, int x0, int y0, int x1, int y1, Color color)</argsstring>
+        <name>DrawLine</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawLine</qualifiedname>
+        <param>
+          <type>this Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Draws a line between two points. Implementation of Bresenham&apos;s line algorithm. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x of the start point</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y of the start point</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x of the end point</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y of the end point</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="408" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="408" bodyend="411"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aa5853256ef1bf7691925386cabd5ed9d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Circle</definition>
+        <argsstring>(Texture2D texture, int x, int y, int radius, Color color, bool filled=false)</argsstring>
+        <name>Circle</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Circle</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>filled</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="88" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="88" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aca53d7925de96bcf4ffcebd0f26ab012" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.PlotCircle</definition>
+        <argsstring>(Texture2D texture, int cx, int x, int cy, int y, Color color)</argsstring>
+        <name>PlotCircle</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.PlotCircle</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="119" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="119" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a18119d3f95238846bf4b922c2f964dc7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.ScanLineCircle</definition>
+        <argsstring>(Texture2D texture, int cx, int x, int cy, int y, Color color)</argsstring>
+        <name>ScanLineCircle</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.ScanLineCircle</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="133" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="133" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a8153ddb6171d570b11d87429f67f0ccb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawHorizontalLine</definition>
+        <argsstring>(Texture2D texture, int startX, int endX, int y, int width, int height, Color color)</argsstring>
+        <name>DrawHorizontalLine</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.DrawHorizontalLine</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="379" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="379" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ab0794ccfeafc2e21bce18590ea20961d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Line</definition>
+        <argsstring>(Texture2D texture, int x0, int y0, int x1, int y1, Color color)</argsstring>
+        <name>Line</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Line</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="413" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="413" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a38c22115e1975d3f29d7f47e6290b069" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Swap</definition>
+        <argsstring>(ref int x, ref int y)</argsstring>
+        <name>Swap</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.Swap</qualifiedname>
+        <param>
+          <type>ref int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Swap two ints by reference. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="462" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="462" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ad9ef7e500b443383fba34e4da683cc67" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.TransformToLeftTop_y</definition>
+        <argsstring>(int y, int height)</argsstring>
+        <name>TransformToLeftTop_y</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.TransformToLeftTop_y</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Transforms a point in the texture plane so that 0,0 points at left-top corner. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="471" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="471" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a9110544c92eff007c8006eb8cadfd6be" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.TransformToLeftTop_y</definition>
+        <argsstring>(float y, int height)</argsstring>
+        <name>TransformToLeftTop_y</name>
+        <qualifiedname>ProtoTurtle.BitmapDrawing.BitmapDrawingExtensions.TransformToLeftTop_y</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Transforms a point in the texture plane so that 0,0 points at left-top corner. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="478" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="478" bodyend="481"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A extension class for UnityEngine.Texture2D that provides a bitmap drawing API. Provides drawing methods line Line, Circle, Rectangle etc. This class uses a convention of having the 0,0 point at the left-top corner!</para>
+<para>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Check this out for more cool middleware stuff: <ulink url="http://prototurtle.com">http://prototurtle.com</ulink></para>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" line="39" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/BitmapDrawing.cs" bodystart="40" bodyend="483"/>
+    <listofallmembers>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aa5853256ef1bf7691925386cabd5ed9d" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>Circle</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ab3d8afd6c832e066400fe2647490e272" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawCircle</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ad9f628564b01996066bbd09ca2b0c2e2" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawFilledCircle</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aa014051d7817ee13043c46203e02aa17" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawFilledPolygon</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ae5f0145bfb27a5d6eba07a544c7fa817" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawFilledRectangle</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a8153ddb6171d570b11d87429f67f0ccb" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawHorizontalLine</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a40e2d6d9662600b6c0f544dcde7052f3" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawLine</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aed92f46c107a00fed28bba1376271a1f" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawLine</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a0c5d79ec7592ce17058587399f5cbc98" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawLine</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a2a14f7d37cde7afe7100db67facbbc67" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawPixel</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ad4a154f73cef2e81dc2ae832062c8666" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawPixel</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a9a81871db143ed2e3c82d7de9c3a465b" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>DrawRectangle</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aaa414fa28130131cb72e08c06967d323" prot="public" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>FloodFill</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ab0794ccfeafc2e21bce18590ea20961d" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>Line</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1aca53d7925de96bcf4ffcebd0f26ab012" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>PlotCircle</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a18119d3f95238846bf4b922c2f964dc7" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>ScanLineCircle</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a38c22115e1975d3f29d7f47e6290b069" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>Swap</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1ad9ef7e500b443383fba34e4da683cc67" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>TransformToLeftTop_y</name></member>
+      <member refid="class_proto_turtle_1_1_bitmap_drawing_1_1_bitmap_drawing_extensions_1a9110544c92eff007c8006eb8cadfd6be" prot="private" virt="non-virtual"><scope>ProtoTurtle::BitmapDrawing::BitmapDrawingExtensions</scope><name>TransformToLeftTop_y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

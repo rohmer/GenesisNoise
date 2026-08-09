@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_vector_morph_node_8cs" kind="file" language="C#">
+    <compoundname>VectorMorphNode.cs</compoundname>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_vector_morph_node" prot="public">AhahGames::GenesisNoise::Nodes::VectorMorphNode</innerclass>
+    <innernamespace refid="namespace_ahah_games">AhahGames</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise">AhahGames::GenesisNoise</innernamespace>
+    <innernamespace refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes">AhahGames::GenesisNoise::Nodes</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespace_graph_processor" kindref="compound">GraphProcessor</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ahah_games_1_1_genesis_noise_1_1_nodes" kindref="compound">AhahGames.GenesisNoise.Nodes</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>[Documentation(</highlight><highlight class="stringliteral">@&quot;</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral"><sp/>Vector<sp/>Morph<sp/>is<sp/>one<sp/>of<sp/>the<sp/>most<sp/>elegant<sp/>shape‑processing<sp/>nodes<sp/>in<sp/>the<sp/>entire<sp/>library.<sp/>It<sp/>takes<sp/>a<sp/>shape<sp/>mask<sp/>and<sp/>a<sp/>vector<sp/>field,<sp/>and<sp/>it<sp/>pushes<sp/>the<sp/>shape<sp/>outward<sp/>or<sp/>inward<sp/>according<sp/>to<sp/>that<sp/>vector<sp/>field<sp/>—<sp/>essentially<sp/>a<sp/>vector‑guided<sp/>dilation/erosion.</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">It’s<sp/>not<sp/>a<sp/>warp.</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">It’s<sp/>not<sp/>a<sp/>blur.</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">It’s<sp/>not<sp/>a<sp/>directional<sp/>transform.</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">It<sp/>is<sp/>a<sp/>morphological<sp/>expansion<sp/>driven<sp/>by<sp/>a<sp/>vector<sp/>map.</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral">It<sp/>has:</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral">-<sp/>✔<sp/>A<sp/>vector<sp/>map<sp/>(RG<sp/>=<sp/>XY<sp/>direction)</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral">-<sp/>✔<sp/>A<sp/>shape<sp/>mask</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral">-<sp/>✔<sp/>A<sp/>morph<sp/>amount</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral">-<sp/>✔<sp/>A<sp/>softness</highlight></codeline>
+<codeline lineno="17"><highlight class="stringliteral">-<sp/>✔<sp/>A<sp/>distance‑based<sp/>falloff</highlight></codeline>
+<codeline lineno="18"><highlight class="stringliteral">-<sp/>✔<sp/>Deterministic,<sp/>CRT‑safe<sp/>sampling</highlight></codeline>
+<codeline lineno="19"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="20"><highlight class="stringliteral">&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Serializable,<sp/>NodeMenuItem(</highlight><highlight class="stringliteral">&quot;Effects/Vector<sp/>Morph&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="23" refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_vector_morph_node" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_vector_morph_node" kindref="compound">VectorMorphNode</ref><sp/>:<sp/><ref refid="class_fixed_noise_node" kindref="compound">FixedNoiseNode</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Vector<sp/>Morph&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>NodeGroup<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Effects&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ShaderName<sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;Hidden/Genesis/VectorMorph&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Effects/Effects/VectorMorphNode.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_need_loop_reset" kind="interface" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::INeedLoopReset</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_need_loop_reset_1ad8b2d9bbc4fddbd262a9cc6c965745be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.INeedLoopReset.PrepareNewIteration</definition>
+        <argsstring>()</argsstring>
+        <name>PrepareNewIteration</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.INeedLoopReset.PrepareNewIteration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" line="28" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" line="26" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" bodystart="27" bodyend="29"/>
+    <listofallmembers>
+      <member refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_need_loop_reset_1ad8b2d9bbc4fddbd262a9cc6c965745be" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::INeedLoopReset</scope><name>PrepareNewIteration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

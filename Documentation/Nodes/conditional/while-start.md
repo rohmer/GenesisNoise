@@ -35,7 +35,7 @@ The loop body only runs while the condition is already true before the first ite
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4efc4e1f-356e-4c54-89a0-750053455533 | |
+| GUID | String | 5282959e-e99a-49d9-b4cb-75f458791655 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_processor_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::ProcessorView</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_pinned_element_view" prot="public" virt="non-virtual">GraphProcessor.PinnedElementView</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_processor_view_1a8746b2ff6b054ae3aedef9d787976b34" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph_processor" kindref="compound">BaseGraphProcessor</ref></type>
+        <definition>BaseGraphProcessor GraphProcessor.ProcessorView.processor</definition>
+        <argsstring></argsstring>
+        <name>processor</name>
+        <qualifiedname>GraphProcessor.ProcessorView.processor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" line="7" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_processor_view_1abe462c9528e10c95a340bda30b1e5041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.ProcessorView.ProcessorView</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessorView</name>
+        <qualifiedname>GraphProcessor.ProcessorView.ProcessorView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" line="9" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_processor_view_1abe11777b5f0dbafff3ebe584dd5e8a4d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.ProcessorView.Initialize</definition>
+        <argsstring>(BaseGraphView graphView)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>GraphProcessor.ProcessorView.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" line="14" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" bodystart="14" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_processor_view_1a5149eaa641299fb4ed34bbd76f952257" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ProcessorView.OnPlay</definition>
+        <argsstring>()</argsstring>
+        <name>OnPlay</name>
+        <qualifiedname>GraphProcessor.ProcessorView.OnPlay</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" line="25" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>GraphElement</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.ProcessorView</label>
+        <link refid="class_graph_processor_1_1_processor_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.PinnedElementView</label>
+        <link refid="class_graph_processor_1_1_pinned_element_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>GraphElement</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.ProcessorView</label>
+        <link refid="class_graph_processor_1_1_processor_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.PinnedElement</label>
+        <link refid="class_graph_processor_1_1_pinned_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>editorType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.PinnedElementView</label>
+        <link refid="class_graph_processor_1_1_pinned_element_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>pinnedElement</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.SerializableType</label>
+        <link refid="class_graph_processor_1_1_serializable_type"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" line="5" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ProcessorView.cs" bodystart="6" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a070e64c3f0774638a7fe86697ebbb813" prot="protected" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>content</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1acb7921d9b1d70b63b534bf80abc38816" prot="protected" virt="virtual"><scope>GraphProcessor::ProcessorView</scope><name>Destroy</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a175c3813d2de38f9430d003a974d44f7" prot="protected" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>header</name></member>
+      <member refid="class_graph_processor_1_1_processor_view_1abe11777b5f0dbafff3ebe584dd5e8a4d" prot="protected" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a1d52115bf23e32d17c754f3a573a36a9" prot="public" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>InitializeGraphView</name></member>
+      <member refid="class_graph_processor_1_1_processor_view_1a5149eaa641299fb4ed34bbd76f952257" prot="private" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>OnPlay</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a84756d1ce855c27b6a0eb4f7e1dcc854" prot="protected" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>onResized</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a2c99b3cf910f4395779bbf50750855dd" prot="protected" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>pinnedElement</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a527d3c0b1dfa78b0da7d5e07625d8ba4" prot="public" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>PinnedElementView</name></member>
+      <member refid="class_graph_processor_1_1_processor_view_1a8746b2ff6b054ae3aedef9d787976b34" prot="private" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>processor</name></member>
+      <member refid="class_graph_processor_1_1_processor_view_1abe462c9528e10c95a340bda30b1e5041" prot="public" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>ProcessorView</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a74424bcb67fe0fb1f8bbab0f4e3a8ae5" prot="public" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>ResetPosition</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1abf8d6b66bf4c2f590f2f5f25a5a6ad26" prot="protected" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>root</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a9dae6f9bb105a686a468dcefd23a3211" prot="protected" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>scrollable</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_view_1a27f2cb94870098da489aa054adb381b8" prot="public" virt="non-virtual"><scope>GraphProcessor::ProcessorView</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

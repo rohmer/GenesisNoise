@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.TitleBarManager.GetTitleBarTexture" name="AhahGames.GenesisNoise.Views.TitleBarManager.GetTitleBarTexture">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,235,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition.html#a80dc06729fbc7b7155856bbd266c6983" title=" " alt="" coords="283,5,506,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,43,270,42,265,43,235,49"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager.html#a5627eb33fa1e132b637b8eb7b64c870e" title=" " alt="" coords="283,72,506,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="235,71,270,78,265,78,235,77"/>
-</map>

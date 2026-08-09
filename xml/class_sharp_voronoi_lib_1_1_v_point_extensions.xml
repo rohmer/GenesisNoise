@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_v_point_extensions" kind="class" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::VPointExtensions</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_v_point_extensions_1ae53656dc109d16d6be547edb89399129" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SharpVoronoiLib.VPointExtensions.ApproxEqual</definition>
+        <argsstring>(this VoronoiPoint value1, VoronoiPoint value2)</argsstring>
+        <name>ApproxEqual</name>
+        <qualifiedname>SharpVoronoiLib.VPointExtensions.ApproxEqual</qualifiedname>
+        <param>
+          <type>this <ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>value2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiPoint.cs" line="127" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiPoint.cs" bodystart="127" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_v_point_extensions_1a6226672c98ce5ca677a5cce95bfaeeaa" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool SharpVoronoiLib.VPointExtensions.ApproxEqual</definition>
+        <argsstring>(this VoronoiPoint value1, double x, double y)</argsstring>
+        <name>ApproxEqual</name>
+        <qualifiedname>SharpVoronoiLib.VPointExtensions.ApproxEqual</qualifiedname>
+        <param>
+          <type>this <ref refid="class_sharp_voronoi_lib_1_1_voronoi_point" kindref="compound">VoronoiPoint</ref></type>
+          <declname>value1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiPoint.cs" line="135" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiPoint.cs" bodystart="135" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiPoint.cs" line="124" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Voronoi/VoronoiPoint.cs" bodystart="125" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_v_point_extensions_1ae53656dc109d16d6be547edb89399129" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VPointExtensions</scope><name>ApproxEqual</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_v_point_extensions_1a6226672c98ce5ca677a5cce95bfaeeaa" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::VPointExtensions</scope><name>ApproxEqual</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

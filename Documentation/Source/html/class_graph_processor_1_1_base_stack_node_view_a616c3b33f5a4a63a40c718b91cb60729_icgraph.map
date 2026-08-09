@@ -1,5 +1,0 @@
-<map id="GraphProcessor.BaseStackNodeView.SetPosition" name="GraphProcessor.BaseStackNodeView.SetPosition">
-<area shape="rect" id="Node000001" title=" " alt="" coords="237,5,420,48"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_stack_node_view.html#a076e5d21a281f3ef87fe1e3e7fa09805" title="Called after the StackNode have been added to the graph view." alt="" coords="5,5,189,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,27,189,29,189,24,224,26"/>
-</map>

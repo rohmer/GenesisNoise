@@ -31,7 +31,7 @@ Creates a grayscale slope map from a heightfield. White represents steeper slope
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e3add760-d341-4f79-8930-47ebcf1503aa | |
+| GUID | String | c8446020-4554-4244-b788-f7a6ab029929 | |
 | expanded | Boolean | False | |
 
 ## See Also

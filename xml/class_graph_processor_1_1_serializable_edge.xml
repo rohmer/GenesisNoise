@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_serializable_edge" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::SerializableEdge</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ISerializationCallbackReceiver</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1adb4b4d40ce1bac688d84b5e89bc926d1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.SerializableEdge.GUID</definition>
+        <argsstring></argsstring>
+        <name>GUID</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.GUID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="8" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a8ae92964336ed3465aab3925b1720abe" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+        <definition>BaseNode GraphProcessor.SerializableEdge.inputNode</definition>
+        <argsstring></argsstring>
+        <name>inputNode</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.inputNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="19" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a582defad9a3de647fce0d31e1a092e0d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_node_port" kindref="compound">NodePort</ref></type>
+        <definition>NodePort GraphProcessor.SerializableEdge.inputPort</definition>
+        <argsstring></argsstring>
+        <name>inputPort</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.inputPort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="22" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1af870002bbe82bcf7b7f7cc32e25df9bc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_node_port" kindref="compound">NodePort</ref></type>
+        <definition>NodePort GraphProcessor.SerializableEdge.outputPort</definition>
+        <argsstring></argsstring>
+        <name>outputPort</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.outputPort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="24" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a4a10783725e50b58ecc5fb6c6b275482" prot="public" static="no" mutable="no">
+        <type>object</type>
+        <definition>object GraphProcessor.SerializableEdge.passThroughBuffer</definition>
+        <argsstring></argsstring>
+        <name>passThroughBuffer</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.passThroughBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="28" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a2b57dd202e69fc005cafddf5b944b2e9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+        <definition>BaseNode GraphProcessor.SerializableEdge.outputNode</definition>
+        <argsstring></argsstring>
+        <name>outputNode</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.outputNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="31" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a3fa08f10567050770027f74e1dbc3adb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.SerializableEdge.inputFieldName</definition>
+        <argsstring></argsstring>
+        <name>inputFieldName</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.inputFieldName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="33" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a691fee82e014a87d820a53de0179d774" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.SerializableEdge.outputFieldName</definition>
+        <argsstring></argsstring>
+        <name>outputFieldName</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.outputFieldName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="34" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a9801c3df71048295474a05104dfccafd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.SerializableEdge.inputPortIdentifier</definition>
+        <argsstring></argsstring>
+        <name>inputPortIdentifier</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.inputPortIdentifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="37" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1aa2e7737b5e270f2210b3d919337dbb3d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.SerializableEdge.outputPortIdentifier</definition>
+        <argsstring></argsstring>
+        <name>outputPortIdentifier</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.outputPortIdentifier</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="38" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a3ab110a9b750ea3c700b702453f19446" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+        <definition>BaseGraph GraphProcessor.SerializableEdge.owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.owner</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="11" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a81c65f2578f716a3a27506c709d6521b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.SerializableEdge.inputNodeGUID</definition>
+        <argsstring></argsstring>
+        <name>inputNodeGUID</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.inputNodeGUID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="14" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_serializable_edge_1a14b930bf03d1c29a31a22780dd60c4c4" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.SerializableEdge.outputNodeGUID</definition>
+        <argsstring></argsstring>
+        <name>outputNodeGUID</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.outputNodeGUID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="16" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_serializable_edge_1a6404b6520204591ccd65a80c5bf2c0be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.SerializableEdge.SerializableEdge</definition>
+        <argsstring>()</argsstring>
+        <name>SerializableEdge</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.SerializableEdge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="40" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_serializable_edge_1a972fd6ff2dc29cb58ebec196f69516d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.SerializableEdge.OnBeforeSerialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnBeforeSerialize</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.OnBeforeSerialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="60" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_serializable_edge_1a5c11c4378036e404b97b814c33984498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.SerializableEdge.OnAfterDeserialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnAfterDeserialize</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.OnAfterDeserialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="69" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_serializable_edge_1a6f0149de47d7f15daa2f6adb9232a470" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.SerializableEdge.Deserialize</definition>
+        <argsstring>()</argsstring>
+        <name>Deserialize</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.Deserialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="72" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="72" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_serializable_edge_1aaa92e503c8c5f300ce97cbbbd66da61b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GraphProcessor.SerializableEdge.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="83" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="83" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_serializable_edge_1a76e82ca2152eb0f7067b709d20b75633" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SerializableEdge</type>
+        <definition>static SerializableEdge GraphProcessor.SerializableEdge.CreateNewEdge</definition>
+        <argsstring>(BaseGraph graph, NodePort inputPort, NodePort outputPort)</argsstring>
+        <name>CreateNewEdge</name>
+        <qualifiedname>GraphProcessor.SerializableEdge.CreateNewEdge</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_node_port" kindref="compound">NodePort</ref></type>
+          <declname>inputPort</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_node_port" kindref="compound">NodePort</ref></type>
+          <declname>outputPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="42" column="40" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="42" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.SerializableEdge</label>
+        <link refid="class_graph_processor_1_1_serializable_edge"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.SerializableEdge</label>
+        <link refid="class_graph_processor_1_1_serializable_edge"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>inputNode</edgelabel>
+          <edgelabel>outputNode</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>inputPort</edgelabel>
+          <edgelabel>outputPort</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>inputPorts</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>outputPorts</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.NodeInputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_input_port_container"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.NodeOutputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_output_port_container"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GraphProcessor.NodePort</label>
+        <link refid="class_graph_processor_1_1_node_port"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>owner</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>portData</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.NodePortContainer</label>
+        <link refid="class_graph_processor_1_1_node_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>GraphProcessor.PortData</label>
+        <link refid="class_graph_processor_1_1_port_data"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>IEquatable</label>
+      </node>
+      <node id="2">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="6">
+        <label>List&lt; NodePort &gt;</label>
+      </node>
+      <node id="9">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" line="6" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/SerializableEdge.cs" bodystart="7" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a76e82ca2152eb0f7067b709d20b75633" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>CreateNewEdge</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a6f0149de47d7f15daa2f6adb9232a470" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>Deserialize</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1adb4b4d40ce1bac688d84b5e89bc926d1" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>GUID</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a3fa08f10567050770027f74e1dbc3adb" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>inputFieldName</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a8ae92964336ed3465aab3925b1720abe" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>inputNode</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a81c65f2578f716a3a27506c709d6521b" prot="private" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>inputNodeGUID</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a582defad9a3de647fce0d31e1a092e0d" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>inputPort</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a9801c3df71048295474a05104dfccafd" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>inputPortIdentifier</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a5c11c4378036e404b97b814c33984498" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>OnAfterDeserialize</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a972fd6ff2dc29cb58ebec196f69516d1" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>OnBeforeSerialize</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a691fee82e014a87d820a53de0179d774" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>outputFieldName</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a2b57dd202e69fc005cafddf5b944b2e9" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>outputNode</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a14b930bf03d1c29a31a22780dd60c4c4" prot="private" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>outputNodeGUID</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1af870002bbe82bcf7b7f7cc32e25df9bc" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>outputPort</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1aa2e7737b5e270f2210b3d919337dbb3d" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>outputPortIdentifier</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a3ab110a9b750ea3c700b702453f19446" prot="private" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>owner</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a4a10783725e50b58ecc5fb6c6b275482" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>passThroughBuffer</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1a6404b6520204591ccd65a80c5bf2c0be" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>SerializableEdge</name></member>
+      <member refid="class_graph_processor_1_1_serializable_edge_1aaa92e503c8c5f300ce97cbbbd66da61b" prot="public" virt="non-virtual"><scope>GraphProcessor::SerializableEdge</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

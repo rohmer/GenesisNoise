@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_decoration" kind="class" language="C#" prot="package">
+    <compoundname>AhahGames::GenesisNoise::Nodes::DropDecoration</compoundname>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_decoration_1a8f7e7e44b2d2ba5634e98cffe85dad3f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Nodes.DropDecoration.GetTerrainHeightAtXZ</definition>
+        <argsstring>(Terrain terrain, float x, float z)</argsstring>
+        <name>GetTerrainHeightAtXZ</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.DropDecoration.GetTerrainHeightAtXZ</qualifiedname>
+        <param>
+          <type>Terrain</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropDecoration.cs" line="11" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropDecoration.cs" bodystart="11" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropDecoration.cs" line="9" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/DropDecoration.cs" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_drop_decoration_1a8f7e7e44b2d2ba5634e98cffe85dad3f" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::DropDecoration</scope><name>GetTerrainHeightAtXZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

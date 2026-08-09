@@ -1,0 +1,639 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1_i_o_r" kind="class" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::IOR</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a91ee401655608474c9bacdf0fe75fa34" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.AcrylicGlass</definition>
+        <argsstring></argsstring>
+        <name>AcrylicGlass</name>
+        <qualifiedname>Unity.Mathematics.IOR.AcrylicGlass</qualifiedname>
+        <initializer>= 1.49f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="11" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a7eaea1f5073221fcf1c759ce337d70c5" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Air</definition>
+        <argsstring></argsstring>
+        <name>Air</name>
+        <qualifiedname>Unity.Mathematics.IOR.Air</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="12" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1ac02ac06d079ef5aaea19748f8c29424e" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Alcohol</definition>
+        <argsstring></argsstring>
+        <name>Alcohol</name>
+        <qualifiedname>Unity.Mathematics.IOR.Alcohol</qualifiedname>
+        <initializer>= 1.36f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="13" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1adb66be7be28e30e5875edbbeada912c1" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Aluminum</definition>
+        <argsstring></argsstring>
+        <name>Aluminum</name>
+        <qualifiedname>Unity.Mathematics.IOR.Aluminum</qualifiedname>
+        <initializer>= 1.39f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="14" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1aa375537ffab18ea05a62b11afa001007" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Asphalt</definition>
+        <argsstring></argsstring>
+        <name>Asphalt</name>
+        <qualifiedname>Unity.Mathematics.IOR.Asphalt</qualifiedname>
+        <initializer>= 1.635f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="15" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a34b3c41821be189d83b53d6bc351a612" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Beer</definition>
+        <argsstring></argsstring>
+        <name>Beer</name>
+        <qualifiedname>Unity.Mathematics.IOR.Beer</qualifiedname>
+        <initializer>= 1.345f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="16" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a9cc457f9441deb5bfdf5d7a553ccd5c3" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Bronze</definition>
+        <argsstring></argsstring>
+        <name>Bronze</name>
+        <qualifiedname>Unity.Mathematics.IOR.Bronze</qualifiedname>
+        <initializer>= 1.18f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="17" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a601ee9ac9959012655028e55a038e66a" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Copper</definition>
+        <argsstring></argsstring>
+        <name>Copper</name>
+        <qualifiedname>Unity.Mathematics.IOR.Copper</qualifiedname>
+        <initializer>= 1.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="18" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1ae3c4a7d96b059adc29071f9cf4c5ede2" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Crystal</definition>
+        <argsstring></argsstring>
+        <name>Crystal</name>
+        <qualifiedname>Unity.Mathematics.IOR.Crystal</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="19" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a274a6a415ffe8b0afd2d4874d965c758" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Diamond</definition>
+        <argsstring></argsstring>
+        <name>Diamond</name>
+        <qualifiedname>Unity.Mathematics.IOR.Diamond</qualifiedname>
+        <initializer>= 2.418f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="20" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a692bfb2c341222586ebc90ec54da2685" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Emerald</definition>
+        <argsstring></argsstring>
+        <name>Emerald</name>
+        <qualifiedname>Unity.Mathematics.IOR.Emerald</qualifiedname>
+        <initializer>= 1.56f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="21" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a48e9f48531e3e37221ae2851f4536f8d" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.EyeLens</definition>
+        <argsstring></argsstring>
+        <name>EyeLens</name>
+        <qualifiedname>Unity.Mathematics.IOR.EyeLens</qualifiedname>
+        <initializer>= 1.41f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="24" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1ab38c6f2167d9b05b3878100ea386ac5e" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.EyeCornea</definition>
+        <argsstring></argsstring>
+        <name>EyeCornea</name>
+        <qualifiedname>Unity.Mathematics.IOR.EyeCornea</qualifiedname>
+        <initializer>= 1.438f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="25" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1afcc556bbcd36bedacdd1248d03bec5de" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.EyeAqueousHumor</definition>
+        <argsstring></argsstring>
+        <name>EyeAqueousHumor</name>
+        <qualifiedname>Unity.Mathematics.IOR.EyeAqueousHumor</qualifiedname>
+        <initializer>= 1.33f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="26" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a6a91aa067eae154dd567c621d1b94f19" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.EyeVitreousHumor</definition>
+        <argsstring></argsstring>
+        <name>EyeVitreousHumor</name>
+        <qualifiedname>Unity.Mathematics.IOR.EyeVitreousHumor</qualifiedname>
+        <initializer>= 1.34f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="27" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a9efb353d297a561b2ecd8d3417dd4429" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Glass</definition>
+        <argsstring></argsstring>
+        <name>Glass</name>
+        <qualifiedname>Unity.Mathematics.IOR.Glass</qualifiedname>
+        <initializer>= 1.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="29" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a1a46138d94cc54364d96eb92e410d643" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.PyrexGlass</definition>
+        <argsstring></argsstring>
+        <name>PyrexGlass</name>
+        <qualifiedname>Unity.Mathematics.IOR.PyrexGlass</qualifiedname>
+        <initializer>= 1.474f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="30" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a8f84eb693449fc5e40ad102c0b7ed09d" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Gold</definition>
+        <argsstring></argsstring>
+        <name>Gold</name>
+        <qualifiedname>Unity.Mathematics.IOR.Gold</qualifiedname>
+        <initializer>= 0.47f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="31" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a790ce05681ec3fbe8c1be8d615b029aa" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Ice</definition>
+        <argsstring></argsstring>
+        <name>Ice</name>
+        <qualifiedname>Unity.Mathematics.IOR.Ice</qualifiedname>
+        <initializer>= 1.309f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="32" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a1cb517f20398639a37feb82cfe7675bd" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Iron</definition>
+        <argsstring></argsstring>
+        <name>Iron</name>
+        <qualifiedname>Unity.Mathematics.IOR.Iron</qualifiedname>
+        <initializer>= 2.95f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="33" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a8afdb47db6d94cca57e037b3ae8a0ef7" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Ivory</definition>
+        <argsstring></argsstring>
+        <name>Ivory</name>
+        <qualifiedname>Unity.Mathematics.IOR.Ivory</qualifiedname>
+        <initializer>= 1.54f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="34" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a9e88157a009518340e2e027353cddecb" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Lead</definition>
+        <argsstring></argsstring>
+        <name>Lead</name>
+        <qualifiedname>Unity.Mathematics.IOR.Lead</qualifiedname>
+        <initializer>= 2.01f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="35" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a657ea2281a91a6182ecd55a1c465efbf" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Lucite</definition>
+        <argsstring></argsstring>
+        <name>Lucite</name>
+        <qualifiedname>Unity.Mathematics.IOR.Lucite</qualifiedname>
+        <initializer>= 1.495f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="36" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a914a9e0d2ac9f7093ac1fd089fe31a91" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Mercury</definition>
+        <argsstring></argsstring>
+        <name>Mercury</name>
+        <qualifiedname>Unity.Mathematics.IOR.Mercury</qualifiedname>
+        <initializer>= 1.62f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="37" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a14d1866ac04027b46f592d782e86f781" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Milk</definition>
+        <argsstring></argsstring>
+        <name>Milk</name>
+        <qualifiedname>Unity.Mathematics.IOR.Milk</qualifiedname>
+        <initializer>= 1.35f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="38" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a4e93d9b52afd86198a3f3f2232b098d4" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Nickel</definition>
+        <argsstring></argsstring>
+        <name>Nickel</name>
+        <qualifiedname>Unity.Mathematics.IOR.Nickel</qualifiedname>
+        <initializer>= 1.08f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="39" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a0f30a5dd3a4b7112d82423cc0abd68c9" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Nylon</definition>
+        <argsstring></argsstring>
+        <name>Nylon</name>
+        <qualifiedname>Unity.Mathematics.IOR.Nylon</qualifiedname>
+        <initializer>= 1.53f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="40" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a33d38521ee5aba13d55f3e24aebb28b9" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.OilVegetable</definition>
+        <argsstring></argsstring>
+        <name>OilVegetable</name>
+        <qualifiedname>Unity.Mathematics.IOR.OilVegetable</qualifiedname>
+        <initializer>= 1.47f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="41" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a5f5e70fc556120730d82917bcfa9e7fb" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Pearl</definition>
+        <argsstring></argsstring>
+        <name>Pearl</name>
+        <qualifiedname>Unity.Mathematics.IOR.Pearl</qualifiedname>
+        <initializer>= 1.53f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="43" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1ae8e7126fd2cb99f834964bcbdf890440" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Plastic</definition>
+        <argsstring></argsstring>
+        <name>Plastic</name>
+        <qualifiedname>Unity.Mathematics.IOR.Plastic</qualifiedname>
+        <initializer>= 1.46f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="44" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1ab461798b7ce48584d3646e9fad2b7c33" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Teflon</definition>
+        <argsstring></argsstring>
+        <name>Teflon</name>
+        <qualifiedname>Unity.Mathematics.IOR.Teflon</qualifiedname>
+        <initializer>= 1.35f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="45" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a9627cf16dde28899c1abbe4b02d975c3" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Titanium</definition>
+        <argsstring></argsstring>
+        <name>Titanium</name>
+        <qualifiedname>Unity.Mathematics.IOR.Titanium</qualifiedname>
+        <initializer>= 2.16f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="46" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a3561fb2bb9a4c60ac9ed80f7309c0982" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Vodka</definition>
+        <argsstring></argsstring>
+        <name>Vodka</name>
+        <qualifiedname>Unity.Mathematics.IOR.Vodka</qualifiedname>
+        <initializer>= 1.363f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="47" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a243c60b7ece475d2fafe53111be1754c" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Water0C</definition>
+        <argsstring></argsstring>
+        <name>Water0C</name>
+        <qualifiedname>Unity.Mathematics.IOR.Water0C</qualifiedname>
+        <initializer>= 1.333f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="50" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1aa919c86c711a7dca39755be2ddb9a90c" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Water20C</definition>
+        <argsstring></argsstring>
+        <name>Water20C</name>
+        <qualifiedname>Unity.Mathematics.IOR.Water20C</qualifiedname>
+        <initializer>= 1.333f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="51" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a5ddfd3a4c2c9b5348b8b672c1c4e3f3b" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Water35C</definition>
+        <argsstring></argsstring>
+        <name>Water35C</name>
+        <qualifiedname>Unity.Mathematics.IOR.Water35C</qualifiedname>
+        <initializer>= 1.325f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="52" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a1fcf9ed119af6f2033ef3002503ab0fa" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Water100C</definition>
+        <argsstring></argsstring>
+        <name>Water100C</name>
+        <qualifiedname>Unity.Mathematics.IOR.Water100C</qualifiedname>
+        <initializer>= 1.318f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="53" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1aaf6c58a0be99922bebcb4a8d062ef89f" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.WaterIce</definition>
+        <argsstring></argsstring>
+        <name>WaterIce</name>
+        <qualifiedname>Unity.Mathematics.IOR.WaterIce</qualifiedname>
+        <initializer>= 1.31f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="54" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_i_o_r_1a84d411f1d27168e471a970e0649de699" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.IOR.Whiskey</definition>
+        <argsstring></argsstring>
+        <name>Whiskey</name>
+        <qualifiedname>Unity.Mathematics.IOR.Whiskey</qualifiedname>
+        <initializer>= 1.356f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="56" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" line="9" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data/IOR.cs" bodystart="10" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a91ee401655608474c9bacdf0fe75fa34" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>AcrylicGlass</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a7eaea1f5073221fcf1c759ce337d70c5" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Air</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1ac02ac06d079ef5aaea19748f8c29424e" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Alcohol</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1adb66be7be28e30e5875edbbeada912c1" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Aluminum</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1aa375537ffab18ea05a62b11afa001007" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Asphalt</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a34b3c41821be189d83b53d6bc351a612" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Beer</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a9cc457f9441deb5bfdf5d7a553ccd5c3" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Bronze</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a601ee9ac9959012655028e55a038e66a" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Copper</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1ae3c4a7d96b059adc29071f9cf4c5ede2" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Crystal</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a274a6a415ffe8b0afd2d4874d965c758" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Diamond</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a692bfb2c341222586ebc90ec54da2685" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Emerald</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1afcc556bbcd36bedacdd1248d03bec5de" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>EyeAqueousHumor</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1ab38c6f2167d9b05b3878100ea386ac5e" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>EyeCornea</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a48e9f48531e3e37221ae2851f4536f8d" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>EyeLens</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a6a91aa067eae154dd567c621d1b94f19" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>EyeVitreousHumor</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a9efb353d297a561b2ecd8d3417dd4429" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Glass</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a8f84eb693449fc5e40ad102c0b7ed09d" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Gold</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a790ce05681ec3fbe8c1be8d615b029aa" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Ice</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a1cb517f20398639a37feb82cfe7675bd" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Iron</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a8afdb47db6d94cca57e037b3ae8a0ef7" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Ivory</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a9e88157a009518340e2e027353cddecb" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Lead</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a657ea2281a91a6182ecd55a1c465efbf" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Lucite</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a914a9e0d2ac9f7093ac1fd089fe31a91" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Mercury</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a14d1866ac04027b46f592d782e86f781" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Milk</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a4e93d9b52afd86198a3f3f2232b098d4" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Nickel</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a0f30a5dd3a4b7112d82423cc0abd68c9" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Nylon</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a33d38521ee5aba13d55f3e24aebb28b9" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>OilVegetable</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a5f5e70fc556120730d82917bcfa9e7fb" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Pearl</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1ae8e7126fd2cb99f834964bcbdf890440" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Plastic</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a1a46138d94cc54364d96eb92e410d643" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>PyrexGlass</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1ab461798b7ce48584d3646e9fad2b7c33" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Teflon</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a9627cf16dde28899c1abbe4b02d975c3" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Titanium</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a3561fb2bb9a4c60ac9ed80f7309c0982" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Vodka</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a243c60b7ece475d2fafe53111be1754c" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Water0C</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a1fcf9ed119af6f2033ef3002503ab0fa" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Water100C</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1aa919c86c711a7dca39755be2ddb9a90c" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Water20C</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a5ddfd3a4c2c9b5348b8b672c1c4e3f3b" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Water35C</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1aaf6c58a0be99922bebcb4a8d062ef89f" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>WaterIce</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_i_o_r_1a84d411f1d27168e471a970e0649de699" prot="private" virt="non-virtual"><scope>Unity::Mathematics::IOR</scope><name>Whiskey</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

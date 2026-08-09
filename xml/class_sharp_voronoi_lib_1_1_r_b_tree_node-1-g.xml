@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g" kind="class" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::RBTreeNode-1-g</compoundname>
+    <templateparamlist>
+      <param>
+        <type>T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a81398107e2288a6c3638a1592f63599b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>T</type>
+        <definition>T SharpVoronoiLib.RBTreeNode&lt; T &gt;.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="8" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a412ccd41168397fb845347e687b07341" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>RBTreeNode&lt; T &gt;</type>
+        <definition>RBTreeNode&lt;T&gt; SharpVoronoiLib.RBTreeNode&lt; T &gt;.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.Left</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="9" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a9f600a96df601f41ad4974249aa08339" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>RBTreeNode&lt; T &gt;</type>
+        <definition>RBTreeNode&lt;T&gt; SharpVoronoiLib.RBTreeNode&lt; T &gt;.Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.Right</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="10" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a93463069f259f3a3d354e036e66a8ad5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>RBTreeNode&lt; T &gt;</type>
+        <definition>RBTreeNode&lt;T&gt; SharpVoronoiLib.RBTreeNode&lt; T &gt;.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.Parent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="11" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a53db1511e4ec65de1fde66fdd9d5cd94" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>RBTreeNode&lt; T &gt;</type>
+        <definition>RBTreeNode&lt;T&gt; SharpVoronoiLib.RBTreeNode&lt; T &gt;.Previous</definition>
+        <argsstring></argsstring>
+        <name>Previous</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.Previous</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="14" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a3ff987468cd2e25368ac57948b2721e9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>RBTreeNode&lt; T &gt;</type>
+        <definition>RBTreeNode&lt;T&gt; SharpVoronoiLib.RBTreeNode&lt; T &gt;.Next</definition>
+        <argsstring></argsstring>
+        <name>Next</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.Next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="15" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a947b09454cf7034b4b4aa2f5f4cdc976" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool SharpVoronoiLib.RBTreeNode&lt; T &gt;.Red</definition>
+        <argsstring></argsstring>
+        <name>Red</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.Red</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="17" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1aa6b0a046538c0b793bfa0ff74b04d09a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.RBTreeNode&lt; T &gt;.RBTreeNode</definition>
+        <argsstring>()</argsstring>
+        <name>RBTreeNode</name>
+        <qualifiedname>SharpVoronoiLib.RBTreeNode-1-g.RBTreeNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="19" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" line="6" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/RBTree.cs" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a81398107e2288a6c3638a1592f63599b" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>Data</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a412ccd41168397fb845347e687b07341" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>Left</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a3ff987468cd2e25368ac57948b2721e9" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>Next</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a93463069f259f3a3d354e036e66a8ad5" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>Parent</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a53db1511e4ec65de1fde66fdd9d5cd94" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>Previous</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1aa6b0a046538c0b793bfa0ff74b04d09a" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>RBTreeNode</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a947b09454cf7034b4b4aa2f5f4cdc976" prot="package" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>Red</name></member>
+      <member refid="class_sharp_voronoi_lib_1_1_r_b_tree_node-1-g_1a9f600a96df601f41ad4974249aa08339" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::RBTreeNode-1-g</scope><name>Right</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

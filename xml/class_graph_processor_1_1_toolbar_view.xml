@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_toolbar_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::ToolbarView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VisualElement</basecompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Graph.GenesisToolbar</derivedcompoundref>
+    <innerclass refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" prot="protected">GraphProcessor::ToolbarView::ToolbarButtonData</innerclass>
+    <sectiondef kind="protected-type">
+      <memberdef kind="enum" id="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2" prot="protected" static="no" strong="yes">
+        <type></type>
+        <name>ElementType</name>
+        <qualifiedname>GraphProcessor.ToolbarView.ElementType</qualifiedname>
+        <enumvalue id="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2a87b7760f14fbff78d8819291f36ab9a0" prot="protected">
+          <name>Button</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2aa8875bbe4272c0bdd786cfaaedf77921" prot="protected">
+          <name>Toggle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2a319c451f0a128a6469e868e40541fc9b" prot="protected">
+          <name>DropDownButton</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2a04b2e4188d4ef8051e4699da8af01335" prot="protected">
+          <name>Separator</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2a90589c47f06eb971d548591f23c285af" prot="protected">
+          <name>Custom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2a404e4cfb3d9b90aa38955b27fdf92779" prot="protected">
+          <name>FlexibleSpace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="16" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="17" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_toolbar_view_1a2f9a1ed47b20120057760568df3a4e76" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref> &gt;</type>
+        <definition>List&lt;ToolbarButtonData&gt; GraphProcessor.ToolbarView.leftButtonDatas</definition>
+        <argsstring></argsstring>
+        <name>leftButtonDatas</name>
+        <qualifiedname>GraphProcessor.ToolbarView.leftButtonDatas</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="38" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_toolbar_view_1a630cb89ea765e256d9617c7e5debc788" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref> &gt;</type>
+        <definition>List&lt;ToolbarButtonData&gt; GraphProcessor.ToolbarView.rightButtonDatas</definition>
+        <argsstring></argsstring>
+        <name>rightButtonDatas</name>
+        <qualifiedname>GraphProcessor.ToolbarView.rightButtonDatas</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="39" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_toolbar_view_1ace75e63161424738d2fc6030bdbdc0ae" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.showProcessor</definition>
+        <argsstring></argsstring>
+        <name>showProcessor</name>
+        <qualifiedname>GraphProcessor.ToolbarView.showProcessor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="42" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_toolbar_view_1a81c051db1648ea408f7d4b95f6f8faf6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.showParameters</definition>
+        <argsstring></argsstring>
+        <name>showParameters</name>
+        <qualifiedname>GraphProcessor.ToolbarView.showParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="43" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_toolbar_view_1ad69dbeafc34621c135f05724357ca06b" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+        <definition>BaseGraphView GraphProcessor.ToolbarView.graphView</definition>
+        <argsstring></argsstring>
+        <name>graphView</name>
+        <qualifiedname>GraphProcessor.ToolbarView.graphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="40" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a60bcc1a7431b3d1e1c1c4d84febc490f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.ToolbarView.ToolbarView</definition>
+        <argsstring>(BaseGraphView graphView)</argsstring>
+        <name>ToolbarView</name>
+        <qualifiedname>GraphProcessor.ToolbarView.ToolbarView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="45" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="45" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1af69a7f12195b5a490df0bcbf8a503f6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.ToolbarView.UpdateButtonStatus</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateButtonStatus</name>
+        <qualifiedname>GraphProcessor.ToolbarView.UpdateButtonStatus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="184" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="184" bodyend="190"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a925df8112122127da647fd611ef4388e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.AddButton</definition>
+        <argsstring>(string name, Action callback, bool left=true)</argsstring>
+        <name>AddButton</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="60" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="60" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1abcdfde8e418186c40212967904a64325" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.AddButton</definition>
+        <argsstring>(GUIContent content, Action callback, bool left=true)</argsstring>
+        <name>AddButton</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddButton</qualifiedname>
+        <param>
+          <type>GUIContent</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="63" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="63" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1ababe2700228a5ec20d8d4e0758be3449" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ToolbarView.AddSeparator</definition>
+        <argsstring>(int sizeInPixels=10, bool left=true)</argsstring>
+        <name>AddSeparator</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddSeparator</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>sizeInPixels</declname>
+          <defval>10</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="75" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a81b351a918c2b3c2434a63c0f5b221f5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ToolbarView.AddCustom</definition>
+        <argsstring>(Action imguiDrawFunction, bool left=true)</argsstring>
+        <name>AddCustom</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddCustom</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>imguiDrawFunction</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="85" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="85" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1ad9951db790278934cf46081a2680c832" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ToolbarView.AddFlexibleSpace</definition>
+        <argsstring>(bool left=true)</argsstring>
+        <name>AddFlexibleSpace</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddFlexibleSpace</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="98" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a66525c35667e9ae88e103e972bc43753" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.AddToggle</definition>
+        <argsstring>(string name, bool defaultValue, Action&lt; bool &gt; callback, bool left=true)</argsstring>
+        <name>AddToggle</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddToggle</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defaultValue</declname>
+        </param>
+        <param>
+          <type>Action&lt; bool &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="103" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="103" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1af8d4c2a2b970a3e259149d3bc94234bc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.AddToggle</definition>
+        <argsstring>(GUIContent content, bool defaultValue, Action&lt; bool &gt; callback, bool left=true)</argsstring>
+        <name>AddToggle</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddToggle</qualifiedname>
+        <param>
+          <type>GUIContent</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defaultValue</declname>
+        </param>
+        <param>
+          <type>Action&lt; bool &gt;</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="106" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="106" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1aa1f05504443f752b3a768ea52097749b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.AddDropDownButton</definition>
+        <argsstring>(string name, Action callback, bool left=true)</argsstring>
+        <name>AddDropDownButton</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddDropDownButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="119" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="119" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a11aeff949adbb6b1dcb72f48c80414c7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref></type>
+        <definition>ToolbarButtonData GraphProcessor.ToolbarView.AddDropDownButton</definition>
+        <argsstring>(GUIContent content, Action callback, bool left=true)</argsstring>
+        <name>AddDropDownButton</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddDropDownButton</qualifiedname>
+        <param>
+          <type>GUIContent</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="122" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="122" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a2b2d2d57d22a1ac0640f6692bc59e2c3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ToolbarView.RemoveButton</definition>
+        <argsstring>(string name, bool left)</argsstring>
+        <name>RemoveButton</name>
+        <qualifiedname>GraphProcessor.ToolbarView.RemoveButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>left</declname>
+        </param>
+        <briefdescription>
+<para>Also works for toggles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="139" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a8240d303dc36cc3ecf659566c41e565a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ToolbarView.HideButton</definition>
+        <argsstring>(string name)</argsstring>
+        <name>HideButton</name>
+        <qualifiedname>GraphProcessor.ToolbarView.HideButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Hide the button. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Display name of the button</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="148" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="148" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1aa36aafb2a6d0bc698114ea6a50c1ec53" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ToolbarView.ShowButton</definition>
+        <argsstring>(string name)</argsstring>
+        <name>ShowButton</name>
+        <qualifiedname>GraphProcessor.ToolbarView.ShowButton</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Show the button. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Display name of the button</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="162" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="162" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1af4152f228589e1ddd42acbc15ff66b7c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.ToolbarView.AddButtons</definition>
+        <argsstring>()</argsstring>
+        <name>AddButtons</name>
+        <qualifiedname>GraphProcessor.ToolbarView.AddButtons</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ac9dd8f03ef36abfb35586a26edf4405d">AddButtons</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="172" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="172" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1aeb7163471a33534af6920e274e909526" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.ToolbarView.DrawImGUIToolbar</definition>
+        <argsstring>()</argsstring>
+        <name>DrawImGUIToolbar</name>
+        <qualifiedname>GraphProcessor.ToolbarView.DrawImGUIToolbar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="229" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="229" bodyend="240"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_toolbar_view_1a0977bcb78cab34076a256c7a7b8b77af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.ToolbarView.DrawImGUIButtonList</definition>
+        <argsstring>(List&lt; ToolbarButtonData &gt; buttons)</argsstring>
+        <name>DrawImGUIButtonList</name>
+        <qualifiedname>GraphProcessor.ToolbarView.DrawImGUIButtonList</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_graph_processor_1_1_toolbar_view_1_1_toolbar_button_data" kindref="compound">ToolbarButtonData</ref> &gt;</type>
+          <declname>buttons</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="192" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="192" bodyend="227"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Graph.GenesisToolbar</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.ToolbarView</label>
+        <link refid="class_graph_processor_1_1_toolbar_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.ToolbarView</label>
+        <link refid="class_graph_processor_1_1_toolbar_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphView</label>
+      </node>
+      <node id="5">
+        <label>IDisposable</label>
+      </node>
+      <node id="10">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="8">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="7">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" line="14" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ToolbarView.cs" bodystart="15" bodyend="241"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a925df8112122127da647fd611ef4388e" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1abcdfde8e418186c40212967904a64325" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1af4152f228589e1ddd42acbc15ff66b7c" prot="protected" virt="virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddButtons</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a81b351a918c2b3c2434a63c0f5b221f5" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddCustom</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1aa1f05504443f752b3a768ea52097749b" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddDropDownButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a11aeff949adbb6b1dcb72f48c80414c7" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddDropDownButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1ad9951db790278934cf46081a2680c832" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddFlexibleSpace</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1ababe2700228a5ec20d8d4e0758be3449" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddSeparator</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a66525c35667e9ae88e103e972bc43753" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddToggle</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1af8d4c2a2b970a3e259149d3bc94234bc" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>AddToggle</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a0977bcb78cab34076a256c7a7b8b77af" prot="private" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>DrawImGUIButtonList</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1aeb7163471a33534af6920e274e909526" prot="protected" virt="virtual"><scope>GraphProcessor::ToolbarView</scope><name>DrawImGUIToolbar</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>ElementType</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1ad69dbeafc34621c135f05724357ca06b" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>graphView</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a8240d303dc36cc3ecf659566c41e565a" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>HideButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a2f9a1ed47b20120057760568df3a4e76" prot="private" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>leftButtonDatas</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a2b2d2d57d22a1ac0640f6692bc59e2c3" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>RemoveButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a630cb89ea765e256d9617c7e5debc788" prot="private" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>rightButtonDatas</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1aa36aafb2a6d0bc698114ea6a50c1ec53" prot="protected" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>ShowButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a81c051db1648ea408f7d4b95f6f8faf6" prot="private" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>showParameters</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1ace75e63161424738d2fc6030bdbdc0ae" prot="private" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>showProcessor</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a60bcc1a7431b3d1e1c1c4d84febc490f" prot="public" virt="non-virtual"><scope>GraphProcessor::ToolbarView</scope><name>ToolbarView</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1af69a7f12195b5a490df0bcbf8a503f6e" prot="public" virt="virtual"><scope>GraphProcessor::ToolbarView</scope><name>UpdateButtonStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

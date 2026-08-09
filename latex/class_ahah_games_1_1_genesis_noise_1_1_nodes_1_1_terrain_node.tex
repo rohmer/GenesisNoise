@@ -1,0 +1,57 @@
+\doxysection{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Terrain\+Node Class Reference}
+\hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node}{}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node}\index{AhahGames.GenesisNoise.Nodes.TerrainNode@{AhahGames.GenesisNoise.Nodes.TerrainNode}}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_adb07a1b3f414da84bac4898651198280}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_adb07a1b3f414da84bac4898651198280} 
+enum {\bfseries e\+Terrain\+Type} \{ \newline
+{\bfseries UNCATEGORISED} =0
+, {\bfseries LAND} =1
+, {\bfseries OCEAN} =2
+, {\bfseries COAST} =3
+, \newline
+{\bfseries LAKE} =4
+, {\bfseries LAKECOAST} =5
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a21679da16bd3a4dc84c50432894233ef}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a21679da16bd3a4dc84c50432894233ef} 
+{\bfseries Terrain\+Node} (\doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_site}{Voronoi\+Site}} site, uint ID, e\+Terrain\+Type terrain\+Type=e\+Terrain\+Type.\+UNCATEGORISED)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a19d06fd442e8cd877b0df003c55f5720}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a19d06fd442e8cd877b0df003c55f5720} 
+List$<$ uint $>$ {\bfseries Get\+Neighbors} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a175f88f2587dc0c28313ed337b28de27}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a175f88f2587dc0c28313ed337b28de27} 
+Vector2 {\bfseries Get\+Centroid} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a0515b6e2f236f0742812cfd96860c516}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a0515b6e2f236f0742812cfd96860c516} 
+List$<$ \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_edge}{Voronoi\+Edge}} $>$ {\bfseries Get\+Edges} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a5107941cfa93df49d85012e775020e45}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a5107941cfa93df49d85012e775020e45} 
+bool {\bfseries Contains\+Point} (Vector2 point)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_ac923a25bf4c66ef90386e850a99dcbd8}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_ac923a25bf4c66ef90386e850a99dcbd8} 
+List$<$ Vector2 $>$ {\bfseries Get\+Vertices} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a7acd4575a23fd5e4d555c3d165fca40e}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a7acd4575a23fd5e4d555c3d165fca40e} 
+static Terrain\+Node {\bfseries Get\+Node\+Containing\+Point} (IEnumerable$<$ Terrain\+Node $>$ nodes, Vector2 point)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a454cccc204b730a65c1e1763b11173b6}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a454cccc204b730a65c1e1763b11173b6} 
+e\+Terrain\+Type {\bfseries terrain\+Type}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a24dfe01919614c65de07563639f523ae}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_node_a24dfe01919614c65de07563639f523ae} 
+float {\bfseries height} = 0
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Nodes/\+\+Terrain/\+\+Shape/\+Terrain\+Node.\+cs\end{DoxyCompactItemize}

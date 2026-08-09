@@ -1,0 +1,2162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_base_graph" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::BaseGraph</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ISerializationCallbackReceiver</basecompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Graph.GenesisGraph</derivedcompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a4ad3f6125b2050ecf857477179b539c1" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int GraphProcessor.BaseGraph.maxComputeOrderDepth</definition>
+        <argsstring></argsstring>
+        <name>maxComputeOrderDepth</name>
+        <qualifiedname>GraphProcessor.BaseGraph.maxComputeOrderDepth</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="36" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a002bf89e41fd0ef778d457e7ac1d76f2" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int GraphProcessor.BaseGraph.loopComputeOrder</definition>
+        <argsstring></argsstring>
+        <name>loopComputeOrder</name>
+        <qualifiedname>GraphProcessor.BaseGraph.loopComputeOrder</qualifiedname>
+        <initializer>= -2</initializer>
+        <briefdescription>
+<para>Invalid compute order number of a node when it&apos;s inside a loop. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="39" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1ad91ef3214d1b87368df7a829f033d1f6" prot="public" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int GraphProcessor.BaseGraph.invalidComputeOrder</definition>
+        <argsstring></argsstring>
+        <name>invalidComputeOrder</name>
+        <qualifiedname>GraphProcessor.BaseGraph.invalidComputeOrder</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+<para>Invalid compute order number of a node can&apos;t process. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="41" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a7c012e720d4112bfe936763ed4e5b885" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraph.LightweightEnable</definition>
+        <argsstring></argsstring>
+        <name>LightweightEnable</name>
+        <qualifiedname>GraphProcessor.BaseGraph.LightweightEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="155" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1ae08338b2c2416472884f46f44fb1cc45" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_graph_processor_1_1_json_element" kindref="compound">JsonElement</ref> &gt;</type>
+        <definition>List&lt;JsonElement&gt; GraphProcessor.BaseGraph.serializedNodes</definition>
+        <argsstring></argsstring>
+        <name>serializedNodes</name>
+        <qualifiedname>GraphProcessor.BaseGraph.serializedNodes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Json list of serialized nodes only used for copy pasting in the editor. Note that this field isn&apos;t serialized. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="struct_graph_processor_1_1_json_element" kindref="compound">JsonElement</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="49" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a3b4e79b827cdc39687ccacde57bc0049" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+        <definition>List&lt;BaseNode&gt; GraphProcessor.BaseGraph.nodes</definition>
+        <argsstring></argsstring>
+        <name>nodes</name>
+        <qualifiedname>GraphProcessor.BaseGraph.nodes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>List of all the nodes in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="57" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a5569f5c31854c07dca7f26e09904eef7" compoundref="_base_graph_8cs" startline="257" endline="267">GraphProcessor.BaseGraph.AddNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a3f6c4ab84f91a1835e2527d15e3d76a6" compoundref="_base_graph_8cs" startline="273" endline="283">GraphProcessor.BaseGraph.RemoveNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1afe91f28cb31b1ee1f1104c163a0be21f" compoundref="_base_graph_8cs" startline="575" endline="603">GraphProcessor.BaseGraph.UpdateComputeOrder</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a4768bd7ee8f4f8a5fb85f19b815e4cb4" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+        <definition>Dictionary&lt;string, BaseNode&gt; GraphProcessor.BaseGraph.nodesPerGUID</definition>
+        <argsstring></argsstring>
+        <name>nodesPerGUID</name>
+        <qualifiedname>GraphProcessor.BaseGraph.nodesPerGUID</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Dictionary to access node per GUID, faster than a search in a list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="66" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a5569f5c31854c07dca7f26e09904eef7" compoundref="_base_graph_8cs" startline="257" endline="267">GraphProcessor.BaseGraph.AddNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a3f6c4ab84f91a1835e2527d15e3d76a6" compoundref="_base_graph_8cs" startline="273" endline="283">GraphProcessor.BaseGraph.RemoveNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a8997e87d8327ba39a6e10552f933aaea" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref> &gt;</type>
+        <definition>List&lt;SerializableEdge&gt; GraphProcessor.BaseGraph.edges</definition>
+        <argsstring></argsstring>
+        <name>edges</name>
+        <qualifiedname>GraphProcessor.BaseGraph.edges</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Json list of edges. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="74" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ab7224feda099e47651a498222d8b3ccf" compoundref="_base_graph_8cs" startline="292" endline="327">GraphProcessor.BaseGraph.Connect</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a2a8bffdcee87244092b51be4470e527a" compoundref="_base_graph_8cs" startline="336" endline="353">GraphProcessor.BaseGraph.Disconnect</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1aa0461bcd6f9859a6ad08c90971b8c1fc" compoundref="_base_graph_8cs" startline="365" endline="392">GraphProcessor.BaseGraph.Disconnect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1af94a7bf9f3b9445d4fff2ed322bef54d" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref> &gt;</type>
+        <definition>Dictionary&lt;string, SerializableEdge&gt; GraphProcessor.BaseGraph.edgesPerGUID</definition>
+        <argsstring></argsstring>
+        <name>edgesPerGUID</name>
+        <qualifiedname>GraphProcessor.BaseGraph.edgesPerGUID</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Dictionary of edges per GUID, faster than a search in a list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="82" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ab7224feda099e47651a498222d8b3ccf" compoundref="_base_graph_8cs" startline="292" endline="327">GraphProcessor.BaseGraph.Connect</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a2a8bffdcee87244092b51be4470e527a" compoundref="_base_graph_8cs" startline="336" endline="353">GraphProcessor.BaseGraph.Disconnect</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1aa0461bcd6f9859a6ad08c90971b8c1fc" compoundref="_base_graph_8cs" startline="365" endline="392">GraphProcessor.BaseGraph.Disconnect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a01709ac66d6d765b40c28c5b35897efa" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref> &gt;</type>
+        <definition>List&lt;Group&gt; GraphProcessor.BaseGraph.groups</definition>
+        <argsstring></argsstring>
+        <name>groups</name>
+        <qualifiedname>GraphProcessor.BaseGraph.groups</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>All groups in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="90" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="90" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a90bd3422be8cdc1f2ae57593ec9ad568" compoundref="_base_graph_8cs" startline="398" endline="402">GraphProcessor.BaseGraph.AddGroup</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ae65a2b9fa30ec979bc08f3c7a2b9d53c" compoundref="_base_graph_8cs" startline="408" endline="412">GraphProcessor.BaseGraph.RemoveGroup</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a49d6f811c1167a466c09c6536bfa2b5a" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_base_stack_node" kindref="compound">BaseStackNode</ref> &gt;</type>
+        <definition>List&lt;BaseStackNode&gt; GraphProcessor.BaseGraph.stackNodes</definition>
+        <argsstring></argsstring>
+        <name>stackNodes</name>
+        <qualifiedname>GraphProcessor.BaseGraph.stackNodes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>All Stack Nodes in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>stackNodes</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="98" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a9af78b56962e73c307172fc2b7530cf4" compoundref="_base_graph_8cs" startline="418" endline="422">GraphProcessor.BaseGraph.AddStackNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a77d6402bf02079c8ef202274aadfab8b" compoundref="_base_graph_8cs" startline="428" endline="432">GraphProcessor.BaseGraph.RemoveStackNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a69b01b151302b542c9842380e6b28531" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_pinned_element" kindref="compound">PinnedElement</ref> &gt;</type>
+        <definition>List&lt;PinnedElement&gt; GraphProcessor.BaseGraph.pinnedElements</definition>
+        <argsstring></argsstring>
+        <name>pinnedElements</name>
+        <qualifiedname>GraphProcessor.BaseGraph.pinnedElements</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>All pinned elements in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_pinned_element" kindref="compound">PinnedElement</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="106" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="106" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a59693610a56a5d945429a102793891ad" compoundref="_base_graph_8cs" startline="465" endline="478">GraphProcessor.BaseGraph.OpenPinned</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref> &gt;</type>
+        <definition>List&lt;ExposedParameter&gt; GraphProcessor.BaseGraph.exposedParameters</definition>
+        <argsstring></argsstring>
+        <name>exposedParameters</name>
+        <qualifiedname>GraphProcessor.BaseGraph.exposedParameters</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>All exposed parameters in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="114" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="114" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a50df4fc0680955f6759bc6f28cbf6e8c" compoundref="_base_graph_8cs" startline="653" endline="663">GraphProcessor.BaseGraph.AddExposedParameter</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a6b3ab3fa4d4967e3cf59ea296d14f74a" compoundref="_base_graph_8cs" startline="623" endline="646">GraphProcessor.BaseGraph.AddExposedParameter</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a9e9b463814adc5728642c15343214016" compoundref="_base_graph_8cs" startline="745" endline="755">GraphProcessor.BaseGraph.GetExposedParameter</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a3a5add33b5068b803244988b6cd6c98c" compoundref="_base_graph_8cs" startline="762" endline="772">GraphProcessor.BaseGraph.GetExposedParameterFromGUID</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ad4b055e1a8d2429b4d0887416660cfca" compoundref="_base_graph_8cs" startline="669" endline="674">GraphProcessor.BaseGraph.RemoveExposedParameter</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ac61001ef6fb9a1f00a4042e0274f682c" compoundref="_base_graph_8cs" startline="680" endline="691">GraphProcessor.BaseGraph.RemoveExposedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a04e758c3d90371ba1cc044dcde992019" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_sticky_note" kindref="compound">StickyNote</ref> &gt;</type>
+        <definition>List&lt;StickyNote&gt; GraphProcessor.BaseGraph.stickyNotes</definition>
+        <argsstring></argsstring>
+        <name>stickyNotes</name>
+        <qualifiedname>GraphProcessor.BaseGraph.stickyNotes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="120" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a28ba2d64607c81b1d0857faacb3ed9b7" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 GraphProcessor.BaseGraph.position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <qualifiedname>GraphProcessor.BaseGraph.position</qualifiedname>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="133" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1ae034c117b7c22deebe35faf3ccc1e4ca" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 GraphProcessor.BaseGraph.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <qualifiedname>GraphProcessor.BaseGraph.scale</qualifiedname>
+        <initializer>= Vector3.one</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="134" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a6ef966cd16652610bd843aa50f0f4e72" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref> &gt;</type>
+        <definition>List&lt;ExposedParameter&gt; GraphProcessor.BaseGraph.serializedParameterList</definition>
+        <argsstring></argsstring>
+        <name>serializedParameterList</name>
+        <qualifiedname>GraphProcessor.BaseGraph.serializedParameterList</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="117" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1ad07dfb8a47960bda8fb448e908b3db64" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref>, int &gt;</type>
+        <definition>Dictionary&lt;BaseNode, int&gt; GraphProcessor.BaseGraph.computeOrderDictionary</definition>
+        <argsstring></argsstring>
+        <name>computeOrderDictionary</name>
+        <qualifiedname>GraphProcessor.BaseGraph.computeOrderDictionary</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="123" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1ad8eee68b717d08274beaf8cb1e2f093a" prot="private" static="no" mutable="no">
+        <type>Scene</type>
+        <definition>Scene GraphProcessor.BaseGraph.linkedScene</definition>
+        <argsstring></argsstring>
+        <name>linkedScene</name>
+        <qualifiedname>GraphProcessor.BaseGraph.linkedScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="126" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1adb9dfd661ce62999e59741c9ab0f26d5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraph._isEnabled</definition>
+        <argsstring></argsstring>
+        <name>_isEnabled</name>
+        <qualifiedname>GraphProcessor.BaseGraph._isEnabled</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="163" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1a1f5494cc719f5792ac03a41e67816eb0" prot="private" static="no" mutable="no">
+        <type>HashSet&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+        <definition>HashSet&lt;BaseNode&gt; GraphProcessor.BaseGraph.infiniteLoopTracker</definition>
+        <argsstring></argsstring>
+        <name>infiniteLoopTracker</name>
+        <qualifiedname>GraphProcessor.BaseGraph.infiniteLoopTracker</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="827" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="827" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_1adc87d8affc5111f756eabd9c3b7acb96" prot="package" static="no" mutable="no">
+        <type>UnityEngine.Object</type>
+        <definition>UnityEngine.Object GraphProcessor.BaseGraph.nodeInspectorReference</definition>
+        <argsstring></argsstring>
+        <name>nodeInspectorReference</name>
+        <qualifiedname>GraphProcessor.BaseGraph.nodeInspectorReference</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="130" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_1add47371cf28a68e961a5d472bd7549ac" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action GraphProcessor.BaseGraph.onExposedParameterListChanged</definition>
+        <argsstring></argsstring>
+        <name>onExposedParameterListChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraph.onExposedParameterListChanged</qualifiedname>
+        <briefdescription>
+<para>Triggered when something is changed in the list of exposed parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="139" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="139" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a50df4fc0680955f6759bc6f28cbf6e8c" compoundref="_base_graph_8cs" startline="653" endline="663">GraphProcessor.BaseGraph.AddExposedParameter</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a6b3ab3fa4d4967e3cf59ea296d14f74a" compoundref="_base_graph_8cs" startline="623" endline="646">GraphProcessor.BaseGraph.AddExposedParameter</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ad4b055e1a8d2429b4d0887416660cfca" compoundref="_base_graph_8cs" startline="669" endline="674">GraphProcessor.BaseGraph.RemoveExposedParameter</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ac61001ef6fb9a1f00a4042e0274f682c" compoundref="_base_graph_8cs" startline="680" endline="691">GraphProcessor.BaseGraph.RemoveExposedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_1ad22794fd5b2c85aa7b2f5060293889c7" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref> &gt;</type>
+        <definition>Action&lt;ExposedParameter&gt; GraphProcessor.BaseGraph.onExposedParameterModified</definition>
+        <argsstring></argsstring>
+        <name>onExposedParameterModified</name>
+        <qualifiedname>GraphProcessor.BaseGraph.onExposedParameterModified</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="140" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_1aec8fdfb2b87288e3143c56faefe44c4f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref> &gt;</type>
+        <definition>Action&lt;ExposedParameter&gt; GraphProcessor.BaseGraph.onExposedParameterValueChanged</definition>
+        <argsstring></argsstring>
+        <name>onExposedParameterValueChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraph.onExposedParameterValueChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="141" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_1a815fb0249a89cd479741ec8ab3d7824f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; Scene &gt;</type>
+        <definition>Action&lt;Scene&gt; GraphProcessor.BaseGraph.onSceneLinked</definition>
+        <argsstring></argsstring>
+        <name>onSceneLinked</name>
+        <qualifiedname>GraphProcessor.BaseGraph.onSceneLinked</qualifiedname>
+        <briefdescription>
+<para>Triggered when the graph is linked to an active scene. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="146" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="146" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ae3085d29118a93f423dc92614af33f4f" compoundref="_base_graph_8cs" startline="811" endline="815">GraphProcessor.BaseGraph.LinkToScene</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_1a2e168f90292b5bea422938c0fd65b113" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action GraphProcessor.BaseGraph.onEnabled</definition>
+        <argsstring></argsstring>
+        <name>onEnabled</name>
+        <qualifiedname>GraphProcessor.BaseGraph.onEnabled</qualifiedname>
+        <briefdescription>
+<para>Triggered when the graph is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="151" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="class_graph_processor_1_1_graph_changes" kindref="compound">GraphChanges</ref> &gt;</type>
+        <definition>Action&lt;GraphChanges&gt; GraphProcessor.BaseGraph.onGraphChanges</definition>
+        <argsstring></argsstring>
+        <name>onGraphChanges</name>
+        <qualifiedname>GraphProcessor.BaseGraph.onGraphChanges</qualifiedname>
+        <briefdescription>
+<para>Triggered when the graph is changed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="160" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="160" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a90bd3422be8cdc1f2ae57593ec9ad568" compoundref="_base_graph_8cs" startline="398" endline="402">GraphProcessor.BaseGraph.AddGroup</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a5569f5c31854c07dca7f26e09904eef7" compoundref="_base_graph_8cs" startline="257" endline="267">GraphProcessor.BaseGraph.AddNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a9af78b56962e73c307172fc2b7530cf4" compoundref="_base_graph_8cs" startline="418" endline="422">GraphProcessor.BaseGraph.AddStackNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ae0bb8c50a0b7f38690493797f16ea6d0" compoundref="_base_graph_8cs" startline="438" endline="442">GraphProcessor.BaseGraph.AddStickyNote</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ab7224feda099e47651a498222d8b3ccf" compoundref="_base_graph_8cs" startline="292" endline="327">GraphProcessor.BaseGraph.Connect</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a2a8bffdcee87244092b51be4470e527a" compoundref="_base_graph_8cs" startline="336" endline="353">GraphProcessor.BaseGraph.Disconnect</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1aa0461bcd6f9859a6ad08c90971b8c1fc" compoundref="_base_graph_8cs" startline="365" endline="392">GraphProcessor.BaseGraph.Disconnect</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a118e39ad0d35d15f0a0cfa9073eb597c" compoundref="_base_graph_8cs" startline="458" endline="458">GraphProcessor.BaseGraph.NotifyNodeChanged</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ae65a2b9fa30ec979bc08f3c7a2b9d53c" compoundref="_base_graph_8cs" startline="408" endline="412">GraphProcessor.BaseGraph.RemoveGroup</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a3f6c4ab84f91a1835e2527d15e3d76a6" compoundref="_base_graph_8cs" startline="273" endline="283">GraphProcessor.BaseGraph.RemoveNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a77d6402bf02079c8ef202274aadfab8b" compoundref="_base_graph_8cs" startline="428" endline="432">GraphProcessor.BaseGraph.RemoveStackNode</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ad08a2c5d266e9a644d79967e73eb6fe7" compoundref="_base_graph_8cs" startline="448" endline="452">GraphProcessor.BaseGraph.RemoveStickyNote</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_base_graph_1a1e4c263b67a79511e14000bb0323db81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraph.isEnabled</definition>
+        <argsstring></argsstring>
+        <name>isEnabled</name>
+        <qualifiedname>GraphProcessor.BaseGraph.isEnabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="164" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_base_graph_1aec8360df553545bc65f1afa6f13a870b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>HashSet&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+        <definition>HashSet&lt;BaseNode&gt; GraphProcessor.BaseGraph.graphOutputs</definition>
+        <argsstring></argsstring>
+        <name>graphOutputs</name>
+        <qualifiedname>GraphProcessor.BaseGraph.graphOutputs</qualifiedname>
+        <initializer>= new HashSet&lt;<ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="166" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="166" bodyend="166"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a8753a225702142a63c7a1123ba4addc8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraph.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>GraphProcessor.BaseGraph.OnEnable</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_1a72637abbad7cc9071ed225ef346bc720">OnEnable</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="168" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="168" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1aca05cdea8410bbfc6fb7b0f7289a8fab" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraph.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>GraphProcessor.BaseGraph.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="243" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="243" bodyend="248"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1aadf89c3291406de6c21ddffde1b181c7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.InitializeGraphElements</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeGraphElements</name>
+        <qualifiedname>GraphProcessor.BaseGraph.InitializeGraphElements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="189" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="189" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a7ca3c3ebb4aac4bde0cbc4a5d641940e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveNullNodes</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveNullNodes</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveNullNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="225" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="225" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a7ee29ec23c3368a9fd5588bdf165c6c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveNullExposedParameters</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveNullExposedParameters</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveNullExposedParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="234" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="234" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a377b6d9b6d35cc138adec78652b68012" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_pinned_element" kindref="compound">PinnedElement</ref></type>
+        <definition>PinnedElement GraphProcessor.BaseGraph.FindPinnedElement</definition>
+        <argsstring>(Type viewType)</argsstring>
+        <name>FindPinnedElement</name>
+        <qualifiedname>GraphProcessor.BaseGraph.FindPinnedElement</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>viewType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="492" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="492" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a4b3bdac403883e22e3aadb9ea2b6968d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GraphProcessor.BaseGraph.UpdateComputeOrderBreadthFirst</definition>
+        <argsstring>(int depth, BaseNode node)</argsstring>
+        <name>UpdateComputeOrderBreadthFirst</name>
+        <qualifiedname>GraphProcessor.BaseGraph.UpdateComputeOrderBreadthFirst</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>depth</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="828" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="828" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a65a175dc42c7dd38b7a617a712c750b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.UpdateComputeOrderDepthFirst</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateComputeOrderDepthFirst</name>
+        <qualifiedname>GraphProcessor.BaseGraph.UpdateComputeOrderDepthFirst</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="873" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="873" bodyend="890"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a00224a2b77a9a9d18ff6d6c3b1482e30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.PropagateComputeOrder</definition>
+        <argsstring>(BaseNode node, int computeOrder)</argsstring>
+        <name>PropagateComputeOrder</name>
+        <qualifiedname>GraphProcessor.BaseGraph.PropagateComputeOrder</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>computeOrder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="892" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="892" bodyend="909"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ad963463636ba396e1ffc314518e50fee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.DestroyBrokenGraphElements</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyBrokenGraphElements</name>
+        <qualifiedname>GraphProcessor.BaseGraph.DestroyBrokenGraphElements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="911" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="911" bodyend="927"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1aa05d6d47d9ee9f977a8db319474079b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraph.OnAssetDeleted</definition>
+        <argsstring>()</argsstring>
+        <name>OnAssetDeleted</name>
+        <qualifiedname>GraphProcessor.BaseGraph.OnAssetDeleted</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_1a0293c1b63233cf9846640ef18ce68a69">OnAssetDeleted</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="250" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="250" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a5569f5c31854c07dca7f26e09904eef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+        <definition>BaseNode GraphProcessor.BaseGraph.AddNode</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>AddNode</name>
+        <qualifiedname>GraphProcessor.BaseGraph.AddNode</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Adds a node to the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="257" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="257" bodyend="267"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a3b4e79b827cdc39687ccacde57bc0049" compoundref="_base_graph_8cs" startline="57">GraphProcessor.BaseGraph.nodes</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a4768bd7ee8f4f8a5fb85f19b815e4cb4" compoundref="_base_graph_8cs" startline="66">GraphProcessor.BaseGraph.nodesPerGUID</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a3f6c4ab84f91a1835e2527d15e3d76a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveNode</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>RemoveNode</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveNode</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Removes a node from the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="273" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="273" bodyend="283"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a3b4e79b827cdc39687ccacde57bc0049" compoundref="_base_graph_8cs" startline="57">GraphProcessor.BaseGraph.nodes</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a4768bd7ee8f4f8a5fb85f19b815e4cb4" compoundref="_base_graph_8cs" startline="66">GraphProcessor.BaseGraph.nodesPerGUID</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ab7224feda099e47651a498222d8b3ccf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref></type>
+        <definition>SerializableEdge GraphProcessor.BaseGraph.Connect</definition>
+        <argsstring>(NodePort inputPort, NodePort outputPort, bool autoDisconnectInputs=true)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>GraphProcessor.BaseGraph.Connect</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_node_port" kindref="compound">NodePort</ref></type>
+          <declname>inputPort</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_node_port" kindref="compound">NodePort</ref></type>
+          <declname>outputPort</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoDisconnectInputs</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Connect two ports with an edge. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputPort</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input port</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outputPort</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output port</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>DisconnectInputs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the edge allowed to disconnect another edge</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the connecting edge</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="292" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="292" bodyend="327"/>
+        <references refid="class_graph_processor_1_1_port_data_1a44396300604fde03621f400bfb5e9e62" compoundref="_node_port_8cs" startline="34">GraphProcessor.PortData.acceptMultipleEdges</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a2a8bffdcee87244092b51be4470e527a" compoundref="_base_graph_8cs" startline="336" endline="353">GraphProcessor.BaseGraph.Disconnect</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a8997e87d8327ba39a6e10552f933aaea" compoundref="_base_graph_8cs" startline="74">GraphProcessor.BaseGraph.edges</references>
+        <references refid="class_graph_processor_1_1_base_graph_1af94a7bf9f3b9445d4fff2ed322bef54d" compoundref="_base_graph_8cs" startline="82">GraphProcessor.BaseGraph.edgesPerGUID</references>
+        <references refid="class_graph_processor_1_1_node_port_1a8a52c82b7869f2f0954c9ea9bf1a8c0a" compoundref="_node_port_8cs" startline="252" endline="252">GraphProcessor.NodePort.GetEdges</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+        <references refid="class_graph_processor_1_1_node_port_1a389c79b5c033f7d648dad970799ef468" compoundref="_node_port_8cs" startline="83">GraphProcessor.NodePort.owner</references>
+        <references refid="class_graph_processor_1_1_node_port_1a9ca3b1112b1bfd1292c36776330e98c3" compoundref="_node_port_8cs" startline="91">GraphProcessor.NodePort.portData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a2a8bffdcee87244092b51be4470e527a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.Disconnect</definition>
+        <argsstring>(BaseNode inputNode, string inputFieldName, BaseNode outputNode, string outputFieldName)</argsstring>
+        <name>Disconnect</name>
+        <qualifiedname>GraphProcessor.BaseGraph.Disconnect</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>inputNode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>inputFieldName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>outputNode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>outputFieldName</declname>
+        </param>
+        <briefdescription>
+<para>Disconnect two ports. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input node</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputFieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>input field name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outputNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output node</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outputFieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output field name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="336" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="336" bodyend="353"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a8997e87d8327ba39a6e10552f933aaea" compoundref="_base_graph_8cs" startline="74">GraphProcessor.BaseGraph.edges</references>
+        <references refid="class_graph_processor_1_1_base_graph_1af94a7bf9f3b9445d4fff2ed322bef54d" compoundref="_base_graph_8cs" startline="82">GraphProcessor.BaseGraph.edgesPerGUID</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ab7224feda099e47651a498222d8b3ccf" compoundref="_base_graph_8cs" startline="292" endline="327">GraphProcessor.BaseGraph.Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ae91665bea04957b3f2dc9f8480d0d666" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.Disconnect</definition>
+        <argsstring>(SerializableEdge edge)</argsstring>
+        <name>Disconnect</name>
+        <qualifiedname>GraphProcessor.BaseGraph.Disconnect</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref></type>
+          <declname>edge</declname>
+        </param>
+        <briefdescription>
+<para>Disconnect an edge. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>edge</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="359" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="359" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1aa0461bcd6f9859a6ad08c90971b8c1fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.Disconnect</definition>
+        <argsstring>(string edgeGUID)</argsstring>
+        <name>Disconnect</name>
+        <qualifiedname>GraphProcessor.BaseGraph.Disconnect</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>edgeGUID</declname>
+        </param>
+        <briefdescription>
+<para>Disconnect an edge. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>edgeGUID</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="365" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="365" bodyend="392"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a8997e87d8327ba39a6e10552f933aaea" compoundref="_base_graph_8cs" startline="74">GraphProcessor.BaseGraph.edges</references>
+        <references refid="class_graph_processor_1_1_base_graph_1af94a7bf9f3b9445d4fff2ed322bef54d" compoundref="_base_graph_8cs" startline="82">GraphProcessor.BaseGraph.edgesPerGUID</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a90bd3422be8cdc1f2ae57593ec9ad568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.AddGroup</definition>
+        <argsstring>(Group block)</argsstring>
+        <name>AddGroup</name>
+        <qualifiedname>GraphProcessor.BaseGraph.AddGroup</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+<para>Add a group. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="398" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="398" bodyend="402"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a01709ac66d6d765b40c28c5b35897efa" compoundref="_base_graph_8cs" startline="90">GraphProcessor.BaseGraph.groups</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ae65a2b9fa30ec979bc08f3c7a2b9d53c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveGroup</definition>
+        <argsstring>(Group block)</argsstring>
+        <name>RemoveGroup</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveGroup</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+<para>Removes a group. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>block</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="408" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="408" bodyend="412"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a01709ac66d6d765b40c28c5b35897efa" compoundref="_base_graph_8cs" startline="90">GraphProcessor.BaseGraph.groups</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a9af78b56962e73c307172fc2b7530cf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.AddStackNode</definition>
+        <argsstring>(BaseStackNode stackNode)</argsstring>
+        <name>AddStackNode</name>
+        <qualifiedname>GraphProcessor.BaseGraph.AddStackNode</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_stack_node" kindref="compound">BaseStackNode</ref></type>
+          <declname>stackNode</declname>
+        </param>
+        <briefdescription>
+<para>Add a StackNode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stackNode</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="418" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="418" bodyend="422"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a49d6f811c1167a466c09c6536bfa2b5a" compoundref="_base_graph_8cs" startline="98">GraphProcessor.BaseGraph.stackNodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a77d6402bf02079c8ef202274aadfab8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveStackNode</definition>
+        <argsstring>(BaseStackNode stackNode)</argsstring>
+        <name>RemoveStackNode</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveStackNode</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_stack_node" kindref="compound">BaseStackNode</ref></type>
+          <declname>stackNode</declname>
+        </param>
+        <briefdescription>
+<para>Remove a StackNode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>stackNode</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="428" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="428" bodyend="432"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+        <references refid="class_graph_processor_1_1_base_graph_1a49d6f811c1167a466c09c6536bfa2b5a" compoundref="_base_graph_8cs" startline="98">GraphProcessor.BaseGraph.stackNodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ae0bb8c50a0b7f38690493797f16ea6d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.AddStickyNote</definition>
+        <argsstring>(StickyNote note)</argsstring>
+        <name>AddStickyNote</name>
+        <qualifiedname>GraphProcessor.BaseGraph.AddStickyNote</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_sticky_note" kindref="compound">StickyNote</ref></type>
+          <declname>note</declname>
+        </param>
+        <briefdescription>
+<para>Add a sticky note. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>note</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="438" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="438" bodyend="442"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ad08a2c5d266e9a644d79967e73eb6fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveStickyNote</definition>
+        <argsstring>(StickyNote note)</argsstring>
+        <name>RemoveStickyNote</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveStickyNote</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_sticky_note" kindref="compound">StickyNote</ref></type>
+          <declname>note</declname>
+        </param>
+        <briefdescription>
+<para>Removes a sticky note. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>note</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="448" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="448" bodyend="452"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a118e39ad0d35d15f0a0cfa9073eb597c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.NotifyNodeChanged</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>NotifyNodeChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraph.NotifyNodeChanged</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Invoke the onGraphChanges event, can be used as trigger to execute the graph when the content of a node is changed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="458" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="458" bodyend="458"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" compoundref="_base_graph_8cs" startline="160">GraphProcessor.BaseGraph.onGraphChanges</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a59693610a56a5d945429a102793891ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_pinned_element" kindref="compound">PinnedElement</ref></type>
+        <definition>PinnedElement GraphProcessor.BaseGraph.OpenPinned</definition>
+        <argsstring>(Type viewType)</argsstring>
+        <name>OpenPinned</name>
+        <qualifiedname>GraphProcessor.BaseGraph.OpenPinned</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>viewType</declname>
+        </param>
+        <briefdescription>
+<para>Open a pinned element of type viewType. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>viewType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of the pinned element</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the pinned element</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="465" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="465" bodyend="478"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a69b01b151302b542c9842380e6b28531" compoundref="_base_graph_8cs" startline="106">GraphProcessor.BaseGraph.pinnedElements</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a7fd401bf03485446caddc63a9a1c85b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.ClosePinned</definition>
+        <argsstring>(Type viewType)</argsstring>
+        <name>ClosePinned</name>
+        <qualifiedname>GraphProcessor.BaseGraph.ClosePinned</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>viewType</declname>
+        </param>
+        <briefdescription>
+<para>Closes a pinned element of type viewType. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>viewType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of the pinned element</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="484" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="484" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ac3ae9848d605dda93e826ecb8a31cffe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.OnBeforeSerialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnBeforeSerialize</name>
+        <qualifiedname>GraphProcessor.BaseGraph.OnBeforeSerialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="504" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="504" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a2f582f4f9455a03bc67349cc61497039" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.Deserialize</definition>
+        <argsstring>()</argsstring>
+        <name>Deserialize</name>
+        <qualifiedname>GraphProcessor.BaseGraph.Deserialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="518" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="518" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1aea7da61a40b36a2fcd9568d8773c42dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.MigrateGraphIfNeeded</definition>
+        <argsstring>()</argsstring>
+        <name>MigrateGraphIfNeeded</name>
+        <qualifiedname>GraphProcessor.BaseGraph.MigrateGraphIfNeeded</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="532" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="532" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a03eba1e667fc6e082aa9e6242308d7ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.OnAfterDeserialize</definition>
+        <argsstring>()</argsstring>
+        <name>OnAfterDeserialize</name>
+        <qualifiedname>GraphProcessor.BaseGraph.OnAfterDeserialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="569" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="569" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1afe91f28cb31b1ee1f1104c163a0be21f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.UpdateComputeOrder</definition>
+        <argsstring>(ComputeOrderType type=ComputeOrderType.DepthFirst)</argsstring>
+        <name>UpdateComputeOrder</name>
+        <qualifiedname>GraphProcessor.BaseGraph.UpdateComputeOrder</qualifiedname>
+        <param>
+          <type><ref refid="namespace_graph_processor_1a9e0449a7cf05136c91e5a5931ee01fab" kindref="member">ComputeOrderType</ref></type>
+          <declname>type</declname>
+          <defval>ComputeOrderType.DepthFirst</defval>
+        </param>
+        <briefdescription>
+<para>Update the compute order of the nodes in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Compute order type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="575" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="575" bodyend="603"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a3b4e79b827cdc39687ccacde57bc0049" compoundref="_base_graph_8cs" startline="57">GraphProcessor.BaseGraph.nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a6b3ab3fa4d4967e3cf59ea296d14f74a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GraphProcessor.BaseGraph.AddExposedParameter</definition>
+        <argsstring>(string name, Type type, object value=null)</argsstring>
+        <name>AddExposedParameter</name>
+        <qualifiedname>GraphProcessor.BaseGraph.AddExposedParameter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Add an exposed parameter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameter name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameter type (must be a subclass of <ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref>)</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>default value</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The unique id of the parameter</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="623" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="623" bodyend="646"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" compoundref="_base_graph_8cs" startline="114">GraphProcessor.BaseGraph.exposedParameters</references>
+        <references refid="class_graph_processor_1_1_base_graph_1add47371cf28a68e961a5d472bd7549ac" compoundref="_base_graph_8cs" startline="139">GraphProcessor.BaseGraph.onExposedParameterListChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a50df4fc0680955f6759bc6f28cbf6e8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GraphProcessor.BaseGraph.AddExposedParameter</definition>
+        <argsstring>(ExposedParameter parameter)</argsstring>
+        <name>AddExposedParameter</name>
+        <qualifiedname>GraphProcessor.BaseGraph.AddExposedParameter</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Add an already allocated / initialized parameter to the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter to add</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The unique id of the parameter</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="653" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="653" bodyend="663"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" compoundref="_base_graph_8cs" startline="114">GraphProcessor.BaseGraph.exposedParameters</references>
+        <references refid="class_graph_processor_1_1_base_graph_1add47371cf28a68e961a5d472bd7549ac" compoundref="_base_graph_8cs" startline="139">GraphProcessor.BaseGraph.onExposedParameterListChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ad4b055e1a8d2429b4d0887416660cfca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveExposedParameter</definition>
+        <argsstring>(ExposedParameter ep)</argsstring>
+        <name>RemoveExposedParameter</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveExposedParameter</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+<para>Remove an exposed parameter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ep</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parameter to remove</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="669" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="669" bodyend="674"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" compoundref="_base_graph_8cs" startline="114">GraphProcessor.BaseGraph.exposedParameters</references>
+        <references refid="class_graph_processor_1_1_base_graph_1add47371cf28a68e961a5d472bd7549ac" compoundref="_base_graph_8cs" startline="139">GraphProcessor.BaseGraph.onExposedParameterListChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ac61001ef6fb9a1f00a4042e0274f682c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.RemoveExposedParameter</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>RemoveExposedParameter</name>
+        <qualifiedname>GraphProcessor.BaseGraph.RemoveExposedParameter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+<para>Remove an exposed parameter. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>guid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GUID of the parameter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="680" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="680" bodyend="691"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" compoundref="_base_graph_8cs" startline="114">GraphProcessor.BaseGraph.exposedParameters</references>
+        <references refid="class_graph_processor_1_1_base_graph_1add47371cf28a68e961a5d472bd7549ac" compoundref="_base_graph_8cs" startline="139">GraphProcessor.BaseGraph.onExposedParameterListChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a8ba9062312b87a4deffa770e7219e9e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.UpdateExposedParameter</definition>
+        <argsstring>(string guid, object value)</argsstring>
+        <name>UpdateExposedParameter</name>
+        <qualifiedname>GraphProcessor.BaseGraph.UpdateExposedParameter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Update an exposed parameter value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>guid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GUID of the parameter</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new value</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="701" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="701" bodyend="712"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a3a5add33b5068b803244988b6cd6c98c" compoundref="_base_graph_8cs" startline="762" endline="772">GraphProcessor.BaseGraph.GetExposedParameterFromGUID</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1af24e38d78028f60787ae2564d4be3e6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.UpdateExposedParameterName</definition>
+        <argsstring>(ExposedParameter parameter, string name)</argsstring>
+        <name>UpdateExposedParameterName</name>
+        <qualifiedname>GraphProcessor.BaseGraph.UpdateExposedParameterName</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Update the exposed parameter name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="719" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="719" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a978d5d6b32e515c2d4e7279057606d5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.NotifyExposedParameterChanged</definition>
+        <argsstring>(ExposedParameter parameter)</argsstring>
+        <name>NotifyExposedParameterChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraph.NotifyExposedParameterChanged</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Update parameter visibility. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isHidden</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is Hidden</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="730" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="730" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1af2f492f2b8b3825d13e8ae10621f29e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.NotifyExposedParameterValueChanged</definition>
+        <argsstring>(ExposedParameter parameter)</argsstring>
+        <name>NotifyExposedParameterValueChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraph.NotifyExposedParameterValueChanged</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="735" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="735" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a9e9b463814adc5728642c15343214016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+        <definition>ExposedParameter GraphProcessor.BaseGraph.GetExposedParameter</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetExposedParameter</name>
+        <qualifiedname>GraphProcessor.BaseGraph.GetExposedParameter</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Get the exposed parameter from name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the parameter or null</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="745" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="745" bodyend="755"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" compoundref="_base_graph_8cs" startline="114">GraphProcessor.BaseGraph.exposedParameters</references>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1ac672767cdb94050934dffe1325edf6fd" compoundref="_base_graph_8cs" startline="780" endline="790">GraphProcessor.BaseGraph.SetParameterValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a3a5add33b5068b803244988b6cd6c98c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+        <definition>ExposedParameter GraphProcessor.BaseGraph.GetExposedParameterFromGUID</definition>
+        <argsstring>(string guid)</argsstring>
+        <name>GetExposedParameterFromGUID</name>
+        <qualifiedname>GraphProcessor.BaseGraph.GetExposedParameterFromGUID</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>guid</declname>
+        </param>
+        <briefdescription>
+<para>Get exposed parameter from GUID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>guid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GUID of the parameter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The parameter</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="762" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="762" bodyend="772"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" compoundref="_base_graph_8cs" startline="114">GraphProcessor.BaseGraph.exposedParameters</references>
+        <referencedby refid="class_graph_processor_1_1_base_graph_1a8ba9062312b87a4deffa770e7219e9e9" compoundref="_base_graph_8cs" startline="701" endline="712">GraphProcessor.BaseGraph.UpdateExposedParameter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ac672767cdb94050934dffe1325edf6fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraph.SetParameterValue</definition>
+        <argsstring>(string name, object value)</argsstring>
+        <name>SetParameterValue</name>
+        <qualifiedname>GraphProcessor.BaseGraph.SetParameterValue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set parameter value from name. (Warning: the parameter name can be changed by the user). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the parameter</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new value</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the value have been assigned</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="780" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="780" bodyend="790"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a9e9b463814adc5728642c15343214016" compoundref="_base_graph_8cs" startline="745" endline="755">GraphProcessor.BaseGraph.GetExposedParameter</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a27f56bee94e3b08cfd0adb2522c59461" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object GraphProcessor.BaseGraph.GetParameterValue</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetParameterValue</name>
+        <qualifiedname>GraphProcessor.BaseGraph.GetParameterValue</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Get the parameter value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameter name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>value</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="797" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="797" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a1061d314079573de1702fc693c7667bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T GraphProcessor.BaseGraph.GetParameterValue&lt; T &gt;</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetParameterValue&lt; T &gt;</name>
+        <qualifiedname>GraphProcessor.BaseGraph.GetParameterValue&lt; T &gt;</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Get the parameter value template. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameter name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of the parameter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>value</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="805" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="805" bodyend="805"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1ae3085d29118a93f423dc92614af33f4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.LinkToScene</definition>
+        <argsstring>(Scene scene)</argsstring>
+        <name>LinkToScene</name>
+        <qualifiedname>GraphProcessor.BaseGraph.LinkToScene</qualifiedname>
+        <param>
+          <type>Scene</type>
+          <declname>scene</declname>
+        </param>
+        <briefdescription>
+<para>Link the current graph to the scene in parameter, allowing the graph to pick and serialize objects from the scene. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scene</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target scene to link</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="811" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="811" bodyend="815"/>
+        <references refid="class_graph_processor_1_1_base_graph_1a815fb0249a89cd479741ec8ab3d7824f" compoundref="_base_graph_8cs" startline="146">GraphProcessor.BaseGraph.onSceneLinked</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a7d2c874e75b817769866654d72769366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraph.IsLinkedToScene</definition>
+        <argsstring>()</argsstring>
+        <name>IsLinkedToScene</name>
+        <qualifiedname>GraphProcessor.BaseGraph.IsLinkedToScene</qualifiedname>
+        <briefdescription>
+<para>Return true when the graph is linked to a scene, false otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="820" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="820" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a680bffc3a754d3e706e59457e7b47920" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Scene</type>
+        <definition>Scene GraphProcessor.BaseGraph.GetLinkedScene</definition>
+        <argsstring>()</argsstring>
+        <name>GetLinkedScene</name>
+        <qualifiedname>GraphProcessor.BaseGraph.GetLinkedScene</qualifiedname>
+        <briefdescription>
+<para>Get the linked scene. If there is no linked scene, it returns an invalid scene. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="825" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="825" bodyend="825"/>
+        <references refid="class_graph_processor_1_1_base_node_1ac79beb1e4729dd37824a80dc866dfbc9" compoundref="_base_node_8cs" startline="52">GraphProcessor.BaseNode.canProcess</references>
+        <references refid="class_graph_processor_1_1_base_node_1a6ebbe51d191e0898ebd6519bdb7e4216" compoundref="_base_node_8cs" startline="721" endline="726">GraphProcessor.BaseNode.GetInputNodes</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a739295b0d254c9b1405d2bf85d189c38" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GraphProcessor.BaseGraph.HasOutputNodes</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>HasOutputNodes</name>
+        <qualifiedname>GraphProcessor.BaseGraph.HasOutputNodes</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="605" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="605" bodyend="614"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a3698200ff7de4511f94c63ef8789f5c7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraph.NotifyExposedParameterListChanged</definition>
+        <argsstring>()</argsstring>
+        <name>NotifyExposedParameterListChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraph.NotifyExposedParameterListChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="693" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="693" bodyend="694"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_1a5a962e414782f22fe5b879d384665bbd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool GraphProcessor.BaseGraph.TypesAreConnectable</definition>
+        <argsstring>(Type t1, Type t2)</argsstring>
+        <name>TypesAreConnectable</name>
+        <qualifiedname>GraphProcessor.BaseGraph.TypesAreConnectable</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>t1</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>t2</declname>
+        </param>
+        <briefdescription>
+<para>Tell if two types can be connected in the context of a graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t1</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t2</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="935" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="935" bodyend="956"/>
+        <referencedby refid="class_graph_processor_1_1_base_node_1a8804a804535d34a6e653f0bdf960102d" compoundref="_base_node_8cs" startline="359" endline="454">GraphProcessor.BaseNode.UpdatePortsForFieldLocal</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Graph.GenesisGraph</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="34" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="35" bodyend="957"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_graph_1adb9dfd661ce62999e59741c9ab0f26d5" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>_isEnabled</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a6b3ab3fa4d4967e3cf59ea296d14f74a" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>AddExposedParameter</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a50df4fc0680955f6759bc6f28cbf6e8c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>AddExposedParameter</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a90bd3422be8cdc1f2ae57593ec9ad568" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>AddGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a5569f5c31854c07dca7f26e09904eef7" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>AddNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a9af78b56962e73c307172fc2b7530cf4" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>AddStackNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ae0bb8c50a0b7f38690493797f16ea6d0" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>AddStickyNote</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a7fd401bf03485446caddc63a9a1c85b2" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>ClosePinned</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ad07dfb8a47960bda8fb448e908b3db64" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>computeOrderDictionary</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ab7224feda099e47651a498222d8b3ccf" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>Connect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a2f582f4f9455a03bc67349cc61497039" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>Deserialize</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ad963463636ba396e1ffc314518e50fee" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>DestroyBrokenGraphElements</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a2a8bffdcee87244092b51be4470e527a" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>Disconnect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ae91665bea04957b3f2dc9f8480d0d666" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>Disconnect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1aa0461bcd6f9859a6ad08c90971b8c1fc" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>Disconnect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a8997e87d8327ba39a6e10552f933aaea" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>edges</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1af94a7bf9f3b9445d4fff2ed322bef54d" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>edgesPerGUID</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a9b012a250823f5c108a2e7c2acb4ce0b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>exposedParameters</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a377b6d9b6d35cc138adec78652b68012" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>FindPinnedElement</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a9e9b463814adc5728642c15343214016" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>GetExposedParameter</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a3a5add33b5068b803244988b6cd6c98c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>GetExposedParameterFromGUID</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a680bffc3a754d3e706e59457e7b47920" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>GetLinkedScene</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a27f56bee94e3b08cfd0adb2522c59461" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>GetParameterValue</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a1061d314079573de1702fc693c7667bc" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>GetParameterValue&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1aec8360df553545bc65f1afa6f13a870b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>graphOutputs</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a01709ac66d6d765b40c28c5b35897efa" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>groups</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a739295b0d254c9b1405d2bf85d189c38" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>HasOutputNodes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a1f5494cc719f5792ac03a41e67816eb0" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>infiniteLoopTracker</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1aadf89c3291406de6c21ddffde1b181c7" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>InitializeGraphElements</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ad91ef3214d1b87368df7a829f033d1f6" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>invalidComputeOrder</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a1e4c263b67a79511e14000bb0323db81" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>isEnabled</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a7d2c874e75b817769866654d72769366" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>IsLinkedToScene</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a7c012e720d4112bfe936763ed4e5b885" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>LightweightEnable</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ad8eee68b717d08274beaf8cb1e2f093a" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>linkedScene</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ae3085d29118a93f423dc92614af33f4f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>LinkToScene</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a002bf89e41fd0ef778d457e7ac1d76f2" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>loopComputeOrder</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a4ad3f6125b2050ecf857477179b539c1" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>maxComputeOrderDepth</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1aea7da61a40b36a2fcd9568d8773c42dd" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>MigrateGraphIfNeeded</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1adc87d8affc5111f756eabd9c3b7acb96" prot="package" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>nodeInspectorReference</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a3b4e79b827cdc39687ccacde57bc0049" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>nodes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a4768bd7ee8f4f8a5fb85f19b815e4cb4" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>nodesPerGUID</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a978d5d6b32e515c2d4e7279057606d5d" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>NotifyExposedParameterChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a3698200ff7de4511f94c63ef8789f5c7" prot="package" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>NotifyExposedParameterListChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1af2f492f2b8b3825d13e8ae10621f29e7" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>NotifyExposedParameterValueChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a118e39ad0d35d15f0a0cfa9073eb597c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>NotifyNodeChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a03eba1e667fc6e082aa9e6242308d7ed" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>OnAfterDeserialize</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1aa05d6d47d9ee9f977a8db319474079b2" prot="public" virt="virtual"><scope>GraphProcessor::BaseGraph</scope><name>OnAssetDeleted</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ac3ae9848d605dda93e826ecb8a31cffe" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>OnBeforeSerialize</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1aca05cdea8410bbfc6fb7b0f7289a8fab" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraph</scope><name>OnDisable</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a8753a225702142a63c7a1123ba4addc8" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraph</scope><name>OnEnable</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a2e168f90292b5bea422938c0fd65b113" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>onEnabled</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1add47371cf28a68e961a5d472bd7549ac" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>onExposedParameterListChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ad22794fd5b2c85aa7b2f5060293889c7" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>onExposedParameterModified</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1aec8fdfb2b87288e3143c56faefe44c4f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>onExposedParameterValueChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a104a809f00e207dd69afc79e08470053" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>onGraphChanges</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a815fb0249a89cd479741ec8ab3d7824f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>onSceneLinked</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a59693610a56a5d945429a102793891ad" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>OpenPinned</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a69b01b151302b542c9842380e6b28531" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>pinnedElements</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a28ba2d64607c81b1d0857faacb3ed9b7" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>position</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a00224a2b77a9a9d18ff6d6c3b1482e30" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>PropagateComputeOrder</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ad4b055e1a8d2429b4d0887416660cfca" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveExposedParameter</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ac61001ef6fb9a1f00a4042e0274f682c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveExposedParameter</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ae65a2b9fa30ec979bc08f3c7a2b9d53c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a3f6c4ab84f91a1835e2527d15e3d76a6" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a7ee29ec23c3368a9fd5588bdf165c6c1" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveNullExposedParameters</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a7ca3c3ebb4aac4bde0cbc4a5d641940e" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveNullNodes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a77d6402bf02079c8ef202274aadfab8b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveStackNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ad08a2c5d266e9a644d79967e73eb6fe7" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>RemoveStickyNote</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ae034c117b7c22deebe35faf3ccc1e4ca" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>scale</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ae08338b2c2416472884f46f44fb1cc45" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>serializedNodes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a6ef966cd16652610bd843aa50f0f4e72" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>serializedParameterList</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1ac672767cdb94050934dffe1325edf6fd" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>SetParameterValue</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a49d6f811c1167a466c09c6536bfa2b5a" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>stackNodes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a04e758c3d90371ba1cc044dcde992019" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>stickyNotes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a5a962e414782f22fe5b879d384665bbd" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>TypesAreConnectable</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1afe91f28cb31b1ee1f1104c163a0be21f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>UpdateComputeOrder</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a4b3bdac403883e22e3aadb9ea2b6968d" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>UpdateComputeOrderBreadthFirst</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a65a175dc42c7dd38b7a617a712c750b2" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>UpdateComputeOrderDepthFirst</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1a8ba9062312b87a4deffa770e7219e9e9" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>UpdateExposedParameter</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_1af24e38d78028f60787ae2564d4be3e6d" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraph</scope><name>UpdateExposedParameterName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_4603694bae4c4268cf6e0c146fb72a6c" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Function/Random</compoundname>
+    <innerfile refid="_random_float_node_view_8cs">RandomFloatNodeView.cs</innerfile>
+    <innerfile refid="_random_int_node_view_8cs">RandomIntNodeView.cs</innerfile>
+    <innerfile refid="_random_point_in_box_node_view_8cs">RandomPointInBoxNodeView.cs</innerfile>
+    <innerfile refid="_random_point_in_circle_node_view_8cs">RandomPointInCircleNodeView.cs</innerfile>
+    <innerfile refid="_random_point_in_cube_node_view_8cs">RandomPointInCubeNodeView.cs</innerfile>
+    <innerfile refid="_random_point_in_sphere_node_view_8cs">RandomPointInSphereNodeView.cs</innerfile>
+    <innerfile refid="_random_vector2_node_view_8cs">RandomVector2NodeView.cs</innerfile>
+    <innerfile refid="_random_vector4_node_view_8cs">RandomVector4NodeView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Function/Random/"/>
+  </compounddef>
+</doxygen>

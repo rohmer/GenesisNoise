@@ -8,14 +8,14 @@ category: "Texture"
 
 # Texture Channels
 
-> Wraps a texture asset or input texture and exposes the source texture's red, green, blue, alpha, and grayscale values as separate grayscale texture outputs.
+> Wraps a texture asset or input texture and exposes the source texture's full RGBA color plus its red, green, blue, alpha, and grayscale values as separate outputs.
 
 ![Texture Channels](../_images/texture/texture-channels.png)
 
 ## Description
 
 
-Wraps a texture asset or input texture and exposes the source texture's red, green, blue, alpha, and grayscale values as separate grayscale texture outputs.
+Wraps a texture asset or input texture and exposes the source texture's full RGBA color plus its red, green, blue, alpha, and grayscale values as separate outputs.
 
 
 ## Inputs
@@ -33,7 +33,7 @@ Wraps a texture asset or input texture and exposes the source texture's red, gre
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 939a3e75-5267-421e-bad5-a20710d3cf76 | |
+| GUID | String | df2229a3-359b-443f-a351-01adca0df2d2 | |
 | expanded | Boolean | False | |
 
 ## See Also

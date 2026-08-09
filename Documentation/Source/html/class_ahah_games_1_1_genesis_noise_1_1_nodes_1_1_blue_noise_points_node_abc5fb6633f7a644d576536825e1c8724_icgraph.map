@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.BlueNoisePointsNode.IsFarEnough" name="AhahGames.GenesisNoise.Nodes.BlueNoisePointsNode.IsFarEnough">
-<area shape="rect" id="Node000001" title=" " alt="" coords="577,5,804,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blue_noise_points_node.html#a5a1b073bf45ed93340cc4544bd840e44" title=" " alt="" coords="286,5,529,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="558,27,530,29,530,24,564,27"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blue_noise_points_node.html#ae010957e1fde6f37d761925cc6c66099" title=" " alt="" coords="5,5,238,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="267,27,238,29,238,24,273,27"/>
-</map>

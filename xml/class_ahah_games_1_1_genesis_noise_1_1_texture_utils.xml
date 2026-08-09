@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::TextureUtils</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ac2ead421fc031c7e2263a77309522563" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; TextureDimension, Texture &gt;</type>
+        <definition>Dictionary&lt;TextureDimension, Texture&gt; AhahGames.GenesisNoise.TextureUtils.blackTextures</definition>
+        <argsstring></argsstring>
+        <name>blackTextures</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.blackTextures</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="12" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a964d74c44d9c67ee9cff78dc70c6ab6a" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; TextureDimension, Texture &gt;</type>
+        <definition>Dictionary&lt;TextureDimension, Texture&gt; AhahGames.GenesisNoise.TextureUtils.whiteTextures</definition>
+        <argsstring></argsstring>
+        <name>whiteTextures</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.whiteTextures</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="13" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a4d1c44fb1a3de8ea68b272e7eab54b76" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string AhahGames.GenesisNoise.TextureUtils.blackDefaultTextureName</definition>
+        <argsstring></argsstring>
+        <name>blackDefaultTextureName</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.blackDefaultTextureName</qualifiedname>
+        <initializer>= &quot;Genesis Black&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="16" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a11652b220e6c61c267098837a0a9def0" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string AhahGames.GenesisNoise.TextureUtils.whiteDefaultTextureName</definition>
+        <argsstring></argsstring>
+        <name>whiteDefaultTextureName</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.whiteDefaultTextureName</qualifiedname>
+        <initializer>= &quot;Genesis white&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="17" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ad4e9de3968075ab704f4f52da1bd92f2" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int AhahGames.GenesisNoise.TextureUtils.CurveTextureResolution</definition>
+        <argsstring></argsstring>
+        <name>CurveTextureResolution</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.CurveTextureResolution</qualifiedname>
+        <initializer>= 512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="19" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a12e772efa2ea738e25f7971ccfbb4684" prot="private" static="yes" mutable="no">
+        <type>Color[]</type>
+        <definition>Color [] AhahGames.GenesisNoise.TextureUtils.pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.pixels</qualifiedname>
+        <initializer>= new Color[CurveTextureResolution]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="160" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1af3620f189cfa14276914e1209ae4d7ac" prot="private" static="yes" mutable="no">
+        <type>ProfilingSampler</type>
+        <definition>ProfilingSampler AhahGames.GenesisNoise.TextureUtils.copyTextureSampler</definition>
+        <argsstring></argsstring>
+        <name>copyTextureSampler</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.copyTextureSampler</qualifiedname>
+        <initializer>= new(&quot;Copy Texture&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="267" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="267" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a13cc87bb5b6ded998b38fcba79b11a66" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture</type>
+        <definition>static Texture AhahGames.GenesisNoise.TextureUtils.GetBlackTexture</definition>
+        <argsstring>(TextureDimension dim, int sliceCount=0)</argsstring>
+        <name>GetBlackTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.GetBlackTexture</qualifiedname>
+        <param>
+          <type>TextureDimension</type>
+          <declname>dim</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sliceCount</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="21" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="21" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1acad53d4a4e8b1780257ddea68c9d822b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture</type>
+        <definition>static Texture AhahGames.GenesisNoise.TextureUtils.GetWhiteTexture</definition>
+        <argsstring>(TextureDimension dim, int sliceCount=0)</argsstring>
+        <name>GetWhiteTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.GetWhiteTexture</qualifiedname>
+        <param>
+          <type>TextureDimension</type>
+          <declname>dim</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sliceCount</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="42" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="42" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1aa8bbb01708c7494601ca04e6c690a250" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>RenderTexture</type>
+        <definition>static RenderTexture AhahGames.GenesisNoise.TextureUtils.CreateColorRenderTexture</definition>
+        <argsstring>(TextureDimension dim, Color color)</argsstring>
+        <name>CreateColorRenderTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.CreateColorRenderTexture</qualifiedname>
+        <param>
+          <type>TextureDimension</type>
+          <declname>dim</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="63" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="63" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ac86eb1c8a49e4c75b06d17b7a0ef6c12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.TextureUtils.IsGenesisDefaultTexture</definition>
+        <argsstring>(this Texture texture)</argsstring>
+        <name>IsGenesisDefaultTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.IsGenesisDefaultTexture</qualifiedname>
+        <param>
+          <type>this Texture</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="93" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="93" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ad6be80af5cb5e594ef40ae03ae47683f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AhahGames.GenesisNoise.TextureUtils.GetSliceCount</definition>
+        <argsstring>(Texture tex)</argsstring>
+        <name>GetSliceCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.GetSliceCount</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>tex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="96" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="96" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1af45e669c42666449b66cbc1aaff7382b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>static Type AhahGames.GenesisNoise.TextureUtils.GetTypeFromDimension</definition>
+        <argsstring>(TextureDimension dimension)</argsstring>
+        <name>GetTypeFromDimension</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.GetTypeFromDimension</qualifiedname>
+        <param>
+          <type>TextureDimension</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="125" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="125" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a7d94ba87c81fc193aacc6a8ca136c0cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TextureDimension</type>
+        <definition>static TextureDimension AhahGames.GenesisNoise.TextureUtils.GetDimensionFromType</definition>
+        <argsstring>(Type textureType)</argsstring>
+        <name>GetDimensionFromType</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.GetDimensionFromType</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>textureType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="144" column="40" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="144" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a32a6a9ab8dc7a579389a380be8f8dc96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.TextureUtils.UpdateTextureFromCurve</definition>
+        <argsstring>(AnimationCurve curve, ref Texture2D curveTexture)</argsstring>
+        <name>UpdateTextureFromCurve</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.UpdateTextureFromCurve</qualifiedname>
+        <param>
+          <type>AnimationCurve</type>
+          <declname>curve</declname>
+        </param>
+        <param>
+          <type>ref Texture2D</type>
+          <declname>curveTexture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="161" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="161" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a3172562b212d1f74a38304a649d48589" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture</type>
+        <definition>static Texture AhahGames.GenesisNoise.TextureUtils.DuplicateTexture</definition>
+        <argsstring>(Texture source, bool copyContent=true)</argsstring>
+        <name>DuplicateTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.DuplicateTexture</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>copyContent</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="181" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="181" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a9cb6c201f31320cd189eb6b82ffd3586" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.TextureUtils.CopyTexture</definition>
+        <argsstring>(Texture source, Texture destination, bool copyMips=true)</argsstring>
+        <name>CopyTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.CopyTexture</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>copyMips</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="253" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="253" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a6412f256b6a3dc129d348a345e5e378d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.TextureUtils.CopyTexture</definition>
+        <argsstring>(CommandBuffer cmd, Texture source, Texture destination, bool copyMips=true)</argsstring>
+        <name>CopyTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.CopyTexture</qualifiedname>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>copyMips</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="268" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="268" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ac2f82da34ba66d613c55ce1da0bc3d56" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.TextureUtils.CopyTexture</definition>
+        <argsstring>(CommandBuffer cmd, Texture source, Texture destination, int mipStart, int mipStop=-1)</argsstring>
+        <name>CopyTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.TextureUtils.CopyTexture</qualifiedname>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mipStart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mipStop</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="274" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="274" bodyend="305"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" line="10" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Shaders/Utils/TextureUtils.cs" bodystart="11" bodyend="306"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a4d1c44fb1a3de8ea68b272e7eab54b76" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>blackDefaultTextureName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ac2ead421fc031c7e2263a77309522563" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>blackTextures</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a9cb6c201f31320cd189eb6b82ffd3586" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>CopyTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a6412f256b6a3dc129d348a345e5e378d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>CopyTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ac2f82da34ba66d613c55ce1da0bc3d56" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>CopyTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1af3620f189cfa14276914e1209ae4d7ac" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>copyTextureSampler</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1aa8bbb01708c7494601ca04e6c690a250" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>CreateColorRenderTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ad4e9de3968075ab704f4f52da1bd92f2" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>CurveTextureResolution</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a3172562b212d1f74a38304a649d48589" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>DuplicateTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a13cc87bb5b6ded998b38fcba79b11a66" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>GetBlackTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a7d94ba87c81fc193aacc6a8ca136c0cc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>GetDimensionFromType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ad6be80af5cb5e594ef40ae03ae47683f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>GetSliceCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1af45e669c42666449b66cbc1aaff7382b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>GetTypeFromDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1acad53d4a4e8b1780257ddea68c9d822b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>GetWhiteTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1ac86eb1c8a49e4c75b06d17b7a0ef6c12" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>IsGenesisDefaultTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a12e772efa2ea738e25f7971ccfbb4684" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>pixels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a32a6a9ab8dc7a579389a380be8f8dc96" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>UpdateTextureFromCurve</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a11652b220e6c61c267098837a0a9def0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>whiteDefaultTextureName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_texture_utils_1a964d74c44d9c67ee9cff78dc70c6ab6a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::TextureUtils</scope><name>whiteTextures</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

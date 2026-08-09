@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::LODState</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1af733d78288ffb30b9ee970c5fd7fb7d0" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; Mesh &gt;</type>
+        <definition>readonly List&lt;Mesh&gt; AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.GeneratedMeshes</definition>
+        <argsstring></argsstring>
+        <name>GeneratedMeshes</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.GeneratedMeshes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1239" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1a5c957e376bb8a8f2a1ea5edb4cda1ccb" prot="public" static="no" mutable="no">
+        <type>readonly List&lt; UnityEngine.Object &gt;</type>
+        <definition>readonly List&lt;UnityEngine.Object&gt; AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.ImpostorAssets</definition>
+        <argsstring></argsstring>
+        <name>ImpostorAssets</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.ImpostorAssets</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1240" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1acfc3ab9a3a0bd3b5e967c18020099e4d" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.SourceMesh</definition>
+        <argsstring></argsstring>
+        <name>SourceMesh</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.SourceMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1241" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1a42d946f45abe49c7b441a2df3920daeb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.SettingsHash</definition>
+        <argsstring></argsstring>
+        <name>SettingsHash</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.LODState.SettingsHash</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1242" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1242" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1237" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1238" bodyend="1243"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1af733d78288ffb30b9ee970c5fd7fb7d0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::LODState</scope><name>GeneratedMeshes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1a5c957e376bb8a8f2a1ea5edb4cda1ccb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::LODState</scope><name>ImpostorAssets</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1a42d946f45abe49c7b441a2df3920daeb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::LODState</scope><name>SettingsHash</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_l_o_d_state_1acfc3ab9a3a0bd3b5e967c18020099e4d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::LODState</scope><name>SourceMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,8 +1,0 @@
-<map id="Unity.Mathematics.mathx.cmax" name="Unity.Mathematics.mathx.cmax">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,212,81"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a955582b919784c1197f48ed7a9577199" title="Returns a byte2 vector constructed from a single byte value by assigning it to every component." alt="" coords="260,29,466,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,55,247,54,242,55,213,60"/>
-<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="274,80,452,107"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="212,76,261,83,256,83,212,81"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="320,28,313,21,318,11,335,5,363,3,393,5,411,15,406,14,392,10,363,8,336,10,321,15,318,20,325,30"/>
-</map>

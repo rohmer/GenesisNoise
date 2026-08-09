@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Graph::GenesisNoisePackage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1a500d1836a3a179708fce1ce82a542d58" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>GenesisGraph AhahGames.GenesisNoise.Graph.GenesisNoisePackage.sourceGraph</definition>
+        <argsstring></argsstring>
+        <name>sourceGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisNoisePackage.sourceGraph</qualifiedname>
+        <briefdescription>
+<para>The original graph this package was built from (reference for traceability). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" line="21" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1acff57f52b34e0c860678e11b759ed414" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>GenesisGraph AhahGames.GenesisNoise.Graph.GenesisNoisePackage.graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisNoisePackage.graph</qualifiedname>
+        <briefdescription>
+<para>Self-contained clone of the graph, embedded as a sub-asset of this package. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" line="24" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1ac0aa2e761e180101bbe47c6005a28549" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_package_node_source" kindref="compound">GenesisPackageNodeSource</ref> &gt;</type>
+        <definition>List&lt;GenesisPackageNodeSource&gt; AhahGames.GenesisNoise.Graph.GenesisNoisePackage.customNodes</definition>
+        <argsstring></argsstring>
+        <name>customNodes</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisNoisePackage.customNodes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Custom (non-package) node types bundled with the graph, with their C# source. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" line="27" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1a3d05f8ddd297fadf538af9bd42c9362e" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_package_shader_source" kindref="compound">GenesisPackageShaderSource</ref> &gt;</type>
+        <definition>List&lt;GenesisPackageShaderSource&gt; AhahGames.GenesisNoise.Graph.GenesisNoisePackage.shaders</definition>
+        <argsstring></argsstring>
+        <name>shaders</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisNoisePackage.shaders</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Shaders referenced by the custom nodes, bundled as source text. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" line="30" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1a24ff9c051bfe19f23cce6a5349f78d5e" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_package_drawer_source" kindref="compound">GenesisPackageDrawerSource</ref> &gt;</type>
+        <definition>List&lt;GenesisPackageDrawerSource&gt; AhahGames.GenesisNoise.Graph.GenesisNoisePackage.propertyDrawers</definition>
+        <argsstring></argsstring>
+        <name>propertyDrawers</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisNoisePackage.propertyDrawers</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Property drawers referenced by any shader in the graph that are not part of the <ref refid="namespace_genesis" kindref="compound">Genesis</ref> package, bundled as source text. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" line="34" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A packaged <ref refid="namespace_genesis" kindref="compound">Genesis</ref> graph, stored as a single self-contained asset (no AssetBundle). It embeds a clone of the source graph (as a sub-asset), the C# source of any custom (non-package) nodes used by the graph, the source of the shaders referenced by those nodes, and the source of any property drawers referenced by shaders in the graph that are not part of the <ref refid="namespace_genesis" kindref="compound">Genesis</ref> package. Shaders and drawers are stored as source text because runnable Shader/Drawer objects cannot live as sub-assets; the receiver reimports them. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoisePackage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoisePackage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graph</edgelabel>
+          <edgelabel>sourceGraph</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Graph.GenesisGraph</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>graphVariables</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoiseSettings</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>resolvedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>AhahGames.GenesisNoise.Graph.VariableStorage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage"/>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" line="18" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisNoisePackage.cs" bodystart="19" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1ac0aa2e761e180101bbe47c6005a28549" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisNoisePackage</scope><name>customNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1acff57f52b34e0c860678e11b759ed414" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisNoisePackage</scope><name>graph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1a24ff9c051bfe19f23cce6a5349f78d5e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisNoisePackage</scope><name>propertyDrawers</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1a3d05f8ddd297fadf538af9bd42c9362e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisNoisePackage</scope><name>shaders</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package_1a500d1836a3a179708fce1ce82a542d58" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisNoisePackage</scope><name>sourceGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

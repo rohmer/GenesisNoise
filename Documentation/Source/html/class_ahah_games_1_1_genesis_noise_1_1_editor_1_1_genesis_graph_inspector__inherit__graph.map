@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Editor.GenesisGraphInspector" name="AhahGames.GenesisNoise.Editor.GenesisGraphInspector">
-<area shape="rect" id="Node000001" title="Custom inspector for saved Genesis graph assets. It reuses the NodeGraphProcessor GraphInspector,..." alt="" coords="5,155,227,197"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_graph_inspector.html" title=" " alt="" coords="12,80,220,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,120,118,156,114,153,114,124"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="54,5,178,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,45,119,80,113,79,115,50"/>
-</map>

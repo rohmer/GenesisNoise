@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_show_in_inspector" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::ShowInInspector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_show_in_inspector_1a1a4a4cf2130b9c54125ff1c648dfbb1e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.ShowInInspector.showInNode</definition>
+        <argsstring></argsstring>
+        <name>showInNode</name>
+        <qualifiedname>GraphProcessor.ShowInInspector.showInNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="217" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_show_in_inspector_1aa91fe4da635c83b2d3862adf008a5153" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.ShowInInspector.ShowInInspector</definition>
+        <argsstring>(bool showInNode=false)</argsstring>
+        <name>ShowInInspector</name>
+        <qualifiedname>GraphProcessor.ShowInInspector.ShowInInspector</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>showInNode</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="219" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="219" bodyend="222"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.ShowInInspector</label>
+        <link refid="class_graph_processor_1_1_show_in_inspector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.ShowInInspector</label>
+        <link refid="class_graph_processor_1_1_show_in_inspector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="215" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="216" bodyend="223"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_show_in_inspector_1aa91fe4da635c83b2d3862adf008a5153" prot="public" virt="non-virtual"><scope>GraphProcessor::ShowInInspector</scope><name>ShowInInspector</name></member>
+      <member refid="class_graph_processor_1_1_show_in_inspector_1a1a4a4cf2130b9c54125ff1c648dfbb1e" prot="public" virt="non-virtual"><scope>GraphProcessor::ShowInInspector</scope><name>showInNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,0 @@
-<map id="GraphProcessor.BaseGraph" name="GraphProcessor.BaseGraph">
-<area shape="rect" id="Node000001" title=" " alt="" coords="62,80,247,107"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,123,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,39,142,79,136,80,90,44"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="147,5,346,32"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,41,172,82,169,77,216,43"/>
-</map>

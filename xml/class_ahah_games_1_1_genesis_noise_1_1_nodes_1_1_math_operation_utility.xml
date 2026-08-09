@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_math_operation_utility" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MathOperationUtility</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_math_operation_utility_1af1cc28637d49529153c3c6177056b367" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Nodes.MathOperationUtility.TryPassthroughMissingBinaryInput</definition>
+        <argsstring>(object inputA, object inputB, out object output)</argsstring>
+        <name>TryPassthroughMissingBinaryInput</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MathOperationUtility.TryPassthroughMissingBinaryInput</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>inputA</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>inputB</declname>
+        </param>
+        <param>
+          <type>out object</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" line="9" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" bodystart="9" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_math_operation_utility_1af87a3cbf0a63276b0c2ba7688f4302de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object AhahGames.GenesisNoise.Nodes.MathOperationUtility.ApplyBinaryOperation</definition>
+        <argsstring>(object inputA, object inputB, Func&lt; bool, bool, bool &gt; boolOperation, Func&lt; float, float, float &gt; floatOperation, Func&lt; int, int, int &gt; intOperation, Func&lt; string, string, string &gt; stringOperation=null)</argsstring>
+        <name>ApplyBinaryOperation</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MathOperationUtility.ApplyBinaryOperation</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>inputA</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>inputB</declname>
+        </param>
+        <param>
+          <type>Func&lt; bool, bool, bool &gt;</type>
+          <declname>boolOperation</declname>
+        </param>
+        <param>
+          <type>Func&lt; float, float, float &gt;</type>
+          <declname>floatOperation</declname>
+        </param>
+        <param>
+          <type>Func&lt; int, int, int &gt;</type>
+          <declname>intOperation</declname>
+        </param>
+        <param>
+          <type>Func&lt; string, string, string &gt;</type>
+          <declname>stringOperation</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" line="33" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" bodystart="33" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_math_operation_utility_1ad4d3ee837e3e9b484ec316e7b444ddc8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object AhahGames.GenesisNoise.Nodes.MathOperationUtility.ClampValue</definition>
+        <argsstring>(object value, object min, object max)</argsstring>
+        <name>ClampValue</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MathOperationUtility.ClampValue</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" line="130" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" bodystart="130" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" line="7" column="12" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Math/MathOperationUtility.cs" bodystart="8" bodyend="236"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_math_operation_utility_1af87a3cbf0a63276b0c2ba7688f4302de" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MathOperationUtility</scope><name>ApplyBinaryOperation</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_math_operation_utility_1ad4d3ee837e3e9b484ec316e7b444ddc8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MathOperationUtility</scope><name>ClampValue</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_math_operation_utility_1af1cc28637d49529153c3c6177056b367" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MathOperationUtility</scope><name>TryPassthroughMissingBinaryInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

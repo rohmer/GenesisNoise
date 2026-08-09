@@ -33,7 +33,7 @@ Outputs a constant animation curve value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fcc80571-27d2-4b0f-b0cb-ed769e32205f | |
+| GUID | String | 4e31b32e-461b-44f9-be03-abeb714a1990 | |
 | expanded | Boolean | False | |
 
 ## See Also

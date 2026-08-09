@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_fortunes_tessellation" kind="class" language="C#" prot="package">
+    <compoundname>SharpVoronoiLib::FortunesTessellation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SharpVoronoiLib.ITessellationAlgorithm</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_fortunes_tessellation_1a1c52a8213e6514c844681dd1b6b046b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_edge" kindref="compound">VoronoiEdge</ref> &gt;</type>
+        <definition>List&lt; VoronoiEdge &gt; SharpVoronoiLib.FortunesTessellation.Run</definition>
+        <argsstring>(List&lt; VoronoiSite &gt; sites, double minX, double minY, double maxX, double maxY)</argsstring>
+        <name>Run</name>
+        <qualifiedname>SharpVoronoiLib.FortunesTessellation.Run</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref> &gt;</type>
+          <declname>sites</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minY</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortunesTessellation.cs" line="10" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortunesTessellation.cs" bodystart="10" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SharpVoronoiLib.FortunesTessellation</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.ITessellationAlgorithm</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SharpVoronoiLib.FortunesTessellation</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.ITessellationAlgorithm</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortunesTessellation.cs" line="8" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Tessellation/Fortune/FortunesTessellation.cs" bodystart="9" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_fortunes_tessellation_1a1c52a8213e6514c844681dd1b6b046b9" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::FortunesTessellation</scope><name>Run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

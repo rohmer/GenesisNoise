@@ -1,5 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.ToFloatNode.Process" name="AhahGames.GenesisNoise.Nodes.ToFloatNode.Process">
-<area shape="rect" id="Node000001" title="Override this method to implement custom processing." alt="" coords="5,5,231,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_type_casting.html#a1b114fee8463decd3538f13f8e45d857" title=" " alt="" coords="279,5,490,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,24,265,27,260,27,231,29"/>
-</map>

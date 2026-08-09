@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_5f1605ee19fe1f5f929dfcd10c1e81a7" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain</compoundname>
+    <innerdir refid="dir_2b5436059bfb7ed64ebc230e78de6696">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/Water</innerdir>
+    <innerfile refid="_biome_decoration_node_view_8cs">BiomeDecorationNodeView.cs</innerfile>
+    <innerfile refid="_biome_manager_node_view_8cs">BiomeManagerNodeView.cs</innerfile>
+    <innerfile refid="_biome_node_view_8cs">BiomeNodeView.cs</innerfile>
+    <innerfile refid="_distance_height_node_view_8cs">DistanceHeightNodeView.cs</innerfile>
+    <innerfile refid="_hydraulic_erosion_node_view_8cs">HydraulicErosionNodeView.cs</innerfile>
+    <innerfile refid="_island_generator_node_view_8cs">IslandGeneratorNodeView.cs</innerfile>
+    <innerfile refid="_noise_distance_height_node_view_8cs">NoiseDistanceHeightNodeView.cs</innerfile>
+    <innerfile refid="_ocean_settings_node_view_8cs">OceanSettingsNodeView.cs</innerfile>
+    <innerfile refid="_terrain_curvature_node_view_8cs">TerrainCurvatureNodeView.cs</innerfile>
+    <innerfile refid="_terrain_gaussian_blur_node_view_8cs">TerrainGaussianBlurNodeView.cs</innerfile>
+    <innerfile refid="_terrain_generator_node_view_8cs">TerrainGeneratorNodeView.cs</innerfile>
+    <innerfile refid="_terrain_moisture_map_node_view_8cs">TerrainMoistureMapNodeView.cs</innerfile>
+    <innerfile refid="_terrain_slope_node_view_8cs">TerrainSlopeNodeView.cs</innerfile>
+    <innerfile refid="_terrain_texture_node_view_8cs">TerrainTextureNodeView.cs</innerfile>
+    <innerfile refid="_terrain_thermal_erosion_node_view_8cs">TerrainThermalErosionNodeView.cs</innerfile>
+    <innerfile refid="_terrain_wind_erosion_node_view_8cs">TerrainWindErosionNodeView.cs</innerfile>
+    <innerfile refid="_terrain_wind_flow_map_node_view_8cs">TerrainWindFlowMapNodeView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Terrain/"/>
+  </compounddef>
+</doxygen>

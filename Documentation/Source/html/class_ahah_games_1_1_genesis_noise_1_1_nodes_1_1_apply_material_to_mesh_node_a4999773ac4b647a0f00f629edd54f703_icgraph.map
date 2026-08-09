@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.ApplyMaterialToMeshNode.GetEffectiveMaterial" name="AhahGames.GenesisNoise.Nodes.ApplyMaterialToMeshNode.GetEffectiveMaterial">
-<area shape="rect" id="Node000001" title=" " alt="" coords="622,35,875,93"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_apply_material_to_mesh_node.html#a015e72b074d7f2c00e4dbe775b3c6332" title=" " alt="" coords="314,5,574,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="604,47,574,45,574,40,609,47"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_apply_material_to_mesh_node.html#ab07bee3a1c2edf0ad4efcc7f4725b838" title=" " alt="" coords="320,72,568,131"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="609,81,569,89,568,83,604,82"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_apply_material_to_mesh_node.html#a78c2cd775b3852971b3983dd15f765b8" title=" " alt="" coords="5,5,266,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="296,27,266,29,266,24,301,26"/>
-</map>

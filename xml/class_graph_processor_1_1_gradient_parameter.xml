@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_gradient_parameter" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::GradientParameter</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_exposed_parameter" prot="public" virt="non-virtual">GraphProcessor.ExposedParameter</basecompoundref>
+    <innerclass refid="class_graph_processor_1_1_gradient_parameter_1_1_gradient_settings" prot="public">GraphProcessor::GradientParameter::GradientSettings</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_graph_processor_1_1_gradient_parameter_1afb781135ce89c9914e39dd8d51f260da" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GradientColorMode</name>
+        <qualifiedname>GraphProcessor.GradientParameter.GradientColorMode</qualifiedname>
+        <enumvalue id="class_graph_processor_1_1_gradient_parameter_1afb781135ce89c9914e39dd8d51f260daa7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_graph_processor_1_1_gradient_parameter_1afb781135ce89c9914e39dd8d51f260daa6cad826248cd3f4e93da71e7b49928e3" prot="public">
+          <name>HDR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="354" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="355" bodyend="358"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_gradient_parameter_1ade61ef1632173b6ee8b7f20f54dc85f9" prot="private" static="no" mutable="no">
+        <type>Gradient</type>
+        <definition>Gradient GraphProcessor.GradientParameter.val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <qualifiedname>GraphProcessor.GradientParameter.val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="369" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_gradient_parameter_1af0fa46bda986750a04a3e3038eac8947" prot="private" static="no" mutable="no">
+        <type>Gradient</type>
+        <definition>Gradient GraphProcessor.GradientParameter.hdrVal</definition>
+        <argsstring></argsstring>
+        <name>hdrVal</name>
+        <qualifiedname>GraphProcessor.GradientParameter.hdrVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="370" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="370" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_gradient_parameter_1a91225be19eb22c99d292e844c569728c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>override object</type>
+        <definition>override object GraphProcessor.GradientParameter.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>GraphProcessor.GradientParameter.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="372" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="372" bodyend="372"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_gradient_parameter_1ac26c9dd126129ee463a4251872b42571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override Type</type>
+        <definition>override Type GraphProcessor.GradientParameter.GetValueType</definition>
+        <argsstring>()</argsstring>
+        <name>GetValueType</name>
+        <qualifiedname>GraphProcessor.GradientParameter.GetValueType</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_exposed_parameter_1a62b96b18c42a89b36ce49203e179c4b7">GetValueType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="373" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="373" bodyend="373"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_gradient_parameter_1afde51c9ac6fdf3eebe5f0d93631564dc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_graph_processor_1_1_exposed_parameter_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>override Settings GraphProcessor.GradientParameter.CreateSettings</definition>
+        <argsstring>()</argsstring>
+        <name>CreateSettings</name>
+        <qualifiedname>GraphProcessor.GradientParameter.CreateSettings</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_exposed_parameter_1aa6bea0da240fb86c62c33532056ec2a2">CreateSettings</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="374" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="374" bodyend="374"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.GradientParameter</label>
+        <link refid="class_graph_processor_1_1_gradient_parameter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameter</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.GradientParameter</label>
+        <link refid="class_graph_processor_1_1_gradient_parameter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameter</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>serializedValue</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.ExposedParameter.Settings</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_1_1_settings"/>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.SerializableObject</label>
+        <link refid="class_graph_processor_1_1_serializable_object"/>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="352" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="353" bodyend="375"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a5346fbe40d947a83457601c8bf3c265c" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>Clone</name></member>
+      <member refid="class_graph_processor_1_1_gradient_parameter_1afde51c9ac6fdf3eebe5f0d93631564dc" prot="protected" virt="virtual"><scope>GraphProcessor::GradientParameter</scope><name>CreateSettings</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a746df6d51578529e19b96e08d11de699" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>Equals</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1ae05f9ef41ba176958cd4f30770667a55" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>Equals</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a94886a7abcfa78503cc9614952d52e7c" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>GetHashCode</name></member>
+      <member refid="class_graph_processor_1_1_gradient_parameter_1ac26c9dd126129ee463a4251872b42571" prot="public" virt="virtual"><scope>GraphProcessor::GradientParameter</scope><name>GetValueType</name></member>
+      <member refid="class_graph_processor_1_1_gradient_parameter_1afb781135ce89c9914e39dd8d51f260da" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>GradientColorMode</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1af2f7306638ef7e38b5d84dacdf66ff36" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>guid</name></member>
+      <member refid="class_graph_processor_1_1_gradient_parameter_1af0fa46bda986750a04a3e3038eac8947" prot="private" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>hdrVal</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a6117d6c63e97eb98ceda194fbb07b94f" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1adc587d8bdc9a608e1a86883efe1a6da4" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>input</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a516ed3b39866149e896d1fa2bf2067d2" prot="package" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>Migrate</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1af875a0d4fc13e20293b60b6eebe08bad" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>name</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1ae97374575516e368eecfa3aed29ea115" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>operator!=</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1aa487bb9ca79e1635cfce21ee950109c3" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>operator==</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a85c7ad420b3c07d752dc5298077bbd72" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>serializedValue</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a112acd5707b616ebae8b9887d5aadaaa" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>settings</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1a4add8c0a3d3725177b8b3965169efc6a" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>shortType</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1acf51e9882f923157167a77f789b85e4e" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>type</name></member>
+      <member refid="class_graph_processor_1_1_gradient_parameter_1ade61ef1632173b6ee8b7f20f54dc85f9" prot="private" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>val</name></member>
+      <member refid="class_graph_processor_1_1_gradient_parameter_1a91225be19eb22c99d292e844c569728c" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientParameter</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

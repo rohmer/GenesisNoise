@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Views::GNGradient</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1ab8f5fbaffab59f9ba09a34a6add69ac9" prot="private" static="no" mutable="no">
+        <type>Gradient</type>
+        <definition>Gradient AhahGames.GenesisNoise.Views.GNGradient.gradient</definition>
+        <argsstring></argsstring>
+        <name>gradient</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.gradient</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="80" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1aa7074e034971da569b38048d90fd83dc" prot="private" static="no" mutable="no">
+        <type>GradientMode</type>
+        <definition>GradientMode AhahGames.GenesisNoise.Views.GNGradient.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="81" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a10be6009ff023324ad47d414655dcf5f" prot="private" static="no" mutable="no">
+        <type>IList&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key" kindref="compound">GNAlphaKey</ref> &gt;</type>
+        <definition>IList&lt;GNAlphaKey&gt; AhahGames.GenesisNoise.Views.GNGradient.alphaKeys</definition>
+        <argsstring></argsstring>
+        <name>alphaKeys</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.alphaKeys</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key" kindref="compound">GNAlphaKey</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="82" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a6c92b3268deca499895eacca768bfd2d" prot="private" static="no" mutable="no">
+        <type>IList&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_color_key" kindref="compound">GNColorKey</ref> &gt;</type>
+        <definition>IList&lt;GNColorKey&gt; AhahGames.GenesisNoise.Views.GNGradient.colorKeys</definition>
+        <argsstring></argsstring>
+        <name>colorKeys</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.colorKeys</qualifiedname>
+        <initializer>= new List&lt;<ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_color_key" kindref="compound">GNColorKey</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="83" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1abdce8762f678b3d96158f5eab5bb080e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Views.GNGradient.GNGradient</definition>
+        <argsstring>(Gradient gradient)</argsstring>
+        <name>GNGradient</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.GNGradient</qualifiedname>
+        <param>
+          <type>Gradient</type>
+          <declname>gradient</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="84" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="84" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1adad310ec419ac29c299654b7c6042bf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Gradient</type>
+        <definition>Gradient AhahGames.GenesisNoise.Views.GNGradient.Gradient</definition>
+        <argsstring>()</argsstring>
+        <name>Gradient</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.Gradient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="95" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="95" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1aa373cf1c5e8f08a5733f60de328e16a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GNGradient.AddAlphaKey</definition>
+        <argsstring>(GNAlphaKey key)</argsstring>
+        <name>AddAlphaKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.AddAlphaKey</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key" kindref="compound">GNAlphaKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="115" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a014d41ae4bf69574b9d65c4a3bd26e15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GNGradient.AddColorKey</definition>
+        <argsstring>(GNColorKey key)</argsstring>
+        <name>AddColorKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.AddColorKey</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_color_key" kindref="compound">GNColorKey</ref></type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="120" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a6982e3553183b71c3d1969718e5ef33e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GNGradient.SetMode</definition>
+        <argsstring>(GradientMode mode)</argsstring>
+        <name>SetMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.SetMode</qualifiedname>
+        <param>
+          <type>GradientMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="125" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a87bc33b59f0b1a99af03afd9410ac603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Views.GNGradient.GNGradient</definition>
+        <argsstring>(IList&lt; GNAlphaKey &gt; alphaKeys, IList&lt; GNColorKey &gt; colorKeys, GradientMode mode=GradientMode.PerceptualBlend)</argsstring>
+        <name>GNGradient</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNGradient.GNGradient</qualifiedname>
+        <param>
+          <type>IList&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key" kindref="compound">GNAlphaKey</ref> &gt;</type>
+          <declname>alphaKeys</declname>
+        </param>
+        <param>
+          <type>IList&lt; <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_color_key" kindref="compound">GNColorKey</ref> &gt;</type>
+          <declname>colorKeys</declname>
+        </param>
+        <param>
+          <type>GradientMode</type>
+          <declname>mode</declname>
+          <defval>GradientMode.PerceptualBlend</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="130" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="130" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="78" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="79" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1aa373cf1c5e8f08a5733f60de328e16a4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>AddAlphaKey</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a014d41ae4bf69574b9d65c4a3bd26e15" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>AddColorKey</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a10be6009ff023324ad47d414655dcf5f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>alphaKeys</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a6c92b3268deca499895eacca768bfd2d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>colorKeys</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1abdce8762f678b3d96158f5eab5bb080e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>GNGradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a87bc33b59f0b1a99af03afd9410ac603" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>GNGradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1adad310ec419ac29c299654b7c6042bf1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>Gradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1ab8f5fbaffab59f9ba09a34a6add69ac9" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>gradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1aa7074e034971da569b38048d90fd83dc" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>mode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_gradient_1a6982e3553183b71c3d1969718e5ef33e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNGradient</scope><name>SetMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

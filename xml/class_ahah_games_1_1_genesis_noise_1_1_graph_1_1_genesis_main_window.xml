@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Graph::GenesisMainWindow</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_base_graph_window" prot="public" virt="non-virtual">GraphProcessor.BaseGraphWindow</basecompoundref>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a5706b572aaf0bd9cd1fb2adbc3371424" prot="package" static="yes" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kindref="compound">GenesisGraphView</ref></type>
+        <definition>GenesisGraphView AhahGames.GenesisNoise.Graph.GenesisMainWindow.view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisMainWindow.view</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" line="15" column="42" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1ae13618511033221c71e662ebab358447" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kindref="compound">GenesisGraphView</ref></type>
+        <definition>GenesisGraphView AhahGames.GenesisNoise.Graph.GenesisMainWindow.View</definition>
+        <argsstring></argsstring>
+        <name>View</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisMainWindow.View</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" line="40" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a2d6d8b8ef3bbfcfc844263c109d0eacc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window" kindref="compound">GenesisMainWindow</ref></type>
+        <definition>static GenesisMainWindow AhahGames.GenesisNoise.Graph.GenesisMainWindow.Open</definition>
+        <argsstring>(GenesisGraph graph)</argsstring>
+        <name>Open</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisMainWindow.Open</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" line="17" column="41" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" bodystart="17" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a8d01b5f3cf72e28c583479e9b4250719" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>new void</type>
+        <definition>new void AhahGames.GenesisNoise.Graph.GenesisMainWindow.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisMainWindow.OnEnable</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_base_graph_window_1accc123305a3401b0cf1ba1e2f927ba13">OnEnable</reimplements>
+        <briefdescription>
+<para>Called by <ref refid="namespace_unity" kindref="compound">Unity</ref> when the window is enabled / opened. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" line="41" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a9ca3b78c8b3dfaf263efb2d8a054584b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Graph.GenesisMainWindow.InitializeWindow</definition>
+        <argsstring>(BaseGraph graph)</argsstring>
+        <name>InitializeWindow</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisMainWindow.InitializeWindow</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" line="47" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" bodystart="47" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisMainWindow</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>EditorWindow</label>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.BaseGraphWindow</label>
+        <link refid="class_graph_processor_1_1_base_graph_window"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisMainWindow</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>AhahGames.GenesisNoise.Views.GenesisGraphView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>EditorWindow</label>
+      </node>
+      <node id="10">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.BaseGraphWindow</label>
+        <link refid="class_graph_processor_1_1_base_graph_window"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphView</label>
+      </node>
+      <node id="6">
+        <label>IDisposable</label>
+      </node>
+      <node id="11">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="9">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="8">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/GenesisMainWindow.cs" bodystart="14" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a38d74f2a9af5622d3d7ec5e7c65abf9b" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>graph</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a58e825a05f18ab3161a9cc9434e54b70" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>graphLoaded</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1aac7a7d655fa3498d9b76826f0dc0e686" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>graphUnloaded</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1afbb7c1ed687e7994f2b28240ce4bb214" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>graphView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a92a56aef42272dc3fc3c77d847a234bf" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>InitializeGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1ae0ca5f77b7197daa7592e5f5566174a6" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>InitializeGraphView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a9ca3b78c8b3dfaf263efb2d8a054584b" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>InitializeWindow</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a90b3fdc174567d75b3bbe47c56850370" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>isGraphLoaded</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a255209bd6b3d9224e7a4f60cb0d28477" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>OnDestroy</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a54c24b2a47cb7c5019ec1805f64de5c6" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>OnDisable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a8d01b5f3cf72e28c583479e9b4250719" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>OnEnable</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a452c530a5ec0478512f9695bd25cf274" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>OnGraphDeleted</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a2d6d8b8ef3bbfcfc844263c109d0eacc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>Open</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a94903e354133d8bafbf0f114f25beb51" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>rootView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_window_1a98469e987d150cb46d0cf18c58a0e256" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>Update</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1ae13618511033221c71e662ebab358447" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>View</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_main_window_1a5706b572aaf0bd9cd1fb2adbc3371424" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisMainWindow</scope><name>view</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

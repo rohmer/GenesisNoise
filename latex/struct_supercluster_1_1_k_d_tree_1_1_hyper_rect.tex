@@ -1,0 +1,100 @@
+\doxysection{Supercluster.\+KDTree.\+Hyper\+Rect Struct Reference}
+\hypertarget{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect}{}\label{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect}\index{Supercluster.KDTree.HyperRect@{Supercluster.KDTree.HyperRect}}
+
+
+Represents a hyper-\/rectangle. An N-\/\+Dimensional rectangle.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double\+[$\,$]\+ \doxymbox{\hyperlink{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_afb5b009cb8d9419df1009bf4294bae54}{Get\+Closest\+Point}} (double\+[$\,$]\+ to\+Point)
+\begin{DoxyCompactList}\small\item\em Gets the point on the rectangle that is closest to the given point. If the point is within the rectangle, then the input point is the same as the output point.\+f the point is outside the rectangle then the point on the rectangle that is closest to the given point is returned. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect}{Hyper\+Rect}} \doxymbox{\hyperlink{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_ae68e39e63ea09e5179124ab22d084b36}{Clone}} ()
+\begin{DoxyCompactList}\small\item\em Clones the Hyper\+Rect$<$\+T$>$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \doxymbox{\hyperlink{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect}{Hyper\+Rect}} \doxymbox{\hyperlink{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_ab2091d2217e82507492659a619354a9d}{Infinite}} (double positive\+Infinity, double negative\+Infinity)
+\begin{DoxyCompactList}\small\item\em Get a hyper rectangle which spans the entire implicit metric space. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_a841173161062847d4872d87320be5e45}\label{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_a841173161062847d4872d87320be5e45} 
+double\+[$\,$]\+ {\bfseries Min\+Point}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\begin{DoxyCompactList}\small\item\em The minimum point of the hyper-\/rectangle. One can think of this point as the bottom-\/left point of a 2-\/Dimensional rectangle. \end{DoxyCompactList}\item 
+\Hypertarget{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_a4a5ad88e95a5fd645f682c318215adda}\label{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_a4a5ad88e95a5fd645f682c318215adda} 
+double\+[$\,$]\+ {\bfseries Max\+Point}\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\begin{DoxyCompactList}\small\item\em The maximum point of the hyper-\/rectangle. One can think of this point as the top-\/right point of a 2-\/Dimensional rectangle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a hyper-\/rectangle. An N-\/\+Dimensional rectangle. 
+
+\label{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_doc-func-members}
+\Hypertarget{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_ae68e39e63ea09e5179124ab22d084b36}\index{Supercluster.KDTree.HyperRect@{Supercluster.KDTree.HyperRect}!Clone@{Clone}}
+\index{Clone@{Clone}!Supercluster.KDTree.HyperRect@{Supercluster.KDTree.HyperRect}}
+\doxysubsubsection{\texorpdfstring{Clone()}{Clone()}}
+{\footnotesize\ttfamily \label{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_ae68e39e63ea09e5179124ab22d084b36} 
+\doxymbox{\hyperlink{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect}{Hyper\+Rect}} Supercluster.\+KDTree.\+Hyper\+Rect.\+Clone (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Clones the Hyper\+Rect$<$\+T$>$. 
+
+\begin{DoxyReturn}{Returns}
+A clone of the Hyper\+Rect$<$\+T$>$
+\end{DoxyReturn}
+\Hypertarget{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_afb5b009cb8d9419df1009bf4294bae54}\index{Supercluster.KDTree.HyperRect@{Supercluster.KDTree.HyperRect}!GetClosestPoint@{GetClosestPoint}}
+\index{GetClosestPoint@{GetClosestPoint}!Supercluster.KDTree.HyperRect@{Supercluster.KDTree.HyperRect}}
+\doxysubsubsection{\texorpdfstring{GetClosestPoint()}{GetClosestPoint()}}
+{\footnotesize\ttfamily \label{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_afb5b009cb8d9419df1009bf4294bae54} 
+double\+[$\,$]\+ Supercluster.\+KDTree.\+Hyper\+Rect.\+Get\+Closest\+Point (\begin{DoxyParamCaption}\item[{double\+[$\,$]\+}]{to\+Point}{}\end{DoxyParamCaption})}
+
+
+
+Gets the point on the rectangle that is closest to the given point. If the point is within the rectangle, then the input point is the same as the output point.\+f the point is outside the rectangle then the point on the rectangle that is closest to the given point is returned. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em to\+Point} & We try to find a point in or on the rectangle closest to this point.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The point on or in the rectangle that is closest to the given point.
+\end{DoxyReturn}
+\Hypertarget{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_ab2091d2217e82507492659a619354a9d}\index{Supercluster.KDTree.HyperRect@{Supercluster.KDTree.HyperRect}!Infinite@{Infinite}}
+\index{Infinite@{Infinite}!Supercluster.KDTree.HyperRect@{Supercluster.KDTree.HyperRect}}
+\doxysubsubsection{\texorpdfstring{Infinite()}{Infinite()}}
+{\footnotesize\ttfamily \label{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_ab2091d2217e82507492659a619354a9d} 
+\doxymbox{\hyperlink{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect}{Hyper\+Rect}} Supercluster.\+KDTree.\+Hyper\+Rect.\+Infinite (\begin{DoxyParamCaption}\item[{double}]{positive\+Infinity}{, }\item[{double}]{negative\+Infinity}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Get a hyper rectangle which spans the entire implicit metric space. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em positive\+Infinity} & The smallest possible values in any given dimension.\\
+\hline
+{\em negative\+Infinity} & The largest possible values in any given dimension.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The hyper-\/rectangle which spans the entire metric space.
+\end{DoxyReturn}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_supercluster_1_1_k_d_tree_1_1_hyper_rect_ab2091d2217e82507492659a619354a9d_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this struct was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+3rd\+Party/\+\+Sharp\+Voronoi\+Lib/\+\+Nearest Site Lookup/\+\+KDTree/\+Hyper\+Rect.\+cs\end{DoxyCompactItemize}

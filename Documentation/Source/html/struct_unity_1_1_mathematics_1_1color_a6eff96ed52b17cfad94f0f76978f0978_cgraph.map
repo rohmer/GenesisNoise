@@ -1,5 +1,0 @@
-<map id="Unity.Mathematics.color.operator Vector3" name="Unity.Mathematics.color.operator Vector3">
-<area shape="rect" id="Node000001" title="Explicitly converts a color to a Vector3 by componentwise conversion." alt="" coords="5,5,219,48"/>
-<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1color.html#abfb99c1b9d5bd289914138c16cc7921d" title="Constructs a color vector from four float values." alt="" coords="267,13,461,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,24,254,27,248,27,219,29"/>
-</map>

@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ab6169c5e6b9054913d90f7299b6255a3" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.Precision</definition>
+        <argsstring></argsstring>
+        <name>Precision</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.Precision</qualifiedname>
+        <initializer>= 1000f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1592" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1592" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1a1b9f26845ccebee843bc32cdcb20d122" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1593" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ac88eb827a99222aa7a937183852ce74b" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1594" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1594" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1a0e254cf03801b848c623ca74936eddc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.LakeVertexKey</definition>
+        <argsstring>(Vector2 point)</argsstring>
+        <name>LakeVertexKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.LakeVertexKey</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1596" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1596" bodyend="1600"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1aad4fc6f946eb57e892cc81a241d6c2e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.CompareTo</definition>
+        <argsstring>(LakeVertexKey other)</argsstring>
+        <name>CompareTo</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.CompareTo</qualifiedname>
+        <param>
+          <type>LakeVertexKey</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1602" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1602" bodyend="1602"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ae8e90ec485e1180db4004417441acb51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.Equals</definition>
+        <argsstring>(LakeVertexKey other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.Equals</qualifiedname>
+        <param>
+          <type>LakeVertexKey</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1603" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1603" bodyend="1603"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1a211eda4e6728c037e1d4f7c4c61e5fba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1604" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1604" bodyend="1604"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ae5528c2f63c2e570eecc909af36a4799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1605" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1605" bodyend="1605"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.TerrainGeneratorNode.LakeVertexKey</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" line="1590" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainGeneratorNode.cs" bodystart="1591" bodyend="1606"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1aad4fc6f946eb57e892cc81a241d6c2e0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>CompareTo</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ae8e90ec485e1180db4004417441acb51" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>Equals</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1a211eda4e6728c037e1d4f7c4c61e5fba" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>Equals</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ae5528c2f63c2e570eecc909af36a4799" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>GetHashCode</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1a0e254cf03801b848c623ca74936eddc5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>LakeVertexKey</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ab6169c5e6b9054913d90f7299b6255a3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>Precision</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1a1b9f26845ccebee843bc32cdcb20d122" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>x</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_1_1_lake_vertex_key_1ac88eb827a99222aa7a937183852ce74b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainGeneratorNode::LakeVertexKey</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

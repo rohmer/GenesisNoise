@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration" kind="class" language="C#" prot="package">
+    <compoundname>AhahGames::GenesisNoise::Nodes::BiomeDecoration</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ac8b91e0dd07d3281411357c0e1670398" prot="package" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AhahGames.GenesisNoise.Nodes.BiomeDecoration.decoration</definition>
+        <argsstring></argsstring>
+        <name>decoration</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.decoration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="11" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a3ede6c3187a5f721bfd76cb32028e2cb" prot="package" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; AhahGames.GenesisNoise.Nodes.BiomeDecoration.decorationPrefabs</definition>
+        <argsstring></argsstring>
+        <name>decorationPrefabs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.decorationPrefabs</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="12" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a32081aca74cff023082d96492d8a7164" prot="package" static="no" mutable="no">
+        <type>RenderTexture</type>
+        <definition>RenderTexture AhahGames.GenesisNoise.Nodes.BiomeDecoration.placementNoise</definition>
+        <argsstring></argsstring>
+        <name>placementNoise</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.placementNoise</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="13" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a92a6b802bd70b1eab275127e09828e13" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BiomeDecoration.pctCoverage</definition>
+        <argsstring></argsstring>
+        <name>pctCoverage</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.pctCoverage</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="14" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1aa8a81dca25acd77308b8f51adf2ce527" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeRotation</definition>
+        <argsstring></argsstring>
+        <name>randomizeRotation</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeRotation</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="15" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a78326efa08098037fae1358ad6f962d0" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeX</definition>
+        <argsstring></argsstring>
+        <name>randomizeX</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeX</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="16" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1aff15fd78db2d5353e1448ceead2850fa" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeY</definition>
+        <argsstring></argsstring>
+        <name>randomizeY</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeY</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="16" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ade5800999db0d0eb14a0768a519a1a89" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeZ</definition>
+        <argsstring></argsstring>
+        <name>randomizeZ</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeZ</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="16" column="48" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a3eb18d254436bf5c16bb309a6c8d8d1e" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeSize</definition>
+        <argsstring></argsstring>
+        <name>randomizeSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.randomizeSize</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="17" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a0a55039cce0e9db7638dae303bc6df30" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BiomeDecoration.minSize</definition>
+        <argsstring></argsstring>
+        <name>minSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.minSize</qualifiedname>
+        <initializer>= 0.8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="18" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a4b02a4bf28aa8625b5a362ad24b8a9e6" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BiomeDecoration.maxSize</definition>
+        <argsstring></argsstring>
+        <name>maxSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.maxSize</qualifiedname>
+        <initializer>= 1.2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="18" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ad912db171eeb0cec8e2ef4859420626c" prot="package" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.BiomeDecoration.placementDrop</definition>
+        <argsstring></argsstring>
+        <name>placementDrop</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.placementDrop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="19" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ae339ada86cf7a87576b89c07c38dd8c2" prot="package" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.BiomeDecoration.dropHeight</definition>
+        <argsstring></argsstring>
+        <name>dropHeight</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.dropHeight</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="20" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a6f16e0c85a3e2325f36a5b1e74c4d5ad" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IReadOnlyList&lt; GameObject &gt;</type>
+        <definition>IReadOnlyList&lt; GameObject &gt; AhahGames.GenesisNoise.Nodes.BiomeDecoration.GetPrefabs</definition>
+        <argsstring>()</argsstring>
+        <name>GetPrefabs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.GetPrefabs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="22" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a7076d7830a858ac6e1ec41a448d752e0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.BiomeDecoration.SyncLegacyPrefab</definition>
+        <argsstring>()</argsstring>
+        <name>SyncLegacyPrefab</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.SyncLegacyPrefab</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="28" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a28d3f83c26c259d1cb628adef6dc6f09" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BiomeDecoration</type>
+        <definition>BiomeDecoration AhahGames.GenesisNoise.Nodes.BiomeDecoration.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.BiomeDecoration.Clone</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="37" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="37" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" line="9" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Decorations/BiomeDecoration.cs" bodystart="10" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a28d3f83c26c259d1cb628adef6dc6f09" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>Clone</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ac8b91e0dd07d3281411357c0e1670398" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>decoration</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a3ede6c3187a5f721bfd76cb32028e2cb" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>decorationPrefabs</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ae339ada86cf7a87576b89c07c38dd8c2" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>dropHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a6f16e0c85a3e2325f36a5b1e74c4d5ad" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>GetPrefabs</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a4b02a4bf28aa8625b5a362ad24b8a9e6" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>maxSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a0a55039cce0e9db7638dae303bc6df30" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>minSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a92a6b802bd70b1eab275127e09828e13" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>pctCoverage</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ad912db171eeb0cec8e2ef4859420626c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>placementDrop</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a32081aca74cff023082d96492d8a7164" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>placementNoise</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1aa8a81dca25acd77308b8f51adf2ce527" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>randomizeRotation</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a3eb18d254436bf5c16bb309a6c8d8d1e" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>randomizeSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a78326efa08098037fae1358ad6f962d0" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>randomizeX</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1aff15fd78db2d5353e1448ceead2850fa" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>randomizeY</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1ade5800999db0d0eb14a0768a519a1a89" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>randomizeZ</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_1a7076d7830a858ac6e1ec41a448d752e0" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::BiomeDecoration</scope><name>SyncLegacyPrefab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

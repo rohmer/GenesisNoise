@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_job_graph_processor" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::JobGraphProcessor</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_base_graph_processor" prot="public" virt="non-virtual">GraphProcessor.BaseGraphProcessor</basecompoundref>
+    <innerclass refid="class_graph_processor_1_1_job_graph_processor_1_1_graph_schedule_list" prot="package">GraphProcessor::JobGraphProcessor::GraphScheduleList</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_job_graph_processor_1a315740ce11be20757aba724a04e8854e" prot="private" static="no" mutable="no">
+        <type>GraphScheduleList[]</type>
+        <definition>GraphScheduleList [] GraphProcessor.JobGraphProcessor.scheduleList</definition>
+        <argsstring></argsstring>
+        <name>scheduleList</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.scheduleList</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="14" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_job_graph_processor_1a4f5e9628e993bf65f515140e9add4d9f" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+        <definition>List&lt;BaseNode&gt; GraphProcessor.JobGraphProcessor.sortedNodes</definition>
+        <argsstring></argsstring>
+        <name>sortedNodes</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.sortedNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="15" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_job_graph_processor_1a41df5870544e5cf978f4b8399d535a88" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref> &gt;</type>
+        <definition>List&lt;BaseNode&gt; GraphProcessor.JobGraphProcessor.dependencyBuffer</definition>
+        <argsstring></argsstring>
+        <name>dependencyBuffer</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.dependencyBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="16" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_job_graph_processor_1a48cc20a6037b7b7f0317f25050b18dd8" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref>, JobHandle &gt;</type>
+        <definition>Dictionary&lt;BaseNode, JobHandle&gt; GraphProcessor.JobGraphProcessor.scheduledHandles</definition>
+        <argsstring></argsstring>
+        <name>scheduledHandles</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.scheduledHandles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="17" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_job_graph_processor_1a95fcea241f6c37bb3abb2086ce8b1086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.JobGraphProcessor.JobGraphProcessor</definition>
+        <argsstring>(BaseGraph graph)</argsstring>
+        <name>JobGraphProcessor</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.JobGraphProcessor</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+<para>Manage graph scheduling and processing. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>graph</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Graph to be processed</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="34" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_job_graph_processor_1a1932fe3a7278b000b06aeff56b9568bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.JobGraphProcessor.UpdateComputeOrder</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateComputeOrder</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.UpdateComputeOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="36" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="36" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_job_graph_processor_1ac8182e3f11c4e0265ff5f856270f0ca2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.JobGraphProcessor.Run</definition>
+        <argsstring>()</argsstring>
+        <name>Run</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.Run</qualifiedname>
+        <briefdescription>
+<para>Schedule the graph into the job system. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="81" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="81" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_job_graph_processor_1a31ce248982bf9f2f821437f411c0d190" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int GraphProcessor.JobGraphProcessor.CompareNodesByComputeOrder</definition>
+        <argsstring>(BaseNode a, BaseNode b)</argsstring>
+        <name>CompareNodesByComputeOrder</name>
+        <qualifiedname>GraphProcessor.JobGraphProcessor.CompareNodesByComputeOrder</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="75" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="75" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Graph processor. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.JobGraphProcessor</label>
+        <link refid="class_graph_processor_1_1_job_graph_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.BaseGraphProcessor</label>
+        <link refid="class_graph_processor_1_1_base_graph_processor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.JobGraphProcessor</label>
+        <link refid="class_graph_processor_1_1_job_graph_processor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.BaseGraphProcessor</label>
+        <link refid="class_graph_processor_1_1_base_graph_processor"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="4">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" line="12" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/JobGraphProcessor.cs" bodystart="13" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_graph_processor_1ae0f46bedb72430e4f9235367cfa5a140" prot="public" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>BaseGraphProcessor</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1a31ce248982bf9f2f821437f411c0d190" prot="private" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>CompareNodesByComputeOrder</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1a41df5870544e5cf978f4b8399d535a88" prot="private" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>dependencyBuffer</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_processor_1a9f9f4d55254b317d2995354b9526bddf" prot="protected" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>graph</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1a95fcea241f6c37bb3abb2086ce8b1086" prot="public" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>JobGraphProcessor</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1ac8182e3f11c4e0265ff5f856270f0ca2" prot="public" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>Run</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1a48cc20a6037b7b7f0317f25050b18dd8" prot="private" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>scheduledHandles</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1a315740ce11be20757aba724a04e8854e" prot="private" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>scheduleList</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1a4f5e9628e993bf65f515140e9add4d9f" prot="private" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>sortedNodes</name></member>
+      <member refid="class_graph_processor_1_1_job_graph_processor_1a1932fe3a7278b000b06aeff56b9568bd" prot="public" virt="non-virtual"><scope>GraphProcessor::JobGraphProcessor</scope><name>UpdateComputeOrder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

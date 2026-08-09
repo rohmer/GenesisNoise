@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_c915aa1c0f7aa667aa498814158c5116" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean</compoundname>
+    <innerfile refid="_ocean_crest_settings_8cs">OceanCrestSettings.cs</innerfile>
+    <innerfile refid="_ocean_h_d_r_p_settings_8cs">OceanHDRPSettings.cs</innerfile>
+    <innerfile refid="_ocean_settings_8cs">OceanSettings.cs</innerfile>
+    <innerfile refid="_ocean_settings_node_8cs">OceanSettingsNode.cs</innerfile>
+    <innerfile refid="_ocean_u_r_p_settings_8cs">OceanURPSettings.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Materials/Ocean/"/>
+  </compounddef>
+</doxygen>

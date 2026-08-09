@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_loop_end" kind="interface" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::ILoopEnd</compoundname>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.AggregateEnd</derivedcompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_end" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.ForEnd</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_loop_end_1a0c5070265224c31cca68ca9e17f6ad08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.ILoopEnd.PrepareLoopEnd</definition>
+        <argsstring>(ILoopStart loopStartNode)</argsstring>
+        <name>PrepareLoopEnd</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.ILoopEnd.PrepareLoopEnd</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end_1a1af39d663994b614f6a834c19ecad501">PrepareLoopEnd</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_end_1afccc58dd2cc7d836cfa349c4d40c32ca">PrepareLoopEnd</reimplementedby>
+        <param>
+          <type><ref refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_loop_start" kindref="compound">ILoopStart</ref></type>
+          <declname>loopStartNode</declname>
+        </param>
+        <briefdescription>
+<para>Function executed the first time a Loop end is encountered. I.e. at the end of the first loop iteration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" line="21" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_loop_end_1a70ed7945a771218138b4989508809882" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.ILoopEnd.FinalIteration</definition>
+        <argsstring>()</argsstring>
+        <name>FinalIteration</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.ILoopEnd.FinalIteration</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end_1a72ace00212ab79d83ee511b3fd9380b5">FinalIteration</reimplementedby>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_end_1a0025abdbb5540814c191192173b09994">FinalIteration</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" line="23" column="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.ILoopEnd</label>
+        <link refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_loop_end"/>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.AggregateEnd</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.ForEnd</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_end"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Nodes.WhileEnd</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_while_end"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" line="16" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl/IConditional.cs" bodystart="17" bodyend="24"/>
+    <listofallmembers>
+      <member refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_loop_end_1a70ed7945a771218138b4989508809882" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::ILoopEnd</scope><name>FinalIteration</name></member>
+      <member refid="interface_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_i_loop_end_1a0c5070265224c31cca68ca9e17f6ad08" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::ILoopEnd</scope><name>PrepareLoopEnd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,942 @@
+\doxysection{Graph\+Processor.\+Base\+Graph Class Reference}
+\hypertarget{class_graph_processor_1_1_base_graph}{}\label{class_graph_processor_1_1_base_graph}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+
+
+Inheritance diagram for Graph\+Processor.\+Base\+Graph:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_graph_processor_1_1_base_graph__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Graph\+Processor.\+Base\+Graph:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_graph_processor_1_1_base_graph__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_aa05d6d47d9ee9f977a8db319474079b2}\label{class_graph_processor_1_1_base_graph_aa05d6d47d9ee9f977a8db319474079b2} 
+virtual void {\bfseries On\+Asset\+Deleted} ()
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a5569f5c31854c07dca7f26e09904eef7}{Add\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} node)
+\begin{DoxyCompactList}\small\item\em Adds a node to the graph. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a3f6c4ab84f91a1835e2527d15e3d76a6}{Remove\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} node)
+\begin{DoxyCompactList}\small\item\em Removes a node from the graph. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ab7224feda099e47651a498222d8b3ccf}{Connect}} (\doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} input\+Port, \doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} output\+Port, bool auto\+Disconnect\+Inputs=true)
+\begin{DoxyCompactList}\small\item\em Connect two ports with an edge. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a2a8bffdcee87244092b51be4470e527a}{Disconnect}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} input\+Node, string input\+Field\+Name, \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} output\+Node, string output\+Field\+Name)
+\begin{DoxyCompactList}\small\item\em Disconnect two ports. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae91665bea04957b3f2dc9f8480d0d666}{Disconnect}} (\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} edge)
+\begin{DoxyCompactList}\small\item\em Disconnect an edge. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_aa0461bcd6f9859a6ad08c90971b8c1fc}{Disconnect}} (string edge\+GUID)
+\begin{DoxyCompactList}\small\item\em Disconnect an edge. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a90bd3422be8cdc1f2ae57593ec9ad568}{Add\+Group}} (\doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}} block)
+\begin{DoxyCompactList}\small\item\em Add a group. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae65a2b9fa30ec979bc08f3c7a2b9d53c}{Remove\+Group}} (\doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}} block)
+\begin{DoxyCompactList}\small\item\em Removes a group. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a9af78b56962e73c307172fc2b7530cf4}{Add\+Stack\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}} stack\+Node)
+\begin{DoxyCompactList}\small\item\em Add a Stack\+Node. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a77d6402bf02079c8ef202274aadfab8b}{Remove\+Stack\+Node}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}} stack\+Node)
+\begin{DoxyCompactList}\small\item\em Remove a Stack\+Node. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae0bb8c50a0b7f38690493797f16ea6d0}{Add\+Sticky\+Note}} (\doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}} note)
+\begin{DoxyCompactList}\small\item\em Add a sticky note. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ad08a2c5d266e9a644d79967e73eb6fe7}{Remove\+Sticky\+Note}} (\doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}} note)
+\begin{DoxyCompactList}\small\item\em Removes a sticky note. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a118e39ad0d35d15f0a0cfa9073eb597c}{Notify\+Node\+Changed}} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} node)
+\begin{DoxyCompactList}\small\item\em Invoke the on\+Graph\+Changes event, can be used as trigger to execute the graph when the content of a node is changed. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_pinned_element}{Pinned\+Element}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a59693610a56a5d945429a102793891ad}{Open\+Pinned}} (Type view\+Type)
+\begin{DoxyCompactList}\small\item\em Open a pinned element of type view\+Type. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a7fd401bf03485446caddc63a9a1c85b2}{Close\+Pinned}} (Type view\+Type)
+\begin{DoxyCompactList}\small\item\em Closes a pinned element of type view\+Type. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_ac3ae9848d605dda93e826ecb8a31cffe}\label{class_graph_processor_1_1_base_graph_ac3ae9848d605dda93e826ecb8a31cffe} 
+void {\bfseries On\+Before\+Serialize} ()
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a2f582f4f9455a03bc67349cc61497039}\label{class_graph_processor_1_1_base_graph_a2f582f4f9455a03bc67349cc61497039} 
+void {\bfseries Deserialize} ()
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_aea7da61a40b36a2fcd9568d8773c42dd}\label{class_graph_processor_1_1_base_graph_aea7da61a40b36a2fcd9568d8773c42dd} 
+void {\bfseries Migrate\+Graph\+If\+Needed} ()
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a03eba1e667fc6e082aa9e6242308d7ed}\label{class_graph_processor_1_1_base_graph_a03eba1e667fc6e082aa9e6242308d7ed} 
+void {\bfseries On\+After\+Deserialize} ()
+\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_afe91f28cb31b1ee1f1104c163a0be21f}{Update\+Compute\+Order}} (\doxymbox{\hyperlink{namespace_graph_processor_a9e0449a7cf05136c91e5a5931ee01fab}{Compute\+Order\+Type}} type=Compute\+Order\+Type.\+Depth\+First)
+\begin{DoxyCompactList}\small\item\em Update the compute order of the nodes in the graph. \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a6b3ab3fa4d4967e3cf59ea296d14f74a}{Add\+Exposed\+Parameter}} (string name, Type type, object value=null)
+\begin{DoxyCompactList}\small\item\em Add an exposed parameter. \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a50df4fc0680955f6759bc6f28cbf6e8c}{Add\+Exposed\+Parameter}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter)
+\begin{DoxyCompactList}\small\item\em Add an already allocated /\+ initialized parameter to the graph. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ad4b055e1a8d2429b4d0887416660cfca}{Remove\+Exposed\+Parameter}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} ep)
+\begin{DoxyCompactList}\small\item\em Remove an exposed parameter. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ac61001ef6fb9a1f00a4042e0274f682c}{Remove\+Exposed\+Parameter}} (string guid)
+\begin{DoxyCompactList}\small\item\em Remove an exposed parameter. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a8ba9062312b87a4deffa770e7219e9e9}{Update\+Exposed\+Parameter}} (string guid, object value)
+\begin{DoxyCompactList}\small\item\em Update an exposed parameter value. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_af24e38d78028f60787ae2564d4be3e6d}{Update\+Exposed\+Parameter\+Name}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter, string name)
+\begin{DoxyCompactList}\small\item\em Update the exposed parameter name. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a978d5d6b32e515c2d4e7279057606d5d}{Notify\+Exposed\+Parameter\+Changed}} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter)
+\begin{DoxyCompactList}\small\item\em Update parameter visibility. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_af2f492f2b8b3825d13e8ae10621f29e7}\label{class_graph_processor_1_1_base_graph_af2f492f2b8b3825d13e8ae10621f29e7} 
+void {\bfseries Notify\+Exposed\+Parameter\+Value\+Changed} (\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} parameter)
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a9e9b463814adc5728642c15343214016}{Get\+Exposed\+Parameter}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the exposed parameter from name. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a3a5add33b5068b803244988b6cd6c98c}{Get\+Exposed\+Parameter\+From\+GUID}} (string guid)
+\begin{DoxyCompactList}\small\item\em Get exposed parameter from GUID. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ac672767cdb94050934dffe1325edf6fd}{Set\+Parameter\+Value}} (string name, object value)
+\begin{DoxyCompactList}\small\item\em Set parameter value from name. (Warning:\+ the parameter name can be changed by the user). \end{DoxyCompactList}\item 
+object \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a27f56bee94e3b08cfd0adb2522c59461}{Get\+Parameter\+Value}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the parameter value. \end{DoxyCompactList}\item 
+T \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a1061d314079573de1702fc693c7667bc}{Get\+Parameter\+Value$<$ T $>$}} (string name)
+\begin{DoxyCompactList}\small\item\em Get the parameter value template. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae3085d29118a93f423dc92614af33f4f}{Link\+To\+Scene}} (Scene scene)
+\begin{DoxyCompactList}\small\item\em Link the current graph to the scene in parameter, allowing the graph to pick and serialize objects from the scene. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a7d2c874e75b817769866654d72769366}\label{class_graph_processor_1_1_base_graph_a7d2c874e75b817769866654d72769366} 
+bool {\bfseries Is\+Linked\+To\+Scene} ()
+\begin{DoxyCompactList}\small\item\em Return true when the graph is linked to a scene, false otherwise. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a680bffc3a754d3e706e59457e7b47920}\label{class_graph_processor_1_1_base_graph_a680bffc3a754d3e706e59457e7b47920} 
+Scene {\bfseries Get\+Linked\+Scene} ()
+\begin{DoxyCompactList}\small\item\em Get the linked scene. If there is no linked scene, it returns an invalid scene. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a5a962e414782f22fe5b879d384665bbd}{Types\+Are\+Connectable}} (Type t1, Type t2)
+\begin{DoxyCompactList}\small\item\em Tell if two types can be connected in the context of a graph. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \doxymbox{\hyperlink{struct_graph_processor_1_1_json_element}{Json\+Element}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_ae08338b2c2416472884f46f44fb1cc45}{serialized\+Nodes}} = new()
+\begin{DoxyCompactList}\small\item\em Json list of serialized nodes only used for copy pasting in the editor. Note that this field isn\textquotesingle{}t serialized. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a3b4e79b827cdc39687ccacde57bc0049}{nodes}} = new()
+\begin{DoxyCompactList}\small\item\em List of all the nodes in the graph. \end{DoxyCompactList}\item 
+Dictionary$<$ string, \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a4768bd7ee8f4f8a5fb85f19b815e4cb4}{nodes\+Per\+GUID}} = new()
+\begin{DoxyCompactList}\small\item\em Dictionary to access node per GUID, faster than a search in a list. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a8997e87d8327ba39a6e10552f933aaea}{edges}} = new()
+\begin{DoxyCompactList}\small\item\em Json list of edges. \end{DoxyCompactList}\item 
+Dictionary$<$ string, \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_af94a7bf9f3b9445d4fff2ed322bef54d}{edges\+Per\+GUID}} = new()
+\begin{DoxyCompactList}\small\item\em Dictionary of edges per GUID, faster than a search in a list. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a01709ac66d6d765b40c28c5b35897efa}{groups}} = new()
+\begin{DoxyCompactList}\small\item\em All groups in the graph. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a49d6f811c1167a466c09c6536bfa2b5a}{stack\+Nodes}} = new()
+\begin{DoxyCompactList}\small\item\em All Stack Nodes in the graph. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_pinned_element}{Pinned\+Element}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a69b01b151302b542c9842380e6b28531}{pinned\+Elements}} = new()
+\begin{DoxyCompactList}\small\item\em All pinned elements in the graph. \end{DoxyCompactList}\item 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a9b012a250823f5c108a2e7c2acb4ce0b}{exposed\+Parameters}} = new()
+\begin{DoxyCompactList}\small\item\em All exposed parameters in the graph. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a04e758c3d90371ba1cc044dcde992019}\label{class_graph_processor_1_1_base_graph_a04e758c3d90371ba1cc044dcde992019} 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}} $>$ {\bfseries sticky\+Notes} = new()
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a28ba2d64607c81b1d0857faacb3ed9b7}\label{class_graph_processor_1_1_base_graph_a28ba2d64607c81b1d0857faacb3ed9b7} 
+Vector3 {\bfseries position} = Vector3.\+zero
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_ae034c117b7c22deebe35faf3ccc1e4ca}\label{class_graph_processor_1_1_base_graph_ae034c117b7c22deebe35faf3ccc1e4ca} 
+Vector3 {\bfseries scale} = Vector3.\+one
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a002bf89e41fd0ef778d457e7ac1d76f2}\label{class_graph_processor_1_1_base_graph_a002bf89e41fd0ef778d457e7ac1d76f2} 
+static readonly int {\bfseries loop\+Compute\+Order} = -\/2
+\begin{DoxyCompactList}\small\item\em Invalid compute order number of a node when it\textquotesingle{}s inside a loop. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_ad91ef3214d1b87368df7a829f033d1f6}\label{class_graph_processor_1_1_base_graph_ad91ef3214d1b87368df7a829f033d1f6} 
+static readonly int {\bfseries invalid\+Compute\+Order} = -\/1
+\begin{DoxyCompactList}\small\item\em Invalid compute order number of a node can\textquotesingle{}t process. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a7c012e720d4112bfe936763ed4e5b885}\label{class_graph_processor_1_1_base_graph_a7c012e720d4112bfe936763ed4e5b885} 
+static bool {\bfseries Lightweight\+Enable}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a8753a225702142a63c7a1123ba4addc8}\label{class_graph_processor_1_1_base_graph_a8753a225702142a63c7a1123ba4addc8} 
+virtual void {\bfseries On\+Enable} ()
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_aca05cdea8410bbfc6fb7b0f7289a8fab}\label{class_graph_processor_1_1_base_graph_aca05cdea8410bbfc6fb7b0f7289a8fab} 
+virtual void {\bfseries On\+Disable} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a1e4c263b67a79511e14000bb0323db81}\label{class_graph_processor_1_1_base_graph_a1e4c263b67a79511e14000bb0323db81} 
+bool {\bfseries is\+Enabled}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_aec8360df553545bc65f1afa6f13a870b}\label{class_graph_processor_1_1_base_graph_aec8360df553545bc65f1afa6f13a870b} 
+Hash\+Set$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} $>$ {\bfseries graph\+Outputs} = new Hash\+Set$<$\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}$>$()\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_add47371cf28a68e961a5d472bd7549ac}\label{class_graph_processor_1_1_base_graph_add47371cf28a68e961a5d472bd7549ac} 
+Action {\bfseries on\+Exposed\+Parameter\+List\+Changed}
+\begin{DoxyCompactList}\small\item\em Triggered when something is changed in the list of exposed parameters. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_ad22794fd5b2c85aa7b2f5060293889c7}\label{class_graph_processor_1_1_base_graph_ad22794fd5b2c85aa7b2f5060293889c7} 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} $>$ {\bfseries on\+Exposed\+Parameter\+Modified}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_aec8fdfb2b87288e3143c56faefe44c4f}\label{class_graph_processor_1_1_base_graph_aec8fdfb2b87288e3143c56faefe44c4f} 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} $>$ {\bfseries on\+Exposed\+Parameter\+Value\+Changed}
+\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a815fb0249a89cd479741ec8ab3d7824f}\label{class_graph_processor_1_1_base_graph_a815fb0249a89cd479741ec8ab3d7824f} 
+Action$<$ Scene $>$ {\bfseries on\+Scene\+Linked}
+\begin{DoxyCompactList}\small\item\em Triggered when the graph is linked to an active scene. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a2e168f90292b5bea422938c0fd65b113}\label{class_graph_processor_1_1_base_graph_a2e168f90292b5bea422938c0fd65b113} 
+Action {\bfseries on\+Enabled}
+\begin{DoxyCompactList}\small\item\em Triggered when the graph is enabled. \end{DoxyCompactList}\item 
+\Hypertarget{class_graph_processor_1_1_base_graph_a104a809f00e207dd69afc79e08470053}\label{class_graph_processor_1_1_base_graph_a104a809f00e207dd69afc79e08470053} 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_graph_changes}{Graph\+Changes}} $>$ {\bfseries on\+Graph\+Changes}
+\begin{DoxyCompactList}\small\item\em Triggered when the graph is changed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{class_graph_processor_1_1_base_graph_doc-func-members}
+\Hypertarget{class_graph_processor_1_1_base_graph_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_graph_processor_1_1_base_graph_a50df4fc0680955f6759bc6f28cbf6e8c}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!AddExposedParameter@{AddExposedParameter}}
+\index{AddExposedParameter@{AddExposedParameter}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{AddExposedParameter()}{AddExposedParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a50df4fc0680955f6759bc6f28cbf6e8c} 
+string Graph\+Processor.\+Base\+Graph.\+Add\+Exposed\+Parameter (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}}}]{parameter}{}\end{DoxyParamCaption})}
+
+
+
+Add an already allocated /\+ initialized parameter to the graph. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parameter} & The parameter to add\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The unique id of the parameter
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a6b3ab3fa4d4967e3cf59ea296d14f74a}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!AddExposedParameter@{AddExposedParameter}}
+\index{AddExposedParameter@{AddExposedParameter}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{AddExposedParameter()}{AddExposedParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a6b3ab3fa4d4967e3cf59ea296d14f74a} 
+string Graph\+Processor.\+Base\+Graph.\+Add\+Exposed\+Parameter (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{Type}]{type}{, }\item[{object}]{value}{ = {\ttfamily null}}\end{DoxyParamCaption})}
+
+
+
+Add an exposed parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & parameter name\\
+\hline
+{\em type} & parameter type (must be a subclass of \doxylink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter})\\
+\hline
+{\em value} & default value\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The unique id of the parameter
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a90bd3422be8cdc1f2ae57593ec9ad568}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!AddGroup@{AddGroup}}
+\index{AddGroup@{AddGroup}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{AddGroup()}{AddGroup()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a90bd3422be8cdc1f2ae57593ec9ad568} 
+void Graph\+Processor.\+Base\+Graph.\+Add\+Group (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}}}]{block}{}\end{DoxyParamCaption})}
+
+
+
+Add a group. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em block} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a5569f5c31854c07dca7f26e09904eef7}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!AddNode@{AddNode}}
+\index{AddNode@{AddNode}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{AddNode()}{AddNode()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a5569f5c31854c07dca7f26e09904eef7} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}} Graph\+Processor.\+Base\+Graph.\+Add\+Node (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}}]{node}{}\end{DoxyParamCaption})}
+
+
+
+Adds a node to the graph. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a9af78b56962e73c307172fc2b7530cf4}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!AddStackNode@{AddStackNode}}
+\index{AddStackNode@{AddStackNode}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{AddStackNode()}{AddStackNode()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a9af78b56962e73c307172fc2b7530cf4} 
+void Graph\+Processor.\+Base\+Graph.\+Add\+Stack\+Node (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}}}]{stack\+Node}{}\end{DoxyParamCaption})}
+
+
+
+Add a Stack\+Node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack\+Node} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_ae0bb8c50a0b7f38690493797f16ea6d0}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!AddStickyNote@{AddStickyNote}}
+\index{AddStickyNote@{AddStickyNote}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{AddStickyNote()}{AddStickyNote()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ae0bb8c50a0b7f38690493797f16ea6d0} 
+void Graph\+Processor.\+Base\+Graph.\+Add\+Sticky\+Note (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}}}]{note}{}\end{DoxyParamCaption})}
+
+
+
+Add a sticky note. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em note} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a7fd401bf03485446caddc63a9a1c85b2}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!ClosePinned@{ClosePinned}}
+\index{ClosePinned@{ClosePinned}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{ClosePinned()}{ClosePinned()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a7fd401bf03485446caddc63a9a1c85b2} 
+void Graph\+Processor.\+Base\+Graph.\+Close\+Pinned (\begin{DoxyParamCaption}\item[{Type}]{view\+Type}{}\end{DoxyParamCaption})}
+
+
+
+Closes a pinned element of type view\+Type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em view\+Type} & type of the pinned element\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_ab7224feda099e47651a498222d8b3ccf}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!Connect@{Connect}}
+\index{Connect@{Connect}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{Connect()}{Connect()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ab7224feda099e47651a498222d8b3ccf} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} Graph\+Processor.\+Base\+Graph.\+Connect (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}}}]{input\+Port}{, }\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}}}]{output\+Port}{, }\item[{bool}]{auto\+Disconnect\+Inputs}{ = {\ttfamily true}}\end{DoxyParamCaption})}
+
+
+
+Connect two ports with an edge. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input\+Port} & input port\\
+\hline
+{\em output\+Port} & output port\\
+\hline
+{\em Disconnect\+Inputs} & is the edge allowed to disconnect another edge\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the connecting edge
+\end{DoxyReturn}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_graph_ab7224feda099e47651a498222d8b3ccf_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_base_graph_a2a8bffdcee87244092b51be4470e527a}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!Disconnect@{Disconnect}}
+\index{Disconnect@{Disconnect}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{Disconnect()}{Disconnect()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a2a8bffdcee87244092b51be4470e527a} 
+void Graph\+Processor.\+Base\+Graph.\+Disconnect (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}}]{input\+Node}{, }\item[{string}]{input\+Field\+Name}{, }\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}}]{output\+Node}{, }\item[{string}]{output\+Field\+Name}{}\end{DoxyParamCaption})}
+
+
+
+Disconnect two ports. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input\+Node} & input node\\
+\hline
+{\em input\+Field\+Name} & input field name\\
+\hline
+{\em output\+Node} & output node\\
+\hline
+{\em output\+Field\+Name} & output field name\\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_graph_a2a8bffdcee87244092b51be4470e527a_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_base_graph_ae91665bea04957b3f2dc9f8480d0d666}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!Disconnect@{Disconnect}}
+\index{Disconnect@{Disconnect}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{Disconnect()}{Disconnect()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ae91665bea04957b3f2dc9f8480d0d666} 
+void Graph\+Processor.\+Base\+Graph.\+Disconnect (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}}}]{edge}{}\end{DoxyParamCaption})}
+
+
+
+Disconnect an edge. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em edge} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_aa0461bcd6f9859a6ad08c90971b8c1fc}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!Disconnect@{Disconnect}}
+\index{Disconnect@{Disconnect}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{Disconnect()}{Disconnect()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_aa0461bcd6f9859a6ad08c90971b8c1fc} 
+void Graph\+Processor.\+Base\+Graph.\+Disconnect (\begin{DoxyParamCaption}\item[{string}]{edge\+GUID}{}\end{DoxyParamCaption})}
+
+
+
+Disconnect an edge. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em edge\+GUID} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a9e9b463814adc5728642c15343214016}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!GetExposedParameter@{GetExposedParameter}}
+\index{GetExposedParameter@{GetExposedParameter}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{GetExposedParameter()}{GetExposedParameter()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a9e9b463814adc5728642c15343214016} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} Graph\+Processor.\+Base\+Graph.\+Get\+Exposed\+Parameter (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})}
+
+
+
+Get the exposed parameter from name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the parameter or null
+\end{DoxyReturn}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_graph_a9e9b463814adc5728642c15343214016_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_base_graph_a3a5add33b5068b803244988b6cd6c98c}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!GetExposedParameterFromGUID@{GetExposedParameterFromGUID}}
+\index{GetExposedParameterFromGUID@{GetExposedParameterFromGUID}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{GetExposedParameterFromGUID()}{GetExposedParameterFromGUID()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a3a5add33b5068b803244988b6cd6c98c} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} Graph\+Processor.\+Base\+Graph.\+Get\+Exposed\+Parameter\+From\+GUID (\begin{DoxyParamCaption}\item[{string}]{guid}{}\end{DoxyParamCaption})}
+
+
+
+Get exposed parameter from GUID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em guid} & GUID of the parameter\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The parameter
+\end{DoxyReturn}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_graph_a3a5add33b5068b803244988b6cd6c98c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_base_graph_a27f56bee94e3b08cfd0adb2522c59461}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!GetParameterValue@{GetParameterValue}}
+\index{GetParameterValue@{GetParameterValue}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{GetParameterValue()}{GetParameterValue()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a27f56bee94e3b08cfd0adb2522c59461} 
+object Graph\+Processor.\+Base\+Graph.\+Get\+Parameter\+Value (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})}
+
+
+
+Get the parameter value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & parameter name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a1061d314079573de1702fc693c7667bc}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!GetParameterValue$<$ T $>$@{GetParameterValue$<$ T $>$}}
+\index{GetParameterValue$<$ T $>$@{GetParameterValue$<$ T $>$}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{GetParameterValue$<$ T $>$()}{GetParameterValue< T >()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a1061d314079573de1702fc693c7667bc} 
+T \doxymbox{\hyperlink{class_graph_processor_1_1_base_graph_a27f56bee94e3b08cfd0adb2522c59461}{Graph\+Processor.\+Base\+Graph.\+Get\+Parameter\+Value}}$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{name}{}\end{DoxyParamCaption})}
+
+
+
+Get the parameter value template. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & parameter name\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & type of the parameter\\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+value
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_ae3085d29118a93f423dc92614af33f4f}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!LinkToScene@{LinkToScene}}
+\index{LinkToScene@{LinkToScene}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{LinkToScene()}{LinkToScene()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ae3085d29118a93f423dc92614af33f4f} 
+void Graph\+Processor.\+Base\+Graph.\+Link\+To\+Scene (\begin{DoxyParamCaption}\item[{Scene}]{scene}{}\end{DoxyParamCaption})}
+
+
+
+Link the current graph to the scene in parameter, allowing the graph to pick and serialize objects from the scene. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene} & Target scene to link\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a978d5d6b32e515c2d4e7279057606d5d}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!NotifyExposedParameterChanged@{NotifyExposedParameterChanged}}
+\index{NotifyExposedParameterChanged@{NotifyExposedParameterChanged}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{NotifyExposedParameterChanged()}{NotifyExposedParameterChanged()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a978d5d6b32e515c2d4e7279057606d5d} 
+void Graph\+Processor.\+Base\+Graph.\+Notify\+Exposed\+Parameter\+Changed (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}}}]{parameter}{}\end{DoxyParamCaption})}
+
+
+
+Update parameter visibility. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parameter} & The parameter\\
+\hline
+{\em is\+Hidden} & is Hidden\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a118e39ad0d35d15f0a0cfa9073eb597c}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!NotifyNodeChanged@{NotifyNodeChanged}}
+\index{NotifyNodeChanged@{NotifyNodeChanged}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{NotifyNodeChanged()}{NotifyNodeChanged()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a118e39ad0d35d15f0a0cfa9073eb597c} 
+void Graph\+Processor.\+Base\+Graph.\+Notify\+Node\+Changed (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}}]{node}{}\end{DoxyParamCaption})}
+
+
+
+Invoke the on\+Graph\+Changes event, can be used as trigger to execute the graph when the content of a node is changed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a59693610a56a5d945429a102793891ad}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!OpenPinned@{OpenPinned}}
+\index{OpenPinned@{OpenPinned}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{OpenPinned()}{OpenPinned()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a59693610a56a5d945429a102793891ad} 
+\doxymbox{\hyperlink{class_graph_processor_1_1_pinned_element}{Pinned\+Element}} Graph\+Processor.\+Base\+Graph.\+Open\+Pinned (\begin{DoxyParamCaption}\item[{Type}]{view\+Type}{}\end{DoxyParamCaption})}
+
+
+
+Open a pinned element of type view\+Type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em view\+Type} & type of the pinned element\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the pinned element
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_ad4b055e1a8d2429b4d0887416660cfca}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!RemoveExposedParameter@{RemoveExposedParameter}}
+\index{RemoveExposedParameter@{RemoveExposedParameter}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{RemoveExposedParameter()}{RemoveExposedParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ad4b055e1a8d2429b4d0887416660cfca} 
+void Graph\+Processor.\+Base\+Graph.\+Remove\+Exposed\+Parameter (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}}}]{ep}{}\end{DoxyParamCaption})}
+
+
+
+Remove an exposed parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ep} & the parameter to remove\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_ac61001ef6fb9a1f00a4042e0274f682c}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!RemoveExposedParameter@{RemoveExposedParameter}}
+\index{RemoveExposedParameter@{RemoveExposedParameter}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{RemoveExposedParameter()}{RemoveExposedParameter()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ac61001ef6fb9a1f00a4042e0274f682c} 
+void Graph\+Processor.\+Base\+Graph.\+Remove\+Exposed\+Parameter (\begin{DoxyParamCaption}\item[{string}]{guid}{}\end{DoxyParamCaption})}
+
+
+
+Remove an exposed parameter. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em guid} & GUID of the parameter\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_ae65a2b9fa30ec979bc08f3c7a2b9d53c}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!RemoveGroup@{RemoveGroup}}
+\index{RemoveGroup@{RemoveGroup}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{RemoveGroup()}{RemoveGroup()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ae65a2b9fa30ec979bc08f3c7a2b9d53c} 
+void Graph\+Processor.\+Base\+Graph.\+Remove\+Group (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}}}]{block}{}\end{DoxyParamCaption})}
+
+
+
+Removes a group. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em block} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a3f6c4ab84f91a1835e2527d15e3d76a6}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!RemoveNode@{RemoveNode}}
+\index{RemoveNode@{RemoveNode}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{RemoveNode()}{RemoveNode()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a3f6c4ab84f91a1835e2527d15e3d76a6} 
+void Graph\+Processor.\+Base\+Graph.\+Remove\+Node (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}}]{node}{}\end{DoxyParamCaption})}
+
+
+
+Removes a node from the graph. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a77d6402bf02079c8ef202274aadfab8b}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!RemoveStackNode@{RemoveStackNode}}
+\index{RemoveStackNode@{RemoveStackNode}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{RemoveStackNode()}{RemoveStackNode()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a77d6402bf02079c8ef202274aadfab8b} 
+void Graph\+Processor.\+Base\+Graph.\+Remove\+Stack\+Node (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}}}]{stack\+Node}{}\end{DoxyParamCaption})}
+
+
+
+Remove a Stack\+Node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em stack\+Node} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_ad08a2c5d266e9a644d79967e73eb6fe7}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!RemoveStickyNote@{RemoveStickyNote}}
+\index{RemoveStickyNote@{RemoveStickyNote}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{RemoveStickyNote()}{RemoveStickyNote()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ad08a2c5d266e9a644d79967e73eb6fe7} 
+void Graph\+Processor.\+Base\+Graph.\+Remove\+Sticky\+Note (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_sticky_note}{Sticky\+Note}}}]{note}{}\end{DoxyParamCaption})}
+
+
+
+Removes a sticky note. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em note} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_ac672767cdb94050934dffe1325edf6fd}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!SetParameterValue@{SetParameterValue}}
+\index{SetParameterValue@{SetParameterValue}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{SetParameterValue()}{SetParameterValue()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ac672767cdb94050934dffe1325edf6fd} 
+bool Graph\+Processor.\+Base\+Graph.\+Set\+Parameter\+Value (\begin{DoxyParamCaption}\item[{string}]{name}{, }\item[{object}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Set parameter value from name. (Warning:\+ the parameter name can be changed by the user). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the parameter\\
+\hline
+{\em value} & new value\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the value have been assigned
+\end{DoxyReturn}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_graph_ac672767cdb94050934dffe1325edf6fd_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_base_graph_a5a962e414782f22fe5b879d384665bbd}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!TypesAreConnectable@{TypesAreConnectable}}
+\index{TypesAreConnectable@{TypesAreConnectable}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{TypesAreConnectable()}{TypesAreConnectable()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a5a962e414782f22fe5b879d384665bbd} 
+bool Graph\+Processor.\+Base\+Graph.\+Types\+Are\+Connectable (\begin{DoxyParamCaption}\item[{Type}]{t1}{, }\item[{Type}]{t2}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Tell if two types can be connected in the context of a graph. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t1} & \\
+\hline
+{\em t2} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Here is the caller graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_graph_a5a962e414782f22fe5b879d384665bbd_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_base_graph_afe91f28cb31b1ee1f1104c163a0be21f}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!UpdateComputeOrder@{UpdateComputeOrder}}
+\index{UpdateComputeOrder@{UpdateComputeOrder}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{UpdateComputeOrder()}{UpdateComputeOrder()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_afe91f28cb31b1ee1f1104c163a0be21f} 
+void Graph\+Processor.\+Base\+Graph.\+Update\+Compute\+Order (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespace_graph_processor_a9e0449a7cf05136c91e5a5931ee01fab}{Compute\+Order\+Type}}}]{type}{ = {\ttfamily ComputeOrderType:\+:\+DepthFirst}}\end{DoxyParamCaption})}
+
+
+
+Update the compute order of the nodes in the graph. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & Compute order type\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_graph_processor_1_1_base_graph_a8ba9062312b87a4deffa770e7219e9e9}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!UpdateExposedParameter@{UpdateExposedParameter}}
+\index{UpdateExposedParameter@{UpdateExposedParameter}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{UpdateExposedParameter()}{UpdateExposedParameter()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a8ba9062312b87a4deffa770e7219e9e9} 
+void Graph\+Processor.\+Base\+Graph.\+Update\+Exposed\+Parameter (\begin{DoxyParamCaption}\item[{string}]{guid}{, }\item[{object}]{value}{}\end{DoxyParamCaption})}
+
+
+
+Update an exposed parameter value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em guid} & GUID of the parameter\\
+\hline
+{\em value} & new value\\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_graph_processor_1_1_base_graph_a8ba9062312b87a4deffa770e7219e9e9_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_graph_processor_1_1_base_graph_af24e38d78028f60787ae2564d4be3e6d}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!UpdateExposedParameterName@{UpdateExposedParameterName}}
+\index{UpdateExposedParameterName@{UpdateExposedParameterName}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{UpdateExposedParameterName()}{UpdateExposedParameterName()}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_af24e38d78028f60787ae2564d4be3e6d} 
+void Graph\+Processor.\+Base\+Graph.\+Update\+Exposed\+Parameter\+Name (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}}}]{parameter}{, }\item[{string}]{name}{}\end{DoxyParamCaption})}
+
+
+
+Update the exposed parameter name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parameter} & The parameter\\
+\hline
+{\em name} & new name\\
+\hline
+\end{DoxyParams}
+
+
+\label{class_graph_processor_1_1_base_graph_doc-variable-members}
+\Hypertarget{class_graph_processor_1_1_base_graph_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_graph_processor_1_1_base_graph_a8997e87d8327ba39a6e10552f933aaea}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!edges@{edges}}
+\index{edges@{edges}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{edges}{edges}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a8997e87d8327ba39a6e10552f933aaea} 
+List$<$\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}}$>$ Graph\+Processor.\+Base\+Graph.\+edges = new()}
+
+
+
+Json list of edges. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em \doxylink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_af94a7bf9f3b9445d4fff2ed322bef54d}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!edgesPerGUID@{edgesPerGUID}}
+\index{edgesPerGUID@{edgesPerGUID}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{edgesPerGUID}{edgesPerGUID}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_af94a7bf9f3b9445d4fff2ed322bef54d} 
+Dictionary$<$string, \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}}$>$ Graph\+Processor.\+Base\+Graph.\+edges\+Per\+GUID = new()}
+
+
+
+Dictionary of edges per GUID, faster than a search in a list. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em string} & \\
+\hline
+{\em \doxylink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a9b012a250823f5c108a2e7c2acb4ce0b}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!exposedParameters@{exposedParameters}}
+\index{exposedParameters@{exposedParameters}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{exposedParameters}{exposedParameters}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a9b012a250823f5c108a2e7c2acb4ce0b} 
+List$<$\doxymbox{\hyperlink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}}$>$ Graph\+Processor.\+Base\+Graph.\+exposed\+Parameters = new()}
+
+
+
+All exposed parameters in the graph. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em \doxylink{class_graph_processor_1_1_exposed_parameter}{Exposed\+Parameter}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a01709ac66d6d765b40c28c5b35897efa}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!groups@{groups}}
+\index{groups@{groups}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{groups}{groups}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a01709ac66d6d765b40c28c5b35897efa} 
+List$<$\doxymbox{\hyperlink{class_graph_processor_1_1_group}{Group}}$>$ Graph\+Processor.\+Base\+Graph.\+groups = new()}
+
+
+
+All groups in the graph. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em \doxylink{class_graph_processor_1_1_group}{Group}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a3b4e79b827cdc39687ccacde57bc0049}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!nodes@{nodes}}
+\index{nodes@{nodes}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{nodes}{nodes}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a3b4e79b827cdc39687ccacde57bc0049} 
+List$<$\doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}$>$ Graph\+Processor.\+Base\+Graph.\+nodes = new()}
+
+
+
+List of all the nodes in the graph. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em \doxylink{class_graph_processor_1_1_base_node}{Base\+Node}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a4768bd7ee8f4f8a5fb85f19b815e4cb4}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!nodesPerGUID@{nodesPerGUID}}
+\index{nodesPerGUID@{nodesPerGUID}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{nodesPerGUID}{nodesPerGUID}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a4768bd7ee8f4f8a5fb85f19b815e4cb4} 
+Dictionary$<$string, \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Base\+Node}}$>$ Graph\+Processor.\+Base\+Graph.\+nodes\+Per\+GUID = new()}
+
+
+
+Dictionary to access node per GUID, faster than a search in a list. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em string} & \\
+\hline
+{\em \doxylink{class_graph_processor_1_1_base_node}{Base\+Node}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a69b01b151302b542c9842380e6b28531}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!pinnedElements@{pinnedElements}}
+\index{pinnedElements@{pinnedElements}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{pinnedElements}{pinnedElements}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a69b01b151302b542c9842380e6b28531} 
+List$<$\doxymbox{\hyperlink{class_graph_processor_1_1_pinned_element}{Pinned\+Element}}$>$ Graph\+Processor.\+Base\+Graph.\+pinned\+Elements = new()}
+
+
+
+All pinned elements in the graph. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em \doxylink{class_graph_processor_1_1_pinned_element}{Pinned\+Element}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_ae08338b2c2416472884f46f44fb1cc45}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!serializedNodes@{serializedNodes}}
+\index{serializedNodes@{serializedNodes}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{serializedNodes}{serializedNodes}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_ae08338b2c2416472884f46f44fb1cc45} 
+List$<$\doxymbox{\hyperlink{struct_graph_processor_1_1_json_element}{Json\+Element}}$>$ Graph\+Processor.\+Base\+Graph.\+serialized\+Nodes = new()}
+
+
+
+Json list of serialized nodes only used for copy pasting in the editor. Note that this field isn\textquotesingle{}t serialized. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em \doxylink{struct_graph_processor_1_1_json_element}{Json\+Element}} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{class_graph_processor_1_1_base_graph_a49d6f811c1167a466c09c6536bfa2b5a}\index{GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}!stackNodes@{stackNodes}}
+\index{stackNodes@{stackNodes}!GraphProcessor.BaseGraph@{GraphProcessor.BaseGraph}}
+\doxysubsubsection{\texorpdfstring{stackNodes}{stackNodes}}
+{\footnotesize\ttfamily \label{class_graph_processor_1_1_base_graph_a49d6f811c1167a466c09c6536bfa2b5a} 
+List$<$\doxymbox{\hyperlink{class_graph_processor_1_1_base_stack_node}{Base\+Stack\+Node}}$>$ Graph\+Processor.\+Base\+Graph.\+stack\+Nodes = new()}
+
+
+
+All Stack Nodes in the graph. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em stack\+Nodes} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Node\+Graph\+Processor/\+\+Runtime/\+\+Graph/\+Base\+Graph.\+cs\end{DoxyCompactItemize}

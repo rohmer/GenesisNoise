@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.DestroyGraph" name="AhahGames.GenesisNoise.Tests.Nodes.AssemblyNodeLifecycleTests.DestroyGraph">
-<area shape="rect" id="Node000001" title=" " alt="" coords="333,47,573,105"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests.html#a7f326135ef843c38d45e2904bf9facb3" title=" " alt="" coords="10,5,280,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="315,58,280,55,280,50,320,57"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_tests_1_1_nodes_1_1_assembly_node_lifecycle_tests.html#aa56e8d2af3f585cea7bad772bfec951b" title=" " alt="" coords="5,88,285,147"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,95,286,101,285,96,320,94"/>
-</map>

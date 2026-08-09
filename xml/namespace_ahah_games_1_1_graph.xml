@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="namespace_ahah_games_1_1_graph" kind="namespace" language="C#">
+    <compoundname>AhahGames::Graph</compoundname>
+    <innerclass refid="class_ahah_games_1_1_graph_1_1_help_window" prot="public">AhahGames::Graph::HelpWindow</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Graph/HelpWindow.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

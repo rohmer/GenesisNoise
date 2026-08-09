@@ -1,0 +1,462 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aec32fe6035223af8d8bd1ab3f3167b47" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.menuItemPath</definition>
+        <argsstring></argsstring>
+        <name>menuItemPath</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.menuItemPath</qualifiedname>
+        <initializer>= &quot;Assets/<ref refid="namespace_genesis" kindref="compound">Genesis</ref> Noise/Package Graph&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="33" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ab84668df7dd71c5986b487116d3637e4" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.outputFolder</definition>
+        <argsstring></argsstring>
+        <name>outputFolder</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.outputFolder</qualifiedname>
+        <initializer>= &quot;Assets/GenesisPackages&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="34" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a48fb3cf6c6e4bd04dc50582011ae2547" prot="private" static="yes" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.excludedNamespacePrefixes</definition>
+        <argsstring></argsstring>
+        <name>excludedNamespacePrefixes</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.excludedNamespacePrefixes</qualifiedname>
+        <initializer>                                                 =
+{
+    &quot;AhahGames.GenesisNoise&quot;,
+    &quot;UnityEditor&quot;,
+    &quot;UnityEngine&quot;,
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="39" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ab4803b7a54f53f625e44f1f891348130" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.PackageSelectedGraphs</definition>
+        <argsstring>()</argsstring>
+        <name>PackageSelectedGraphs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.PackageSelectedGraphs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="47" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aca8afdf87ee982a941c72481be7f072e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.ValidatePackageSelectedGraphs</definition>
+        <argsstring>()</argsstring>
+        <name>ValidatePackageSelectedGraphs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.ValidatePackageSelectedGraphs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="58" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a7f1becf8645179d085e586a893038a4e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.PackageGraph</definition>
+        <argsstring>(GenesisGraph graph)</argsstring>
+        <name>PackageGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.PackageGraph</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="63" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="63" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ad07094bcf635da7afcfbb583db00ea9f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>static GenesisGraph AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.EmbedGraphClone</definition>
+        <argsstring>(GenesisGraph source, string graphAssetPath, GenesisNoisePackage package)</argsstring>
+        <name>EmbedGraphClone</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.EmbedGraphClone</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>graphAssetPath</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package" kindref="compound">GenesisNoisePackage</ref></type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="144" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="144" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a131dbdb448236d2700f2c5498b670f58" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TextAsset</type>
+        <definition>static TextAsset AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.EmbedTextAsset</definition>
+        <argsstring>(string text, string assetName, GenesisNoisePackage package)</argsstring>
+        <name>EmbedTextAsset</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.EmbedTextAsset</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>assetName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package" kindref="compound">GenesisNoisePackage</ref></type>
+          <declname>package</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="171" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="171" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1af8a409ed3d127fcec031843c81d5b76f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.CollectBundledContent</definition>
+        <argsstring>(GenesisGraph graph, Dictionary&lt; System.Type, MonoScript &gt; scriptsByType, HashSet&lt; MonoScript &gt; nodeScripts, HashSet&lt; string &gt; bundledShaderPaths, HashSet&lt; string &gt; allShaderPaths)</argsstring>
+        <name>CollectBundledContent</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.CollectBundledContent</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; System.Type, MonoScript &gt;</type>
+          <declname>scriptsByType</declname>
+        </param>
+        <param>
+          <type>HashSet&lt; MonoScript &gt;</type>
+          <declname>nodeScripts</declname>
+        </param>
+        <param>
+          <type>HashSet&lt; string &gt;</type>
+          <declname>bundledShaderPaths</declname>
+        </param>
+        <param>
+          <type>HashSet&lt; string &gt;</type>
+          <declname>allShaderPaths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="182" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="182" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ab794f9773fe9aaa9bffa82ea2dcc6d5c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.CollectPropertyDrawers</definition>
+        <argsstring>(HashSet&lt; string &gt; shaderPaths, Dictionary&lt; System.Type, MonoScript &gt; scriptsByType, HashSet&lt; MonoScript &gt; drawerScripts)</argsstring>
+        <name>CollectPropertyDrawers</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.CollectPropertyDrawers</qualifiedname>
+        <param>
+          <type>HashSet&lt; string &gt;</type>
+          <declname>shaderPaths</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; System.Type, MonoScript &gt;</type>
+          <declname>scriptsByType</declname>
+        </param>
+        <param>
+          <type>HashSet&lt; MonoScript &gt;</type>
+          <declname>drawerScripts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="213" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="213" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a4d7333056dc6845205db78a4e75883a6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.GetNodeShaderPath</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>GetNodeShaderPath</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.GetNodeShaderPath</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="245" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="245" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a4059e137ff38d6937be12970da2d9d16" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.IsExcludedNamespace</definition>
+        <argsstring>(System.Type type)</argsstring>
+        <name>IsExcludedNamespace</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.IsExcludedNamespace</qualifiedname>
+        <param>
+          <type>System.Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="265" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="265" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1acfb69b46d54b9785a84e282660e96279" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.GetScriptSource</definition>
+        <argsstring>(MonoScript script)</argsstring>
+        <name>GetScriptSource</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.GetScriptSource</qualifiedname>
+        <param>
+          <type>MonoScript</type>
+          <declname>script</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="280" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="280" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aa94b752892a04a2e9b6aac43433ba848" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.ReadShaderSource</definition>
+        <argsstring>(string shaderPath)</argsstring>
+        <name>ReadShaderSource</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.ReadShaderSource</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>shaderPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="289" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="289" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a12cf8a2c75941166f541b95c9bf852e1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.ExtractPropertiesBlock</definition>
+        <argsstring>(string shaderSource)</argsstring>
+        <name>ExtractPropertiesBlock</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.ExtractPropertiesBlock</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>shaderSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="297" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="297" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ae23e1e5ecd20af7a1e03da6e17b20d4b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; string &gt;</type>
+        <definition>static IEnumerable&lt; string &gt; AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.GetShaderDrawerAttributes</definition>
+        <argsstring>(string propertiesBlock)</argsstring>
+        <name>GetShaderDrawerAttributes</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.GetShaderDrawerAttributes</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>propertiesBlock</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="324" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="324" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aa129a8ddcdf5df3fa1889410214dad81" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; System.Type, MonoScript &gt;</type>
+        <definition>static Dictionary&lt; System.Type, MonoScript &gt; AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.BuildMonoScriptTypeMap</definition>
+        <argsstring>()</argsstring>
+        <name>BuildMonoScriptTypeMap</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.BuildMonoScriptTypeMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="335" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="335" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a553881e43993ba720728a02fc5843426" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, System.Type &gt;</type>
+        <definition>static Dictionary&lt; string, System.Type &gt; AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.BuildDrawerTypeByName</definition>
+        <argsstring>(Dictionary&lt; System.Type, MonoScript &gt; scriptsByType)</argsstring>
+        <name>BuildDrawerTypeByName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.BuildDrawerTypeByName</qualifiedname>
+        <param>
+          <type>Dictionary&lt; System.Type, MonoScript &gt;</type>
+          <declname>scriptsByType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="352" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="352" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a9db43b2d5412ab33a42af00b9e6df9f2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.RemapObjectReferences</definition>
+        <argsstring>(Object target, Dictionary&lt; Object, Object &gt; remap)</argsstring>
+        <name>RemapObjectReferences</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.RemapObjectReferences</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Object, Object &gt;</type>
+          <declname>remap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="370" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="370" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a5b2a036a0bf790c0c647ba55d5222580" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.RemapProperty</definition>
+        <argsstring>(SerializedProperty property, Dictionary&lt; Object, Object &gt; remap)</argsstring>
+        <name>RemapProperty</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.RemapProperty</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>property</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Object, Object &gt;</type>
+          <declname>remap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="385" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="385" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1af94e5e52ea7b947f5c68ab8e6f81177e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.SanitizeName</definition>
+        <argsstring>(string raw, string fallback)</argsstring>
+        <name>SanitizeName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.SanitizeName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>raw</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="411" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="411" bodyend="426"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>&quot;Package Graph&quot; builds a single self-contained <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package" kindref="compound">GenesisNoisePackage</ref> asset (no AssetBundle) that embeds: </para>
+    </briefdescription>
+    <detaileddescription>
+<para><itemizedlist>
+<listitem><para>a clone of the graph (as a sub-asset, with its owned sub-assets remapped onto the clone),</para>
+</listitem><listitem><para>the C# source of every node in the graph whose type is not in the <ref refid="namespace_ahah_games_1_1_genesis_noise" kindref="compound">AhahGames.GenesisNoise</ref> namespace (bundled as TextAsset sub-assets),</para>
+</listitem><listitem><para>the source of the shader assets referenced by those custom nodes (bundled as TextAsset sub-assets),</para>
+</listitem><listitem><para>the C# source of any property drawers referenced by any shader in the graph that are not in the <ref refid="namespace_ahah_games_1_1_genesis_noise" kindref="compound">AhahGames.GenesisNoise</ref> namespace (ShaderLab [Foo] attributes resolve to a FooDrawer MaterialPropertyDrawer subclass; those are bundled as TextAsset sub-assets). The package asset is named after the graph and carries the <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_package" kindref="compound">GenesisNoisePackage</ref> icon. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" line="31" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisGraphPackagingMenu.cs" bodystart="32" bodyend="427"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a553881e43993ba720728a02fc5843426" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>BuildDrawerTypeByName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aa129a8ddcdf5df3fa1889410214dad81" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>BuildMonoScriptTypeMap</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1af8a409ed3d127fcec031843c81d5b76f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>CollectBundledContent</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ab794f9773fe9aaa9bffa82ea2dcc6d5c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>CollectPropertyDrawers</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ad07094bcf635da7afcfbb583db00ea9f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>EmbedGraphClone</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a131dbdb448236d2700f2c5498b670f58" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>EmbedTextAsset</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a48fb3cf6c6e4bd04dc50582011ae2547" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>excludedNamespacePrefixes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a12cf8a2c75941166f541b95c9bf852e1" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>ExtractPropertiesBlock</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a4d7333056dc6845205db78a4e75883a6" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>GetNodeShaderPath</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1acfb69b46d54b9785a84e282660e96279" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>GetScriptSource</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ae23e1e5ecd20af7a1e03da6e17b20d4b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>GetShaderDrawerAttributes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a4059e137ff38d6937be12970da2d9d16" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>IsExcludedNamespace</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aec32fe6035223af8d8bd1ab3f3167b47" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>menuItemPath</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ab84668df7dd71c5986b487116d3637e4" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>outputFolder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a7f1becf8645179d085e586a893038a4e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>PackageGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1ab4803b7a54f53f625e44f1f891348130" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>PackageSelectedGraphs</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aa94b752892a04a2e9b6aac43433ba848" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>ReadShaderSource</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a9db43b2d5412ab33a42af00b9e6df9f2" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>RemapObjectReferences</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1a5b2a036a0bf790c0c647ba55d5222580" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>RemapProperty</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1af94e5e52ea7b947f5c68ab8e6f81177e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>SanitizeName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu_1aca8afdf87ee982a941c72481be7f072e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::Graph::GenesisGraphPackagingMenu</scope><name>ValidatePackageSelectedGraphs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

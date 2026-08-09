@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.Texture2DOutputNode.ProcessNode" name="AhahGames.GenesisNoise.Nodes.Texture2DOutputNode.ProcessNode">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,240,48"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture2_d_output_node.html#accab0b7d9fcb195a8f811fa5b3c3fe31" title=" " alt="" coords="288,5,530,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,24,275,27,270,27,240,29"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture2_d_output_node.html#a26394ee48222117bfb246587aa440141" title=" " alt="" coords="578,5,822,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="530,24,565,27,560,27,531,29"/>
-</map>

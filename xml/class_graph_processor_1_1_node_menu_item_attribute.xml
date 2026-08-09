@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_node_menu_item_attribute" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeMenuItemAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_menu_item_attribute_1a03506af3d30fc18cdf2c0cf47415a9ff" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.NodeMenuItemAttribute.menuTitle</definition>
+        <argsstring></argsstring>
+        <name>menuTitle</name>
+        <qualifiedname>GraphProcessor.NodeMenuItemAttribute.menuTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="61" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_menu_item_attribute_1aa80a6100d024a36b9d60c41cf1e1fd20" prot="public" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type GraphProcessor.NodeMenuItemAttribute.onlyCompatibleWithGraph</definition>
+        <argsstring></argsstring>
+        <name>onlyCompatibleWithGraph</name>
+        <qualifiedname>GraphProcessor.NodeMenuItemAttribute.onlyCompatibleWithGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="62" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_menu_item_attribute_1a907f910036e24d595b7f54daa6e24d21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.NodeMenuItemAttribute.NodeMenuItemAttribute</definition>
+        <argsstring>(string menuTitle=null, Type onlyCompatibleWithGraph=null)</argsstring>
+        <name>NodeMenuItemAttribute</name>
+        <qualifiedname>GraphProcessor.NodeMenuItemAttribute.NodeMenuItemAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>menuTitle</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>onlyCompatibleWithGraph</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Register the node in the NodeProvider class. The node will also be available in the node creation window. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>menuTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Path in the menu, use / as folder separators</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="68" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Register the node in the NodeProvider class. The node will also be available in the node creation window. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.NodeMenuItemAttribute</label>
+        <link refid="class_graph_processor_1_1_node_menu_item_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.NodeMenuItemAttribute</label>
+        <link refid="class_graph_processor_1_1_node_menu_item_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" line="59" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/Attributes.cs" bodystart="60" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_node_menu_item_attribute_1a03506af3d30fc18cdf2c0cf47415a9ff" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeMenuItemAttribute</scope><name>menuTitle</name></member>
+      <member refid="class_graph_processor_1_1_node_menu_item_attribute_1a907f910036e24d595b7f54daa6e24d21" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeMenuItemAttribute</scope><name>NodeMenuItemAttribute</name></member>
+      <member refid="class_graph_processor_1_1_node_menu_item_attribute_1aa80a6100d024a36b9d60c41cf1e1fd20" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeMenuItemAttribute</scope><name>onlyCompatibleWithGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

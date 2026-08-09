@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_base_edge_connector_listener" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::BaseEdgeConnectorListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEdgeConnectorListener</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_listener_1ac8f615308452dce058f686d5bbd48b46" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+        <definition>readonly BaseGraphView GraphProcessor.BaseEdgeConnectorListener.graphView</definition>
+        <argsstring></argsstring>
+        <name>graphView</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.graphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="15" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_listener_1a0307cce7e3bfbc658c062517104043b6" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Edge, <ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref> &gt;</type>
+        <definition>Dictionary&lt;Edge, PortView&gt; GraphProcessor.BaseEdgeConnectorListener.edgeInputPorts</definition>
+        <argsstring></argsstring>
+        <name>edgeInputPorts</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.edgeInputPorts</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="17" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_listener_1a020d597c37e01ce65805854872866a2c" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Edge, <ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref> &gt;</type>
+        <definition>Dictionary&lt;Edge, PortView&gt; GraphProcessor.BaseEdgeConnectorListener.edgeOutputPorts</definition>
+        <argsstring></argsstring>
+        <name>edgeOutputPorts</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.edgeOutputPorts</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="18" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_listener_1a83d0b7f1f66fdf2ddb3a78ac6dc18865" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_create_node_menu_window" kindref="compound">CreateNodeMenuWindow</ref></type>
+        <definition>CreateNodeMenuWindow GraphProcessor.BaseEdgeConnectorListener.edgeNodeCreateMenuWindow</definition>
+        <argsstring></argsstring>
+        <name>edgeNodeCreateMenuWindow</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.edgeNodeCreateMenuWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="20" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_listener_1ab5ddd5690547d3f496e383938cbfe286" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.BaseEdgeConnectorListener.BaseEdgeConnectorListener</definition>
+        <argsstring>(BaseGraphView graphView)</argsstring>
+        <name>BaseEdgeConnectorListener</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.BaseEdgeConnectorListener</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="22" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_listener_1a9253c961b6c9d999dfe01eb4d2639954" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseEdgeConnectorListener.OnDropOutsidePort</definition>
+        <argsstring>(Edge edge, Vector2 position)</argsstring>
+        <name>OnDropOutsidePort</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.OnDropOutsidePort</qualifiedname>
+        <param>
+          <type>Edge</type>
+          <declname>edge</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="27" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="27" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_listener_1ab64198a27cabf9aa0d81eabba64b5ee9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseEdgeConnectorListener.OnDrop</definition>
+        <argsstring>(GraphView graphView, Edge edge)</argsstring>
+        <name>OnDrop</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.OnDrop</qualifiedname>
+        <param>
+          <type>GraphView</type>
+          <declname>graphView</declname>
+        </param>
+        <param>
+          <type>Edge</type>
+          <declname>edge</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="40" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="40" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_listener_1ae7f194aa3d4cd224010ba0b50108f12e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseEdgeConnectorListener.ShowNodeCreationMenuFromEdge</definition>
+        <argsstring>(EdgeView edgeView, Vector2 position)</argsstring>
+        <name>ShowNodeCreationMenuFromEdge</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnectorListener.ShowNodeCreationMenuFromEdge</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+          <declname>edgeView</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="76" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="76" bodyend="83"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class to write your own edge handling connection system. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEdgeConnectorListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphView</label>
+      </node>
+      <node id="5">
+        <label>IDisposable</label>
+      </node>
+      <node id="2">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="8">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="7">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Logic/EdgeConnectorListener.cs" bodystart="14" bodyend="84"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1ab5ddd5690547d3f496e383938cbfe286" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>BaseEdgeConnectorListener</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1a0307cce7e3bfbc658c062517104043b6" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>edgeInputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1a83d0b7f1f66fdf2ddb3a78ac6dc18865" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>edgeNodeCreateMenuWindow</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1a020d597c37e01ce65805854872866a2c" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>edgeOutputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1ac8f615308452dce058f686d5bbd48b46" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>graphView</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1ab64198a27cabf9aa0d81eabba64b5ee9" prot="public" virt="virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>OnDrop</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1a9253c961b6c9d999dfe01eb4d2639954" prot="public" virt="virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>OnDropOutsidePort</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_listener_1ae7f194aa3d4cd224010ba0b50108f12e" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnectorListener</scope><name>ShowNodeCreationMenuFromEdge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

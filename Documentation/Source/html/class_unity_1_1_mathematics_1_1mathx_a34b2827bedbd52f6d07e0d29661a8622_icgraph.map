@@ -1,8 +1,0 @@
-<map id="Unity.Mathematics.mathx.ErfImp" name="Unity.Mathematics.mathx.ErfImp">
-<area shape="rect" id="Node000001" title="Implementation of the error function." alt="" coords="252,29,426,72"/>
-<area shape="poly" id="edge3_Node000001_Node000001" title=" " alt="" coords="375,14,363,10,339,8,317,10,303,15,298,21,299,30,295,27,293,19,300,10,316,5,339,3,364,5,381,14"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a8c881992fa6393e06dc68f042cc02f3c" title="Calculates the error function." alt="" coords="9,12,200,39"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,40,201,38,201,33,239,39"/>
-<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#aa3b25eb18aa20e0c725d708c4d5206aa" title="Calculates the complementary error function." alt="" coords="5,63,204,89"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,62,205,68,204,63,239,61"/>
-</map>

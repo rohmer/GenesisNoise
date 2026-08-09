@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.VertexKey.Quantize" name="AhahGames.GenesisNoise.Nodes.MeshNoiseDisplacementNode.VertexKey.Quantize">
-<area shape="rect" id="Node000001" title=" " alt="" coords="580,47,819,105"/>
-<area shape="rect" id="Node000002" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_vertex_key.html#a319a98c0d483542877232e4966e3f25e" title=" " alt="" coords="293,47,532,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="562,76,533,79,532,73,567,76"/>
-<area shape="rect" id="Node000003" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_vertex_key.html#ad60b60083c05d69a32e65e8b388c2d94" title=" " alt="" coords="5,5,245,64"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="275,57,245,55,245,49,280,56"/>
-<area shape="rect" id="Node000004" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_1_1_vertex_key.html#a7d6a0de0fd539414a2b73d69e7a6ef2d" title=" " alt="" coords="5,88,245,147"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="275,96,246,103,245,97,280,95"/>
-</map>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a86ece4d8ac63dd0387ff6df618a5ef35" prot="public" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Vertices</definition>
+        <argsstring></argsstring>
+        <name>Vertices</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Vertices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="534" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a5e2140429dc35a25a3a7d6db7d98ae62" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Triangles</definition>
+        <argsstring></argsstring>
+        <name>Triangles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Triangles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="535" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1aa0f39191b687078aed415b14b02ecaca" prot="public" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Normals</definition>
+        <argsstring></argsstring>
+        <name>Normals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Normals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="536" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a93c380e2e55250333d8133979f5a2b85" prot="public" static="no" mutable="no">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.UV</definition>
+        <argsstring></argsstring>
+        <name>UV</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.UV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="537" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a05f5e186bf83e440ce638bfbf059c45b" prot="public" static="no" mutable="no">
+        <type>Vector2[]</type>
+        <definition>Vector2 [] AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.UV2</definition>
+        <argsstring></argsstring>
+        <name>UV2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.UV2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="538" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a7e9fe2e821a483699ab1188a0c57ec16" prot="public" static="no" mutable="no">
+        <type>Color[]</type>
+        <definition>Color [] AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Colors</definition>
+        <argsstring></argsstring>
+        <name>Colors</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.Colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="539" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="539" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a5a1ea566a004c30181e3785dcaeeba15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshErosionNode.MeshBuildData.IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="541" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="541" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" line="532" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshErosionNode.cs" bodystart="533" bodyend="542"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a7e9fe2e821a483699ab1188a0c57ec16" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</scope><name>Colors</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a5a1ea566a004c30181e3785dcaeeba15" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</scope><name>IsValid</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1aa0f39191b687078aed415b14b02ecaca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</scope><name>Normals</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a5e2140429dc35a25a3a7d6db7d98ae62" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</scope><name>Triangles</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a93c380e2e55250333d8133979f5a2b85" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</scope><name>UV</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a05f5e186bf83e440ce638bfbf059c45b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</scope><name>UV2</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_1_1_mesh_build_data_1a86ece4d8ac63dd0387ff6df618a5ef35" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshErosionNode::MeshBuildData</scope><name>Vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

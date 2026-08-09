@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.GenesisGraphProcessor.OnGraphChanged" name="AhahGames.GenesisNoise.Graph.GenesisGraphProcessor.OnGraphChanged">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,277,97"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_processor.html#a6d7184ca36aaa402695c0a818175daed" title=" " alt="" coords="325,5,548,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,54,312,52,307,53,278,60"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_processor.html#a77ae304a2f51b24a5c74a47772db6f9c" title=" " alt="" coords="325,88,548,147"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="277,92,312,99,307,100,277,98"/>
-</map>

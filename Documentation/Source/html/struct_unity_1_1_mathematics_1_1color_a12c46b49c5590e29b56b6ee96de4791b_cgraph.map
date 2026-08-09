@@ -1,5 +1,0 @@
-<map id="Unity.Mathematics.color.operator+" name="Unity.Mathematics.color.operator+">
-<area shape="rect" id="Node000001" title="Returns the result of a componentwise addition operation on a float value and a color vector." alt="" coords="5,5,227,32"/>
-<area shape="rect" id="Node000002" href="$struct_unity_1_1_mathematics_1_1color.html#abfb99c1b9d5bd289914138c16cc7921d" title="Constructs a color vector from four float values." alt="" coords="275,5,469,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="227,16,262,19,256,19,227,21"/>
-</map>

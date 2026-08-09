@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnityEditor.Editor</basecompoundref>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1_1_genesis_inspector_texture2_d" prot="private">AhahGames::GenesisNoise::Editor::GenesisNoiseEditor::GenesisInspectorTexture2D</innerclass>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a43abdbd87782ea1fc1938870ecb058f2" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.defaultTextureEditorTypeName</definition>
+        <argsstring></argsstring>
+        <name>defaultTextureEditorTypeName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.defaultTextureEditorTypeName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="82" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a945df3fef8d1469253f30242a5f9a017" prot="protected" static="no" mutable="no">
+        <type>UnityEditor.Editor</type>
+        <definition>UnityEditor.Editor AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.defaultTextureEditor</definition>
+        <argsstring></argsstring>
+        <name>defaultTextureEditor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.defaultTextureEditor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="83" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a99a8bc97fcb61a14a3cab43f5196da54" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>GenesisGraph AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.graph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="84" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a150505a234858986c140fe620b9c1c47" prot="protected" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.root</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="85" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ab18b6dcdfb5192e7d9e0b38b9d723a0f" prot="protected" static="no" mutable="no">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.parameters</definition>
+        <argsstring></argsstring>
+        <name>parameters</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.parameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="86" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ae1a7c7f5db7da9681c502d6d803951d4" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_exposed_parameter_field_factory" kindref="compound">ExposedParameterFieldFactory</ref></type>
+        <definition>ExposedParameterFieldFactory AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.exposedParameterFactory</definition>
+        <argsstring></argsstring>
+        <name>exposedParameterFactory</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.exposedParameterFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="88" column="48" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a9bedf2227051a181a21f66d455fefa46" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="90" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="90" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a661152189c56bf3bda214b75f28cdbb9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="136" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="136" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ab24f26ed8e71fe8cc26c7101e980e813" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateRootElement</definition>
+        <argsstring>()</argsstring>
+        <name>CreateRootElement</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateRootElement</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="180" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="180" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a336143585b4923a65001df5a715a5c56" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.UpdateExposedParameters</definition>
+        <argsstring>(ExposedParameter param)</argsstring>
+        <name>UpdateExposedParameters</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.UpdateExposedParameters</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="189" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a1ad09a593f3814c220c32eabad35fa33" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.UpdateExposedParameters</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateExposedParameters</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.UpdateExposedParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="190" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="190" bodyend="242"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1afd11b2462ed96dfc76511d0d8a8a3885" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateDefaultTextureEditor</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDefaultTextureEditor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateDefaultTextureEditor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="121" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="121" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a1cb9767ff24f611703f5cec1ce82590d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>UnityEditor.Editor</type>
+        <definition>UnityEditor.Editor AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.GetPreviewEditor</definition>
+        <argsstring>()</argsstring>
+        <name>GetPreviewEditor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.GetPreviewEditor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="153" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a2a06f4d8743d6cb4d575ae136e4dddb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateTextureSettingsView</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTextureSettingsView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateTextureSettingsView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="244" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="244" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1aab874083ecde78e55567daf469c23c6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VisualElement</type>
+        <definition>VisualElement AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateAdvancedSettingsView</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAdvancedSettingsView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateAdvancedSettingsView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="287" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="287" bodyend="300"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a25a313b0d8f2c91aa0191dd9961f68b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.GetInfoString</definition>
+        <argsstring>()</argsstring>
+        <name>GetInfoString</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.GetInfoString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="154" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="154" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a95edfaaafdbfc6ad12922d0379efe6a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.ReloadPreviewInstances</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadPreviewInstances</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.ReloadPreviewInstances</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="155" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ab9c81e81c0edfaec1057618242b3d406" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.RequiresConstantRepaint</definition>
+        <argsstring>()</argsstring>
+        <name>RequiresConstantRepaint</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.RequiresConstantRepaint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="156" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ae1eddc53f3e811dc8fbb7bce9c9945ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.UseDefaultMargins</definition>
+        <argsstring>()</argsstring>
+        <name>UseDefaultMargins</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.UseDefaultMargins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="157" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ac147a3ff3cd72326dc6ec49949bc3661" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.DrawPreview</definition>
+        <argsstring>(Rect previewArea)</argsstring>
+        <name>DrawPreview</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.DrawPreview</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>previewArea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="158" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ac4ec3331a73885dd8ceee3fc0dec9f3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override GUIContent</type>
+        <definition>override GUIContent AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.GetPreviewTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetPreviewTitle</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.GetPreviewTitle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="159" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a779dbd282d552d88abe290f27d5c13f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.HasPreviewGUI</definition>
+        <argsstring>()</argsstring>
+        <name>HasPreviewGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.HasPreviewGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="160" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a6f0dfffd32d5854e28467baa42e63c91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnInteractivePreviewGUI</definition>
+        <argsstring>(Rect r, GUIStyle background)</argsstring>
+        <name>OnInteractivePreviewGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnInteractivePreviewGUI</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>background</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="161" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a972ab46a2e250217cef2109182c8ad40" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnPreviewGUI</definition>
+        <argsstring>(Rect r, GUIStyle background)</argsstring>
+        <name>OnPreviewGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnPreviewGUI</qualifiedname>
+        <param>
+          <type>Rect</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>GUIStyle</type>
+          <declname>background</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="162" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a1956e28a3969ab30a785ad138412818c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnPreviewSettings</definition>
+        <argsstring>()</argsstring>
+        <name>OnPreviewSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.OnPreviewSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="163" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1afae428f94c32243abf6f00a51691b47e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override VisualElement</type>
+        <definition>override VisualElement AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>CreateInspectorGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateInspectorGUI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="165" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="165" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1acc0e15913c330aab61829c6093f7c056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Texture2D</type>
+        <definition>override Texture2D AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.RenderStaticPreview</definition>
+        <argsstring>(string assetPath, Object[] subAssets, int width, int height)</argsstring>
+        <name>RenderStaticPreview</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.RenderStaticPreview</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>assetPath</declname>
+        </param>
+        <param>
+          <type>Object[]</type>
+          <declname>subAssets</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="301" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="301" bodyend="340"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a802cad1de203ba7e0f06d11695251900" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateReadableTextureCopy</definition>
+        <argsstring>(Texture2D source)</argsstring>
+        <name>CreateReadableTextureCopy</name>
+        <qualifiedname>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor.CreateReadableTextureCopy</qualifiedname>
+        <param>
+          <type>Texture2D</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="342" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="342" bodyend="363"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UnityEditor::Editor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Editor.GenesisNoiseEditor</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>exposedParameterFactory</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Graph.GenesisGraph</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>graphVariables</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoiseSettings</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>resolvedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>AhahGames.GenesisNoise.Graph.VariableStorage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage"/>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.ExposedParameterFieldFactory</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_field_factory"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>IDisposable</label>
+      </node>
+      <node id="6">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>UnityEditor::Editor</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" line="80" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/GenesisNoiseInspector.cs" bodystart="81" bodyend="373"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1aab874083ecde78e55567daf469c23c6e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>CreateAdvancedSettingsView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1afd11b2462ed96dfc76511d0d8a8a3885" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>CreateDefaultTextureEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1afae428f94c32243abf6f00a51691b47e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>CreateInspectorGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a802cad1de203ba7e0f06d11695251900" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>CreateReadableTextureCopy</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ab24f26ed8e71fe8cc26c7101e980e813" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>CreateRootElement</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a2a06f4d8743d6cb4d575ae136e4dddb7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>CreateTextureSettingsView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a945df3fef8d1469253f30242a5f9a017" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>defaultTextureEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a43abdbd87782ea1fc1938870ecb058f2" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>defaultTextureEditorTypeName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ac147a3ff3cd72326dc6ec49949bc3661" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>DrawPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ae1a7c7f5db7da9681c502d6d803951d4" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>exposedParameterFactory</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a25a313b0d8f2c91aa0191dd9961f68b1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>GetInfoString</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a1cb9767ff24f611703f5cec1ce82590d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>GetPreviewEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ac4ec3331a73885dd8ceee3fc0dec9f3a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>GetPreviewTitle</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a99a8bc97fcb61a14a3cab43f5196da54" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>graph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a779dbd282d552d88abe290f27d5c13f8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>HasPreviewGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a661152189c56bf3bda214b75f28cdbb9" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>OnDisable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a9bedf2227051a181a21f66d455fefa46" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>OnEnable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a6f0dfffd32d5854e28467baa42e63c91" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>OnInteractivePreviewGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a972ab46a2e250217cef2109182c8ad40" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>OnPreviewGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a1956e28a3969ab30a785ad138412818c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>OnPreviewSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ab18b6dcdfb5192e7d9e0b38b9d723a0f" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>parameters</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a95edfaaafdbfc6ad12922d0379efe6a1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>ReloadPreviewInstances</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1acc0e15913c330aab61829c6093f7c056" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>RenderStaticPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ab9c81e81c0edfaec1057618242b3d406" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>RequiresConstantRepaint</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a150505a234858986c140fe620b9c1c47" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>root</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a336143585b4923a65001df5a715a5c56" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>UpdateExposedParameters</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1a1ad09a593f3814c220c32eabad35fa33" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>UpdateExposedParameters</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_genesis_noise_editor_1ae1eddc53f3e811dc8fbb7bce9c9945ae" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Editor::GenesisNoiseEditor</scope><name>UseDefaultMargins</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

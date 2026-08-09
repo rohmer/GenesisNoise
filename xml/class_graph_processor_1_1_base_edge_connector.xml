@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_base_edge_connector" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::BaseEdgeConnector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EdgeConnector</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_1a78fb023cecfd8405f846c529e5a03952" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_edge_drag_helper" kindref="compound">BaseEdgeDragHelper</ref></type>
+        <definition>BaseEdgeDragHelper GraphProcessor.BaseEdgeConnector.dragHelper</definition>
+        <argsstring></argsstring>
+        <name>dragHelper</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.dragHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="10" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_1ac7dc635f0b730e27289fcfa6608fbe30" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseEdgeConnector.active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="12" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_1a05baa5f48bfb1c6a0c301e255b2bfe68" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+        <definition>BaseGraphView GraphProcessor.BaseEdgeConnector.graphView</definition>
+        <argsstring></argsstring>
+        <name>graphView</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.graphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="14" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_1ad62c5b4f4ef60253e8e50cd7e8c564af" prot="private" static="no" mutable="no">
+        <type>Edge</type>
+        <definition>Edge GraphProcessor.BaseEdgeConnector.edgeCandidate</definition>
+        <argsstring></argsstring>
+        <name>edgeCandidate</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.edgeCandidate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="11" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_1aa86860a39d83da55e016b9c6fcc45ea1" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 GraphProcessor.BaseEdgeConnector.mouseDownPosition</definition>
+        <argsstring></argsstring>
+        <name>mouseDownPosition</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.mouseDownPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="13" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_edge_connector_1a092a3857c04189fa413ef5f36fefeaa3" prot="package" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float GraphProcessor.BaseEdgeConnector.k_ConnectionDistanceTreshold</definition>
+        <argsstring></argsstring>
+        <name>k_ConnectionDistanceTreshold</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.k_ConnectionDistanceTreshold</qualifiedname>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="16" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_base_edge_connector_1a519375d09afe66dc1388ed6a8765d22d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override EdgeDragHelper</type>
+        <definition>override EdgeDragHelper GraphProcessor.BaseEdgeConnector.edgeDragHelper</definition>
+        <argsstring></argsstring>
+        <name>edgeDragHelper</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.edgeDragHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="31" column="40" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1a4fb373e6ac1d6c64175a6d2be7c4e45f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.BaseEdgeConnector.BaseEdgeConnector</definition>
+        <argsstring>(IEdgeConnectorListener listener)</argsstring>
+        <name>BaseEdgeConnector</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.BaseEdgeConnector</qualifiedname>
+        <param>
+          <type>IEdgeConnectorListener</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="18" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1aa3cd7e2ea2efc0d290acb8e4680bb858" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseEdgeConnector.InitEdgeConnector</definition>
+        <argsstring>(IEdgeConnectorListener listener)</argsstring>
+        <name>InitEdgeConnector</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.InitEdgeConnector</qualifiedname>
+        <param>
+          <type>IEdgeConnectorListener</type>
+          <declname>listener</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="25" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1ad967fb44a503e9b2484c27a4d9f800ca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.BaseEdgeConnector.RegisterCallbacksOnTarget</definition>
+        <argsstring>()</argsstring>
+        <name>RegisterCallbacksOnTarget</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.RegisterCallbacksOnTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="33" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1aee84face2da4a4403664dbdf50bb35bf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.BaseEdgeConnector.UnregisterCallbacksFromTarget</definition>
+        <argsstring>()</argsstring>
+        <name>UnregisterCallbacksFromTarget</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.UnregisterCallbacksFromTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="42" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1a3164f431fff16253160d5bbdb1489807" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseEdgeConnector.OnMouseDown</definition>
+        <argsstring>(MouseDownEvent e)</argsstring>
+        <name>OnMouseDown</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.OnMouseDown</qualifiedname>
+        <param>
+          <type>MouseDownEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="50" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="50" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1ab1024676b6a4a703a37019e4aa502858" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseEdgeConnector.OnMouseMove</definition>
+        <argsstring>(MouseMoveEvent e)</argsstring>
+        <name>OnMouseMove</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.OnMouseMove</qualifiedname>
+        <param>
+          <type>MouseMoveEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="96" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="96" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1a73d4f6db936e7117dcb6958b281806cd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseEdgeConnector.OnMouseUp</definition>
+        <argsstring>(MouseUpEvent e)</argsstring>
+        <name>OnMouseUp</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.OnMouseUp</qualifiedname>
+        <param>
+          <type>MouseUpEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="106" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="106" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1a1b6ae9c34b687f3c2bf07b421fcf453d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseEdgeConnector.OnCaptureOut</definition>
+        <argsstring>(MouseCaptureOutEvent e)</argsstring>
+        <name>OnCaptureOut</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.OnCaptureOut</qualifiedname>
+        <param>
+          <type>MouseCaptureOutEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="89" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="89" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1a1c372ed27cf8e270b80afa346ab97896" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseEdgeConnector.OnKeyDown</definition>
+        <argsstring>(KeyDownEvent e)</argsstring>
+        <name>OnKeyDown</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.OnKeyDown</qualifiedname>
+        <param>
+          <type>KeyDownEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="122" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="122" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1a693d953ebcb006d8185e6d543a053f2e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseEdgeConnector.Abort</definition>
+        <argsstring>()</argsstring>
+        <name>Abort</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.Abort</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="134" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="134" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_edge_connector_1ade558da680d73e4cc2bc5a9584b84af9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseEdgeConnector.CanPerformConnection</definition>
+        <argsstring>(Vector2 mousePosition)</argsstring>
+        <name>CanPerformConnection</name>
+        <qualifiedname>GraphProcessor.BaseEdgeConnector.CanPerformConnection</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>mousePosition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="146" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>EdgeConnector</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.BaseEdgeConnector</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>EdgeConnector</label>
+      </node>
+      <node id="4">
+        <label>EdgeDragHelper</label>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.BaseEdgeConnector</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dragHelper</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseEdgeDragHelper</label>
+        <link refid="class_graph_processor_1_1_base_edge_drag_helper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphView</label>
+      </node>
+      <node id="7">
+        <label>IDisposable</label>
+      </node>
+      <node id="12">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="10">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="9">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" line="8" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/BaseEdgeConnector.cs" bodystart="9" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a693d953ebcb006d8185e6d543a053f2e" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>Abort</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1ac7dc635f0b730e27289fcfa6608fbe30" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>active</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a4fb373e6ac1d6c64175a6d2be7c4e45f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>BaseEdgeConnector</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1ade558da680d73e4cc2bc5a9584b84af9" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>CanPerformConnection</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a78fb023cecfd8405f846c529e5a03952" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>dragHelper</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1ad62c5b4f4ef60253e8e50cd7e8c564af" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>edgeCandidate</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a519375d09afe66dc1388ed6a8765d22d" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>edgeDragHelper</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a05baa5f48bfb1c6a0c301e255b2bfe68" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>graphView</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1aa3cd7e2ea2efc0d290acb8e4680bb858" prot="protected" virt="virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>InitEdgeConnector</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a092a3857c04189fa413ef5f36fefeaa3" prot="package" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>k_ConnectionDistanceTreshold</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1aa86860a39d83da55e016b9c6fcc45ea1" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>mouseDownPosition</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a1b6ae9c34b687f3c2bf07b421fcf453d" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>OnCaptureOut</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a1c372ed27cf8e270b80afa346ab97896" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>OnKeyDown</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a3164f431fff16253160d5bbdb1489807" prot="protected" virt="virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>OnMouseDown</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1ab1024676b6a4a703a37019e4aa502858" prot="protected" virt="virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>OnMouseMove</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1a73d4f6db936e7117dcb6958b281806cd" prot="protected" virt="virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>OnMouseUp</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1ad967fb44a503e9b2484c27a4d9f800ca" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>RegisterCallbacksOnTarget</name></member>
+      <member refid="class_graph_processor_1_1_base_edge_connector_1aee84face2da4a4403664dbdf50bb35bf" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseEdgeConnector</scope><name>UnregisterCallbacksFromTarget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

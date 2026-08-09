@@ -1,7 +1,0 @@
-<map id="GraphProcessor.NodeBadgeView.CreateCustom" name="GraphProcessor.NodeBadgeView.CreateCustom">
-<area shape="rect" id="Node000001" title=" " alt="" coords="241,39,428,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_badge_view.html#a18c6f9876f5fcbd3d922fc4574f2e6be" title=" " alt="" coords="5,5,193,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,45,193,43,193,37,228,44"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_node_badge_view.html#a605e53c53e44569fe4cf8b04c7cd903a" title=" " alt="" coords="5,72,193,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,76,194,83,193,77,228,75"/>
-</map>

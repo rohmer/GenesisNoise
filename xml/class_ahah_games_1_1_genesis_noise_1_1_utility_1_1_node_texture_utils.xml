@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Utility::NodeTextureUtils</compoundname>
+    <innerclass refid="struct_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils_1_1_texture_info" prot="public">AhahGames::GenesisNoise::Utility::NodeTextureUtils::TextureInfo</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils_1af8c3b32fe7cd2ee17d4651cc2df39253" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Utility.NodeTextureUtils.IsPowerOf2</definition>
+        <argsstring>(Texture t)</argsstring>
+        <name>IsPowerOf2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.NodeTextureUtils.IsPowerOf2</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeTextureUtils.cs" line="14" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeTextureUtils.cs" bodystart="14" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils_1af4335b2f0cdb1841d76133e778e275d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils_1_1_texture_info" kindref="compound">TextureInfo</ref></type>
+        <definition>TextureInfo AhahGames.GenesisNoise.Utility.NodeTextureUtils.NodeToTexture</definition>
+        <argsstring>(Texture textureAsset, AhahGames.GenesisNoise.Nodes.TextureNode.PowerOf2Mode POTMode=AhahGames.GenesisNoise.Nodes.TextureNode.PowerOf2Mode.None)</argsstring>
+        <name>NodeToTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.NodeTextureUtils.NodeToTexture</qualifiedname>
+        <param>
+          <type>Texture</type>
+          <declname>textureAsset</declname>
+        </param>
+        <param>
+          <type>AhahGames.GenesisNoise.Nodes.TextureNode.PowerOf2Mode</type>
+          <declname>POTMode</declname>
+          <defval>AhahGames.GenesisNoise.Nodes.TextureNode.PowerOf2Mode.None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeTextureUtils.cs" line="32" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeTextureUtils.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeTextureUtils.cs" line="6" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/NodeTextureUtils.cs" bodystart="7" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils_1af8c3b32fe7cd2ee17d4651cc2df39253" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::NodeTextureUtils</scope><name>IsPowerOf2</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils_1af4335b2f0cdb1841d76133e778e275d7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::NodeTextureUtils</scope><name>NodeToTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

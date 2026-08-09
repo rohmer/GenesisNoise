@@ -33,7 +33,7 @@ Returns the per-pixel maximum of the input textures.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 43280d68-f0da-4927-8606-7048ded85bbb | |
+| GUID | String | cf2454fc-2d7a-4172-917f-6c189bf5e089 | |
 | expanded | Boolean | False | |
 
 ## See Also

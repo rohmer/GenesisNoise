@@ -1,9 +1,0 @@
-<map id="GraphProcessor.BaseGraphView.OpenPinned&lt; T &gt;" name="GraphProcessor.BaseGraphView.OpenPinned&lt; T &gt;">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,190,48"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph_view.html#a4a29c6a5a945058f2b8df5834a35854c" title=" " alt="" coords="238,5,422,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="190,24,224,26,219,27,190,29"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_pinned_element_view.html#a1d52115bf23e32d17c754f3a573a36a9" title=" " alt="" coords="470,5,677,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,24,457,27,452,27,422,29"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_pinned_element_view.html#a6eed71923f86759ac9986f31cc6d4bd0" title=" " alt="" coords="725,5,933,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="678,24,713,27,707,27,678,29"/>
-</map>

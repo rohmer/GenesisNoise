@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_735bfcf56ea0d5b643c552ccd8959220" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental</compoundname>
+    <innerdir refid="dir_3c25ee1457eb2d027a4c6870bba2200c">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Jobify</innerdir>
+    <innerfile refid="_custom_8_attributes_8cs">Custom.Attributes.cs</innerfile>
+    <innerfile refid="_erf_8cs">Erf.cs</innerfile>
+    <innerfile refid="_factorial_01_gamma_8cs">Factorial Gamma.cs</innerfile>
+    <innerfile refid="_gamma_8cs">Gamma.cs</innerfile>
+    <innerfile refid="___experimental_2_open_simplex2_s_8cs">OpenSimplex2S.cs</innerfile>
+    <innerfile refid="_polynomial_8cs">Polynomial.cs</innerfile>
+    <innerfile refid="_w_i_p_8cs">WIP.cs</innerfile>
+    <innerfile refid="_x_noise_library_8cs">XNoiseLibrary.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/"/>
+  </compounddef>
+</doxygen>

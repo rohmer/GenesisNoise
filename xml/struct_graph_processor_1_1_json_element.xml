@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_graph_processor_1_1_json_element" kind="struct" language="C#" prot="public">
+    <compoundname>GraphProcessor::JsonElement</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_graph_processor_1_1_json_element_1a8264cd44371c7b5be135998736c4a9ae" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.JsonElement.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>GraphProcessor.JsonElement.type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" line="15" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_graph_processor_1_1_json_element_1ac6aae71728396f8357c7e08b789c1eab" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GraphProcessor.JsonElement.jsonDatas</definition>
+        <argsstring></argsstring>
+        <name>jsonDatas</name>
+        <qualifiedname>GraphProcessor.JsonElement.jsonDatas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" line="16" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_graph_processor_1_1_json_element_1a6521aaa2fa378df14807d14e06ad3862" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string GraphProcessor.JsonElement.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>GraphProcessor.JsonElement.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" line="18" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/JsonSerializer.cs" bodystart="14" bodyend="22"/>
+    <listofallmembers>
+      <member refid="struct_graph_processor_1_1_json_element_1ac6aae71728396f8357c7e08b789c1eab" prot="public" virt="non-virtual"><scope>GraphProcessor::JsonElement</scope><name>jsonDatas</name></member>
+      <member refid="struct_graph_processor_1_1_json_element_1a6521aaa2fa378df14807d14e06ad3862" prot="public" virt="non-virtual"><scope>GraphProcessor::JsonElement</scope><name>ToString</name></member>
+      <member refid="struct_graph_processor_1_1_json_element_1a8264cd44371c7b5be135998736c4a9ae" prot="public" virt="non-virtual"><scope>GraphProcessor::JsonElement</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

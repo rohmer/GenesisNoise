@@ -47,7 +47,7 @@ Output:
 | backgroundColor | Color | RGBA(0.000, 0.000, 0.000, 1.000) | |
 | pointColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 79a510d1-63e8-4ca2-aa96-d3e672edbff5 | |
+| GUID | String | 30a92bc0-6898-4081-9bea-e9fea0d8a11d | |
 | expanded | Boolean | False | |
 
 ## See Also

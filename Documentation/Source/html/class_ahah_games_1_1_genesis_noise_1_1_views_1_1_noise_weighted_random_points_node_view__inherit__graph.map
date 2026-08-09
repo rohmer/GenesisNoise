@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.NoiseWeightedRandomPointsNodeView" name="AhahGames.GenesisNoise.Views.NoiseWeightedRandomPointsNodeView">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,245,261,288"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view.html" title=" " alt="" coords="21,155,245,197"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,211,135,246,131,244,131,215"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_node_view.html" title=" " alt="" coords="28,80,238,107"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,120,136,155,130,154,132,125"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="92,5,174,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,45,136,80,130,79,132,50"/>
-</map>

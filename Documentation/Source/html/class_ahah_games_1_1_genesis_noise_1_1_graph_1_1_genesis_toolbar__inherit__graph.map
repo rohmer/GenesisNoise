@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.GenesisToolbar" name="AhahGames.GenesisNoise.Graph.GenesisToolbar">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,155,228,197"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_toolbar_view.html" title=" " alt="" coords="21,80,212,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,120,119,156,114,153,115,124"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="64,5,169,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,45,119,80,114,79,115,50"/>
-</map>

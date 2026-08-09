@@ -1,0 +1,1217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_unity_1_1_mathematics_1_1byte1" kind="struct" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::byte1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IFormattable</basecompoundref>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1byte1_1a187238473404b3d03f27d5c3ea4b0dbe" prot="package" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Unity.Mathematics.byte1.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>Unity.Mathematics.byte1.value</qualifiedname>
+        <briefdescription>
+<para>The raw 8 bit value of the byte. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="20" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1byte1_1aaee28d2316afc04f1832cac13ab5e35a" prot="public" static="yes" mutable="no">
+        <type>readonly byte1</type>
+        <definition>readonly byte1 Unity.Mathematics.byte1.zero</definition>
+        <argsstring></argsstring>
+        <name>zero</name>
+        <qualifiedname>Unity.Mathematics.byte1.zero</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>byte zero value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="23" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1byte1_1a16b91611385bc28f5c0a94d0c311ddc6" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.byte1.MaxValue</definition>
+        <argsstring></argsstring>
+        <name>MaxValue</name>
+        <qualifiedname>Unity.Mathematics.byte1.MaxValue</qualifiedname>
+        <initializer>= 255</initializer>
+        <briefdescription>
+<para>The maximum finite byte value as a single precision float. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="26" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1byte1_1a74bb899d9345bd640413ed2034076068" prot="public" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float Unity.Mathematics.byte1.MinValue</definition>
+        <argsstring></argsstring>
+        <name>MinValue</name>
+        <qualifiedname>Unity.Mathematics.byte1.MinValue</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The minimum finite byte value as a single precision float. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="28" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1byte1_1a52a6f33dc82041819100e771057f592e" prot="public" static="yes" mutable="no">
+        <type>readonly byte1</type>
+        <definition>readonly byte1 Unity.Mathematics.byte1.MaxValueAsByte1</definition>
+        <argsstring></argsstring>
+        <name>MaxValueAsByte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.MaxValueAsByte1</qualifiedname>
+        <initializer>= new(<ref refid="struct_unity_1_1_mathematics_1_1byte1_1a16b91611385bc28f5c0a94d0c311ddc6" kindref="member">MaxValue</ref>)</initializer>
+        <briefdescription>
+<para>The maximum finite byte value as a byte. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="31" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_1_1_mathematics_1_1byte1_1ad51a969cf56a8b2c36d3c2c73139048a" prot="public" static="yes" mutable="no">
+        <type>readonly byte1</type>
+        <definition>readonly byte1 Unity.Mathematics.byte1.MinValueAsByte1</definition>
+        <argsstring></argsstring>
+        <name>MinValueAsByte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.MinValueAsByte1</qualifiedname>
+        <initializer>= new(<ref refid="struct_unity_1_1_mathematics_1_1byte1_1a74bb899d9345bd640413ed2034076068" kindref="member">MinValue</ref>)</initializer>
+        <briefdescription>
+<para>The minimum finite byte value as a byte. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="33" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ac48cf384a38d8c5e04a5066420353a33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.byte1.byte1</definition>
+        <argsstring>(byte1 x)</argsstring>
+        <name>byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.byte1</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="36" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1aec1664032d54e1581e1122e828e0e14a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.byte1.byte1</definition>
+        <argsstring>(byte x)</argsstring>
+        <name>byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.byte1</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="37" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1aebc8ac6e2dcafaa994a41287dc4c6dc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.byte1.byte1</definition>
+        <argsstring>(int x)</argsstring>
+        <name>byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.byte1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="38" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a1b71f580863f5cac74c044c095d7d322" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.byte1.byte1</definition>
+        <argsstring>(float v)</argsstring>
+        <name>byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.byte1</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="39" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1affd82566e499311ea216b4786c38399d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Unity.Mathematics.byte1.byte1</definition>
+        <argsstring>(double v)</argsstring>
+        <name>byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.byte1</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="40" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1afe65b14e7328c27b5c7240e20255ad5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Unity.Mathematics.byte1.Equals</definition>
+        <argsstring>(byte1 b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Unity.Mathematics.byte1.Equals</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the byte is bitwise equivalent to a given half, false otherwise. <simplesect kind="return"><para>True if the byte value is bitwise equivalent to the input, false otherwise.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="136" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a430a6381b62e2c35925838b0ec31a24f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Unity.Mathematics.byte1.Equals</definition>
+        <argsstring>(byte b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Unity.Mathematics.byte1.Equals</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="138" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ab656bdb26542cbf8a38cc42a50cd6f78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Unity.Mathematics.byte1.Equals</definition>
+        <argsstring>(object o)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>Unity.Mathematics.byte1.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the byte is equal to a given half, false otherwise. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>o</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Right hand side object to use in comparison.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the object is of type byte and is bitwise equivalent, false otherwise.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="143" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1acfa876dae685b23113f2cd681bccc5ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Unity.Mathematics.byte1.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>Unity.Mathematics.byte1.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a hash code for the byte. <simplesect kind="return"><para>The computed hash code of the byte.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="147" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1abc669f827a4479e64d732e392f657007" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Unity.Mathematics.byte1.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Unity.Mathematics.byte1.ToString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a string representation of the byte. <simplesect kind="return"><para>The string representation of the byte.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="151" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a12fdb98530e400a2b3a66856debe1288" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Unity.Mathematics.byte1.ToString</definition>
+        <argsstring>(string format, IFormatProvider formatProvider)</argsstring>
+        <name>ToString</name>
+        <qualifiedname>Unity.Mathematics.byte1.ToString</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>IFormatProvider</type>
+          <declname>formatProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a string representation of the byte using a specified format and culture-specific format information. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>format</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The format string to use during string formatting.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>formatProvider</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The format provider to use during string formatting.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The string representation of the byte.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="158" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="158" bodyend="158"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ad5d924170afbe23f9f91b32da84071b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.byte1.operator byte1</definition>
+        <argsstring>(byte v)</argsstring>
+        <name>operator byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator byte1</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="43" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ae0ae92d0ee18ffd3e5276ad65c9e47eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.byte1.operator byte1</definition>
+        <argsstring>(float v)</argsstring>
+        <name>operator byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator byte1</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="44" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1afe83c439abe2af3ce8e6f0de027ee859" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.byte1.operator byte1</definition>
+        <argsstring>(double v)</argsstring>
+        <name>operator byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator byte1</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="45" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1add095b7dff3410f0e67c8257231bb7a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.byte1.operator byte1</definition>
+        <argsstring>(int d)</argsstring>
+        <name>operator byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator byte1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="46" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1aa4d00cccbc95656d9792654f35cff34c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.byte1.operator byte1</definition>
+        <argsstring>(half d)</argsstring>
+        <name>operator byte1</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator byte1</qualifiedname>
+        <param>
+          <type>half</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="47" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a60b9ed71cd3452dd2172b2b1f962473e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit Unity.Mathematics.byte1.operator byte</definition>
+        <argsstring>(byte1 v)</argsstring>
+        <name>operator byte</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator byte</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="48" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a074f447ef8fc54f827c943094cf1e5a3" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Unity.Mathematics.byte1.operator float</definition>
+        <argsstring>(byte1 d)</argsstring>
+        <name>operator float</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator float</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="50" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ab3e7e9d30ad164d447a7ef740462f4eb" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Unity.Mathematics.byte1.operator double</definition>
+        <argsstring>(byte1 d)</argsstring>
+        <name>operator double</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator double</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="51" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a4f9e5099a51d68fcf9f1ab2d2bd47bd4" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Unity.Mathematics.byte1.operator int</definition>
+        <argsstring>(byte1 d)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator int</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="52" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a99a5d840defb5bdb4e1fcd55d55e720a" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Unity.Mathematics.byte1.operator uint</definition>
+        <argsstring>(byte1 d)</argsstring>
+        <name>operator uint</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator uint</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="53" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a6937e210b6df31ef90a08e316a4ad798" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Unity.Mathematics.byte1.operator short</definition>
+        <argsstring>(byte1 d)</argsstring>
+        <name>operator short</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator short</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="54" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a3474d79d0a62408be9356827ccbf82c5" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Unity.Mathematics.byte1.operator ushort</definition>
+        <argsstring>(byte1 d)</argsstring>
+        <name>operator ushort</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator ushort</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="55" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a075a2fa0b04e55a6435a585c86d699a1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Unity.Mathematics.byte1.operator half</definition>
+        <argsstring>(byte1 d)</argsstring>
+        <name>operator half</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator half</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="56" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a85c9e0cd6a8376dc544e22c2eee6351d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.byte1.operator==</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator==</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether two byte values are bitwise equivalent. Returns True if the two byte values are bitwise equivalent, false otherwise. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="78" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ab09d9db57bf7ba913219d8bb1bb53fe2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.byte1.operator!=</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator!=</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns whether two byte values are not bitwise equivalent. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="80" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ad997970515db0ea2d6d792807f7ee25e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.byte1.operator&lt;</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator&lt;</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns True if the two byte values are not bitwise equivalent, false otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="82" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a26b020f038274a59e85ade0cffdbf0e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.byte1.operator&gt;</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator&gt;</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator&gt;</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns True if the two byte values are not bitwise equivalent, false otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="84" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a9217492b4b31af3f6ea9a4b4ef4d6290" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.byte1.operator&lt;=</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator&lt;=</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator&lt;=</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns True if the a is less or equal than the b, false otherwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="86" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ae58b9391dbc20875e2dbe7e35f967d1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Unity.Mathematics.byte1.operator&gt;=</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator&gt;=</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator&gt;=</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para><simplesect kind="return"><para>True if the a is greater or equal than the b, false otherwise.</para>
+</simplesect>
+</para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="88" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1afcceea28e744e9dec94626ba71161154" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte1</type>
+        <definition>static byte1 Unity.Mathematics.byte1.operator%</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator%</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator%</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a modulation of two <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vectors into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="92" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a402b340a888deccd7e277788b09443e7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float Unity.Mathematics.byte1.operator/</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator/</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a division of two <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vectors into a float. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="94" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1adb358239b8864183adef68678a5c69c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator*</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator*</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a multiplication of two <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vectors into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="96" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1afd74caa3c85a42fde7f3c27b4a86da30" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator+</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator+</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a bitwise NOT of a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="100" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a40bf5e289d44238a670913fb6e010616" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator-</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator-</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a bitwise NOT of a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="102" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a19cf593cff97358924045f72ab3e2402" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte1</type>
+        <definition>static byte1 Unity.Mathematics.byte1.operator--</definition>
+        <argsstring>(byte1 a)</argsstring>
+        <name>operator--</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator--</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a bitwise NOT of a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="104" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a79a55dfda9a803c1f1820ca35d74b161" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte1</type>
+        <definition>static byte1 Unity.Mathematics.byte1.operator++</definition>
+        <argsstring>(byte1 a)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator++</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a bitwise NOT of a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="106" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a771c190c5d8cdbbc8c56dcf29cba7235" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator~</definition>
+        <argsstring>(byte1 val)</argsstring>
+        <name>operator~</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator~</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a componentwise bitwise not operation on an <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="109" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a85400b9878f383c1a988e9a133009850" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator&amp;</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator&amp;</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a bitwise AND of two <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vectors into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="112" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a6e6fd831edf62818713fdf74566ebf7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator&amp;</definition>
+        <argsstring>(byte1 a, int b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator&amp;</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a componentwise bitwise and operation on an <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector and an int value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="114" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a4c423e28c5817f674fe79df625114113" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator&amp;</definition>
+        <argsstring>(int a, byte1 b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator&amp;</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a componentwise bitwise and operation on an int value and an <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="116" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ad90bd102315c0b8f6ab98f4f79ac54c1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator|</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator|</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a bitwise OR of two <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vectors into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="119" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a32d4dd6f4c4d7186747573bb6193db8d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator|</definition>
+        <argsstring>(byte1 a, int b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator|</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a componentwise bitwise or operation on an <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector and an int value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="121" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a0acf4dc1adb31a6518f73e79b34568f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator|</definition>
+        <argsstring>(int a, byte1 b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator|</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a componentwise bitwise or operation on an int value and an <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="123" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1ae00c1c0e36157afb1ddcc7ddfa87eddf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator^</definition>
+        <argsstring>(byte1 a, byte1 b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator^</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a bitwise XOR of two <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vectors into a <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="126" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a3c16a76f3ed5353733ea2db9d54b9986" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator^</definition>
+        <argsstring>(byte1 a, int b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator^</qualifiedname>
+        <param>
+          <type>byte1</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a componentwise bitwise exclusive or operation on an <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector and an int value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="128" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_1_1_mathematics_1_1byte1_1a85b73b160c036ddacbe13bd230d86752" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Unity.Mathematics.byte1.operator^</definition>
+        <argsstring>(int a, byte1 b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>Unity.Mathematics.byte1.operator^</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>byte1</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns the result of a componentwise bitwise exclusive or operation on an int value and an <ref refid="struct_unity_1_1_mathematics_1_1byte1" kindref="compound">byte1</ref> vector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="130" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="130" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A 8-bit struct for <ref refid="namespace_unity_1_1_mathematics" kindref="compound">Unity.Mathematics</ref> interoperability. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+      <node id="3">
+        <label>IFormattable</label>
+      </node>
+      <node id="1">
+        <label>Unity.Mathematics.byte1</label>
+        <link refid="struct_unity_1_1_mathematics_1_1byte1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+      <node id="3">
+        <label>IFormattable</label>
+      </node>
+      <node id="1">
+        <label>Unity.Mathematics.byte1</label>
+        <link refid="struct_unity_1_1_mathematics_1_1byte1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>MaxValueAsByte1</edgelabel>
+          <edgelabel>MinValueAsByte1</edgelabel>
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Unity.Mathematics.byte1</label>
+        <link refid="struct_unity_1_1_mathematics_1_1byte1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>MaxValueAsByte1</edgelabel>
+          <edgelabel>MinValueAsByte1</edgelabel>
+          <edgelabel>zero</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" line="17" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs/byte1.cs" bodystart="18" bodyend="159"/>
+    <listofallmembers>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ac48cf384a38d8c5e04a5066420353a33" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1aec1664032d54e1581e1122e828e0e14a" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1aebc8ac6e2dcafaa994a41287dc4c6dc0" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a1b71f580863f5cac74c044c095d7d322" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1affd82566e499311ea216b4786c38399d" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1afe65b14e7328c27b5c7240e20255ad5e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>Equals</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a430a6381b62e2c35925838b0ec31a24f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>Equals</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ab656bdb26542cbf8a38cc42a50cd6f78" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>Equals</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1acfa876dae685b23113f2cd681bccc5ba" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>GetHashCode</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a16b91611385bc28f5c0a94d0c311ddc6" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>MaxValue</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a52a6f33dc82041819100e771057f592e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>MaxValueAsByte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a74bb899d9345bd640413ed2034076068" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>MinValue</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ad51a969cf56a8b2c36d3c2c73139048a" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>MinValueAsByte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a60b9ed71cd3452dd2172b2b1f962473e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator byte</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ad5d924170afbe23f9f91b32da84071b7" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ae0ae92d0ee18ffd3e5276ad65c9e47eb" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1afe83c439abe2af3ce8e6f0de027ee859" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1add095b7dff3410f0e67c8257231bb7a6" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1aa4d00cccbc95656d9792654f35cff34c" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator byte1</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ab3e7e9d30ad164d447a7ef740462f4eb" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator double</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a074f447ef8fc54f827c943094cf1e5a3" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator float</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a075a2fa0b04e55a6435a585c86d699a1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator half</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a4f9e5099a51d68fcf9f1ab2d2bd47bd4" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator int</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a6937e210b6df31ef90a08e316a4ad798" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator short</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a99a5d840defb5bdb4e1fcd55d55e720a" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator uint</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a3474d79d0a62408be9356827ccbf82c5" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator ushort</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ab09d9db57bf7ba913219d8bb1bb53fe2" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator!=</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1afcceea28e744e9dec94626ba71161154" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator%</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a85400b9878f383c1a988e9a133009850" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator&amp;</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a6e6fd831edf62818713fdf74566ebf7f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator&amp;</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a4c423e28c5817f674fe79df625114113" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator&amp;</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1adb358239b8864183adef68678a5c69c5" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator*</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1afd74caa3c85a42fde7f3c27b4a86da30" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator+</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a79a55dfda9a803c1f1820ca35d74b161" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator++</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a40bf5e289d44238a670913fb6e010616" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator-</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a19cf593cff97358924045f72ab3e2402" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator--</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a402b340a888deccd7e277788b09443e7" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator/</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ad997970515db0ea2d6d792807f7ee25e" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator&lt;</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a9217492b4b31af3f6ea9a4b4ef4d6290" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator&lt;=</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a85c9e0cd6a8376dc544e22c2eee6351d" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator==</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a26b020f038274a59e85ade0cffdbf0e1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator&gt;</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ae58b9391dbc20875e2dbe7e35f967d1f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator&gt;=</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ae00c1c0e36157afb1ddcc7ddfa87eddf" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator^</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a3c16a76f3ed5353733ea2db9d54b9986" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator^</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a85b73b160c036ddacbe13bd230d86752" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator^</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1ad90bd102315c0b8f6ab98f4f79ac54c1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator|</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a32d4dd6f4c4d7186747573bb6193db8d" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator|</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a0acf4dc1adb31a6518f73e79b34568f7" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator|</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a771c190c5d8cdbbc8c56dcf29cba7235" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>operator~</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1abc669f827a4479e64d732e392f657007" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>ToString</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a12fdb98530e400a2b3a66856debe1288" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>ToString</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1a187238473404b3d03f27d5c3ea4b0dbe" prot="package" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>value</name></member>
+      <member refid="struct_unity_1_1_mathematics_1_1byte1_1aaee28d2316afc04f1832cac13ab5e35a" prot="public" virt="non-virtual"><scope>Unity::Mathematics::byte1</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

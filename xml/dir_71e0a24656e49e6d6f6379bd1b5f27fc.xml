@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_71e0a24656e49e6d6f6379bd1b5f27fc" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers</compoundname>
+    <innerfile refid="_dirt_property_drawer_8cs">DirtPropertyDrawer.cs</innerfile>
+    <innerfile refid="_genesis_blend_drawer_8cs">GenesisBlendDrawer.cs</innerfile>
+    <innerfile refid="_genesis_blur_matrix_drawer_8cs">GenesisBlurMatrixDrawer.cs</innerfile>
+    <innerfile refid="_genesis_box_blur_radius_8cs">GenesisBoxBlurRadius.cs</innerfile>
+    <innerfile refid="_genesis_channel_mask_drawer_8cs">GenesisChannelMaskDrawer.cs</innerfile>
+    <innerfile refid="_genesis_color_property_drawer_8cs">GenesisColorPropertyDrawer.cs</innerfile>
+    <innerfile refid="_genesis_fibonacci_drawer_8cs">GenesisFibonacciDrawer.cs</innerfile>
+    <innerfile refid="_genesis_gradient_modes_drawer_8cs">GenesisGradientModesDrawer.cs</innerfile>
+    <innerfile refid="_genesis_hydraulic_debug_drawer_8cs">GenesisHydraulicDebugDrawer.cs</innerfile>
+    <innerfile refid="_genesis_inline_texture_drawer_8cs">GenesisInlineTextureDrawer.cs</innerfile>
+    <innerfile refid="_genesis_i_range_property_drawer_8cs">GenesisIRangePropertyDrawer.cs</innerfile>
+    <innerfile refid="_genesis_kernel_drawer_8cs">GenesisKernelDrawer.cs</innerfile>
+    <innerfile refid="_genesis_kernel_size_drawer_8cs">GenesisKernelSizeDrawer.cs</innerfile>
+    <innerfile refid="_genesis_multi_noise_type_drawer_8cs">GenesisMultiNoiseTypeDrawer.cs</innerfile>
+    <innerfile refid="_genesis_noise_value_return_drawer_8cs">GenesisNoiseValueReturnDrawer.cs</innerfile>
+    <innerfile refid="_genesis_power_drawer_8cs">GenesisPowerDrawer.cs</innerfile>
+    <innerfile refid="_genesis_prime_drawer_8cs">GenesisPrimeDrawer.cs</innerfile>
+    <innerfile refid="_genesis_property_drawer_8cs">GenesisPropertyDrawer.cs</innerfile>
+    <innerfile refid="_genesis_range_drawer_8cs">GenesisRangeDrawer.cs</innerfile>
+    <innerfile refid="_genesis_remap_mode_drawer_8cs">GenesisRemapModeDrawer.cs</innerfile>
+    <innerfile refid="_genesis_scale_bias_drawer_8cs">GenesisScaleBiasDrawer.cs</innerfile>
+    <innerfile refid="_genesis_shape_type_drawer_8cs">GenesisShapeTypeDrawer.cs</innerfile>
+    <innerfile refid="_genesis_show_in_inspector_drawer_8cs">GenesisShowInInspectorDrawer.cs</innerfile>
+    <innerfile refid="_genesis_slope_blur_blend_8cs">GenesisSlopeBlurBlend.cs</innerfile>
+    <innerfile refid="_genesis_swizzle_drawer_8cs">GenesisSwizzleDrawer.cs</innerfile>
+    <innerfile refid="_genesis_tiling_pattern_drawer_8cs">GenesisTilingPatternDrawer.cs</innerfile>
+    <innerfile refid="_genesis_tooltip_drawer_8cs">GenesisTooltipDrawer.cs</innerfile>
+    <innerfile refid="_genesis_vector2_drawer_8cs">GenesisVector2Drawer.cs</innerfile>
+    <innerfile refid="_genesis_vector2_i_drawer_8cs">GenesisVector2IDrawer.cs</innerfile>
+    <innerfile refid="_genesis_vector3_drawer_8cs">GenesisVector3Drawer.cs</innerfile>
+    <innerfile refid="_genisis_grayscale_drawer_8cs">GenisisGrayscaleDrawer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/"/>
+  </compounddef>
+</doxygen>

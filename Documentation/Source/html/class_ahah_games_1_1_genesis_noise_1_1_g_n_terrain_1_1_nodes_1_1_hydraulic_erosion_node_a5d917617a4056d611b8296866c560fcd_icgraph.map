@@ -1,5 +1,0 @@
-<map id="AhahGames.GenesisNoise.GNTerrain.Nodes.HydraulicErosionNode.ReleaseWorkingTextures" name="AhahGames.GenesisNoise.GNTerrain.Nodes.HydraulicErosionNode.ReleaseWorkingTextures">
-<area shape="rect" id="Node000001" title=" " alt="" coords="300,5,592,64"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_hydraulic_erosion_node.html#a4df9611e922b8d3635d23019c8ce77a2" title="Called when the node is disabled." alt="" coords="5,13,252,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="281,35,252,37,252,32,287,34"/>
-</map>

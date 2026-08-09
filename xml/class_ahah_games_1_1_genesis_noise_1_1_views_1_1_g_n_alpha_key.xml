@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Views::GNAlphaKey</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a5e791e0abc9a79ea35b4a5d35e32b55d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Views.GNAlphaKey.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNAlphaKey.time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="13" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1add4607d9c546510de88da3efd14869da" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Views.GNAlphaKey.alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNAlphaKey.alpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="14" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1abb1baa9c5cd25aefbbfcfd2942fd926c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Views.GNAlphaKey.Time</definition>
+        <argsstring></argsstring>
+        <name>Time</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNAlphaKey.Time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="31" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a31f32c5748e68160a1b91f96b7e18326" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Views.GNAlphaKey.Alpha</definition>
+        <argsstring></argsstring>
+        <name>Alpha</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNAlphaKey.Alpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="36" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a70f15d7bbaad7df7005975cf6c5f2038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Views.GNAlphaKey.GNAlphaKey</definition>
+        <argsstring>(GradientAlphaKey key)</argsstring>
+        <name>GNAlphaKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNAlphaKey.GNAlphaKey</qualifiedname>
+        <param>
+          <type>GradientAlphaKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="15" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a32605759a3d98c8ec718e167c5debf86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Views.GNAlphaKey.GNAlphaKey</definition>
+        <argsstring>(float time, float alpha)</argsstring>
+        <name>GNAlphaKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNAlphaKey.GNAlphaKey</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="20" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a9b047b364eb5e5ecd44424e3b0f10800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GradientAlphaKey</type>
+        <definition>GradientAlphaKey AhahGames.GenesisNoise.Views.GNAlphaKey.GetAlphaKey</definition>
+        <argsstring>()</argsstring>
+        <name>GetAlphaKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GNAlphaKey.GetAlphaKey</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="26" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" line="11" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarDefinition.cs" bodystart="12" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a31f32c5748e68160a1b91f96b7e18326" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNAlphaKey</scope><name>Alpha</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1add4607d9c546510de88da3efd14869da" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNAlphaKey</scope><name>alpha</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a9b047b364eb5e5ecd44424e3b0f10800" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNAlphaKey</scope><name>GetAlphaKey</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a70f15d7bbaad7df7005975cf6c5f2038" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNAlphaKey</scope><name>GNAlphaKey</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a32605759a3d98c8ec718e167c5debf86" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNAlphaKey</scope><name>GNAlphaKey</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1abb1baa9c5cd25aefbbfcfd2942fd926c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNAlphaKey</scope><name>Time</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_g_n_alpha_key_1a5e791e0abc9a79ea35b4a5d35e32b55d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GNAlphaKey</scope><name>time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

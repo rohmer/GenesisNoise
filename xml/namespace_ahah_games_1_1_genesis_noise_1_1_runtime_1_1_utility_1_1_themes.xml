@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="namespace_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_themes" kind="namespace" language="C#">
+    <compoundname>AhahGames::GenesisNoise::Runtime::Utility::Themes</compoundname>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_themes_1_1_node_theme" prot="public">AhahGames::GenesisNoise::Runtime::Utility::Themes::NodeTheme</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_runtime_1_1_utility_1_1_themes_1_1_theme_manager" prot="public">AhahGames::GenesisNoise::Runtime::Utility::Themes::ThemeManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/Themes/NodeTheme.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1_my_sample_class" kind="class" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::MySampleClass</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_unity_1_1_mathematics_1_1_my_sample_class_1aac999435a893a0c694253661b5afee7c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Unity.Mathematics.MySampleClass.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <qualifiedname>Unity.Mathematics.MySampleClass.Id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" line="114" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="property" id="class_unity_1_1_mathematics_1_1_my_sample_class_1a2edfd91b6ee71a958450281c84aa75aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Unity.Mathematics.MySampleClass.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>Unity.Mathematics.MySampleClass.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" line="118" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" bodystart="118" bodyend="118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" line="112" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" bodystart="113" bodyend="119"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1_my_sample_class_1aac999435a893a0c694253661b5afee7c" prot="public" virt="non-virtual"><scope>Unity::Mathematics::MySampleClass</scope><name>Id</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_my_sample_class_1a2edfd91b6ee71a958450281c84aa75aa" prot="public" virt="non-virtual"><scope>Unity::Mathematics::MySampleClass</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

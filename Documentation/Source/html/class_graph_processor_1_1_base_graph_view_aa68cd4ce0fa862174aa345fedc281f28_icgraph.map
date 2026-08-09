@@ -1,9 +1,0 @@
-<map id="GraphProcessor.BaseGraphView.GetPinnedElementStatus" name="GraphProcessor.BaseGraphView.GetPinnedElementStatus">
-<area shape="rect" id="Node000001" title=" " alt="" coords="517,39,717,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_graph_view.html#a624b8f93b2318b90674fb9674e1c800b" title="Add the View entry to the context menu." alt="" coords="250,5,456,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="498,45,457,42,457,37,504,45"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_graph_view.html#a44e7c4b29cb23ea68f3f9f5bf47c1681" title=" " alt="" coords="238,72,469,115"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="504,74,470,81,469,76,498,75"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_graph_view.html#ae7b100711474ef96dffddcd94768805c" title="Build the contextual menu shown when right clicking inside the graph view." alt="" coords="5,5,190,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="232,27,190,29,190,24,237,26"/>
-</map>

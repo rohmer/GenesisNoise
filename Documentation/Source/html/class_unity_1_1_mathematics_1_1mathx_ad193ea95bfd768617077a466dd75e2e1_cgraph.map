@@ -1,6 +1,0 @@
-<map id="Unity.Mathematics.mathx.transform" name="Unity.Mathematics.mathx.transform">
-<area shape="rect" id="Node000001" title="Transform a f3 point by a float3x4 matrix;." alt="" coords="5,29,235,56"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#ab6c88dae4905a6424112314d819ce2b4" title="Returns a float3x4 matrix from a float3x3 rotation matrix and a f3 translation vector." alt="" coords="283,29,503,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,40,270,43,264,43,235,45"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="347,28,339,21,345,11,363,5,393,3,426,5,444,15,439,14,424,11,393,8,364,10,348,15,344,20,352,30"/>
-</map>

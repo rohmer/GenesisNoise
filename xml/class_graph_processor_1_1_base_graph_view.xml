@@ -1,0 +1,2089 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_base_graph_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::BaseGraphView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">GraphView</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Views.GenesisGraphView</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1ad3261e257fd1694ca01fd38c68de78ff" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+        <definition>BaseGraph GraphProcessor.BaseGraphView.graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.graph</qualifiedname>
+        <briefdescription>
+<para>Graph that owns of the node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="31" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1a461061526abd7ff8e7dba524ae42939c" compoundref="_base_graph_view_8cs" startline="528" endline="535">GraphProcessor.BaseGraphView.BuildSaveAssetContextualMenu</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1a2898a0431dc3dc1ba7a1ae35ada30f88" compoundref="_base_graph_view_8cs" startline="519" endline="522">GraphProcessor.BaseGraphView.BuildSelectAssetContextualMenu</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1a1719560316f293e578f75bd6407015dc" compoundref="_base_graph_view_8cs" startline="841" endline="842">GraphProcessor.BaseGraphView.CreateEdgeConnectorListener</referencedby>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1a141204de6a233ef862f218ef0ba5f73b" compoundref="_base_graph_view_8cs" startline="1427" endline="1451">GraphProcessor.BaseGraphView.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1abc187575467f6ea4854aa22ec1adf08f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_edge_connector_listener" kindref="compound">BaseEdgeConnectorListener</ref></type>
+        <definition>BaseEdgeConnectorListener GraphProcessor.BaseGraphView.connectorListener</definition>
+        <argsstring></argsstring>
+        <name>connectorListener</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.connectorListener</qualifiedname>
+        <briefdescription>
+<para>Connector listener that will create the edges between ports. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="36" column="42" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1a60f85422caf59328f8f3420bbda08398" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref> &gt;</type>
+        <definition>List&lt;BaseNodeView&gt; GraphProcessor.BaseGraphView.nodeViews</definition>
+        <argsstring></argsstring>
+        <name>nodeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.nodeViews</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>List of all node views in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="43" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1a652b5089e3f20eaccd84a96f86a5325d" compoundref="_base_graph_view_8cs" startline="1417" endline="1422">GraphProcessor.BaseGraphView.SyncSerializedPropertyPathes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1a0ef168072fc67c501a54bd129b053e4c" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref>, <ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref> &gt;</type>
+        <definition>Dictionary&lt;BaseNode, BaseNodeView&gt; GraphProcessor.BaseGraphView.nodeViewsPerNode</definition>
+        <argsstring></argsstring>
+        <name>nodeViewsPerNode</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.nodeViewsPerNode</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>Dictionary of the node views accessed view the node instance, faster than a Find in the node view list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="51" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1ab562595f58f3ce3247b808de6ffd97fb" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref> &gt;</type>
+        <definition>List&lt;EdgeView&gt; GraphProcessor.BaseGraphView.edgeViews</definition>
+        <argsstring></argsstring>
+        <name>edgeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.edgeViews</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>List of all edge views in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="58" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1a20ec59b3ad9d4da8d2d01d62902df686" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_group_view" kindref="compound">GroupView</ref> &gt;</type>
+        <definition>List&lt;GroupView&gt; GraphProcessor.BaseGraphView.groupViews</definition>
+        <argsstring></argsstring>
+        <name>groupViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.groupViews</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>List of all group views in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_group_view" kindref="compound">GroupView</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="65" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1ae863115e6309c3d1c6d53045459e19e6" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_graph_processor_1_1_base_stack_node_view" kindref="compound">BaseStackNodeView</ref> &gt;</type>
+        <definition>List&lt;BaseStackNodeView&gt; GraphProcessor.BaseGraphView.stackNodeViews</definition>
+        <argsstring></argsstring>
+        <name>stackNodeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.stackNodeViews</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+<para>List of all stack node views in the graph. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_graph_processor_1_1_base_stack_node_view" kindref="compound">BaseStackNodeView</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="81" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1ad1658f0b9bab38292bc3a5419af14eda" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Type, <ref refid="class_graph_processor_1_1_pinned_element_view" kindref="compound">PinnedElementView</ref> &gt;</type>
+        <definition>Dictionary&lt;Type, PinnedElementView&gt; GraphProcessor.BaseGraphView.pinnedElements</definition>
+        <argsstring></argsstring>
+        <name>pinnedElements</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.pinnedElements</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="83" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1a374942146cf4cfc9f66badc98ed869c8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_create_node_menu_window" kindref="compound">CreateNodeMenuWindow</ref></type>
+        <definition>CreateNodeMenuWindow GraphProcessor.BaseGraphView.createNodeMenu</definition>
+        <argsstring></argsstring>
+        <name>createNodeMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.createNodeMenu</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="85" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_base_graph_view_1afa8ec06eb9430a2c3cce47ee5a384d42" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; Type,(Type nodeType, MethodInfo initalizeNodeFromObject)&gt;</type>
+        <definition>Dictionary&lt;Type, (Type nodeType, MethodInfo initalizeNodeFromObject)&gt; GraphProcessor.BaseGraphView.nodeTypePerCreateAssetType</definition>
+        <argsstring></argsstring>
+        <name>nodeTypePerCreateAssetType</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.nodeTypePerCreateAssetType</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="137" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="event">
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_view_1a86a1f27d8ec0ed25f127f0a3312f8199" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action GraphProcessor.BaseGraphView.initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.initialized</qualifiedname>
+        <briefdescription>
+<para>Triggered just after the graph is initialized. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="90" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_view_1ad999967b63e7b0b915968f499a201f15" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>ComputeOrderUpdatedDelegate</type>
+        <definition>ComputeOrderUpdatedDelegate GraphProcessor.BaseGraphView.computeOrderUpdated</definition>
+        <argsstring></argsstring>
+        <name>computeOrderUpdated</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.computeOrderUpdated</qualifiedname>
+        <briefdescription>
+<para>Triggered just after the compute order of the graph is updated. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="95" column="50" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_view_1aca7152d2fc57965172f4e082e497d76b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action</type>
+        <definition>Action GraphProcessor.BaseGraphView.onExposedParameterListChanged</definition>
+        <argsstring></argsstring>
+        <name>onExposedParameterListChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.onExposedParameterListChanged</qualifiedname>
+        <briefdescription>
+<para>Same event than <ref refid="class_graph_processor_1_1_base_graph_1add47371cf28a68e961a5d472bd7549ac" kindref="member">BaseGraph.onExposedParameterListChanged</ref> Safe event (not triggered in case the graph is null). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="103" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_view_1aa6d741d789d54f74dacd11ce47ebbb68" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>Action&lt; <ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref> &gt;</type>
+        <definition>Action&lt;ExposedParameter&gt; GraphProcessor.BaseGraphView.onExposedParameterModified</definition>
+        <argsstring></argsstring>
+        <name>onExposedParameterModified</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.onExposedParameterModified</qualifiedname>
+        <briefdescription>
+<para>Same event than BaseGraph.onExposedParameterModified Safe event (not triggered in case the graph is null). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="109" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_graph_processor_1_1_base_graph_view_1a129344729810707053a397aba096aa9f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>NodeDuplicatedDelegate</type>
+        <definition>NodeDuplicatedDelegate GraphProcessor.BaseGraphView.nodeDuplicated</definition>
+        <argsstring></argsstring>
+        <name>nodeDuplicated</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.nodeDuplicated</qualifiedname>
+        <briefdescription>
+<para>Triggered when a node is duplicated (crt-d) or copy-pasted (crtl-c/crtl-v). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="114" column="45" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_base_graph_view_1a484496779f060f095caae2f4c59db427" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_graph_processor_1_1_node_inspector_object" kindref="compound">NodeInspectorObject</ref></type>
+        <definition>NodeInspectorObject GraphProcessor.BaseGraphView.nodeInspector</definition>
+        <argsstring></argsstring>
+        <name>nodeInspector</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.nodeInspector</qualifiedname>
+        <briefdescription>
+<para>Object to handle nodes that shows their UI in the inspector. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="119" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="120" bodyend="128"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1a652b5089e3f20eaccd84a96f86a5325d" compoundref="_base_graph_view_8cs" startline="1417" endline="1422">GraphProcessor.BaseGraphView.SyncSerializedPropertyPathes</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_base_graph_view_1a3f08826ce4a3fe23521f0d80571d64bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_graph_processor_1_1_exposed_parameter_field_factory" kindref="compound">ExposedParameterFieldFactory</ref></type>
+        <definition>ExposedParameterFieldFactory GraphProcessor.BaseGraphView.exposedParameterFactory</definition>
+        <argsstring></argsstring>
+        <name>exposedParameterFactory</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.exposedParameterFactory</qualifiedname>
+        <briefdescription>
+<para>Workaround object for creating exposed parameter property fields. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="133" column="45" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="133" bodyend="133"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1a141204de6a233ef862f218ef0ba5f73b" compoundref="_base_graph_view_8cs" startline="1427" endline="1451">GraphProcessor.BaseGraphView.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_base_graph_view_1a268a5ed2b0b3244c928ff896eb615928" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>SerializedObject</type>
+        <definition>SerializedObject GraphProcessor.BaseGraphView.serializedGraph</definition>
+        <argsstring></argsstring>
+        <name>serializedGraph</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.serializedGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="135" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_base_graph_view_1a38b230333eff1d375d4497cb3d4fffd2" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool GraphProcessor.BaseGraphView.canCopySelection</definition>
+        <argsstring></argsstring>
+        <name>canCopySelection</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.canCopySelection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="177" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="178" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_base_graph_view_1a84efaacb0ab21e1f6c849bfd131bae75" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool GraphProcessor.BaseGraphView.canCutSelection</definition>
+        <argsstring></argsstring>
+        <name>canCutSelection</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.canCutSelection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="182" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="183" bodyend="185"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a37d452e8240563996f6ded53d141c448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GraphProcessor.BaseGraphView.ComputeOrderUpdatedDelegate</definition>
+        <argsstring>()</argsstring>
+        <name>ComputeOrderUpdatedDelegate</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ComputeOrderUpdatedDelegate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="25" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1abe52aad31123205acdd209f5e947e56c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GraphProcessor.BaseGraphView.NodeDuplicatedDelegate</definition>
+        <argsstring>(BaseNode duplicatedNode, BaseNode newNode)</argsstring>
+        <name>NodeDuplicatedDelegate</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.NodeDuplicatedDelegate</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>duplicatedNode</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>newNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="26" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ae394d2e4c2b7ddbefbd325ea45350d97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.BaseGraphView.BaseGraphView</definition>
+        <argsstring>(EditorWindow window)</argsstring>
+        <name>BaseGraphView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BaseGraphView</qualifiedname>
+        <param>
+          <type>EditorWindow</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="139" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="139" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a14dd93376abfc29ac076ee8a568f747a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+        <definition>virtual EdgeView GraphProcessor.BaseGraphView.CreateEdgeView</definition>
+        <argsstring>()</argsstring>
+        <name>CreateEdgeView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.CreateEdgeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="327" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="327" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a351de43d2399a756ac62453e64dcb53b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override List&lt; Port &gt;</type>
+        <definition>override List&lt; Port &gt; GraphProcessor.BaseGraphView.GetCompatiblePorts</definition>
+        <argsstring>(Port startPort, NodeAdapter nodeAdapter)</argsstring>
+        <name>GetCompatiblePorts</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.GetCompatiblePorts</qualifiedname>
+        <param>
+          <type>Port</type>
+          <declname>startPort</declname>
+        </param>
+        <param>
+          <type>NodeAdapter</type>
+          <declname>nodeAdapter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="437" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="437" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.BaseGraphView.BuildContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt)</argsstring>
+        <name>BuildContextualMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BuildContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+<para>Build the contextual menu shown when right clicking inside the graph view. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="469" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="469" bodyend="478"/>
+        <references refid="class_graph_processor_1_1_base_graph_view_1addd9ac2ccdd324613ad33b631d4f3df7" compoundref="_base_graph_view_8cs" startline="484" endline="490">GraphProcessor.BaseGraphView.BuildGroupContextualMenu</references>
+        <references refid="class_graph_processor_1_1_base_graph_view_1ab1a36fc318e8b1278e0154b784bc601f" compoundref="_base_graph_view_8cs" startline="541" endline="548">GraphProcessor.BaseGraphView.BuildHelpContextualMenu</references>
+        <references refid="class_graph_processor_1_1_base_graph_view_1a461061526abd7ff8e7dba524ae42939c" compoundref="_base_graph_view_8cs" startline="528" endline="535">GraphProcessor.BaseGraphView.BuildSaveAssetContextualMenu</references>
+        <references refid="class_graph_processor_1_1_base_graph_view_1a2898a0431dc3dc1ba7a1ae35ada30f88" compoundref="_base_graph_view_8cs" startline="519" endline="522">GraphProcessor.BaseGraphView.BuildSelectAssetContextualMenu</references>
+        <references refid="class_graph_processor_1_1_base_graph_view_1a06e7e02c9a549f336a0186d05ce1982e" compoundref="_base_graph_view_8cs" startline="496" endline="504">GraphProcessor.BaseGraphView.BuildStickyNoteContextualMenu</references>
+        <references refid="class_graph_processor_1_1_base_graph_view_1a624b8f93b2318b90674fb9674e1c800b" compoundref="_base_graph_view_8cs" startline="510" endline="513">GraphProcessor.BaseGraphView.BuildViewContextualMenu</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aa8b031dfdc837a2aa8a09233e3e2978d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.Initialize</definition>
+        <argsstring>(BaseGraph graph)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.Initialize</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph" kindref="compound">BaseGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="753" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="753" bodyend="818"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a9a9d6ccab4241030f8f675f39128c457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ClearGraphElements</definition>
+        <argsstring>()</argsstring>
+        <name>ClearGraphElements</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ClearGraphElements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="820" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="820" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a358fb02a4a4329bb660f20dfc7fb8940" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.UpdateNodeInspectorSelection</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateNodeInspectorSelection</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.UpdateNodeInspectorSelection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="939" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="939" bodyend="955"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a86bcfc83586714512e18e14492c75bff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref></type>
+        <definition>virtual BaseNodeView GraphProcessor.BaseGraphView.AddNode</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>AddNode</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddNode</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a68d972c1ff11187d10b6359a34bac03e">AddNode</reimplementedby>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="957" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="957" bodyend="972"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a562ec7f5f2ee72327b3081952fcecf25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref></type>
+        <definition>BaseNodeView GraphProcessor.BaseGraphView.AddNodeView</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>AddNodeView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddNodeView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="974" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="974" bodyend="989"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a841269e9bc092f01505f71425617add9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemoveNode</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>RemoveNode</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemoveNode</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="991" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="991" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a6f14fddca73db3387dd7135aa1bff259" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemoveNodeView</definition>
+        <argsstring>(BaseNodeView nodeView)</argsstring>
+        <name>RemoveNodeView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemoveNodeView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref></type>
+          <declname>nodeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="998" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="998" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a8f3f95a42a6630048e9dcf11ced8d25a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_group_view" kindref="compound">GroupView</ref></type>
+        <definition>GroupView GraphProcessor.BaseGraphView.AddGroup</definition>
+        <argsstring>(Group block)</argsstring>
+        <name>AddGroup</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddGroup</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1030" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1030" bodyend="1035"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a6701790c55b197ff50108cee37f8ac30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_group_view" kindref="compound">GroupView</ref></type>
+        <definition>GroupView GraphProcessor.BaseGraphView.AddGroupView</definition>
+        <argsstring>(Group block)</argsstring>
+        <name>AddGroupView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddGroupView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref></type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1037" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1037" bodyend="1047"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a4192aa1ea6c85b09af616aa68d5b9a9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_base_stack_node_view" kindref="compound">BaseStackNodeView</ref></type>
+        <definition>BaseStackNodeView GraphProcessor.BaseGraphView.AddStackNode</definition>
+        <argsstring>(BaseStackNode stackNode)</argsstring>
+        <name>AddStackNode</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddStackNode</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_stack_node" kindref="compound">BaseStackNode</ref></type>
+          <declname>stackNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1049" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1049" bodyend="1053"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a3bf7c32a602819abb4de0f48ca32358d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_graph_processor_1_1_base_stack_node_view" kindref="compound">BaseStackNodeView</ref></type>
+        <definition>BaseStackNodeView GraphProcessor.BaseGraphView.AddStackNodeView</definition>
+        <argsstring>(BaseStackNode stackNode)</argsstring>
+        <name>AddStackNodeView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddStackNodeView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_stack_node" kindref="compound">BaseStackNode</ref></type>
+          <declname>stackNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1055" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1055" bodyend="1066"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a0b8fbf6817d1e89b2954f5121e2ca457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemoveStackNodeView</definition>
+        <argsstring>(BaseStackNodeView stackNodeView)</argsstring>
+        <name>RemoveStackNodeView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemoveStackNodeView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_stack_node_view" kindref="compound">BaseStackNodeView</ref></type>
+          <declname>stackNodeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1068" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1068" bodyend="1072"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a6cd1040cb68c62092abea33b50f33374" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.AddSelectionsToGroup</definition>
+        <argsstring>(GroupView view)</argsstring>
+        <name>AddSelectionsToGroup</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddSelectionsToGroup</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_group_view" kindref="compound">GroupView</ref></type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1107" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1107" bodyend="1119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a6fd0f0cb7d44f52d8fb4541637bb1071" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemoveGroups</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveGroups</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemoveGroups</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1121" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1121" bodyend="1126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1acbf3c5a763cabec1e4104da1c591614f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraphView.CanConnectEdge</definition>
+        <argsstring>(EdgeView e, bool autoDisconnectInputs=true)</argsstring>
+        <name>CanConnectEdge</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.CanConnectEdge</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoDisconnectInputs</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1128" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1128" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a6edcc9480e9753b7f0a205fa0ffb9061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraphView.ConnectView</definition>
+        <argsstring>(EdgeView e, bool autoDisconnectInputs=true)</argsstring>
+        <name>ConnectView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ConnectView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoDisconnectInputs</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1147" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1147" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a899312c1adfa143a4452a1c2ef6bed77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraphView.Connect</definition>
+        <argsstring>(PortView inputPortView, PortView outputPortView, bool autoDisconnectInputs=true)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.Connect</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref></type>
+          <declname>inputPortView</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref></type>
+          <declname>outputPortView</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoDisconnectInputs</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1204" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1204" bodyend="1222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a44c5c515dee13d8c13d0788987ccbc96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraphView.Connect</definition>
+        <argsstring>(EdgeView e, bool autoDisconnectInputs=true)</argsstring>
+        <name>Connect</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.Connect</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoDisconnectInputs</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1224" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1224" bodyend="1243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ab632600e7d01dac5ddbe98ea96487eb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.DisconnectView</definition>
+        <argsstring>(EdgeView e, bool refreshPorts=true)</argsstring>
+        <name>DisconnectView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.DisconnectView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>refreshPorts</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1245" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1245" bodyend="1266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a22f7a135e130253193ed5f575f0c8b20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.Disconnect</definition>
+        <argsstring>(EdgeView e, bool refreshPorts=true)</argsstring>
+        <name>Disconnect</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.Disconnect</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_edge_view" kindref="compound">EdgeView</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>refreshPorts</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1268" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1268" bodyend="1277"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a55b0cd9ea998c1e42a5982369fd64781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemoveEdges</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveEdges</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemoveEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1279" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1279" bodyend="1284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ad067e0fefa9ded1e99042973ca4eaf67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.UpdateComputeOrder</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateComputeOrder</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.UpdateComputeOrder</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1286" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1286" bodyend="1291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a51eddff83c691c00220bab3433627d5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RegisterCompleteObjectUndo</definition>
+        <argsstring>(string name)</argsstring>
+        <name>RegisterCompleteObjectUndo</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RegisterCompleteObjectUndo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1293" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1293" bodyend="1296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a7d46a6fe226a565c3ce454108610910f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.SaveGraphToDisk</definition>
+        <argsstring>()</argsstring>
+        <name>SaveGraphToDisk</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.SaveGraphToDisk</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1298" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1298" bodyend="1304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1acd8265782f1d68ea9a2424881f001d0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ToggleView&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>ToggleView&lt; T &gt;</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ToggleView&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1306" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1306" bodyend="1309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aaf98b3741dd0e1bea9f6382904dd98e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ToggleView</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>ToggleView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ToggleView</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1311" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1311" bodyend="1320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a55526dc34416896365896410d849091b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.OpenPinned&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>OpenPinned&lt; T &gt;</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.OpenPinned&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1322" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1322" bodyend="1325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a4a29c6a5a945058f2b8df5834a35854c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.OpenPinned</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>OpenPinned</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.OpenPinned</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1327" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1327" bodyend="1348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ac981056206c13fb4e366f5b763fabf7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ClosePinned&lt; T &gt;</definition>
+        <argsstring>(PinnedElementView view)</argsstring>
+        <name>ClosePinned&lt; T &gt;</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ClosePinned&lt; T &gt;</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_pinned_element_view" kindref="compound">PinnedElementView</ref></type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1350" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1350" bodyend="1353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a1f29edd52f1137b5fa26204e8b19105c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ClosePinned</definition>
+        <argsstring>(Type type, PinnedElementView elem)</argsstring>
+        <name>ClosePinned</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ClosePinned</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_pinned_element_view" kindref="compound">PinnedElementView</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1355" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1355" bodyend="1360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a44e7c4b29cb23ea68f3f9f5bf47c1681" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status GraphProcessor.BaseGraphView.GetPinnedElementStatus&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetPinnedElementStatus&lt; T &gt;</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.GetPinnedElementStatus&lt; T &gt;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1362" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1362" bodyend="1365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aa68cd4ce0fa862174aa345fedc281f28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status GraphProcessor.BaseGraphView.GetPinnedElementStatus</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>GetPinnedElementStatus</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.GetPinnedElementStatus</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1367" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1367" bodyend="1375"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a10a8048c25d9ad02f0d5352a626193b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ResetPositionAndZoom</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPositionAndZoom</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ResetPositionAndZoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1377" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1377" bodyend="1383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a0cccd90222fcf16fd7bde1a17d190019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.DelayedDeleteSelection</definition>
+        <argsstring>()</argsstring>
+        <name>DelayedDeleteSelection</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.DelayedDeleteSelection</qualifiedname>
+        <briefdescription>
+<para>Deletes the selected content, can be called form an IMGUI container. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1388" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1388" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ad33eb7b0fbb8c1ecd19658e3ccd663ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>IEnumerable&lt;(string path, Type type)&gt;</type>
+        <definition>virtual IEnumerable&lt;(string path, Type type)&gt; GraphProcessor.BaseGraphView.FilterCreateNodeMenuEntries</definition>
+        <argsstring>()</argsstring>
+        <name>FilterCreateNodeMenuEntries</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.FilterCreateNodeMenuEntries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1392" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1392" bodyend="1399"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ab7bd9edf3efcdd950509626d54390179" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_relay_node_view" kindref="compound">RelayNodeView</ref></type>
+        <definition>RelayNodeView GraphProcessor.BaseGraphView.AddRelayNode</definition>
+        <argsstring>(PortView inputPort, PortView outputPort, Vector2 position)</argsstring>
+        <name>AddRelayNode</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.AddRelayNode</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref></type>
+          <declname>inputPort</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_port_view" kindref="compound">PortView</ref></type>
+          <declname>outputPort</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1401" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1401" bodyend="1412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a652b5089e3f20eaccd84a96f86a5325d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.SyncSerializedPropertyPathes</definition>
+        <argsstring>()</argsstring>
+        <name>SyncSerializedPropertyPathes</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.SyncSerializedPropertyPathes</qualifiedname>
+        <briefdescription>
+<para>Update all the serialized property bindings (in case a node was deleted / added, the property pathes needs to be updated). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1417" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1417" bodyend="1422"/>
+        <references refid="class_graph_processor_1_1_base_graph_view_1a484496779f060f095caae2f4c59db427" compoundref="_base_graph_view_8cs" startline="120" endline="128">GraphProcessor.BaseGraphView.nodeInspector</references>
+        <references refid="class_graph_processor_1_1_base_graph_view_1a60f85422caf59328f8f3420bbda08398" compoundref="_base_graph_view_8cs" startline="43">GraphProcessor.BaseGraphView.nodeViews</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a141204de6a233ef862f218ef0ba5f73b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.Dispose</qualifiedname>
+        <briefdescription>
+<para>Call this function when you want to remove this view. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1427" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1427" bodyend="1451"/>
+        <references refid="class_graph_processor_1_1_base_graph_view_1a3f08826ce4a3fe23521f0d80571d64bb" compoundref="_base_graph_view_8cs" startline="133" endline="133">GraphProcessor.BaseGraphView.exposedParameterFactory</references>
+        <references refid="class_graph_processor_1_1_base_graph_view_1ad3261e257fd1694ca01fd38c68de78ff" compoundref="_base_graph_view_8cs" startline="31">GraphProcessor.BaseGraphView.graph</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a1da68664350dd7d443e0460d1016a6ab" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_graph_processor_1_1_node_inspector_object" kindref="compound">NodeInspectorObject</ref></type>
+        <definition>virtual NodeInspectorObject GraphProcessor.BaseGraphView.CreateNodeInspectorObject</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNodeInspectorObject</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.CreateNodeInspectorObject</qualifiedname>
+        <reimplementedby refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a2cc857d8e8b70e0cb38f1f5154e91ec4">CreateNodeInspectorObject</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="166" column="47" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="166" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1addd9ac2ccdd324613ad33b631d4f3df7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.BuildGroupContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt, int menuPosition=-1)</argsstring>
+        <name>BuildGroupContextualMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BuildGroupContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>menuPosition</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Add the New <ref refid="class_graph_processor_1_1_group" kindref="compound">Group</ref> entry to the context menu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="484" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="484" bodyend="490"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" compoundref="_base_graph_view_8cs" startline="469" endline="478">GraphProcessor.BaseGraphView.BuildContextualMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a06e7e02c9a549f336a0186d05ce1982e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.BuildStickyNoteContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt, int menuPosition=-1)</argsstring>
+        <name>BuildStickyNoteContextualMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BuildStickyNoteContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>menuPosition</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>-Add the New Sticky Note entry to the context menu </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="496" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="496" bodyend="504"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" compoundref="_base_graph_view_8cs" startline="469" endline="478">GraphProcessor.BaseGraphView.BuildContextualMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a624b8f93b2318b90674fb9674e1c800b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.BuildViewContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt)</argsstring>
+        <name>BuildViewContextualMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BuildViewContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+<para>Add the View entry to the context menu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="510" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="510" bodyend="513"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" compoundref="_base_graph_view_8cs" startline="469" endline="478">GraphProcessor.BaseGraphView.BuildContextualMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a2898a0431dc3dc1ba7a1ae35ada30f88" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.BuildSelectAssetContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt)</argsstring>
+        <name>BuildSelectAssetContextualMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BuildSelectAssetContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+<para>Add the Select Asset entry to the context menu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="519" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="519" bodyend="522"/>
+        <references refid="class_graph_processor_1_1_base_graph_view_1ad3261e257fd1694ca01fd38c68de78ff" compoundref="_base_graph_view_8cs" startline="31">GraphProcessor.BaseGraphView.graph</references>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" compoundref="_base_graph_view_8cs" startline="469" endline="478">GraphProcessor.BaseGraphView.BuildContextualMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a461061526abd7ff8e7dba524ae42939c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.BuildSaveAssetContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt)</argsstring>
+        <name>BuildSaveAssetContextualMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BuildSaveAssetContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+<para>Add the Save Asset entry to the context menu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="528" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="528" bodyend="535"/>
+        <references refid="class_graph_processor_1_1_base_graph_view_1ad3261e257fd1694ca01fd38c68de78ff" compoundref="_base_graph_view_8cs" startline="31">GraphProcessor.BaseGraphView.graph</references>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" compoundref="_base_graph_view_8cs" startline="469" endline="478">GraphProcessor.BaseGraphView.BuildContextualMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ab1a36fc318e8b1278e0154b784bc601f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.BuildHelpContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt)</argsstring>
+        <name>BuildHelpContextualMenu</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.BuildHelpContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+<para>Add the Help entry to the context menu. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>evt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="541" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="541" bodyend="548"/>
+        <referencedby refid="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" compoundref="_base_graph_view_8cs" startline="469" endline="478">GraphProcessor.BaseGraphView.BuildContextualMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ad0f30a28cd8f573478bb7c3e59b64121" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.KeyDownCallback</definition>
+        <argsstring>(KeyDownEvent e)</argsstring>
+        <name>KeyDownCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.KeyDownCallback</qualifiedname>
+        <param>
+          <type>KeyDownEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="550" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="550" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a1719560316f293e578f75bd6407015dc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_graph_processor_1_1_base_edge_connector_listener" kindref="compound">BaseEdgeConnectorListener</ref></type>
+        <definition>virtual BaseEdgeConnectorListener GraphProcessor.BaseGraphView.CreateEdgeConnectorListener</definition>
+        <argsstring>()</argsstring>
+        <name>CreateEdgeConnectorListener</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.CreateEdgeConnectorListener</qualifiedname>
+        <briefdescription>
+<para>Allow you to create your own edge connector listener. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="841" column="53" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="841" bodyend="842"/>
+        <references refid="class_graph_processor_1_1_base_graph_view_1ad3261e257fd1694ca01fd38c68de78ff" compoundref="_base_graph_view_8cs" startline="31">GraphProcessor.BaseGraphView.graph</references>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a88bd2dde3047c85da2049fd9225910e8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.InitializeManipulators</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeManipulators</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeManipulators</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="926" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="926" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ab381927d18eabbf462ee09b6c752560a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.Reload</definition>
+        <argsstring>()</argsstring>
+        <name>Reload</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.Reload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="933" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="933" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a83a4b1cd8d42bfe02ad4ff5bb80d6cb9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GraphProcessor.BaseGraphView.InitializeView</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1390" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1390" bodyend="1390"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aadf30397d7228f6a0b97787dfa417a3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GraphProcessor.BaseGraphView.SerializeGraphElementsCallback</definition>
+        <argsstring>(IEnumerable&lt; GraphElement &gt; elements)</argsstring>
+        <name>SerializeGraphElementsCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.SerializeGraphElementsCallback</qualifiedname>
+        <param>
+          <type>IEnumerable&lt; GraphElement &gt;</type>
+          <declname>elements</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="187" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="187" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a69ac43cef0a9ea1aefd0220b714be714" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraphView.CanPasteSerializedDataCallback</definition>
+        <argsstring>(string serializedData)</argsstring>
+        <name>CanPasteSerializedDataCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.CanPasteSerializedDataCallback</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>serializedData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="215" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="215" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1abe8b5f15db4948b28585b46fcd763f70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.UnserializeAndPasteCallback</definition>
+        <argsstring>(string operationName, string serializedData)</argsstring>
+        <name>UnserializeAndPasteCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.UnserializeAndPasteCallback</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>operationName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>serializedData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="227" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="227" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a5c926d8651a0178aceda6f8516b4e607" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GraphViewChange</type>
+        <definition>GraphViewChange GraphProcessor.BaseGraphView.GraphViewChangedCallback</definition>
+        <argsstring>(GraphViewChange changes)</argsstring>
+        <name>GraphViewChangedCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.GraphViewChangedCallback</qualifiedname>
+        <param>
+          <type>GraphViewChange</type>
+          <declname>changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="332" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="332" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a0c6ce1069285040d642648eff2699fd6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.GraphChangesCallback</definition>
+        <argsstring>(GraphChanges changes)</argsstring>
+        <name>GraphChangesCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.GraphChangesCallback</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_graph_changes" kindref="compound">GraphChanges</ref></type>
+          <declname>changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="410" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="410" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a923efd4fe9c95eb50cad0bf13317b119" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ViewTransformChangedCallback</definition>
+        <argsstring>(GraphView view)</argsstring>
+        <name>ViewTransformChangedCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ViewTransformChangedCallback</qualifiedname>
+        <param>
+          <type>GraphView</type>
+          <declname>view</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="420" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="420" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a2a388d7a0866eaf23fa05d9eb400cd09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ElementResizedCallback</definition>
+        <argsstring>(VisualElement elem)</argsstring>
+        <name>ElementResizedCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ElementResizedCallback</qualifiedname>
+        <param>
+          <type>VisualElement</type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="429" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="429" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aff23e136343011ea2b20eaa42df91250" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.MouseUpCallback</definition>
+        <argsstring>(MouseUpEvent e)</argsstring>
+        <name>MouseUpCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.MouseUpCallback</qualifiedname>
+        <param>
+          <type>MouseUpEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="590" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="590" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ad348b1f0b6f06f9b2819100c6697ce56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.MouseDownCallback</definition>
+        <argsstring>(MouseDownEvent e)</argsstring>
+        <name>MouseDownCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.MouseDownCallback</qualifiedname>
+        <param>
+          <type>MouseDownEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="599" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="599" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aa4fc1c911f998da1891d9c9d39ccf053" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GraphProcessor.BaseGraphView.DoesSelectionContainsInspectorNodes</definition>
+        <argsstring>()</argsstring>
+        <name>DoesSelectionContainsInspectorNodes</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.DoesSelectionContainsInspectorNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="612" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="612" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a1d666004049b7c9e1179ec7ab70cef1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.DragPerformedCallback</definition>
+        <argsstring>(DragPerformEvent e)</argsstring>
+        <name>DragPerformedCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.DragPerformedCallback</qualifiedname>
+        <param>
+          <type>DragPerformEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="627" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="627" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a45b5787b0ae2023eec3b0fb95fc6df76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.DragUpdatedCallback</definition>
+        <argsstring>(DragUpdatedEvent e)</argsstring>
+        <name>DragUpdatedCallback</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.DragUpdatedCallback</qualifiedname>
+        <param>
+          <type>DragUpdatedEvent</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="679" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="679" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1af5b46ef5d93819fbca44b3cc332ddee9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.ReloadView</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.ReloadView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="707" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="707" bodyend="751"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a3b82109e8120124b2cafb3dcaad16412" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.UpdateSerializedProperties</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateSerializedProperties</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.UpdateSerializedProperties</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="832" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="832" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aad88dc2283aac95c2fd5b8f0c8cafac2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.InitializeGraphView</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeGraphView</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeGraphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="844" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="844" bodyend="852"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a49c81094604c3fa99ad9c7c4e881a1a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.OnGraphExposedParameterModified</definition>
+        <argsstring>(ExposedParameter parameter)</argsstring>
+        <name>OnGraphExposedParameterModified</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.OnGraphExposedParameterModified</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="853" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="853" bodyend="856"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a49b164a81d4e94757e366c302c953e20" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.OnExposedParameterListChanged</definition>
+        <argsstring>()</argsstring>
+        <name>OnExposedParameterListChanged</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.OnExposedParameterListChanged</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="859" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="859" bodyend="863"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1aa4c124f062c802ff4f814ba4daca69da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.InitializeNodeViews</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeNodeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeNodeViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="865" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="865" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1acb5a2f2bd3436604f708b93935c07820" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.InitializeEdgeViews</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeEdgeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeEdgeViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="875" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="875" bodyend="895"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a8d83286445f3819e357531101d7f4523" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.InitializeViews</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="897" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="897" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a4c1549524c4881de7288088c214f8eb0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.InitializeGroups</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeGroups</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeGroups</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="906" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="906" bodyend="910"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1ab3400298afbcbd96c6e4cea09197cf6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.InitializeStickyNotes</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeStickyNotes</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeStickyNotes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="912" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="912" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1adae5dba20c0e4b23574e37c5b39bd3be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.InitializeStackNodes</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeStackNodes</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.InitializeStackNodes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="920" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="920" bodyend="924"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a93531e1834a7d10a01129b9a011304a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemoveNodeViews</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveNodeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemoveNodeViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1005" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1005" bodyend="1011"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1af271846b33a0fd904f14bc39bf81c368" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemoveStackNodeViews</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveStackNodeViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemoveStackNodeViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1013" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1013" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_base_graph_view_1a1816af51eb04406e5b8e548bbcd70722" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.BaseGraphView.RemovePinnedElementViews</definition>
+        <argsstring>()</argsstring>
+        <name>RemovePinnedElementViews</name>
+        <qualifiedname>GraphProcessor.BaseGraphView.RemovePinnedElementViews</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="1020" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="1020" bodyend="1028"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Base class to write a custom view for a node. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>AhahGames.GenesisNoise.Views.GenesisGraphView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphView</label>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphView</label>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="8">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="6">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="5">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" line="23" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/BaseGraphView.cs" bodystart="24" bodyend="1454"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a8f3f95a42a6630048e9dcf11ced8d25a" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6701790c55b197ff50108cee37f8ac30" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddGroupView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a86bcfc83586714512e18e14492c75bff" prot="public" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a562ec7f5f2ee72327b3081952fcecf25" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab7bd9edf3efcdd950509626d54390179" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddRelayNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6cd1040cb68c62092abea33b50f33374" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddSelectionsToGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a4192aa1ea6c85b09af616aa68d5b9a9b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddStackNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a3bf7c32a602819abb4de0f48ca32358d" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>AddStackNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ae394d2e4c2b7ddbefbd325ea45350d97" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BaseGraphView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ae7b100711474ef96dffddcd94768805c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BuildContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1addd9ac2ccdd324613ad33b631d4f3df7" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BuildGroupContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab1a36fc318e8b1278e0154b784bc601f" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BuildHelpContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a461061526abd7ff8e7dba524ae42939c" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BuildSaveAssetContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a2898a0431dc3dc1ba7a1ae35ada30f88" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BuildSelectAssetContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a06e7e02c9a549f336a0186d05ce1982e" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BuildStickyNoteContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a624b8f93b2318b90674fb9674e1c800b" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>BuildViewContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1acbf3c5a763cabec1e4104da1c591614f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>CanConnectEdge</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a38b230333eff1d375d4497cb3d4fffd2" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>canCopySelection</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a84efaacb0ab21e1f6c849bfd131bae75" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>canCutSelection</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a69ac43cef0a9ea1aefd0220b714be714" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>CanPasteSerializedDataCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a9a9d6ccab4241030f8f675f39128c457" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ClearGraphElements</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a1f29edd52f1137b5fa26204e8b19105c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ClosePinned</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ac981056206c13fb4e366f5b763fabf7f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ClosePinned&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad999967b63e7b0b915968f499a201f15" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>computeOrderUpdated</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a37d452e8240563996f6ded53d141c448" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ComputeOrderUpdatedDelegate</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a899312c1adfa143a4452a1c2ef6bed77" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>Connect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a44c5c515dee13d8c13d0788987ccbc96" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>Connect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1abc187575467f6ea4854aa22ec1adf08f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>connectorListener</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6edcc9480e9753b7f0a205fa0ffb9061" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ConnectView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a1719560316f293e578f75bd6407015dc" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>CreateEdgeConnectorListener</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a14dd93376abfc29ac076ee8a568f747a" prot="public" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>CreateEdgeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a1da68664350dd7d443e0460d1016a6ab" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>CreateNodeInspectorObject</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a374942146cf4cfc9f66badc98ed869c8" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>createNodeMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a0cccd90222fcf16fd7bde1a17d190019" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>DelayedDeleteSelection</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a22f7a135e130253193ed5f575f0c8b20" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>Disconnect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab632600e7d01dac5ddbe98ea96487eb0" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>DisconnectView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a141204de6a233ef862f218ef0ba5f73b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>Dispose</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa4fc1c911f998da1891d9c9d39ccf053" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>DoesSelectionContainsInspectorNodes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a1d666004049b7c9e1179ec7ab70cef1b" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>DragPerformedCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a45b5787b0ae2023eec3b0fb95fc6df76" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>DragUpdatedCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab562595f58f3ce3247b808de6ffd97fb" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>edgeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a2a388d7a0866eaf23fa05d9eb400cd09" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ElementResizedCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a3f08826ce4a3fe23521f0d80571d64bb" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>exposedParameterFactory</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad33eb7b0fbb8c1ecd19658e3ccd663ca" prot="public" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>FilterCreateNodeMenuEntries</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a351de43d2399a756ac62453e64dcb53b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>GetCompatiblePorts</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa68cd4ce0fa862174aa345fedc281f28" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>GetPinnedElementStatus</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a44e7c4b29cb23ea68f3f9f5bf47c1681" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>GetPinnedElementStatus&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad3261e257fd1694ca01fd38c68de78ff" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>graph</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a0c6ce1069285040d642648eff2699fd6" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>GraphChangesCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a5c926d8651a0178aceda6f8516b4e607" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>GraphViewChangedCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a20ec59b3ad9d4da8d2d01d62902df686" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>groupViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa8b031dfdc837a2aa8a09233e3e2978d" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a86a1f27d8ec0ed25f127f0a3312f8199" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>initialized</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1acb5a2f2bd3436604f708b93935c07820" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeEdgeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aad88dc2283aac95c2fd5b8f0c8cafac2" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeGraphView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a4c1549524c4881de7288088c214f8eb0" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeGroups</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a88bd2dde3047c85da2049fd9225910e8" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeManipulators</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa4c124f062c802ff4f814ba4daca69da" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeNodeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1adae5dba20c0e4b23574e37c5b39bd3be" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeStackNodes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab3400298afbcbd96c6e4cea09197cf6f" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeStickyNotes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a83a4b1cd8d42bfe02ad4ff5bb80d6cb9" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a8d83286445f3819e357531101d7f4523" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>InitializeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad0f30a28cd8f573478bb7c3e59b64121" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>KeyDownCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad348b1f0b6f06f9b2819100c6697ce56" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>MouseDownCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aff23e136343011ea2b20eaa42df91250" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>MouseUpCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a129344729810707053a397aba096aa9f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>nodeDuplicated</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1abe52aad31123205acdd209f5e947e56c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>NodeDuplicatedDelegate</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a484496779f060f095caae2f4c59db427" prot="protected" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>nodeInspector</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1afa8ec06eb9430a2c3cce47ee5a384d42" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>nodeTypePerCreateAssetType</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a60f85422caf59328f8f3420bbda08398" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>nodeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a0ef168072fc67c501a54bd129b053e4c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>nodeViewsPerNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a49b164a81d4e94757e366c302c953e20" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>OnExposedParameterListChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aca7152d2fc57965172f4e082e497d76b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>onExposedParameterListChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa6d741d789d54f74dacd11ce47ebbb68" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>onExposedParameterModified</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a49c81094604c3fa99ad9c7c4e881a1a9" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>OnGraphExposedParameterModified</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a4a29c6a5a945058f2b8df5834a35854c" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>OpenPinned</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a55526dc34416896365896410d849091b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>OpenPinned&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad1658f0b9bab38292bc3a5419af14eda" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>pinnedElements</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a51eddff83c691c00220bab3433627d5e" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RegisterCompleteObjectUndo</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab381927d18eabbf462ee09b6c752560a" prot="protected" virt="virtual"><scope>GraphProcessor::BaseGraphView</scope><name>Reload</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1af5b46ef5d93819fbca44b3cc332ddee9" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ReloadView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a55b0cd9ea998c1e42a5982369fd64781" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemoveEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6fd0f0cb7d44f52d8fb4541637bb1071" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemoveGroups</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a841269e9bc092f01505f71425617add9" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemoveNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6f14fddca73db3387dd7135aa1bff259" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemoveNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a93531e1834a7d10a01129b9a011304a7" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemoveNodeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a1816af51eb04406e5b8e548bbcd70722" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemovePinnedElementViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a0b8fbf6817d1e89b2954f5121e2ca457" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemoveStackNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1af271846b33a0fd904f14bc39bf81c368" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>RemoveStackNodeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a10a8048c25d9ad02f0d5352a626193b3" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ResetPositionAndZoom</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a7d46a6fe226a565c3ce454108610910f" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>SaveGraphToDisk</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a268a5ed2b0b3244c928ff896eb615928" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>serializedGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aadf30397d7228f6a0b97787dfa417a3d" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>SerializeGraphElementsCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ae863115e6309c3d1c6d53045459e19e6" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>stackNodeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a652b5089e3f20eaccd84a96f86a5325d" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>SyncSerializedPropertyPathes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aaf98b3741dd0e1bea9f6382904dd98e4" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ToggleView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1acd8265782f1d68ea9a2424881f001d0b" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ToggleView&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1abe8b5f15db4948b28585b46fcd763f70" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>UnserializeAndPasteCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad067e0fefa9ded1e99042973ca4eaf67" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>UpdateComputeOrder</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a358fb02a4a4329bb660f20dfc7fb8940" prot="public" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>UpdateNodeInspectorSelection</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a3b82109e8120124b2cafb3dcaad16412" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>UpdateSerializedProperties</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a923efd4fe9c95eb50cad0bf13317b119" prot="private" virt="non-virtual"><scope>GraphProcessor::BaseGraphView</scope><name>ViewTransformChangedCallback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

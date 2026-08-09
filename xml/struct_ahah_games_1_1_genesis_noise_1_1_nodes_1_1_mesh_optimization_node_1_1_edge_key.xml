@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a18e639f92b866533820cb27567065398" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="959" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="959" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a185366573e7e9023491a5cafb883a4af" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="960" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="960" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a061d3a8775849ba68f714a7106ae750d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.First</definition>
+        <argsstring></argsstring>
+        <name>First</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.First</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="962" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="962" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1ab0e30384aa20c2551e91086547042ae5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.Second</definition>
+        <argsstring></argsstring>
+        <name>Second</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.Second</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="963" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="963" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a1055fc900646829f4c3c676c3d45ddde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.EdgeKey</definition>
+        <argsstring>(int first, int second)</argsstring>
+        <name>EdgeKey</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.EdgeKey</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="965" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="965" bodyend="977"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a88cc84a28b13df43ebf1a96f7c70fc95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.Equals</definition>
+        <argsstring>(EdgeKey other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.Equals</qualifiedname>
+        <param>
+          <type>EdgeKey</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="979" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="979" bodyend="982"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a35c253c5db3f03e6c421c1ccb06695c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.Equals</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="984" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="984" bodyend="987"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a260d879b68da85ce612169cfdc3c56ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey.GetHashCode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="989" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="989" bodyend="995"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.EdgeKey</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IEquatable</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="957" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="958" bodyend="996"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a18e639f92b866533820cb27567065398" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>a</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a185366573e7e9023491a5cafb883a4af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>b</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a1055fc900646829f4c3c676c3d45ddde" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>EdgeKey</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a88cc84a28b13df43ebf1a96f7c70fc95" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>Equals</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a35c253c5db3f03e6c421c1ccb06695c6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>Equals</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a061d3a8775849ba68f714a7106ae750d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>First</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1a260d879b68da85ce612169cfdc3c56ac" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>GetHashCode</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_edge_key_1ab0e30384aa20c2551e91086547042ae5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::EdgeKey</scope><name>Second</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

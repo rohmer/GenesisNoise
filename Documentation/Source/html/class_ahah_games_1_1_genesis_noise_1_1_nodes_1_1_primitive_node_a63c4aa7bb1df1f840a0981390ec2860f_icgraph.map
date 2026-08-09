@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.PrimitiveNode.SetPrimitive" name="AhahGames.GenesisNoise.Nodes.PrimitiveNode.SetPrimitive">
-<area shape="rect" id="Node000001" title=" " alt="" coords="552,39,777,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node.html#a4c986833e1eb75b0156d8849798c3b68" title="Called when the node is enabled." alt="" coords="279,5,504,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="534,44,504,43,505,38,539,44"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node.html#ab39932b54d0e176eb5eca590360ed4ac" title=" " alt="" coords="279,72,504,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="539,75,505,82,504,77,534,76"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node.html#a07b9e8520805e16bf8b272a604223e5c" title=" " alt="" coords="5,72,231,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="261,93,231,96,231,91,266,93"/>
-</map>

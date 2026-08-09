@@ -33,7 +33,7 @@ Generates a random float value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | a19c05a4-c260-4f66-a254-96a2b12d2d01 | |
+| GUID | String | 5919bba2-04f0-4549-8f7f-9b46648a4cb3 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -33,7 +33,7 @@ Splits a texture into two texture outputs: RGB preserves the source red, green, 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4d369f2c-e531-4925-8e62-1bda8b68ac43 | |
+| GUID | String | d98ca485-351f-43a8-9b14-f8528b00c840 | |
 | expanded | Boolean | False | |
 
 ## See Also

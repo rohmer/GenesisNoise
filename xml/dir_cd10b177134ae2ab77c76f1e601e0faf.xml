@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_cd10b177134ae2ab77c76f1e601e0faf" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes</compoundname>
+    <innerdir refid="dir_68f59f223ddcdfcaa1314b437bb5a645">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Color</innerdir>
+    <innerdir refid="dir_d91f94c053a1d834259518a86f337e0d">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Effects</innerdir>
+    <innerdir refid="dir_d9d997c8832633af52c4e25c6972c3fd">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Filters</innerdir>
+    <innerdir refid="dir_6896ac56db2cbcc0f6796acb1066d51c">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/FlowControl</innerdir>
+    <innerdir refid="dir_1608d32e812412cc2914dce489820c69">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions</innerdir>
+    <innerdir refid="dir_f21c476951644f000004b21342fc821e">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator</innerdir>
+    <innerdir refid="dir_3205715ff358e6f507597f3817e7fc0f">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Material</innerdir>
+    <innerdir refid="dir_8fe9d78cdc24dd19ced057e32e30b5d3">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh</innerdir>
+    <innerdir refid="dir_15dbbc9203fe4111cf3857719bda55f2">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Normals</innerdir>
+    <innerdir refid="dir_1733dd0d4b24a15c9ad9bdc8ce5cab83">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations</innerdir>
+    <innerdir refid="dir_b3fb3dff1352102813414bcd2b744bd9">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Output</innerdir>
+    <innerdir refid="dir_70549cc05338e637d10ed55ad4f23df0">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain</innerdir>
+    <innerdir refid="dir_3d68c1b6e447782004437418afce4682">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Texture</innerdir>
+    <innerdir refid="dir_5eb87ff2c6bf84fce1be679c705687e2">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Tiling</innerdir>
+    <innerdir refid="dir_6fee260825180bc3c7b08bfb0f87dd08">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Transforms</innerdir>
+    <innerdir refid="dir_d295ae633f33dfb73eeb3e35deecf3a3">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Wear</innerdir>
+    <innerfile refid="_blueprint_node_8cs">BlueprintNode.cs</innerfile>
+    <innerfile refid="_compute_shader_node_8cs">ComputeShaderNode.cs</innerfile>
+    <innerfile refid="_debug_node_8cs">DebugNode.cs</innerfile>
+    <innerfile refid="_external_output_node_8cs">ExternalOutputNode.cs</innerfile>
+    <innerfile refid="_fixed_shader_node_8cs">FixedShaderNode.cs</innerfile>
+    <innerfile refid="_genesis_node_8cs">GenesisNode.cs</innerfile>
+    <innerfile refid="_gradient_settings_8cs">GradientSettings.cs</innerfile>
+    <innerfile refid="_i_use_custom_render_texture_processing_8cs">IUseCustomRenderTextureProcessing.cs</innerfile>
+    <innerfile refid="_material_texture_settings_8cs">MaterialTextureSettings.cs</innerfile>
+    <innerfile refid="_nodes_2_node_theme_8cs">NodeTheme.cs</innerfile>
+    <innerfile refid="_output_node_8cs">OutputNode.cs</innerfile>
+    <innerfile refid="_output_texture_setttings_8cs">OutputTextureSetttings.cs</innerfile>
+    <innerfile refid="_shader_node_8cs">ShaderNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/"/>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,0 @@
-<map id="Supercluster.KDTree.HyperRect.Infinite" name="Supercluster.KDTree.HyperRect.Infinite">
-<area shape="rect" id="Node000001" title="Get a hyper rectangle which spans the entire implicit metric space." alt="" coords="246,5,428,48"/>
-<area shape="rect" id="Node000002" href="$class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g.html#a585e8c3820f6fdebfc4186e35641a373" title="Finds the nearest neighbors in the KDTree&lt;TNode&gt; of the given point ." alt="" coords="5,5,198,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,27,198,29,198,24,233,26"/>
-</map>

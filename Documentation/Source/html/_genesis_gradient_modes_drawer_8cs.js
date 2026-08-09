@@ -1,4 +1,0 @@
-var _genesis_gradient_modes_drawer_8cs =
-[
-    [ "AhahGames.GenesisNoise.PropertyDrawers.GenesisGradientTypeDrawer", "class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer.html", "class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_gradient_type_drawer" ]
-];

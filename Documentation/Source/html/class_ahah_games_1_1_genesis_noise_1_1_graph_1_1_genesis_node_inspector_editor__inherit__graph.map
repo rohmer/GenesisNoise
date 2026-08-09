@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.GenesisNodeInspectorEditor" name="AhahGames.GenesisNoise.Graph.GenesisNodeInspectorEditor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,171,228,213"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_node_inspector_object_editor.html" title="Custom editor of the node inspector, you can inherit from this class to customize your node inspector..." alt="" coords="14,80,219,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,136,119,171,114,169,115,140"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="54,5,179,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,45,119,80,114,79,115,50"/>
-</map>

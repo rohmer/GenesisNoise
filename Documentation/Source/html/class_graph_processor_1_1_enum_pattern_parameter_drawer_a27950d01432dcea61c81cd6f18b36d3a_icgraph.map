@@ -1,8 +1,0 @@
-<map id="GraphProcessor.EnumPatternParameterDrawer.SyncSerializedEnumFields" name="GraphProcessor.EnumPatternParameterDrawer.SyncSerializedEnumFields">
-<area shape="rect" id="Node000001" title=" " alt="" coords="567,27,781,85"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_enum_pattern_parameter_drawer.html#a13e94bda67f3b0caf8d62ea60cad1161" title=" " alt="" coords="293,5,519,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="549,43,519,42,519,36,554,43"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_enum_pattern_parameter_drawer.html#a610908b8c32c0931bcc2d77767aa2813" title=" " alt="" coords="5,35,245,77"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="549,60,519,63,293,63,245,62,245,57,293,57,519,57,554,59"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="274,40,245,46,245,41,280,40"/>
-</map>

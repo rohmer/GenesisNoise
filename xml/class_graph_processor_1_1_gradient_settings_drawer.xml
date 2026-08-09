@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_gradient_settings_drawer" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::GradientSettingsDrawer</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_exposed_parameter_settings_drawer" prot="public" virt="non-virtual">GraphProcessor.ExposedParameterSettingsDrawer</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_gradient_settings_drawer_1a0109654e97f90ac6f5ad7df16cd82b29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override VisualElement</type>
+        <definition>override VisualElement GraphProcessor.GradientSettingsDrawer.CreatePropertyGUI</definition>
+        <argsstring>(SerializedProperty settingsProperty)</argsstring>
+        <name>CreatePropertyGUI</name>
+        <qualifiedname>GraphProcessor.GradientSettingsDrawer.CreatePropertyGUI</qualifiedname>
+        <param>
+          <type>SerializedProperty</type>
+          <declname>settingsProperty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="531" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="531" bodyend="539"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.GradientSettingsDrawer</label>
+        <link refid="class_graph_processor_1_1_gradient_settings_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameterSettingsDrawer</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_settings_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.GradientSettingsDrawer</label>
+        <link refid="class_graph_processor_1_1_gradient_settings_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameterSettingsDrawer</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_settings_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>PropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" line="529" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/ExposedParameterDrawer.cs" bodystart="530" bodyend="540"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_exposed_parameter_settings_drawer_1a2243e6f9e6cc038eeedc11567d9f97a0" prot="protected" virt="non-virtual"><scope>GraphProcessor::GradientSettingsDrawer</scope><name>CreateHideInInspectorField</name></member>
+      <member refid="class_graph_processor_1_1_gradient_settings_drawer_1a0109654e97f90ac6f5ad7df16cd82b29" prot="public" virt="non-virtual"><scope>GraphProcessor::GradientSettingsDrawer</scope><name>CreatePropertyGUI</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_settings_drawer_1a72caad7ef6a01126aa4b7a763e8ce166" prot="protected" virt="non-virtual"><scope>GraphProcessor::GradientSettingsDrawer</scope><name>CreateSettingsField</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_settings_drawer_1a46787122a7a5e014079be6fa46b44eb2" prot="protected" virt="non-virtual"><scope>GraphProcessor::GradientSettingsDrawer</scope><name>GetGraph</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_settings_drawer_1a68a316b73292efc3ac2c441896ef435c" prot="protected" virt="non-virtual"><scope>GraphProcessor::GradientSettingsDrawer</scope><name>GetParameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

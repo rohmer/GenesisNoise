@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::TerrainBiomeDecorationNode::DecorationPlacement</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1ac77da948206e7aad65be816819e1ce80" prot="package" static="no" mutable="no">
+        <type>readonly BiomeDecoration</type>
+        <definition>readonly BiomeDecoration AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.Decoration</definition>
+        <argsstring></argsstring>
+        <name>Decoration</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.Decoration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" line="378" column="47" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1a1b3ecc303f84e95e09780176fce49801" prot="package" static="no" mutable="no">
+        <type>readonly IReadOnlyList&lt; GameObject &gt;</type>
+        <definition>readonly IReadOnlyList&lt;GameObject&gt; AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.Prefabs</definition>
+        <argsstring></argsstring>
+        <name>Prefabs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.Prefabs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" line="379" column="45" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1a7082c6b121b5a454261dc3257b3401ad" prot="package" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.MapIndex</definition>
+        <argsstring></argsstring>
+        <name>MapIndex</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.MapIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" line="380" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1a5f426266fea651988f3647b50cece99b" prot="package" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.ChannelIndex</definition>
+        <argsstring></argsstring>
+        <name>ChannelIndex</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.ChannelIndex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" line="381" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" bodystart="381" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1ae406b6140cd46fcbf7705743e57a0c6a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.DecorationPlacement</definition>
+        <argsstring>(BiomeDecoration decoration, IReadOnlyList&lt; GameObject &gt; prefabs, int mapIndex, int channelIndex)</argsstring>
+        <name>DecorationPlacement</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement.DecorationPlacement</qualifiedname>
+        <param>
+          <type>BiomeDecoration</type>
+          <declname>decoration</declname>
+        </param>
+        <param>
+          <type>IReadOnlyList&lt; GameObject &gt;</type>
+          <declname>prefabs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mapIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channelIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" line="383" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" bodystart="383" bodyend="389"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.DecorationPlacement</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Decoration</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.BiomeDecoration</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" line="376" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Terrain/Generator/TerrainBiomeDecorationNode.cs" bodystart="377" bodyend="390"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1a5f426266fea651988f3647b50cece99b" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainBiomeDecorationNode::DecorationPlacement</scope><name>ChannelIndex</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1ac77da948206e7aad65be816819e1ce80" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainBiomeDecorationNode::DecorationPlacement</scope><name>Decoration</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1ae406b6140cd46fcbf7705743e57a0c6a" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainBiomeDecorationNode::DecorationPlacement</scope><name>DecorationPlacement</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1a7082c6b121b5a454261dc3257b3401ad" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainBiomeDecorationNode::DecorationPlacement</scope><name>MapIndex</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node_1_1_decoration_placement_1a1b3ecc303f84e95e09780176fce49801" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::TerrainBiomeDecorationNode::DecorationPlacement</scope><name>Prefabs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

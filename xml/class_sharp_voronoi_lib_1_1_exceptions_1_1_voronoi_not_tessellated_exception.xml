@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_not_tessellated_exception" kind="class" language="C#" prot="public">
+    <compoundname>SharpVoronoiLib::Exceptions::VoronoiNotTessellatedException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_not_tessellated_exception_1a8a3417b88da6db5dfc7b348da1d1a398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SharpVoronoiLib.Exceptions.VoronoiNotTessellatedException.VoronoiNotTessellatedException</definition>
+        <argsstring>()</argsstring>
+        <name>VoronoiNotTessellatedException</name>
+        <qualifiedname>SharpVoronoiLib.Exceptions.VoronoiNotTessellatedException.VoronoiNotTessellatedException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiNotTessellatedException.cs" line="8" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiNotTessellatedException.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.Exceptions.VoronoiNotTessellatedException</label>
+        <link refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_not_tessellated_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>SharpVoronoiLib.Exceptions.VoronoiNotTessellatedException</label>
+        <link refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_not_tessellated_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiNotTessellatedException.cs" line="6" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiNotTessellatedException.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_not_tessellated_exception_1a8a3417b88da6db5dfc7b348da1d1a398" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::Exceptions::VoronoiNotTessellatedException</scope><name>VoronoiNotTessellatedException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

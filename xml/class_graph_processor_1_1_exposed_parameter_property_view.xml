@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_exposed_parameter_property_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::ExposedParameterPropertyView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">VisualElement</basecompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_exposed_parameter_property_view_1a8c7fa909a978f6e69a0c6d352ae7f9cc" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+        <definition>BaseGraphView GraphProcessor.ExposedParameterPropertyView.baseGraphView</definition>
+        <argsstring></argsstring>
+        <name>baseGraphView</name>
+        <qualifiedname>GraphProcessor.ExposedParameterPropertyView.baseGraphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" line="7" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_graph_processor_1_1_exposed_parameter_property_view_1af1d25f7f03a8a9df35628da4ce788ef7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+        <definition>ExposedParameter GraphProcessor.ExposedParameterPropertyView.parameter</definition>
+        <argsstring></argsstring>
+        <name>parameter</name>
+        <qualifiedname>GraphProcessor.ExposedParameterPropertyView.parameter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" line="9" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_graph_processor_1_1_exposed_parameter_property_view_1a80953488ae3f1226019e6ec127f06b4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>Toggle</type>
+        <definition>Toggle GraphProcessor.ExposedParameterPropertyView.hideInInspector</definition>
+        <argsstring></argsstring>
+        <name>hideInInspector</name>
+        <qualifiedname>GraphProcessor.ExposedParameterPropertyView.hideInInspector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" line="11" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_exposed_parameter_property_view_1a05325e16c92a9eb3ad08b632978cee70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.ExposedParameterPropertyView.ExposedParameterPropertyView</definition>
+        <argsstring>(BaseGraphView graphView, ExposedParameter param)</argsstring>
+        <name>ExposedParameterPropertyView</name>
+        <qualifiedname>GraphProcessor.ExposedParameterPropertyView.ExposedParameterPropertyView</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter" kindref="compound">ExposedParameter</ref></type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" line="13" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" bodystart="13" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.ExposedParameterPropertyView</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_property_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.ExposedParameterPropertyView</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_property_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>baseGraphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphView</label>
+      </node>
+      <node id="5">
+        <label>IDisposable</label>
+      </node>
+      <node id="10">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="8">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="7">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="2">
+        <label>VisualElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" line="5" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/ExposedParameterPropertyView.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_exposed_parameter_property_view_1a8c7fa909a978f6e69a0c6d352ae7f9cc" prot="protected" virt="non-virtual"><scope>GraphProcessor::ExposedParameterPropertyView</scope><name>baseGraphView</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_property_view_1a05325e16c92a9eb3ad08b632978cee70" prot="public" virt="non-virtual"><scope>GraphProcessor::ExposedParameterPropertyView</scope><name>ExposedParameterPropertyView</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_property_view_1a80953488ae3f1226019e6ec127f06b4c" prot="public" virt="non-virtual"><scope>GraphProcessor::ExposedParameterPropertyView</scope><name>hideInInspector</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_property_view_1af1d25f7f03a8a9df35628da4ce788ef7" prot="public" virt="non-virtual"><scope>GraphProcessor::ExposedParameterPropertyView</scope><name>parameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

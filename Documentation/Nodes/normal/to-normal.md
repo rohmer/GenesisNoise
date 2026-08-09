@@ -33,7 +33,7 @@ Takes an input texture and converts it to a normal.  Usually used on a height ma
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f641f290-151b-47e1-882b-8385d52f1ed3 | |
+| GUID | String | 018d6b72-e431-47d6-8139-ee4852d138b8 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseEdgeCandidate</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1af8427979f55db6363e665dca8e1d04a8" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.A</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1202" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1a417552d545994e7cb5423516733c61d7" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.B</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1203" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1203" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1a3032ea2276db6404afdfbbfa35f4f0eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1204" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1204" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1aa1d3ab74d94ea04a992e4b3dc40fb5f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.CollapseEdgeCandidate</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>CollapseEdgeCandidate</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseEdgeCandidate.CollapseEdgeCandidate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1206" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1206" bodyend="1210"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1200" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1201" bodyend="1211"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1af8427979f55db6363e665dca8e1d04a8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseEdgeCandidate</scope><name>A</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1a417552d545994e7cb5423516733c61d7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseEdgeCandidate</scope><name>B</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1aa1d3ab74d94ea04a992e4b3dc40fb5f1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseEdgeCandidate</scope><name>CollapseEdgeCandidate</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_edge_candidate_1a3032ea2276db6404afdfbbfa35f4f0eb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseEdgeCandidate</scope><name>IsValid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

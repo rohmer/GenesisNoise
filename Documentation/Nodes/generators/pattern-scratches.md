@@ -54,7 +54,7 @@ Output:
 | Gap Size | Range | 0.050 | Gap size, UV units |
 | Dash Softness | Range | 0.05 | Sets the softness of the edge |
 | Dash jitter | Range | 0.075 | Per stripe random phase jitter |
-| Intensity | Range | 0.5 | Defines the mixture intensity |
+| Intensity | Range | 0.5 | Defines the genesis intensity |
 | Color | Color | (0.7, 0.7, 0.7, 1) | The color of the scratches |
 | Seed | int | 52 | Randomization seed |
 

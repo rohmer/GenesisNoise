@@ -1,0 +1,1876 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::Scatter</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node" prot="public" virt="non-virtual">AhahGames.GenesisNoise.Nodes.ComputeShaderNode</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a532a3c30d15656c9121a12c2081f641a" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Sequence</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.Sequence</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a532a3c30d15656c9121a12c2081f641aa5174d1309f275ba6f275db3af9eb3e18" prot="public">
+          <name>Grid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a532a3c30d15656c9121a12c2081f641aa2187e1021a911b3807cc1bea2eb1a9ca" prot="public">
+          <name>Stack</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a532a3c30d15656c9121a12c2081f641aa8c6d22ff6f63fc6711cfa315cb80b314" prot="public">
+          <name>R2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a532a3c30d15656c9121a12c2081f641aa5a4741592364ee6a2ddac6d2b2b787c4" prot="public">
+          <name>FibonacciSpiral</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="31" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="32" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad85648a92746aa0384e4b9a367428b71" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RotationMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.RotationMode</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad85648a92746aa0384e4b9a367428b71a4457d440870ad6d42bab9082d9bf9b61" prot="public">
+          <name>Fixed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad85648a92746aa0384e4b9a367428b71a9dd1e9dfea4e31bc7556357bae9c21dc" prot="public">
+          <name>RandomBetween</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad85648a92746aa0384e4b9a367428b71a47f90220f00a99a8bfeef3f6eeefed34" prot="public">
+          <name>TowardsCenter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="36" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6a9f0f427019f0d760e172803219d4a2" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ScaleMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.ScaleMode</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6a9f0f427019f0d760e172803219d4a2a4457d440870ad6d42bab9082d9bf9b61" prot="public">
+          <name>Fixed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6a9f0f427019f0d760e172803219d4a2a9dd1e9dfea4e31bc7556357bae9c21dc" prot="public">
+          <name>RandomBetween</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="41" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Operator</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.Operator</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a09ac609fcdb514c9adca34e7f97b4ac4" prot="public">
+          <name>Blend</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a35f7a4d0017cc8c4ea4c3691caf1fdfa" prot="public">
+          <name>PreMultiplied</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a3f7b3d8ee7bf0d542bd50821c083888f" prot="public">
+          <name>Additive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a4f0907eb98e23f9f418110589812de69" prot="public">
+          <name>SoftAdditive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a34d485a1469ebe369d365350a8c87e88" prot="public">
+          <name>Subtractive</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a0d73bf5decac382ed6a8adc3838fd7e2" prot="public">
+          <name>Multiplicative</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a6a061313d22e51e0f25b7cd4dc065233" prot="public">
+          <name>Max</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542a78d811e98514cd165dda532286610fd2" prot="public">
+          <name>Min</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="46" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>OutputChannelMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.OutputChannelMode</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1aefa3aded1a4e495c31ce6bdccfb2ce29" prot="public">
+          <name>InputR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1a48a6c42bfb2ba781118142bc7bd92991" prot="public">
+          <name>InputG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1a1132add87903bb744d0a1e389a3b4dde" prot="public">
+          <name>InputB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1ae59d24a68964a3d45d5f995bf5428c68" prot="public">
+          <name>InputA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1a692952f19978eb2698f37b32634f85c0" prot="public">
+          <name>UV_X</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1a824260529b3026cf69b09af867e6447e" prot="public">
+          <name>UV_Y</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1a278224dcf8d6d5a6923b6a5e88d8f66b" prot="public">
+          <name>RandomUniformColor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="51" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="52" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36db855cda95820f2c8c404a762a1786" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InputDepthChannel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.InputDepthChannel</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36db855cda95820f2c8c404a762a1786ae1e1d3d40573127e9ee0480caf1283d6" prot="public">
+          <name>R</name>
+          <initializer>= OutputChannelMode.InputR</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36db855cda95820f2c8c404a762a1786adfcf28d0734569a6a693bc8194de62bf" prot="public">
+          <name>G</name>
+          <initializer>= OutputChannelMode.InputG</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36db855cda95820f2c8c404a762a1786a9d5ed678fe57bcca610140957afab571" prot="public">
+          <name>B</name>
+          <initializer>= OutputChannelMode.InputB</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36db855cda95820f2c8c404a762a1786a7fc56270e7a70fa81a5935b72eacbe29" prot="public">
+          <name>A</name>
+          <initializer>= OutputChannelMode.InputA</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="58" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="59" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6e74f099accf24b1c03638bcbb3bff92" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Mode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.Mode</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6e74f099accf24b1c03638bcbb3bff92a51f2b7b14433aa22c67d1f4fc18943cd" prot="public">
+          <name>Sprite</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6e74f099accf24b1c03638bcbb3bff92a492b2d4d9dc88704a7127b1d6fe3883b" prot="public">
+          <name>HeightTile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="66" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a02a9877fdd14830f0db2c7991913c38e" prot="public" static="no" mutable="no">
+        <type>List&lt; Texture &gt;</type>
+        <definition>List&lt;Texture&gt; AhahGames.GenesisNoise.Nodes.Scatter.inputTextures</definition>
+        <argsstring></argsstring>
+        <name>inputTextures</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.inputTextures</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="73" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a14fbe6f4913617d658e7cbe24e4307c6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Scatter.seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.seed</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="76" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a602b02e33ae2f537049ba310c797af58" prot="public" static="no" mutable="no">
+        <type>Texture</type>
+        <definition>Texture AhahGames.GenesisNoise.Nodes.Scatter.output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.output</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="79" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae3e628e4920b41ae97bc7f8b6511ee77" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Scatter.maxSplatCount</definition>
+        <argsstring></argsstring>
+        <name>maxSplatCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.maxSplatCount</qualifiedname>
+        <initializer>= 256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="82" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a8866d3fd15cf1707ef148acadfab227a" prot="public" static="no" mutable="no">
+        <type>Mode</type>
+        <definition>Mode AhahGames.GenesisNoise.Nodes.Scatter.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="84" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36d06aaf485c20dac13468a893ae3c90" prot="public" static="no" mutable="no">
+        <type>Sequence</type>
+        <definition>Sequence AhahGames.GenesisNoise.Nodes.Scatter.sequence</definition>
+        <argsstring></argsstring>
+        <name>sequence</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.sequence</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="86" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5ed258461f549c85be81ec2cab977d26" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.stackPosition</definition>
+        <argsstring></argsstring>
+        <name>stackPosition</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.stackPosition</qualifiedname>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="90" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1af301f61077b453ba945812cce1cd77c6" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 AhahGames.GenesisNoise.Nodes.Scatter.gridScale</definition>
+        <argsstring></argsstring>
+        <name>gridScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.gridScale</qualifiedname>
+        <initializer>= new(8, 8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="94" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a872f3cb3a4f7901bdb09bc1fedeb3ea4" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 AhahGames.GenesisNoise.Nodes.Scatter.gridCram</definition>
+        <argsstring></argsstring>
+        <name>gridCram</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.gridCram</qualifiedname>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="96" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a090259b70c7e3e56d9b13e8d93f1dc73" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 AhahGames.GenesisNoise.Nodes.Scatter.gridShift</definition>
+        <argsstring></argsstring>
+        <name>gridShift</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.gridShift</qualifiedname>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="98" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a3479417289b9d5a658e161537547da1b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.Scatter.lambda</definition>
+        <argsstring></argsstring>
+        <name>lambda</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.lambda</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="102" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad8d460de50e8c54c60b6d2996a1556cf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.Scatter.rotation</definition>
+        <argsstring></argsstring>
+        <name>rotation</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.rotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="106" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ab1341d76222b9b8f1f8a0e4a70d74caa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.Scatter.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.radius</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="108" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ace1266299fe6d8ea430e150718f8d933" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AhahGames.GenesisNoise.Nodes.Scatter.goldenRatio</definition>
+        <argsstring></argsstring>
+        <name>goldenRatio</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.goldenRatio</qualifiedname>
+        <initializer>= 2.399999f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="110" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa83c27564586636bf002528142b14f71" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.positionOffset</definition>
+        <argsstring></argsstring>
+        <name>positionOffset</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.positionOffset</qualifiedname>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="114" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a72220439660e176382ea592f300ac760" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.positionJitter</definition>
+        <argsstring></argsstring>
+        <name>positionJitter</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.positionJitter</qualifiedname>
+        <initializer>= Vector3.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="116" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a192e99f7ec8a703c2474a1c103cf0c1b" prot="public" static="no" mutable="no">
+        <type>RotationMode</type>
+        <definition>RotationMode AhahGames.GenesisNoise.Nodes.Scatter.rotationMode</definition>
+        <argsstring></argsstring>
+        <name>rotationMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.rotationMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="120" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6a79993e1f12f5289ef037aa3cfbcd4f" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.fixedAngles</definition>
+        <argsstring></argsstring>
+        <name>fixedAngles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.fixedAngles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="122" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a372349d959600bae9b230ddd9cc68a1b" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.minAngles</definition>
+        <argsstring></argsstring>
+        <name>minAngles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.minAngles</qualifiedname>
+        <initializer>= new(-180, -180, -180)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="124" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad894c144523bdf0e6edaa1bae91e9d0d" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.maxAngles</definition>
+        <argsstring></argsstring>
+        <name>maxAngles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.maxAngles</qualifiedname>
+        <initializer>= new(180, 180, 180)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="126" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad0ca7eddbba1250770c52bc57ddbe7a4" prot="public" static="no" mutable="no">
+        <type>ScaleMode</type>
+        <definition>ScaleMode AhahGames.GenesisNoise.Nodes.Scatter.scaleMode</definition>
+        <argsstring></argsstring>
+        <name>scaleMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.scaleMode</qualifiedname>
+        <initializer>= ScaleMode.Fixed</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="129" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aed8272ef86dba6094217df7ceedb5e6b" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.fixedScale</definition>
+        <argsstring></argsstring>
+        <name>fixedScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.fixedScale</qualifiedname>
+        <initializer>= Vector3.one</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="132" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae1cf563a5c1fba0db39f4918cc145258" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.minScale</definition>
+        <argsstring></argsstring>
+        <name>minScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.minScale</qualifiedname>
+        <initializer>= new(0.5f, 0.5f, 0.5f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="134" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ac3860b96e5a8f7277ef3406a5798715a" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.Scatter.maxScale</definition>
+        <argsstring></argsstring>
+        <name>maxScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.maxScale</qualifiedname>
+        <initializer>= new(1.5f, 1.5f, 1.5f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="136" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa1b66f3d21a127801e8d2548742d5592" prot="public" static="no" mutable="no">
+        <type>Operator</type>
+        <definition>Operator AhahGames.GenesisNoise.Nodes.Scatter.blendOperator</definition>
+        <argsstring></argsstring>
+        <name>blendOperator</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.blendOperator</qualifiedname>
+        <initializer>= Operator.Blend</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="139" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad55d736bc623a88ae726185807b841f5" prot="public" static="no" mutable="no">
+        <type>InputDepthChannel</type>
+        <definition>InputDepthChannel AhahGames.GenesisNoise.Nodes.Scatter.inputDepth</definition>
+        <argsstring></argsstring>
+        <name>inputDepth</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.inputDepth</qualifiedname>
+        <initializer>= InputDepthChannel.R</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="142" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad2a2c987e270df344bf2c4bef5b49cc6" prot="public" static="no" mutable="no">
+        <type>CompareFunction</type>
+        <definition>CompareFunction AhahGames.GenesisNoise.Nodes.Scatter.depthTest</definition>
+        <argsstring></argsstring>
+        <name>depthTest</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.depthTest</qualifiedname>
+        <initializer>= CompareFunction.LessEqual</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="157" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a7aaded86a18cf356f2cc3f801a91fb89" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.Scatter.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="159" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a21a38d198bd756956a5554376bca8687" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.Scatter.NodeGroup</definition>
+        <argsstring></argsstring>
+        <name>NodeGroup</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.NodeGroup</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="160" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a1f26b847404acf4e6cb1407596049850" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string AhahGames.GenesisNoise.Nodes.Scatter.computeShaderResourcePath</definition>
+        <argsstring></argsstring>
+        <name>computeShaderResourcePath</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.computeShaderResourcePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="161" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a3bf2efd0619b47cac7d4d5f37d3cf14e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override List&lt; OutputDimension &gt;</type>
+        <definition>override List&lt;OutputDimension&gt; AhahGames.GenesisNoise.Nodes.Scatter.supportedDimensions</definition>
+        <argsstring></argsstring>
+        <name>supportedDimensions</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.supportedDimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="162" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a30188f5b74300f3ee80df537cf9ecfd8" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings" kindref="compound">GenesisNoiseSettings</ref></type>
+        <definition>override GenesisNoiseSettings AhahGames.GenesisNoise.Nodes.Scatter.defaultSettings</definition>
+        <argsstring></argsstring>
+        <name>defaultSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.defaultSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="166" column="49" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6e00a23a2b1c2495bfa8d12315e9e42c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.Scatter.showDefaultInspector</definition>
+        <argsstring></argsstring>
+        <name>showDefaultInspector</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.showDefaultInspector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="167" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5c41b7f5372de8c49eca014e7247804b" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.Scatter.tempRenderTextureHasDepthBuffer</definition>
+        <argsstring></argsstring>
+        <name>tempRenderTextureHasDepthBuffer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.tempRenderTextureHasDepthBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="168" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a63476be4549fa274b582257cb960b722" prot="private" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer AhahGames.GenesisNoise.Nodes.Scatter.argumentBuffer</definition>
+        <argsstring></argsstring>
+        <name>argumentBuffer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.argumentBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="170" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a60f0d3df7884c5808dba121b88f78bb4" prot="private" static="no" mutable="no">
+        <type>ComputeBuffer</type>
+        <definition>ComputeBuffer AhahGames.GenesisNoise.Nodes.Scatter.splatPointsBuffer</definition>
+        <argsstring></argsstring>
+        <name>splatPointsBuffer</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.splatPointsBuffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="171" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1afe3187b42c0da2d5897ede54c80cd502" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Scatter.generatePointKernel</definition>
+        <argsstring></argsstring>
+        <name>generatePointKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.generatePointKernel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="173" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5f9fb13193b81a798590c4b831fb26e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.Scatter.previewKernel</definition>
+        <argsstring></argsstring>
+        <name>previewKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.previewKernel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="174" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a44a6c9bdecc480805c59ae9d681ed013" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] AhahGames.GenesisNoise.Nodes.Scatter.indirectArguments</definition>
+        <argsstring></argsstring>
+        <name>indirectArguments</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.indirectArguments</qualifiedname>
+        <initializer>= new int[5]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="175" column="13" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a94bbfd5fee9a9a867a3147c1de473db3" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._Sequence</definition>
+        <argsstring></argsstring>
+        <name>_Sequence</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._Sequence</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_Sequence&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="177" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1af7506f7aba8760ecd765dbb7cf8fee27" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._RotationMode</definition>
+        <argsstring></argsstring>
+        <name>_RotationMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._RotationMode</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_RotationMode&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="178" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a19225d7c066f4947b9a5e14e9095ea2e" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._ScaleMode</definition>
+        <argsstring></argsstring>
+        <name>_ScaleMode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._ScaleMode</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_ScaleMode&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="179" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a17f1d69e9970f97ebbc75f128b4df623" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._SplatPoints</definition>
+        <argsstring></argsstring>
+        <name>_SplatPoints</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._SplatPoints</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_SplatPoints&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="180" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a9de573731d926b84f2eb559b8828cdc8" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._StackPosition</definition>
+        <argsstring></argsstring>
+        <name>_StackPosition</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._StackPosition</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_StackPosition&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="181" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aba0407510d2e26f09136e53410c19005" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._GridSize</definition>
+        <argsstring></argsstring>
+        <name>_GridSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._GridSize</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_GridSize&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="182" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a7ae1b3189bf40a619c286788ba9911fc" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._GridCram</definition>
+        <argsstring></argsstring>
+        <name>_GridCram</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._GridCram</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_GridCram&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="183" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1add78f7044e2b56d89a55496f84bd2123" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._GridShift</definition>
+        <argsstring></argsstring>
+        <name>_GridShift</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._GridShift</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_GridShift&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="184" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a01e716912c30f8d89e599f295bc33b49" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._Lambda</definition>
+        <argsstring></argsstring>
+        <name>_Lambda</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._Lambda</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_Lambda&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="185" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad531ae46969a4f43048c755e74efcaf0" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._FibonacciRotation</definition>
+        <argsstring></argsstring>
+        <name>_FibonacciRotation</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._FibonacciRotation</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_FibonacciRotation&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="186" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1abb2820c829777aba21b6154c692faf70" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._Radius</definition>
+        <argsstring></argsstring>
+        <name>_Radius</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._Radius</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_Radius&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="187" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ac92f845611a8e8439a2d9c53743451c3" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._GoldenRatio</definition>
+        <argsstring></argsstring>
+        <name>_GoldenRatio</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._GoldenRatio</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_GoldenRatio&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="188" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa2f40dc3cd7539a5e40896fbe5f17203" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._FixedAngles</definition>
+        <argsstring></argsstring>
+        <name>_FixedAngles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._FixedAngles</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_FixedAngles&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="189" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a4271d9176ddbfc759ebec56fd7785657" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._MinAngles</definition>
+        <argsstring></argsstring>
+        <name>_MinAngles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._MinAngles</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_MinAngles&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="190" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a50e597c0cb005884fac09a3ad5f36184" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._MaxAngles</definition>
+        <argsstring></argsstring>
+        <name>_MaxAngles</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._MaxAngles</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_MaxAngles&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="191" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a08ff2c76bec1dcd4862a941569e591f5" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._FixedScale</definition>
+        <argsstring></argsstring>
+        <name>_FixedScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._FixedScale</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_FixedScale&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="192" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1af1e9178ce002a53f032f210bb9f79fdd" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._MinScale</definition>
+        <argsstring></argsstring>
+        <name>_MinScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._MinScale</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_MinScale&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="193" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aab86221841b4904d2f2b17b43a94d5e6" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._MaxScale</definition>
+        <argsstring></argsstring>
+        <name>_MaxScale</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._MaxScale</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_MaxScale&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="194" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa03871f4bab8be4734a888c0b8ab046a" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._PositionJitter</definition>
+        <argsstring></argsstring>
+        <name>_PositionJitter</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._PositionJitter</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_PositionJitter&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="195" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ab80951e22b93737fe4143a33aa586586" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._PositionOffset</definition>
+        <argsstring></argsstring>
+        <name>_PositionOffset</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._PositionOffset</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_PositionOffset&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="196" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1abd681a3d8276834c3a66dd201d3e1cc8" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._Time</definition>
+        <argsstring></argsstring>
+        <name>_Time</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._Time</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_Time&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="197" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a92bc576b1c69a1ab2c2d4e05a64742a3" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._ElementCount</definition>
+        <argsstring></argsstring>
+        <name>_ElementCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._ElementCount</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_ElementCount&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="198" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aee12bbacf0bdc68423f04bd5369cdb80" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._TextureCount</definition>
+        <argsstring></argsstring>
+        <name>_TextureCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._TextureCount</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_TextureCount&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="199" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aeabaf5c5245f9b133c99b95d9c835cad" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._SrcBlend</definition>
+        <argsstring></argsstring>
+        <name>_SrcBlend</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._SrcBlend</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_SrcBlend&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="200" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a57811f8725eae3c7bb82ad410bb310cd" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._ZTest</definition>
+        <argsstring></argsstring>
+        <name>_ZTest</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._ZTest</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_ZTest&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="201" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a78cc6fe2e09e62f6a0c3c9b42d1d134d" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._DstBlend</definition>
+        <argsstring></argsstring>
+        <name>_DstBlend</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._DstBlend</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_DstBlend&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="202" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aab749d648878a08ead3077ee7df9d639" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._BlendOp</definition>
+        <argsstring></argsstring>
+        <name>_BlendOp</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._BlendOp</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_BlendOp&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="203" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a8965ab74d3b98abc1ef15d62352f57d8" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeR</definition>
+        <argsstring></argsstring>
+        <name>_ChannelModeR</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeR</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_ChannelModeR&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="204" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa2de3003bc2c0cdd70c741e0a8462d6d" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeG</definition>
+        <argsstring></argsstring>
+        <name>_ChannelModeG</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeG</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_ChannelModeG&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="205" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a1ac30d6640cae75272bff3ea53df1cb7" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeB</definition>
+        <argsstring></argsstring>
+        <name>_ChannelModeB</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeB</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_ChannelModeB&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="206" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae523776c764c385d4d353a4f1fde9410" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeA</definition>
+        <argsstring></argsstring>
+        <name>_ChannelModeA</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._ChannelModeA</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_ChannelModeA&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="207" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a87b5b0280bdd77030f80e52e540d9876" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._Mode</definition>
+        <argsstring></argsstring>
+        <name>_Mode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._Mode</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_Mode&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="208" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5aaeb30de03aa76fad002c4a015dfe1d" prot="private" static="yes" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.Scatter._Seed</definition>
+        <argsstring></argsstring>
+        <name>_Seed</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter._Seed</qualifiedname>
+        <initializer>= Shader.PropertyToID(&quot;_Seed&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="209" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="209" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6037c980542d65f76786b641c62bfd6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_graph_processor_1_1_port_data" kindref="compound">PortData</ref> &gt;</type>
+        <definition>IEnumerable&lt; PortData &gt; AhahGames.GenesisNoise.Nodes.Scatter.CustomInputTexturePortData</definition>
+        <argsstring>(List&lt; SerializableEdge &gt; edges)</argsstring>
+        <name>CustomInputTexturePortData</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.CustomInputTexturePortData</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref> &gt;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="212" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="212" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a4f7a55ea9200d5ed5a4a125cb9c7be83" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.Scatter.PullInputs</definition>
+        <argsstring>(List&lt; SerializableEdge &gt; inputEdges)</argsstring>
+        <name>PullInputs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.PullInputs</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref> &gt;</type>
+          <declname>inputEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="224" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="224" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ac4614f3b5f233679cdf3a9f1d6e1fc76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.Scatter.SetComputeArgs</definition>
+        <argsstring>(CommandBuffer cmd, int safeMaxSplatCount)</argsstring>
+        <name>SetComputeArgs</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.SetComputeArgs</qualifiedname>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>safeMaxSplatCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="308" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="308" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae7df4fc8464fd5042d31dc2408ce9665" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.Scatter.SetRenderStates</definition>
+        <argsstring>(Material mat)</argsstring>
+        <name>SetRenderStates</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.SetRenderStates</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>mat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="335" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="335" bodyend="417"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a1137e7e018d9621f24ab2fff743c1b5f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_graph_processor_1_1_port_data" kindref="compound">PortData</ref> &gt;</type>
+        <definition>IEnumerable&lt; PortData &gt; AhahGames.GenesisNoise.Nodes.Scatter.ChangeOutputPortType</definition>
+        <argsstring>(List&lt; SerializableEdge &gt; edges)</argsstring>
+        <name>ChangeOutputPortType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.ChangeOutputPortType</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref> &gt;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="241" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="241" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a20d2b548f43b46e8889966267d6ff9f6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Nodes.Scatter.Enable</definition>
+        <argsstring>()</argsstring>
+        <name>Enable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.Enable</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1ac48776addbc5323ae6ff42d9aeb71569">Enable</reimplements>
+        <briefdescription>
+<para>Called when the node is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="252" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="252" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6ea88066fc3938908ca1c77d923347d0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool AhahGames.GenesisNoise.Nodes.Scatter.ProcessNode</definition>
+        <argsstring>(CommandBuffer cmd)</argsstring>
+        <name>ProcessNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.ProcessNode</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae1f8726aacf29567700dd33e3a1c6077">ProcessNode</reimplements>
+        <param>
+          <type>CommandBuffer</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="263" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="263" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a3ac77dd16d6404cfb5bdfd1848054e94" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Nodes.Scatter.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.Scatter.Disable</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1a9f26ccb67550853247767a80711d88d3">Disable</reimplements>
+        <briefdescription>
+<para>Called when the node is disabled. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="419" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="419" bodyend="424"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.Scatter</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.ComputeShaderNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Nodes.Scatter</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>AhahGames.GenesisNoise.Graph.GenesisNoiseSettings</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>resolvedSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>AhahGames.GenesisNoise.Graph.VariableStorage</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage"/>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.Nodes.ComputeShaderNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>AhahGames.GenesisNoise.Nodes.GenesisNode</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>nodeVariables</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>childSettingsNode</edgelabel>
+          <edgelabel>parentSettingsNode</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseNode</label>
+        <link refid="class_graph_processor_1_1_base_node"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>inputPorts</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>outputPorts</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.NodeInputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_input_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.NodeOutputPortContainer</label>
+        <link refid="class_graph_processor_1_1_node_output_port_container"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>GraphProcessor.NodePortContainer</label>
+        <link refid="class_graph_processor_1_1_node_port_container"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="7">
+        <label>List&lt; NodePort &gt;</label>
+      </node>
+      <node id="10">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" line="28" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Operations/ScatterNode.cs" bodystart="29" bodyend="425"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aab749d648878a08ead3077ee7df9d639" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_BlendOp</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae523776c764c385d4d353a4f1fde9410" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_ChannelModeA</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a1ac30d6640cae75272bff3ea53df1cb7" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_ChannelModeB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa2de3003bc2c0cdd70c741e0a8462d6d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_ChannelModeG</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a8965ab74d3b98abc1ef15d62352f57d8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_ChannelModeR</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a78cc6fe2e09e62f6a0c3c9b42d1d134d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_DstBlend</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a92bc576b1c69a1ab2c2d4e05a64742a3" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_ElementCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad531ae46969a4f43048c755e74efcaf0" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_FibonacciRotation</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa2f40dc3cd7539a5e40896fbe5f17203" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_FixedAngles</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a08ff2c76bec1dcd4862a941569e591f5" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_FixedScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ac92f845611a8e8439a2d9c53743451c3" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_GoldenRatio</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a7ae1b3189bf40a619c286788ba9911fc" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_GridCram</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1add78f7044e2b56d89a55496f84bd2123" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_GridShift</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aba0407510d2e26f09136e53410c19005" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_GridSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a01e716912c30f8d89e599f295bc33b49" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_Lambda</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a50e597c0cb005884fac09a3ad5f36184" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_MaxAngles</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aab86221841b4904d2f2b17b43a94d5e6" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_MaxScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a4271d9176ddbfc759ebec56fd7785657" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_MinAngles</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1af1e9178ce002a53f032f210bb9f79fdd" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_MinScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a87b5b0280bdd77030f80e52e540d9876" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_Mode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa03871f4bab8be4734a888c0b8ab046a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_PositionJitter</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ab80951e22b93737fe4143a33aa586586" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_PositionOffset</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1abb2820c829777aba21b6154c692faf70" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_Radius</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1af7506f7aba8760ecd765dbb7cf8fee27" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_RotationMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a19225d7c066f4947b9a5e14e9095ea2e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_ScaleMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5aaeb30de03aa76fad002c4a015dfe1d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_Seed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a94bbfd5fee9a9a867a3147c1de473db3" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_Sequence</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a17f1d69e9970f97ebbc75f128b4df623" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_SplatPoints</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aeabaf5c5245f9b133c99b95d9c835cad" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_SrcBlend</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a9de573731d926b84f2eb559b8828cdc8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_StackPosition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aee12bbacf0bdc68423f04bd5369cdb80" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_TextureCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1abd681a3d8276834c3a66dd201d3e1cc8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_Time</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a57811f8725eae3c7bb82ad410bb310cd" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>_ZTest</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7f1a1bf16ba20ccb27380772ebb2d24e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>AddMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7a7f9b9e938983dd368f8775cd178fb6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>AddPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a76820a82d2b5147460416da975ecf161" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>afterProcessCleanup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a63476be4549fa274b582257cb960b722" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>argumentBuffer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a61a962da2016d81a28e54b0def60cb3a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>AssignMaterialPropertiesFromEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8f81412bbb2f0739a30067c3a58c2f36" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>BaseNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7e0756744579f7b061132c2476248ef9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>beforeProcessSetup</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa1b66f3d21a127801e8d2548742d5592" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>blendOperator</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7ef6e68115f35b239b9441759710f5fd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>canEditPreviewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1a48f6481adaa49e42ab617208703d6991" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>canProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1abaf6573d2bace3dcc07140b7b4e22742" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>CanResetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aed4da88d35a7ae27d5f60fdb1cd99bb1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>canUseUpstreamCaching</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0d51445127a9c418c8943b912088886a" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>CaptureProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a1137e7e018d9621f24ab2fff743c1b5f" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ChangeOutputPortType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a44d1e75ca73370b68092fbdf92e597f2" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>childSettingsNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1a917b1ee350574761324714d839ac9ca9" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ClearBuffer</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a704c16ae1013d30f190bc70222d5ca47" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ClearMessages</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d02896a1d4b50cc973aa80e4e0d375" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>color</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1aa72c2eb44260839d6e0b3aabddba16d9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ComputeIsValid</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afcb0cf850ae52d1deff3a246c0793317" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>computeOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1af0820cc2ff532ff267cd3113950e047b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>computeShader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a1f26b847404acf4e6cb1407596049850" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>computeShaderResourcePath</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4d7a5ef6e1b8432335127e48c2d6fd55" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>createdFromDuplication</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a69a1c9d13de7661d60b93cfd28e084fc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>createdWithinGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae5e8f3355352088b223e606c0bf888b1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>CreateFromType</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a4173020ec35f52ee6895b6d452458844" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>CreateFromType&lt; T &gt;</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6037c980542d65f76786b641c62bfd6c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>CustomInputTexturePortData</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a70d9ac2e3615e9559e7290c821637006" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>customPortTypeBehaviorMap</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a01cb8b11fca46da39f50f7356ad34c22" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>debug</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a942b64a4d4e7d1ce05bfe07db82ce0ae" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>defaultPreviewChannels</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a329acc5613f65bade5206c3aa4238c64" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>defaultPreviewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a30188f5b74300f3ee80df537cf9ecfd8" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>defaultSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bd1646c5787c67c6e74117568920836" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>deletable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad2a2c987e270df344bf2c4bef5b49cc6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>depthTest</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab162637e669c4ece567afec1f1f41d7b" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Destroy</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aac58be393f88c66b6b23e4bd1ec583ab" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>DestroyInternal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a3ac77dd16d6404cfb5bdfd1848054e94" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Disable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ff04c4d0b921864c27065e129c34cef" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>DisableInternal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1af8f8f7976b76d1dba9b69f1a16915f5f" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>DispatchCompute</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1ae19b50447938ddc2fd5550bc03772141" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>DispatchCompute</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1af228670dd86fdf7ea7b120619efe5102" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>DispatchComputePreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1a448b5ed322d67fa73f56b4788e5734e1" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>DispatchComputePreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a20d2b548f43b46e8889966267d6ff9f6" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Enable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a756f6a134b0b84de3a4fdc9a9b230e1c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>expanded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a57676af544a5908c4701a19b985bb3af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>FindInDependencies</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6a79993e1f12f5289ef037aa3cfbcd4f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>fixedAngles</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aed8272ef86dba6094217df7ceedb5e6b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>fixedScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1afe3187b42c0da2d5897ede54c80cd502" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>generatePointKernel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abf837daf3d33078852d62a21c8062be3" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Get2DOnlyRTSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a237991298f4913e660a06b3e8a41e05a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Get3DOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ad07e81b9256ef040b7902631a0b04d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetAllEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a99c2ca0ec0005de8cf9dd4a9d1a47efb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetAllPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab721de1674b3cd6917d732d3319f5654" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetBackgroundColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ab05728a9f043ba4293861f6193c67b32" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetBorderColors</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a0c911621c7f5e9cdd6a330109e2ebb4d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetCubeOnlyRTSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a950ca137f866af690dcab0e00843f5cf" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae4e99e930ae2824244ac15e1c7e48978" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetDefaultMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a57e2e9d230697e8afd9f41537fcd6893" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetHeaderGradient</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a87da02ff097e967521534d7749fb0311" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetHeaderTextColor</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6ebbe51d191e0898ebd6519bdb7e4216" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetInputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a7cce66f8469e68e6143a15f3d0bd9f49" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetInputPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3d8c432f8ff3279f3deec268abd3d717" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetMaterialPortDatas</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab813e29af0abfb435e185157079266c2" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetNodeFields</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a51cf262aa06ff1a09d9dbab77619ca15" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetOutputNodes</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a88944abd0e3cd15563eb20fa5805ed91" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetOutputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acc62ac7f944e29ed82300959bfa56fb2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetPort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa77d8367ebc840af1fcf25a0e0a4d2f7" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetPropertyType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1adcb16797a7972565989a979173be98aa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetTempMaterial</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae205d4ff2a0946aa8622634fc5bbec11" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetTempTextureDimension</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3c33e89ca25eaff0f4d39c0d28eb683d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GetThemeIcon</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ace1266299fe6d8ea430e150718f8d933" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>goldenRatio</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aa87612dc45b0d0f8c45d7c602d178de6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>graph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a872f3cb3a4f7901bdb09bc1fedeb3ea4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>gridCram</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1af301f61077b453ba945812cce1cd77c6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>gridScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a090259b70c7e3e56d9b13e8d93f1dc73" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>gridShift</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1afd51b374801e1d76b89b23f437decac8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>GUID</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae9c448f523310604565a9bb891eaedde" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>hasPreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3aba7cbd9364033a82fe12681971b624" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>hasSettings</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ada3d797ea4b486dfd153ed0fe0c36651" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>height</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a44a6c9bdecc480805c59ae9d681ed013" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>indirectArguments</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a31e00c888362ea5becbbc5ce460e17cd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Initialize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a31610ee6992e59220900294dbec98ea8" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>InitializePorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad55d736bc623a88ae726185807b841f5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>inputDepth</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36db855cda95820f2c8c404a762a1786" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>InputDepthChannel</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a05254f324f12c502ad9f0972341392eb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>inputPorts</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a02a9877fdd14830f0db2c7991913c38e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>inputTextures</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af443e52b8cdbb0e3b44259d8f45bdb9c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>InvokeOnProcessed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1aa559584017c371f7a8440ca26702663d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>IsCompatibleWithGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3a6f9e7fd1a88cdc10286e30dbf30856" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>IsFieldInput</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1af8ca928a9b8673672411c7b4719f7173" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>isLocked</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a80fe3011ae9961a862e717dcc07fa9f7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>IsNodeCompatibleWithGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac87f378268a22045f5ae1a8a16b7232a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>isOutputNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad00389b02c9a09a99c8614ce0e4fd233" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>isPinned</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8beb2567851d18d9fc5a5cc1c3303126" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>isPreviewCollapsed</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a93a5987d90478ea06cdcf4806f66dc8c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>isRenamable</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a3479417289b9d5a658e161537547da1b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>lambda</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8effb1a08e7dce12a3f8b6d30350c2ee" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>lastProcessingRunId</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aef96ad66810e97751f7e160615458618" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>layoutStyle</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1ab81594873840296db1ce62d4d9764b2c" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>LoadComputeShader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad894c144523bdf0e6edaa1bae91e9d0d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>maxAngles</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ac3860b96e5a8f7277ef3406a5798715a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>maxScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae3e628e4920b41ae97bc7f8b6511ee77" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>maxSplatCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a372349d959600bae9b230ddd9cc68a1b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>minAngles</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a03b0a5e8a8543da215595f477adf50c4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>minimized</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae1cf563a5c1fba0db39f4918cc145258" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>minScale</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6e74f099accf24b1c03638bcbb3bff92" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Mode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a8866d3fd15cf1707ef148acadfab227a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>mode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a7aaded86a18cf356f2cc3f801a91fb89" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>name</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ad8cbbd520ce3557f4b24df1785375d4c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>needsInspector</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1acd2d4b6e55ffc47cabe17e16fe31675c" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>nodeCustomName</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1f639abb7529d9b879b92f2afd1682b7" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>nodeFields</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a21a38d198bd756956a5554376bca8687" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>NodeGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1e1ee0622daaf98a1d6de7556f0f65af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>nodeLock</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4a872031c7028d963dc33541100ac2ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>nodeVariables</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1aeaebd34f3442326396b3e1d290dbed18" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>nodeWidth</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1add9b6386c1e920ef46150fd89c5813f8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onAfterEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a1b463152735c6d332c7592109b36a60d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onAfterEdgeDisconnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aeedf4b5df10c557174fee10e26837e59" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OnEdgeConnected</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab183105d93c08ba4dcd98c676b822219" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OnEdgeDisconnected</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9f157e811b20835650c373062c79503f" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onEnabled</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6e596c01a69414bb25c60459bdb06169" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onMessageAdded</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7ad6ed4490233057789e4b40e951832c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onMessageRemoved</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a5ec30bd641850b926c4a9e3cdf88303c" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OnNodeCreated</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ab195555bf3146982c7312e61fb543401" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onPortsUpdated</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a29d4f3eb49110d5659b49256b254e15c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a2ac9a8f02ee72ed34b3089f752f93084" prot="public" virt="non-virtual" ambiguityscope="GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OnProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a030b0236dd7a9db5ea65406d34fc2535" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onProcessed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9ca08398a3f776e7a9316e79498aaae3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OnSettingsChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade9b893d3d815a67009e0719002177b2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>onSettingsChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6268b7c2f5862f8889a588d9b0f1c542" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Operator</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a602b02e33ae2f537049ba310c797af58" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>output</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a88acf404d1112b8b52cb311cc58c26a1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OutputChannelMode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ac4de76cb09b7136294dc9b6b4575bb0a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>outputPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a53d8083629ad9a0d37234529785b3ca4" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>OverrideFieldOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1abed097a642b52963448a8806ad148e82" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>parentSettingsNode</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a0ae89bccf3ff356ad2bcd82717770007" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>position</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a72220439660e176382ea592f300ac760" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>positionJitter</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1aa83c27564586636bf002528142b14f71" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>positionOffset</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a117e5fc80f3871ad57bfcbc2e7fdadd0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>preserveUpstreamCacheOnForceReprocess</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1a877f0481579224a45f6589bfd3938258" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewComputeProperty</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae37b8d09265bf71dad1ccbac15a3efbe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewEV100</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5f9fb13193b81a798590c4b831fb26e5" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewKernel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ade028e455fdb1dacc393254201f9f9a5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewMip</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a968b2a26bdfe310308a1f3833dbf62ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e149c2af9061b0821cd0b305aee2206" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewSlice</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a646d4d2208786afdf5ee2fcbdb9b4efe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewSRGB</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1a3de84bde9ff0b8163e0e3bfb1413e7da" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1ae7340180ab6583e1867cc5a412a0f292" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewTexturePropertyName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac65cb97aa0fcb75bf97d24089bd1d13a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>previewVisible</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a037a456c63ff355e211c83213564050d" prot="public" virt="virtual" ambiguityscope="AhahGames::GenesisNoise::Nodes::GenesisNode.GraphProcessor::BaseNode."><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Process</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1aab74c52f5f6efe864f949a0fb9841bba" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ProcessDelegate</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a8f8437e7c6dff6d8fb2e228067c0ef66" prot="package" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>processingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6ea88066fc3938908ca1c77d923347d0" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ProcessNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a4f7a55ea9200d5ed5a4a125cb9c7be83" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>PullInputs</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ab1341d76222b9b8f1f8a0e4a70d74caa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>radius</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac663b794981bfdd4740952a1bc9ac907" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>rawProcessingTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3a1464fcac0707ff639f92e2630fef49" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>recorder</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a3d39867e5312326ca78fa69560fe09e6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>RemoveMessage</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a518d031ca0661f9891afd8885b5a8ded" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>RemoveMessageContains</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a9e614aa4ed9d07708b27abfd02ffe42d" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>RemoveObjectFromGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae0aa2df35295cb4e114aefe2042e23f2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>RemovePort</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a7bf8e068e47410823e4c71f6674d38b0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>RemovePort</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ae8a5145f94fe8974fd0e3dcb942c98db" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ResetMaterialPropertyToDefault</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad8d460de50e8c54c60b6d2996a1556cf" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>rotation</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad85648a92746aa0384e4b9a367428b71" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>RotationMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a192e99f7ec8a703c2474a1c103cf0c1b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>rotationMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6a9f0f427019f0d760e172803219d4a2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>ScaleMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ad0ca7eddbba1250770c52bc57ddbe7a4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>scaleMode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a14fbe6f4913617d658e7cbe24e4307c6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>seed</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a532a3c30d15656c9121a12c2081f641a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>Sequence</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a36d06aaf485c20dac13468a893ae3c90" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>sequence</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ac4614f3b5f233679cdf3a9f1d6e1fc76" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>SetComputeArgs</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae6bb7499f93af07683d0da44a3429fe1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>SetCustomName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a600ee9ad2ced1521787a7f55d23ff2af" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>setPosition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1ae7df4fc8464fd5042d31dc2408ce9665" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>SetRenderStates</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a4c5223ea087cab06905544654d799bea" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>settings</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae19af14ebd650c83ab88553569dc9c51" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>showControlsOnHover</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a6e00a23a2b1c2495bfa8d12315e9e42c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>showDefaultInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1ac1c6fbfb164389ab86fb8ba709caa7dc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>showOpenButton</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1ac6277d71a391432e24638c8b547afd5c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>showPreviewExposure</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a60f0d3df7884c5808dba121b88f78bb4" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>splatPointsBuffer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5ed258461f549c85be81ec2cab977d26" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>stackPosition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a3bf2efd0619b47cac7d4d5f37d3cf14e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>supportedDimensions</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1a3bdbe7dd6511a2455646cffdaf22b6e9" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>temporaryMaterials</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1a58d2c6bd689ba0485222def9c7daadb4" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>tempRenderTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_1a5c41b7f5372de8c49eca014e7247804b" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>tempRenderTextureHasDepthBuffer</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node_1aa86858167650cd82250aefa9f0e0dcbf" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>tempRenderTextureHasMipmaps</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a6226790bf89b8f53c774ed2ca8abc86f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>unlockable</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a83d07b4c73420d4004e698aa3bf583b9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>UpdateAllPorts</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a618b3d080d9cf037e59ef8c272dc67ca" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>UpdateAllPortsLocal</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1ae7b59559c7e600b089f61ac6f5ade6ec" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>UpdatePortsForField</name></member>
+      <member refid="class_graph_processor_1_1_base_node_1a8804a804535d34a6e653f0bdf960102d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>UpdatePortsForFieldLocal</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_1acf9a902849fa28b58c0d5c66f7c42397" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::Scatter</scope><name>UpdateTempRenderTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

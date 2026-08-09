@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.CustomTextureManager.OnCRTLoaded" name="AhahGames.GenesisNoise.Graph.CustomTextureManager.OnCRTLoaded">
-<area shape="rect" id="Node000001" title=" " alt="" coords="302,51,552,93"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager.html#a2b2ec092c8daa0c969d14e85d28c00e0" title="Add a CRT that is not yet tracked by the manager because of the frame of delay." alt="" coords="9,5,250,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="284,55,250,52,250,47,289,54"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_custom_texture_manager.html#a549e748e9337c045b84925f6c9c24fe6" title=" " alt="" coords="5,88,254,131"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,90,255,96,254,91,289,89"/>
-</map>

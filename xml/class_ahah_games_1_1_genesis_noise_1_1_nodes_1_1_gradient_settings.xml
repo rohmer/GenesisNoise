@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Nodes::GradientSettings</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a41ff315f3062b123b8b9db29dba019d8" prot="private" static="no" mutable="no">
+        <type>List&lt; GradientColorKey &gt;</type>
+        <definition>List&lt;GradientColorKey&gt; AhahGames.GenesisNoise.Nodes.GradientSettings._colorKeysHorizontalTop</definition>
+        <argsstring></argsstring>
+        <name>_colorKeysHorizontalTop</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings._colorKeysHorizontalTop</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="11" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a236657fba947e54b2d4447109249e4bc" prot="private" static="no" mutable="no">
+        <type>List&lt; GradientColorKey &gt;</type>
+        <definition>List&lt;GradientColorKey&gt; AhahGames.GenesisNoise.Nodes.GradientSettings._colorKeysHorizontalBottom</definition>
+        <argsstring></argsstring>
+        <name>_colorKeysHorizontalBottom</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings._colorKeysHorizontalBottom</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="12" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a8647de40b361d6836842a2a62ef1d232" prot="private" static="no" mutable="no">
+        <type>List&lt; GradientAlphaKey &gt;</type>
+        <definition>List&lt;GradientAlphaKey&gt; AhahGames.GenesisNoise.Nodes.GradientSettings._alphaKeysHorizontalTop</definition>
+        <argsstring></argsstring>
+        <name>_alphaKeysHorizontalTop</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings._alphaKeysHorizontalTop</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="13" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a5980d2c587517bcd8a34ccef7bec79ca" prot="private" static="no" mutable="no">
+        <type>List&lt; GradientAlphaKey &gt;</type>
+        <definition>List&lt;GradientAlphaKey&gt; AhahGames.GenesisNoise.Nodes.GradientSettings._alphaKeysHorizontalBottom</definition>
+        <argsstring></argsstring>
+        <name>_alphaKeysHorizontalBottom</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings._alphaKeysHorizontalBottom</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="14" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1ac9abb0f5bddbfad2d81cb928aa5f1574" prot="private" static="no" mutable="no">
+        <type>AnimationCurve</type>
+        <definition>AnimationCurve AhahGames.GenesisNoise.Nodes.GradientSettings._verticalLerp</definition>
+        <argsstring></argsstring>
+        <name>_verticalLerp</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings._verticalLerp</qualifiedname>
+        <initializer>= AnimationCurve.EaseInOut(0, 0, 1, 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="15" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a48c2cda31fde51c17136e8fecca7c43a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings" kindref="compound">GradientSettings</ref></type>
+        <definition>static GradientSettings AhahGames.GenesisNoise.Nodes.GradientSettings.CreateDefault</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDefault</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.CreateDefault</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="17" column="40" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="17" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a97eb6d5bdbca50f5b1db2aec99b6dbe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.GradientSettings.CreateTriplet</definition>
+        <argsstring>(Color color1, Color color2, Color color3, bool bottomInversed=true)</argsstring>
+        <name>CreateTriplet</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.CreateTriplet</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>color1</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color2</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color3</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bottomInversed</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="33" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="33" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a5591b924cbc25dffe4a7f65f761b0648" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.GradientSettings.AddColorKeyToTop</definition>
+        <argsstring>(GradientColorKey key)</argsstring>
+        <name>AddColorKeyToTop</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.AddColorKeyToTop</qualifiedname>
+        <param>
+          <type>GradientColorKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="56" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a159d51357b82c0a93d33980854c81b8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.GradientSettings.AddColorKeyToBottom</definition>
+        <argsstring>(GradientColorKey key)</argsstring>
+        <name>AddColorKeyToBottom</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.AddColorKeyToBottom</qualifiedname>
+        <param>
+          <type>GradientColorKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="61" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1adffe0c906a2a76f5b12b34686847409f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.GradientSettings.AddAlphaKeyToTop</definition>
+        <argsstring>(GradientAlphaKey key)</argsstring>
+        <name>AddAlphaKeyToTop</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.AddAlphaKeyToTop</qualifiedname>
+        <param>
+          <type>GradientAlphaKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="66" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a3d44c1da0bbe46eb48b61aa834795cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.GradientSettings.AddAlphaKeyToBottom</definition>
+        <argsstring>(GradientAlphaKey key)</argsstring>
+        <name>AddAlphaKeyToBottom</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.AddAlphaKeyToBottom</qualifiedname>
+        <param>
+          <type>GradientAlphaKey</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="71" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a787dc7c936dc8ccea489b736a5a3025a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Nodes.GradientSettings.AddColorKeysToTop</definition>
+        <argsstring>(IEnumerable&lt; GradientColorKey &gt; keys)</argsstring>
+        <name>AddColorKeysToTop</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.AddColorKeysToTop</qualifiedname>
+        <param>
+          <type>IEnumerable&lt; GradientColorKey &gt;</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="76" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1ad80cff99d125503f625e9b3af8c235dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D AhahGames.GenesisNoise.Nodes.GradientSettings.GetGradient</definition>
+        <argsstring>(int width, int height)</argsstring>
+        <name>GetGradient</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.GradientSettings.GetGradient</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="81" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="81" bodyend="116"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" line="9" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/GradientSettings.cs" bodystart="10" bodyend="117"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a5980d2c587517bcd8a34ccef7bec79ca" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>_alphaKeysHorizontalBottom</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a8647de40b361d6836842a2a62ef1d232" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>_alphaKeysHorizontalTop</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a236657fba947e54b2d4447109249e4bc" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>_colorKeysHorizontalBottom</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a41ff315f3062b123b8b9db29dba019d8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>_colorKeysHorizontalTop</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1ac9abb0f5bddbfad2d81cb928aa5f1574" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>_verticalLerp</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a3d44c1da0bbe46eb48b61aa834795cea" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>AddAlphaKeyToBottom</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1adffe0c906a2a76f5b12b34686847409f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>AddAlphaKeyToTop</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a787dc7c936dc8ccea489b736a5a3025a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>AddColorKeysToTop</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a159d51357b82c0a93d33980854c81b8c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>AddColorKeyToBottom</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a5591b924cbc25dffe4a7f65f761b0648" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>AddColorKeyToTop</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a48c2cda31fde51c17136e8fecca7c43a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>CreateDefault</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1a97eb6d5bdbca50f5b1db2aec99b6dbe1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>CreateTriplet</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_settings_1ad80cff99d125503f625e9b3af8c235dc" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::GradientSettings</scope><name>GetGradient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -34,7 +34,7 @@ Outputs a constant gradient value.
 |---------|------|---------|-------------|
 | gradient | Gradient | UnityEngine.Gradient | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 67c9a907-6f02-4fd9-97b7-d945b84cb5a2 | |
+| GUID | String | 335416ad-5201-4dd4-b299-caa35cdaf469 | |
 | expanded | Boolean | False | |
 
 ## See Also

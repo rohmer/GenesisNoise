@@ -33,7 +33,7 @@ Casts the input value to Quaternion.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | faa67cc1-ec1c-4b27-b14a-5ae75840378b | |
+| GUID | String | 3877ccd6-c566-4838-a106-aea48f34711c | |
 | expanded | Boolean | False | |
 
 ## See Also

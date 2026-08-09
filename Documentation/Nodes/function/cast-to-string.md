@@ -33,7 +33,7 @@ Casts the input value to String.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4c0b567c-b301-4dd6-bc15-4dd2073f0227 | |
+| GUID | String | 24122d2b-fae0-486f-9d48-572e927b541f | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.GenesisPortView.Create" name="AhahGames.GenesisNoise.Views.GenesisPortView.Create">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,229,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_port_view.html#a94418883579f897ff9d3c8bd8ca3d951" title=" " alt="" coords="277,5,503,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="228,44,264,42,259,43,230,49"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_port_view.html#af16b7f7be7cb31a0e111219c8fa77abf" title=" " alt="" coords="302,72,478,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,71,289,81,284,81,229,76"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_port_view.html#ad4070e55679a14aa22943b1bc15e3f18" title="Update the size of the port view (using the portData.sizeInPixel property)." alt="" coords="551,72,726,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="478,91,538,93,533,93,478,96"/>
-</map>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_50d4f44297b4e4459554729659bf8063" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX</compoundname>
+    <innerdir refid="dir_735bfcf56ea0d5b643c552ccd8959220">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental</innerdir>
+    <innerdir refid="dir_db6432adc4da7af0341cad7f94707522">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Data</innerdir>
+    <innerdir refid="dir_39fa60f603a4c1bc59376741c61ea7d0">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/FastMath</innerdir>
+    <innerdir refid="dir_7a665f2d80078a3aa3c2028c059a6ee2">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath</innerdir>
+    <innerdir refid="dir_27730f23edc75463fbdb8e678aa5ac53">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Noise</innerdir>
+    <innerdir refid="dir_b789a0dbfd9a50db61c411ed7f8b762c">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/SDF</innerdir>
+    <innerdir refid="dir_3d5d493f94b7bc04e6fd666ed716e319">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/Structs</innerdir>
+    <innerfile refid="_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <innerfile refid="mathx_8angle_8cs">mathx.angle.cs</innerfile>
+    <innerfile refid="mathx_8common_8cs">mathx.common.cs</innerfile>
+    <innerfile refid="mathx_8common_8double_8cs">mathx.common.double.cs</innerfile>
+    <innerfile refid="mathx_8common_8float_8cs">mathx.common.float.cs</innerfile>
+    <innerfile refid="mathx_8common_8generic_8cs">mathx.common.generic.cs</innerfile>
+    <innerfile refid="mathx_8common_8int_8cs">mathx.common.int.cs</innerfile>
+    <innerfile refid="mathx_8common_8quaternion_8cs">mathx.common.quaternion.cs</innerfile>
+    <innerfile refid="mathx_8common_8uint_8cs">mathx.common.uint.cs</innerfile>
+    <innerfile refid="mathx_8conversion_8array_8cs">mathx.conversion.array.cs</innerfile>
+    <innerfile refid="mathx_8conversion_8common_8cs">mathx.conversion.common.cs</innerfile>
+    <innerfile refid="mathx_8conversion_8list_8cs">mathx.conversion.list.cs</innerfile>
+    <innerfile refid="mathx_8conversion_8shorthands_8bool_8cs">mathx.conversion.shorthands.bool.cs</innerfile>
+    <innerfile refid="mathx_8conversion_8shorthands_8double_8cs">mathx.conversion.shorthands.double.cs</innerfile>
+    <innerfile refid="mathx_8conversion_8shorthands_8float_8cs">mathx.conversion.shorthands.float.cs</innerfile>
+    <innerfile refid="mathx_8conversion_8shorthands_8int_8cs">mathx.conversion.shorthands.int.cs</innerfile>
+    <innerfile refid="mathx_8exponential_8cs">mathx.exponential.cs</innerfile>
+    <innerfile refid="mathx_8floatx_8gen_8cs">mathx.floatx.gen.cs</innerfile>
+    <innerfile refid="mathx_8interpolation_8common_8cs">mathx.interpolation.common.cs</innerfile>
+    <innerfile refid="mathx_8interpolation_8easing_8cs">mathx.interpolation.easing.cs</innerfile>
+    <innerfile refid="mathx_8interpolation_8polynomial_8cs">mathx.interpolation.polynomial.cs</innerfile>
+    <innerfile refid="mathx_8intx_8gen_8cs">mathx.intx.gen.cs</innerfile>
+    <innerfile refid="mathx_8logic_8bool_8cs">mathx.logic.bool.cs</innerfile>
+    <innerfile refid="mathx_8logic_8byte_8cs">mathx.logic.byte.cs</innerfile>
+    <innerfile refid="mathx_8logic_8common_8cs">mathx.logic.common.cs</innerfile>
+    <innerfile refid="mathx_8logic_8double_8cs">mathx.logic.double.cs</innerfile>
+    <innerfile refid="mathx_8logic_8float_8cs">mathx.logic.float.cs</innerfile>
+    <innerfile refid="mathx_8logic_8generic_8cs">mathx.logic.generic.cs</innerfile>
+    <innerfile refid="mathx_8logic_8int_8cs">mathx.logic.int.cs</innerfile>
+    <innerfile refid="mathx_8_mathf_8translations_8cs">mathx.Mathf.translations.cs</innerfile>
+    <innerfile refid="mathx_8_mathf_8translations_8movetowards_8cs">mathx.Mathf.translations.movetowards.cs</innerfile>
+    <innerfile refid="mathx_8_mathf_8translations_8repeat_8cs">mathx.Mathf.translations.repeat.cs</innerfile>
+    <innerfile refid="mathx_8_mathf_8translations_8smoothdamp_8cs">mathx.Mathf.translations.smoothdamp.cs</innerfile>
+    <innerfile refid="mathx_8matrix_8bool_8gen_8cs">mathx.matrix.bool.gen.cs</innerfile>
+    <innerfile refid="mathx_8matrix_8double_8gen_8cs">mathx.matrix.double.gen.cs</innerfile>
+    <innerfile refid="mathx_8matrix_8extensions_8cs">mathx.matrix.extensions.cs</innerfile>
+    <innerfile refid="mathx_8matrix_8float_8gen_8cs">mathx.matrix.float.gen.cs</innerfile>
+    <innerfile refid="mathx_8matrix_8int_8gen_8cs">mathx.matrix.int.gen.cs</innerfile>
+    <innerfile refid="mathx_8matrix_8uint_8gen_8cs">mathx.matrix.uint.gen.cs</innerfile>
+    <innerfile refid="mathx_8mult_8cs">mathx.mult.cs</innerfile>
+    <innerfile refid="mathx_8random_8cs">mathx.random.cs</innerfile>
+    <innerfile refid="mathx_8rotation_8cs">mathx.rotation.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8byte_8cs">mathx.rounding.byte.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8double_8cs">mathx.rounding.double.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8float_8cs">mathx.rounding.float.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8int_8cs">mathx.rounding.int.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8signed_8double_8cs">mathx.rounding.signed.double.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8signed_8float_8cs">mathx.rounding.signed.float.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8signed_8int_8cs">mathx.rounding.signed.int.cs</innerfile>
+    <innerfile refid="mathx_8rounding_8uint_8cs">mathx.rounding.uint.cs</innerfile>
+    <innerfile refid="mathx_8selection_8byte_8cs">mathx.selection.byte.cs</innerfile>
+    <innerfile refid="mathx_8selection_8double_8cs">mathx.selection.double.cs</innerfile>
+    <innerfile refid="mathx_8selection_8float_8cs">mathx.selection.float.cs</innerfile>
+    <innerfile refid="mathx_8selection_8int_8cs">mathx.selection.int.cs</innerfile>
+    <innerfile refid="mathx_8selection_8uint_8cs">mathx.selection.uint.cs</innerfile>
+    <innerfile refid="mathx_8transformation_8cs">mathx.transformation.cs</innerfile>
+    <innerfile refid="mathx_8trigonometry_8double_8cs">mathx.trigonometry.double.cs</innerfile>
+    <innerfile refid="mathx_8trigonometry_8float_8cs">mathx.trigonometry.float.cs</innerfile>
+    <innerfile refid="mathx_8trigonometry_8hyperbolic_8float_8cs">mathx.trigonometry.hyperbolic.float.cs</innerfile>
+    <innerfile refid="mathx_8vector_8common_8float_8cs">mathx.vector.common.float.cs</innerfile>
+    <innerfile refid="mathx_8vector_8common_8int_8cs">mathx.vector.common.int.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="namespace_unity_1_1_mathematics" kind="namespace" language="C#">
+    <compoundname>Unity::Mathematics</compoundname>
+    <innerclass refid="struct_unity_1_1_mathematics_1_1bounds" prot="public">Unity::Mathematics::bounds</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_burst_performance_attribute" prot="public">Unity::Mathematics::BurstPerformanceAttribute</innerclass>
+    <innerclass refid="struct_unity_1_1_mathematics_1_1byte1" prot="public">Unity::Mathematics::byte1</innerclass>
+    <innerclass refid="struct_unity_1_1_mathematics_1_1byte2" prot="public">Unity::Mathematics::byte2</innerclass>
+    <innerclass refid="struct_unity_1_1_mathematics_1_1byte3" prot="public">Unity::Mathematics::byte3</innerclass>
+    <innerclass refid="struct_unity_1_1_mathematics_1_1byte4" prot="public">Unity::Mathematics::byte4</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_cds_tween" prot="public">Unity::Mathematics::CdsTween</innerclass>
+    <innerclass refid="struct_unity_1_1_mathematics_1_1color" prot="public">Unity::Mathematics::color</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_constants" prot="public">Unity::Mathematics::Constants</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_constant_short_names" prot="public">Unity::Mathematics::ConstantShortNames</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_exp_tween" prot="public">Unity::Mathematics::ExpTween</innerclass>
+    <innerclass refid="interface_unity_1_1_mathematics_1_1_i_metadata_attribute" prot="public">Unity::Mathematics::IMetadataAttribute</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_i_o_r" prot="public">Unity::Mathematics::IOR</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1mathx" prot="public">Unity::Mathematics::mathx</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_mathx_attribute" prot="public">Unity::Mathematics::MathxAttribute</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_my_property_descriptor" prot="public">Unity::Mathematics::MyPropertyDescriptor</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_my_sample_class" prot="public">Unity::Mathematics::MySampleClass</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_my_type_description_provider" prot="public">Unity::Mathematics::MyTypeDescriptionProvider</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_my_type_descriptor" prot="public">Unity::Mathematics::MyTypeDescriptor</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_polynomial" prot="public">Unity::Mathematics::Polynomial</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_random_utils" prot="public">Unity::Mathematics::RandomUtils</innerclass>
+    <innerclass refid="struct_unity_1_1_mathematics_1_1ray" prot="public">Unity::Mathematics::ray</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_rotation" prot="public">Unity::Mathematics::Rotation</innerclass>
+    <innerclass refid="class_unity_1_1_mathematics_1_1_s_d_f" prot="public">Unity::Mathematics::SDF</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/_Experimental/Custom.Attributes.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

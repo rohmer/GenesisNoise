@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Views::MaterialAssetSaver</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1acf845e93539bcc19f02f2a31ba5576a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VisualElement</type>
+        <definition>static VisualElement AhahGames.GenesisNoise.Views.MaterialAssetSaver.BuildSaveUI</definition>
+        <argsstring>(GenesisNode node, Func&lt; Material &gt; getCurrent, Func&lt; Material &gt; getAsset, Action&lt; Material &gt; setAsset, Action refresh)</argsstring>
+        <name>BuildSaveUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MaterialAssetSaver.BuildSaveUI</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" kindref="compound">GenesisNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>Func&lt; Material &gt;</type>
+          <declname>getCurrent</declname>
+        </param>
+        <param>
+          <type>Func&lt; Material &gt;</type>
+          <declname>getAsset</declname>
+        </param>
+        <param>
+          <type>Action&lt; Material &gt;</type>
+          <declname>setAsset</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>refresh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" line="21" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" bodystart="21" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1a1fff9e8b61e4d5e1025e6931c99f5109" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Material</type>
+        <definition>static Material AhahGames.GenesisNoise.Views.MaterialAssetSaver.SaveMaterialAsset</definition>
+        <argsstring>(Material source, Material currentAsset, string defaultName, string defaultDirectory, bool saveAs)</argsstring>
+        <name>SaveMaterialAsset</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MaterialAssetSaver.SaveMaterialAsset</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>currentAsset</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>defaultDirectory</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveAs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" line="65" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" bodystart="65" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1a5dfdbdb9ceb444059471d8353f036ba2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Views.MaterialAssetSaver.GetDefaultSaveName</definition>
+        <argsstring>(Material asset, GenesisNode node)</argsstring>
+        <name>GetDefaultSaveName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MaterialAssetSaver.GetDefaultSaveName</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>asset</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" kindref="compound">GenesisNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" line="114" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" bodystart="114" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1ac3c776b7326d1f5a847ace193036eeb7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string AhahGames.GenesisNoise.Views.MaterialAssetSaver.GetDefaultSaveDirectory</definition>
+        <argsstring>(Material asset, GenesisNode node)</argsstring>
+        <name>GetDefaultSaveDirectory</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MaterialAssetSaver.GetDefaultSaveDirectory</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>asset</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" kindref="compound">GenesisNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" line="125" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" bodystart="125" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1ac033510b8bd4d14ff654e600a5f912ee" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Views.MaterialAssetSaver.DoSave</definition>
+        <argsstring>(GenesisNode node, Func&lt; Material &gt; getCurrent, Func&lt; Material &gt; getAsset, Action&lt; Material &gt; setAsset, bool saveAs, Action refresh)</argsstring>
+        <name>DoSave</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.MaterialAssetSaver.DoSave</qualifiedname>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node" kindref="compound">GenesisNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>Func&lt; Material &gt;</type>
+          <declname>getCurrent</declname>
+        </param>
+        <param>
+          <type>Func&lt; Material &gt;</type>
+          <declname>getAsset</declname>
+        </param>
+        <param>
+          <type>Action&lt; Material &gt;</type>
+          <declname>setAsset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveAs</declname>
+        </param>
+        <param>
+          <type>Action</type>
+          <declname>refresh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" line="49" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" bodystart="49" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Shared &quot;Save As&quot; / &quot;Update&quot; UI that turns a material node&apos;s in-memory material into a persisted Material asset, mirroring the Texture 2D output node&apos;s save behaviour. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" line="19" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/MaterialAssetSaver.cs" bodystart="20" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1acf845e93539bcc19f02f2a31ba5576a3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MaterialAssetSaver</scope><name>BuildSaveUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1ac033510b8bd4d14ff654e600a5f912ee" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MaterialAssetSaver</scope><name>DoSave</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1ac3c776b7326d1f5a847ace193036eeb7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MaterialAssetSaver</scope><name>GetDefaultSaveDirectory</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1a5dfdbdb9ceb444059471d8353f036ba2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MaterialAssetSaver</scope><name>GetDefaultSaveName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_material_asset_saver_1a1fff9e8b61e4d5e1025e6931c99f5109" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::MaterialAssetSaver</scope><name>SaveMaterialAsset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

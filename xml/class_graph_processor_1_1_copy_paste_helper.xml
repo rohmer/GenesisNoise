@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_copy_paste_helper" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::CopyPasteHelper</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_copy_paste_helper_1a3e7f2efe98a448a87ef2afc7c58d2f2e" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_graph_processor_1_1_json_element" kindref="compound">JsonElement</ref> &gt;</type>
+        <definition>List&lt;JsonElement&gt; GraphProcessor.CopyPasteHelper.copiedNodes</definition>
+        <argsstring></argsstring>
+        <name>copiedNodes</name>
+        <qualifiedname>GraphProcessor.CopyPasteHelper.copiedNodes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" line="8" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_copy_paste_helper_1a20744593261dd3e143e6eb2069137735" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_graph_processor_1_1_json_element" kindref="compound">JsonElement</ref> &gt;</type>
+        <definition>List&lt;JsonElement&gt; GraphProcessor.CopyPasteHelper.copiedGroups</definition>
+        <argsstring></argsstring>
+        <name>copiedGroups</name>
+        <qualifiedname>GraphProcessor.CopyPasteHelper.copiedGroups</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" line="10" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_copy_paste_helper_1acbf8d7d9b99bf937db9256c2186289df" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_graph_processor_1_1_json_element" kindref="compound">JsonElement</ref> &gt;</type>
+        <definition>List&lt;JsonElement&gt; GraphProcessor.CopyPasteHelper.copiedEdges</definition>
+        <argsstring></argsstring>
+        <name>copiedEdges</name>
+        <qualifiedname>GraphProcessor.CopyPasteHelper.copiedEdges</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" line="12" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" line="6" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/CopyPasteHelper.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_copy_paste_helper_1acbf8d7d9b99bf937db9256c2186289df" prot="public" virt="non-virtual"><scope>GraphProcessor::CopyPasteHelper</scope><name>copiedEdges</name></member>
+      <member refid="class_graph_processor_1_1_copy_paste_helper_1a20744593261dd3e143e6eb2069137735" prot="public" virt="non-virtual"><scope>GraphProcessor::CopyPasteHelper</scope><name>copiedGroups</name></member>
+      <member refid="class_graph_processor_1_1_copy_paste_helper_1a3e7f2efe98a448a87ef2afc7c58d2f2e" prot="public" virt="non-virtual"><scope>GraphProcessor::CopyPasteHelper</scope><name>copiedNodes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

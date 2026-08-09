@@ -33,7 +33,7 @@ Returns the cosine of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ebd8ee58-cd6a-48b4-8a69-ce4d757f4c53 | |
+| GUID | String | 0dc74974-7554-43ce-aacf-13ef6d1d17fe | |
 | expanded | Boolean | False | |
 
 ## See Also

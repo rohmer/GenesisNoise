@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a664b2468fdf0d1ca6bf4937304cf3620" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int AhahGames.GenesisNoise.Utility.TerrainHeightUtility.ThreadGroupSize</definition>
+        <argsstring></argsstring>
+        <name>ThreadGroupSize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.ThreadGroupSize</qualifiedname>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="10" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a3f2da2bffc80a98816b96603f011029d" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AhahGames.GenesisNoise.Utility.TerrainHeightUtility.ShaderPath</definition>
+        <argsstring></argsstring>
+        <name>ShaderPath</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.ShaderPath</qualifiedname>
+        <initializer>= &quot;Shaders/Terrain/TerrainHeightUtility&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="11" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a9e1c85a4925aa6ff79f0a92c31551d3d" prot="private" static="yes" mutable="no">
+        <type>readonly uint[]</type>
+        <definition>readonly uint [] AhahGames.GenesisNoise.Utility.TerrainHeightUtility.ZeroMaximum</definition>
+        <argsstring></argsstring>
+        <name>ZeroMaximum</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.ZeroMaximum</qualifiedname>
+        <initializer>= { 0u }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="13" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a3b56a21d3e13fe34f90f91bd70b7482c" prot="private" static="yes" mutable="no">
+        <type>readonly uint[]</type>
+        <definition>readonly uint [] AhahGames.GenesisNoise.Utility.TerrainHeightUtility.MaximumBits</definition>
+        <argsstring></argsstring>
+        <name>MaximumBits</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.MaximumBits</qualifiedname>
+        <initializer>= new uint[1]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="14" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a7c3cb40ab290e20ec9914e193f2d2f25" prot="private" static="yes" mutable="no">
+        <type>ComputeShader</type>
+        <definition>ComputeShader AhahGames.GenesisNoise.Utility.TerrainHeightUtility.shader</definition>
+        <argsstring></argsstring>
+        <name>shader</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.shader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="16" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ac940dab15fcdb9e032ba9350b6258dbd" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Utility.TerrainHeightUtility.findMaximumKernel</definition>
+        <argsstring></argsstring>
+        <name>findMaximumKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.findMaximumKernel</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="17" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1acc22dfed7187493a56299f5ca943b675" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Utility.TerrainHeightUtility.normalizeKernel</definition>
+        <argsstring></argsstring>
+        <name>normalizeKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.normalizeKernel</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="18" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a52b294314129bf988dc24f2965b38189" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Utility.TerrainHeightUtility.normalizePreviewKernel</definition>
+        <argsstring></argsstring>
+        <name>normalizePreviewKernel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.normalizePreviewKernel</qualifiedname>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="19" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ad21e1213f251d9da4cd1479dc505238a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Utility.TerrainHeightUtility.GetMaximum</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>GetMaximum</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.GetMaximum</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="21" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="21" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ae180721b04307f9b175db04605ee95b0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Utility.TerrainHeightUtility.RequestMaximum</definition>
+        <argsstring>(RenderTexture source, Action&lt; float?&gt; completed)</argsstring>
+        <name>RequestMaximum</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.RequestMaximum</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>Action&lt; float?&gt;</type>
+          <declname>completed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="41" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="41" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a87a8484d689716d80b34064f78cdba92" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Utility.TerrainHeightUtility.Normalize</definition>
+        <argsstring>(RenderTexture source, RenderTexture destination, float maximum)</argsstring>
+        <name>Normalize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.Normalize</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maximum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="89" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="89" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a83a27a99bb4074524792f14a3575dbee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Utility.TerrainHeightUtility.NormalizePreview</definition>
+        <argsstring>(RenderTexture source, RenderTexture destination, float maximum)</argsstring>
+        <name>NormalizePreview</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.NormalizePreview</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>RenderTexture</type>
+          <declname>destination</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maximum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="110" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="110" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ad659a2d9f5fcbb7281701cb29fc1fe9c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ComputeBuffer</type>
+        <definition>static ComputeBuffer AhahGames.GenesisNoise.Utility.TerrainHeightUtility.DispatchMaximum</definition>
+        <argsstring>(RenderTexture source)</argsstring>
+        <name>DispatchMaximum</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.DispatchMaximum</qualifiedname>
+        <param>
+          <type>RenderTexture</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="131" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="131" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1aa1c358c5eb0e8aa2b08108fa63b5bfca" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AhahGames.GenesisNoise.Utility.TerrainHeightUtility.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="150" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="150" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ab632b5a7f5a8166e1593084736e0a095" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Utility.TerrainHeightUtility.DecodeFloat</definition>
+        <argsstring>(uint bits)</argsstring>
+        <name>DecodeFloat</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.TerrainHeightUtility.DecodeFloat</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>bits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="169" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="169" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" line="8" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/TerrainHeightUtility.cs" bodystart="9" bodyend="173"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ab632b5a7f5a8166e1593084736e0a095" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>DecodeFloat</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ad659a2d9f5fcbb7281701cb29fc1fe9c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>DispatchMaximum</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ac940dab15fcdb9e032ba9350b6258dbd" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>findMaximumKernel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ad21e1213f251d9da4cd1479dc505238a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>GetMaximum</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1aa1c358c5eb0e8aa2b08108fa63b5bfca" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>Initialize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a3b56a21d3e13fe34f90f91bd70b7482c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>MaximumBits</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a87a8484d689716d80b34064f78cdba92" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>Normalize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1acc22dfed7187493a56299f5ca943b675" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>normalizeKernel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a83a27a99bb4074524792f14a3575dbee" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>NormalizePreview</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a52b294314129bf988dc24f2965b38189" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>normalizePreviewKernel</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1ae180721b04307f9b175db04605ee95b0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>RequestMaximum</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a7c3cb40ab290e20ec9914e193f2d2f25" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>shader</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a3f2da2bffc80a98816b96603f011029d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>ShaderPath</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a664b2468fdf0d1ca6bf4937304cf3620" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>ThreadGroupSize</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility_1a9e1c85a4925aa6ff79f0a92c31551d3d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::TerrainHeightUtility</scope><name>ZeroMaximum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

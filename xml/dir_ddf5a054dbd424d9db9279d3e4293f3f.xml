@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_ddf5a054dbd424d9db9279d3e4293f3f" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Constants</compoundname>
+    <innerfile refid="_animation_curve_node_8cs">AnimationCurveNode.cs</innerfile>
+    <innerfile refid="_bool_node_8cs">BoolNode.cs</innerfile>
+    <innerfile refid="_color_node_8cs">ColorNode.cs</innerfile>
+    <innerfile refid="_constant_node_8cs">ConstantNode.cs</innerfile>
+    <innerfile refid="_float_node_8cs">FloatNode.cs</innerfile>
+    <innerfile refid="_gradient_node_8cs">GradientNode.cs</innerfile>
+    <innerfile refid="_int_node_8cs">IntNode.cs</innerfile>
+    <innerfile refid="_quaternion_node_8cs">QuaternionNode.cs</innerfile>
+    <innerfile refid="_string_node_8cs">StringNode.cs</innerfile>
+    <innerfile refid="_texture2_d_node_8cs">Texture2DNode.cs</innerfile>
+    <innerfile refid="_texture_node_8cs">TextureNode.cs</innerfile>
+    <innerfile refid="_vector2_int_node_8cs">Vector2IntNode.cs</innerfile>
+    <innerfile refid="_vector2_node_8cs">Vector2Node.cs</innerfile>
+    <innerfile refid="_vector3_int_node_8cs">Vector3IntNode.cs</innerfile>
+    <innerfile refid="_vector3_node_8cs">Vector3Node.cs</innerfile>
+    <innerfile refid="_vector4_node_8cs">Vector4Node.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Constants/"/>
+  </compounddef>
+</doxygen>

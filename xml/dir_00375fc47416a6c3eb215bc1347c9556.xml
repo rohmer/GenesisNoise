@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_00375fc47416a6c3eb215bc1347c9556" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Pattern</compoundname>
+    <innerfile refid="_anisotropic_node1_8cs">AnisotropicNode1.cs</innerfile>
+    <innerfile refid="_anisotropic_node2_8cs">AnisotropicNode2.cs</innerfile>
+    <innerfile refid="_anisotropic_node3_8cs">AnisotropicNode3.cs</innerfile>
+    <innerfile refid="_aurora_node_8cs">AuroraNode.cs</innerfile>
+    <innerfile refid="_b_w_spots1_node_8cs">BWSpots1Node.cs</innerfile>
+    <innerfile refid="_b_w_spots2_node_8cs">BWSpots2Node.cs</innerfile>
+    <innerfile refid="_b_w_spots3_node_8cs">BWSpots3Node.cs</innerfile>
+    <innerfile refid="_b_w_spots4_node_8cs">BWSpots4Node.cs</innerfile>
+    <innerfile refid="_cells1_node_8cs">Cells1Node.cs</innerfile>
+    <innerfile refid="_cells2_node_8cs">Cells2Node.cs</innerfile>
+    <innerfile refid="_cells3_node_8cs">Cells3Node.cs</innerfile>
+    <innerfile refid="_cells4_node_8cs">Cells4Node.cs</innerfile>
+    <innerfile refid="_clouds1_node_8cs">Clouds1Node.cs</innerfile>
+    <innerfile refid="_clouds2_node_8cs">Clouds2Node.cs</innerfile>
+    <innerfile refid="_clouds3_node_8cs">Clouds3Node.cs</innerfile>
+    <innerfile refid="_clouds4_node_8cs">Clouds4Node.cs</innerfile>
+    <innerfile refid="_cobblestone_node_8cs">CobblestoneNode.cs</innerfile>
+    <innerfile refid="_crystal1_node_8cs">Crystal1Node.cs</innerfile>
+    <innerfile refid="_crystal2_node_8cs">Crystal2Node.cs</innerfile>
+    <innerfile refid="_crystal3_node_8cs">Crystal3Node.cs</innerfile>
+    <innerfile refid="_crystal_h_q_node_8cs">CrystalHQNode.cs</innerfile>
+    <innerfile refid="_directional_scratches_node_8cs">DirectionalScratchesNode.cs</innerfile>
+    <innerfile refid="_dirt2_node_8cs">Dirt2Node.cs</innerfile>
+    <innerfile refid="_dirt3_node_8cs">Dirt3Node.cs</innerfile>
+    <innerfile refid="_dirt4_node_8cs">Dirt4Node.cs</innerfile>
+    <innerfile refid="_dirt_fine_node_8cs">DirtFineNode.cs</innerfile>
+    <innerfile refid="_dirt_gradient_node_8cs">DirtGradientNode.cs</innerfile>
+    <innerfile refid="_dirt_node_8cs">DirtNode.cs</innerfile>
+    <innerfile refid="_grass_generator_8cs">GrassGenerator.cs</innerfile>
+    <innerfile refid="_grime10_node_8cs">Grime10Node.cs</innerfile>
+    <innerfile refid="_grime2_node_8cs">Grime2Node.cs</innerfile>
+    <innerfile refid="_grime3_node_8cs">Grime3Node.cs</innerfile>
+    <innerfile refid="_grime4_node_8cs">Grime4Node.cs</innerfile>
+    <innerfile refid="_grime5_node_8cs">Grime5Node.cs</innerfile>
+    <innerfile refid="_grime6_node_8cs">Grime6Node.cs</innerfile>
+    <innerfile refid="_grime7_node_8cs">Grime7Node.cs</innerfile>
+    <innerfile refid="_grime8_node_8cs">Grime8Node.cs</innerfile>
+    <innerfile refid="_grime9_node_8cs">Grime9Node.cs</innerfile>
+    <innerfile refid="_grime_node_8cs">GrimeNode.cs</innerfile>
+    <innerfile refid="_grime_spots_node_8cs">GrimeSpotsNode.cs</innerfile>
+    <innerfile refid="_height_extrude_node_8cs">HeightExtrudeNode.cs</innerfile>
+    <innerfile refid="_leaks_node_8cs">LeaksNode.cs</innerfile>
+    <innerfile refid="_leaks_node2_8cs">LeaksNode2.cs</innerfile>
+    <innerfile refid="_marble_node_8cs">MarbleNode.cs</innerfile>
+    <innerfile refid="_organic_scratches_node_8cs">OrganicScratchesNode.cs</innerfile>
+    <innerfile refid="_plasma_node_8cs">PlasmaNode.cs</innerfile>
+    <innerfile refid="_rust_fine_node_8cs">RustFineNode.cs</innerfile>
+    <innerfile refid="_scratches_dirty_node_8cs">ScratchesDirtyNode.cs</innerfile>
+    <innerfile refid="_scratches_fine_node_8cs">ScratchesFineNode.cs</innerfile>
+    <innerfile refid="_scratches_generator_node_8cs">ScratchesGeneratorNode.cs</innerfile>
+    <innerfile refid="_scratches_node_8cs">ScratchesNode.cs</innerfile>
+    <innerfile refid="_sky_generator_8cs">SkyGenerator.cs</innerfile>
+    <innerfile refid="_smudge_node_8cs">SmudgeNode.cs</innerfile>
+    <innerfile refid="_stylized_pebbles_node_8cs">StylizedPebblesNode.cs</innerfile>
+    <innerfile refid="_wood_grain_node_8cs">WoodGrainNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Pattern/"/>
+  </compounddef>
+</doxygen>

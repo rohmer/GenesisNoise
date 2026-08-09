@@ -1,0 +1,784 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Views::GenesisGraphView</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_base_graph_view" prot="public" virt="non-virtual">GraphProcessor.BaseGraphView</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6b39af31f5adf871ccd2b1ab7190be10" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph_processor" kindref="compound">GenesisGraphProcessor</ref></type>
+        <definition>GenesisGraphProcessor AhahGames.GenesisNoise.Views.GenesisGraphView.processor</definition>
+        <argsstring></argsstring>
+        <name>processor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.processor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="21" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6c85b2fd1aa704c85c8d4582c58e50aa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new <ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>new GenesisGraph AhahGames.GenesisNoise.Views.GenesisGraphView.graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.graph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="23" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a174719f57c0630fa1b18abe3befa090a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector" kindref="compound">GenesisNodeInspector</ref></type>
+        <definition>GenesisNodeInspector AhahGames.GenesisNoise.Views.GenesisGraphView.genesisNodeInspector</definition>
+        <argsstring></argsstring>
+        <name>genesisNodeInspector</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.genesisNodeInspector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="24" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a77cc78a2c8923f78c18e3320a4c97d97" prot="private" static="yes" mutable="no">
+        <type>const double</type>
+        <definition>const double AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessDebounceSeconds</definition>
+        <argsstring></argsstring>
+        <name>ProcessDebounceSeconds</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessDebounceSeconds</qualifiedname>
+        <initializer>= 0.12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="188" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a933f658a16a29bd4ba2ed7f4f8836613" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Views.GenesisGraphView.delayQueued</definition>
+        <argsstring></argsstring>
+        <name>delayQueued</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.delayQueued</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="189" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a8a0bf184124013b87366d3b10446d7d8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Views.GenesisGraphView.suppressLoadProcessingRequests</definition>
+        <argsstring></argsstring>
+        <name>suppressLoadProcessingRequests</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.suppressLoadProcessingRequests</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="190" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a8a131ae9ea58cabaf81fb241edd5a9f5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Views.GenesisGraphView.delayedSourceAssigned</definition>
+        <argsstring></argsstring>
+        <name>delayedSourceAssigned</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.delayedSourceAssigned</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="191" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6f76613128df23de3f04b5ffa941a128" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Views.GenesisGraphView.addingNode</definition>
+        <argsstring></argsstring>
+        <name>addingNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.addingNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="192" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a791ce23f004e27887de72229e6fbfd68" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double AhahGames.GenesisNoise.Views.GenesisGraphView.delayedProcessTime</definition>
+        <argsstring></argsstring>
+        <name>delayedProcessTime</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.delayedProcessTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="193" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ac055789271489a09062e4d8f1c9d867a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+        <definition>BaseNode AhahGames.GenesisNoise.Views.GenesisGraphView.delayedSource</definition>
+        <argsstring></argsstring>
+        <name>delayedSource</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.delayedSource</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="194" column="18" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a53cbe14412e18eadfec43286689abf25" prot="private" static="no" mutable="no">
+        <type>Color[]</type>
+        <definition>Color [] AhahGames.GenesisNoise.Views.GenesisGraphView.nestingLevel</definition>
+        <argsstring></argsstring>
+        <name>nestingLevel</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.nestingLevel</qualifiedname>
+        <initializer>                   = new Color[]
+{
+    new(0.06167674f, 0.1060795f, 0.1698113f),
+    new(0.1509434f, 0.06763973f, 0.1494819f),
+    new(0.05764706f, 0.098f, 0.08358824f),
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="324" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="324" bodyend="329"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1afdddb69d818bf10f4de6bddf6e9bfd55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Views.GenesisGraphView.GenesisGraphView</definition>
+        <argsstring>(EditorWindow window)</argsstring>
+        <name>GenesisGraphView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.GenesisGraphView</qualifiedname>
+        <param>
+          <type>EditorWindow</type>
+          <declname>window</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="26" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="26" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a5cf2f4931a622216859bda28c40df37c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override List&lt; Port &gt;</type>
+        <definition>override List&lt; Port &gt; AhahGames.GenesisNoise.Views.GenesisGraphView.GetCompatiblePorts</definition>
+        <argsstring>(Port startPort, NodeAdapter nodeAdapter)</argsstring>
+        <name>GetCompatiblePorts</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.GetCompatiblePorts</qualifiedname>
+        <param>
+          <type>Port</type>
+          <declname>startPort</declname>
+        </param>
+        <param>
+          <type>NodeAdapter</type>
+          <declname>nodeAdapter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="42" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="42" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ad51e6ea36de8c1a71e8b44db9d0e9f7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Views.GenesisGraphView.BuildContextualMenu</definition>
+        <argsstring>(ContextualMenuPopulateEvent evt)</argsstring>
+        <name>BuildContextualMenu</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.BuildContextualMenu</qualifiedname>
+        <param>
+          <type>ContextualMenuPopulateEvent</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="99" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="99" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0d2ff9591805cfca0fa3545d92893e58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessGraph</definition>
+        <argsstring>(BaseNode sourceNode=null, bool forceReprocess=false)</argsstring>
+        <name>ProcessGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessGraph</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>sourceNode</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceReprocess</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="260" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="260" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a29d84786146ecd0ee37f789efbd08939" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessGraphImmediate</definition>
+        <argsstring>(BaseNode sourceNode=null, bool forceReprocess=false)</argsstring>
+        <name>ProcessGraphImmediate</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessGraphImmediate</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>sourceNode</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceReprocess</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="288" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="288" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a73fb7cc55e61cda14b1b0bfb7477968c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.OnGraphProcessingCompleted</definition>
+        <argsstring>()</argsstring>
+        <name>OnGraphProcessingCompleted</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.OnGraphProcessingCompleted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="300" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="300" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a68d972c1ff11187d10b6359a34bac03e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_graph_processor_1_1_base_node_view" kindref="compound">BaseNodeView</ref></type>
+        <definition>override BaseNodeView AhahGames.GenesisNoise.Views.GenesisGraphView.AddNode</definition>
+        <argsstring>(BaseNode node)</argsstring>
+        <name>AddNode</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.AddNode</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_base_graph_view_1a86bcfc83586714512e18e14492c75bff">AddNode</reimplements>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="370" column="38" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="370" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a996bb3fc153c34472d21280781d75187" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.CreateNodeOfType</definition>
+        <argsstring>(Type type, Vector2 position)</argsstring>
+        <name>CreateNodeOfType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.CreateNodeOfType</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="387" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="387" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a9833bbc4703f9c8145d83fc58c653216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.RefreshNodeSettings</definition>
+        <argsstring>()</argsstring>
+        <name>RefreshNodeSettings</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.RefreshNodeSettings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="404" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="404" bodyend="409"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a2cc857d8e8b70e0cb38f1f5154e91ec4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_graph_processor_1_1_node_inspector_object" kindref="compound">NodeInspectorObject</ref></type>
+        <definition>override NodeInspectorObject AhahGames.GenesisNoise.Views.GenesisGraphView.CreateNodeInspectorObject</definition>
+        <argsstring>()</argsstring>
+        <name>CreateNodeInspectorObject</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.CreateNodeInspectorObject</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_base_graph_view_1a1da68664350dd7d443e0460d1016a6ab">CreateNodeInspectorObject</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="89" column="48" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0bedee9f3e93bc63816ae731ff876748" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ReimportMainAsset</definition>
+        <argsstring>()</argsstring>
+        <name>ReimportMainAsset</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ReimportMainAsset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="121" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1acff9e392b8310f8971057a6aca5f1fdf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ShowAllSubAssets</definition>
+        <argsstring>()</argsstring>
+        <name>ShowAllSubAssets</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ShowAllSubAssets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="127" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="127" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a73a0b1292964fc4cfa7020b85f9511f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.HideAllSubAssets</definition>
+        <argsstring>()</argsstring>
+        <name>HideAllSubAssets</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.HideAllSubAssets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="136" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="136" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ad8279684b7ab316b0768b4682075ece6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.OnNodeDuplicated</definition>
+        <argsstring>(BaseNode sourceNode, BaseNode newNode)</argsstring>
+        <name>OnNodeDuplicated</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.OnNodeDuplicated</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>sourceNode</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>newNode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="148" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="148" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0f47bd8e72852c468684819390b961dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.Initialize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="161" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="161" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1aa7afefc3a1745c923b0ae81dacb9d955" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessGraphWhenChanged</definition>
+        <argsstring>(GraphChanges changes)</argsstring>
+        <name>ProcessGraphWhenChanged</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ProcessGraphWhenChanged</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_graph_changes" kindref="compound">GraphChanges</ref></type>
+          <declname>changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="196" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="196" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a23b8a7d38c5deb69e5d056e41cf25f97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.DelayedProcess</definition>
+        <argsstring>()</argsstring>
+        <name>DelayedProcess</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.DelayedProcess</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="227" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="227" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a805f6058426316a924252ec0f5cadd93" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ClearDelayedProcess</definition>
+        <argsstring>()</argsstring>
+        <name>ClearDelayedProcess</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ClearDelayedProcess</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="237" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="237" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6eb4e8f58f790d87fe324f7b4747403a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.Disable</definition>
+        <argsstring>()</argsstring>
+        <name>Disable</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.Disable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="247" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="247" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ab561630909374c287c898e4278c4821e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.OnOutputTextureUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>OnOutputTextureUpdated</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.OnOutputTextureUpdated</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="271" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="271" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ac950989e645c2aa65e91396f4f2ff6ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ClearLoadProcessingSuppression</definition>
+        <argsstring>()</argsstring>
+        <name>ClearLoadProcessingSuppression</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ClearLoadProcessingSuppression</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="282" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="282" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a48ce7755116bcd92881d4c35cef88955" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.ReloadGraph</definition>
+        <argsstring>()</argsstring>
+        <name>ReloadGraph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.ReloadGraph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="318" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="318" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1afd781e55d2e359994877f6b33567c366" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.UpdateNodeColors</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateNodeColors</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.UpdateNodeColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="331" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="331" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0f720b3e5534be2ec80727897eb26e27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.KeyCallback</definition>
+        <argsstring>(KeyDownEvent k)</argsstring>
+        <name>KeyCallback</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.KeyCallback</qualifiedname>
+        <param>
+          <type>KeyDownEvent</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="393" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="393" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1abf978a43e392ba4efcaff69abeb3dd92" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.GenesisGraphView.SetupRepaintChecker</definition>
+        <argsstring>()</argsstring>
+        <name>SetupRepaintChecker</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.GenesisGraphView.SetupRepaintChecker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="411" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="411" bodyend="444"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Views.GenesisGraphView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphView</label>
+      </node>
+      <node id="4">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Views.GenesisGraphView</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GraphView</label>
+      </node>
+      <node id="4">
+        <label>IDisposable</label>
+      </node>
+      <node id="9">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="7">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="6">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" line="19" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/GenesisGraphView.cs" bodystart="20" bodyend="445"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a8f3f95a42a6630048e9dcf11ced8d25a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6701790c55b197ff50108cee37f8ac30" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddGroupView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6f76613128df23de3f04b5ffa941a128" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>addingNode</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a68d972c1ff11187d10b6359a34bac03e" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a562ec7f5f2ee72327b3081952fcecf25" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab7bd9edf3efcdd950509626d54390179" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddRelayNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6cd1040cb68c62092abea33b50f33374" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddSelectionsToGroup</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a4192aa1ea6c85b09af616aa68d5b9a9b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddStackNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a3bf7c32a602819abb4de0f48ca32358d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>AddStackNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ae394d2e4c2b7ddbefbd325ea45350d97" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BaseGraphView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ad51e6ea36de8c1a71e8b44db9d0e9f7e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BuildContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1addd9ac2ccdd324613ad33b631d4f3df7" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BuildGroupContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab1a36fc318e8b1278e0154b784bc601f" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BuildHelpContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a461061526abd7ff8e7dba524ae42939c" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BuildSaveAssetContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a2898a0431dc3dc1ba7a1ae35ada30f88" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BuildSelectAssetContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a06e7e02c9a549f336a0186d05ce1982e" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BuildStickyNoteContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a624b8f93b2318b90674fb9674e1c800b" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>BuildViewContextualMenu</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1acbf3c5a763cabec1e4104da1c591614f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>CanConnectEdge</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a38b230333eff1d375d4497cb3d4fffd2" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>canCopySelection</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a84efaacb0ab21e1f6c849bfd131bae75" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>canCutSelection</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a805f6058426316a924252ec0f5cadd93" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ClearDelayedProcess</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a9a9d6ccab4241030f8f675f39128c457" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ClearGraphElements</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ac950989e645c2aa65e91396f4f2ff6ff" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ClearLoadProcessingSuppression</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a1f29edd52f1137b5fa26204e8b19105c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ClosePinned</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ac981056206c13fb4e366f5b763fabf7f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ClosePinned&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad999967b63e7b0b915968f499a201f15" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>computeOrderUpdated</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a37d452e8240563996f6ded53d141c448" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ComputeOrderUpdatedDelegate</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a899312c1adfa143a4452a1c2ef6bed77" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Connect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a44c5c515dee13d8c13d0788987ccbc96" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Connect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1abc187575467f6ea4854aa22ec1adf08f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>connectorListener</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6edcc9480e9753b7f0a205fa0ffb9061" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ConnectView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a1719560316f293e578f75bd6407015dc" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>CreateEdgeConnectorListener</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a14dd93376abfc29ac076ee8a568f747a" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>CreateEdgeView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a2cc857d8e8b70e0cb38f1f5154e91ec4" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>CreateNodeInspectorObject</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a996bb3fc153c34472d21280781d75187" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>CreateNodeOfType</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a0cccd90222fcf16fd7bde1a17d190019" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>DelayedDeleteSelection</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a23b8a7d38c5deb69e5d056e41cf25f97" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>DelayedProcess</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a791ce23f004e27887de72229e6fbfd68" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>delayedProcessTime</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ac055789271489a09062e4d8f1c9d867a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>delayedSource</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a8a131ae9ea58cabaf81fb241edd5a9f5" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>delayedSourceAssigned</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a933f658a16a29bd4ba2ed7f4f8836613" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>delayQueued</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6eb4e8f58f790d87fe324f7b4747403a" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Disable</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a22f7a135e130253193ed5f575f0c8b20" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Disconnect</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab632600e7d01dac5ddbe98ea96487eb0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>DisconnectView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a141204de6a233ef862f218ef0ba5f73b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Dispose</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab562595f58f3ce3247b808de6ffd97fb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>edgeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a3f08826ce4a3fe23521f0d80571d64bb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>exposedParameterFactory</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad33eb7b0fbb8c1ecd19658e3ccd663ca" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>FilterCreateNodeMenuEntries</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1afdddb69d818bf10f4de6bddf6e9bfd55" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>GenesisGraphView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a174719f57c0630fa1b18abe3befa090a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>genesisNodeInspector</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a5cf2f4931a622216859bda28c40df37c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>GetCompatiblePorts</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa68cd4ce0fa862174aa345fedc281f28" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>GetPinnedElementStatus</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a44e7c4b29cb23ea68f3f9f5bf47c1681" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>GetPinnedElementStatus&lt; T &gt;</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6c85b2fd1aa704c85c8d4582c58e50aa" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>graph</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a20ec59b3ad9d4da8d2d01d62902df686" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>groupViews</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a73a0b1292964fc4cfa7020b85f9511f2" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>HideAllSubAssets</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0f47bd8e72852c468684819390b961dd" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa8b031dfdc837a2aa8a09233e3e2978d" prot="public" virt="non-virtual" ambiguityscope="GraphProcessor::BaseGraphView."><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Initialize</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a86a1f27d8ec0ed25f127f0a3312f8199" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>initialized</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a88bd2dde3047c85da2049fd9225910e8" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>InitializeManipulators</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a83a4b1cd8d42bfe02ad4ff5bb80d6cb9" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>InitializeView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0f720b3e5534be2ec80727897eb26e27" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>KeyCallback</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad0f30a28cd8f573478bb7c3e59b64121" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>KeyDownCallback</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a53cbe14412e18eadfec43286689abf25" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>nestingLevel</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a129344729810707053a397aba096aa9f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>nodeDuplicated</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1abe52aad31123205acdd209f5e947e56c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>NodeDuplicatedDelegate</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a484496779f060f095caae2f4c59db427" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>nodeInspector</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a60f85422caf59328f8f3420bbda08398" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>nodeViews</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a0ef168072fc67c501a54bd129b053e4c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>nodeViewsPerNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aca7152d2fc57965172f4e082e497d76b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>onExposedParameterListChanged</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aa6d741d789d54f74dacd11ce47ebbb68" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>onExposedParameterModified</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a73fb7cc55e61cda14b1b0bfb7477968c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>OnGraphProcessingCompleted</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ad8279684b7ab316b0768b4682075ece6" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>OnNodeDuplicated</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1ab561630909374c287c898e4278c4821e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>OnOutputTextureUpdated</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a4a29c6a5a945058f2b8df5834a35854c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>OpenPinned</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a55526dc34416896365896410d849091b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>OpenPinned&lt; T &gt;</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a77cc78a2c8923f78c18e3320a4c97d97" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ProcessDebounceSeconds</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0d2ff9591805cfca0fa3545d92893e58" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ProcessGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a29d84786146ecd0ee37f789efbd08939" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ProcessGraphImmediate</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1aa7afefc3a1745c923b0ae81dacb9d955" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ProcessGraphWhenChanged</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a6b39af31f5adf871ccd2b1ab7190be10" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>processor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a9833bbc4703f9c8145d83fc58c653216" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>RefreshNodeSettings</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a51eddff83c691c00220bab3433627d5e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>RegisterCompleteObjectUndo</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a0bedee9f3e93bc63816ae731ff876748" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ReimportMainAsset</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ab381927d18eabbf462ee09b6c752560a" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>Reload</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a48ce7755116bcd92881d4c35cef88955" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ReloadGraph</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a55b0cd9ea998c1e42a5982369fd64781" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>RemoveEdges</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6fd0f0cb7d44f52d8fb4541637bb1071" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>RemoveGroups</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a841269e9bc092f01505f71425617add9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>RemoveNode</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a6f14fddca73db3387dd7135aa1bff259" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>RemoveNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a0b8fbf6817d1e89b2954f5121e2ca457" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>RemoveStackNodeView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a10a8048c25d9ad02f0d5352a626193b3" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ResetPositionAndZoom</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a7d46a6fe226a565c3ce454108610910f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>SaveGraphToDisk</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a268a5ed2b0b3244c928ff896eb615928" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>serializedGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1abf978a43e392ba4efcaff69abeb3dd92" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>SetupRepaintChecker</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1acff9e392b8310f8971057a6aca5f1fdf" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ShowAllSubAssets</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ae863115e6309c3d1c6d53045459e19e6" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>stackNodeViews</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1a8a0bf184124013b87366d3b10446d7d8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>suppressLoadProcessingRequests</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a652b5089e3f20eaccd84a96f86a5325d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>SyncSerializedPropertyPathes</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1aaf98b3741dd0e1bea9f6382904dd98e4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ToggleView</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1acd8265782f1d68ea9a2424881f001d0b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>ToggleView&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1ad067e0fefa9ded1e99042973ca4eaf67" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>UpdateComputeOrder</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view_1afd781e55d2e359994877f6b33567c366" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>UpdateNodeColors</name></member>
+      <member refid="class_graph_processor_1_1_base_graph_view_1a358fb02a4a4329bb660f20dfc7fb8940" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::GenesisGraphView</scope><name>UpdateNodeInspectorSelection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

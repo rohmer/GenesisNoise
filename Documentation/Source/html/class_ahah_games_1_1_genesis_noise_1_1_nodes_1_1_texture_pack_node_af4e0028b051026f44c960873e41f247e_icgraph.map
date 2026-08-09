@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.TexturePackNode.EnsureMaterial" name="AhahGames.GenesisNoise.Nodes.TexturePackNode.EnsureMaterial">
-<area shape="rect" id="Node000001" title=" " alt="" coords="279,39,504,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_pack_node.html#a690958b857cb0b6ab47721d3e2c8419c" title="Called when the node is enabled." alt="" coords="5,5,231,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,45,231,43,231,38,266,44"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_pack_node.html#ad40868910501abf3dcb56dd02c8e604e" title=" " alt="" coords="5,72,231,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,76,232,82,231,77,266,75"/>
-</map>

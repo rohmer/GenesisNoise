@@ -1,9 +1,0 @@
-<map id="SharpVoronoiLib.IPointGenerationAlgorithm" name="SharpVoronoiLib.IPointGenerationAlgorithm">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,222,81"/>
-<area shape="rect" id="Node000002" href="$class_sharp_voronoi_lib_1_1_random_point_generation.html" title=" " alt="" coords="270,39,468,81"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,57,272,60,266,60,237,63"/>
-<area shape="rect" id="Node000003" href="$class_sharp_voronoi_lib_1_1_random_gaussian_point_generation.html" title=" " alt="" coords="516,5,739,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="483,43,518,41,513,41,484,48"/>
-<area shape="rect" id="Node000004" href="$class_sharp_voronoi_lib_1_1_random_uniform_point_generation.html" title=" " alt="" coords="520,72,735,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="483,72,523,80,518,79,483,77"/>
-</map>

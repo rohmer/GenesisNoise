@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="namespace_ahah_games_1_1_genesis_noise_1_1_utility" kind="namespace" language="C#">
+    <compoundname>AhahGames::GenesisNoise::Utility</compoundname>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_asset_creation" prot="public">AhahGames::GenesisNoise::Utility::AssetCreation</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter" prot="public">AhahGames::GenesisNoise::Utility::GenesisTypeConverter</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_material_extension" prot="public">AhahGames::GenesisNoise::Utility::MaterialExtension</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_math_a" prot="public">AhahGames::GenesisNoise::Utility::MathA</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_node_texture_utils" prot="public">AhahGames::GenesisNoise::Utility::NodeTextureUtils</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_terrain_height_utility" prot="public">AhahGames::GenesisNoise::Utility::TerrainHeightUtility</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_texture_compute_utility" prot="public">AhahGames::GenesisNoise::Utility::TextureComputeUtility</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/AssetCreation.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,0 @@
-<map id="GraphProcessor.EnumPatternParameter.CoerceToIndex" name="GraphProcessor.EnumPatternParameter.CoerceToIndex">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,201,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_enum_pattern_parameter.html#a46c1afff4c27372503d301b77241009e" title=" " alt="" coords="268,5,464,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,45,255,40,250,42,202,50"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_exposed_parameter.html#a746df6d51578529e19b96e08d11de699" title=" " alt="" coords="249,72,483,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,70,236,76,230,77,201,75"/>
-</map>

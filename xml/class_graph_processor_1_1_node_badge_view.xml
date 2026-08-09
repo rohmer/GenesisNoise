@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_node_badge_view" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::NodeBadgeView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IconBadge</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_badge_view_1aa20db9e04fdb1604ae0206d12d13b4a9" prot="private" static="no" mutable="no">
+        <type>Label</type>
+        <definition>Label GraphProcessor.NodeBadgeView.label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="11" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_badge_view_1a0eb664da773d232aea869177161f0aab" prot="private" static="no" mutable="no">
+        <type>Texture</type>
+        <definition>Texture GraphProcessor.NodeBadgeView.icon</definition>
+        <argsstring></argsstring>
+        <name>icon</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.icon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="12" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_badge_view_1a0f8e67e2195fc00ad1aaac8aa246d388" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color GraphProcessor.NodeBadgeView.color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="13" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_node_badge_view_1a4246a326f60c2a104a430fb925609ac6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.NodeBadgeView.isCustom</definition>
+        <argsstring></argsstring>
+        <name>isCustom</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.isCustom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="14" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_badge_view_1a18c6f9876f5fcbd3d922fc4574f2e6be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.NodeBadgeView.NodeBadgeView</definition>
+        <argsstring>(string message, NodeMessageType messageType)</argsstring>
+        <name>NodeBadgeView</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.NodeBadgeView</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>NodeMessageType</type>
+          <declname>messageType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="16" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="16" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_node_badge_view_1a605e53c53e44569fe4cf8b04c7cd903a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.NodeBadgeView.NodeBadgeView</definition>
+        <argsstring>(string message, Texture icon, Color color)</argsstring>
+        <name>NodeBadgeView</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.NodeBadgeView</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>icon</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="36" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_badge_view_1a3eaad8f9203b3a62e0de24ff8da56399" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphProcessor.NodeBadgeView.CreateCustom</definition>
+        <argsstring>(string message, Texture icon, Color color)</argsstring>
+        <name>CreateCustom</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.CreateCustom</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>Texture</type>
+          <declname>icon</declname>
+        </param>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="41" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="41" bodyend="53"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_node_badge_view_1a81a6203f32dc91cb6979006bc0c08dd7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void GraphProcessor.NodeBadgeView.HandleEventBubbleUp</definition>
+        <argsstring>(EventBase evt)</argsstring>
+        <name>HandleEventBubbleUp</name>
+        <qualifiedname>GraphProcessor.NodeBadgeView.HandleEventBubbleUp</qualifiedname>
+        <param>
+          <type>EventBase</type>
+          <declname>evt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="55" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="55" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.NodeBadgeView</label>
+        <link refid="class_graph_processor_1_1_node_badge_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IconBadge</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.NodeBadgeView</label>
+        <link refid="class_graph_processor_1_1_node_badge_view"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IconBadge</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" line="9" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Views/NodeBadgeView.cs" bodystart="10" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_node_badge_view_1a0f8e67e2195fc00ad1aaac8aa246d388" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>color</name></member>
+      <member refid="class_graph_processor_1_1_node_badge_view_1a3eaad8f9203b3a62e0de24ff8da56399" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>CreateCustom</name></member>
+      <member refid="class_graph_processor_1_1_node_badge_view_1a81a6203f32dc91cb6979006bc0c08dd7" prot="protected" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>HandleEventBubbleUp</name></member>
+      <member refid="class_graph_processor_1_1_node_badge_view_1a0eb664da773d232aea869177161f0aab" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>icon</name></member>
+      <member refid="class_graph_processor_1_1_node_badge_view_1a4246a326f60c2a104a430fb925609ac6" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>isCustom</name></member>
+      <member refid="class_graph_processor_1_1_node_badge_view_1aa20db9e04fdb1604ae0206d12d13b4a9" prot="private" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>label</name></member>
+      <member refid="class_graph_processor_1_1_node_badge_view_1a18c6f9876f5fcbd3d922fc4574f2e6be" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>NodeBadgeView</name></member>
+      <member refid="class_graph_processor_1_1_node_badge_view_1a605e53c53e44569fe4cf8b04c7cd903a" prot="public" virt="non-virtual"><scope>GraphProcessor::NodeBadgeView</scope><name>NodeBadgeView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

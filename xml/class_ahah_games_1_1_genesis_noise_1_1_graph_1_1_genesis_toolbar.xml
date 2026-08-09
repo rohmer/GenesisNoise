@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Graph::GenesisToolbar</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_toolbar_view" prot="public" virt="non-virtual">GraphProcessor.ToolbarView</basecompoundref>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1_1_styles" prot="private">AhahGames::GenesisNoise::Graph::GenesisToolbar::Styles</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1_1_improve_genesis_popup_window" prot="public">AhahGames::GenesisNoise::Graph::GenesisToolbar::ImproveGenesisPopupWindow</innerclass>
+    <innerclass refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1_1_settings_genesis_popup_window" prot="public">AhahGames::GenesisNoise::Graph::GenesisToolbar::SettingsGenesisPopupWindow</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a1f064303d8226a51205f0eb8b535da43" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>TextureType</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.TextureType</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a1f064303d8226a51205f0eb8b535da43a46a3fe3bfeb707b07c130ca70dec8972" prot="private">
+          <name>Type2D</name>
+          <initializer>= OutputDimension.Texture2D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a1f064303d8226a51205f0eb8b535da43a8b3e41709798fc67fc16a39f8bbe1c99" prot="private">
+          <name>Type3D</name>
+          <initializer>= OutputDimension.Texture3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a1f064303d8226a51205f0eb8b535da43a78da873f1df10012ea46235deb10338b" prot="private">
+          <name>TypeCubemap</name>
+          <initializer>= OutputDimension.CubeMap</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="44" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>Resolution</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.Resolution</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528ad9ec329f3672e2611ef6ff94beee84ad" prot="private">
+          <name>Res32</name>
+          <initializer>= POTSize._32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528acee65dc328d37f7af78520917e93d955" prot="private">
+          <name>Res64</name>
+          <initializer>= POTSize._64</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528a8f8193e71131c087665adcc004e4fccb" prot="private">
+          <name>Res128</name>
+          <initializer>= POTSize._128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528a20ce737964327e5955020629bb48c510" prot="private">
+          <name>Res256</name>
+          <initializer>= POTSize._256</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528a8240bc337da7a74b1c1ae818f8c67c48" prot="private">
+          <name>Res512</name>
+          <initializer>= POTSize._512</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528aaadc979b2bfb013007599a75ce9cf033" prot="private">
+          <name>Res1024</name>
+          <initializer>= POTSize._1024</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528ad84d969090ba5d294538fec6b0aa181c" prot="private">
+          <name>Res2048</name>
+          <initializer>= POTSize._2048</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528a783394800dfb3b47dd3cd216f4435805" prot="private">
+          <name>Res4096</name>
+          <initializer>= POTSize._4096</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528aeca76d15d5744eaa1d0f3c9bf749b41e" prot="private">
+          <name>Res8192</name>
+          <initializer>= POTSize._8192</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528a90589c47f06eb971d548591f23c285af" prot="private">
+          <name>Custom</name>
+          <initializer>= POTSize.Custom</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="54" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="55" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ae41e10625edc111dcb4224852a1e5a34" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+        <definition>GenesisGraph AhahGames.GenesisNoise.Graph.GenesisToolbar.graph</definition>
+        <argsstring></argsstring>
+        <name>graph</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.graph</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="23" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a859a2320d94bb0cce89648b6b39352bc" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view" kindref="compound">GenesisGraphView</ref></type>
+        <definition>new GenesisGraphView AhahGames.GenesisNoise.Graph.GenesisToolbar.graphView</definition>
+        <argsstring></argsstring>
+        <name>graphView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.graphView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="24" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aff83319235a90b203dbfa1758d58544b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Graph.GenesisToolbar.GenesisToolbar</definition>
+        <argsstring>(BaseGraphView graphView)</argsstring>
+        <name>GenesisToolbar</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.GenesisToolbar</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_graph_view" kindref="compound">BaseGraphView</ref></type>
+          <declname>graphView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="21" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ac9dd8f03ef36abfb35586a26edf4405d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.Graph.GenesisToolbar.AddButtons</definition>
+        <argsstring>()</argsstring>
+        <name>AddButtons</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.AddButtons</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_toolbar_view_1af4152f228589e1ddd42acbc15ff66b7c">AddButtons</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="187" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="187" bodyend="217"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a13fd662a286fafcc690298ee50e9c2a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.ShowInProject</definition>
+        <argsstring>()</argsstring>
+        <name>ShowInProject</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.ShowInProject</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="219" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="219" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ac9423a6289a832edafb1019270d9bb38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.RecipeWindow</definition>
+        <argsstring>()</argsstring>
+        <name>RecipeWindow</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.RecipeWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="225" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="225" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa5006ed1b4855f9e2fd2a2dcada27b3f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.DrawResolutionAndDimensionFields</definition>
+        <argsstring>()</argsstring>
+        <name>DrawResolutionAndDimensionFields</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.DrawResolutionAndDimensionFields</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="230" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="230" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa36d011698c2d10afb1d5323726e9c49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.ShowImproveGenesisWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowImproveGenesisWindow</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.ShowImproveGenesisWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="292" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="292" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa48b2183597bfba2c2c01eae05da4059" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.ShowSettingsWindow</definition>
+        <argsstring>()</argsstring>
+        <name>ShowSettingsWindow</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.ShowSettingsWindow</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="301" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="301" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ad7dcaa2dee88c4108adcad191e390b8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.Restart</definition>
+        <argsstring>()</argsstring>
+        <name>Restart</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.Restart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="310" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="310" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa91663f1eca47ee7dd4cd49d57c6124f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.SaveAll</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAll</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.SaveAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="316" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="316" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a3439f65ddd4cc8a4f2f2be414a019106" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.ToggleRealtime</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>ToggleRealtime</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.ToggleRealtime</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="353" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="353" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1adda6663b2183cfed1c5919727f0c6bf1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.ToggleParameterView</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>ToggleParameterView</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.ToggleParameterView</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="368" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="368" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a8f71272aef538f75ca77b29b9ea4f705" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.AddProcessButton</definition>
+        <argsstring>()</argsstring>
+        <name>AddProcessButton</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.AddProcessButton</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="374" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="374" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa9217bb86dd6fcdd515cdd64fb012bcb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Graph.GenesisToolbar.Process</definition>
+        <argsstring>()</argsstring>
+        <name>Process</name>
+        <qualifiedname>AhahGames.GenesisNoise.Graph.GenesisToolbar.Process</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="378" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="378" bodyend="381"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisToolbar</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ToolbarView</label>
+        <link refid="class_graph_processor_1_1_toolbar_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>VisualElement</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.Graph.GenesisToolbar</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>GraphProcessor.BaseEdgeConnectorListener</label>
+        <link refid="class_graph_processor_1_1_base_edge_connector_listener"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>GraphProcessor.BaseGraph</label>
+        <link refid="class_graph_processor_1_1_base_graph"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>GraphProcessor.BaseGraphView</label>
+        <link refid="class_graph_processor_1_1_base_graph_view"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>graph</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>connectorListener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ToolbarView</label>
+        <link refid="class_graph_processor_1_1_toolbar_view"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>graphView</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GraphView</label>
+      </node>
+      <node id="6">
+        <label>IDisposable</label>
+      </node>
+      <node id="11">
+        <label>IEdgeConnectorListener</label>
+      </node>
+      <node id="9">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+      <node id="8">
+        <label>ScriptableObject</label>
+      </node>
+      <node id="3">
+        <label>VisualElement</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" line="18" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph/GenesisToolbar.cs" bodystart="19" bodyend="382"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a925df8112122127da647fd611ef4388e" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1abcdfde8e418186c40212967904a64325" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddButton</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ac9dd8f03ef36abfb35586a26edf4405d" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddButtons</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a81b351a918c2b3c2434a63c0f5b221f5" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddCustom</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1aa1f05504443f752b3a768ea52097749b" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddDropDownButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a11aeff949adbb6b1dcb72f48c80414c7" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddDropDownButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1ad9951db790278934cf46081a2680c832" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddFlexibleSpace</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a8f71272aef538f75ca77b29b9ea4f705" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddProcessButton</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1ababe2700228a5ec20d8d4e0758be3449" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddSeparator</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a66525c35667e9ae88e103e972bc43753" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddToggle</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1af8d4c2a2b970a3e259149d3bc94234bc" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>AddToggle</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1aeb7163471a33534af6920e274e909526" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>DrawImGUIToolbar</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa5006ed1b4855f9e2fd2a2dcada27b3f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>DrawResolutionAndDimensionFields</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a99f444b227d03b7ed7e86cb4a93a62b2" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ElementType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aff83319235a90b203dbfa1758d58544b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>GenesisToolbar</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ae41e10625edc111dcb4224852a1e5a34" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>graph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a859a2320d94bb0cce89648b6b39352bc" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>graphView</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a8240d303dc36cc3ecf659566c41e565a" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>HideButton</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa9217bb86dd6fcdd515cdd64fb012bcb" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>Process</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ac9423a6289a832edafb1019270d9bb38" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>RecipeWindow</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a2b2d2d57d22a1ac0640f6692bc59e2c3" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>RemoveButton</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a47e5774248a12fd92ba64276c05dd528" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>Resolution</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1ad7dcaa2dee88c4108adcad191e390b8b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>Restart</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa91663f1eca47ee7dd4cd49d57c6124f" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>SaveAll</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1aa36aafb2a6d0bc698114ea6a50c1ec53" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ShowButton</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa36d011698c2d10afb1d5323726e9c49" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ShowImproveGenesisWindow</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a13fd662a286fafcc690298ee50e9c2a8" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ShowInProject</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1aa48b2183597bfba2c2c01eae05da4059" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ShowSettingsWindow</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a1f064303d8226a51205f0eb8b535da43" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>TextureType</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1adda6663b2183cfed1c5919727f0c6bf1" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ToggleParameterView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_toolbar_1a3439f65ddd4cc8a4f2f2be414a019106" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ToggleRealtime</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1a60bcc1a7431b3d1e1c1c4d84febc490f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>ToolbarView</name></member>
+      <member refid="class_graph_processor_1_1_toolbar_view_1af69a7f12195b5a490df0bcbf8a503f6e" prot="public" virt="virtual"><scope>AhahGames::GenesisNoise::Graph::GenesisToolbar</scope><name>UpdateButtonStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

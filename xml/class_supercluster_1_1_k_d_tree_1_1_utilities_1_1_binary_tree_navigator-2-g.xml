@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g" kind="class" language="C#" prot="public">
+    <compoundname>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</compoundname>
+    <templateparamlist>
+      <param>
+        <type>TPoint</type>
+      </param>
+      <param>
+        <type>TNode</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ac80c1d45fbf415647193bdb98297d4a7" prot="private" static="no" mutable="no">
+        <type>readonly TPoint[]</type>
+        <definition>readonly TPoint [] Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.pointArray</definition>
+        <argsstring></argsstring>
+        <name>pointArray</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.pointArray</qualifiedname>
+        <briefdescription>
+<para>A reference to the pointArray in which the binary tree is stored in. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="19" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1a778b04ff82c00478fc2e7ca9aab8088d" prot="private" static="no" mutable="no">
+        <type>readonly TNode[]</type>
+        <definition>readonly TNode [] Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.nodeArray</definition>
+        <argsstring></argsstring>
+        <name>nodeArray</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.nodeArray</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="21" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1aa06a70697e58c7712796ec139c001a38" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.Index</definition>
+        <argsstring></argsstring>
+        <name>Index</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.Index</qualifiedname>
+        <briefdescription>
+<para>The index in the pointArray that the current node resides in. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="26" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="26" bodyend="26"/>
+        <referencedby refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ab151ee008ae1e9083d243b1ca16fdedd" compoundref="_binary_tree_navigator_8cs" startline="67" endline="72">Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.BinaryTreeNavigator</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1adb4331601542096f27dbe53b880ecb42" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ab151ee008ae1e9083d243b1ca16fdedd" kindref="member">BinaryTreeNavigator</ref>&lt; TPoint, TNode &gt;</type>
+        <definition>BinaryTreeNavigator&lt;TPoint, TNode&gt; Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.Left</qualifiedname>
+        <briefdescription>
+<para>The left child of the current node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="31" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1afb6b83474ede53a2a15a12ebcf9fb318" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ab151ee008ae1e9083d243b1ca16fdedd" kindref="member">BinaryTreeNavigator</ref>&lt; TPoint, TNode &gt;</type>
+        <definition>BinaryTreeNavigator&lt;TPoint, TNode&gt; Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.Right</qualifiedname>
+        <briefdescription>
+<para>The right child of the current node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="40" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ae57d85d041f6ec035c7a09ad1334365f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ab151ee008ae1e9083d243b1ca16fdedd" kindref="member">BinaryTreeNavigator</ref>&lt; TPoint, TNode &gt;</type>
+        <definition>BinaryTreeNavigator&lt;TPoint, TNode&gt; Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.Parent</qualifiedname>
+        <briefdescription>
+<para>The parent of the current node. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="49" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1a571e0d842e8d1255df242b6827151494" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>TPoint</type>
+        <definition>TPoint Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.Point</definition>
+        <argsstring></argsstring>
+        <name>Point</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.Point</qualifiedname>
+        <briefdescription>
+<para>The current <emphasis>TPoint</emphasis> . </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="54" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1a2874d942026104c26d3d224e8a320199" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>TNode</type>
+        <definition>TNode Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.Node</definition>
+        <argsstring></argsstring>
+        <name>Node</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.Node</qualifiedname>
+        <briefdescription>
+<para>The current <emphasis>TNode</emphasis> . </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="59" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ab151ee008ae1e9083d243b1ca16fdedd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.BinaryTreeNavigator</definition>
+        <argsstring>(TPoint[] pointArray, TNode[] nodeArray, int index=0)</argsstring>
+        <name>BinaryTreeNavigator</name>
+        <qualifiedname>Supercluster.KDTree.Utilities.BinaryTreeNavigator-2-g.BinaryTreeNavigator</qualifiedname>
+        <param>
+          <type>TPoint[]</type>
+          <declname>pointArray</declname>
+        </param>
+        <param>
+          <type>TNode[]</type>
+          <declname>nodeArray</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the BinaryTreeNavigator&lt;TPoint, TNode&gt; class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointArray</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point array backing the binary tree.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nodeArray</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The node array corresponding to the point array.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the node of interest in the pointArray. If not given, the node navigator start at the 0 index (the root of the tree).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="67" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="67" bodyend="72"/>
+        <references refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1aa06a70697e58c7712796ec139c001a38" compoundref="_binary_tree_navigator_8cs" startline="26" endline="26">Supercluster.KDTree.Utilities.BinaryTreeNavigator&lt; TPoint, TNode &gt;.Index</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Allows one to navigate a binary tree stored in an Array using familiar tree navigation concepts. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the individual points.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TNode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of the individual nodes.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" line="14" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/KDTree/Utilities/BinaryTreeNavigator.cs" bodystart="15" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ab151ee008ae1e9083d243b1ca16fdedd" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>BinaryTreeNavigator</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1aa06a70697e58c7712796ec139c001a38" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>Index</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1adb4331601542096f27dbe53b880ecb42" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>Left</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1a2874d942026104c26d3d224e8a320199" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>Node</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1a778b04ff82c00478fc2e7ca9aab8088d" prot="private" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>nodeArray</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ae57d85d041f6ec035c7a09ad1334365f" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>Parent</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1a571e0d842e8d1255df242b6827151494" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>Point</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1ac80c1d45fbf415647193bdb98297d4a7" prot="private" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>pointArray</name></member>
+      <member refid="class_supercluster_1_1_k_d_tree_1_1_utilities_1_1_binary_tree_navigator-2-g_1afb6b83474ede53a2a15a12ebcf9fb318" prot="public" virt="non-virtual"><scope>Supercluster::KDTree::Utilities::BinaryTreeNavigator-2-g</scope><name>Right</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,127 @@
+\doxysection{Sharp\+Voronoi\+Lib Namespace Reference}
+\hypertarget{namespace_sharp_voronoi_lib}{}\label{namespace_sharp_voronoi_lib}\index{SharpVoronoiLib@{SharpVoronoiLib}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Beach\+Line}
+\item 
+class {\bfseries Beach\+Section}
+\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_brute_force_nearest_site_lookup}{Brute\+Force\+Nearest\+Site\+Lookup}}
+\item 
+class {\bfseries Epsilon\+Utils}
+\item 
+class {\bfseries Fortune\+Circle\+Event}
+\item 
+interface {\bfseries Fortune\+Event}
+\item 
+class {\bfseries Fortune\+Site\+Event}
+\item 
+class {\bfseries Fortunes\+Tessellation}
+\item 
+class {\bfseries Generic\+Border\+Closing}
+\item 
+class {\bfseries Generic\+Clipping}
+\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_generic_site_merging_algorithm}{Generic\+Site\+Merging\+Algorithm}}
+\item 
+interface {\bfseries IBorder\+Clipping\+Algorithm}
+\item 
+interface {\bfseries IBorder\+Closing\+Algorithm}
+\item 
+interface {\bfseries INearest\+Site\+Lookup}
+\item 
+interface {\bfseries IPoint\+Generation\+Algorithm}
+\item 
+interface {\bfseries IRelaxation\+Algorithm}
+\item 
+interface {\bfseries ISite\+Merging\+Algorithm}
+\item 
+interface {\bfseries ITessellation\+Algorithm}
+\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_k_d_tree_nearest_site_lookup}{KDTree\+Nearest\+Site\+Lookup}}
+\item 
+class {\bfseries Lloyds\+Relaxation}
+\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_min_heap-1-g}{Min\+Heap$<$ T $>$}}
+\item 
+class {\bfseries Parabola\+Math}
+\item 
+class {\bfseries Random\+Gaussian\+Point\+Generation}
+\item 
+class {\bfseries Random\+Point\+Generation}
+\item 
+class {\bfseries Random\+Uniform\+Point\+Generation}
+\item 
+class {\bfseries RBTree$<$ T $>$}
+\item 
+class {\bfseries RBTree\+Node$<$ T $>$}
+\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_edge}{Voronoi\+Edge}}
+\begin{DoxyCompactList}\small\item\em The line segment making the Voronoi cells, i.\+e. the points equidistant to the two nearest Voronoi sites. These are the lines in the Voronoi\+Site.\+Cell. This has Voronoi\+Point end points, i.\+e. Start and End. This has the two Voronoi\+Sites they separate, i.\+e. Right and Left. This connects in a Neighbours node graph to other Voronoi\+Edges, i.\+e. shares end points with them. \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_plane}{Voronoi\+Plane}}
+\begin{DoxyCompactList}\small\item\em An Euclidean plane where a Voronoi diagram can be constructed from Voronoi\+Sites producing a tesselation of cells with Voronoi\+Edge line segments and Voronoi\+Point vertices. \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_point}{Voronoi\+Point}}
+\begin{DoxyCompactList}\small\item\em The vertices/\+nodes of the Voronoi cells, i.\+e. the points equidistant to three or more Voronoi sites. These are the end points of a Voronoi\+Edge. These are the Voronoi\+Site.\+Points. Also used for some other derived locations. \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_site}{Voronoi\+Site}}
+\begin{DoxyCompactList}\small\item\em The point/\+site/\+seed on the Voronoi plane. This has a Cell of Voronoi\+Edges. This has Points of Voronoi\+Points that are the edge end points, i.\+e. the cell\textquotesingle{}s vertices. This also has Neighbours, i.\+e. Voronoi\+Sites across the Voronoi\+Edges. \end{DoxyCompactList}\item 
+class {\bfseries Voronoi\+Site\+Comparer}
+\item 
+class {\bfseries VPoint\+Extensions}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{namespace_sharp_voronoi_lib_aa9199c3011f4c2b6222f7c4472ffc8dc}\label{namespace_sharp_voronoi_lib_aa9199c3011f4c2b6222f7c4472ffc8dc} 
+enum {\bfseries Nearest\+Site\+Lookup\+Method} \{ {\bfseries Brute\+Force} = 0
+, {\bfseries KDTree} = 1
+ \}
+\item 
+\Hypertarget{namespace_sharp_voronoi_lib_aa4d3e7724491f38de5bd25eae04da6ed}\label{namespace_sharp_voronoi_lib_aa4d3e7724491f38de5bd25eae04da6ed} 
+enum {\bfseries Point\+Generation\+Method} \{ {\bfseries Uniform}
+, {\bfseries Gaussian}
+ \}
+\item 
+\Hypertarget{namespace_sharp_voronoi_lib_ab1308041083b6afd6dd75f93b3f0de92}\label{namespace_sharp_voronoi_lib_ab1308041083b6afd6dd75f93b3f0de92} 
+enum {\bfseries Voronoi\+Site\+Merge\+Decision} \{ {\bfseries Dont\+Merge}
+, {\bfseries Merge\+Into\+Site1}
+, {\bfseries Merge\+Into\+Site2}
+ \}
+\item 
+enum \doxymbox{\hyperlink{namespace_sharp_voronoi_lib_a64cce8134ec2123ab25dd938283b66d8}{Point\+Border\+Location}} \{ \newline
+{\bfseries Not\+On\+Border} = -\/1
+, {\bfseries Bottom\+Left} = 0
+, {\bfseries Left} = 1
+, {\bfseries Top\+Left} = 2
+, \newline
+{\bfseries Top} = 3
+, {\bfseries Top\+Right} = 4
+, {\bfseries Right} = 5
+, {\bfseries Bottom\+Right} = 6
+, \newline
+{\bfseries Bottom} = 7
+ \}
+\item 
+\Hypertarget{namespace_sharp_voronoi_lib_af2463cf5a3f9964cd14a3b2316c6132b}\label{namespace_sharp_voronoi_lib_af2463cf5a3f9964cd14a3b2316c6132b} 
+enum {\bfseries Border\+Edge\+Generation} \{ {\bfseries Do\+Not\+Make\+Border\+Edges} = 0
+, {\bfseries Make\+Border\+Edges} = 1
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{namespace_sharp_voronoi_lib_a8c91b853cb044a24d52303da5317556f}\label{namespace_sharp_voronoi_lib_a8c91b853cb044a24d52303da5317556f} 
+delegate Voronoi\+Site\+Merge\+Decision {\bfseries Voronoi\+Site\+Merge\+Query} (\doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_site}{Voronoi\+Site}} site1, \doxymbox{\hyperlink{class_sharp_voronoi_lib_1_1_voronoi_site}{Voronoi\+Site}} site2)
+\begin{DoxyCompactList}\small\item\em Defines the signature for ISite\+Merging\+Algorithm query callback to user code. This basically asks the question -\/ should these two sites be merged into one (and which one)? \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{namespace_sharp_voronoi_lib_doc-enum-members}
+\Hypertarget{namespace_sharp_voronoi_lib_doc-enum-members}
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{namespace_sharp_voronoi_lib_a64cce8134ec2123ab25dd938283b66d8}\index{SharpVoronoiLib@{SharpVoronoiLib}!PointBorderLocation@{PointBorderLocation}}
+\index{PointBorderLocation@{PointBorderLocation}!SharpVoronoiLib@{SharpVoronoiLib}}
+\doxysubsubsection{\texorpdfstring{PointBorderLocation}{PointBorderLocation}}
+{\footnotesize\ttfamily \label{namespace_sharp_voronoi_lib_a64cce8134ec2123ab25dd938283b66d8} 
+enum \doxymbox{\hyperlink{namespace_sharp_voronoi_lib_a64cce8134ec2123ab25dd938283b66d8}{Sharp\+Voronoi\+Lib.\+Point\+Border\+Location}}}
+
+Note that these are ordered clock-\/wise starting at bottom-\/left 

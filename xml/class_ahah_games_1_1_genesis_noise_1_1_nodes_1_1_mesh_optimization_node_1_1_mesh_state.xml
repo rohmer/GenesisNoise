@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state" kind="class" language="C#" prot="private" sealed="yes">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::MeshState</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a2bd4148d5e70caf565719db03cbbfec1" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.OriginalSourceMesh</definition>
+        <argsstring></argsstring>
+        <name>OriginalSourceMesh</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.OriginalSourceMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1050" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a61a1588634f8a51bd62561d12f06f1a1" prot="public" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.GeneratedMesh</definition>
+        <argsstring></argsstring>
+        <name>GeneratedMesh</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.GeneratedMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1051" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1051" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a9bb400cd31df375898252e4d5fc775f0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastTargetTrianglePercentage</definition>
+        <argsstring></argsstring>
+        <name>LastTargetTrianglePercentage</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastTargetTrianglePercentage</qualifiedname>
+        <initializer>= int.MinValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1052" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a931e089ddaed5023f4825aa129ca9707" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastRecalculateNormals</definition>
+        <argsstring></argsstring>
+        <name>LastRecalculateNormals</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastRecalculateNormals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1053" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a30d126e24279ca62d1ffbfcd1addc65a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastSourceTriangleCount</definition>
+        <argsstring></argsstring>
+        <name>LastSourceTriangleCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastSourceTriangleCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1054" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1af6aaa539830963da26580d2c8b24f996" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastOptimizedTriangleCount</definition>
+        <argsstring></argsstring>
+        <name>LastOptimizedTriangleCount</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.MeshState.LastOptimizedTriangleCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1055" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1055" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1048" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1049" bodyend="1056"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a61a1588634f8a51bd62561d12f06f1a1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::MeshState</scope><name>GeneratedMesh</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1af6aaa539830963da26580d2c8b24f996" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::MeshState</scope><name>LastOptimizedTriangleCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a931e089ddaed5023f4825aa129ca9707" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::MeshState</scope><name>LastRecalculateNormals</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a30d126e24279ca62d1ffbfcd1addc65a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::MeshState</scope><name>LastSourceTriangleCount</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a9bb400cd31df375898252e4d5fc775f0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::MeshState</scope><name>LastTargetTrianglePercentage</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_mesh_state_1a2bd4148d5e70caf565719db03cbbfec1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::MeshState</scope><name>OriginalSourceMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

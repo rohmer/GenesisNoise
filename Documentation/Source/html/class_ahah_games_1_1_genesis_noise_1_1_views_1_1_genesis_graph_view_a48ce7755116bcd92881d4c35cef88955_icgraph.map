@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.GenesisGraphView.ReloadGraph" name="AhahGames.GenesisNoise.Views.GenesisGraphView.ReloadGraph">
-<area shape="rect" id="Node000001" title=" " alt="" coords="573,35,796,77"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view.html#a6eb4e8f58f790d87fe324f7b4747403a" title=" " alt="" coords="302,5,525,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="555,42,525,41,525,36,560,42"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_graph_view.html#afdddb69d818bf10f4de6bddf6e9bfd55" title=" " alt="" coords="5,35,254,77"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="555,60,525,63,302,63,254,62,254,57,302,57,525,57,560,59"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,40,254,46,254,41,289,39"/>
-</map>

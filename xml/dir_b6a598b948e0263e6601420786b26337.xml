@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_b6a598b948e0263e6601420786b26337" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Effects/Effects</compoundname>
+    <innerfile refid="_ambient_occlusion_node_8cs">AmbientOcclusionNode.cs</innerfile>
+    <innerfile refid="_ambient_occlusion_r_t_a_o_node_8cs">AmbientOcclusionRTAONode.cs</innerfile>
+    <innerfile refid="_barrel_lens_distortion_node_8cs">BarrelLensDistortionNode.cs</innerfile>
+    <innerfile refid="_bevel_node_8cs">BevelNode.cs</innerfile>
+    <innerfile refid="_bevel_smooth_node_8cs">BevelSmoothNode.cs</innerfile>
+    <innerfile refid="_cavity_node_8cs">CavityNode.cs</innerfile>
+    <innerfile refid="_curvature_node_8cs">CurvatureNode.cs</innerfile>
+    <innerfile refid="_curvature_smooth_node_8cs">CurvatureSmoothNode.cs</innerfile>
+    <innerfile refid="_curvature_sobel_node_8cs">CurvatureSobelNode.cs</innerfile>
+    <innerfile refid="_diffusion_anisotropic_node_8cs">DiffusionAnisotropicNode.cs</innerfile>
+    <innerfile refid="_diffusion_node_8cs">DiffusionNode.cs</innerfile>
+    <innerfile refid="_directional_distance_node_8cs">DirectionalDistanceNode.cs</innerfile>
+    <innerfile refid="_drip_flow_node_8cs">DripFlowNode.cs</innerfile>
+    <innerfile refid="_extend_shape_node_8cs">ExtendShapeNode.cs</innerfile>
+    <innerfile refid="_flood_fill_data_node_8cs">FloodFillDataNode.cs</innerfile>
+    <innerfile refid="_flood_fill_node_8cs">FloodFillNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_b_box_size_node_8cs">FloodFillToBBoxSizeNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_bounding_box_node_8cs">FloodFillToBoundingBoxNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_color_node_8cs">FloodFillToColorNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_gradient_node_8cs">FloodFillToGradientNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_gray_scale_8cs">FloodFillToGrayScale.cs</innerfile>
+    <innerfile refid="_flood_fill_to_position_node_8cs">FloodFillToPositionNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_random_color_node_8cs">FloodFillToRandomColorNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_random_vector_node_8cs">FloodFillToRandomVectorNode.cs</innerfile>
+    <innerfile refid="_flood_fill_to_shape_node_8cs">FloodFillToShapeNode.cs</innerfile>
+    <innerfile refid="_flow_accumulation_node_8cs">FlowAccumulationNode.cs</innerfile>
+    <innerfile refid="_flow_effect_node_base_8cs">FlowEffectNodeBase.cs</innerfile>
+    <innerfile refid="_fresnel_lens_node_8cs">FresnelLensNode.cs</innerfile>
+    <innerfile refid="_f_x_a_a_node_8cs">FXAANode.cs</innerfile>
+    <innerfile refid="_glow_node_8cs">GlowNode.cs</innerfile>
+    <innerfile refid="_height_normal_ambient_occlusion_node_8cs">HeightNormalAmbientOcclusionNode.cs</innerfile>
+    <innerfile refid="_irradiance_node_8cs">IrradianceNode.cs</innerfile>
+    <innerfile refid="_effects_2_effects_2_mosaic_node_8cs">MosaicNode.cs</innerfile>
+    <innerfile refid="_multidir_warp_node_8cs">MultidirWarpNode.cs</innerfile>
+    <innerfile refid="_mustache_lens_distortion_node_8cs">MustacheLensDistortionNode.cs</innerfile>
+    <innerfile refid="_non_uniform_dir_warp_node_8cs">NonUniformDirWarpNode.cs</innerfile>
+    <innerfile refid="_pincushion_lens_distortion_node_8cs">PincushionLensDistortionNode.cs</innerfile>
+    <innerfile refid="_pixelize_node_8cs">PixelizeNode.cs</innerfile>
+    <innerfile refid="_polygonize_node_8cs">PolygonizeNode.cs</innerfile>
+    <innerfile refid="_rain_node_8cs">RainNode.cs</innerfile>
+    <innerfile refid="_reaction_diffusion_node_8cs">ReactionDiffusionNode.cs</innerfile>
+    <innerfile refid="_shadows_node_8cs">ShadowsNode.cs</innerfile>
+    <innerfile refid="_shape_drop_shadow_node_8cs">ShapeDropShadowNode.cs</innerfile>
+    <innerfile refid="_shape_glow_node_8cs">ShapeGlowNode.cs</innerfile>
+    <innerfile refid="_shape_stroke_node_8cs">ShapeStrokeNode.cs</innerfile>
+    <innerfile refid="_smart_mask_builder_node_8cs">SmartMaskBuilderNode.cs</innerfile>
+    <innerfile refid="_smart_mask_effect_node_base_8cs">SmartMaskEffectNodeBase.cs</innerfile>
+    <innerfile refid="_swirl_node_8cs">SwirlNode.cs</innerfile>
+    <innerfile refid="_thickness_node_8cs">ThicknessNode.cs</innerfile>
+    <innerfile refid="_vector_morph_node_8cs">VectorMorphNode.cs</innerfile>
+    <innerfile refid="_vector_warp_node_8cs">VectorWarpNode.cs</innerfile>
+    <innerfile refid="_watercolor_node_8cs">WatercolorNode.cs</innerfile>
+    <innerfile refid="_water_effect_node_8cs">WaterEffectNode.cs</innerfile>
+    <innerfile refid="_wetness_node_8cs">WetnessNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Effects/Effects/"/>
+  </compounddef>
+</doxygen>

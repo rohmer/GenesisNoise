@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</compoundname>
+    <basecompoundref refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer" prot="public" virt="non-virtual">AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</basecompoundref>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>DirtProp</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.DirtPropertyDrawer.DirtProp</qualifiedname>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fa7a1920d61156abc05a60135aefe8bc67" prot="public">
+          <name>Default</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fa4ec507e0e549fe27b00dd5e04c93a818" prot="public">
+          <name>Coastal</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fa861565831545afb68057b15adeaa3045" prot="public">
+          <name>Urban</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fafe0a7e0883b8de58adb5ed00009376a6" prot="public">
+          <name>Rusty</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fa731450627a2551f81edd496321e14125" prot="public">
+          <name>FineSpeckle</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fae3ebf8c5975a9354e1abb06c90ffd0b5" prot="public">
+          <name>LongStreaks</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fada2d4d4035a5912c0a7f30fe80720807" prot="public">
+          <name>HeavyCrevice</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4fa0a30151bc6a0014891c21d6f714b3be3" prot="public">
+          <name>Painterly</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/DirtPropertyDrawer.cs" line="15" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/DirtPropertyDrawer.cs" bodystart="16" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a4b1da8ebad692c4304db6fc31384bef1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void AhahGames.GenesisNoise.PropertyDrawers.DirtPropertyDrawer.DrawerGUI</definition>
+        <argsstring>(Rect position, MaterialProperty prop, string label, MaterialEditor editor, GenesisGraph graph, GenesisNodeView nodeView)</argsstring>
+        <name>DrawerGUI</name>
+        <qualifiedname>AhahGames.GenesisNoise.PropertyDrawers.DirtPropertyDrawer.DrawerGUI</qualifiedname>
+        <reimplements refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a435345fb6296a58a0b81e206eed64204">DrawerGUI</reimplements>
+        <param>
+          <type>Rect</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>MaterialProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>MaterialEditor</type>
+          <declname>editor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph" kindref="compound">GenesisGraph</ref></type>
+          <declname>graph</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_genesis_node_view" kindref="compound">GenesisNodeView</ref></type>
+          <declname>nodeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/DirtPropertyDrawer.cs" line="30" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/DirtPropertyDrawer.cs" bodystart="30" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.DirtPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.DirtPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AhahGames.GenesisNoise.PropertyDrawers.GenesisPropertyDrawer</label>
+        <link refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MaterialPropertyDrawer</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/DirtPropertyDrawer.cs" line="13" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers/DirtPropertyDrawer.cs" bodystart="14" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a650080f7b126bcef843fb54915299b4f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>DirtProp</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_dirt_property_drawer_1a4b1da8ebad692c4304db6fc31384bef1" prot="protected" virt="virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>DrawerGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1aa1a659ce976efcdd47477b5814cfc662" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>GetGraph</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a04f2c16e2740c2536341ac358d17e111" prot="protected" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>GetNodeView</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a1ff93c593f7ff4e8fb42eaa8ff8b18ad" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>GetPropertyHeight</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1ae338df9a931472a43039b3d0bfa2034f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>OnGUI</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a7a9263b323f045ee82e8fdae797dfa65" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>RegisterEditor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_property_drawers_1_1_genesis_property_drawer_1a912353e0d4d75a07e7d4cda9aafe2fff" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::PropertyDrawers::DirtPropertyDrawer</scope><name>UnregisterGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

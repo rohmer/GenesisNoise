@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_sharp_voronoi_lib_1_1_brute_force_nearest_site_lookup" kind="class" language="C#" prot="public">
+    <compoundname>SharpVoronoiLib::BruteForceNearestSiteLookup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SharpVoronoiLib.INearestSiteLookup</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sharp_voronoi_lib_1_1_brute_force_nearest_site_lookup_1ab2a2f5ba36dec24e303df6128dcd9499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref></type>
+        <definition>VoronoiSite SharpVoronoiLib.BruteForceNearestSiteLookup.GetNearestSiteTo</definition>
+        <argsstring>(List&lt; VoronoiSite &gt; sites, double x, double y, int version)</argsstring>
+        <name>GetNearestSiteTo</name>
+        <qualifiedname>SharpVoronoiLib.BruteForceNearestSiteLookup.GetNearestSiteTo</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_sharp_voronoi_lib_1_1_voronoi_site" kindref="compound">VoronoiSite</ref> &gt;</type>
+          <declname>sites</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/BruteForceNearestSiteLookup.cs" line="9" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/BruteForceNearestSiteLookup.cs" bodystart="9" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>SharpVoronoiLib.BruteForceNearestSiteLookup</label>
+        <link refid="class_sharp_voronoi_lib_1_1_brute_force_nearest_site_lookup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.INearestSiteLookup</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>SharpVoronoiLib.BruteForceNearestSiteLookup</label>
+        <link refid="class_sharp_voronoi_lib_1_1_brute_force_nearest_site_lookup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>SharpVoronoiLib.INearestSiteLookup</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/BruteForceNearestSiteLookup.cs" line="7" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Nearest Site Lookup/BruteForceNearestSiteLookup.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_sharp_voronoi_lib_1_1_brute_force_nearest_site_lookup_1ab2a2f5ba36dec24e303df6128dcd9499" prot="public" virt="non-virtual"><scope>SharpVoronoiLib::BruteForceNearestSiteLookup</scope><name>GetNearestSiteTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

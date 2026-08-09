@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="_voronoi_doesnt_have_sites_exception_8cs" kind="file" language="C#">
+    <compoundname>VoronoiDoesntHaveSitesException.cs</compoundname>
+    <innerclass refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_doesnt_have_sites_exception" prot="public">SharpVoronoiLib::Exceptions::VoronoiDoesntHaveSitesException</innerclass>
+    <innernamespace refid="namespace_sharp_voronoi_lib">SharpVoronoiLib</innernamespace>
+    <innernamespace refid="namespace_sharp_voronoi_lib_1_1_exceptions">SharpVoronoiLib::Exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_sharp_voronoi_lib_1_1_exceptions" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_sharp_voronoi_lib_1_1_exceptions" kindref="compound">SharpVoronoiLib.Exceptions</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_sharp_voronoi_lib_1_1_exceptions_1_1_voronoi_doesnt_have_sites_exception" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">VoronoiDoesntHaveSitesException<sp/>:<sp/>Exception</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>VoronoiDoesntHaveSitesException()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>base(</highlight><highlight class="stringliteral">&quot;This<sp/>data<sp/>is<sp/>not<sp/>ready<sp/>yet,<sp/>you<sp/>must<sp/>add<sp/>sites<sp/>to<sp/>the<sp/>plane<sp/>first.&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/3rdParty/SharpVoronoiLib/Exceptions/VoronoiDoesntHaveSitesException.cs"/>
+  </compounddef>
+</doxygen>

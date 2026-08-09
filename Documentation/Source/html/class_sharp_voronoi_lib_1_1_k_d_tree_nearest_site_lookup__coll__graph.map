@@ -1,7 +1,0 @@
-<map id="SharpVoronoiLib.KDTreeNearestSiteLookup" name="SharpVoronoiLib.KDTreeNearestSiteLookup">
-<area shape="rect" id="Node000001" title=" " alt="" coords="88,120,298,163"/>
-<area shape="rect" id="Node000002" href="$interface_sharp_voronoi_lib_1_1_i_nearest_site_lookup.html" title=" " alt="" coords="5,5,175,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,57,177,119,171,120,118,62"/>
-<area shape="rect" id="Node000003" href="$class_supercluster_1_1_k_d_tree_1_1_k_d_tree-1-g.html" title="Represents a KD&#45;Tree. KD&#45;Trees are used for fast spatial searches. Searching in a balanced KD&#45;Tree is..." alt="" coords="199,5,392,48"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="269,59,213,122,210,117,264,61"/>
-</map>

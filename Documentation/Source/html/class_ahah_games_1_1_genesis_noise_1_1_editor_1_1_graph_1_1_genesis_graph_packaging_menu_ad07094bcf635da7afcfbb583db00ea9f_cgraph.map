@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.EmbedGraphClone" name="AhahGames.GenesisNoise.Editor.Graph.GenesisGraphPackagingMenu.EmbedGraphClone">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,246,88"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#a9db43b2d5412ab33a42af00b9e6df9f2" title=" " alt="" coords="294,29,534,88"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="246,56,280,58,275,59,246,61"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_editor_1_1_graph_1_1_genesis_graph_packaging_menu.html#a5b2a036a0bf790c0c647ba55d5222580" title=" " alt="" coords="582,29,822,88"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="535,56,569,59,563,59,535,61"/>
-<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="647,27,647,19,658,10,676,5,702,3,733,5,753,15,747,15,731,11,702,8,677,10,660,15,652,21,651,31"/>
-</map>

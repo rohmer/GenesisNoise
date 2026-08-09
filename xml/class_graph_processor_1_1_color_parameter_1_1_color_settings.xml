@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_color_parameter_1_1_color_settings" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::ColorParameter::ColorSettings</compoundname>
+    <basecompoundref refid="class_graph_processor_1_1_exposed_parameter_1_1_settings" prot="public" virt="non-virtual">GraphProcessor.ExposedParameter.Settings</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_color_parameter_1_1_color_settings_1a7af7d66d98a13aed0a9656d600a839fa" prot="public" static="no" mutable="no">
+        <type>ColorMode</type>
+        <definition>ColorMode GraphProcessor.ColorParameter.ColorSettings.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>GraphProcessor.ColorParameter.ColorSettings.mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="163" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_color_parameter_1_1_color_settings_1a9756d9fb4485807cf9d1dfb609f2707a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool GraphProcessor.ColorParameter.ColorSettings.Equals</definition>
+        <argsstring>(Settings param)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>GraphProcessor.ColorParameter.ColorSettings.Equals</qualifiedname>
+        <reimplements refid="class_graph_processor_1_1_exposed_parameter_1_1_settings_1aff2ebe4348de548a55a89d7b604a171c">Equals</reimplements>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_exposed_parameter_1_1_settings" kindref="compound">Settings</ref></type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="165" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="165" bodyend="166"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GraphProcessor.ColorParameter.ColorSettings</label>
+        <link refid="class_graph_processor_1_1_color_parameter_1_1_color_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameter.Settings</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_1_1_settings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.ColorParameter.ColorSettings</label>
+        <link refid="class_graph_processor_1_1_color_parameter_1_1_color_settings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.ExposedParameter.Settings</label>
+        <link refid="class_graph_processor_1_1_exposed_parameter_1_1_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" line="161" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ExposedParameter.cs" bodystart="162" bodyend="167"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_color_parameter_1_1_color_settings_1a9756d9fb4485807cf9d1dfb609f2707a" prot="public" virt="virtual"><scope>GraphProcessor::ColorParameter::ColorSettings</scope><name>Equals</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1_1_settings_1acefc9620146c9f9b80911601e69b0364" prot="public" virt="non-virtual" ambiguityscope="GraphProcessor::ExposedParameter::Settings."><scope>GraphProcessor::ColorParameter::ColorSettings</scope><name>Equals</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1_1_settings_1a1d0d1f8fb13fb8f9132f3d747880ffa4" prot="public" virt="non-virtual"><scope>GraphProcessor::ColorParameter::ColorSettings</scope><name>expanded</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1_1_settings_1af18946efcbe4f07f5e79c321d18a62c8" prot="public" virt="non-virtual"><scope>GraphProcessor::ColorParameter::ColorSettings</scope><name>GetHashCode</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1_1_settings_1a932832d0ba2303b494361850f8658b6b" prot="package" virt="non-virtual"><scope>GraphProcessor::ColorParameter::ColorSettings</scope><name>guid</name></member>
+      <member refid="class_graph_processor_1_1_exposed_parameter_1_1_settings_1a9dd17dfcdd360a98cab7f39bc450bb2f" prot="public" virt="non-virtual"><scope>GraphProcessor::ColorParameter::ColorSettings</scope><name>isHidden</name></member>
+      <member refid="class_graph_processor_1_1_color_parameter_1_1_color_settings_1a7af7d66d98a13aed0a9656d600a839fa" prot="public" virt="non-virtual"><scope>GraphProcessor::ColorParameter::ColorSettings</scope><name>mode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

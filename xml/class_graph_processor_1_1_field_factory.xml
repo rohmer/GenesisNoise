@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_field_factory" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::FieldFactory</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_field_factory_1a030741bf28e8f20a8015f4e520905c44" prot="private" static="yes" mutable="no">
+        <type>readonly Dictionary&lt; Type, Type &gt;</type>
+        <definition>readonly Dictionary&lt;Type, Type&gt; GraphProcessor.FieldFactory.fieldDrawers</definition>
+        <argsstring></argsstring>
+        <name>fieldDrawers</name>
+        <qualifiedname>GraphProcessor.FieldFactory.fieldDrawers</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="17" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_field_factory_1a312e537cc1ca70f72db168f0dc4b7c3b" prot="private" static="yes" mutable="no">
+        <type>readonly MethodInfo</type>
+        <definition>readonly MethodInfo GraphProcessor.FieldFactory.createFieldMethod</definition>
+        <argsstring></argsstring>
+        <name>createFieldMethod</name>
+        <qualifiedname>GraphProcessor.FieldFactory.createFieldMethod</qualifiedname>
+        <initializer>= typeof(FieldFactory).GetMethod(&quot;CreateFieldSpecific&quot;, BindingFlags.Static | BindingFlags.Public)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="19" column="36" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_field_factory_1adca29f4cf3928d032a293e14bdeca588" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static GraphProcessor.FieldFactory.FieldFactory</definition>
+        <argsstring>()</argsstring>
+        <name>FieldFactory</name>
+        <qualifiedname>GraphProcessor.FieldFactory.FieldFactory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="21" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="21" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_field_factory_1a8c9ab6f4fd87b94c3a771d4fe1a5a4ee" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void GraphProcessor.FieldFactory.AddDrawer</definition>
+        <argsstring>(Type fieldType, Type drawerType)</argsstring>
+        <name>AddDrawer</name>
+        <qualifiedname>GraphProcessor.FieldFactory.AddDrawer</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>fieldType</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>drawerType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="54" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="54" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_field_factory_1a7a983ed81cd22ebfc2a3cacbe0a67843" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>INotifyValueChanged&lt; T &gt;</type>
+        <definition>static INotifyValueChanged&lt; T &gt; GraphProcessor.FieldFactory.CreateField&lt; T &gt;</definition>
+        <argsstring>(T value, string label=null)</argsstring>
+        <name>CreateField&lt; T &gt;</name>
+        <qualifiedname>GraphProcessor.FieldFactory.CreateField&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="67" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_field_factory_1af611093ee404e17f8957aa8993d943a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VisualElement</type>
+        <definition>static VisualElement GraphProcessor.FieldFactory.CreateField</definition>
+        <argsstring>(Type t, string label)</argsstring>
+        <name>CreateField</name>
+        <qualifiedname>GraphProcessor.FieldFactory.CreateField</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="72" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="72" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_field_factory_1a88d13c485c61aa2a32f0f6964e0f23c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>INotifyValueChanged&lt; T &gt;</type>
+        <definition>static INotifyValueChanged&lt; T &gt; GraphProcessor.FieldFactory.CreateFieldSpecific&lt; T &gt;</definition>
+        <argsstring>(T value, Action&lt; object &gt; onValueChanged, string label)</argsstring>
+        <name>CreateFieldSpecific&lt; T &gt;</name>
+        <qualifiedname>GraphProcessor.FieldFactory.CreateFieldSpecific&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Action&lt; object &gt;</type>
+          <declname>onValueChanged</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="133" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="133" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graph_processor_1_1_field_factory_1a24d1f5bc8ba08543ffa71e5c6eb13c93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>VisualElement</type>
+        <definition>static VisualElement GraphProcessor.FieldFactory.CreateField</definition>
+        <argsstring>(Type fieldType, object value, Action&lt; object &gt; onValueChanged, string label)</argsstring>
+        <name>CreateField</name>
+        <qualifiedname>GraphProcessor.FieldFactory.CreateField</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>fieldType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Action&lt; object &gt;</type>
+          <declname>onValueChanged</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="149" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="149" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" line="15" column="19" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/Utils/FieldFactory.cs" bodystart="16" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_field_factory_1a8c9ab6f4fd87b94c3a771d4fe1a5a4ee" prot="private" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>AddDrawer</name></member>
+      <member refid="class_graph_processor_1_1_field_factory_1af611093ee404e17f8957aa8993d943a1" prot="public" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>CreateField</name></member>
+      <member refid="class_graph_processor_1_1_field_factory_1a24d1f5bc8ba08543ffa71e5c6eb13c93" prot="public" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>CreateField</name></member>
+      <member refid="class_graph_processor_1_1_field_factory_1a7a983ed81cd22ebfc2a3cacbe0a67843" prot="public" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>CreateField&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_field_factory_1a312e537cc1ca70f72db168f0dc4b7c3b" prot="private" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>createFieldMethod</name></member>
+      <member refid="class_graph_processor_1_1_field_factory_1a88d13c485c61aa2a32f0f6964e0f23c6" prot="public" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>CreateFieldSpecific&lt; T &gt;</name></member>
+      <member refid="class_graph_processor_1_1_field_factory_1a030741bf28e8f20a8015f4e520905c44" prot="private" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>fieldDrawers</name></member>
+      <member refid="class_graph_processor_1_1_field_factory_1adca29f4cf3928d032a293e14bdeca588" prot="private" virt="non-virtual"><scope>GraphProcessor::FieldFactory</scope><name>FieldFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

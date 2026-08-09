@@ -1,8 +1,0 @@
-<map id="AhahGames.GenesisNoise.Graph.GenesisNodeInspectorEditor.CreateGenesisNodeBlock" name="AhahGames.GenesisNoise.Graph.GenesisNodeInspectorEditor.CreateGenesisNodeBlock">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,237,131"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_node_view.html#a3adbd25d61c24a81e1d147788caed8f4" title=" " alt="" coords="296,5,508,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,69,302,53,307,52,235,74"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_node_inspector_editor.html#abc3534567ccc587b3046deb427c968ca" title=" " alt="" coords="285,72,519,131"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="237,108,272,110,266,110,237,113"/>
-<area shape="poly" id="edge3_Node000003_Node000001" title=" " alt="" coords="282,93,252,95,252,90,287,92"/>
-</map>

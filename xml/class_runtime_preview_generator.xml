@@ -1,0 +1,899 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_runtime_preview_generator" kind="class" language="C#" prot="public">
+    <compoundname>RuntimePreviewGenerator</compoundname>
+    <innerclass refid="class_runtime_preview_generator_1_1_camera_setup" prot="private">RuntimePreviewGenerator::CameraSetup</innerclass>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_runtime_preview_generator_1ae9a80a1747635adf8b7d20cdacbca2ff" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int RuntimePreviewGenerator.PREVIEW_LAYER</definition>
+        <argsstring></argsstring>
+        <name>PREVIEW_LAYER</name>
+        <qualifiedname>RuntimePreviewGenerator.PREVIEW_LAYER</qualifiedname>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="76" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a998853a6c5c8a1b6c1580462c61b8521" prot="private" static="yes" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 RuntimePreviewGenerator.PREVIEW_POSITION</definition>
+        <argsstring></argsstring>
+        <name>PREVIEW_POSITION</name>
+        <qualifiedname>RuntimePreviewGenerator.PREVIEW_POSITION</qualifiedname>
+        <initializer>= new Vector3(-250f, -250f, -250f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="77" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1abaaece26a2147120d81413949b6fb1bc" prot="private" static="yes" mutable="no">
+        <type>Camera</type>
+        <definition>Camera RuntimePreviewGenerator.renderCamera</definition>
+        <argsstring></argsstring>
+        <name>renderCamera</name>
+        <qualifiedname>RuntimePreviewGenerator.renderCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="79" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1ad0f67218332cc388312e291c2ba88065" prot="private" static="yes" mutable="no">
+        <type>readonly CameraSetup</type>
+        <definition>readonly CameraSetup RuntimePreviewGenerator.cameraSetup</definition>
+        <argsstring></argsstring>
+        <name>cameraSetup</name>
+        <qualifiedname>RuntimePreviewGenerator.cameraSetup</qualifiedname>
+        <initializer>= new CameraSetup()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="80" column="41" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1adcf534dc95612083357fd4ad32ee7240" prot="private" static="yes" mutable="no">
+        <type>readonly Vector3[]</type>
+        <definition>readonly Vector3 [] RuntimePreviewGenerator.boundingBoxPoints</definition>
+        <argsstring></argsstring>
+        <name>boundingBoxPoints</name>
+        <qualifiedname>RuntimePreviewGenerator.boundingBoxPoints</qualifiedname>
+        <initializer>= new Vector3[8]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="82" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a3db888dc0e21cdea537a2dc63bf2b215" prot="private" static="yes" mutable="no">
+        <type>readonly Vector3[]</type>
+        <definition>readonly Vector3 [] RuntimePreviewGenerator.localBoundsMinMax</definition>
+        <argsstring></argsstring>
+        <name>localBoundsMinMax</name>
+        <qualifiedname>RuntimePreviewGenerator.localBoundsMinMax</qualifiedname>
+        <initializer>= new Vector3[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="83" column="37" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1ab80f8156bafec13547ffff257003efac" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; Renderer &gt;</type>
+        <definition>readonly List&lt;Renderer&gt; RuntimePreviewGenerator.renderersList</definition>
+        <argsstring></argsstring>
+        <name>renderersList</name>
+        <qualifiedname>RuntimePreviewGenerator.renderersList</qualifiedname>
+        <initializer>= new List&lt;Renderer&gt;(64)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="85" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a63131bf6bc937b3d3352a7d58b6115f2" prot="private" static="yes" mutable="no">
+        <type>readonly List&lt; int &gt;</type>
+        <definition>readonly List&lt;int&gt; RuntimePreviewGenerator.layersList</definition>
+        <argsstring></argsstring>
+        <name>layersList</name>
+        <qualifiedname>RuntimePreviewGenerator.layersList</qualifiedname>
+        <initializer>= new List&lt;int&gt;(64)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="86" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1ac6c5d75737018169dbfd78d2c1beeafe" prot="private" static="yes" mutable="no">
+        <type>Camera</type>
+        <definition>Camera RuntimePreviewGenerator.m_internalCamera</definition>
+        <argsstring></argsstring>
+        <name>m_internalCamera</name>
+        <qualifiedname>RuntimePreviewGenerator.m_internalCamera</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="92" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1ad8da73970311eeb3efe45bcfd1e717fa" prot="private" static="yes" mutable="no">
+        <type>Camera</type>
+        <definition>Camera RuntimePreviewGenerator.m_previewRenderCamera</definition>
+        <argsstring></argsstring>
+        <name>m_previewRenderCamera</name>
+        <qualifiedname>RuntimePreviewGenerator.m_previewRenderCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="110" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a8eed0539b203b128637ca7ffa9267707" prot="private" static="yes" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 RuntimePreviewGenerator.m_previewDirection</definition>
+        <argsstring></argsstring>
+        <name>m_previewDirection</name>
+        <qualifiedname>RuntimePreviewGenerator.m_previewDirection</qualifiedname>
+        <initializer>= new Vector3(-0.57735f, -0.57735f, -0.57735f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="117" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a688c1c3d7b26119a96316ce36c642acf" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float RuntimePreviewGenerator.m_padding</definition>
+        <argsstring></argsstring>
+        <name>m_padding</name>
+        <qualifiedname>RuntimePreviewGenerator.m_padding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="124" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a858afa9029397cf5c5a88875105f34fc" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color RuntimePreviewGenerator.m_backgroundColor</definition>
+        <argsstring></argsstring>
+        <name>m_backgroundColor</name>
+        <qualifiedname>RuntimePreviewGenerator.m_backgroundColor</qualifiedname>
+        <initializer>= new Color(0.3f, 0.3f, 0.3f, 1f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="131" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a3b4996cb8337cfdf5d4ec1ddbec870d1" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool RuntimePreviewGenerator.m_orthographicMode</definition>
+        <argsstring></argsstring>
+        <name>m_orthographicMode</name>
+        <qualifiedname>RuntimePreviewGenerator.m_orthographicMode</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="138" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a14e2e9d13e3663b21fb0411e3448a44e" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool RuntimePreviewGenerator.m_useLocalBounds</definition>
+        <argsstring></argsstring>
+        <name>m_useLocalBounds</name>
+        <qualifiedname>RuntimePreviewGenerator.m_useLocalBounds</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="145" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1a5062353d09ce70b58d312d5da4732089" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float RuntimePreviewGenerator.m_renderSupersampling</definition>
+        <argsstring></argsstring>
+        <name>m_renderSupersampling</name>
+        <qualifiedname>RuntimePreviewGenerator.m_renderSupersampling</qualifiedname>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="152" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_runtime_preview_generator_1ac3c6dd53649d206d6b94e3a42cfc0a4f" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool RuntimePreviewGenerator.m_markTextureNonReadable</definition>
+        <argsstring></argsstring>
+        <name>m_markTextureNonReadable</name>
+        <qualifiedname>RuntimePreviewGenerator.m_markTextureNonReadable</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="159" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_runtime_preview_generator_1a7e54f0453a2bd5ae55d613e0088ab07c" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>Camera</type>
+        <definition>Camera RuntimePreviewGenerator.InternalCamera</definition>
+        <argsstring></argsstring>
+        <name>InternalCamera</name>
+        <qualifiedname>RuntimePreviewGenerator.InternalCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="93" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="94" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1a536c660fb43b3362230d520f98aa546e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Camera</type>
+        <definition>Camera RuntimePreviewGenerator.PreviewRenderCamera</definition>
+        <argsstring></argsstring>
+        <name>PreviewRenderCamera</name>
+        <qualifiedname>RuntimePreviewGenerator.PreviewRenderCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="111" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="112" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1a0228aca839b5c87896d25a7e21c4893a" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Vector3</type>
+        <definition>Vector3 RuntimePreviewGenerator.PreviewDirection</definition>
+        <argsstring></argsstring>
+        <name>PreviewDirection</name>
+        <qualifiedname>RuntimePreviewGenerator.PreviewDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="118" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1a20e1661559cb8661bef0366ed716b636" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float RuntimePreviewGenerator.Padding</definition>
+        <argsstring></argsstring>
+        <name>Padding</name>
+        <qualifiedname>RuntimePreviewGenerator.Padding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="125" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1adcf64a1695929089fca35bb04c2d2f46" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Color</type>
+        <definition>Color RuntimePreviewGenerator.BackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>BackgroundColor</name>
+        <qualifiedname>RuntimePreviewGenerator.BackgroundColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="132" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1a8d82baa1a829ac910f24ba4745b7ed9a" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool RuntimePreviewGenerator.OrthographicMode</definition>
+        <argsstring></argsstring>
+        <name>OrthographicMode</name>
+        <qualifiedname>RuntimePreviewGenerator.OrthographicMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="139" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="140" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1ad423fc4d636db7c8b1a8f8414eaed372" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool RuntimePreviewGenerator.UseLocalBounds</definition>
+        <argsstring></argsstring>
+        <name>UseLocalBounds</name>
+        <qualifiedname>RuntimePreviewGenerator.UseLocalBounds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="146" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="147" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1a4ef9624ddc3a2a18a0034d683e0f858b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>float</type>
+        <definition>float RuntimePreviewGenerator.RenderSupersampling</definition>
+        <argsstring></argsstring>
+        <name>RenderSupersampling</name>
+        <qualifiedname>RuntimePreviewGenerator.RenderSupersampling</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="153" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="154" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="property" id="class_runtime_preview_generator_1a6ffaedd38376b9945b3a8042edb4e8b9" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool RuntimePreviewGenerator.MarkTextureNonReadable</definition>
+        <argsstring></argsstring>
+        <name>MarkTextureNonReadable</name>
+        <qualifiedname>RuntimePreviewGenerator.MarkTextureNonReadable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="160" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="161" bodyend="164"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_runtime_preview_generator_1a1becf92e9916cbf9fdfbe17b8d4edb48" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D RuntimePreviewGenerator.GenerateMaterialPreview</definition>
+        <argsstring>(Material material, PrimitiveType previewPrimitive, int width=64, int height=64)</argsstring>
+        <name>GenerateMaterialPreview</name>
+        <qualifiedname>RuntimePreviewGenerator.GenerateMaterialPreview</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>PrimitiveType</type>
+          <declname>previewPrimitive</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>64</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>64</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="166" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a2a7615550e72601135912b718db421dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D RuntimePreviewGenerator.GenerateMaterialPreviewWithShader</definition>
+        <argsstring>(Material material, PrimitiveType previewPrimitive, Shader shader, string replacementTag, int width=64, int height=64)</argsstring>
+        <name>GenerateMaterialPreviewWithShader</name>
+        <qualifiedname>RuntimePreviewGenerator.GenerateMaterialPreviewWithShader</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>PrimitiveType</type>
+          <declname>previewPrimitive</declname>
+        </param>
+        <param>
+          <type>Shader</type>
+          <declname>shader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>replacementTag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>64</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>64</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="171" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a8fb6c7937408669071733c04525c4807" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D RuntimePreviewGenerator.GenerateModelPreview</definition>
+        <argsstring>(Transform model, int width=64, int height=64, bool shouldCloneModel=false, bool shouldIgnoreParticleSystems=true)</argsstring>
+        <name>GenerateModelPreview</name>
+        <qualifiedname>RuntimePreviewGenerator.GenerateModelPreview</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>64</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>64</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldCloneModel</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldIgnoreParticleSystems</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="218" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="218" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1afb53cda4e940444645637c2e71f34a7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D RuntimePreviewGenerator.GenerateModelPreviewWithShader</definition>
+        <argsstring>(Transform model, Shader shader, string replacementTag, int width=64, int height=64, bool shouldCloneModel=false, bool shouldIgnoreParticleSystems=true)</argsstring>
+        <name>GenerateModelPreviewWithShader</name>
+        <qualifiedname>RuntimePreviewGenerator.GenerateModelPreviewWithShader</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>Shader</type>
+          <declname>shader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>replacementTag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+          <defval>64</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+          <defval>64</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldCloneModel</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldIgnoreParticleSystems</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="223" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a500a4523b33f0459bae35e70b3ce3eb9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RuntimePreviewGenerator.CalculateBounds</definition>
+        <argsstring>(Transform target, bool shouldIgnoreParticleSystems, Quaternion cameraRotation, out Bounds bounds)</argsstring>
+        <name>CalculateBounds</name>
+        <qualifiedname>RuntimePreviewGenerator.CalculateBounds</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldIgnoreParticleSystems</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>cameraRotation</declname>
+        </param>
+        <param>
+          <type>out Bounds</type>
+          <declname>bounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="494" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="494" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a416710bd5be5d05d0efb2fd27f306e99" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RuntimePreviewGenerator.CalculateCameraPosition</definition>
+        <argsstring>(Camera camera, Bounds bounds, float padding=0f)</argsstring>
+        <name>CalculateCameraPosition</name>
+        <qualifiedname>RuntimePreviewGenerator.CalculateCameraPosition</qualifiedname>
+        <param>
+          <type>Camera</type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type>Bounds</type>
+          <declname>bounds</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>padding</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="561" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="561" bodyend="680"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_runtime_preview_generator_1a1c35365d27d42a4256044cc6607f95e5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D RuntimePreviewGenerator.GenerateMaterialPreviewInternal</definition>
+        <argsstring>(Material material, PrimitiveType previewPrimitive, Shader shader, string replacementTag, int width, int height)</argsstring>
+        <name>GenerateMaterialPreviewInternal</name>
+        <qualifiedname>RuntimePreviewGenerator.GenerateMaterialPreviewInternal</qualifiedname>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <param>
+          <type>PrimitiveType</type>
+          <declname>previewPrimitive</declname>
+        </param>
+        <param>
+          <type>Shader</type>
+          <declname>shader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>replacementTag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="191" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="191" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a524588152e2c163e60350a439edec5db" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D RuntimePreviewGenerator.GenerateModelPreviewInternal</definition>
+        <argsstring>(Transform model, Shader shader, string replacementTag, int width, int height, bool shouldCloneModel, bool shouldIgnoreParticleSystems)</argsstring>
+        <name>GenerateModelPreviewInternal</name>
+        <qualifiedname>RuntimePreviewGenerator.GenerateModelPreviewInternal</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>Shader</type>
+          <declname>shader</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>replacementTag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldCloneModel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldIgnoreParticleSystems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="243" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="243" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a8b5463df862197c90fabe90b710f7fe6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RuntimePreviewGenerator.IsOutermostPointInDirection</definition>
+        <argsstring>(int pointIndex, Vector3 direction)</argsstring>
+        <name>IsOutermostPointInDirection</name>
+        <qualifiedname>RuntimePreviewGenerator.IsOutermostPointInDirection</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pointIndex</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="683" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="683" bodyend="693"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a5557775295e579017446d4bfbe78b2d4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Ray</type>
+        <definition>static Ray RuntimePreviewGenerator.GetPlanesIntersection</definition>
+        <argsstring>(Plane p1, Plane p2)</argsstring>
+        <name>GetPlanesIntersection</name>
+        <qualifiedname>RuntimePreviewGenerator.GetPlanesIntersection</qualifiedname>
+        <param>
+          <type>Plane</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Plane</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="697" column="24" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="697" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1acb33ea355de963852d1e6e7cdac077f3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RuntimePreviewGenerator.FindClosestPointsOnTwoLines</definition>
+        <argsstring>(Ray line1, Ray line2, out Vector3 closestPointLine1, out Vector3 closestPointLine2)</argsstring>
+        <name>FindClosestPointsOnTwoLines</name>
+        <qualifiedname>RuntimePreviewGenerator.FindClosestPointsOnTwoLines</qualifiedname>
+        <param>
+          <type>Ray</type>
+          <declname>line1</declname>
+        </param>
+        <param>
+          <type>Ray</type>
+          <declname>line2</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>closestPointLine1</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>closestPointLine2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="707" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="707" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1ac71ec1a0f9c364732d4c59457ee2e939" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RuntimePreviewGenerator.SetupCamera</definition>
+        <argsstring>()</argsstring>
+        <name>SetupCamera</name>
+        <qualifiedname>RuntimePreviewGenerator.SetupCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="729" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="729" bodyend="745"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1ac963ec077666f627c4d0906307b0fac7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool RuntimePreviewGenerator.IsStatic</definition>
+        <argsstring>(Transform obj)</argsstring>
+        <name>IsStatic</name>
+        <qualifiedname>RuntimePreviewGenerator.IsStatic</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="747" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="747" bodyend="759"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a9b284e64f84bee9a01ee75131b7361d4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RuntimePreviewGenerator.SetLayerRecursively</definition>
+        <argsstring>(Transform obj)</argsstring>
+        <name>SetLayerRecursively</name>
+        <qualifiedname>RuntimePreviewGenerator.SetLayerRecursively</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="761" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="761" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a937c713581a4eedc1c89b3e0d1811828" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RuntimePreviewGenerator.GetLayerRecursively</definition>
+        <argsstring>(Transform obj)</argsstring>
+        <name>GetLayerRecursively</name>
+        <qualifiedname>RuntimePreviewGenerator.GetLayerRecursively</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="768" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="768" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="class_runtime_preview_generator_1a4e98ed08a868b1c1cd985cf1d05375a0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RuntimePreviewGenerator.SetLayerRecursively</definition>
+        <argsstring>(Transform obj, ref int index)</argsstring>
+        <name>SetLayerRecursively</name>
+        <qualifiedname>RuntimePreviewGenerator.SetLayerRecursively</qualifiedname>
+        <param>
+          <type>Transform</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="775" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="775" bodyend="780"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" line="12" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/RuntimePreviewGenerator.cs" bodystart="13" bodyend="781"/>
+    <listofallmembers>
+      <member refid="class_runtime_preview_generator_1adcf64a1695929089fca35bb04c2d2f46" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>BackgroundColor</name></member>
+      <member refid="class_runtime_preview_generator_1adcf534dc95612083357fd4ad32ee7240" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>boundingBoxPoints</name></member>
+      <member refid="class_runtime_preview_generator_1a500a4523b33f0459bae35e70b3ce3eb9" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>CalculateBounds</name></member>
+      <member refid="class_runtime_preview_generator_1a416710bd5be5d05d0efb2fd27f306e99" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>CalculateCameraPosition</name></member>
+      <member refid="class_runtime_preview_generator_1ad0f67218332cc388312e291c2ba88065" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>cameraSetup</name></member>
+      <member refid="class_runtime_preview_generator_1acb33ea355de963852d1e6e7cdac077f3" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>FindClosestPointsOnTwoLines</name></member>
+      <member refid="class_runtime_preview_generator_1a1becf92e9916cbf9fdfbe17b8d4edb48" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GenerateMaterialPreview</name></member>
+      <member refid="class_runtime_preview_generator_1a1c35365d27d42a4256044cc6607f95e5" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GenerateMaterialPreviewInternal</name></member>
+      <member refid="class_runtime_preview_generator_1a2a7615550e72601135912b718db421dc" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GenerateMaterialPreviewWithShader</name></member>
+      <member refid="class_runtime_preview_generator_1a8fb6c7937408669071733c04525c4807" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GenerateModelPreview</name></member>
+      <member refid="class_runtime_preview_generator_1a524588152e2c163e60350a439edec5db" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GenerateModelPreviewInternal</name></member>
+      <member refid="class_runtime_preview_generator_1afb53cda4e940444645637c2e71f34a7d" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GenerateModelPreviewWithShader</name></member>
+      <member refid="class_runtime_preview_generator_1a937c713581a4eedc1c89b3e0d1811828" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GetLayerRecursively</name></member>
+      <member refid="class_runtime_preview_generator_1a5557775295e579017446d4bfbe78b2d4" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>GetPlanesIntersection</name></member>
+      <member refid="class_runtime_preview_generator_1a7e54f0453a2bd5ae55d613e0088ab07c" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>InternalCamera</name></member>
+      <member refid="class_runtime_preview_generator_1a8b5463df862197c90fabe90b710f7fe6" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>IsOutermostPointInDirection</name></member>
+      <member refid="class_runtime_preview_generator_1ac963ec077666f627c4d0906307b0fac7" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>IsStatic</name></member>
+      <member refid="class_runtime_preview_generator_1a63131bf6bc937b3d3352a7d58b6115f2" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>layersList</name></member>
+      <member refid="class_runtime_preview_generator_1a3db888dc0e21cdea537a2dc63bf2b215" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>localBoundsMinMax</name></member>
+      <member refid="class_runtime_preview_generator_1a858afa9029397cf5c5a88875105f34fc" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_backgroundColor</name></member>
+      <member refid="class_runtime_preview_generator_1ac6c5d75737018169dbfd78d2c1beeafe" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_internalCamera</name></member>
+      <member refid="class_runtime_preview_generator_1ac3c6dd53649d206d6b94e3a42cfc0a4f" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_markTextureNonReadable</name></member>
+      <member refid="class_runtime_preview_generator_1a3b4996cb8337cfdf5d4ec1ddbec870d1" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_orthographicMode</name></member>
+      <member refid="class_runtime_preview_generator_1a688c1c3d7b26119a96316ce36c642acf" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_padding</name></member>
+      <member refid="class_runtime_preview_generator_1a8eed0539b203b128637ca7ffa9267707" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_previewDirection</name></member>
+      <member refid="class_runtime_preview_generator_1ad8da73970311eeb3efe45bcfd1e717fa" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_previewRenderCamera</name></member>
+      <member refid="class_runtime_preview_generator_1a5062353d09ce70b58d312d5da4732089" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_renderSupersampling</name></member>
+      <member refid="class_runtime_preview_generator_1a14e2e9d13e3663b21fb0411e3448a44e" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>m_useLocalBounds</name></member>
+      <member refid="class_runtime_preview_generator_1a6ffaedd38376b9945b3a8042edb4e8b9" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>MarkTextureNonReadable</name></member>
+      <member refid="class_runtime_preview_generator_1a8d82baa1a829ac910f24ba4745b7ed9a" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>OrthographicMode</name></member>
+      <member refid="class_runtime_preview_generator_1a20e1661559cb8661bef0366ed716b636" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>Padding</name></member>
+      <member refid="class_runtime_preview_generator_1ae9a80a1747635adf8b7d20cdacbca2ff" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>PREVIEW_LAYER</name></member>
+      <member refid="class_runtime_preview_generator_1a998853a6c5c8a1b6c1580462c61b8521" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>PREVIEW_POSITION</name></member>
+      <member refid="class_runtime_preview_generator_1a0228aca839b5c87896d25a7e21c4893a" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>PreviewDirection</name></member>
+      <member refid="class_runtime_preview_generator_1a536c660fb43b3362230d520f98aa546e" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>PreviewRenderCamera</name></member>
+      <member refid="class_runtime_preview_generator_1abaaece26a2147120d81413949b6fb1bc" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>renderCamera</name></member>
+      <member refid="class_runtime_preview_generator_1ab80f8156bafec13547ffff257003efac" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>renderersList</name></member>
+      <member refid="class_runtime_preview_generator_1a4ef9624ddc3a2a18a0034d683e0f858b" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>RenderSupersampling</name></member>
+      <member refid="class_runtime_preview_generator_1a9b284e64f84bee9a01ee75131b7361d4" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>SetLayerRecursively</name></member>
+      <member refid="class_runtime_preview_generator_1a4e98ed08a868b1c1cd985cf1d05375a0" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>SetLayerRecursively</name></member>
+      <member refid="class_runtime_preview_generator_1ac71ec1a0f9c364732d4c59457ee2e939" prot="private" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>SetupCamera</name></member>
+      <member refid="class_runtime_preview_generator_1ad423fc4d636db7c8b1a8f8414eaed372" prot="public" virt="non-virtual"><scope>RuntimePreviewGenerator</scope><name>UseLocalBounds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

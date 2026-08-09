@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.RemoveDisconnectedPrefab" name="AhahGames.GenesisNoise.Nodes.BiomeDecorationNode.RemoveDisconnectedPrefab">
-<area shape="rect" id="Node000001" title=" " alt="" coords="568,31,853,89"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a81dc4aa2f1bb8faba1f9161e4a97a13f" title=" " alt="" coords="279,31,520,89"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="550,60,520,63,520,57,555,60"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a64ac301970b29ab6e5abdb2ff1534557" title="Called when the node is disabled." alt="" coords="5,5,231,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="260,44,231,43,231,37,266,44"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_biome_decoration_node.html#a7ac7a87b067cf6495176bdbb1ea5f753" title="Called when the node is enabled." alt="" coords="5,72,231,115"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="260,77,231,83,231,77,266,76"/>
-</map>

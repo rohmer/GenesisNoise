@@ -1,6 +1,0 @@
-<map id="Unity.Mathematics.mathx.byte1" name="Unity.Mathematics.mathx.byte1">
-<area shape="rect" id="Node000001" title="Returns a byte value constructed from a double value." alt="" coords="5,29,212,56"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#ad8672565d0d7e5c3f18b44ff8762f439" title="Returns a byte value constructed from a byte values." alt="" coords="260,29,466,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,40,247,43,242,43,212,45"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="320,28,313,21,318,11,335,5,363,3,393,5,411,15,406,14,392,10,363,8,336,10,321,15,318,20,325,30"/>
-</map>

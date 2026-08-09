@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1ad4edf593233c0206f3a88564e2ad9611" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1226" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1adddc56ef657bb8c7dc048eddce68ad0e" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Normal</definition>
+        <argsstring></argsstring>
+        <name>Normal</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Normal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1227" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1ad12d9ddafc964d3108c840a70d6aaab8" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.UV</definition>
+        <argsstring></argsstring>
+        <name>UV</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.UV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1228" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a3b3e198c589a7e0766a73135c79ae794" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.UV2</definition>
+        <argsstring></argsstring>
+        <name>UV2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.UV2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1229" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1abc63128cb35fdc98cdf5e0af58b210da" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Color</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1230" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1aa7c505aa763e59ae3120e338bc6b9afe" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasNormal</definition>
+        <argsstring></argsstring>
+        <name>HasNormal</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasNormal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1231" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a69399cf33144a706cbf6e650b09213d9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasUV</definition>
+        <argsstring></argsstring>
+        <name>HasUV</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasUV</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1232" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a6ebf37df8371a31ab2441b00b23f1650" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasUV2</definition>
+        <argsstring></argsstring>
+        <name>HasUV2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasUV2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1233" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a1fc0bee284b02a3f1fe3976e3c101cb0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasColor</definition>
+        <argsstring></argsstring>
+        <name>HasColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.HasColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1234" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a4209038feffd3ddcde34da6307fd3c4c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Active</definition>
+        <argsstring></argsstring>
+        <name>Active</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CollapseVertex.Active</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1235" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1235" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" line="1224" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshLODGeneratorNode.cs" bodystart="1225" bodyend="1236"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a4209038feffd3ddcde34da6307fd3c4c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>Active</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1abc63128cb35fdc98cdf5e0af58b210da" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>Color</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a1fc0bee284b02a3f1fe3976e3c101cb0" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>HasColor</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1aa7c505aa763e59ae3120e338bc6b9afe" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>HasNormal</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a69399cf33144a706cbf6e650b09213d9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>HasUV</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a6ebf37df8371a31ab2441b00b23f1650" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>HasUV2</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1adddc56ef657bb8c7dc048eddce68ad0e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>Normal</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1ad4edf593233c0206f3a88564e2ad9611" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>Position</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1ad12d9ddafc964d3108c840a70d6aaab8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>UV</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_vertex_1a3b3e198c589a7e0766a73135c79ae794" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshLODGeneratorNode::CollapseVertex</scope><name>UV2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

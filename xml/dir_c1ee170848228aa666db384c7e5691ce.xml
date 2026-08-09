@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_c1ee170848228aa666db384c7e5691ce" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape</compoundname>
+    <innerfile refid="_arc_bricks_node_8cs">ArcBricksNode.cs</innerfile>
+    <innerfile refid="_bacteria_node_8cs">BacteriaNode.cs</innerfile>
+    <innerfile refid="_basketweave_node_8cs">BasketweaveNode.cs</innerfile>
+    <innerfile refid="_bricks_node_8cs">BricksNode.cs</innerfile>
+    <innerfile refid="_brocade_node_8cs">BrocadeNode.cs</innerfile>
+    <innerfile refid="_checkerboard_node_8cs">CheckerboardNode.cs</innerfile>
+    <innerfile refid="_chinoiserie_node_8cs">ChinoiserieNode.cs</innerfile>
+    <innerfile refid="_chintz_node_8cs">ChintzNode.cs</innerfile>
+    <innerfile refid="_circles_generator_8cs">CirclesGenerator.cs</innerfile>
+    <innerfile refid="_cylinders_node_8cs">CylindersNode.cs</innerfile>
+    <innerfile refid="_damask_node_8cs">DamaskNode.cs</innerfile>
+    <innerfile refid="_dots_generator_8cs">DotsGenerator.cs</innerfile>
+    <innerfile refid="_elipse_node_8cs">ElipseNode.cs</innerfile>
+    <innerfile refid="_fibers2_node_8cs">Fibers2Node.cs</innerfile>
+    <innerfile refid="_fibers_node1_8cs">FibersNode1.cs</innerfile>
+    <innerfile refid="_fleur_de_lis_node_8cs">FleurDeLisNode.cs</innerfile>
+    <innerfile refid="_gaussian_axial_node_8cs">GaussianAxialNode.cs</innerfile>
+    <innerfile refid="_gaussian_node_8cs">GaussianNode.cs</innerfile>
+    <innerfile refid="_gaussian_spots_node1_8cs">GaussianSpotsNode1.cs</innerfile>
+    <innerfile refid="_gaussian_spots_node2_8cs">GaussianSpotsNode2.cs</innerfile>
+    <innerfile refid="_gaussian_spots_node3_8cs">GaussianSpotsNode3.cs</innerfile>
+    <innerfile refid="_gaussian_spots_node4_8cs">GaussianSpotsNode4.cs</innerfile>
+    <innerfile refid="_gingham_node_8cs">GinghamNode.cs</innerfile>
+    <innerfile refid="_gradient_circular_node_8cs">GradientCircularNode.cs</innerfile>
+    <innerfile refid="_greek_key_node_8cs">GreekKeyNode.cs</innerfile>
+    <innerfile refid="_grid_node_8cs">GridNode.cs</innerfile>
+    <innerfile refid="_harlequin_node_8cs">HarlequinNode.cs</innerfile>
+    <innerfile refid="_herringbone_node_8cs">HerringboneNode.cs</innerfile>
+    <innerfile refid="_hexagonal_mesh_node_8cs">HexagonalMeshNode.cs</innerfile>
+    <innerfile refid="_hex_grid_node_8cs">HexGridNode.cs</innerfile>
+    <innerfile refid="_hex_lattice_node_8cs">HexLatticeNode.cs</innerfile>
+    <innerfile refid="_houndstooth_node_8cs">HoundstoothNode.cs</innerfile>
+    <innerfile refid="_jacquard_node_8cs">JacquardNode.cs</innerfile>
+    <innerfile refid="_leopard_node_8cs">LeopardNode.cs</innerfile>
+    <innerfile refid="_linear_gradient_node_8cs">LinearGradientNode.cs</innerfile>
+    <innerfile refid="_lines_node_8cs">LinesNode.cs</innerfile>
+    <innerfile refid="_mesh1_node_8cs">Mesh1Node.cs</innerfile>
+    <innerfile refid="_minkowski_sausage_node_8cs">MinkowskiSausageNode.cs</innerfile>
+    <innerfile refid="_moroccan_lattice_node_8cs">MoroccanLatticeNode.cs</innerfile>
+    <innerfile refid="_multi_splatter_shape_color_node_8cs">MultiSplatterShapeColorNode.cs</innerfile>
+    <innerfile refid="_ogee_node_8cs">OgeeNode.cs</innerfile>
+    <innerfile refid="_paisley_node_8cs">PaisleyNode.cs</innerfile>
+    <innerfile refid="_pattern_generator_node_8cs">PatternGeneratorNode.cs</innerfile>
+    <innerfile refid="_polygon_node_8cs">PolygonNode.cs</innerfile>
+    <innerfile refid="_random_n_gon_node_8cs">RandomNGonNode.cs</innerfile>
+    <innerfile refid="_rectangles_node_8cs">RectanglesNode.cs</innerfile>
+    <innerfile refid="_rounded_polygon_node_8cs">RoundedPolygonNode.cs</innerfile>
+    <innerfile refid="_rounded_rectangle_node_8cs">RoundedRectangleNode.cs</innerfile>
+    <innerfile refid="_shape_extrude_node_8cs">ShapeExtrudeNode.cs</innerfile>
+    <innerfile refid="_shape_mapper_node_8cs">ShapeMapperNode.cs</innerfile>
+    <innerfile refid="_shape_node_8cs">ShapeNode.cs</innerfile>
+    <innerfile refid="_smooth_wave_node_8cs">SmoothWaveNode.cs</innerfile>
+    <innerfile refid="_spiral_arms_falloff_shape_splatter_node_8cs">SpiralArmsFalloffShapeSplatterNode.cs</innerfile>
+    <innerfile refid="_spiral_arms_shape_splatter_node_8cs">SpiralArmsShapeSplatterNode.cs</innerfile>
+    <innerfile refid="_spiral_shape_splatter_node_8cs">SpiralShapeSplatterNode.cs</innerfile>
+    <innerfile refid="_splatter_circular_node_8cs">SplatterCircularNode.cs</innerfile>
+    <innerfile refid="_splatter_shape_color_node_8cs">SplatterShapeColorNode.cs</innerfile>
+    <innerfile refid="_splatter_shape_node_8cs">SplatterShapeNode.cs</innerfile>
+    <innerfile refid="_stones_node_8cs">StonesNode.cs</innerfile>
+    <innerfile refid="_stripes_node_8cs">StripesNode.cs</innerfile>
+    <innerfile refid="_super_shape_node_8cs">SuperShapeNode.cs</innerfile>
+    <innerfile refid="_tartan_node_8cs">TartanNode.cs</innerfile>
+    <innerfile refid="_torus_node_8cs">TorusNode.cs</innerfile>
+    <innerfile refid="_trellis_node_8cs">TrellisNode.cs</innerfile>
+    <innerfile refid="_triangle_grid_node_8cs">TriangleGridNode.cs</innerfile>
+    <innerfile refid="_truchet_node_8cs">TruchetNode.cs</innerfile>
+    <innerfile refid="_vector_field_node_8cs">VectorFieldNode.cs</innerfile>
+    <innerfile refid="_weave_complex_node_8cs">WeaveComplexNode.cs</innerfile>
+    <innerfile refid="_weave_diagonal_node_8cs">WeaveDiagonalNode.cs</innerfile>
+    <innerfile refid="_weave_generator_node_8cs">WeaveGeneratorNode.cs</innerfile>
+    <innerfile refid="_weave_node_8cs">WeaveNode.cs</innerfile>
+    <innerfile refid="_whirl_node_8cs">WhirlNode.cs</innerfile>
+    <innerfile refid="_zebra_node_8cs">ZebraNode.cs</innerfile>
+    <innerfile refid="_zig_zag_node_8cs">ZigZagNode.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Generator/Shape/"/>
+  </compounddef>
+</doxygen>

@@ -1,6 +1,0 @@
-<map id="Unity.Mathematics.mathx.select" name="Unity.Mathematics.mathx.select">
-<area shape="rect" id="Node000001" title="Returns a component&#45;wise selection of a or b using s (selector)." alt="" coords="5,29,215,56"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a955582b919784c1197f48ed7a9577199" title="Returns a byte2 vector constructed from a single byte value by assigning it to every component." alt="" coords="263,29,469,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,40,250,43,244,43,215,45"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="323,28,315,21,321,11,338,5,366,3,397,5,414,15,409,14,395,10,366,8,339,10,324,15,321,20,328,30"/>
-</map>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_639cae07501af58ce2089856b55be8df" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Cast</compoundname>
+    <innerfile refid="_to_bool_node_8cs">ToBoolNode.cs</innerfile>
+    <innerfile refid="_to_color_node_8cs">ToColorNode.cs</innerfile>
+    <innerfile refid="_to_float_node_8cs">ToFloatNode.cs</innerfile>
+    <innerfile refid="_to_int_node_8cs">ToIntNode.cs</innerfile>
+    <innerfile refid="_to_quaternion_node_8cs">ToQuaternionNode.cs</innerfile>
+    <innerfile refid="_to_string_node_8cs">ToStringNode.cs</innerfile>
+    <innerfile refid="_to_vector2_int_node_8cs">ToVector2IntNode.cs</innerfile>
+    <innerfile refid="_to_vector2_node_8cs">ToVector2Node.cs</innerfile>
+    <innerfile refid="_to_vector3_int_node_8cs">ToVector3IntNode.cs</innerfile>
+    <innerfile refid="_to_vector3_node_8cs">ToVector3Node.cs</innerfile>
+    <innerfile refid="_to_vector4_node_8cs">ToVector4Node.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Functions/Cast/"/>
+  </compounddef>
+</doxygen>

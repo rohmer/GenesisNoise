@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CanCollapseEdge" name="AhahGames.GenesisNoise.Nodes.MeshLODGeneratorNode.CanCollapseEdge">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,51,283,93"/>
-<area shape="rect" id="Node000002" href="$struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_1_1_collapse_triangle.html#af511a2e0c389c8faf723989d30f3b035" title=" " alt="" coords="332,5,605,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="283,53,319,52,313,53,284,59"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node.html#a9c545a88524b06e9c9f4f03e9031a9ee" title=" " alt="" coords="331,88,606,131"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="283,85,318,92,313,92,283,91"/>
-</map>

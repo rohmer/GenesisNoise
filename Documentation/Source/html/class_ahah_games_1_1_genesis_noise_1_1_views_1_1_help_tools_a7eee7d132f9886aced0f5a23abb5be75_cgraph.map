@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Views.HelpTools.GenerateHelpText" name="AhahGames.GenesisNoise.Views.HelpTools.GenerateHelpText">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,229,81"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools.html#a93a6239ee789f3dc13a5de622f94fa3e" title=" " alt="" coords="277,5,500,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,44,264,42,259,43,230,49"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_views_1_1_help_tools.html#aa497ae148a1651e1f430e9cc84298b92" title=" " alt="" coords="277,72,500,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="229,71,264,78,259,78,229,76"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node.html#a7cce66f8469e68e6143a15f3d0bd9f49" title=" " alt="" coords="548,72,773,115"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="500,91,535,93,530,93,501,96"/>
-</map>

@@ -1,0 +1,64 @@
+\doxysection{Graph\+Processor.\+ICreate\+Node\+From\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Interface Template Reference}
+\hypertarget{interface_graph_processor_1_1_i_create_node_from-1-g}{}\label{interface_graph_processor_1_1_i_create_node_from-1-g}\index{GraphProcessor.ICreateNodeFrom$<$ T $>$@{GraphProcessor.ICreateNodeFrom$<$ T $>$}}
+
+
+Implement this interface on a \doxylink{class_graph_processor_1_1_base_node}{Base\+Node}, it allows you to automatically spawn a node if an asset of type T is dropped in the graphview area.  
+
+
+
+
+Inheritance diagram for Graph\+Processor.\+ICreate\+Node\+From\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{interface_graph_processor_1_1_i_create_node_from-1-g__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \doxymbox{\hyperlink{interface_graph_processor_1_1_i_create_node_from-1-g_a656b664ec035b81eea01deff661510bb}{Initialize\+Node\+From\+Object}} (T value)
+\begin{DoxyCompactList}\small\item\em This function is called just after creating the node from an object and allows you to initialize the node with the object data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implement this interface on a \doxylink{class_graph_processor_1_1_base_node}{Base\+Node}, it allows you to automatically spawn a node if an asset of type T is dropped in the graphview area. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & The type object your node will be created from, it must be a subclass of Unity\+Engine.\+Object\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Object}]\end{description}
+\end{Desc}
+
+
+\label{interface_graph_processor_1_1_i_create_node_from-1-g_doc-func-members}
+\Hypertarget{interface_graph_processor_1_1_i_create_node_from-1-g_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_graph_processor_1_1_i_create_node_from-1-g_a656b664ec035b81eea01deff661510bb}\index{GraphProcessor.ICreateNodeFrom$<$ T $>$@{GraphProcessor.ICreateNodeFrom$<$ T $>$}!InitializeNodeFromObject@{InitializeNodeFromObject}}
+\index{InitializeNodeFromObject@{InitializeNodeFromObject}!GraphProcessor.ICreateNodeFrom$<$ T $>$@{GraphProcessor.ICreateNodeFrom$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{InitializeNodeFromObject()}{InitializeNodeFromObject()}}
+{\footnotesize\ttfamily \label{interface_graph_processor_1_1_i_create_node_from-1-g_a656b664ec035b81eea01deff661510bb} 
+bool Graph\+Processor.\+ICreate\+Node\+From$<$ T $>$.Initialize\+Node\+From\+Object (\begin{DoxyParamCaption}\item[{T}]{value}{}\end{DoxyParamCaption})}
+
+
+
+This function is called just after creating the node from an object and allows you to initialize the node with the object data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Object value\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the initialization happened correctly. False otherwise, returning false will discard your node.
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Node\+Graph\+Processor/\+\+Runtime/\+\+Elements/\+ICreate\+Node\+From\+Object.\+cs\end{DoxyCompactItemize}

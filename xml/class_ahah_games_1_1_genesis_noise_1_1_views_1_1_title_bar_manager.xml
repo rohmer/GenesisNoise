@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Views::TitleBarManager</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a5dc810f411f3620f6868a52e6f6238bb" prot="private" static="no" mutable="no">
+        <type>readonly IDictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition" kindref="compound">TitleBarDefinition</ref> &gt;</type>
+        <definition>readonly IDictionary&lt;string, TitleBarDefinition&gt; AhahGames.GenesisNoise.Views.TitleBarManager.nodeToDef</definition>
+        <argsstring></argsstring>
+        <name>nodeToDef</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.nodeToDef</qualifiedname>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition" kindref="compound">TitleBarDefinition</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="18" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a745b34fc51267e28bbfc96367c83dfb1" prot="private" static="no" mutable="no">
+        <type>readonly IDictionary&lt; string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition" kindref="compound">TitleBarDefinition</ref> &gt;</type>
+        <definition>readonly IDictionary&lt;string, TitleBarDefinition&gt; AhahGames.GenesisNoise.Views.TitleBarManager.groupToDef</definition>
+        <argsstring></argsstring>
+        <name>groupToDef</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.groupToDef</qualifiedname>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition" kindref="compound">TitleBarDefinition</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="19" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a33df116632e5779714c3f1394d2d0f84" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition" kindref="compound">TitleBarDefinition</ref></type>
+        <definition>TitleBarDefinition AhahGames.GenesisNoise.Views.TitleBarManager.defaultTBD</definition>
+        <argsstring></argsstring>
+        <name>defaultTBD</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.defaultTBD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="26" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a66783d4d55e7f9f3839009259019fb43" prot="private" static="yes" mutable="no">
+        <type>TitleBarManager</type>
+        <definition>TitleBarManager AhahGames.GenesisNoise.Views.TitleBarManager._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager._instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="21" column="32" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a26adb8f52ae80af532b6ed7c9521589e" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AhahGames.GenesisNoise.Views.TitleBarManager.TitleBarDefinitionsFileName</definition>
+        <argsstring></argsstring>
+        <name>TitleBarDefinitionsFileName</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.TitleBarDefinitionsFileName</qualifiedname>
+        <initializer>= &quot;titleBarDefintions.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="23" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1aa4e84cd076a5b8d19e3f9996934049ed" prot="private" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string AhahGames.GenesisNoise.Views.TitleBarManager.TitleBarDefinitionsPath</definition>
+        <argsstring></argsstring>
+        <name>TitleBarDefinitionsPath</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.TitleBarDefinitionsPath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="24" column="23" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1adc8bed4c587704496f8f38cff4110441" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int AhahGames.GenesisNoise.Views.TitleBarManager.nodesDefined</definition>
+        <argsstring></argsstring>
+        <name>nodesDefined</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.nodesDefined</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="99" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a0862477bff67f3d599df4cd93ea81360" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>TitleBarManager</type>
+        <definition>TitleBarManager AhahGames.GenesisNoise.Views.TitleBarManager.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.Instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="106" column="39" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="107" bodyend="117"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1aacac1cb9990e1be8327dd0adcc334a7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Views.TitleBarManager.TitleBarManager</definition>
+        <argsstring>()</argsstring>
+        <name>TitleBarManager</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.TitleBarManager</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="28" column="9" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a621d321868cfef592447211b83f58c3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.TitleBarManager.LoadTitleBars</definition>
+        <argsstring>()</argsstring>
+        <name>LoadTitleBars</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.LoadTitleBars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="33" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="33" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1abd14b0a1ad56565f0bcf8236e886aee2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.TitleBarManager.SaveTitleBars</definition>
+        <argsstring>()</argsstring>
+        <name>SaveTitleBars</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.SaveTitleBars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="75" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="75" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a5627eb33fa1e132b637b8eb7b64c870e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_definition" kindref="compound">TitleBarDefinition</ref></type>
+        <definition>TitleBarDefinition AhahGames.GenesisNoise.Views.TitleBarManager.ResolveDefinition</definition>
+        <argsstring>(string nodeType, string nodeGroup)</argsstring>
+        <name>ResolveDefinition</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.ResolveDefinition</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nodeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="119" column="28" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="119" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a02e3768bb9755306d61595d8682db92c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.TitleBarManager.CreateDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>CreateDefaults</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.CreateDefaults</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="184" column="14" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="184" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a5cc5761df628e1f1da03f6ef31398bad" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AhahGames.GenesisNoise.Views.TitleBarManager.LogSaveException</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>LogSaveException</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.LogSaveException</qualifiedname>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="94" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="94" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a08a87f74194f52ad8d72ec8f87e59cbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AhahGames.GenesisNoise.Views.TitleBarManager.Reload</definition>
+        <argsstring>()</argsstring>
+        <name>Reload</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.Reload</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="101" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a0aa41beb4b7e0cea6eced067541bfd4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D AhahGames.GenesisNoise.Views.TitleBarManager.GetTitleBarTexture</definition>
+        <argsstring>(string nodeType, string nodeGroup, int width, int height)</argsstring>
+        <name>GetTitleBarTexture</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.GetTitleBarTexture</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nodeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeGroup</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="133" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="133" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a91c1e2f0ae51a0850c5bac7d00d6db86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color[]</type>
+        <definition>Color[] AhahGames.GenesisNoise.Views.TitleBarManager.GetBorderColors</definition>
+        <argsstring>(string nodeType, string nodeGroup)</argsstring>
+        <name>GetBorderColors</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.GetBorderColors</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nodeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="142" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="142" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a80bd4dd27d3d2ebbe4da690d433086c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D AhahGames.GenesisNoise.Views.TitleBarManager.GetIcon</definition>
+        <argsstring>(string nodeType, string nodeGroup)</argsstring>
+        <name>GetIcon</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.GetIcon</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nodeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="148" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a72abe7f79213973e12b65be4abe58953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color AhahGames.GenesisNoise.Views.TitleBarManager.GetTitleColor</definition>
+        <argsstring>(string nodeType, string nodeGroup)</argsstring>
+        <name>GetTitleColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.GetTitleColor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nodeType</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nodeGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="154" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="154" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1ab9f2788a02c68598c453cb85e78a34f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>Color AhahGames.GenesisNoise.Views.TitleBarManager.GetBackgroundColor</definition>
+        <argsstring>(string node, string group)</argsstring>
+        <name>GetBackgroundColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Views.TitleBarManager.GetBackgroundColor</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="178" column="22" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="178" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" line="16" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/TitleBarManager.cs" bodystart="17" bodyend="201"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a66783d4d55e7f9f3839009259019fb43" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>_instance</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a02e3768bb9755306d61595d8682db92c" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>CreateDefaults</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a33df116632e5779714c3f1394d2d0f84" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>defaultTBD</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1ab9f2788a02c68598c453cb85e78a34f7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>GetBackgroundColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a91c1e2f0ae51a0850c5bac7d00d6db86" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>GetBorderColors</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a80bd4dd27d3d2ebbe4da690d433086c1" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>GetIcon</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a0aa41beb4b7e0cea6eced067541bfd4e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>GetTitleBarTexture</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a72abe7f79213973e12b65be4abe58953" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>GetTitleColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a745b34fc51267e28bbfc96367c83dfb1" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>groupToDef</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a0862477bff67f3d599df4cd93ea81360" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>Instance</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a621d321868cfef592447211b83f58c3d" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>LoadTitleBars</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a5cc5761df628e1f1da03f6ef31398bad" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>LogSaveException</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1adc8bed4c587704496f8f38cff4110441" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>nodesDefined</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a5dc810f411f3620f6868a52e6f6238bb" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>nodeToDef</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a08a87f74194f52ad8d72ec8f87e59cbb" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>Reload</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a5627eb33fa1e132b637b8eb7b64c870e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>ResolveDefinition</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1abd14b0a1ad56565f0bcf8236e886aee2" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>SaveTitleBars</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1a26adb8f52ae80af532b6ed7c9521589e" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>TitleBarDefinitionsFileName</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1aa4e84cd076a5b8d19e3f9996934049ed" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>TitleBarDefinitionsPath</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_views_1_1_title_bar_manager_1aacac1cb9990e1be8327dd0adcc334a7b" prot="private" virt="non-virtual"><scope>AhahGames::GenesisNoise::Views::TitleBarManager</scope><name>TitleBarManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,8 +1,0 @@
-<map id="Unity.Mathematics.mathx.anyneq" name="Unity.Mathematics.mathx.anyneq">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,222,81"/>
-<area shape="rect" id="Node000002" href="$class_unity_1_1_mathematics_1_1mathx.html#a955582b919784c1197f48ed7a9577199" title="Returns a byte2 vector constructed from a single byte value by assigning it to every component." alt="" coords="270,29,476,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,55,257,54,252,55,223,60"/>
-<area shape="rect" id="Node000003" href="$class_unity_1_1_mathematics_1_1mathx.html#a1de1b9343c66b161b0a6da4dce518366" title=" " alt="" coords="284,80,462,107"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="222,76,271,83,266,83,222,81"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="329,28,322,21,327,11,344,5,373,3,404,5,422,15,416,14,403,10,373,8,345,10,330,15,327,20,334,30"/>
-</map>

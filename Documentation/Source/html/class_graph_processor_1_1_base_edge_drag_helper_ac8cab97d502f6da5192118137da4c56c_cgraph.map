@@ -1,9 +1,0 @@
-<map id="GraphProcessor.BaseEdgeDragHelper.HandlePointerUp" name="GraphProcessor.BaseEdgeDragHelper.HandlePointerUp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,213,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_base_edge_drag_helper.html#ad5f3df33dc5bbb99420da108411c19cd" title=" " alt="" coords="261,5,468,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="213,44,248,42,243,43,214,49"/>
-<area shape="rect" id="Node000004" href="$class_graph_processor_1_1_base_edge_drag_helper.html#a8647e87c60b5380d4dcca1a77ad1bb63" title=" " alt="" coords="261,72,468,115"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="213,71,248,78,243,78,213,76"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_base_edge_drag_helper.html#a89d291d466813c7569633435d40bc5e0" title=" " alt="" coords="516,5,723,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="468,24,503,26,498,27,469,29"/>
-</map>

@@ -33,7 +33,7 @@ performs morphological dilation on a feature mask derived from the source textur
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f3d73151-3ac1-4278-a5fe-151931709fdf | |
+| GUID | String | f3758709-0b3a-43ef-954d-7a8d72a965d9 | |
 | expanded | Boolean | False | |
 
 ## See Also

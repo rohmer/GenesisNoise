@@ -1,9 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.GetRandomRotation" name="AhahGames.GenesisNoise.Nodes.TerrainBiomeDecorationNode.GetRandomRotation">
-<area shape="rect" id="Node000001" title=" " alt="" coords="880,5,1146,64"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a5c28a6ac70bfb152a3135096a4821f59" title=" " alt="" coords="604,5,832,64"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="862,35,833,37,833,32,867,35"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a933776ef80e1c2708db52bc95c716f52" title=" " alt="" coords="328,5,556,64"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="586,35,556,37,556,32,591,35"/>
-<area shape="rect" id="Node000004" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_biome_decoration_node.html#a65d6c2e0b209b44dfe31e22837a92b5f" title=" " alt="" coords="5,13,280,56"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="309,35,280,37,280,32,314,35"/>
-</map>

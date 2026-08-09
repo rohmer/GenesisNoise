@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_8fc0bf6972f2f3ef95469feb3d1bcfaa" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material/HDRP</compoundname>
+    <innerfile refid="_h_d_r_p_decal_material_node_view_8cs">HDRPDecalMaterialNodeView.cs</innerfile>
+    <innerfile refid="_h_d_r_p_layered_lit_material_node_view_8cs">HDRPLayeredLitMaterialNodeView.cs</innerfile>
+    <innerfile refid="_h_d_r_p_layered_lit_tessellation_material_node_view_8cs">HDRPLayeredLitTessellationMaterialNodeView.cs</innerfile>
+    <innerfile refid="_h_d_r_p_lit_material_node_view_8cs">HDRPLitMaterialNodeView.cs</innerfile>
+    <innerfile refid="_h_d_r_p_lit_tessellation_material_node_view_8cs">HDRPLitTessellationMaterialNodeView.cs</innerfile>
+    <innerfile refid="_h_d_r_p_unlit_material_node_view_8cs">HDRPUnlitMaterialNodeView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Material/HDRP/"/>
+  </compounddef>
+</doxygen>

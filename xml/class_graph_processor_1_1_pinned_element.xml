@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_graph_processor_1_1_pinned_element" kind="class" language="C#" prot="public">
+    <compoundname>GraphProcessor::PinnedElement</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_1a06459305c58c8001a1423c40cbb403cd" prot="public" static="yes" mutable="no">
+        <type>readonly Vector2</type>
+        <definition>readonly Vector2 GraphProcessor.PinnedElement.defaultSize</definition>
+        <argsstring></argsstring>
+        <name>defaultSize</name>
+        <qualifiedname>GraphProcessor.PinnedElement.defaultSize</qualifiedname>
+        <initializer>= new(150, 200)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" line="13" column="40" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_1a8ed2f0ea259c29c1251873ff3495b6ff" prot="public" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect GraphProcessor.PinnedElement.position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <qualifiedname>GraphProcessor.PinnedElement.position</qualifiedname>
+        <initializer>= new(Vector2.zero, defaultSize)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" line="15" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_1a9c255963f2527f379225f8a3dc165835" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GraphProcessor.PinnedElement.opened</definition>
+        <argsstring></argsstring>
+        <name>opened</name>
+        <qualifiedname>GraphProcessor.PinnedElement.opened</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" line="16" column="21" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graph_processor_1_1_pinned_element_1a46fdf964988de21381261cd42f270ec6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_graph_processor_1_1_serializable_type" kindref="compound">SerializableType</ref></type>
+        <definition>SerializableType GraphProcessor.PinnedElement.editorType</definition>
+        <argsstring></argsstring>
+        <name>editorType</name>
+        <qualifiedname>GraphProcessor.PinnedElement.editorType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" line="17" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graph_processor_1_1_pinned_element_1a0d7a99ee01976c07e97020cedeb0bcd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphProcessor.PinnedElement.PinnedElement</definition>
+        <argsstring>(Type editorType)</argsstring>
+        <name>PinnedElement</name>
+        <qualifiedname>GraphProcessor.PinnedElement.PinnedElement</qualifiedname>
+        <param>
+          <type>Type</type>
+          <declname>editorType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" line="19" column="16" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Element that overlays the graph like the blackboard. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>GraphProcessor.PinnedElement</label>
+        <link refid="class_graph_processor_1_1_pinned_element"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>editorType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GraphProcessor.SerializableType</label>
+        <link refid="class_graph_processor_1_1_serializable_type"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ISerializationCallbackReceiver</label>
+      </node>
+    </collaborationgraph>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" line="11" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/PinnedElement.cs" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_graph_processor_1_1_pinned_element_1a06459305c58c8001a1423c40cbb403cd" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElement</scope><name>defaultSize</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_1a46fdf964988de21381261cd42f270ec6" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElement</scope><name>editorType</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_1a9c255963f2527f379225f8a3dc165835" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElement</scope><name>opened</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_1a0d7a99ee01976c07e97020cedeb0bcd5" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElement</scope><name>PinnedElement</name></member>
+      <member refid="class_graph_processor_1_1_pinned_element_1a8ed2f0ea259c29c1251873ff3495b6ff" prot="public" virt="non-virtual"><scope>GraphProcessor::PinnedElement</scope><name>position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,661 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter" kind="class" language="C#" prot="public">
+    <compoundname>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1af0e6cb932fc4d986fd598d022ff06f1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>static Vector4 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToVector4</definition>
+        <argsstring>(float from)</argsstring>
+        <name>ConvertFloatToVector4</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToVector4</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="8" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a300784fe9112efb62f49118225a003ac" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToFloat</definition>
+        <argsstring>(Vector4 from)</argsstring>
+        <name>ConvertVector4ToFloat</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToFloat</qualifiedname>
+        <param>
+          <type>Vector4</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="9" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a31a8509d2288d15ca2b99fbfa9fc23fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToVector3</definition>
+        <argsstring>(float from)</argsstring>
+        <name>ConvertFloatToVector3</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToVector3</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="10" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a0e19af96eb7da9eff479a8727b02dac9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToFloat</definition>
+        <argsstring>(Vector3 from)</argsstring>
+        <name>ConvertVector3ToFloat</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToFloat</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="11" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab38ad2d269af7d1b88a5b8e495cfcc5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToVector2</definition>
+        <argsstring>(float from)</argsstring>
+        <name>ConvertFloatToVector2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToVector2</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="12" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a99eed2442a7e2e5cd2060901f3f904ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToFloat</definition>
+        <argsstring>(Vector2 from)</argsstring>
+        <name>ConvertVector2ToFloat</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToFloat</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="13" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab881b10fcaaf48e2d3c31a799b817381" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToColor</definition>
+        <argsstring>(Vector4 from)</argsstring>
+        <name>ConvertVector4ToColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToColor</qualifiedname>
+        <param>
+          <type>Vector4</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="16" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a83e218d168890d97d3bb7dac055f184e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>static Vector4 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertColorToVector4</definition>
+        <argsstring>(Color from)</argsstring>
+        <name>ConvertColorToVector4</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertColorToVector4</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="17" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a9fe3df271d81c625ff543a3cb6848307" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToColor</definition>
+        <argsstring>(Vector3 from)</argsstring>
+        <name>ConvertVector3ToColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToColor</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="18" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a0fdff79f783e4cbbc89222213c73d3f5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertColorToVector3</definition>
+        <argsstring>(Color from)</argsstring>
+        <name>ConvertColorToVector3</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertColorToVector3</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="19" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a5393bc155c8541321a047dec4556b2a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToInt</definition>
+        <argsstring>(float from)</argsstring>
+        <name>ConvertFloatToInt</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertFloatToInt</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="22" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a4160a989dac746efe8cbe986d95a2ab9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToFloat</definition>
+        <argsstring>(int from)</argsstring>
+        <name>ConvertIntToFloat</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToFloat</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="23" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a01472cbcfe81c489868e18c835fef47c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>static Vector4 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToVector4</definition>
+        <argsstring>(int from)</argsstring>
+        <name>ConvertIntToVector4</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToVector4</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="26" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1aac9057b5dde86ced0bed2c1d8fd98c41" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToInt</definition>
+        <argsstring>(Vector4 from)</argsstring>
+        <name>ConvertVector4ToInt</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToInt</qualifiedname>
+        <param>
+          <type>Vector4</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="27" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a91709251e9370dd6ff7a89a5f77ae8d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToVector3</definition>
+        <argsstring>(int from)</argsstring>
+        <name>ConvertIntToVector3</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToVector3</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="28" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a38332db9a09c49d7d77a39142287d334" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToInt</definition>
+        <argsstring>(Vector3 from)</argsstring>
+        <name>ConvertVector3ToInt</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToInt</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="29" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ae58f8422f8350a3e227bb2b217184d8f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToVector2</definition>
+        <argsstring>(int from)</argsstring>
+        <name>ConvertIntToVector2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertIntToVector2</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="30" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ae54f2700a242041f9e09fc48fe477cda" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToInt</definition>
+        <argsstring>(Vector2 from)</argsstring>
+        <name>ConvertVector2ToInt</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToInt</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="31" column="27" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1af6959896a3d1331f9f54f347d4aaa2f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToVector2</definition>
+        <argsstring>(Vector4 v)</argsstring>
+        <name>ConvertVector4ToVector2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToVector2</qualifiedname>
+        <param>
+          <type>Vector4</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="34" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1abce92730b51739d971885743906cf9f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>static Vector4 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToVector4</definition>
+        <argsstring>(Vector2 from)</argsstring>
+        <name>ConvertVector2ToVector4</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToVector4</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="35" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab5d3aeb1cda9b57c08200f3744e8b80e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToVector3</definition>
+        <argsstring>(Vector4 v)</argsstring>
+        <name>ConvertVector4ToVector3</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToVector3</qualifiedname>
+        <param>
+          <type>Vector4</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="36" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a44faccb8404ca5ad554962aeef3e35cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>static Vector4 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToVector4</definition>
+        <argsstring>(Vector3 from)</argsstring>
+        <name>ConvertVector3ToVector4</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToVector4</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="37" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a11c5cc92d7166265af6918c9e6a8a3ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToVector2</definition>
+        <argsstring>(Vector3 v)</argsstring>
+        <name>ConvertVector3ToVector2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToVector2</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="38" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a905a1500e4df2aeb58df80d1f521ac0b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToVector3</definition>
+        <argsstring>(Vector2 from)</argsstring>
+        <name>ConvertVector2ToVector3</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToVector3</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="39" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a589bd024ca942a988d4f078afc316009" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2Int</type>
+        <definition>static Vector2Int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3IntToVector2Int</definition>
+        <argsstring>(Vector3Int v)</argsstring>
+        <name>ConvertVector3IntToVector2Int</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3IntToVector2Int</qualifiedname>
+        <param>
+          <type>Vector3Int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="41" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a056ebc1ddc00b2e31c44578e4a42d34f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3Int</type>
+        <definition>static Vector3Int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2IntToVector3Int</definition>
+        <argsstring>(Vector2Int from)</argsstring>
+        <name>ConvertVector2IntToVector3Int</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2IntToVector3Int</qualifiedname>
+        <param>
+          <type>Vector2Int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="42" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a107954426382d8e1d7407b183193efa2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>static Vector2 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2IntToVector2</definition>
+        <argsstring>(Vector2Int from)</argsstring>
+        <name>ConvertVector2IntToVector2</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2IntToVector2</qualifiedname>
+        <param>
+          <type>Vector2Int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="44" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab74ddc4f21767281327af7bc5c1f7f9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2Int</type>
+        <definition>static Vector2Int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToVector2Int</definition>
+        <argsstring>(Vector2 from)</argsstring>
+        <name>ConvertVector2ToVector2Int</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector2ToVector2Int</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="45" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1aa0ace481b16abb58660b2a7abe970e56" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3IntToVector3</definition>
+        <argsstring>(Vector3Int from)</argsstring>
+        <name>ConvertVector3IntToVector3</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3IntToVector3</qualifiedname>
+        <param>
+          <type>Vector3Int</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="46" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a30915e37fb7a13039f59522717b52286" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3Int</type>
+        <definition>static Vector3Int AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToVector3Int</definition>
+        <argsstring>(Vector3 from)</argsstring>
+        <name>ConvertVector3ToVector3Int</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector3ToVector3Int</qualifiedname>
+        <param>
+          <type>Vector3</type>
+          <declname>from</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="47" column="34" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a3c4a1ab6b1902c9be9bbf41954c2086d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector4</type>
+        <definition>static Vector4 AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertObjectToVector4</definition>
+        <argsstring>(object o)</argsstring>
+        <name>ConvertObjectToVector4</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertObjectToVector4</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="50" column="31" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a3db4c7c2fae65cf445c8279c9167b432" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToObject</definition>
+        <argsstring>(Vector4 v)</argsstring>
+        <name>ConvertVector4ToObject</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertVector4ToObject</qualifiedname>
+        <param>
+          <type>Vector4</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="61" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a44c5b089dcf950ecdf117cbc15b1fb40" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertObjectToColor</definition>
+        <argsstring>(object o)</argsstring>
+        <name>ConvertObjectToColor</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertObjectToColor</qualifiedname>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="63" column="29" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="63" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a8ed62dcc1deb013fb74ef6be9a2b157f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertColorToObject</definition>
+        <argsstring>(Color c)</argsstring>
+        <name>ConvertColorToObject</name>
+        <qualifiedname>AhahGames.GenesisNoise.Utility.GenesisTypeConverter.ConvertColorToObject</qualifiedname>
+        <param>
+          <type>Color</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="74" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" line="5" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Utility/GenesisTypeConverter.cs" bodystart="6" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a8ed62dcc1deb013fb74ef6be9a2b157f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertColorToObject</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a0fdff79f783e4cbbc89222213c73d3f5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertColorToVector3</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a83e218d168890d97d3bb7dac055f184e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertColorToVector4</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a5393bc155c8541321a047dec4556b2a5" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertFloatToInt</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab38ad2d269af7d1b88a5b8e495cfcc5a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertFloatToVector2</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a31a8509d2288d15ca2b99fbfa9fc23fd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertFloatToVector3</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1af0e6cb932fc4d986fd598d022ff06f1a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertFloatToVector4</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a4160a989dac746efe8cbe986d95a2ab9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertIntToFloat</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ae58f8422f8350a3e227bb2b217184d8f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertIntToVector2</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a91709251e9370dd6ff7a89a5f77ae8d9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertIntToVector3</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a01472cbcfe81c489868e18c835fef47c" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertIntToVector4</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a44c5b089dcf950ecdf117cbc15b1fb40" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertObjectToColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a3c4a1ab6b1902c9be9bbf41954c2086d" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertObjectToVector4</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a107954426382d8e1d7407b183193efa2" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector2IntToVector2</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a056ebc1ddc00b2e31c44578e4a42d34f" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector2IntToVector3Int</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a99eed2442a7e2e5cd2060901f3f904ba" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector2ToFloat</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ae54f2700a242041f9e09fc48fe477cda" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector2ToInt</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab74ddc4f21767281327af7bc5c1f7f9a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector2ToVector2Int</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a905a1500e4df2aeb58df80d1f521ac0b" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector2ToVector3</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1abce92730b51739d971885743906cf9f7" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector2ToVector4</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a589bd024ca942a988d4f078afc316009" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3IntToVector2Int</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1aa0ace481b16abb58660b2a7abe970e56" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3IntToVector3</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a9fe3df271d81c625ff543a3cb6848307" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3ToColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a0e19af96eb7da9eff479a8727b02dac9" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3ToFloat</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a38332db9a09c49d7d77a39142287d334" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3ToInt</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a11c5cc92d7166265af6918c9e6a8a3ee" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3ToVector2</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a30915e37fb7a13039f59522717b52286" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3ToVector3Int</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a44faccb8404ca5ad554962aeef3e35cd" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector3ToVector4</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab881b10fcaaf48e2d3c31a799b817381" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector4ToColor</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a300784fe9112efb62f49118225a003ac" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector4ToFloat</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1aac9057b5dde86ced0bed2c1d8fd98c41" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector4ToInt</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1a3db4c7c2fae65cf445c8279c9167b432" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector4ToObject</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1af6959896a3d1331f9f54f347d4aaa2f4" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector4ToVector2</name></member>
+      <member refid="class_ahah_games_1_1_genesis_noise_1_1_utility_1_1_genesis_type_converter_1ab5d3aeb1cda9b57c08200f3744e8b80e" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Utility::GenesisTypeConverter</scope><name>ConvertVector4ToVector3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

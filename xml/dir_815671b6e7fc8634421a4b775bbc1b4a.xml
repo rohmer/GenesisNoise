@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_815671b6e7fc8634421a4b775bbc1b4a" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor</compoundname>
+    <innerdir refid="dir_fcf6811110f9eb51bbcd056b8de7e194">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Graph</innerdir>
+    <innerdir refid="dir_0a913a5f0cf5c0a5bf3ca760d68f8942">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor</innerdir>
+    <innerdir refid="dir_71e0a24656e49e6d6f6379bd1b5f27fc">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/PropertyDrawers</innerdir>
+    <innerdir refid="dir_769b1f79cf7567f2accf8b9ab126f37a">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Resources</innerdir>
+    <innerdir refid="dir_27b2d1bab417df081eb3a235575d1252">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Utilities</innerdir>
+    <innerdir refid="dir_73c397c2f9095de4378a28fe43307978">E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views</innerdir>
+    <innerfile refid="_editor_utilities_8cs">EditorUtilities.cs</innerfile>
+    <innerfile refid="_genesis_noise_inspector_8cs">GenesisNoiseInspector.cs</innerfile>
+    <innerfile refid="_support_variables_8cs">SupportVariables.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/"/>
+  </compounddef>
+</doxygen>

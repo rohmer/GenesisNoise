@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge" kind="struct" language="C#" prot="private">
+    <compoundname>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::ScoredCollapseEdge</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1ae4a8e01b5b5a092f0a6ff6b75fefdfde" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.A</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="999" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="999" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1acd731c0e1e4bd39e0bf60ab34f4c5bc8" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.B</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1000" column="33" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1000" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1af1be1a57c3645c9d6b17430c9a6d846a" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.Cost</definition>
+        <argsstring></argsstring>
+        <name>Cost</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.Cost</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1001" column="35" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1001" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1a94cc64fbe86a1a1b9dcece666e0f5b09" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.IsValid</definition>
+        <argsstring></argsstring>
+        <name>IsValid</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.IsValid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1002" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1002" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1acaf5022caf5cc5490e37da30764b35b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.ScoredCollapseEdge</definition>
+        <argsstring>(int a, int b, float cost)</argsstring>
+        <name>ScoredCollapseEdge</name>
+        <qualifiedname>AhahGames.GenesisNoise.Nodes.MeshOptimizationNode.ScoredCollapseEdge.ScoredCollapseEdge</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cost</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="1004" column="20" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="1004" bodyend="1009"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" line="997" column="17" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/Nodes/Mesh/MeshOptimizationNode.cs" bodystart="998" bodyend="1010"/>
+    <listofallmembers>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1ae4a8e01b5b5a092f0a6ff6b75fefdfde" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::ScoredCollapseEdge</scope><name>A</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1acd731c0e1e4bd39e0bf60ab34f4c5bc8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::ScoredCollapseEdge</scope><name>B</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1af1be1a57c3645c9d6b17430c9a6d846a" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::ScoredCollapseEdge</scope><name>Cost</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1a94cc64fbe86a1a1b9dcece666e0f5b09" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::ScoredCollapseEdge</scope><name>IsValid</name></member>
+      <member refid="struct_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_1_1_scored_collapse_edge_1acaf5022caf5cc5490e37da30764b35b8" prot="public" virt="non-virtual"><scope>AhahGames::GenesisNoise::Nodes::MeshOptimizationNode::ScoredCollapseEdge</scope><name>ScoredCollapseEdge</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

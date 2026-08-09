@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="dir_62f785b3a06bf3a007ef57d4a21044ea" kind="dir">
+    <compoundname>E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh</compoundname>
+    <innerfile refid="_apply_material_to_mesh_node_view_8cs">ApplyMaterialToMeshNodeView.cs</innerfile>
+    <innerfile refid="_mesh_erosion_node_view_8cs">MeshErosionNodeView.cs</innerfile>
+    <innerfile refid="_mesh_l_o_d_generator_node_view_8cs">MeshLODGeneratorNodeView.cs</innerfile>
+    <innerfile refid="_mesh_noise_displacement_node_view_8cs">MeshNoiseDisplacementNodeView.cs</innerfile>
+    <innerfile refid="_mesh_optimization_node_view_8cs">MeshOptimizationNodeView.cs</innerfile>
+    <innerfile refid="_mesh_prefab_save_node_view_8cs">MeshPrefabSaveNodeView.cs</innerfile>
+    <innerfile refid="_mesh_scale_node_view_8cs">MeshScaleNodeView.cs</innerfile>
+    <innerfile refid="_mesh_smoothing_node_view_8cs">MeshSmoothingNodeView.cs</innerfile>
+    <innerfile refid="_mesh_x_y_z_noise_displacement_node_view_8cs">MeshXYZNoiseDisplacementNodeView.cs</innerfile>
+    <innerfile refid="_prefab_node_view_8cs">PrefabNodeView.cs</innerfile>
+    <innerfile refid="_primitive_node_view_8cs">PrimitiveNodeView.cs</innerfile>
+    <innerfile refid="_sub_divide_mesh_node_view_8cs">SubDivideMeshNodeView.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/Views/Mesh/"/>
+  </compounddef>
+</doxygen>

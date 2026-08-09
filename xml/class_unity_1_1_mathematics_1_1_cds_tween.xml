@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="class_unity_1_1_mathematics_1_1_cds_tween" kind="class" language="C#" prot="public">
+    <compoundname>Unity::Mathematics::CdsTween</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_cds_tween_1a688ee04b10fe4a69fbf7f0004496e123" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>static quaternion Unity.Mathematics.CdsTween::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="15" column="25" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_cds_tween_1a18b43604570653cfd623df26dde58dd1" prot="public" static="yes" mutable="no">
+        <type>float2</type>
+        <definition>float2 Unity.Mathematics.CdsTween.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="32" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_cds_tween_1abd6796eb34938da782c6858ec61243bb" prot="public" static="yes" mutable="no">
+        <type>float3</type>
+        <definition>float3 Unity.Mathematics.CdsTween.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="49" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_cds_tween_1a865c3475ce2441275dc5bfb60b19bae9" prot="public" static="yes" mutable="no">
+        <type>float4</type>
+        <definition>float4 Unity.Mathematics.CdsTween.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="66" column="26" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_unity_1_1_mathematics_1_1_cds_tween_1ad269ba29a84e1c41085ec5fc23fad74f" prot="public" static="yes" mutable="no">
+        <type>quaternion</type>
+        <definition>quaternion Unity.Mathematics.CdsTween.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="83" column="30" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1aafc1e2b1d8bb9b6f697ee98f042a35cf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float float v</type>
+        <definition>static float float v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float x, float v) state, float target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float x, float v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="16" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="16" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1a05f1425b615934ba5512b56b7b332124" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float float v</type>
+        <definition>static float float v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float x, float v) state, float target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float x, float v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="20" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1a8e229e41b3a16188c8e2c3c29faa1d86" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float2 float2 v</type>
+        <definition>static float2 float2 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float2 x, float2 v) state, float2 target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float2 x, float2 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float2</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="33" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="33" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1ab27a8d5b2e83f5a40fe139f808579ffb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float2 float2 v</type>
+        <definition>static float2 float2 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float2 x, float2 v) state, float2 target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float2 x, float2 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float2</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="37" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1af0e3fddcac24c2c29e31cbf39e9b64bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float3 float3 v</type>
+        <definition>static float3 float3 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float3 x, float3 v) state, float3 target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float3 x, float3 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float3</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="50" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="50" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1a0187a5267617964767cef7efd03b2704" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float3 float3 v</type>
+        <definition>static float3 float3 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float3 x, float3 v) state, float3 target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float3 x, float3 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float3</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="54" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1a6e8cddd2510d62ba7ca0a90eddc950de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float4 float4 v</type>
+        <definition>static float4 float4 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float4 x, float4 v) state, float4 target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float4 x, float4 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float4</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="67" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="67" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1ab7a63b275ea33a7f82c3abf7b12ccffd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float4 float4 v</type>
+        <definition>static float4 float4 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((float4 x, float4 v) state, float4 target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(float4 x, float4 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>float4</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="71" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1ab2f1e63a1bbc748584f075955d8c97d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>quaternion float4 v</type>
+        <definition>static quaternion float4 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((quaternion x, float4 v) state, quaternion target, float speed)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(quaternion x, float4 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>quaternion</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="84" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="84" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_unity_1_1_mathematics_1_1_cds_tween_1a5884fc11f3c7b06db6099943a856890b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>quaternion float4 v</type>
+        <definition>static quaternion float4 v Unity.Mathematics.CdsTween.Step</definition>
+        <argsstring>((quaternion x, float4 v) state, quaternion target, float speed, float dt)</argsstring>
+        <name>Step</name>
+        <qualifiedname>Unity.Mathematics.CdsTween.Step</qualifiedname>
+        <param>
+          <type>(quaternion x, float4 v)</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>quaternion</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="88" column="7" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="88" bodyend="94"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" line="11" column="15" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/MathX/KlakMath/CdsTween.cs" bodystart="12" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1aafc1e2b1d8bb9b6f697ee98f042a35cf" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a05f1425b615934ba5512b56b7b332124" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a8e229e41b3a16188c8e2c3c29faa1d86" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1ab27a8d5b2e83f5a40fe139f808579ffb" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1af0e3fddcac24c2c29e31cbf39e9b64bd" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a0187a5267617964767cef7efd03b2704" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a6e8cddd2510d62ba7ca0a90eddc950de" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1ab7a63b275ea33a7f82c3abf7b12ccffd" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1ab2f1e63a1bbc748584f075955d8c97d0" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a5884fc11f3c7b06db6099943a856890b" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>Step</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a688ee04b10fe4a69fbf7f0004496e123" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>x</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a18b43604570653cfd623df26dde58dd1" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>x</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1abd6796eb34938da782c6858ec61243bb" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>x</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1a865c3475ce2441275dc5bfb60b19bae9" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>x</name></member>
+      <member refid="class_unity_1_1_mathematics_1_1_cds_tween_1ad269ba29a84e1c41085ec5fc23fad74f" prot="public" virt="non-virtual"><scope>Unity::Mathematics::CdsTween</scope><name>x</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

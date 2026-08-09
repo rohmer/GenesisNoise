@@ -1,7 +1,0 @@
-<map id="AhahGames.GenesisNoise.Nodes.RGBASplitNode.ResolveConnectedTextureFromPorts" name="AhahGames.GenesisNoise.Nodes.RGBASplitNode.ResolveConnectedTextureFromPorts">
-<area shape="rect" id="Node000001" title=" " alt="" coords="552,5,826,64"/>
-<area shape="rect" id="Node000002" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_r_g_b_a_split_node.html#a765d7854cf317502622e64ba0fe95275" title=" " alt="" coords="279,13,504,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="534,35,505,37,504,32,539,35"/>
-<area shape="rect" id="Node000003" href="$class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_r_g_b_a_split_node.html#a704357a66277b7482c863bf02591a56a" title=" " alt="" coords="5,13,231,56"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="261,35,231,37,231,32,266,34"/>
-</map>

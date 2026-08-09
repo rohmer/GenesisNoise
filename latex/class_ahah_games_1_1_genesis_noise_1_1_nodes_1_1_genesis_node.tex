@@ -1,0 +1,439 @@
+\doxysection{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Genesis\+Node Class Reference}
+\hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node}{}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node}\index{AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}}
+
+
+Inherits \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}.
+
+
+
+Inherited by \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_aggregate_end}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Aggregate\+End}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_apply_material_to_mesh_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Apply\+Material\+To\+Mesh\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blue_noise_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Blue\+Noise\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_blueprint_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Blueprint\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_branch}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Branch}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_break_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Break\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_brownian_noise_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Brownian\+Noise\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_cached_terrain_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Cached\+Terrain\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_compute_shader_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Compute\+Shader\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_constant_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Constant\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_continue_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Continue\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_debug_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Debug\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_enum_switch_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Enum\+Switch\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_each_start}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+For\+Each\+Start}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_end}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+For\+End}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_for_start}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+For\+Start}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_generic_test_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Generic\+Test\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_grey_noise_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Grey\+Noise\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_decal_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPDecal\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_layered_lit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLayered\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_layered_lit_tessellation_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLayered\+Lit\+Tessellation\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_lit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_lit_tessellation_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLit\+Tessellation\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_unlit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPUnlit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_level_split_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Level\+Split\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_lloyd_relaxed_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Lloyd\+Relaxed\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+LODGenerator\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Noise\+Displacement\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Optimization\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_output_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Output\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_prefab_save_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Prefab\+Save\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_scale_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Scale\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_smoothing_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Smoothing\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+XYZNoise\+Displacement\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_scaled_poisson_disk_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Noise\+Scaled\+Poisson\+Disk\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_weighted_random_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Noise\+Weighted\+Random\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_output_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Output\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_pink_noise_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Pink\+Noise\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_poisson_disk_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Poisson\+Disk\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_prefab_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Prefab\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Primitive\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_r_g_b_a_split_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+RGBASplit\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_random_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Random\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Shader\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Subdivide\+Mesh\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Switch\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture2_d_output_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture2\+DOutput\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_channel_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Channel\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_function_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Function\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_pack_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Pack\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_baked_lit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPBaked\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_complex_lit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPComplex\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_lit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPLit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_simple_lit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPSimple\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_unlit_material}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPUnlit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_vector_to_texture}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Vector\+To\+Texture}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_velvet_noise_points_node}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Velvet\+Noise\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_while_do_start}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+While\+Do\+Start}}, and \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_while_start}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+While\+Start}}.
+
+
+
+Collaboration diagram for Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Genesis\+Node:\+
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3c33e89ca25eaff0f4d39c0d28eb683d}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3c33e89ca25eaff0f4d39c0d28eb683d} 
+Texture2D {\bfseries Get\+Theme\+Icon} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ab721de1674b3cd6917d732d3319f5654}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ab721de1674b3cd6917d732d3319f5654} 
+Color {\bfseries Get\+Background\+Color} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a57e2e9d230697e8afd9f41537fcd6893}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a57e2e9d230697e8afd9f41537fcd6893} 
+Texture2D {\bfseries Get\+Header\+Gradient} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ab05728a9f043ba4293861f6193c67b32}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ab05728a9f043ba4293861f6193c67b32} 
+Color\+[$\,$]\+ {\bfseries Get\+Border\+Colors} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a87da02ff097e967521534d7749fb0311}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a87da02ff097e967521534d7749fb0311} 
+Color {\bfseries Get\+Header\+Text\+Color} ()
+\item 
+override void \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a5ec30bd641850b926c4a9e3cdf88303c}{On\+Node\+Created}} ()
+\begin{DoxyCompactList}\small\item\em Called only when the node is created, not when instantiated. \end{DoxyCompactList}\item 
+override void \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a31610ee6992e59220900294dbec98ea8}{Initialize\+Ports}} ()
+\begin{DoxyCompactList}\small\item\em Use this function to initialize anything related to ports generation in your node This will allow the node creation menu to correctly recognize ports that can be connected between nodes. \end{DoxyCompactList}\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a7cce66f8469e68e6143a15f3d0bd9f49}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a7cce66f8469e68e6143a15f3d0bd9f49} 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} $>$ {\bfseries Get\+Input\+Ports} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a88944abd0e3cd15563eb20fa5805ed91}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a88944abd0e3cd15563eb20fa5805ed91} 
+List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} $>$ {\bfseries Get\+Output\+Ports} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a29d4f3eb49110d5659b49256b254e15c}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a29d4f3eb49110d5659b49256b254e15c} 
+void {\bfseries On\+Process} (Command\+Buffer cmd)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a9ca08398a3f776e7a9316e79498aaae3}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a9ca08398a3f776e7a9316e79498aaae3} 
+void {\bfseries On\+Settings\+Changed} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae4e99e930ae2824244ac15e1c7e48978}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae4e99e930ae2824244ac15e1c7e48978} 
+Material {\bfseries Get\+Default\+Material} (Material mat)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae8a5145f94fe8974fd0e3dcb942c98db}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae8a5145f94fe8974fd0e3dcb942c98db} 
+void {\bfseries Reset\+Material\+Property\+To\+Default} (Material mat, string prop\+Name)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_adcb16797a7972565989a979173be98aa}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_adcb16797a7972565989a979173be98aa} 
+Material {\bfseries Get\+Temp\+Material} (string shader\+Name)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}}
+\begin{DoxyCompactItemize}
+\item 
+delegate void {\bfseries Process\+Delegate} ()
+\item 
+void {\bfseries Initialize} (\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Base\+Graph}} graph)
+\item 
+virtual IEnumerable$<$ Field\+Info $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a53d8083629ad9a0d37234529785b3ca4}{Override\+Field\+Order}} (IEnumerable$<$ Field\+Info $>$ fields)
+\begin{DoxyCompactList}\small\item\em Override the field order inside the node. It allows to re-\/order all the ports and field in the UI. \end{DoxyCompactList}\item 
+bool {\bfseries Update\+All\+Ports} ()
+\begin{DoxyCompactList}\small\item\em Update all ports of the node. \end{DoxyCompactList}\item 
+bool {\bfseries Update\+All\+Ports\+Local} ()
+\begin{DoxyCompactList}\small\item\em Update all ports of the node without updating the connected ports. Only use this method when you need to update all the nodes ports in your graph. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a8804a804535d34a6e653f0bdf960102d}{Update\+Ports\+For\+Field\+Local}} (string field\+Name, bool send\+Port\+Updated\+Event=true)
+\begin{DoxyCompactList}\small\item\em Update the ports related to one C\# property field (only for this node). \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_ae7b59559c7e600b089f61ac6f5ade6ec}{Update\+Ports\+For\+Field}} (string field\+Name, bool send\+Port\+Updated\+Event=true)
+\begin{DoxyCompactList}\small\item\em Update the ports related to one C\# property field and all connected nodes in the graph. \end{DoxyCompactList}\item 
+virtual Field\+Info\+[$\,$]\+ {\bfseries Get\+Node\+Fields} ()
+\item 
+void {\bfseries On\+Edge\+Connected} (\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} edge)
+\item 
+void {\bfseries On\+Edge\+Disconnected} (\doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} edge)
+\item 
+void {\bfseries On\+Process} ()
+\item 
+void {\bfseries Invoke\+On\+Processed} ()
+\item 
+virtual void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a037a456c63ff355e211c83213564050d}{Process}} ()
+\begin{DoxyCompactList}\small\item\em Override this method to implement custom processing. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a7a7f9b9e938983dd368f8775cd178fb6}{Add\+Port}} (bool input, string field\+Name, \doxymbox{\hyperlink{class_graph_processor_1_1_port_data}{Port\+Data}} port\+Data)
+\begin{DoxyCompactList}\small\item\em Add a port. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_ae0aa2df35295cb4e114aefe2042e23f2}{Remove\+Port}} (bool input, \doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} port)
+\begin{DoxyCompactList}\small\item\em Remove a port. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a7bf8e068e47410823e4c71f6674d38b0}{Remove\+Port}} (bool input, string field\+Name)
+\begin{DoxyCompactList}\small\item\em Remove port(s) from field name. \end{DoxyCompactList}\item 
+IEnumerable$<$ Base\+Node $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a6ebbe51d191e0898ebd6519bdb7e4216}{Get\+Input\+Nodes}} ()
+\begin{DoxyCompactList}\small\item\em Get all the nodes connected to the input ports of this node. \end{DoxyCompactList}\item 
+IEnumerable$<$ Base\+Node $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a51cf262aa06ff1a09d9dbab77619ca15}{Get\+Output\+Nodes}} ()
+\begin{DoxyCompactList}\small\item\em Get all the nodes connected to the output ports of this node. \end{DoxyCompactList}\item 
+Base\+Node \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a57676af544a5908c4701a19b985bb3af}{Find\+In\+Dependencies}} (Func$<$ Base\+Node, bool $>$ condition)
+\begin{DoxyCompactList}\small\item\em Return a node matching the condition in the dependencies of the node. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_acc62ac7f944e29ed82300959bfa56fb2}{Get\+Port}} (string field\+Name, string identifier)
+\begin{DoxyCompactList}\small\item\em Get the port from field name and identifier. \end{DoxyCompactList}\item 
+IEnumerable$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a99c2ca0ec0005de8cf9dd4a9d1a47efb}{Get\+All\+Ports}} ()
+\begin{DoxyCompactList}\small\item\em Return all the ports of the node. \end{DoxyCompactList}\item 
+IEnumerable$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a0ad07e81b9256ef040b7902631a0b04d}{Get\+All\+Edges}} ()
+\begin{DoxyCompactList}\small\item\em Return all the connected edges of the node. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a3a6f9e7fd1a88cdc10286e30dbf30856}{Is\+Field\+Input}} (string field\+Name)
+\begin{DoxyCompactList}\small\item\em Is the port an input. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a7f1a1bf16ba20ccb27380772ebb2d24e}{Add\+Message}} (string message, Node\+Message\+Type message\+Type)
+\begin{DoxyCompactList}\small\item\em Add a message on the node. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a3d39867e5312326ca78fa69560fe09e6}{Remove\+Message}} (string message)
+\begin{DoxyCompactList}\small\item\em Remove a message on the node. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a518d031ca0661f9891afd8885b5a8ded}{Remove\+Message\+Contains}} (string sub\+Message)
+\begin{DoxyCompactList}\small\item\em Remove a message that contains. \end{DoxyCompactList}\item 
+void {\bfseries Clear\+Messages} ()
+\begin{DoxyCompactList}\small\item\em Remove all messages on the node. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_ae6bb7499f93af07683d0da44a3429fe1}{Set\+Custom\+Name}} (string custom\+Name)
+\begin{DoxyCompactList}\small\item\em Set the custom name of the node. This is intended to be used by renamable nodes. This custom name will be serialized inside the node. \end{DoxyCompactList}\item 
+string \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a950ca137f866af690dcab0e00843f5cf}{Get\+Custom\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Get the name of the node. If the node have a custom name (set using the UI by double clicking on the node title) then it will return this name first, otherwise it returns the value of the name field. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ada3d797ea4b486dfd153ed0fe0c36651}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ada3d797ea4b486dfd153ed0fe0c36651} 
+float {\bfseries height}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a4c5223ea087cab06905544654d799bea}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a4c5223ea087cab06905544654d799bea} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} {\bfseries settings} = Genesis\+Noise\+Settings.\+default\+Value
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a4a872031c7028d963dc33541100ac2ca}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a4a872031c7028d963dc33541100ac2ca} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_variable_storage}{Variable\+Storage}} {\bfseries node\+Variables} = new()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a8beb2567851d18d9fc5a5cc1c3303126}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a8beb2567851d18d9fc5a5cc1c3303126} 
+bool {\bfseries is\+Preview\+Collapsed} = false
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a968b2a26bdfe310308a1f3833dbf62ec}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a968b2a26bdfe310308a1f3833dbf62ec} 
+Preview\+Channels {\bfseries preview\+Mode}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a646d4d2208786afdf5ee2fcbdb9b4efe}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a646d4d2208786afdf5ee2fcbdb9b4efe} 
+bool {\bfseries preview\+SRGB}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ade028e455fdb1dacc393254201f9f9a5}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ade028e455fdb1dacc393254201f9f9a5} 
+float {\bfseries preview\+Mip} = 0.\+0f
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac65cb97aa0fcb75bf97d24089bd1d13a}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac65cb97aa0fcb75bf97d24089bd1d13a} 
+bool {\bfseries preview\+Visible} = true
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae37b8d09265bf71dad1ccbac15a3efbe}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae37b8d09265bf71dad1ccbac15a3efbe} 
+float {\bfseries preview\+EV100} = 0.\+0f
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a9e149c2af9061b0821cd0b305aee2206}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a9e149c2af9061b0821cd0b305aee2206} 
+float {\bfseries preview\+Slice} = 0
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ad00389b02c9a09a99c8614ce0e4fd233}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ad00389b02c9a09a99c8614ce0e4fd233} 
+bool {\bfseries is\+Pinned}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a600ee9ad2ced1521787a7f55d23ff2af}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a600ee9ad2ced1521787a7f55d23ff2af} 
+bool {\bfseries set\+Position}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}}
+\begin{DoxyCompactItemize}
+\item 
+string {\bfseries GUID}
+\item 
+int {\bfseries compute\+Order} = -\/1
+\item 
+readonly \doxymbox{\hyperlink{class_graph_processor_1_1_node_input_port_container}{Node\+Input\+Port\+Container}} {\bfseries input\+Ports}
+\begin{DoxyCompactList}\small\item\em Container of input ports. \end{DoxyCompactList}\item 
+readonly \doxymbox{\hyperlink{class_graph_processor_1_1_node_output_port_container}{Node\+Output\+Port\+Container}} {\bfseries output\+Ports}
+\begin{DoxyCompactList}\small\item\em Container of output ports. \end{DoxyCompactList}\item 
+Rect {\bfseries position}
+\item 
+bool {\bfseries expanded}
+\begin{DoxyCompactList}\small\item\em Is the node expanded. \end{DoxyCompactList}\item 
+bool {\bfseries minimized}
+\begin{DoxyCompactList}\small\item\em Is the node minimized to its title and ports. \end{DoxyCompactList}\item 
+bool {\bfseries debug}
+\begin{DoxyCompactList}\small\item\em Is debug visible. \end{DoxyCompactList}\item 
+bool {\bfseries node\+Lock}
+\begin{DoxyCompactList}\small\item\em Node locked state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a0c911621c7f5e9cdd6a330109e2ebb4d}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a0c911621c7f5e9cdd6a330109e2ebb4d} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} {\bfseries Get\+Cube\+Only\+RTSettings} (\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} default\+Settings)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_abf837daf3d33078852d62a21c8062be3}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_abf837daf3d33078852d62a21c8062be3} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} {\bfseries Get2\+DOnly\+RTSettings} (\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} default\+Settings)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a237991298f4913e660a06b3e8a41e05a}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a237991298f4913e660a06b3e8a41e05a} 
+\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} {\bfseries Get3\+DOnly\+RTSettings} (\doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} default\+Settings)
+\item 
+override void \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a1352c4961fb1d6bda9c1fafed5a7f229}{Enable}} ()
+\begin{DoxyCompactList}\small\item\em Called when the node is enabled. \end{DoxyCompactList}\item 
+override void \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a1adc25707e8ef4a84bc4e62ae03ff08e}{Disable}} ()
+\begin{DoxyCompactList}\small\item\em Called when the node is disabled. \end{DoxyCompactList}\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_acf9a902849fa28b58c0d5c66f7c42397}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_acf9a902849fa28b58c0d5c66f7c42397} 
+bool {\bfseries Update\+Temp\+Render\+Texture} (ref Custom\+Render\+Texture target, bool has\+Mips=false, bool auto\+Generate\+Mips=false, Custom\+Render\+Texture\+Update\+Mode update\+Mode=Custom\+Render\+Texture\+Update\+Mode.\+On\+Demand, bool depth\+Buffer=false, Graphics\+Format override\+Graphics\+Format=Graphics\+Format.\+None, bool hide\+Asset=true)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae205d4ff2a0946aa8622634fc5bbec11}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae205d4ff2a0946aa8622634fc5bbec11} 
+virtual Texture\+Dimension {\bfseries Get\+Temp\+Texture\+Dimension} ()
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae1f8726aacf29567700dd33e3a1c6077}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae1f8726aacf29567700dd33e3a1c6077} 
+virtual bool {\bfseries Process\+Node} (Command\+Buffer cmd)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a9e614aa4ed9d07708b27abfd02ffe42d}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a9e614aa4ed9d07708b27abfd02ffe42d} 
+void {\bfseries Remove\+Object\+From\+Graph} (Object obj)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aa77d8367ebc840af1fcf25a0e0a4d2f7}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aa77d8367ebc840af1fcf25a0e0a4d2f7} 
+Type {\bfseries Get\+Property\+Type} (Shader shader, int shader\+Property\+Index)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3d8c432f8ff3279f3deec268abd3d717}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3d8c432f8ff3279f3deec268abd3d717} 
+IEnumerable$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_port_data}{Port\+Data}} $>$ {\bfseries Get\+Material\+Port\+Datas} (Material material)
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a61a962da2016d81a28e54b0def60cb3a}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a61a962da2016d81a28e54b0def60cb3a} 
+void {\bfseries Assign\+Material\+Properties\+From\+Edges} (List$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ edges, Material material)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool {\bfseries Can\+Reset\+Port} (\doxymbox{\hyperlink{class_graph_processor_1_1_node_port}{Node\+Port}} port)
+\item 
+virtual void {\bfseries Destroy} ()
+\begin{DoxyCompactList}\small\item\em Called when the node is removed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3bdbe7dd6511a2455646cffdaf22b6e9}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3bdbe7dd6511a2455646cffdaf22b6e9} 
+Dictionary$<$ string, Material $>$ {\bfseries temporary\+Materials} = new()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_graph_processor_1_1_base_graph}{Base\+Graph}} {\bfseries graph}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aa87612dc45b0d0f8c45d7c602d178de6}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aa87612dc45b0d0f8c45d7c602d178de6} 
+new \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_graph}{Genesis\+Graph}} {\bfseries graph}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_af6a578d2da4b6d51e55792d69e58cd24}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_af6a578d2da4b6d51e55792d69e58cd24} 
+virtual \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_graph_1_1_genesis_noise_settings}{Genesis\+Noise\+Settings}} {\bfseries default\+Settings}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aeaebd34f3442326396b3e1d290dbed18}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aeaebd34f3442326396b3e1d290dbed18} 
+virtual float {\bfseries node\+Width}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a0e3a66267aef8748e7e74799bf4a27e2}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a0e3a66267aef8748e7e74799bf4a27e2} 
+virtual Texture {\bfseries preview\+Texture}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3aba7cbd9364033a82fe12681971b624}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3aba7cbd9364033a82fe12681971b624} 
+virtual bool {\bfseries has\+Settings}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae9c448f523310604565a9bb891eaedde}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae9c448f523310604565a9bb891eaedde} 
+virtual bool {\bfseries has\+Preview}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aed4da88d35a7ae27d5f60fdb1cd99bb1}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_aed4da88d35a7ae27d5f60fdb1cd99bb1} 
+virtual bool {\bfseries can\+Use\+Upstream\+Caching}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a117e5fc80f3871ad57bfcbc2e7fdadd0}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a117e5fc80f3871ad57bfcbc2e7fdadd0} 
+virtual bool {\bfseries preserve\+Upstream\+Cache\+On\+Force\+Reprocess}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac87f378268a22045f5ae1a8a16b7232a}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac87f378268a22045f5ae1a8a16b7232a} 
+virtual bool {\bfseries is\+Output\+Node}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae180312790c2622ac561bdec8dbf6d19}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ae180312790c2622ac561bdec8dbf6d19} 
+virtual List$<$ Output\+Dimension $>$ {\bfseries supported\+Dimensions}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a942b64a4d4e7d1ce05bfe07db82ce0ae}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a942b64a4d4e7d1ce05bfe07db82ce0ae} 
+virtual Preview\+Channels {\bfseries default\+Preview\+Channels}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a7ef6e68115f35b239b9441759710f5fd}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a7ef6e68115f35b239b9441759710f5fd} 
+virtual bool {\bfseries can\+Edit\+Preview\+SRGB}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a329acc5613f65bade5206c3aa4238c64}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a329acc5613f65bade5206c3aa4238c64} 
+virtual bool {\bfseries default\+Preview\+SRGB}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a82123182cb5bb88baf83bedf2a57388f}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a82123182cb5bb88baf83bedf2a57388f} 
+virtual bool {\bfseries show\+Default\+Inspector}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac6277d71a391432e24638c8b547afd5c}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac6277d71a391432e24638c8b547afd5c} 
+virtual bool {\bfseries show\+Preview\+Exposure}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ad8cbbd520ce3557f4b24df1785375d4c}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ad8cbbd520ce3557f4b24df1785375d4c} 
+override bool {\bfseries needs\+Inspector}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ad3c5d71dce35d236875c7dc548115ced}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ad3c5d71dce35d236875c7dc548115ced} 
+virtual string {\bfseries Node\+Group}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3a1464fcac0707ff639f92e2630fef49}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a3a1464fcac0707ff639f92e2630fef49} 
+Recorder {\bfseries recorder}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac663b794981bfdd4740952a1bc9ac907}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ac663b794981bfdd4740952a1bc9ac907} 
+virtual float {\bfseries raw\+Processing\+Time}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Raw GPU processing time measured by the profiler sampler. Subclasses (e.\+g. \doxylink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node}{Shader\+Node}) override this to source the time from a different sampler, while the skip/\+caching behaviour is handled by processing\+Time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual string \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_ade1f7a41f3b867fc6622ea72c6ddbea8}{name}}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Name of the node, it will be displayed in the title section. \end{DoxyCompactList}\item 
+virtual Color {\bfseries color}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em The accent color of the node. \end{DoxyCompactList}\item 
+virtual string {\bfseries layout\+Style}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Set a custom uss file for the node. We use a Resources.\+Load to get the stylesheet so be sure to put the correct resources path \href{https://docs.unity3d.com/ScriptReference/Resources.Load.html}{\texttt{https:\+/\+/\+docs.\+unity3d.\+com/\+\+Script\+Reference/\+\+Resources.\+Load.\+html}}. \end{DoxyCompactList}\item 
+virtual bool {\bfseries unlockable}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em If the node can be locked or not. \end{DoxyCompactList}\item 
+virtual bool {\bfseries is\+Locked}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Is the node is locked (if locked it can\textquotesingle{}t be moved). \end{DoxyCompactList}\item 
+virtual bool {\bfseries can\+Process}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Tell wether or not the node can be processed. Do not check anything from inputs because this step happens before inputs are sent to the node. \end{DoxyCompactList}\item 
+virtual bool {\bfseries show\+Controls\+On\+Hover}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Show the node control\+Container only when the mouse is over the node. \end{DoxyCompactList}\item 
+virtual bool {\bfseries deletable}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em True if the node can be deleted, false otherwise. \end{DoxyCompactList}\item 
+virtual bool {\bfseries needs\+Inspector}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Does the node needs to be visible in the inspector (when selected). \end{DoxyCompactList}\item 
+virtual bool {\bfseries is\+Renamable}\hspace{0.3cm}{\ttfamily  \+[get]\+}
+\begin{DoxyCompactList}\small\item\em Can the node be renamed in the UI. By default a node can be renamed by double clicking it\textquotesingle{}s name. \end{DoxyCompactList}\item 
+bool {\bfseries created\+From\+Duplication} = false\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\begin{DoxyCompactList}\small\item\em Is the node created from a duplicate operation (either ctrl-\/D or copy/\+paste). \end{DoxyCompactList}\item 
+bool {\bfseries created\+Within\+Group} = false\hspace{0.3cm}{\ttfamily  \+[get, set]\+}
+\begin{DoxyCompactList}\small\item\em True only when the node was created from a duplicate operation and is inside a group that was also duplicated at the same time. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ade9b893d3d815a67009e0719002177b2}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_ade9b893d3d815a67009e0719002177b2} 
+Action {\bfseries on\+Settings\+Changed}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a7e0756744579f7b061132c2476248ef9}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a7e0756744579f7b061132c2476248ef9} 
+Action {\bfseries before\+Process\+Setup}
+\item 
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a76820a82d2b5147460416da975ecf161}\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a76820a82d2b5147460416da975ecf161} 
+Action {\bfseries after\+Process\+Cleanup}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}}
+\begin{DoxyCompactItemize}
+\item 
+Process\+Delegate {\bfseries on\+Processed}
+\begin{DoxyCompactList}\small\item\em Triggered when the node is processes. \end{DoxyCompactList}\item 
+Action$<$ string, Node\+Message\+Type $>$ {\bfseries on\+Message\+Added}
+\item 
+Action$<$ string $>$ {\bfseries on\+Message\+Removed}
+\item 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ {\bfseries on\+After\+Edge\+Connected}
+\begin{DoxyCompactList}\small\item\em Triggered after an edge was connected on the node. \end{DoxyCompactList}\item 
+Action$<$ \doxymbox{\hyperlink{class_graph_processor_1_1_serializable_edge}{Serializable\+Edge}} $>$ {\bfseries on\+After\+Edge\+Disconnected}
+\begin{DoxyCompactList}\small\item\em Triggered after an edge was disconnected on the node. \end{DoxyCompactList}\item 
+Action$<$ string $>$ {\bfseries on\+Ports\+Updated}
+\begin{DoxyCompactList}\small\item\em Triggered after a single/\+list of port(s) is updated, the parameter is the field name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Static Public Member Functions inherited from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node}{Graph\+Processor.\+Base\+Node}}}
+\begin{DoxyCompactItemize}
+\item 
+static T \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a4173020ec35f52ee6895b6d452458844}{Create\+From\+Type$<$ T $>$}} (Vector2 position)
+\begin{DoxyCompactList}\small\item\em Creates a node of type T at a certain position. \end{DoxyCompactList}\item 
+static Base\+Node \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_ae5e8f3355352088b223e606c0bf888b1}{Create\+From\+Type}} (Type node\+Type, Vector2 position)
+\begin{DoxyCompactList}\small\item\em Creates a node of type node\+Type at a certain position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_doc-func-members}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a1adc25707e8ef4a84bc4e62ae03ff08e}\index{AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}!Disable@{Disable}}
+\index{Disable@{Disable}!AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}}
+\doxysubsubsection{\texorpdfstring{Disable()}{Disable()}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a1adc25707e8ef4a84bc4e62ae03ff08e} 
+override void Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Genesis\+Node.\+Disable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Called when the node is disabled. 
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_afc7829797eb33e1026d3e9bc8422c12f}{Graph\+Processor.\+Base\+Node}}.
+
+
+
+Reimplemented in \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_hydraulic_erosion_node_a4df9611e922b8d3635d23019c8ce77a2}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Hydraulic\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_curvature_node_a7a8b3527722a00f18b3837f322073b50}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Curvature\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_moisture_map_node_a88bc8541d5b9e7229edc7f62d3c77ddc}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Moisture\+Map\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_slope_node_a3e218a5236e4abd920cc2ce9ec4c63ab}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Slope\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_a633b54c6de86c70ca400174bde4fc4d2}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Thermal\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_wind_erosion_node_af921925d96242f5913afa22c7d753d92}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Wind\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_wind_flow_map_node_ab080c4073823fec9ba57aa7c478d5321}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Wind\+Flow\+Map\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_map_node_aa2362e5e2088fa8e3780dd773b4d5d30}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Gradient\+Map\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_grey_noise_points_node_a254c344299a4fcd62349490f8d047e30}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Grey\+Noise\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_height_blend_node_ab7ca63f9b6f0b992b8de4bb046198597}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Height\+Blend\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_herringbone_node_a3d9ca2ac6172be0717466e6fd765bb16}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Herringbone\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_island_generator_node_a35db06119a3f9520e9e400a0a2c8cff3}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Island\+Generator\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_levels_a666fc3a35a0597ad25b8cec552d5e112}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Levels}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_level_split_node_a5fbcffaaf546330d031bf7c68ec9bc74}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Level\+Split\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_lloyd_relaxed_points_node_ad17196c14a1a433c71e5964baf027d9a}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Lloyd\+Relaxed\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_ad512ea8e8668cfbd68e4c202230b37cb}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_a06deba4c2256b3cc5bf52709daebd3b1}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+LODGenerator\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_a23b7526ac4c410c877e9c3deee4a95f0}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Noise\+Displacement\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_aa857899e7db0c0bd81dc80a96d98a89d}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Optimization\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_output_node_a9e1f75e1133f0afbefc8718145109ed4}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Output\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_smoothing_node_a43e832bea49fed9c77c34bbd24699207}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Smoothing\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_to_u_d_f_afc186392b5450a39ddf478cefc5e484b}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+To\+UDF}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_ab605adcdd9aa330a742fc3e82077360a}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+XYZNoise\+Displacement\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_scaled_poisson_disk_points_node_a3e8ca9f83b172243963f17cbe2f7cda4}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Noise\+Scaled\+Poisson\+Disk\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_noise_weighted_random_points_node_a712d900a02a2d73f763c9b7ed83776dd}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Noise\+Weighted\+Random\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_output_node_ab94d613643f6ebb045a6c72bb98d378d}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Output\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_pink_noise_points_node_a2c5c7bede0a7a5458ab810b1c38c73ae}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Pink\+Noise\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_poisson_disk_points_node_a9de6cccdb9e6c88a25667ace71dde7df}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Poisson\+Disk\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_random_points_node_a0588b26e722295ed83c3edf9c41540f9}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Random\+Points\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_r_g_b_a_split_node_a0b58ec6b63f42366560bff7a06b15e50}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+RGBASplit\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_a3ac77dd16d6404cfb5bdfd1848054e94}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Scatter}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_a2189b2ac02d312590f6a5e4aa3558f25}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Shader\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_a514215de3ed8f2f424727ea9c62af615}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Subdivide\+Mesh\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_gaussian_blur_node_af01337de1f36f64a4e063ce749f71f32}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Terrain\+Gaussian\+Blur\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_a64b131024976f8b056069a2d2353ace6}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Terrain\+Generator\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture2_d_output_node_a60c6220d3d0ac3de55f4d5808639e6b0}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture2\+DOutput\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_channel_node_a905d856e79e97614e9c806fc41780ac9}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Channel\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_function_node_a3d1ef0319e8c519550be01201da2ef90}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Function\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_pack_node_a5e416bc6899b20cc2e2a7147e8b493f5}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Pack\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_vector_to_texture_ae7529ed7ce715bab44f50f8ab4cad8f8}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Vector\+To\+Texture}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_velvet_noise_points_node_a70bfdc77703978ccc3d95ac2bdff8d50}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Velvet\+Noise\+Points\+Node}}, and \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_voronoi_from_points_compute_node_a5bede37d4144f816eada268ef9a82370}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Voronoi\+From\+Points\+Compute\+Node}}.
+
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a1352c4961fb1d6bda9c1fafed5a7f229}\index{AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}!Enable@{Enable}}
+\index{Enable@{Enable}!AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}}
+\doxysubsubsection{\texorpdfstring{Enable()}{Enable()}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a1352c4961fb1d6bda9c1fafed5a7f229} 
+override void Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Genesis\+Node.\+Enable (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Called when the node is enabled. 
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a2244b6b0af83fb308794569b78da3042}{Graph\+Processor.\+Base\+Node}}.
+
+
+
+Reimplemented in \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_hydraulic_erosion_node_a5d9387258c257600bfe47c40a8557307}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Hydraulic\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_curvature_node_ad7ecec3bd440cab7d415f81538cb8bed}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Curvature\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_moisture_map_node_a4b521b08dc4dca61753fc7089699409b}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Moisture\+Map\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_slope_node_a247bf2ce5a37624042ca19998b90e39f}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Slope\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_thermal_erosion_node_a06b716f43243772e94143e3c175146de}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Thermal\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_wind_erosion_node_a12b2276656b895fe467b2aad7d55908f}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Wind\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_g_n_terrain_1_1_nodes_1_1_terrain_wind_flow_map_node_afe261b160d481be2398a6020d80860bf}{Ahah\+Games.\+Genesis\+Noise.\+GNTerrain.\+Nodes.\+Terrain\+Wind\+Flow\+Map\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_gradient_node_a68e4cd48c5f21b198d4aa1252dc60901}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Gradient\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_decal_material_a1375aa11fdf72447598e187bbf16a0da}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPDecal\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_layered_lit_material_af6757b9405f3bc94bf8f0dbfdffe6486}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLayered\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_layered_lit_tessellation_material_a6c49c37ca0956a5127cde85fd8c00403}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLayered\+Lit\+Tessellation\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_lit_material_aa8aadbb1d0ee1782855fecfd44f2c2f3}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_lit_tessellation_material_a91ad9a0cc21cbf45560e21f980ac1cba}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPLit\+Tessellation\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_h_d_r_p_unlit_material_aae3c894fff5dd1d0b8f7cfdfe06606ea}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+HDRPUnlit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_invert_texture_node_a97facab47697dc45ea98b8e05f6b5340}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Invert\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_island_generator_node_a79f99e9c6d733a077a53c7b12a6f832c}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Island\+Generator\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_levels_a66fbc344dcd6cc50cee9530b2458a5c5}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Levels}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_level_split_node_ab974d57834ed329832a8599e44ff9236}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Level\+Split\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_log2_a_texture_node_a3996e567a49a6b5ca4e87e03992e9454}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Log2\+ATexture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_log_a_texture_node_aad4414daab712597a458b89df7077c80}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Log\+ATexture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_log_texture_node_a8d6e82279885f51d7f38b4d0fbeeb632}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Log\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_max_texture_node_a26721fd58ce0382e9719cc7fb929a47c}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Max\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_erosion_node_ac193b9d04ae67bca8206f6a920e1b54f}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Erosion\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_l_o_d_generator_node_a15879188d89df4961a99282360bdf05d}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+LODGenerator\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_noise_displacement_node_ace6bf1c6749bddd89d40bf62b46cfe42}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Noise\+Displacement\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_optimization_node_aa7309538041c91b02d80710893962205}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Optimization\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_output_node_ae004209db1f299798c161bf70e5c9514}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Output\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_prefab_save_node_ac4b3b5d30037924ddb95db60274a525a}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Prefab\+Save\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_scale_node_a5cbcd5c97a91e6bb1ca2fb2c172905e6}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Scale\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_smoothing_node_a6903a24ee5b0dc67fb4980b422bd3cd0}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+Smoothing\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_to_u_d_f_a30ed2914470f6154b2115668828766bd}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+To\+UDF}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_mesh_x_y_z_noise_displacement_node_a87432f7b1dc20c74a6e854d1a22621e6}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Mesh\+XYZNoise\+Displacement\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_min_texture_node_a07f2c75450d20bf662929827260f7b67}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Min\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_m_o_d_a_b_texture_node_aab6b6252f44be93912b0124b0348f307}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+MODABTexture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_multiply_texture_node_a5009b82f2d1eb81cb256d0d88a56575b}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Multiply\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_output_node_a7fd88c5be360264ffb8e1a4ea6b7755a}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Output\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_prefab_node_ac3a5cc1e3fd3837069bae147c81d0b35}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Prefab\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_primitive_node_a4c986833e1eb75b0156d8849798c3b68}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Primitive\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_r_g_b_a_split_node_ac774f38679eaae3b64fd2d6c455f5b50}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+RGBASplit\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_round_texture_node_aa75a15e417738b997335ef207af6af01}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Round\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_scatter_a20d2b548f43b46e8889966267d6ff9f6}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Scatter}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_shader_node_a5dc03768bf02e0e02249528d2ce595aa}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Shader\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_sin_a_b_texture_node_a5b10e879e2f21728c8b94e4a68ec29d8}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Sin\+ABTexture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_sin_h_texture_node_a2c29855033e367a5a62b6792147c11cc}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Sin\+HTexture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_smooth_step_texture_a7501698e3f1b1f46ffba1c78b723fc50}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Smooth\+Step\+Texture}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_sqrt_texture_node_a38f86e08b52bc5ba12c598beb866f57a}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Sqrt\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subdivide_mesh_node_ad86f3e78e3b348a57f0995fbc783de44}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Subdivide\+Mesh\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_subtract_texture_node_ae0795324e1648ba52bfffa10a011d6c2}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Subtract\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node_a8ac3257fa560b13202d68a481a7e26ba}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Switch\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_t_a_n_a_b_texture_node_ab38aab9dbafa135ccbb53acf1606d7de}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+TANABTexture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_tan_h_texture_node_af1f56b98242846ce62a7156c9259261d}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Tan\+HTexture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_generator_node_ab2c9353ab0534e1272888f2315cda3a8}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Terrain\+Generator\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_terrain_texture_node_ab118e2d57969d4913bee1a241cc85427}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Terrain\+Texture\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture2_d_output_node_a758f3f8ee6ada7be575dd405b5733531}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture2\+DOutput\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_channel_node_a331c8ed8410e07613fcc0d9372d149fd}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Channel\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_texture_pack_node_a690958b857cb0b6ab47721d3e2c8419c}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Texture\+Pack\+Node}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_baked_lit_material_ac7c74da17e3d31452f7d177ee15d344f}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPBaked\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_complex_lit_material_a58ed585d8bd5ff57eefeac1e5a449a88}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPComplex\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_lit_material_ab275e46cbadfd46ea5d87a881714ad14}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPLit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_simple_lit_material_ad52a45d922c4a0876f38656acecd5632}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPSimple\+Lit\+Material}}, \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_u_r_p_unlit_material_acbf0a8b895367d74ebe2bff9b79a5c43}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+URPUnlit\+Material}}, and \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_voronoi_from_points_compute_node_addd7364b2f901dffb7c43438b6b7ed30}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Voronoi\+From\+Points\+Compute\+Node}}.
+
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a31610ee6992e59220900294dbec98ea8}\index{AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}!InitializePorts@{InitializePorts}}
+\index{InitializePorts@{InitializePorts}!AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}}
+\doxysubsubsection{\texorpdfstring{InitializePorts()}{InitializePorts()}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a31610ee6992e59220900294dbec98ea8} 
+override void Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Genesis\+Node.\+Initialize\+Ports (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Use this function to initialize anything related to ports generation in your node This will allow the node creation menu to correctly recognize ports that can be connected between nodes. 
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_a3b950520433376f53a3e9482ae28fb8f}{Graph\+Processor.\+Base\+Node}}.
+
+\Hypertarget{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a5ec30bd641850b926c4a9e3cdf88303c}\index{AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}!OnNodeCreated@{OnNodeCreated}}
+\index{OnNodeCreated@{OnNodeCreated}!AhahGames.GenesisNoise.Nodes.GenesisNode@{AhahGames.GenesisNoise.Nodes.GenesisNode}}
+\doxysubsubsection{\texorpdfstring{OnNodeCreated()}{OnNodeCreated()}}
+{\footnotesize\ttfamily \label{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_genesis_node_a5ec30bd641850b926c4a9e3cdf88303c} 
+override void Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Genesis\+Node.\+On\+Node\+Created (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Called only when the node is created, not when instantiated. 
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_graph_processor_1_1_base_node_ae3000b65f25a2bdd033044704665dab6}{Graph\+Processor.\+Base\+Node}}.
+
+
+
+Reimplemented in \doxymbox{\hyperlink{class_ahah_games_1_1_genesis_noise_1_1_nodes_1_1_switch_node_a5d0786aeeae98846ec14207128625b98}{Ahah\+Games.\+Genesis\+Noise.\+Nodes.\+Switch\+Node}}.
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+E:\+/\+\+Unity/\+\+Genesis\+\_\+\+NG/\+\+Assets/\+\+Packages/\+com.\+ahahgames.\+genesisnoise/\+\+Runtime/\+\+Nodes/\+Genesis\+Node.\+cs\end{DoxyCompactItemize}

@@ -1,7 +1,0 @@
-<map id="GraphProcessor.EdgeView.OnPortChanged" name="GraphProcessor.EdgeView.OnPortChanged">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,187,81"/>
-<area shape="rect" id="Node000002" href="$class_graph_processor_1_1_edge_view.html#a26de1181fc221c4ef15e57ea98ceadf3" title=" " alt="" coords="235,5,416,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,44,222,41,217,43,188,49"/>
-<area shape="rect" id="Node000003" href="$class_graph_processor_1_1_edge_view.html#ad7d80182a41567d52adfea9e1e22ef49" title=" " alt="" coords="235,72,416,115"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,71,222,78,217,78,187,76"/>
-</map>

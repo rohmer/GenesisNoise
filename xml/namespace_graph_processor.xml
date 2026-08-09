@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.17.0" xml:lang="en-US">
+  <compounddef id="namespace_graph_processor" kind="namespace" language="C#">
+    <compoundname>GraphProcessor</compoundname>
+    <innerclass refid="class_graph_processor_1_1_animation_curve_parameter" prot="public">GraphProcessor::AnimationCurveParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_app_domain_extension" prot="public">GraphProcessor::AppDomainExtension</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_edge_connector" prot="public">GraphProcessor::BaseEdgeConnector</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_edge_connector_listener" prot="public">GraphProcessor::BaseEdgeConnectorListener</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_edge_drag_helper" prot="public">GraphProcessor::BaseEdgeDragHelper</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_graph" prot="public">GraphProcessor::BaseGraph</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_graph_processor" prot="public">GraphProcessor::BaseGraphProcessor</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_graph_view" prot="public">GraphProcessor::BaseGraphView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_graph_window" prot="public">GraphProcessor::BaseGraphWindow</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_node" prot="public">GraphProcessor::BaseNode</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_node_view" prot="public">GraphProcessor::BaseNodeView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_stack_node" prot="public">GraphProcessor::BaseStackNode</innerclass>
+    <innerclass refid="class_graph_processor_1_1_base_stack_node_view" prot="public">GraphProcessor::BaseStackNodeView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_bool_parameter" prot="public">GraphProcessor::BoolParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_bounds_int_parameter" prot="public">GraphProcessor::BoundsIntParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_bounds_parameter" prot="public">GraphProcessor::BoundsParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_color_parameter" prot="public">GraphProcessor::ColorParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_color_parameter_drawer" prot="public">GraphProcessor::ColorParameterDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_copy_paste_helper" prot="public">GraphProcessor::CopyPasteHelper</innerclass>
+    <innerclass refid="class_graph_processor_1_1_create_node_menu_window" prot="public">GraphProcessor::CreateNodeMenuWindow</innerclass>
+    <innerclass refid="class_graph_processor_1_1_custom_port_behavior_attribute" prot="public">GraphProcessor::CustomPortBehaviorAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_custom_port_input_attribute" prot="public">GraphProcessor::CustomPortInputAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_custom_port_i_o" prot="public">GraphProcessor::CustomPortIO</innerclass>
+    <innerclass refid="class_graph_processor_1_1_custom_port_output_attribute" prot="public">GraphProcessor::CustomPortOutputAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_custom_port_type_behavior" prot="public">GraphProcessor::CustomPortTypeBehavior</innerclass>
+    <innerclass refid="class_graph_processor_1_1_custom_stack_node_view" prot="public">GraphProcessor::CustomStackNodeView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_delete_callback" prot="public">GraphProcessor::DeleteCallback</innerclass>
+    <innerclass refid="class_graph_processor_1_1_double_parameter" prot="public">GraphProcessor::DoubleParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_edge_view" prot="public">GraphProcessor::EdgeView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_enum_pattern_parameter" prot="public">GraphProcessor::EnumPatternParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_enum_pattern_parameter_drawer" prot="public">GraphProcessor::EnumPatternParameterDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_enum_pattern_settings_drawer" prot="public">GraphProcessor::EnumPatternSettingsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exception_to_log" prot="public">GraphProcessor::ExceptionToLog</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_color_settings_drawer" prot="public">GraphProcessor::ExposedColorSettingsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter" prot="public">GraphProcessor::ExposedParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter_drawer" prot="public">GraphProcessor::ExposedParameterDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter_field_factory" prot="public">GraphProcessor::ExposedParameterFieldFactory</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter_field_view" prot="public">GraphProcessor::ExposedParameterFieldView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter_property_view" prot="public">GraphProcessor::ExposedParameterPropertyView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter_settings_drawer" prot="public">GraphProcessor::ExposedParameterSettingsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter_view" prot="public">GraphProcessor::ExposedParameterView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_exposed_parameter_workaround" prot="public">GraphProcessor::ExposedParameterWorkaround</innerclass>
+    <innerclass refid="class_graph_processor_1_1_field_drawer_attribute" prot="public">GraphProcessor::FieldDrawerAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_field_factory" prot="public">GraphProcessor::FieldFactory</innerclass>
+    <innerclass refid="class_graph_processor_1_1_float_parameter" prot="public">GraphProcessor::FloatParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_float_parameter_drawer" prot="public">GraphProcessor::FloatParameterDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_float_settings_drawer" prot="public">GraphProcessor::FloatSettingsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_game_object_parameter" prot="public">GraphProcessor::GameObjectParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_gradient_parameter" prot="public">GraphProcessor::GradientParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_gradient_parameter_drawer" prot="public">GraphProcessor::GradientParameterDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_gradient_settings_drawer" prot="public">GraphProcessor::GradientSettingsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_graph_changes" prot="public">GraphProcessor::GraphChanges</innerclass>
+    <innerclass refid="class_graph_processor_1_1_graph_inspector" prot="public">GraphProcessor::GraphInspector</innerclass>
+    <innerclass refid="class_graph_processor_1_1_graph_utils" prot="public">GraphProcessor::GraphUtils</innerclass>
+    <innerclass refid="class_graph_processor_1_1_group" prot="public">GraphProcessor::Group</innerclass>
+    <innerclass refid="class_graph_processor_1_1_group_view" prot="public">GraphProcessor::GroupView</innerclass>
+    <innerclass refid="interface_graph_processor_1_1_i_create_node_from-1-g" prot="public">GraphProcessor::ICreateNodeFrom-1-g</innerclass>
+    <innerclass refid="class_graph_processor_1_1_ingredient_drawer_u_i_e" prot="public">GraphProcessor::IngredientDrawerUIE</innerclass>
+    <innerclass refid="class_graph_processor_1_1_input_attribute" prot="public">GraphProcessor::InputAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_int_parameter" prot="public">GraphProcessor::IntParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_int_parameter_drawer" prot="public">GraphProcessor::IntParameterDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_int_settings_drawer" prot="public">GraphProcessor::IntSettingsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_is_compatible_with_graph" prot="public">GraphProcessor::IsCompatibleWithGraph</innerclass>
+    <innerclass refid="class_graph_processor_1_1_i_type_adapter" prot="public">GraphProcessor::ITypeAdapter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_job_graph_processor" prot="public">GraphProcessor::JobGraphProcessor</innerclass>
+    <innerclass refid="struct_graph_processor_1_1_json_element" prot="public">GraphProcessor::JsonElement</innerclass>
+    <innerclass refid="class_graph_processor_1_1_json_serializer" prot="public">GraphProcessor::JsonSerializer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_long_parameter" prot="public">GraphProcessor::LongParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_material_parameter" prot="public">GraphProcessor::MaterialParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_mesh_parameter" prot="public">GraphProcessor::MeshParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_mini_map_view" prot="public">GraphProcessor::MiniMapView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_badge_view" prot="public">GraphProcessor::NodeBadgeView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_custom_editor" prot="public">GraphProcessor::NodeCustomEditor</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_graph_processor_menu_items" prot="public">GraphProcessor::NodeGraphProcessorMenuItems</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_input_port_container" prot="public">GraphProcessor::NodeInputPortContainer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_inspector_object" prot="public">GraphProcessor::NodeInspectorObject</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_inspector_object_editor" prot="public">GraphProcessor::NodeInspectorObjectEditor</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_menu_item_attribute" prot="public">GraphProcessor::NodeMenuItemAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_output_port_container" prot="public">GraphProcessor::NodeOutputPortContainer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_port" prot="public">GraphProcessor::NodePort</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_port_container" prot="public">GraphProcessor::NodePortContainer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_provider" prot="public">GraphProcessor::NodeProvider</innerclass>
+    <innerclass refid="class_graph_processor_1_1_node_settings_view" prot="public">GraphProcessor::NodeSettingsView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_output_attribute" prot="public">GraphProcessor::OutputAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_parameter_node" prot="public">GraphProcessor::ParameterNode</innerclass>
+    <innerclass refid="class_graph_processor_1_1_pinned_element" prot="public">GraphProcessor::PinnedElement</innerclass>
+    <innerclass refid="class_graph_processor_1_1_pinned_element_view" prot="public">GraphProcessor::PinnedElementView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_port_data" prot="public">GraphProcessor::PortData</innerclass>
+    <innerclass refid="class_graph_processor_1_1_port_view" prot="public">GraphProcessor::PortView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_process_graph_processor" prot="public">GraphProcessor::ProcessGraphProcessor</innerclass>
+    <innerclass refid="class_graph_processor_1_1_processor_view" prot="public">GraphProcessor::ProcessorView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_rect_int_parameter" prot="public">GraphProcessor::RectIntParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_rect_parameter" prot="public">GraphProcessor::RectParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_render_texture_parameter" prot="public">GraphProcessor::RenderTextureParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_serializable_edge" prot="public">GraphProcessor::SerializableEdge</innerclass>
+    <innerclass refid="class_graph_processor_1_1_serializable_object" prot="public">GraphProcessor::SerializableObject</innerclass>
+    <innerclass refid="class_graph_processor_1_1_serializable_type" prot="public">GraphProcessor::SerializableType</innerclass>
+    <innerclass refid="class_graph_processor_1_1_setting_attribute" prot="public">GraphProcessor::SettingAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_show_as_drawer" prot="public">GraphProcessor::ShowAsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_show_in_inspector" prot="public">GraphProcessor::ShowInInspector</innerclass>
+    <innerclass refid="class_graph_processor_1_1_stack_node_view_provider" prot="public">GraphProcessor::StackNodeViewProvider</innerclass>
+    <innerclass refid="class_graph_processor_1_1_sticky_note" prot="public">GraphProcessor::StickyNote</innerclass>
+    <innerclass refid="class_graph_processor_1_1_string_parameter" prot="public">GraphProcessor::StringParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_texture2_d_parameter" prot="public">GraphProcessor::Texture2DParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_toolbar_view" prot="public">GraphProcessor::ToolbarView</innerclass>
+    <innerclass refid="class_graph_processor_1_1_type_adapter" prot="public">GraphProcessor::TypeAdapter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_type_extension" prot="public">GraphProcessor::TypeExtension</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vector2_int_parameter" prot="public">GraphProcessor::Vector2IntParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vector2_parameter" prot="public">GraphProcessor::Vector2Parameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vector2_parameter_drawer" prot="public">GraphProcessor::Vector2ParameterDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vector2_settings_drawer" prot="public">GraphProcessor::Vector2SettingsDrawer</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vector3_int_parameter" prot="public">GraphProcessor::Vector3IntParameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vector3_parameter" prot="public">GraphProcessor::Vector3Parameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vector4_parameter" prot="public">GraphProcessor::Vector4Parameter</innerclass>
+    <innerclass refid="class_graph_processor_1_1_vertical_attribute" prot="public">GraphProcessor::VerticalAttribute</innerclass>
+    <innerclass refid="class_graph_processor_1_1_visible_if" prot="public">GraphProcessor::VisibleIf</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_graph_processor_1ad762368e18a5ea1be4cb1f7185099c1e" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ParameterAccessor</name>
+        <qualifiedname>GraphProcessor.ParameterAccessor</qualifiedname>
+        <enumvalue id="namespace_graph_processor_1ad762368e18a5ea1be4cb1f7185099c1eac55582518cba2c464f29f5bae1c68def" prot="public">
+          <name>Get</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_graph_processor_1ad762368e18a5ea1be4cb1f7185099c1ea5d5b78699e57104f2fa03bbdf7b9197b" prot="public">
+          <name>Set</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ParameterNode.cs" line="130" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/ParameterNode.cs" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_graph_processor_1a9e0449a7cf05136c91e5a5931ee01fab" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ComputeOrderType</name>
+        <qualifiedname>GraphProcessor.ComputeOrderType</qualifiedname>
+        <enumvalue id="namespace_graph_processor_1a9e0449a7cf05136c91e5a5931ee01fabaef14bbc82271ba8488c94a6dd351ade3" prot="public">
+          <name>DepthFirst</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_graph_processor_1a9e0449a7cf05136c91e5a5931ee01faba42b647c4fc0abd66c203a137a529d312" prot="public">
+          <name>BreadthFirst</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Compute order type used to determine the compute order integer on the nodes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" line="27" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Graph/BaseGraph.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_graph_processor_1a0e1386fbab235c3f0845fc070922721f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>NodeMessageType</name>
+        <qualifiedname>GraphProcessor.NodeMessageType</qualifiedname>
+        <enumvalue id="namespace_graph_processor_1a0e1386fbab235c3f0845fc070922721fa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_graph_processor_1a0e1386fbab235c3f0845fc070922721fa4059b0251f66a18cb56f544728796875" prot="public">
+          <name>Info</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_graph_processor_1a0e1386fbab235c3f0845fc070922721fa0eaadb4fcb48a0a0ed7bc9868be9fbaa" prot="public">
+          <name>Warning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_graph_processor_1a0e1386fbab235c3f0845fc070922721fa902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/MessageType.cs" line="4" column="11" bodyfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Utils/MessageType.cs" bodystart="5" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_graph_processor_1a6070c2d231a41654c17fb1f6c57839c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate IEnumerable&lt; <ref refid="class_graph_processor_1_1_port_data" kindref="compound">PortData</ref> &gt;</type>
+        <definition>delegate IEnumerable&lt; PortData &gt; GraphProcessor.CustomPortBehaviorDelegate</definition>
+        <argsstring>(List&lt; SerializableEdge &gt; edges)</argsstring>
+        <name>CustomPortBehaviorDelegate</name>
+        <qualifiedname>GraphProcessor.CustomPortBehaviorDelegate</qualifiedname>
+        <param>
+          <type>List&lt; <ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref> &gt;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/BaseNode.cs" line="10" column="33" declfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/BaseNode.cs" declline="10" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_graph_processor_1a7b23772b36fa7206b25d8fc1069f693c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate IEnumerable&lt; <ref refid="class_graph_processor_1_1_port_data" kindref="compound">PortData</ref> &gt;</type>
+        <definition>delegate IEnumerable&lt; PortData &gt; GraphProcessor.CustomPortTypeBehaviorDelegate</definition>
+        <argsstring>(string fieldName, string displayName, object value)</argsstring>
+        <name>CustomPortTypeBehaviorDelegate</name>
+        <qualifiedname>GraphProcessor.CustomPortTypeBehaviorDelegate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>fieldName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/BaseNode.cs" line="11" column="33" declfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Elements/BaseNode.cs" declline="11" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_graph_processor_1adf46daefbd64418c85061ce3c32a9b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void GraphProcessor.CustomPortIODelegate</definition>
+        <argsstring>(BaseNode node, List&lt; SerializableEdge &gt; edges, NodePort outputPort=null)</argsstring>
+        <name>CustomPortIODelegate</name>
+        <qualifiedname>GraphProcessor.CustomPortIODelegate</qualifiedname>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_base_node" kindref="compound">BaseNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_graph_processor_1_1_serializable_edge" kindref="compound">SerializableEdge</ref> &gt;</type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type><ref refid="class_graph_processor_1_1_node_port" kindref="compound">NodePort</ref></type>
+          <declname>outputPort</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/CustomPortIO.cs" line="10" column="26" declfile="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Runtime/NodeGraphProcessor/Runtime/Processing/CustomPortIO.cs" declline="10" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Unity/Genesis_NG/Assets/Packages/com.ahahgames.genesisnoise/Editor/NodeGraphProcessor/Editor/BaseGraphWindow.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>
