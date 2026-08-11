@@ -22,18 +22,21 @@ Splits a texture into two texture outputs: RGB preserves the source red, green, 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Texture | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| A | Texture2D |
+| RGB | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4c0c9833-ed24-4f6a-85ed-d762307d849b | |
+| GUID | String | 15a15338-a8bb-4104-9bc1-e6746e3c1b93 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -29,11 +29,37 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global UV scale |
+| Offset | Vector4 | Global UV offset |
+| Direction | Single | Wood axis direction in radians |
+| Ring Frequency | Single | Base ring frequency |
+| Ring Sharpness | Single | Ring contrast sharpness |
+| Ring Warp | Single | Ring irregularity amount |
+| Ring Warp Scale | Single | Ring noise scale |
+| Ring Balance | Single | Earlywood latewood balance |
+| Anisotropy | Single | Long fiber anisotropy |
+| Grain Strength | Single | Long grain intensity |
+| Grain Frequency | Single | Fiber frequency |
+| Grain Width | Single | Fiber width |
+| Grain Detail | Single | Fiber detail amount |
+| Pore Density | Single | Pore density |
+| Pore Size | Single | Pore size |
+| Pore Strength | Single | Pore contrast |
+| Ray Strength | Single | Wood ray intensity |
+| Ray Frequency | Single | Wood ray frequency |
+| Warp Strength | Single | Global domain warp strength |
+| Warp Scale | Single | Global domain warp scale |
+| Contrast | Single | Final contrast |
+| Gain | Single | Final gain |
+| Bias | Single | Final bias |
+| Invert | Single | Invert output |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

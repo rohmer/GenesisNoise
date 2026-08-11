@@ -22,18 +22,21 @@ Multiplies the input values.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 86d8f30c-8e62-402e-b676-94bd3a59504f | |
+| GUID | String | 780e6b92-b02d-4109-bb7d-2faa56c96eb1 | |
 | expanded | Boolean | False | |
 
 ## See Also

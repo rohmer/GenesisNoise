@@ -36,11 +36,19 @@ This version gives you:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Histogram Bins | Single |  |
+| Intensity | Single |  |
+| Smoothing | Single |  |
+| Log Scale | Single |  |
+| Cumulative Histogram | Single |  |
+| Bar Width | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

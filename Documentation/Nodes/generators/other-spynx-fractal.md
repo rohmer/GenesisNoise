@@ -29,18 +29,25 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Iterations | Single |  |
+| Scale | Single |  |
+| Jitter | Single |  |
+| Density Falloff | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | bc16e074-3ece-43c3-bdd9-0dcab8410331 | |
+| GUID | String | 08fe8dfd-5b79-4181-8e92-a934bf2561de | |
 | expanded | Boolean | False | |
 
 ## See Also

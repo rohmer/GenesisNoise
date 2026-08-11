@@ -18,18 +18,22 @@ _No description available._
 
 | Name | Type | Description |
 |------|------|-------------|
+| Ocean Settings | OceanSettings |  |
+| Noise Blur | Texture2D |  |
+| Biome Data | BiomeData |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Terrain | Terrain |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c0dbaef2-278d-4bbd-8d6e-c96764b93029 | |
+| GUID | String | a51b2d3b-8192-40e1-8d45-5184fda033c6 | |
 | expanded | Boolean | False | |
 
 ## See Also

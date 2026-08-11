@@ -29,11 +29,17 @@ An optional per-pixel HSL Offset texture is added on top of the scalar values.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| HSL Offset | Texture2D |  |
+| Hue | Single |  |
+| Saturation | Single |  |
+| Lightness | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

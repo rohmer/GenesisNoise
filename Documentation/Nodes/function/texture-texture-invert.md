@@ -22,18 +22,20 @@ Inverts the RGB channels of the source texture per pixel. Alpha is preserved unl
 
 | Name | Type | Description |
 |------|------|-------------|
+| Texture | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5cb525a3-031b-4059-ac58-ea96b3c52b55 | |
+| GUID | String | f9e88d73-b782-41bb-bef7-a7459eb7b3e5 | |
 | expanded | Boolean | False | |
 
 ## See Also

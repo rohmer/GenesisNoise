@@ -22,11 +22,14 @@ Sample the target texture and mask it using input texture. Note that the mask is
 
 | Name | Type | Description |
 |------|------|-------------|
+| Target | Texture2D |  |
+| Input | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

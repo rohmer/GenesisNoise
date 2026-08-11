@@ -29,11 +29,25 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| N1 | Single | Controls the overall roundness and symmetry of the shape |
+| N2 | Single | Affects the depth of curves between shape vertices |
+| N3 | Single | Controls the sharpness of the shapes points |
+| M | Single | Number of repetitions or sides in the shape |
+| A | Single | Horizontal scale factor of the shape |
+| B | Single | Vertical scale factor of the shape |
+| Scale | Single | Overall size of the shape |
+| Rotation | Single | Rotation angle of the shape (in radians) |
+| Inside Color | Color | Color used for the interior of the shape |
+| Outside Color | Color | Color used for the exterior of the shape |
+| Line Frequency | Single | Controls how many lines appear in the pattern |
+| Line Definition | Single | Controls how strong visible the line pattern is |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

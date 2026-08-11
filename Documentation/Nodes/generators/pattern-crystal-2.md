@@ -29,11 +29,35 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Global Scale | Single |  |
+| A Scale | Single |  |
+| A Stretch | Single |  |
+| A Angle (radians) | Single |  |
+| A Contrast | Single |  |
+| A Weight | Single |  |
+| A Blur Taps | Single |  |
+| A Turbulence | Single |  |
+| B Scale | Single |  |
+| B Stretch | Single |  |
+| B Angle (radians) | Single |  |
+| B Contrast | Single |  |
+| B Weight | Single |  |
+| B Blur Taps | Single |  |
+| B Turbulence | Single |  |
+| Micro Scale | Single |  |
+| Micro Strength | Single |  |
+| Flow Strength | Single |  |
+| Flow Scale | Single |  |
+| Tile Size | Single |  |
+| Seed | Single |  |
+| Non Square Expansion | Single |  |
+| Debug | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

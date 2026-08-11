@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape Type | Single | Shape type |
+| Sides | Single | Number of sides for polygon or star |
+| Star Inner | Single | Star inner radius multiplier |
+| Superellipse Exponent | Single | Superellipse exponent |
+| Scale | Vector4 | Shape scale |
+| Softness | Single | Softness (edge falloff) |
+| Radius | Single | Rounded corner radius |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

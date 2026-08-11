@@ -29,11 +29,16 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D | Custom Noise UV |
+| Scale | Texture2D | Custom Time Scale |
+| Smoothness | Texture2D | Custom Time Scale |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

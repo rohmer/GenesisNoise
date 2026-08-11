@@ -29,18 +29,39 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Aurora color - dominant, lower-mid altitude | Vector4 |  |
+| lower border, razor sharp | Vector4 |  |
+| Volume samples - more = smoother | Single |  |
+| Altitude where aurora slab begins | Single |  |
+| Polynomial stride - less aggressive for smoother sampling | Single |  |
+| Base stride multiplier | Single |  |
+| Per-sample jitter to kill banding | Single |  |
+| Exponential decay per sample | Single |  |
+| Final intensity multiplier | Single |  |
+| Triangle wave octaves, more for smoother detail | Single |  |
+| Pow exponent | Single |  |
+| Accumulator multiplier | Single |  |
+| Domain rotation for anisotropic banding | Single |  |
+| Add Stars | Single |  |
+| Number of star layers | Single |  |
+| Star Threshold | Single |  |
+| Gaussian falloff for star core | Single |  |
+| Gaussian falloff for soft halo | Single |  |
+| Halo brightness relative to core | Single |  |
+| Seed value | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 885d273e-5a9f-48b9-a324-27db33d96662 | |
+| GUID | String | 6cf3c17b-b751-4641-b5df-cb70f16ca978 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -30,11 +30,22 @@ Where N is the number of steps.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Steps | Single |  |
+| Per-Channel Quantization | Single |  |
+| Luminance Quantization | Single |  |
+| Dither Strength | Single |  |
+| Contrast | Single |  |
+| Bias | Single |  |
+| Gain | Single |  |
+| Invert Output | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

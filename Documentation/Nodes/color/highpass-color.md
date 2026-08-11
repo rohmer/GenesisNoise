@@ -24,11 +24,17 @@ Use this to isolate fine detail before sharpening, blending, or mask creation wh
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Original color input |
+| Blurred | Texture2D | Blurred color input |
+| Intensity | Single | Highpass intensity |
+| Contrast | Single | Contrast shaping |
+| Normalize | Single | Normalize output 0 to 1 |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

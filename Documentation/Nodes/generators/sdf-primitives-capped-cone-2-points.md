@@ -20,11 +20,16 @@ Computes the signed distance field for a SDF Capped Cone 2 Points primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Radius A | Single | Radius at the first point. |
+| Radius B | Single | Radius at the second point. |
+| Point A | Vector4 | First point position. |
+| Point B | Vector4 | Second point position. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

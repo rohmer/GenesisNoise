@@ -22,18 +22,20 @@ Applies `ABS(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d29b35c1-5f2e-4d6d-bbb8-a503e7141cc8 | |
+| GUID | String | 93611960-a3bd-497e-a052-c0405eea2fa7 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -22,11 +22,20 @@ Converts a heightmap into a bent normal map by scanning nearby height samples an
 
 | Name | Type | Description |
 |------|------|-------------|
+| Heightmap | Texture2D |  |
+| Scan Radius | Single | Maximum scan radius in pixels |
+| Steps Per Direction | Single | Number of samples per radial direction |
+| Directions | Single | Number of radial directions to scan |
+| Height Scale | Single | Scales height differences before they bend the output normal |
+| Bent Strength | Single | Overall bent normal strength |
+| Bias | Single | Positive values ignore tiny height differences |
+| Invert Height | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

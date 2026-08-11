@@ -29,11 +29,17 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Base Frequency | Single |  |
+| Lacunarity | Single |  |
+| High Frequency Falloff | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

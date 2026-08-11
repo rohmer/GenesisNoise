@@ -22,18 +22,22 @@ Applies `Smoothstep(0,1,A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Upper Bound | Single |  |
+| Lower Bound | Single |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 239cf7af-c1d8-4e5b-9b62-e48ccceb8a79 | |
+| GUID | String | db40419a-eff8-4dda-abbc-d30b1c9d35a7 | |
 | expanded | Boolean | False | |
 
 ## See Also

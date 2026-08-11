@@ -20,11 +20,15 @@ Computes the signed distance field for a SDF Capped Torus primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Major Radius | Single | Major radius of the torus. |
+| Minor Radius | Single | Minor radius (thickness) of the torus. |
+| Cap Angle | Single | Angle of the cap in degrees. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

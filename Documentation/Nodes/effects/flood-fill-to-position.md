@@ -22,11 +22,14 @@ Extracts normalized per-region position data from Flood Fill Data output mode Po
 
 | Name | Type | Description |
 |------|------|-------------|
+| Flood Fill Position/BBox | Texture2D |  |
+| Output Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

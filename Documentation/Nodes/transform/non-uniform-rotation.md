@@ -27,11 +27,17 @@ category: "Transform"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Rotation X | Single |  |
+| Rotation Y | Single |  |
+| Center | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

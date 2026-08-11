@@ -22,18 +22,21 @@ Applies `MOD(A,B)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0d8b25dc-d40c-4bca-906e-eb55a4cf25b1 | |
+| GUID | String | d9e3fffb-214b-4dbb-a650-f490f7653d01 | |
 | expanded | Boolean | False | |
 
 ## See Also

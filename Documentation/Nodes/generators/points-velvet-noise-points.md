@@ -35,11 +35,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| jitter | Single |  |
+| impulseDensity | Single |  |
+| frequency | Int32 |  |
+| maxPointCount | Int32 |  |
+| seed | Int32 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Count | Int32 |
+| Points | List`1 |
+| Image | Texture2D |
 
 ## Parameters
 
@@ -49,7 +57,7 @@ Output:
 | backgroundColor | Color | RGBA(0.000, 0.000, 0.000, 1.000) | |
 | pointColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0524040c-e1fc-4210-97b7-d18c75c52f0d | |
+| GUID | String | e559462e-a82b-471b-bd15-133578b049bf | |
 | expanded | Boolean | False | |
 
 ## See Also

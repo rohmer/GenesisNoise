@@ -22,11 +22,17 @@ Fractal Trace, like GIMP Map. Traces the image through a Mandelbrot fractal: eac
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Iterations | Single |  |
+| Zoom | Single |  |
+| Offset (XY) | Vector4 |  |
+| Strength | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

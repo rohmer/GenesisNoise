@@ -27,13 +27,14 @@ Outputs a constant animation curve value.
 
 | Name | Type |
 |------|------|
+| Animation Curve | AnimationCurve |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4e31b32e-461b-44f9-be03-abeb714a1990 | |
+| GUID | String | 515159a1-328e-452b-ba66-24c9aff55e50 | |
 | expanded | Boolean | False | |
 
 ## See Also

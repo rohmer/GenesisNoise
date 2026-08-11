@@ -30,11 +30,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Base Frequency | Single |  |
+| Lacunarity | Single |  |
+| Amplitude Falloff | Single |  |
+| Billow Power | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

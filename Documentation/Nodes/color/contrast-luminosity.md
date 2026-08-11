@@ -22,11 +22,15 @@ Adjusts the contrast and luminosity of the source color.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Contrast | Single | Adjusts the contrast of the image |
+| Luminosity | Single | Adjusts the luminosity or brightness of the image |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -27,13 +27,14 @@ Outputs a constant string value.
 
 | Name | Type |
 |------|------|
+| output | String |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8815e676-828c-4b44-96be-7a7d8ec6a430 | |
+| GUID | String | a2031d10-2d58-4a96-b704-c54fdd2ac93a | |
 | expanded | Boolean | False | |
 
 ## See Also

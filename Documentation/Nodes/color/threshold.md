@@ -22,11 +22,16 @@ Apply a threshold value to a channel of the input texture and output the result.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Threshold | Single |  |
+| Feather | Single | Smooth the treshold step |
+| Invert | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

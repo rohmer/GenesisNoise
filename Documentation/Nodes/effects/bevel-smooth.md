@@ -27,11 +27,17 @@ category: "Effects"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Bevel Width | Single |  |
+| Intensity | Single |  |
+| Smoothness | Single |  |
+| Invert Height | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

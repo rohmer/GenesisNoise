@@ -27,11 +27,20 @@ It’s like Histogram Scan + Histogram Range, but with a movable window that sel
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Position | Single |  |
+| Range Width | Single |  |
+| Softness | Single |  |
+| Contrast | Single |  |
+| Bias | Single |  |
+| Gain | Single |  |
+| Invert | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

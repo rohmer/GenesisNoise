@@ -22,18 +22,27 @@ Generates a random Vector4 value.
 
 | Name | Type | Description |
 |------|------|-------------|
+| W Maximum | Single |  |
+| W Minimum | Single |  |
+| Z Maximum | Single |  |
+| Z Minimum | Single |  |
+| Y Maximum | Single |  |
+| Y Minimum | Single |  |
+| X Maximum | Single |  |
+| X Minimum | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Vector4 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0ac184e7-8fde-4d59-bdeb-87a7b85e02d8 | |
+| GUID | String | f1279bb7-25f2-4b95-ab46-1339eaf44bd1 | |
 | expanded | Boolean | False | |
 
 ## See Also

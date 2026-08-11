@@ -34,11 +34,18 @@ Ot’s more advanced than Make Tiled because it performs:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Feather Width | Single |  |
+| Random Offset | Single |  |
+| Seed | Single |  |
+| Patch Jitter | Single |  |
+| Grid Size | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

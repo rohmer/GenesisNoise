@@ -29,11 +29,31 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mask | Texture2D |  |
+| Use Mask | Single | Enable scratch mask texture |
+| Density | Single | Density of scraches, over 0..2 is recommended |
+| Angle | Single | The angle in radians of the scratches |
+| Min Thickness | Single | Minimum thickness. Hairline to gouge (In UV units after scaling) |
+| Max Thickness | Single | Maximum thickness. Hairline to gouge (In UV units after scaling) |
+| Min Length | Single | Minimum length of a scratch |
+| Max Length | Single | Maximum length of a scratch |
+| Curvature Mode | Single | Curvature mode of the scratches.  None makes straight scratches |
+| Parabolic Factor | Single | Parabolic curvature factor |
+| Radial Scale | Single | Radial curvature scale, defines how many arcs |
+| Radial Center | Vector4 | UV Center of the arcs |
+| Dash Length | Single | Units along line direction, UV units |
+| Gap Size | Single | Gap size, UV units |
+| Dash Softness | Single | Sets the softness of the edge |
+| Dash jitter | Single | Per stripe random phase jitter |
+| Intensity | Single | Defines the genesis intensity |
+| Color | Color | The color of the scratches |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

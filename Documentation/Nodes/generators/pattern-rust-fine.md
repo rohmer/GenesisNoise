@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 |  |
+| Seed | Single |  |
+| Balance | Single |  |
+| Contrast | Single |  |
+| Invert | Single |  |
+| Non Square Expansion | Single |  |
+| Base Grunge Contrast | Single |  |
+| Base Warp Intensity | Single |  |
+| Streaks Intensity | Single |  |
+| Noise Intensity | Single |  |
+| Sharpen Intensity | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

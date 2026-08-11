@@ -22,11 +22,15 @@ Illusion, like GIMP Map. Folds the image around a center into a mirrored kaleido
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Divisions | Single |  |
+| Center (XY) | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

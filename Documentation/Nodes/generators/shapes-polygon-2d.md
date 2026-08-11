@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Inner Color | Color | Color inside the polygon |
+| Outer Color | Color | Color outside of the polygon |
+| Side Count | Single | Number of sides of the polygon, can be a non integer value |
+| Size | Single | Size of the polygon |
+| Smooth | Single | Smooth the polygon edges and creates a gradient between the color inside and outside of the polygon |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

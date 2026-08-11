@@ -22,11 +22,20 @@ Remaps a source image through an input UV map, similar to Substance Designer's U
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| UV Map | Texture2D |  |
+| Scale | Vector4 |  |
+| Offset | Vector4 |  |
+| Rotation (turns) | Single |  |
+| Address Mode | Single |  |
+| Background Color | Color |  |
+| Flip Y | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

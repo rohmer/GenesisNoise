@@ -22,11 +22,14 @@ Extracts per-region bounding-box size data from Flood Fill Data output mode Posi
 
 | Name | Type | Description |
 |------|------|-------------|
+| Flood Fill Position/BBox | Texture2D |  |
+| Output Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

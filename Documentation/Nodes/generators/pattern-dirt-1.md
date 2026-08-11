@@ -29,18 +29,27 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Single |  |
+| Balance | Single |  |
+| Contrast | Single |  |
+| Invert | Single |  |
+| Coverage | Single |  |
+| Non Square Expansion | Single |  |
+| Seed | Single |  |
+| Debug | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 001f7580-a146-4fb9-af56-c322ceb6be8f | |
+| GUID | String | 2aa84729-f56d-4588-bf6e-82bd2a9412f8 | |
 | expanded | Boolean | False | |
 
 ## See Also

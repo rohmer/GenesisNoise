@@ -22,11 +22,21 @@ Matches the color character of a source texture to a reference color, with indep
 
 | Name | Type | Description |
 |------|------|-------------|
+| Reference Color | Color |  |
+| Source | Texture2D |  |
+| Strength | Single | Overall color match strength |
+| Hue Amount | Single | How strongly reference hue replaces source hue |
+| Saturation Amount | Single | How strongly reference saturation replaces source saturation |
+| Value Amount | Single | How strongly reference value replaces source value |
+| Preserve Luminance | Single | Preserve source luminance after matching |
+| Contrast | Single | Final contrast applied around mid gray |
+| Exposure | Single | Final exposure offset |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

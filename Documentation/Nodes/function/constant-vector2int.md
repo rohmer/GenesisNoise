@@ -27,13 +27,16 @@ Outputs a constant vector2int value.
 
 | Name | Type |
 |------|------|
+| Y | Int32 |
+| X | Int32 |
+| output | Vector2Int |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 631aa1d1-d57e-4d2d-9be5-801a392fed10 | |
+| GUID | String | e5254598-ada5-4794-8e5c-061f0362eebb | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -29,11 +29,17 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Sharpness | Single |  |
+| Detail Amount | Single |  |
+| Contrast | Single |  |
+| Value Offset | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

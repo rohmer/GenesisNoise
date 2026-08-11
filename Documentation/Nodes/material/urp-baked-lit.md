@@ -20,11 +20,14 @@ Output a URP Baked Lit material.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Baked Lit Material | Material |
 
 ## Parameters
 
@@ -34,7 +37,7 @@ Output a URP Baked Lit material.
 | primitiveType | PrimitiveType | Cube | |
 | baseColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c0bfeb04-f7e3-4703-8d8a-3c5a159b0bc9 | |
+| GUID | String | 35f969ff-7e57-479d-8cd3-92d3b017cd14 | |
 | expanded | Boolean | False | |
 
 ## See Also

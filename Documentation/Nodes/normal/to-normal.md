@@ -22,18 +22,23 @@ Takes an input texture and converts it to a normal.  Usually used on a height ma
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source Heightmap | Texture2D |  |
+| Normal Strength | Single |  |
+| Height Bias | Single |  |
+| Height Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4e9185ba-eaa0-4243-a0c0-7a8030cbdea0 | |
+| GUID | String | d9f0568d-3fc5-460f-a8f4-886489c55a9d | |
 | expanded | Boolean | False | |
 
 ## See Also

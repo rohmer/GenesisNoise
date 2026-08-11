@@ -22,11 +22,13 @@ Closes a while-loop flow block.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Object |
 
 ## Parameters
 
@@ -34,7 +36,7 @@ Closes a while-loop flow block.
 |---------|------|---------|-------------|
 | mode | AggregationMode | FeedbackToStartNode | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 51dfd4b1-62ef-4d5b-9f7c-c421f85c26a6 | |
+| GUID | String | cd913eb2-49e4-4248-ab08-be41f2493413 | |
 | expanded | Boolean | False | |
 
 ## See Also

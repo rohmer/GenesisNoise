@@ -20,11 +20,15 @@ Output a URP Simple Lit material (specular workflow).
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal Map | Texture2D |  |
+| Specular Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Simple Lit Material | Material |
 
 ## Parameters
 
@@ -36,7 +40,7 @@ Output a URP Simple Lit material (specular workflow).
 | specularColor | Color | RGBA(0.500, 0.500, 0.500, 0.500) | |
 | smoothnessAmount | Single | 0.5 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3e4f7cb2-d291-4524-a963-ad79d3c5410b | |
+| GUID | String | bce1f068-d395-4a1d-8c75-5d9eca5fdfba | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -27,11 +27,18 @@ This is the perfect companion to your Upscale 1/2/3 family — and it’s exactl
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Sharpness | Single |  |
+| Detail Amount | Single |  |
+| Edge Boost | Single |  |
+| Contrast | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

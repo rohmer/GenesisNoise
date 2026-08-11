@@ -20,11 +20,15 @@ Computes the signed distance field for a SDF Ellipsoid primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Radius X | Single | Radius along the X axis. |
+| Radius Y | Single | Radius along the Y axis. |
+| Radius Z | Single | Radius along the Z axis. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

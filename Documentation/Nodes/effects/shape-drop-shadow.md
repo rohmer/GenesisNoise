@@ -29,11 +29,18 @@ This is not a blur, not a bevel — it’s a ray‑marched shadow cast from a bi
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape | Texture2D |  |
+| Shadow Distance | Single |  |
+| Softness | Single |  |
+| Opacity | Single |  |
+| Direction | Single |  |
+| Shadow Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

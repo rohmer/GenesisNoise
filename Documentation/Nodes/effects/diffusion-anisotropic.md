@@ -25,11 +25,21 @@ A multi‑iteration direction influenced
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Height | Texture2D |  |
+| Direction Map | Texture2D |  |
+| Radius | Single |  |
+| Iterations | Single |  |
+| Height Sensitivity | Single |  |
+| Falloff | Single |  |
+| Direction Strength | Single |  |
+| Direction Is Vector | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

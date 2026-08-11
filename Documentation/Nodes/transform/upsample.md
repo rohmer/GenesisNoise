@@ -22,11 +22,14 @@ category: "Transform"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Low resolution source input |
+| Sharpen | Single | Sharpen strength |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

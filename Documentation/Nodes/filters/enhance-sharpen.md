@@ -22,11 +22,14 @@ Sharpen the input image using a very simple 3x3 sharpening kernel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Strength | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

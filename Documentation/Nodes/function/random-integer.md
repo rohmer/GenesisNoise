@@ -22,18 +22,21 @@ Generates a random integer value.
 
 | Name | Type | Description |
 |------|------|-------------|
+| max | Int32 |  |
+| min | Int32 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Int32 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e9b66e2d-08e7-40f4-bb24-52a31364f3d3 | |
+| GUID | String | b1a3afc4-7e6e-43a6-aaed-501e26985a57 | |
 | expanded | Boolean | False | |
 
 ## See Also

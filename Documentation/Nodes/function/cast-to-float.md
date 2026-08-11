@@ -22,18 +22,20 @@ Casts the input value to Float.
 
 | Name | Type | Description |
 |------|------|-------------|
+| input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Single |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | be0887e4-27c6-45d6-8919-a3569f1b227a | |
+| GUID | String | b901ad9b-e2c2-4ebc-81c1-8d8eedf814e4 | |
 | expanded | Boolean | False | |
 
 ## See Also

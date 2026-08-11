@@ -20,11 +20,14 @@ Output an HDRP Unlit material.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Emissive Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Unlit Material | Material |
 
 ## Parameters
 
@@ -39,7 +42,7 @@ Output an HDRP Unlit material.
 | cutoffValue | Single | 0.5 | |
 | doubleSided | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d054b43b-6868-4b94-8ce7-f350ec55c66a | |
+| GUID | String | 6fdac386-5b08-49ff-9548-c07aa8ebe2d7 | |
 | expanded | Boolean | False | |
 
 ## See Also

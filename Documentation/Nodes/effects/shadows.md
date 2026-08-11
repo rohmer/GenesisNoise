@@ -22,11 +22,21 @@ Creates ray‑traced shadows from a height map, with light position, samples, ma
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Height Scale | Single |  |
+| Light Position | Vector4 |  |
+| Light Intensity | Single |  |
+| Shadow Opacity | Single |  |
+| Shadow Attenuation | Single |  |
+| Max Shadow Length | Single |  |
+| Samples | Single |  |
+| Height Bias | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

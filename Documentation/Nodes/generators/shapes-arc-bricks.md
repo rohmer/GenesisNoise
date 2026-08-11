@@ -29,11 +29,30 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mask | Texture2D |  |
+| Use Mask | Single | Enable mask texture |
+| Scale | Single | Global tiling |
+| Arcs Amount | Single | Number of concentric arcs |
+| Pattern Amount | Single | Base bricks per arc |
+| Pattern Amount Random | Single | Randomization of bricks per arc |
+| Pattern Min Amount | Single | Minimum bricks per arc |
+| Pattern Width | Single | Angular brick size |
+| Pattern Height | Single | Radial brick size |
+| Pattern Width Random | Single | Per brick width random |
+| Pattern Height Random | Single | Per brick height random |
+| Global Width Random | Single | Global width random per arc |
+| Pattern Height Decrease | Single | Height decrease at arc ends |
+| Color Random | Single | Per brick color variation |
+| Non-Square Ratio | Vector4 | Non square compensation (x,y) |
+| Intensity | Single | Height intensity of pattern |
+| Arc Color | Color | Base color of arcs |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

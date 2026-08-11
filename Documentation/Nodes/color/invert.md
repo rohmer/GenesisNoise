@@ -21,11 +21,21 @@ Inverts colors of input (Optionally inverts alpha as well
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Inversion type | Single | Invertion type, either RGB or HSV |
+| Invert Red | Single | Invert red channel |
+| Invert Green | Single | Invert green channel |
+| Invert Blue | Single | Invert blue channel |
+| Invert Hue | Single | Invert hue channel |
+| Invert Saturation | Single | Invert saturation channel |
+| Invert Value | Single | Invert value channel |
+| Invert Alpha | Single | Invert alpha channel |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -34,11 +34,18 @@ Deterministic, sampler‑free UV math
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Input texture |
+| Offset | Vector4 | Translation in UV space |
+| Scale | Vector4 | Scale (X,Y) |
+| Rotation | Single | Rotation in degrees |
+| Pivot | Vector4 | Pivot point (0 to 1) |
+| Mode | Single | 0 Wrap, 1 Clamp |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

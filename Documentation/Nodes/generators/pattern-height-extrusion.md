@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Use Height | Single |  |
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Direction in radians |
+| Distance | Single | Extrusion distance in UV units |
+| Steps | Single | Number of samples along direction |
+| Contrast | Single | Contrast shaping |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

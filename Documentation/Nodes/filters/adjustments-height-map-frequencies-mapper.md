@@ -28,11 +28,15 @@ Use two instances to obtain both outputs simultaneously.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Relief | Single |  |
+| Output Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

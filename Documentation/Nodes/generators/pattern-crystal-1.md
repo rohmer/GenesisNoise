@@ -29,11 +29,21 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Tiling Mode | Single |  |
+| UV Mode | Single |  |
+| Scale | Single |  |
+| Jitter | Single |  |
+| Facet Sharpness | Single |  |
+| Micro Detail | Single |  |
+| Micro Frequency | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,25 @@ Generates a random Vector3 value.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Z Maximum | Single |  |
+| Z Minimum | Single |  |
+| Y Maximum | Single |  |
+| Y Minimum | Single |  |
+| X Maximum | Single |  |
+| X Minimum | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Vector3 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d6befd17-7859-41f7-9a73-50c78d142b05 | |
+| GUID | String | 0d7794af-aa03-48ac-83b3-87dcfe5b08c9 | |
 | expanded | Boolean | False | |
 
 ## See Also

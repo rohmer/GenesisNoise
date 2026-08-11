@@ -28,11 +28,18 @@ Curvature‑aware upscaling gives you:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Sharpness | Single |  |
+| Detail Amount | Single |  |
+| Curvature Boost | Single |  |
+| Contrast | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

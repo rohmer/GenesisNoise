@@ -29,18 +29,35 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Spore Density | Single |  |
+| Spore Radius | Single |  |
+| Spore Softness | Single |  |
+| Bloom Strength | Single |  |
+| Bloom Scale | Single |  |
+| Bloom Softness | Single |  |
+| Occlusion Strength | Single |  |
+| Occlusion Scale | Single |  |
+| Fine Dust | Single |  |
+| Fine Dust Scale | Single |  |
+| Fine Dust Sharpness | Single |  |
+| Micro Specks | Single |  |
+| Micro Speck Scale | Single |  |
+| Breakup Strength | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f1886d2a-7e25-4274-9ab6-10e09a5a103f | |
+| GUID | String | 281c68c5-ac9f-477c-ac92-f9c85c752ea7 | |
 | expanded | Boolean | False | |
 
 ## See Also

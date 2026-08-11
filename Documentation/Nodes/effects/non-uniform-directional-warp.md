@@ -35,11 +35,18 @@ But with:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Noise | Texture2D |  |
+| Strength | Single |  |
+| Direction Angle | Single |  |
+| Noise Scale | Single |  |
+| Softness | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

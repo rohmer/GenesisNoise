@@ -33,11 +33,14 @@ Use the `Algorithm` property to choose how the grayscale value is computed:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Channel | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

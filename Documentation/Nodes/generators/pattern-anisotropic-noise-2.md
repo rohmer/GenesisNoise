@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Anisotropy | Single |  |
+| Direction (Radians) | Single |  |
+| Warp Amount | Single |  |
+| Turbulence | Single |  |
+| Micro Detail Strength | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

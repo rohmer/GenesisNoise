@@ -26,11 +26,16 @@ category: "Normal"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| Invert X | Single |  |
+| Invert Y | Single |  |
+| Renormalize | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

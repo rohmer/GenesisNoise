@@ -22,11 +22,15 @@ Pick, like GIMP. With a given probability replaces each pixel with the colour of
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Amount | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

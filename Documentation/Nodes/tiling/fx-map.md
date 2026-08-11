@@ -22,11 +22,36 @@ FX Map node behavior: it scatters oriented brush/shape stamps across the surface
 
 | Name | Type | Description |
 |------|------|-------------|
+| Global Scale | Single |  |
+| Seed (integer) | Single |  |
+| Non Square Expansion | Single |  |
+| Spacing (cells) | Single |  |
+| Density (0-1) | Single |  |
+| Position Jitter | Single |  |
+| Tile Size (for tiling) | Single |  |
+| Brush Scale | Single |  |
+| Brush Aspect (x/y) | Single |  |
+| Brush Roundness | Single |  |
+| Brush Softness | Single |  |
+| Base Rotation (radians) | Single |  |
+| Rotation Jitter | Single |  |
+| Scale Jitter | Single |  |
+| Flip Chance | Single |  |
+| Brush Texture 2D | Texture2D |  |
+| Brush Texture 3D | Texture3D |  |
+| Brush Texture Cube | Cubemap |  |
+| Use Brush Texture | Single |  |
+| Brush Type | Single |  |
+| Brush Channel (0 R,1 G,2 B,3 A) | Single |  |
+| Blend Mode (0 Add,1 Multiply,2 Max) | Single |  |
+| Mask Threshold | Single |  |
+| Debug | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

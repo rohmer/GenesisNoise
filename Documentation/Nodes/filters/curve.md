@@ -25,11 +25,13 @@ clamped or folded back into range.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

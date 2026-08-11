@@ -22,11 +22,15 @@ Remaps a grayscale input through a Unity Gradient editor and outputs the generat
 
 | Name | Type | Description |
 |------|------|-------------|
+| Gradient | Texture2D |  |
+| Source | Texture2D | Grayscale source input |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Gradient | Texture2D |
+| Out | Texture2D |
 
 ## Parameters
 

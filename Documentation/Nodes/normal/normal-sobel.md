@@ -28,11 +28,16 @@ it converts a height map into a tangent‑space normal map using Sobel gradients
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Normal Intensity | Single |  |
+| Invert X | Single |  |
+| Invert Y | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

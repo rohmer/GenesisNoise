@@ -22,18 +22,21 @@ Returns the per-pixel maximum of the input textures.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | cf2454fc-2d7a-4172-917f-6c189bf5e089 | |
+| GUID | String | dc43e37a-3ee4-4def-9807-2673568aa078 | |
 | expanded | Boolean | False | |
 
 ## See Also

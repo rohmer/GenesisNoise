@@ -27,13 +27,18 @@ Outputs a constant quaternion value.
 
 | Name | Type |
 |------|------|
+| W | Single |
+| Z | Single |
+| Y | Single |
+| X | Single |
+| Quaternion | Quaternion |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 90ae3feb-ec3b-4b9a-a050-b8ddcc62d77a | |
+| GUID | String | e4c47574-f611-4a44-9dcd-760e9d20b056 | |
 | expanded | Boolean | False | |
 
 ## See Also

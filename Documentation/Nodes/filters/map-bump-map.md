@@ -22,11 +22,18 @@ Bump Map, like GIMP Map. Lights the input image using a bump map texture as a he
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Bump Map | Texture2D |  |
+| Azimuth | Single |  |
+| Elevation | Single |  |
+| Depth | Single |  |
+| Amount | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

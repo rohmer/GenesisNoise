@@ -22,18 +22,21 @@ Divides one input by another.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 479040bd-af39-4e9a-9837-d1f83417a423 | |
+| GUID | String | cb7f7878-8e8e-4974-b1ed-7229df1054c7 | |
 | expanded | Boolean | False | |
 
 ## See Also

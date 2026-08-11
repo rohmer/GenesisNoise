@@ -29,18 +29,27 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Grayscale or Color | Single | Grayscale or color output |
+| Scale | Vector4 | Scale, minimum 2x2 |
+| Density | Single | Density of the dots distribution |
+| Size | Single | Size of the dots |
+| Variation | Single | The variation of the size of the dots |
+| Roundness | Single | The roundness of the dots |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e7df626f-9db7-4239-bbd8-4941a154ced3 | |
+| GUID | String | ffa5f4ba-ad6e-46c4-b692-a5cac30705eb | |
 | expanded | Boolean | False | |
 
 ## See Also

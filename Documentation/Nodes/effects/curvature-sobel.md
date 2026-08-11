@@ -26,11 +26,15 @@ category: "Effects"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| Intensity | Single |  |
+| Separate Convex/Concave | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

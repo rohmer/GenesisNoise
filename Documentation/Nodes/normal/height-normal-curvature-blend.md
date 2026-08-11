@@ -33,11 +33,20 @@ This gives you:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Normal | Texture2D |  |
+| Detail Normal | Texture2D |  |
+| Height | Texture2D |  |
+| Detail Intensity | Single |  |
+| Height Contrast | Single |  |
+| Invert Height | Single |  |
+| Curvature Boost | Single |  |
+| Curvature Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

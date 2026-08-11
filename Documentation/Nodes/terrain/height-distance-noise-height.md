@@ -18,11 +18,14 @@ _No description available._
 
 | Name | Type | Description |
 |------|------|-------------|
+| Noise | Texture2D |  |
+| Island Shape | IslandShape |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Height Map | HeightField |
 
 ## Parameters
 
@@ -31,7 +34,7 @@ _No description available._
 | heightmapRT | RenderTexture | — | |
 | previewRT | RenderTexture | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b9e01b49-5221-4fcd-8039-31a3befcb007 | |
+| GUID | String | 9b7189de-00ac-4ceb-9660-29a49251bf54 | |
 | expanded | Boolean | False | |
 
 ## See Also

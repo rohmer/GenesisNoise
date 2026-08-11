@@ -22,18 +22,21 @@ Returns the larger of the input values.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e9c4488d-29b4-4705-81b6-f42791102b5c | |
+| GUID | String | 2dfe2037-c799-46fd-ad40-fae4f8bb96b4 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -22,11 +22,18 @@ Generates a Substance-style position map from the current texture coordinates, w
 
 | Name | Type | Description |
 |------|------|-------------|
+| Coordinate Space | Single | Output normalized coordinates or centered coordinates |
+| Scale | Vector4 |  |
+| Offset | Vector4 |  |
+| Invert X | Single | Invert the X channel |
+| Invert Y | Single | Invert the Y channel |
+| Invert Z | Single | Invert the Z channel |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

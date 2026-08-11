@@ -38,11 +38,20 @@ Below is a fully Genesis CRT–compliant implementation:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Cell Count | Single |  |
+| Jitter | Single |  |
+| Edge Width | Single |  |
+| Edge Softness | Single |  |
+| Seed | Single |  |
+| Use Source Color | Single |  |
+| Source Blend | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

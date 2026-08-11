@@ -20,11 +20,19 @@ Applies an anime / cel-shading effect by posterizing colors and adding edge outl
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Color Levels | Single | Number of color levels per channel. Lower is more posterized. |
+| Outline Strength | Single | Strength of the edge outline overlay. 0 no outlines, 1 full. |
+| Edge Thickness | Single | Thickness of the detected edges in pixels. |
+| Edge Threshold | Single | How sensitive the edge detection is. Lower is more edges. |
+| Outline Color | Color | Outline color. |
+| Saturation | Single | Saturation boost. 1 original, 2 double. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

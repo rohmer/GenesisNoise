@@ -27,11 +27,24 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Target Color | Color |  |
+| Replace With | Color |  |
+| Hue Range | Single |  |
+| Saturation Range | Single |  |
+| Value Range | Single |  |
+| Fuzziness | Single |  |
+| Blend Amount | Single |  |
+| Preserve Luminance | Single |  |
+| Preserve Saturation | Single |  |
+| Mask Contrast | Single |  |
+| Invert Mask | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

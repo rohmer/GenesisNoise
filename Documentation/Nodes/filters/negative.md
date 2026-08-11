@@ -20,11 +20,17 @@ Inverts all RGB color channels of the input, producing a photographic negative e
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Invert Red | Single | Invert red channel |
+| Invert Green | Single | Invert green channel |
+| Invert Blue | Single | Invert blue channel |
+| Invert Alpha | Single | Invert alpha channel |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

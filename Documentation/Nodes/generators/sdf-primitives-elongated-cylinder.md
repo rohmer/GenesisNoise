@@ -20,11 +20,15 @@ Computes the signed distance field for a SDF Elongated Cylinder primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Radius | Single | Radius of the cylinder. |
+| Length | Single | Length of the cylindrical section. |
+| Cap Height | Single | Height of the end caps. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

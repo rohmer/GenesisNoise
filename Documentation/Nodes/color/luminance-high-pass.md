@@ -27,11 +27,19 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Blur Radius | Single |  |
+| High Pass Strength | Single |  |
+| Contrast | Single |  |
+| Bias | Single |  |
+| Gain | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

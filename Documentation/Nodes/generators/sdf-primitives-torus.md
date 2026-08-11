@@ -20,11 +20,14 @@ Computes the signed distance field for a SDF Torus primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Major Radius | Single | Major radius (distance from center to tube center). |
+| Minor Radius | Single | Minor radius (thickness of the tube). |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

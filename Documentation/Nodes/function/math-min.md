@@ -22,18 +22,21 @@ Returns the smaller of the input values.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c1e9cd44-43d7-4339-8c06-89dfc9ee71f9 | |
+| GUID | String | 8d227bc8-d314-4e3e-9c7d-f21c79fa589e | |
 | expanded | Boolean | False | |
 
 ## See Also

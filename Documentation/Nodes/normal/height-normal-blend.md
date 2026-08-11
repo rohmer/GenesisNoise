@@ -27,11 +27,18 @@ It’s basically a height‑aware normal blend, not just a linear lerp.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Normal | Texture2D |  |
+| Detail Normal | Texture2D |  |
+| Height | Texture2D |  |
+| Detail Intensity | Single |  |
+| Height Contrast | Single |  |
+| Invert Height | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

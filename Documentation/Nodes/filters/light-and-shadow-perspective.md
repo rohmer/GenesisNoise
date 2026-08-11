@@ -22,11 +22,16 @@ Perspective (one-point keystone) transform. Warps the image into a trapezoid tha
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Top Scale | Single |  |
+| Bottom Scale | Single |  |
+| Offset X | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

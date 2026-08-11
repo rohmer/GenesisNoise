@@ -29,11 +29,16 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Orientation Offset | Vector4 |  |
+| Size | Vector4 |  |
+| Scale | Single |  |
+| Non Square Expansion | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

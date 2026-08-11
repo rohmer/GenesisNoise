@@ -33,11 +33,18 @@ So the Genesis CRT version needs:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Noise | Texture2D |  |
+| Warp Strength | Single |  |
+| Direction Count | Single |  |
+| Angle Offset | Single |  |
+| Noise Scale | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

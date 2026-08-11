@@ -22,18 +22,20 @@ Applies `SINH(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 9a12085e-4bc9-4a6d-9d3e-3884da40dd59 | |
+| GUID | String | fa6615aa-651e-436c-b240-9af03e3b42b4 | |
 | expanded | Boolean | False | |
 
 ## See Also

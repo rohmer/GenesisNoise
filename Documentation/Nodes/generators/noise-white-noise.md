@@ -29,11 +29,15 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Frequency | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

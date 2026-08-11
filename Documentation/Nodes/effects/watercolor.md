@@ -27,11 +27,23 @@ PaperGrain and GrainScale add realistic paper texture and granulation.
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Scale | Vector4 |  |
+| Layers | Single |  |
+| Bleed | Single |  |
+| Flow Strength | Single |  |
+| Edge Darkening | Single |  |
+| Paper Grain | Single |  |
+| Grain Scale | Single |  |
+| Saturation | Single |  |
+| Tint | Color |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

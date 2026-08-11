@@ -22,11 +22,23 @@ Generates an ambient occlusion mask from a height map and a tangent-space normal
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Normal | Texture2D |  |
+| Radius | Single | Maximum sample radius in pixels |
+| Steps | Single | Number of samples per direction |
+| Directions | Single | Number of radial directions |
+| Height Scale | Single | Scales height differences before they become occlusion |
+| Intensity | Single | Overall occlusion strength |
+| Bias | Single | Positive values reduce self occlusion from tiny height changes |
+| Normal Influence | Single | How much the normal map biases directional occlusion |
+| Invert Height | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

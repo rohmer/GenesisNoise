@@ -24,11 +24,20 @@ Compared to HBAO, this version is slower but produces smoother and more physical
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Use Physical Size | Single |  |
+| Physical Size | Vector4 |  |
+| Height Scale | Single |  |
+| Samples | Single |  |
+| Distribution | Single |  |
+| Maximum Distance | Single |  |
+| Spread Angle | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

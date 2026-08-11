@@ -29,11 +29,29 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Spline Number | Single | Amount of scratches splines to place (1 to 512) |
+| Max Segments Per Spline | Single | Amount of segments per spline for smooth curves (2 to 256) |
+| Spline Rotation | Single | Uniform rotation of all splines (0 to 1) |
+| Spline Rotation Random | Single | Random rotation variation for each spline (0 to 1) |
+| Spline Scale | Single | Uniform scale of all splines (0 to 1) |
+| Spline Scale Random | Single | Random scale variation for each spline (0 to 1) |
+| Spline Distortion | Single | Uniform distortion level (0 to 1) |
+| Spline Distortion Random | Single | Random distortion for each spline (0 to 1) |
+| Spline Distortion Frequency | Single | Scale of distortion detail (0 to 1) |
+| Spline Width | Single | Uniform width of splines (0 to 2) |
+| Spline Width Random | Single | Random width for each spline (0 to 1) |
+| Spline Position Random | Single | Random positioning of splines (0 to 1) |
+| Luminance Random | Single | Random brightness of each spline (0 to 1) |
+| Fade Mode | Single | Fade mode 0 None, 1 Start, 2 End, 3 Start End |
+| Fade Length | Single | Length of fade effect (0 to 1) |
+| Non Square Expansion | Single | Enable non square aspect ratio compensation |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

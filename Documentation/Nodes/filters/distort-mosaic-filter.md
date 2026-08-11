@@ -26,11 +26,23 @@ Fully procedural and deterministic
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Tiling Mode | Single |  |
+| UV Mode | Single |  |
+| Tiles Per Axis | Single |  |
+| Tile Jitter | Single |  |
+| Edge Width | Single |  |
+| Edge Darkening | Single |  |
+| Shape Warp | Single |  |
+| UV Scale | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -20,18 +20,20 @@ Creates a visible grayscale curvature map from a heightfield. Absolute mode writ
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height Field | HeightField |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Curvature Map | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ccd21f4e-c77f-4119-8922-6449ea34f544 | |
+| GUID | String | ea43744a-2205-4e8c-8b60-10bf354b8756 | |
 | expanded | Boolean | False | |
 
 ## See Also

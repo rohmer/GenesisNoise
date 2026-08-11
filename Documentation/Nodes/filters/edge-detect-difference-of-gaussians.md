@@ -22,11 +22,23 @@ computes a Difference of Gaussians (DoG) edge response. It performs two small se
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Radius 1 (texels) | Single |  |
+| Radius 2 (texels) | Single |  |
+| Sigma 1 | Single |  |
+| Sigma 2 | Single |  |
+| Edge Threshold | Single |  |
+| Edge Strength | Single |  |
+| Edge Softness | Single |  |
+| Edge Color | Color |  |
+| Output Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

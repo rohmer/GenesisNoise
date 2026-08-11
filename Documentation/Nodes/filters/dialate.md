@@ -22,18 +22,25 @@ performs morphological dilation on a feature mask derived from the source textur
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source Texture | Texture2D |  |
+| Radius (pixels) | Single |  |
+| Iterations | Single |  |
+| Filter Target | Single |  |
+| UV Scale (for tiling) | Single |  |
+| Internal Max Radius (do not edit) | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8ce0a610-3a97-4027-adcf-48f90ef6e242 | |
+| GUID | String | 68bfaf06-241f-4a98-8bef-b08d45aac062 | |
 | expanded | Boolean | False | |
 
 ## See Also

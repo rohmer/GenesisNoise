@@ -22,11 +22,18 @@ Simulates Substance’s Curvature Smooth node from a height map: convex/concave 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Curvature Radius | Single |  |
+| Smoothing Radius | Single |  |
+| Intensity | Single |  |
+| Invert Height | Single |  |
+| Separate Convex/Concave | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

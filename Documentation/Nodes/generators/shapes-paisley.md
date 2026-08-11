@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Motif Size | Single | Overall paisley motif size |
+| Line Width | Single | Width of outer and inner ornament lines |
+| Curl | Single | Amount of inner curl detail |
+| Seed Dots | Single | Amount of seed dot ornament |
+| Softness | Single | Soft edge |
+| Relief | Single | Printed or woven relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

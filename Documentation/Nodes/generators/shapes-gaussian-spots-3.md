@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Spot Density | Single |  |
+| Min Radius | Single |  |
+| Max Radius | Single |  |
+| Softness | Single |  |
+| Flow Amount | Single |  |
+| Directional Smear | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

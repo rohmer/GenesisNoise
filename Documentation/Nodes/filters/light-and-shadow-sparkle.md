@@ -22,11 +22,21 @@ Sparkle effect. Scatters small twinkling 4-point star sparkles across the image 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Density | Single |  |
+| Size | Single |  |
+| Spike Sharpness | Single |  |
+| Threshold | Single |  |
+| Input Mask | Single |  |
+| Intensity | Single |  |
+| Color | Color |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,17 @@ A warp like blur between 2 input textures.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source1 | Texture2D | First Texture |
+| Source2 | Texture2D | Second Texture |
+| Warp Strength | Single | Strength |
+| Warp Position | Single | Position of warp.  0 is fully source 1.  1 is fully source 2 |
+| Seed | Single | Seed of randomness |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

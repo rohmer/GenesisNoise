@@ -26,11 +26,19 @@ category: "Filters/Artistic"
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Scale | Single |  |
+| Weave Strength | Single |  |
+| Fiber Noise | Single |  |
+| Roughness | Single |  |
+| Tint | Color |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

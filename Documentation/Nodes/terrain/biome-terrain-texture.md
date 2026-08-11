@@ -23,13 +23,14 @@ _No description available._
 
 | Name | Type |
 |------|------|
+| Texture | TextureDefinition |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8352e221-9533-4e52-bfb4-00285dd9dcec | |
+| GUID | String | 338e2a11-a1c0-484e-a765-8446088a14bf | |
 | expanded | Boolean | False | |
 
 ## See Also

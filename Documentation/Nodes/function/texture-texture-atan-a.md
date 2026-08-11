@@ -22,18 +22,20 @@ Applies `ATAN(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 6aa20376-1444-4223-af29-96a407ea2929 | |
+| GUID | String | b72a02df-a628-42b2-a6e5-a3b8f50f1487 | |
 | expanded | Boolean | False | |
 
 ## See Also

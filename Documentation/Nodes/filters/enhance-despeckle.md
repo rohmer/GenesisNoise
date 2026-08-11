@@ -22,11 +22,15 @@ Despeckle filter using a 3x3 per-channel median. Each pixel is replaced by the m
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Strength | Single |  |
+| Threshold | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

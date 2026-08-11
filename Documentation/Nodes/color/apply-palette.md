@@ -28,11 +28,27 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Mode | Single |  |
+| Steps | Single |  |
+| Contrast | Single |  |
+| Dither Strength | Single |  |
+| Color 0 | Color |  |
+| Color 1 | Color |  |
+| Color 2 | Color |  |
+| Color 3 | Color |  |
+| Color 4 | Color |  |
+| Color 5 | Color |  |
+| Color 6 | Color |  |
+| Color 7 | Color |  |
+| Color Count | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Scale | Vector4 | Frequency and tiling period |
+| Offset | Vector4 | Offset in noise space |
+| Amplitude | Single | Amplitude |
+| Contrast | Single | Contrast shaping |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

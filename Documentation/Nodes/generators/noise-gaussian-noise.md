@@ -29,11 +29,17 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Single | Global scale of the noise field |
+| Mean | Single | Mean of the Gaussian distribution |
+| Variance | Single | Standard deviation (spread) of the Gaussian |
+| Seed | Single | Random seed |
+| Color Output | Single | Output RGB instead of grayscale |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

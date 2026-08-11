@@ -29,11 +29,36 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape 1 | Texture2D |  |
+| Shape 2 | Texture2D |  |
+| Shape 3 | Texture2D |  |
+| Shape 4 | Texture2D |  |
+| Shape 5 | Texture2D |  |
+| Shape 6 | Texture2D |  |
+| Palette | Texture2D |  |
+| Use Shape | Single |  |
+| Number of Shapes | Single |  |
+| Use Palette | Single |  |
+| Scale | Vector4 | Global tiling of splatter grid |
+| Density | Single | Number of shapes per cell |
+| Jitter | Single | Random position jitter |
+| Rotation Jitter | Single | Random rotation |
+| Scale Min | Single | Random scale min |
+| Scale Max | Single | Random scale max |
+| Hue Jitter | Single | Random hue shift |
+| Sat Jitter | Single | Random saturation shift |
+| Val Jitter | Single | Random value shift |
+| Brightness Jitter | Single | Random brightness |
+| Blend Softness | Single | Blend softness |
+| Opacity | Single | Opacity |
+| Blend Mode | Single |  |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

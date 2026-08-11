@@ -29,11 +29,28 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Seed | Single |  |
+| Base Scale | Single |  |
+| Vignette Strength | Single |  |
+| Debug | Single |  |
+| Vertical Bias | Single |  |
+| Vertical Curve Exponent | Single |  |
+| Vertical Offset | Single |  |
+| Far Scale | Single |  |
+| Far Turbulence | Single |  |
+| Far Turb Scale | Single |  |
+| Far Weight | Single |  |
+| Near Scale | Single |  |
+| Near Turbulence | Single |  |
+| Near Turb Scale | Single |  |
+| Near Weight | Single |  |
+| Layer Blend Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,15 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Tiling | Vector4 |  |
+| Wavelength | Single |  |
+| Amplitude | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

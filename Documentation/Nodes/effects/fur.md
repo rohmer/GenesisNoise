@@ -22,11 +22,26 @@ Simulates fur on a texture, color based on another texture
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Source Texture |
+| Color | Texture2D | Color Texture |
+| Fur Layers | Single | Fur layers |
+| Fur Depth | Single | The depth of the fur |
+| View Position | Vector4 | View position defines where the result is viewed from |
+| Light direction | Vector4 | Direction light is aiming |
+| Specular Highlights | Single | Use specular highlights |
+| Specular Power | Single | Specular power increases the total power of the highlight |
+| Specular intensity | Single | Specular intensity increases the harshness of the highlight |
+| Rim lighting | Single | Enable Rim Lighting |
+| Rim light intensity | Single | Rim light intensity |
+| Procedural Strand Dir | Single | Use procedural strand direction |
+| Strand Flow Scale | Single | Procedural strand flow scale |
+| Seed | Single | Seed value |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

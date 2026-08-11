@@ -21,18 +21,20 @@ Serializes a mesh from the graph as a graph sub-asset so it can be reused by Blu
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mesh | GameObject |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Mesh | GameObject |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 08a992d8-479d-420b-ab81-22b24f613254 | |
+| GUID | String | e9c8059b-14b6-498e-a544-0289ce516755 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -24,11 +24,23 @@ Applies inward radial pincushion lens distortion to an input texture, with zoom 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input Texture | Texture2D |  |
+| UVs | Texture2D |  |
+| Center | Vector4 | Center of the lens |
+| Distortion | Single | Pincushion distortion amount |
+| Cubic Distortion | Single | Higher order inward edge pull |
+| Zoom | Single | Zoom compensation after distortion |
+| Chromatic | Single | Chromatic channel separation |
+| Edge Fade | Single | Edge fade for stretched borders |
+| Mix | Single | Blend between original and distorted image |
+| Scale | Single | Input UV scale |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

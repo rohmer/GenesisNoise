@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Direction XY | Vector4 |  |
+| Anisotropy | Single |  |
+| Warp Amount | Single |  |
+| Warp Scale | Single |  |
+| Softness | Single |  |
+| Contrast | Single |  |
+| Value Offset | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

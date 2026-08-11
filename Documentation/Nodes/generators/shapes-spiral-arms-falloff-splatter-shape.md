@@ -29,11 +29,31 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape | Texture2D |  |
+| Use Shape | Single |  |
+| Scale | Vector4 | Global tiling |
+| Arms | Single | Number of spiral arms |
+| Count Per Arm | Single | Instances per arm |
+| Start Radius | Single | Base radius at start |
+| Radius Step | Single | Radius growth per step |
+| Angle Step | Single | Base angular step per instance |
+| Radial Jitter | Single | Random radial jitter |
+| Angular Jitter | Single | Random angular jitter |
+| Rotation Jitter | Single | Random rotation per instance |
+| Scale Min | Single | Min scale |
+| Scale Max | Single | Max scale |
+| Falloff Strength | Single | Falloff strength |
+| Falloff Offset | Single | Falloff offset |
+| Falloff Mode | Single |  |
+| Blend Softness | Single | Blend softness |
+| Contrast | Single | Contrast shaping |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

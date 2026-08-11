@@ -23,11 +23,19 @@ Edge-detects the input, treats detected edges as borders, and produces a stable 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Input Mode | Single |  |
+| Steps | Single |  |
+| Mask Threshold | Single |  |
+| Edge Threshold | Single |  |
+| Edge Strength | Single |  |
+| Edge Crossing Samples | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

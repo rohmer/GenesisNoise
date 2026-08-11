@@ -22,11 +22,14 @@ Make Seamless, like GIMP Map. Blends the image with a copy of itself offset by h
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Amount | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

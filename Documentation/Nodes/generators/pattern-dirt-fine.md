@@ -29,18 +29,37 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale (speckle frequency) | Single |  |
+| Density (0..1) | Single |  |
+| Size (0..1) | Single |  |
+| Size Variation | Single |  |
+| Brightness | Single |  |
+| Contrast | Single |  |
+| Edge Softness | Single |  |
+| Motion Blur Enabled | Single |  |
+| Motion Angle (0..1) | Single |  |
+| Motion Length (taps) | Single |  |
+| Motion Samples (odd) | Single |  |
+| Motion Jitter | Single |  |
+| Seed | Single |  |
+| Curvature AO (optional) | Texture2D |  |
+| Use Curvature Input | Single |  |
+| Curvature Strength | Single |  |
+| Bijective Tile Permutation | Single |  |
+| Debug Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | bccc9b13-96a9-49da-9ae5-e6c791b5650c | |
+| GUID | String | e7d8f7bd-37b9-4c0e-b3f1-db0137f0650a | |
 | expanded | Boolean | False | |
 
 ## See Also

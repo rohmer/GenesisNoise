@@ -18,18 +18,23 @@ _No description available._
 
 | Name | Type | Description |
 |------|------|-------------|
+| Slope Map | Texture2D |  |
+| Moisture Map | Texture2D |  |
+| Height Field | HeightField |  |
+| Biomes | IList`1 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Biome Data | BiomeData |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c1ec0463-99c3-4bed-b45f-68077ab2adc3 | |
+| GUID | String | 7ac4a865-262d-49b7-9a0e-a5bc715a32b7 | |
 | expanded | Boolean | False | |
 
 ## See Also

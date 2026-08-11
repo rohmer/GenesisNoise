@@ -20,18 +20,20 @@ Creates a wind flow map from a heightfield. Red and green encode flow direction,
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height Field | HeightField |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Flow Map | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 78697b9b-b5b6-4abd-bc3d-e8e36928ec02 | |
+| GUID | String | c420d505-b88d-4529-be49-7ff9a64ccd63 | |
 | expanded | Boolean | False | |
 
 ## See Also

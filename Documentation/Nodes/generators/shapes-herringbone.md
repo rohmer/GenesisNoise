@@ -29,11 +29,17 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Tiling | Vector4 |  |
+| Width | Single |  |
+| Cells | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Vertical Mask | Texture2D |
+| Horizontal Mask | Texture2D |
+| Out | Texture2D |
 
 ## Parameters
 

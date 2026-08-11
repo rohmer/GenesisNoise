@@ -28,11 +28,19 @@ Smart Upsampler 3 is the big-boy variant
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Sharpness | Single |  |
+| Micro Detail 1 | Single |  |
+| Micro Detail 2 | Single |  |
+| Micro Detail 3 | Single |  |
+| Contrast | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

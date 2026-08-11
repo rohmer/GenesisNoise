@@ -25,11 +25,18 @@ A multi‑iteration blur
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Height | Texture2D |  |
+| Radius | Single |  |
+| Iterations | Single |  |
+| Height Sensitivity | Single |  |
+| Falloff | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mask | Texture2D |  |
+| Use Mask | Single |  |
+| Scale | Vector4 | Global tiling |
+| Center | Vector4 | Center of gradient |
+| Radius | Single | Radius of gradient |
+| Softness | Single | Softness of falloff |
+| Contrast | Single | Contrast shaping |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

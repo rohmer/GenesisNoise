@@ -33,11 +33,14 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| inputPoints | List`1 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Count | Int32 |
+| Image | Texture2D |
 
 ## Parameters
 
@@ -49,7 +52,7 @@ Output:
 | invert | Boolean | False | |
 | emptyColor | Color | RGBA(0.000, 0.000, 0.000, 1.000) | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 6e876ef4-3758-44de-af66-c2b83de66aa9 | |
+| GUID | String | e43b0dbe-aa85-426d-b52e-d19ade9c90de | |
 | expanded | Boolean | False | |
 
 ## See Also

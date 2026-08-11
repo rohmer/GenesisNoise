@@ -31,11 +31,26 @@ By default the input is edge-detected and non-edge interiors are filled. Switch 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Output Mode | Single |  |
+| Input Mode | Single |  |
+| Mask Threshold | Single |  |
+| Edge Threshold | Single |  |
+| Edge Strength | Single |  |
+| Search Radius | Single |  |
+| Edge Crossing Samples | Single |  |
+| Seed | Single |  |
+| Gradient Angle | Single |  |
+| Invert Gradient | Single |  |
+| Randomize Gradient Per Region | Single |  |
+| Random Color Saturation | Single |  |
+| Random Color Value | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

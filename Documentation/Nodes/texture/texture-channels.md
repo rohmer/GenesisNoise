@@ -22,18 +22,25 @@ Wraps a texture asset or input texture and exposes the source texture's full RGB
 
 | Name | Type | Description |
 |------|------|-------------|
+| Texture | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Grayscale | Texture2D |
+| A | Texture2D |
+| B | Texture2D |
+| G | Texture2D |
+| R | Texture2D |
+| RGBA | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fd169285-89d0-45ce-b405-484dbff4d6c9 | |
+| GUID | String | 0bccada1-d467-4cc7-b4d5-5bcb96b286ab | |
 | expanded | Boolean | False | |
 
 ## See Also

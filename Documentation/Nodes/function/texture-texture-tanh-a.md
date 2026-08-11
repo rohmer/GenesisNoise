@@ -22,18 +22,20 @@ Applies `TANH(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 9a5a3539-ce76-4a87-969b-5b3f241088da | |
+| GUID | String | 9a5bf234-846c-4f85-b9a7-7b510e5ce654 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -22,11 +22,14 @@ Scales the strength of a tangent-space normal map while keeping the output norma
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| Intensity | Single | 0 flattens the normal, 1 keeps it unchanged, values above 1 increase strength |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

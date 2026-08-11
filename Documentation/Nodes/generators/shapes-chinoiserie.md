@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Branch Width | Single | Width of branch strokes |
+| Blossom Size | Single | Size of blossoms |
+| Clouds | Single | Cloud amount |
+| Pagoda | Single | Pagoda accent amount |
+| Softness | Single | Soft edge |
+| Relief | Single | Paint or woven relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

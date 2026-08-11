@@ -29,18 +29,41 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Single |  |
+| Detail Strength | Single |  |
+| Contrast | Single |  |
+| Intensity | Single |  |
+| Speckle Scale | Single |  |
+| Speckle Density | Single |  |
+| Speck Size | Single |  |
+| Speck Size Variation | Single |  |
+| Speck Softness | Single |  |
+| Splatter Amount | Single |  |
+| Splatter Scale | Single |  |
+| Domain Warp Amount | Single |  |
+| Tile Blend | Single |  |
+| Large Noise Scale | Single |  |
+| Curvature AO | Texture2D |  |
+| Use Curvature Input | Single |  |
+| Curvature Strength | Single |  |
+| Permutation Texture | Texture2D |  |
+| Use Permutation Texture | Single |  |
+| Seed | Single |  |
+| Frame Jitter | Single |  |
+| Debug Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3fa1b82e-0ab2-4c45-b226-ffb99892ff68 | |
+| GUID | String | e79baeb2-2ccc-42d3-99fe-2f6b78de8a1d | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -20,11 +20,13 @@ Computes the signed distance field for a SDF Sphere primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Radius | Single | Radius of the sphere. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

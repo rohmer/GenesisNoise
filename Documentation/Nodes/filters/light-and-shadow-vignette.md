@@ -22,11 +22,18 @@ Vignette. Darkens (or lightens) the edges of the image toward a color, leaving t
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Center (XY) | Vector4 |  |
+| Size | Single |  |
+| Softness | Single |  |
+| Amount | Single |  |
+| Vignette Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

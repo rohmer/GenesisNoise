@@ -22,18 +22,22 @@ Add two normal maps using the surface gradient functions.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal A | Texture2D |  |
+| Normal B | Texture2D |  |
+| Constant | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fa36e0dc-dd9d-440b-a887-9fc14cd70666 | |
+| GUID | String | 54c93976-df1c-4936-9a7b-69be3147647b | |
 | expanded | Boolean | False | |
 
 ## See Also

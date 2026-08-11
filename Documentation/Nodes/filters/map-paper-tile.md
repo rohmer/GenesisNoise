@@ -22,11 +22,18 @@ Paper Tile, like GIMP Map. Breaks the image into a grid of paper tiles, each shi
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Divisions | Single |  |
+| Jitter | Single |  |
+| Gap | Single |  |
+| Background Color | Color |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

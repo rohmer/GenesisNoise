@@ -24,11 +24,17 @@ An optional mask can control where the dodge is applied.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Blend | Texture2D |  |
+| Mask | Texture2D |  |
+| Opacity | Single | Opacity of the color dodge effect |
+| Mask Opacity | Single | How strongly the mask affects dodge opacity. 0 ignores the mask, 1 uses the mask fully. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

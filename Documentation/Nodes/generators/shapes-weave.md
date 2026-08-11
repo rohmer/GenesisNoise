@@ -29,11 +29,21 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Width H | Single | Width of horizontal threads |
+| Width V | Single | Width of vertical threads |
+| Gap | Single | Gap between threads |
+| Softness | Single | Soft edge |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

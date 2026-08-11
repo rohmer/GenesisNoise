@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Single | Global scale of the plasma pattern |
+| Turbulence | Single | Turbulence strength |
+| Interference | Single | Interference strength |
+| Brightness | Single | Brightness |
+| Contrast | Single | Contrast |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

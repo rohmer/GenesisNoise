@@ -26,11 +26,33 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Color Count | Single |  |
+| Color 0 | Color |  |
+| Color 1 | Color |  |
+| Color 2 | Color |  |
+| Color 3 | Color |  |
+| Color 4 | Color |  |
+| Color 5 | Color |  |
+| Color 6 | Color |  |
+| Color 7 | Color |  |
+| Color 8 | Color |  |
+| Color 9 | Color |  |
+| Color 10 | Color |  |
+| Color 11 | Color |  |
+| Color 12 | Color |  |
+| Color 13 | Color |  |
+| Color 14 | Color |  |
+| Color 15 | Color |  |
+| Vertical Layout | Single |  |
+| Padding | Single |  |
+| Border Size | Single |  |
+| Border Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

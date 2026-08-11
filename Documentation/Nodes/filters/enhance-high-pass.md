@@ -22,11 +22,15 @@ High Pass detail enhancement. Computes a low-pass (box-blurred) version of the i
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Radius | Single |  |
+| Strength | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

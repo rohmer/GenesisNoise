@@ -27,6 +27,7 @@ Outputs a constant gradient value.
 
 | Name | Type |
 |------|------|
+| Gradient | Texture2D |
 
 ## Parameters
 
@@ -34,7 +35,7 @@ Outputs a constant gradient value.
 |---------|------|---------|-------------|
 | gradient | Gradient | UnityEngine.Gradient | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 335416ad-5201-4dd4-b299-caa35cdaf469 | |
+| GUID | String | b916c84f-6003-4167-afcd-7ed0301e8c7e | |
 | expanded | Boolean | False | |
 
 ## See Also

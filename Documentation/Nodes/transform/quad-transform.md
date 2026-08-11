@@ -31,11 +31,18 @@ To recreate this in Genesis CRT, we need a bilinear quad mapping:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Corner 0 (Bottom Left) | Vector4 |  |
+| Corner 1 (Bottom Right) | Vector4 |  |
+| Corner 2 (Top Right) | Vector4 |  |
+| Corner 3 (Top Left) | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

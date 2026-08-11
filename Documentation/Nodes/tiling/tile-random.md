@@ -22,11 +22,41 @@ Tile a texture, both straight tiling or stochastic
 
 | Name | Type | Description |
 |------|------|-------------|
+| Global Scale | Single |  |
+| Tiles X | Single |  |
+| Tiles Y | Single |  |
+| Mode | Single |  |
+| Texture Count | Single |  |
+| Use Tex1 | Single |  |
+| Use Tex2 | Single |  |
+| Use Tex3 | Single |  |
+| Use Tex4 | Single |  |
+| Texture 1 | Texture2D |  |
+| Texture 2 | Texture2D |  |
+| Texture 3 | Texture2D |  |
+| Texture 4 | Texture2D |  |
+| Prob Tex1 | Single |  |
+| Prob Tex2 | Single |  |
+| Prob Tex3 | Single |  |
+| Prob Tex4 | Single |  |
+| Seed (integer) | Single |  |
+| Rotation Jitter | Single |  |
+| Scale Jitter | Single |  |
+| Flip Chance | Single |  |
+| Random Position Strength | Single |  |
+| Random Size Strength | Single |  |
+| Min Size (fraction of half-tile) | Single |  |
+| Max Size (fraction of half-tile) | Single |  |
+| Edge Softness | Single |  |
+| Coverage (tile fill) | Single |  |
+| Blend Mode 0=Add 1=Multiply 2=Max | Single |  |
+| Debug | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

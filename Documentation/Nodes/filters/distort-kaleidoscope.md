@@ -26,11 +26,26 @@ category: "Filters/Distort"
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Tiling Mode | Single |  |
+| UV Mode | Single |  |
+| Segments | Single |  |
+| Rotation | Single |  |
+| Center Offset | Vector4 |  |
+| Fractal Zoom Strength | Single |  |
+| Fractal Zoom Speed | Single |  |
+| Fractal Warp | Single |  |
+| Swirl Amount | Single |  |
+| Scale | Single |  |
+| Time | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

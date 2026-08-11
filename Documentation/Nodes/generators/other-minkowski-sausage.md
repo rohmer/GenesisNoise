@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Scale | Single |  |
+| Jitter | Single |  |
+| Minkowski Power | Single |  |
+| Contrast | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

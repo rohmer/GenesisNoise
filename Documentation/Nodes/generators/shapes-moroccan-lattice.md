@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Rail Width | Single | Width of lattice rails |
+| Arch Height | Single | Height of the arch curve |
+| Joint Size | Single | Size of rounded intersections |
+| Ornament | Single | Inner ornament amount |
+| Softness | Single | Soft edge |
+| Relief | Single | Raised rail relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

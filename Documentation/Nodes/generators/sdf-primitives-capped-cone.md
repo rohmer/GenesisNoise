@@ -20,11 +20,15 @@ Computes the signed distance field for a SDF Capped Cone primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Single | Height of the cone. |
+| Bottom Radius | Single | Radius of the bottom cap. |
+| Top Radius | Single | Radius of the top cap. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

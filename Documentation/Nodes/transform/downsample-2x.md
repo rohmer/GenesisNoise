@@ -22,11 +22,13 @@ category: "Transform"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Source texture to downsample |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

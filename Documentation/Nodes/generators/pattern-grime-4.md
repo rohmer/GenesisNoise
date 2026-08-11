@@ -29,18 +29,34 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Large Blotch Density | Single |  |
+| Large Blotch Radius | Single |  |
+| Large Blotch Softness | Single |  |
+| Mid Noise Amount | Single |  |
+| Mid Noise Scale | Single |  |
+| Cavity Strength | Single |  |
+| Cavity Scale | Single |  |
+| Fine Dust | Single |  |
+| Fine Dust Scale | Single |  |
+| Fine Dust Sharpness | Single |  |
+| Micro Specks | Single |  |
+| Micro Speck Scale | Single |  |
+| Breakup Strength | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | cccdfb90-4af5-459a-880b-40a6bfa21076 | |
+| GUID | String | cd612608-105d-474c-a711-81d1b93af84f | |
 | expanded | Boolean | False | |
 
 ## See Also

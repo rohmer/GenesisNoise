@@ -29,11 +29,17 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| # of Toruses | Single | Number of toruses to create |
+| Enable Rotation | Single | Randomize rotation |
+| Enable Random Color | Single | Randomize color |
+| Start Color | Color | Starting random color |
+| End Color | Color | End random color |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

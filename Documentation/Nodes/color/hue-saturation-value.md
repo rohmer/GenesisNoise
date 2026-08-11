@@ -22,11 +22,18 @@ Modify the image in the HSV color space.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| HSV Offset | Texture2D |  |
+| Hue | Single |  |
+| Saturation | Single |  |
+| Value | Single |  |
+| Max Value | Single | For HDR images, you need to specify the maximum value of your image |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

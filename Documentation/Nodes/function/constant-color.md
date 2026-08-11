@@ -27,13 +27,18 @@ Outputs a constant color value.
 
 | Name | Type |
 |------|------|
+| Alpha | Single |
+| Blue | Single |
+| Green | Single |
+| Red | Single |
+| Color | Color |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c3a379a4-a178-48c6-afcb-bcb40e74a406 | |
+| GUID | String | 29d815bb-2464-4ae5-a6bb-487fc62a1c70 | |
 | expanded | Boolean | False | |
 
 ## See Also

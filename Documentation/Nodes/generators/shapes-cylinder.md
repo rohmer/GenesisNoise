@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| InnerColor | Color |  |
+| OuterColor | Color |  |
+| Radius | Single |  |
+| Length | Single |  |
+| Smooth | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

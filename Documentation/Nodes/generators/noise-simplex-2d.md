@@ -29,18 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Frequency and tiling |
+| Offset | Vector4 | Offset in noise space |
+| Amplitude | Single | Amplitude |
+| Contrast | Single | Contrast shaping |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 7788c082-0b3e-469d-a839-758844d098eb | |
+| GUID | String | 9593d332-b47d-4cac-901a-5d79d4358f06 | |
 | expanded | Boolean | False | |
 
 ## See Also

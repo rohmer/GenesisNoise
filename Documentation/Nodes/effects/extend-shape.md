@@ -27,11 +27,18 @@ category: "Effects"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Radius | Single |  |
+| Iterations | Single |  |
+| Softness | Single |  |
+| Direction Angle | Single |  |
+| Direction Strength | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

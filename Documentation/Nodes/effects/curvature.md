@@ -22,11 +22,17 @@ Simulates Substance’s Curvature node from a height map: convex/concave detecti
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Radius | Single |  |
+| Intensity | Single |  |
+| Invert Height | Single |  |
+| Separate Convex/Concave | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

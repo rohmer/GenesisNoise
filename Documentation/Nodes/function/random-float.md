@@ -22,18 +22,21 @@ Generates a random float value.
 
 | Name | Type | Description |
 |------|------|-------------|
+| max | Single |  |
+| min | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Single |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5919bba2-04f0-4549-8f7f-9b46648a4cb3 | |
+| GUID | String | 8d5ff2a0-47a7-4bd3-bcdf-199d909cbecf | |
 | expanded | Boolean | False | |
 
 ## See Also

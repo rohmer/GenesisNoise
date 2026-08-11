@@ -22,11 +22,16 @@ Noise reduction using an edge-preserving bilateral filter. Each pixel is average
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Radius | Single |  |
+| Spatial Sigma | Single |  |
+| Range Sigma | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

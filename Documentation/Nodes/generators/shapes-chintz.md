@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Stem Width | Single | Width of stem strokes |
+| Flower Size | Single | Size of flowers |
+| Leaf Size | Single | Size of leaves |
+| Filler | Single | Filler flower amount |
+| Softness | Single | Soft edge |
+| Relief | Single | Print or fabric relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

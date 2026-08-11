@@ -28,11 +28,24 @@ category: "Filters/Artistic"
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Sepia Strength | Single |  |
+| Fade Amount | Single |  |
+| Vignette Strength | Single |  |
+| Film Grain | Single |  |
+| Dust Amount | Single |  |
+| Scratches Amount | Single |  |
+| Paper Tint | Color |  |
+| UV Scale | Single |  |
+| Seed | Single |  |
+| Time | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

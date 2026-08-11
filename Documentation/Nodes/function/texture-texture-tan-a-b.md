@@ -22,18 +22,21 @@ Applies `TAN(A*B)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 82a16a7b-9ded-4a77-b7e7-217316769944 | |
+| GUID | String | 544539d3-ee3d-46a7-bdb6-33ce3523eb6c | |
 | expanded | Boolean | False | |
 
 ## See Also

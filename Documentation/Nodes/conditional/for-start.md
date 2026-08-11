@@ -22,18 +22,23 @@ Begins a for-loop flow block.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Count | Int32 |  |
+| Input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Count | Int32 |
+| Index | Int32 |
+| Output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 092c0e11-151b-44ab-a379-4f43cb8bc090 | |
+| GUID | String | 42e572b4-2c12-42dd-b301-dd97ed410376 | |
 | expanded | Boolean | False | |
 
 ## See Also

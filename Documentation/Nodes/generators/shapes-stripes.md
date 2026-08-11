@@ -29,11 +29,16 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Frequency | Single |  |
+| Offset | Single |  |
+| Thickness | Single |  |
+| Rotation | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

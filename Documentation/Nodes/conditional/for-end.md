@@ -22,11 +22,13 @@ Closes a for-loop flow block.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Object |
 
 ## Parameters
 
@@ -34,7 +36,7 @@ Closes a for-loop flow block.
 |---------|------|---------|-------------|
 | mode | AggregationMode | FeedbackToStartNode | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 354f168d-3af8-4d1f-aeff-34cdbf83cc5f | |
+| GUID | String | 6fa46ed4-ef89-4a4d-8d8c-0b98d52fb0e4 | |
 | expanded | Boolean | False | |
 
 ## See Also

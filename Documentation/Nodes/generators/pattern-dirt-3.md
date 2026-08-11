@@ -29,18 +29,41 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Preset | Single |  |
+| Scale | Single |  |
+| Intensity | Single |  |
+| Spread | Single |  |
+| Angle | Single |  |
+| Anisotropy | Single |  |
+| Smear | Single |  |
+| Edge Only | Single |  |
+| Edge Boost | Single |  |
+| Edge Scale | Single |  |
+| Padding | Single |  |
+| Tile Offset | Vector4 |  |
+| Non Square Expansion | Single |  |
+| Per Tile Randomization | Single |  |
+| Per Tile Angle Jitter | Single |  |
+| Per Tile Aspect Jitter | Single |  |
+| Bijective Permutation | Single |  |
+| Curvature / AO | Texture2D |  |
+| Use Curvature Input | Single |  |
+| Curvature Strength | Single |  |
+| Seed | Single |  |
+| Debug Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5a8e8a05-35f3-45c0-840d-930776e4ac20 | |
+| GUID | String | cd2c45e1-fa07-4bdc-98d1-0cc041d197e6 | |
 | expanded | Boolean | False | |
 
 ## See Also

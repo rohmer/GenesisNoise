@@ -22,18 +22,20 @@ Applies `LOG2(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 92ee0ac7-76ad-4057-815e-63f8b555c147 | |
+| GUID | String | c9b44072-3941-4f20-a2d9-507633a14c93 | |
 | expanded | Boolean | False | |
 
 ## See Also

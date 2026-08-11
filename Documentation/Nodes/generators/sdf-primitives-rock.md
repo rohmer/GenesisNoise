@@ -20,11 +20,19 @@ Computes the signed distance field for a SDF Rock primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Single | Overall scale of the rock. |
+| Detail | Single | Amount of surface deformation. |
+| Seed | Single | Seed for the random shape. |
+| Octaves | Single | Number of noise octaves. |
+| Stretch X | Single | Stretch along X. |
+| Stretch Y | Single | Stretch along Y. |
+| Stretch Z | Single | Stretch along Z. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

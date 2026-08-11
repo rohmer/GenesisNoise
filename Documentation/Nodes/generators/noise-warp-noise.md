@@ -29,11 +29,25 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Color Source | Single | Use source as color input or generate from selected colors |
+| Input | Texture2D |  |
+| Color Start | Color | Starting point for color curve |
+| Color End | Color | Ending point for color curve |
+| Warp Amount | Single |  |
+| Warp Frequency | Single |  |
+| Warp Speed | Single |  |
+| Noise Strength | Single |  |
+| Noise Scale | Single |  |
+| Barrel/Pincushion K | Single |  |
+| Chromatic Shift | Single |  |
+| Warp Center (XY) | Vector4 |  |
+| Seed | Single | Seed driving time phase of the warp |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

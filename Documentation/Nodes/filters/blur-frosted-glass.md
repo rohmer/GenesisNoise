@@ -22,11 +22,17 @@ A frosted glass style effect
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Source Texture |
+| Blur Strength | Single | Tooltip(Strength of the blur |
+| Distortion Strength | Single | Influence of distortion |
+| Matrix Size | Single | Blur matrix size |
+| Tint | Color | Added Tint Color, set alpha to 0.0 to disable |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,20 @@ computes an approximate distance map from a binary feature mask derived from the
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Feature Threshold (luma) | Single |  |
+| Max Radius (texels) | Single |  |
+| Normalize by MaxRadius (0/1) | Single |  |
+| Signed Distance (0=unsigned,1=signed) | Single |  |
+| Invert Mask (0/1) | Single |  |
+| Output Mode (0=Gray,1=ColorRamp) | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,13 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Color | Color | Color used to fill the entire output texture |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

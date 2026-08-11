@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Single |  |
+| Base Jitter | Single |  |
+| Worley Octaves | Single |  |
+| Octave Gain | Single |  |
+| Lacunarity | Single |  |
+| FBM Scale | Single |  |
+| FBM Intensity | Single |  |
+| FBM Octaves | Single |  |
+| Facet Sharpness | Single |  |
+| Edge Boost | Single |  |
+| Debug Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

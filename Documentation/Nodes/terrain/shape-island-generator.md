@@ -18,11 +18,14 @@ _No description available._
 
 | Name | Type | Description |
 |------|------|-------------|
+| Noise Function | Texture2D |  |
+| Points | List`1 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Island Shape | IslandShape |
 
 ## Parameters
 
@@ -31,11 +34,11 @@ _No description available._
 | TerrainSize | eTerrainSize | x4096 | |
 | useCoasts | Boolean | True | |
 | forceEdgeOcean | Boolean | True | |
-| heightCurve | AnimationCurve | — | |
+| heightCurve | AnimationCurve | UnityEngine.AnimationCurve | |
 | noiseInfluence | Single | 0.5 | |
 | allowLakes | Boolean | True | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ed14d020-ea8b-41ab-bb2f-cef967883c6f | |
+| GUID | String | f05d13ff-5825-495c-a432-d50ca2a262bd | |
 | expanded | Boolean | False | |
 
 ## See Also

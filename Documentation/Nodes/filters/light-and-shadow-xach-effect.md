@@ -22,11 +22,21 @@ Xach-Effect: a glossy raised bevel, the classic GIMP-style lettering effect. Usi
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Light Offset (XY) | Vector4 |  |
+| Softness | Single |  |
+| Highlight Color | Color |  |
+| Highlight Strength | Single |  |
+| Shadow Strength | Single |  |
+| Drop Offset | Vector4 |  |
+| Drop Opacity | Single |  |
+| Drop Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

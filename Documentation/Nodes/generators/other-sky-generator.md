@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input Noise | Texture2D |  |
+| Cloud Scale | Single | Scale of the clouds, larger is bigger clouds |
+| Dark Clouds | Single |  |
+| Light Clouds | Single |  |
+| % Cloud Cover | Single |  |
+| Cloud Transparancy | Single |  |
+| Tint of Sky | Single |  |
+| Sky Color 1 | Color |  |
+| Sky Color 2 | Color |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

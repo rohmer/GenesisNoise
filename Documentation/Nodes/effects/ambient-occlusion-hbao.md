@@ -27,11 +27,20 @@ Use this when you want:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Use World Units | Single |  |
+| Height Depth | Single |  |
+| Surface Size | Single |  |
+| Height Scale (cm) | Single |  |
+| Radius | Single |  |
+| Quality | Single |  |
+| GPU Optimization | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

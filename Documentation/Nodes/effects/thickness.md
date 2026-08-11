@@ -27,11 +27,23 @@ This node works well for:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Radius | Single |  |
+| Samples | Single |  |
+| Strength | Single |  |
+| Bias | Single |  |
+| Contrast | Single |  |
+| Invert Height | Single |  |
+| AO Weight | Single |  |
+| Cavity Weight | Single |  |
+| Thickness Weight | Single |  |
+| Slope Weight | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

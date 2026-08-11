@@ -29,11 +29,23 @@ Rust Weathering is one of the most iconic, high‑impact material effects in pro
 
 | Name | Type | Description |
 |------|------|-------------|
+| Metal Height | Texture2D |  |
+| Oxidation Layer | Single |  |
+| Cavity Rust | Single |  |
+| Rust Flaking | Single |  |
+| Micro Pitting | Single |  |
+| Pitting Frequency | Single |  |
+| Rust Streaks | Single |  |
+| Streak Direction | Single |  |
+| Rust Spread | Single |  |
+| Contrast | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

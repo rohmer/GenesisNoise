@@ -28,11 +28,18 @@ It’s not SSAO, not blur, not curvature — it’s a multi‑directional, weigh
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Radius | Single |  |
+| Strength | Single |  |
+| Height Bias | Single |  |
+| Sample Count | Single |  |
+| Hemisphere Weight | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

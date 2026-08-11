@@ -22,18 +22,21 @@ Casts the input value to Vector2Int.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Y | Object |  |
+| X | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Vector2Int |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 010bdd45-78e6-4118-add5-cc19bac33eea | |
+| GUID | String | aecc6a17-3982-4a47-9e20-42a258c67b4c | |
 | expanded | Boolean | False | |
 
 ## See Also

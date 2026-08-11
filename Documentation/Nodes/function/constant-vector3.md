@@ -27,13 +27,17 @@ Outputs a constant vector3 value.
 
 | Name | Type |
 |------|------|
+| Z | Single |
+| Y | Single |
+| X | Single |
+| output | Vector3 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5f2b2095-e680-4530-a84a-4b5b32e2c46e | |
+| GUID | String | 33369ad9-d3da-4707-bcfd-a740623a1f43 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -24,18 +24,22 @@ Below: pixels with luminance < threshold
 
 | Name | Type | Description |
 |------|------|-------------|
+| Threshold | Single |  |
+| Texture | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Below | Texture2D |
+| Above | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 216c58fb-20ac-4ff1-9ccd-5278e01f07f2 | |
+| GUID | String | 22b00b04-9983-436f-b07a-4bfc63a2bca8 | |
 | expanded | Boolean | False | |
 
 ## See Also

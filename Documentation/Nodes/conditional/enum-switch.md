@@ -24,18 +24,24 @@ String selections are still matched against case labels for compatibility with o
 
 | Name | Type | Description |
 |------|------|-------------|
+| Case 0 | Object |  |
+| Case 1 | Object |  |
+| Case 2 | Object |  |
+| Default | Object |  |
+| Selection | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Result | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f478fca7-ce46-4c06-a68c-4922932f90e8 | |
+| GUID | String | c77e09a6-022f-4cc0-8ff0-354992ee2bf7 | |
 | expanded | Boolean | False | |
 
 ## See Also

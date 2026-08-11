@@ -24,18 +24,24 @@ The loop carries an input value between iterations while also exposing the curre
 
 | Name | Type | Description |
 |------|------|-------------|
+| Collection | Object |  |
+| Input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Count | Int32 |
+| Index | Int32 |
+| Item | Object |
+| Output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | cf743e76-9d96-46e8-bf9b-8ba50835a780 | |
+| GUID | String | 4415fb06-2f63-49f6-901f-4cd47782e000 | |
 | expanded | Boolean | False | |
 
 ## See Also

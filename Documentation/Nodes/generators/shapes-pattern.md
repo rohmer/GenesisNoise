@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Pattern Type | Single |  |
+| XScale | Single | X Scale |
+| YScale | Single | Y Scale |
+| Width | Single |  |
+| Smoothness | Single | Smoothness |
+| Count | Single |  |
+| Amplitude | Single |  |
+| Interpolate | Single |  |
+| Distance | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

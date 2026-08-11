@@ -34,11 +34,18 @@ It works by:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Grid Size | Single |  |
+| Feather Amount | Single |  |
+| Random Offset | Single |  |
+| Random Rotate | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

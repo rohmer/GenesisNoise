@@ -29,11 +29,15 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Tiling | Vector4 |  |
+| Size | Single |  |
+| Offset | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

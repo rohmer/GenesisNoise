@@ -22,11 +22,14 @@ Applies a color temperature/tint color to an input texture, with strength and lu
 
 | Name | Type | Description |
 |------|------|-------------|
+| Color | Color |  |
+| Source | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

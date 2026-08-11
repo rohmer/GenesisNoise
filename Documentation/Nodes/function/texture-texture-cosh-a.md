@@ -22,18 +22,20 @@ Applies `COSH(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3c39416e-bb88-4557-821c-6b66627a099f | |
+| GUID | String | e6f0b1a5-f8fd-4593-85c5-f5a7cf17f94f | |
 | expanded | Boolean | False | |
 
 ## See Also

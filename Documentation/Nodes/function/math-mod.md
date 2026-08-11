@@ -22,18 +22,21 @@ Returns the remainder of A divided by B.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c22bce8b-5ae5-4f4b-bd02-b64f2d9d1dfe | |
+| GUID | String | 55dcfc22-ee38-4aef-8d04-48eb7e69cf26 | |
 | expanded | Boolean | False | |
 
 ## See Also

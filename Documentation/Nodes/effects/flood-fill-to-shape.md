@@ -33,11 +33,18 @@ To replicate this in Genesis CRT, we combine:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Region ID | Texture2D |  |
+| Bounding Box | Texture2D |  |
+| Shape Type | Single |  |
+| Softness | Single |  |
+| Randomize Per Region | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

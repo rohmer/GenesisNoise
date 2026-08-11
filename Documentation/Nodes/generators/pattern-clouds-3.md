@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Chunkiness | Single |  |
+| Warp Amount | Single |  |
+| Warp Scale | Single |  |
+| Softness | Single |  |
+| Contrast | Single |  |
+| Value Offset | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

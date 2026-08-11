@@ -32,11 +32,17 @@ In Genesis, this node is used constantly for:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Scale (X,Y) | Vector4 |  |
+| Offset (X,Y) | Vector4 |  |
+| Center | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,19 @@ Photocopy, like GIMP. Turns the image into a stark high-contrast black-and-white
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Mask Size | Single |  |
+| Sharpness | Single |  |
+| Black | Single |  |
+| White | Single |  |
+| Grain | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

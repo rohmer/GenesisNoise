@@ -22,11 +22,18 @@ Impressionist, like GIMP. Smears the image into painterly brush strokes that fol
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Angle | Single |  |
+| Variation | Single |  |
+| Length | Single |  |
+| Brush Density | Single |  |
+| Steps | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

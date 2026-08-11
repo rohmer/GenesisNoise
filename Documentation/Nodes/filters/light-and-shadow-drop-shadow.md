@@ -22,11 +22,17 @@ Drop shadow. Casts a soft shadow behind the input using the input alpha channel 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Offset | Vector4 |  |
+| Softness | Single |  |
+| Opacity | Single |  |
+| Shadow Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,20 @@ Returns the hyperbolic cosine of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 18c99185-77c3-40a1-9226-2d5a3fbe5361 | |
+| GUID | String | af740e87-205b-4e94-bccf-b632c4e86f7f | |
 | expanded | Boolean | False | |
 
 ## See Also

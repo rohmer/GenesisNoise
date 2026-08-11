@@ -22,18 +22,22 @@ Conditionally outputs either the true of false value depending on the condition 
 
 | Name | Type | Description |
 |------|------|-------------|
+| condition | Boolean |  |
+| False | Object |  |
+| True | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Result | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | af97ac07-bb24-4072-9211-07e397a3392e | |
+| GUID | String | d7e6c235-6d1b-4145-b671-c9969f11e212 | |
 | expanded | Boolean | False | |
 
 ## See Also

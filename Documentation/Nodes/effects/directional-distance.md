@@ -29,11 +29,18 @@ It computes distance to a feature (usually black/white mask) along a specified d
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mask | Texture2D |  |
+| Direction Map | Texture2D |  |
+| Max Distance (px) | Single |  |
+| Mask Threshold | Single |  |
+| Direction Strength | Single |  |
+| Direction Is Vector | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

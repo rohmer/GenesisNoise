@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Single | Scale of the marble |
+| Ratio | Single | Length vs width ratio |
+| Cracking | Single | Defines the level of cracking added to the output |
+| Crack Scale | Single | Adjustments change the shape of the cracks |
+| Crack shape | Single | Larger numbers equate to more whorlly cracks, smaller numbers more poliginal |
+| Crack Profile | Single | Determines the width of the individual cracks, simulating aging.  0.9 is tight cracking, 1.1 is wider more worn cracking |
+| Crack Slope | Single | Slope of crack.  Additional modifications to the thickness of the cracking feature |
+| Amplify Jitter | Single | Amplify jittering of Voronoi |
+| Perlin Effect | Single | Level of effect of Perlin noise |
+| Colorize | Single | Will output in color for further processing |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

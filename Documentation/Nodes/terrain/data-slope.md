@@ -20,18 +20,20 @@ Creates a grayscale slope map from a heightfield. White represents steeper slope
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height Field | HeightField |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Slope Map | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b820a083-ac11-4b0b-b3f9-68a3847c282d | |
+| GUID | String | 5351b519-b7ee-44d1-a837-c09e62a6de0e | |
 | expanded | Boolean | False | |
 
 ## See Also

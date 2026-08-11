@@ -23,11 +23,18 @@ Smart Upsampler 2 is the natural evolution of Noise Upscale 1 — sharper, more 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Sharpness | Single |  |
+| Micro Detail | Single |  |
+| High-Freq Detail | Single |  |
+| Contrast | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

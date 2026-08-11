@@ -22,18 +22,21 @@ Generates a random point inside a cube.
 
 | Name | Type | Description |
 |------|------|-------------|
+| pt2 | Vector3 |  |
+| pt1 | Vector3 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Vector3 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 10bf3fef-a4f6-4edc-93d4-7ec40bb44bfc | |
+| GUID | String | 5377f1ed-e296-40a0-80e8-fc39b2968c74 | |
 | expanded | Boolean | False | |
 
 ## See Also

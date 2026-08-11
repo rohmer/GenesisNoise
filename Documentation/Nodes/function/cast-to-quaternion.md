@@ -22,18 +22,22 @@ Casts the input value to Quaternion.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Euler Z | Single |  |
+| Euler Y | Single |  |
+| Euler X | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Quaternion |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3877ccd6-c566-4838-a106-aea48f34711c | |
+| GUID | String | e1abcb76-ea86-4d68-9b7a-09e55f3ba2ec | |
 | expanded | Boolean | False | |
 
 ## See Also

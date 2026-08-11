@@ -32,11 +32,17 @@ This is perfect for:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Mirror X | Single |  |
+| Mirror Y | Single |  |
+| Center | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

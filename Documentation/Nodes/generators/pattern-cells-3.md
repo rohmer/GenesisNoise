@@ -29,11 +29,26 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 |  |
+| Disorder | Single |  |
+| Disorder Speed | Single |  |
+| Disorder Anisotropy | Single |  |
+| Disorder Anisotropy Angle | Single |  |
+| Pattern Scale | Single |  |
+| Edge Width | Single |  |
+| Interior Contrast | Single |  |
+| Luminance Random | Single |  |
+| Angle | Single |  |
+| Angle Random | Single |  |
+| Tile Offset | Vector4 |  |
+| Non-square expansion | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

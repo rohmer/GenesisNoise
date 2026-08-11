@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Scale | Vector4 | Number of tiles, x and y |
+| Gain | Single | Gain for each octave |
+| OctaveFactor | Single | The octave intensity factor, the lower the more pronounced the lower octaves will be |
+| Jitter | Single |  |
+| Seed value | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

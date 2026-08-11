@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Count | Single | Number of splats |
+| Radius | Single | Base radius of the circle |
+| Global Scale | Single | Global scale multiplier |
+| Radial Jitter | Single | Radial jitter amount |
+| Angular Jitter | Single | Angular jitter amount |
+| Scale Jitter | Single | PerSplat scale randomness |
+| Rotation Jitter | Single | PerSplat rotation randomness |
+| Opacity Jitter | Single | PerSplat opacity randomness |
+| Falloff | Single | Soft falloff of splats |
+| Blend Mode | Single | Blend mode |
+| Splat Texture | Texture2D | Optional input splat shape |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,21 @@ Adds the input values.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 850b35a7-ca5f-48b4-b217-2d29db89fa28 | |
+| GUID | String | 4edcdcd2-9591-43f5-9a89-f9d3143d69af | |
 | expanded | Boolean | False | |
 
 ## See Also

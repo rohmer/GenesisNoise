@@ -38,11 +38,19 @@ To recreate this in Genesis CRT, we need to build a height‑from‑shape gradie
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape | Texture2D |  |
+| Height Amount | Single |  |
+| Softness | Single |  |
+| Emboss Mode | Single |  |
+| Light Angle | Single |  |
+| Intensity | Single |  |
+| Profile | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

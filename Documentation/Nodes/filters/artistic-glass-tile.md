@@ -22,11 +22,16 @@ Glass Tile, like GIMP. Divides the image into tiles that act like little lenses,
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Tile Width | Single |  |
+| Tile Height | Single |  |
+| Curvature | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

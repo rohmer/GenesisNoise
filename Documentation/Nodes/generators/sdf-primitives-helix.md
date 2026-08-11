@@ -20,11 +20,16 @@ Computes the signed distance field for a SDF Helix primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Radius | Single | Radius of the helix. |
+| Thickness | Single | Thickness of the helix tube. |
+| Pitch | Single | Height of one full turn. |
+| Turns | Single | Number of turns. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

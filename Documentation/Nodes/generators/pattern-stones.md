@@ -29,11 +29,27 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| World tiling (stones per unit) | Single |  |
+| Stone roundness | Single |  |
+| Mortar width | Single |  |
+| Mortar softness | Single |  |
+| Height to normal strength | Single |  |
+| Tri-planar sharpness | Single |  |
+| Ambient occlusion intensity | Single |  |
+| Edge wear (darken near borders) | Single |  |
+| Seed | Single |  |
+| Stone color A | Color |  |
+| Stone color B | Color |  |
+| Mortar color | Color |  |
+| Light direction (world) | Vector4 |  |
+| Light color | Color |  |
+| Ambient color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

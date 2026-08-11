@@ -24,18 +24,24 @@ If the selection is outside the available case range, the default input is retur
 
 | Name | Type | Description |
 |------|------|-------------|
+| Case 0 | Object |  |
+| Case 1 | Object |  |
+| Case 2 | Object |  |
+| Default | Object |  |
+| Selection | Int32 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Result | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ac3d0235-798f-440c-9fab-a2d2b7cd8076 | |
+| GUID | String | a138e0a7-36fc-41d0-8aed-53e6fdccf3b7 | |
 | expanded | Boolean | False | |
 
 ## See Also

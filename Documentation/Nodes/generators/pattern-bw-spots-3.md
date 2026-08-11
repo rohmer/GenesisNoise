@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Spot Density | Single |  |
+| Cell Scale | Single |  |
+| Softness | Single |  |
+| Min Radius | Single |  |
+| Max Radius | Single |  |
+| Warp Amount | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

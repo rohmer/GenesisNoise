@@ -29,18 +29,25 @@ And it’s distinct from Directional Warp or Vector Warp.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Input texture |
+| Noise Scale | Single | Noise scale |
+| Intensity | Single | Warp intensity |
+| Seed | Single | Random seed |
+| Mask | Texture2D | Optional mask |
+| Mask Strength | Single | Mask strength |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 1895de33-1f8b-4555-a2ae-8e5b7ae5bdc8 | |
+| GUID | String | b7dbe450-e4b1-48b8-8224-78913a05e457 | |
 | expanded | Boolean | False | |
 
 ## See Also

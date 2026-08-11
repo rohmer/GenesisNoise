@@ -22,11 +22,15 @@ Adjusts black point, white point, gamma, and output range for the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| max | Single |  |
+| min | Single |  |
+| input | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Texture2D |
 
 ## Parameters
 
@@ -39,7 +43,7 @@ Adjusts black point, white point, gamma, and output range for the input.
 | interpolationCurveG | AnimationCurve | UnityEngine.AnimationCurve | |
 | interpolationCurveB | AnimationCurve | UnityEngine.AnimationCurve | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e904f88c-20b6-4ac4-8850-d9d1196ff0b1 | |
+| GUID | String | d59558e4-69ec-4cb8-b4bd-6a11dfffa790 | |
 | expanded | Boolean | False | |
 
 ## See Also

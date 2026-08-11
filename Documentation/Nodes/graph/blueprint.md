@@ -28,13 +28,14 @@ Assign a Genesis graph asset, choose one of its output nodes, and this node will
 
 | Name | Type |
 |------|------|
+| Output | Texture |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 7e320ce4-997b-43af-aa9b-5c33fffee185 | |
+| GUID | String | 4ee6dc09-abf6-4116-ba5a-3c666da11ad7 | |
 | expanded | Boolean | False | |
 
 ## See Also

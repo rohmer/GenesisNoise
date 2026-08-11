@@ -22,11 +22,16 @@ Spread, like GIMP. Displaces each pixel to a random nearby position, scrambling 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Amount X | Single |  |
+| Amount Y | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -20,11 +20,16 @@ Output an HDRP Layered Lit Tessellation material (up to four layers).
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Map 3 | Texture2D |  |
+| Base Map 2 | Texture2D |  |
+| Base Map 1 | Texture2D |  |
+| Base Map 0 | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Layered Lit Tessellation Material | Material |
 
 ## Parameters
 
@@ -41,7 +46,7 @@ Output an HDRP Layered Lit Tessellation material (up to four layers).
 | tessellationFactor | Single | 4 | |
 | layerCount | Int32 | 2 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8fc48e29-9a43-4c10-a6b7-353d40400a8b | |
+| GUID | String | 98ff6961-c76e-438a-81b1-ea5ec11b1b49 | |
 | expanded | Boolean | False | |
 
 ## See Also

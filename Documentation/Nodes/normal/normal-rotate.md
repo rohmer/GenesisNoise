@@ -22,18 +22,22 @@ Rotate the normal map vector with a certain angle in degree.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal Map | Texture2D |  |
+| Rotation Map | Texture2D |  |
+| Rotation In Degree | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 822930cc-4835-409d-aecd-ff020aa96d13 | |
+| GUID | String | 8cbb6c06-467f-42bf-8fa3-83c26405b28e | |
 | expanded | Boolean | False | |
 
 ## See Also

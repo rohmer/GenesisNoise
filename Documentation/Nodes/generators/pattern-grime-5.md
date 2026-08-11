@@ -29,18 +29,32 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Cloud Amount | Single |  |
+| Cloud Scale | Single |  |
+| Cloud Softness | Single |  |
+| Fine Dust | Single |  |
+| Fine Dust Scale | Single |  |
+| Fine Dust Sharpness | Single |  |
+| Micro Specks | Single |  |
+| Micro Speck Scale | Single |  |
+| High Frequency Noise | Single |  |
+| High Frequency Scale | Single |  |
+| Breakup Strength | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 26d261ed-c82b-481d-8404-b1871a80b21a | |
+| GUID | String | a6f40310-6253-45cc-9a3f-9237375d3cc0 | |
 | expanded | Boolean | False | |
 
 ## See Also

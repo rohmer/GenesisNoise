@@ -29,11 +29,17 @@ Swirl node is one of those classic 2D deformation operators: a radial rotation f
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Swirl Amount | Single |  |
+| Radius | Single |  |
+| Softness | Single |  |
+| Center | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

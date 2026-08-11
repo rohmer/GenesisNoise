@@ -28,11 +28,31 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| R from R | Single |  |
+| R from G | Single |  |
+| R from B | Single |  |
+| R from A | Single |  |
+| G from R | Single |  |
+| G from G | Single |  |
+| G from B | Single |  |
+| G from A | Single |  |
+| B from R | Single |  |
+| B from G | Single |  |
+| B from B | Single |  |
+| B from A | Single |  |
+| A from R | Single |  |
+| A from G | Single |  |
+| A from B | Single |  |
+| A from A | Single |  |
+| Clamp Output | Single |  |
+| Force Grayscale Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,31 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global UV scale |
+| Offset | Vector4 | Global UV offset |
+| Angle | Single | Direction of the scratches in radians |
+| Angle Jitter | Single | Random angle variation per scratch |
+| Density | Single | Number of potential scratches per region |
+| Min Length | Single | Minimum scratch length |
+| Max Length | Single | Maximum scratch length |
+| Min Width | Single | Minimum scratch width |
+| Max Width | Single | Maximum scratch width |
+| Position Jitter | Single | Random offset inside each scratch cell |
+| Breakup | Single | Breaks scratches into worn segments |
+| Roughness | Single | High frequency roughness along scratch edges |
+| Edge Softness | Single | Softness at scratch edges and tips |
+| Intensity | Single | Output intensity |
+| Contrast | Single | Output contrast |
+| Invert | Single | Invert the generated scratches |
+| Seed | Single | Randomization seed |
+| Mask | Texture2D | Optional mask texture |
+| Mask Strength | Single | How strongly the mask limits scratches |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

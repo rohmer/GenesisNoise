@@ -22,11 +22,22 @@ Pixelization node with scan line support
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Source Texture |
+| Resolution X | Single | Simulated resolution width |
+| Resolution Y | Single | Simulated resolution height |
+| Scan Intensity | Single | Scan line intensity |
+| Vignette Intensity | Single | Vignette intensity |
+| Barrel Warp | Single | Use barrel warping |
+| Chromatic Intensity | Single | Use chromatic intesity |
+| Barrel Warp | Vector4 | Barrel warping intensity |
+| Sub-pixel Bleed | Single | Use subpixel bleeding effect |
+| Chroma Intensity | Single | Chroma intesity |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

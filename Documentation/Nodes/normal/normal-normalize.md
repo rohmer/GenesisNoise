@@ -30,11 +30,15 @@ A proper normalize step prevents shading artifacts and keeps downstream nodes st
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| Normalize Strength | Single |  |
+| Preserve Z | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

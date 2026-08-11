@@ -22,18 +22,22 @@ Multiplies a normal by another normal and/or a constant
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal A | Texture2D |  |
+| Normal B | Texture2D |  |
+| Constant | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3c8ef5d7-ce3f-4f42-8295-3ceba43ff5e3 | |
+| GUID | String | 617c2df9-9d10-4099-9c56-412f59251039 | |
 | expanded | Boolean | False | |
 
 ## See Also

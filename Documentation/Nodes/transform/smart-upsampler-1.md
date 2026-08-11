@@ -27,11 +27,16 @@ Smart Upsampler 1 takes a low‑resolution noise and reconstructs a higher‑res
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Sharpness | Single |  |
+| Micro Detail | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

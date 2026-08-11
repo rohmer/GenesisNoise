@@ -22,18 +22,21 @@ Returns the logarithm of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4fa52a76-d2c0-47c6-a845-23ffa78e6a8f | |
+| GUID | String | 1c49a3b7-e7ae-4432-9119-6f196ddfafcb | |
 | expanded | Boolean | False | |
 
 ## See Also

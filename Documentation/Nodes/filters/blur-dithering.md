@@ -26,11 +26,16 @@ Random offset per pixel
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Source Texture |
+| Dithering Algorithm | Single | Dithering algorithm |
+| Samples | Single | Number of samples, higher is more expensive |
+| Seed | Single | Seed for randomness |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

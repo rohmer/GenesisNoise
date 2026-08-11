@@ -20,11 +20,16 @@ Computes the signed distance field for a SDF Cube primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Width | Single | Width of the cube (X axis). |
+| Height | Single | Height of the cube (Y axis). |
+| Depth | Single | Depth of the cube (Z axis). |
+| Roundness | Single | Rounding radius for the cube edges. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

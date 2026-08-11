@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Band Width | Single | Width of each gingham band |
+| Band Strength | Single | Darkness of single direction bands |
+| Overlap Strength | Single | Darkness of overlapping bands |
+| Thread Detail | Single | Fine woven thread detail |
+| Softness | Single | Soft edge |
+| Relief | Single | Woven relief amount |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

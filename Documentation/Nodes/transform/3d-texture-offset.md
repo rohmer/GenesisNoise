@@ -27,13 +27,14 @@ category: "Transform"
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 13fb1eb7-e702-4093-b0cd-c8c4f355b998 | |
+| GUID | String | 76f5d463-34eb-4c0c-8350-9e82b94770cf | |
 | expanded | Boolean | False | |
 
 ## See Also

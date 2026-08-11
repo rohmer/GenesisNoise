@@ -22,18 +22,22 @@ Casts the input value to Vector3.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Z | Object |  |
+| Y | Object |  |
+| X | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Vector3 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b88875e3-6cce-4545-950e-5c8be51cf8ff | |
+| GUID | String | b2b256a0-94ef-470f-93e6-274c67a82de3 | |
 | expanded | Boolean | False | |
 
 ## See Also

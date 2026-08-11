@@ -29,11 +29,36 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Use World Space XZ (toggle) | Single |  |
+| Domain Min (UV or XZ) | Vector4 |  |
+| Domain Max (UV or XZ) | Vector4 |  |
+| Blade Spacing | Single |  |
+| Blade Base Half-Width | Single |  |
+| Blade Length Min/Max | Vector4 |  |
+| Cell Jitter | Single |  |
+| Neighbor Radius (1-8) | Single |  |
+| Wind Strength | Single |  |
+| Wind Frequency | Single |  |
+| Wind Direction XY | Vector4 |  |
+| Min Light | Single |  |
+| AO Intensity | Single |  |
+| Use AO (toggle) | Single |  |
+| Use Directional Light (toggle) | Single |  |
+| Autumn Chance (0..1) | Single |  |
+| Green A | Color |  |
+| Green B | Color |  |
+| Green C | Color |  |
+| Green D | Color |  |
+| Autumn A | Color |  |
+| Autumn B | Color |  |
+| Autumn C | Color |  |
+| Autumn D | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

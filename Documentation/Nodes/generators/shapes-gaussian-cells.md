@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mask | Texture2D |  |
+| Use Mask | Single |  |
+| Scale | Vector4 | Global tiling |
+| Softness | Single | Softness of Gaussian falloff |
+| Radius Min | Single | Min radius |
+| Radius Max | Single | Max radius |
+| Contrast | Single | Contrast shaping |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

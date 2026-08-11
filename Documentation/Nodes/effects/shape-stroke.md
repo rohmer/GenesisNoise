@@ -34,11 +34,18 @@ To recreate this in Genesis CRT, we have:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape | Texture2D |  |
+| Stroke Thickness | Single |  |
+| Softness | Single |  |
+| Stroke Mode | Single |  |
+| Stroke Color | Color |  |
+| Opacity | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

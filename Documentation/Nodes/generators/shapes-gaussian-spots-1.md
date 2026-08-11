@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Cell Scale | Vector4 |  |
+| Spot Density | Single |  |
+| Min Radius | Single |  |
+| Max Radius | Single |  |
+| Gaussian Softness | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

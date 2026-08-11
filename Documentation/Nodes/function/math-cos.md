@@ -22,18 +22,20 @@ Returns the cosine of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0dc74974-7554-43ce-aacf-13ef6d1d17fe | |
+| GUID | String | 20069232-5052-4e3b-b9f7-a1711c6537ce | |
 | expanded | Boolean | False | |
 
 ## See Also

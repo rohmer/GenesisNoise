@@ -37,11 +37,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| densityPower | Single |  |
+| highFrequencyLift | Single |  |
+| octaves | Int32 |  |
+| baseFrequency | Single |  |
+| numberOfPoints | Int32 |  |
+| seed | Int32 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Count | Int32 |
+| Points | List`1 |
+| Image | Texture2D |
 
 ## Parameters
 
@@ -52,7 +61,7 @@ Output:
 | backgroundColor | Color | RGBA(0.000, 0.000, 0.000, 1.000) | |
 | pointColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 23ade2cd-d1e1-4203-8993-ca3195f25a39 | |
+| GUID | String | ad907e7d-9c86-4646-b6bc-1d2f3a48c115 | |
 | expanded | Boolean | False | |
 
 ## See Also

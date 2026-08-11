@@ -22,11 +22,16 @@ Waterpixels, like GIMP. A watercolour wash: the image is heavily smoothed into s
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Wash Radius | Single |  |
+| Levels | Single |  |
+| Edge Dark | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,18 @@ Sample from a shifted UV position, optionally with mirroring, rotation, offset, 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Offset (XY) | Vector4 |  |
+| Rotation | Single |  |
+| Mirror X | Single |  |
+| Mirror Y | Single |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,17 @@ RGB, like GIMP. Adds independent random noise to the Red, Green and Blue channel
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Red | Single |  |
+| Green | Single |  |
+| Blue | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

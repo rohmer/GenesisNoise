@@ -22,11 +22,18 @@ category: "Filters/Enhance"
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Radius (texels) | Single |  |
+| Blend with original | Single |  |
+| Luminance weight (0..1) | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

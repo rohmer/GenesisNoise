@@ -22,11 +22,21 @@ Output a Lit URP Material
 
 | Name | Type | Description |
 |------|------|-------------|
+| Detail Normal Map | Texture2D |  |
+| Detail Base Map | Texture2D |  |
+| Detail Mask Map | Texture2D |  |
+| Emission Map | Texture2D |  |
+| Occulsion Map | Texture2D |  |
+| Height map | Texture2D |  |
+| Normal Map | Texture2D |  |
+| Metallic Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Lit Material | Material |
 
 ## Parameters
 
@@ -55,7 +65,7 @@ Output a Lit URP Material
 | albemic | Boolean | False | |
 | asset | Material | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 67ee5650-374b-488a-ab29-399abd9de7c5 | |
+| GUID | String | 47c94593-9035-4f40-8c74-b615303200aa | |
 | expanded | Boolean | False | |
 
 ## See Also

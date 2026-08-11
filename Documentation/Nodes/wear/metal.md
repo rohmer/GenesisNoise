@@ -30,11 +30,23 @@ Genesis achieves this through curvature, cavity detection, micro‑noise, and di
 
 | Name | Type | Description |
 |------|------|-------------|
+| Metal Height | Texture2D |  |
+| Edge Wear | Single |  |
+| Cavity Rust | Single |  |
+| Oxidation Layer | Single |  |
+| Directional Scratches | Single |  |
+| Scratch Direction | Single |  |
+| Micro Pitting | Single |  |
+| Pitting Frequency | Single |  |
+| Dirt Accumulation | Single |  |
+| Contrast | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

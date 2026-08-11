@@ -26,11 +26,18 @@ category: "Effects"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Mask | Texture2D |  |
+| Bevel Width | Single |  |
+| Intensity | Single |  |
+| Profile | Single |  |
+| Invert Height | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

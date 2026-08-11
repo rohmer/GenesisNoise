@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Stroke Width | Single | Width of the meander stroke |
+| Inset | Single | Internal spacing of the spiral path |
+| Mirror | Single | Alternate mirrored tiles |
+| Border | Single | Secondary border amount |
+| Softness | Single | Soft edge |
+| Relief | Single | Raised stroke relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

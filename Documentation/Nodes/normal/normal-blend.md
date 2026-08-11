@@ -22,18 +22,22 @@ Blends two normals
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal A | Texture2D |  |
+| Normal B | Texture2D |  |
+| Opacity | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | a2db852a-4df5-4fa7-b151-82f844053870 | |
+| GUID | String | cea7e699-c8a3-42cc-9df0-27ed440ca717 | |
 | expanded | Boolean | False | |
 
 ## See Also

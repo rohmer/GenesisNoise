@@ -22,11 +22,18 @@ Lens flare effect. Generates a cinematic lens flare from a light position: a bri
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Light Position (XY) | Vector4 |  |
+| Scale | Single |  |
+| Streak | Single |  |
+| Intensity | Single |  |
+| Tint | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

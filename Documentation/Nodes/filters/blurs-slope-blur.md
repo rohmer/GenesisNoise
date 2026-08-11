@@ -29,11 +29,17 @@ Parameters:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Slope | Texture2D |  |
+| Samples | Single |  |
+| Intensity | Single |  |
+| Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,13 @@ Generate a texture from an HDR color.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

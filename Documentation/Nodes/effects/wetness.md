@@ -27,11 +27,22 @@ This is a good fit for:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Distance | Single |  |
+| Samples | Single |  |
+| Strength | Single |  |
+| Gravity Angle | Single |  |
+| Breakup | Single |  |
+| Pooling | Single |  |
+| Darkening | Single |  |
+| Highlight | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

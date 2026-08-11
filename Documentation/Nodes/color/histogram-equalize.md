@@ -28,11 +28,18 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Equalization Strength | Single |  |
+| Contrast Boost | Single |  |
+| Bias | Single |  |
+| Gain | Single |  |
+| Local Window Size | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

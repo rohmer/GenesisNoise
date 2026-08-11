@@ -22,18 +22,21 @@ Raises the input to a power.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 12eb1a42-876e-4e3b-8bdc-46a0a8984942 | |
+| GUID | String | a3eeb14b-6bb5-4179-be64-b8d9a6fbf3c1 | |
 | expanded | Boolean | False | |
 
 ## See Also

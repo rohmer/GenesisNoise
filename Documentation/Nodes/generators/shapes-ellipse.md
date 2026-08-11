@@ -29,18 +29,21 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Width | Single |  |
+| Height | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 251b0f6d-954b-4a08-bf94-798bced8313e | |
+| GUID | String | 5f1e9053-8602-46a4-9615-f8055712690b | |
 | expanded | Boolean | False | |
 
 ## See Also

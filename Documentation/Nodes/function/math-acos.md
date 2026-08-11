@@ -22,18 +22,20 @@ Returns the arccosine of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 17eb8ff3-fd39-420b-a418-eb8687b2c35c | |
+| GUID | String | f39a3ecf-aba4-461e-a48d-30d0f6e624fe | |
 | expanded | Boolean | False | |
 
 ## See Also

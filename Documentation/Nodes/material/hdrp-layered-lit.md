@@ -20,11 +20,16 @@ Output an HDRP Layered Lit material (up to four layers).
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Map 3 | Texture2D |  |
+| Base Map 2 | Texture2D |  |
+| Base Map 1 | Texture2D |  |
+| Base Map 0 | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Layered Lit Material | Material |
 
 ## Parameters
 
@@ -40,7 +45,7 @@ Output an HDRP Layered Lit material (up to four layers).
 | smoothnessAmount | Single | 0.5 | |
 | layerCount | Int32 | 2 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fe5b3896-7c22-4695-9f0c-427b411f52b1 | |
+| GUID | String | e9bbb42d-23b2-454d-8da7-b21d066fa52d | |
 | expanded | Boolean | False | |
 
 ## See Also

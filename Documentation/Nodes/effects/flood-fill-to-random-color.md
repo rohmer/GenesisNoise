@@ -24,11 +24,16 @@ Assigns each flood-filled region a stable seeded random color. This is an alias 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Region ID | Texture2D |  |
+| Seed | Single |  |
+| Saturation | Single |  |
+| Value | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

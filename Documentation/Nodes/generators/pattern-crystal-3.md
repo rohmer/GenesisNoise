@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Single |  |
+| Jitter | Single |  |
+| FBM Scale | Single |  |
+| FBM Intensity | Single |  |
+| FBM Octaves | Single |  |
+| Sharpness | Single |  |
+| Debug Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,20 @@ Raises e to the power of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | cd9702dc-f165-492a-a0b0-7d6e9b76c8aa | |
+| GUID | String | 415414e9-2977-48c1-b0f2-b2187df35069 | |
 | expanded | Boolean | False | |
 
 ## See Also

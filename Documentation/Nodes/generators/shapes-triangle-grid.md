@@ -29,11 +29,31 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Detail Scale | Single |  |
+| FBM Octaves | Single |  |
+| Lacunarity | Single |  |
+| Gain | Single |  |
+| Ridge Strength | Single |  |
+| Ridge Bias | Single |  |
+| Cellular Weight | Single |  |
+| Cellular Scale | Single |  |
+| Cellular Jitter | Single |  |
+| Contrast | Single |  |
+| Exposure | Single |  |
+| Invert | Single |  |
+| Light Direction | Vector4 |  |
+| Light Intensity | Single |  |
+| Ambient | Single |  |
+| Specular | Single |  |
+| Specular Power | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

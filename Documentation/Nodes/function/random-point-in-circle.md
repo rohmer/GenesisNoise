@@ -22,18 +22,21 @@ Generates a random point inside a circle.
 
 | Name | Type | Description |
 |------|------|-------------|
+| radius | Single |  |
+| pt1 | Vector2 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Vector2 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 84ef9c03-4547-4a00-bf85-1a68c685344d | |
+| GUID | String | fceed065-3d46-4bf9-9800-68ea5076680e | |
 | expanded | Boolean | False | |
 
 ## See Also

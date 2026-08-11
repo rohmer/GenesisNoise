@@ -29,11 +29,26 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Random Colors | Single |  |
+| Line Color | Color |  |
+| Background | Color |  |
+| Line Width | Single |  |
+| Edge Feather | Single |  |
+| Line Count | Single |  |
+| Seed | Single |  |
+| Length Min | Single |  |
+| Length Max | Single |  |
+| Angle Min (deg) | Single |  |
+| Angle Max (deg) | Single |  |
+| Animate (0/1) | Single |  |
+| Time Scale | Single |  |
+| Jitter (wrap-around) | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

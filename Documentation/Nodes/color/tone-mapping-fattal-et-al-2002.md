@@ -22,11 +22,15 @@ Fattal et al 2002 tone mapping, like GIMP. A single-pass approximation of the gr
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Alpha | Single |  |
+| Scale | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -27,11 +27,25 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Min R | Single |  |
+| Max R | Single |  |
+| Min G | Single |  |
+| Max G | Single |  |
+| Min B | Single |  |
+| Max B | Single |  |
+| Min A | Single |  |
+| Max A | Single |  |
+| Global Clamp 0–1 | Single |  |
+| Clamp Luminance | Single |  |
+| Luma Min | Single |  |
+| Luma Max | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

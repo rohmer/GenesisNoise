@@ -27,11 +27,19 @@ Use it for:
 
 | Name | Type | Description |
 |------|------|-------------|
+| InputTexture | Texture2D |  |
+| Emboss | Single | The influence of the waves on the effect |
+| Intensity | Single | Intensity simulates ripples on the waves |
+| Steps | Single | More steps make the effect more complicated, as if it is coming from multiple directions |
+| Frequency | Single | Frequency of the waves |
+| Angle | Single | Initial angle of the waves |
+| Seed | Single | Seed value |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Mode | Single |  |
+| Iteration | Single |  |
+| C 1 | Single |  |
+| C 2 | Single |  |
+| Zoom | Single |  |
+| Position | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

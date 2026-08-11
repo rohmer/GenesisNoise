@@ -29,11 +29,14 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 |  |
+| Line Width | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

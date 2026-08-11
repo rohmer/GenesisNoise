@@ -20,11 +20,14 @@ Computes the signed distance field for a SDF Cylinder primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Radius | Single | Radius of the cylinder. |
+| Height | Single | Height of the cylinder. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

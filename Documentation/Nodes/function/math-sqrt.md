@@ -22,18 +22,20 @@ Returns the square root of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fc31977d-645b-4b03-aff5-c627e4460985 | |
+| GUID | String | e3ad9d22-0452-4bd6-ad0d-588e682b271e | |
 | expanded | Boolean | False | |
 
 ## See Also

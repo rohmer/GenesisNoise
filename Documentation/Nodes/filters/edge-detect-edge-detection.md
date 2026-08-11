@@ -22,11 +22,16 @@ Edge detection using one of a few different algorithms
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Detection Algorithm | Single | Algorithm to use for edge detection |
+| Step | Single |  |
+| Mode | Single | Output color mode, it can either be white and black or input texture coor |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

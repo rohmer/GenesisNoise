@@ -24,11 +24,16 @@ Note that the kernel uses a fixed number of 32 samples, for high blur radius you
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Radius | Single |  |
+| Sigma | Single |  |
+| Direction (XY) | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

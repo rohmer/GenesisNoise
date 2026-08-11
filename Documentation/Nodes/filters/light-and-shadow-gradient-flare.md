@@ -22,11 +22,21 @@ Gradient flare effect. A soft directional light that ramps from a bright Start p
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Start (XY) | Vector4 |  |
+| End (XY) | Vector4 |  |
+| Width | Single |  |
+| Falloff | Single |  |
+| Core Size | Single |  |
+| Intensity | Single |  |
+| Start Color | Color |  |
+| End Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

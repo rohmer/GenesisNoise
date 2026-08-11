@@ -22,18 +22,21 @@ Adds the input textures per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 2284b01b-e93b-4232-897a-a78be78a5054 | |
+| GUID | String | 94e9b8fa-a0cd-4bce-a6f6-3f197d862a08 | |
 | expanded | Boolean | False | |
 
 ## See Also

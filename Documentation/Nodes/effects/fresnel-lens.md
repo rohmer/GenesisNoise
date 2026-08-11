@@ -24,11 +24,25 @@ Applies concentric Fresnel lens grooves to an input texture, adding radial refra
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input Texture | Texture2D |  |
+| UVs | Texture2D |  |
+| Center | Vector4 | Center of the lens |
+| Radius | Single | Radius of the lens aperture |
+| Grooves | Single | Number of concentric Fresnel grooves |
+| Strength | Single | Refraction strength |
+| Focus | Single | Focus power across the lens |
+| Chromatic | Single | Chromatic channel separation |
+| Ring Highlight | Single | Ring highlight strength |
+| Mix | Single | Blend between original and refracted image |
+| Edge Feather | Single | Feather at the lens edge |
+| Scale | Single | Input UV scale |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

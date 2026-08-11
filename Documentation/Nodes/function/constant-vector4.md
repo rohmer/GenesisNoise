@@ -27,13 +27,18 @@ Outputs a constant vector4 value.
 
 | Name | Type |
 |------|------|
+| W | Single |
+| Z | Single |
+| Y | Single |
+| X | Single |
+| output | Vector4 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3eb8ea0c-53e8-4840-8b7b-67072ebaa6ae | |
+| GUID | String | 427c003e-c6d2-4280-a4b0-bd6e0e7aee04 | |
 | expanded | Boolean | False | |
 
 ## See Also

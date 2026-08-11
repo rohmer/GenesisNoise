@@ -22,18 +22,20 @@ Applies `ACOS(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8f542150-3aeb-4a2f-943f-c0fc94e17737 | |
+| GUID | String | f374cd51-7e8e-46da-b069-d6d42fc03f60 | |
 | expanded | Boolean | False | |
 
 ## See Also

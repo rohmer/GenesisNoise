@@ -22,11 +22,19 @@ Long shadow. Casts a long fading shadow from the input alpha (the shape) along a
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Direction (XY) | Vector4 |  |
+| Length | Single |  |
+| Samples | Single |  |
+| Threshold | Single |  |
+| Opacity | Single |  |
+| Shadow Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

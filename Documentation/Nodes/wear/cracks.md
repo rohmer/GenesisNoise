@@ -28,11 +28,22 @@ category: "Wear"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Crack Mask | Texture2D |  |
+| Crack Expand/Contract | Single |  |
+| Edge Erosion | Single |  |
+| Edge Highlight | Single |  |
+| Cavity Darkening | Single |  |
+| Dust Accumulation | Single |  |
+| Micro Detail Strength | Single |  |
+| Micro Detail Frequency | Single |  |
+| Contrast | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

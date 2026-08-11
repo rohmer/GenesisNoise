@@ -26,11 +26,17 @@ FXAA-style antialiasing for generated textures.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Contrast Threshold | Single |  |
+| Relative Threshold | Single |  |
+| Subpixel Blending | Single |  |
+| Edge Span | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

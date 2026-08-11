@@ -22,18 +22,22 @@ Clamps the input to a specified range.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Value | Object |  |
+| Max | Object |  |
+| Min | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 607e72b2-051d-406c-9526-b11d272798ee | |
+| GUID | String | 21458d65-6392-4ef5-b507-08207adea11d | |
 | expanded | Boolean | False | |
 
 ## See Also

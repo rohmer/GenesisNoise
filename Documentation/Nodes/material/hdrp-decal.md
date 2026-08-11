@@ -20,11 +20,15 @@ Output an HDRP Decal material.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal Map | Texture2D |  |
+| Mask Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Decal Material | Material |
 
 ## Parameters
 
@@ -35,7 +39,7 @@ Output an HDRP Decal material.
 | baseColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | drawOrder | Int32 | 0 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ca742b02-4ddf-463a-b241-a53bce02c992 | |
+| GUID | String | bbe07e01-bcac-42a8-9a5f-203f77a43fb9 | |
 | expanded | Boolean | False | |
 
 ## See Also

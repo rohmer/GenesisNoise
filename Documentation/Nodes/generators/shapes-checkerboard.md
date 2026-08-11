@@ -29,11 +29,15 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Tile Density | Single | Number of tiles per axis |
+| Rotation | Single | Rotation of the tiles, Degrees |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

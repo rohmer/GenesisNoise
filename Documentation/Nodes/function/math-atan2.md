@@ -22,18 +22,21 @@ Returns the arctangent of A / B while preserving the quadrant.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8730bb03-2e37-47f1-9a13-1a93d9bfc2ac | |
+| GUID | String | 2853c8c6-79e8-4d96-a52f-6236a5dfa11c | |
 | expanded | Boolean | False | |
 
 ## See Also

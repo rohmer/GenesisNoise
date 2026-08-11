@@ -29,11 +29,21 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Polygon Count | Single |  |
+| Min Sides | Single |  |
+| Max Sides | Single |  |
+| Min Size | Single |  |
+| Max Size | Single |  |
+| Edge Softness | Single |  |
+| Base Color | Color |  |
+| Color Variation | Color |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,21 @@ Applies `SIN(A*B)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fab8e3ef-6658-438e-bf56-0bd753e1d128 | |
+| GUID | String | 9433edd7-8d6e-460b-abae-67c2c83f10fe | |
 | expanded | Boolean | False | |
 
 ## See Also

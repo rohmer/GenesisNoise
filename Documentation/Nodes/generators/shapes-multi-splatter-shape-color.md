@@ -29,11 +29,38 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape Count | Single |  |
+| Shape 0 | Texture2D |  |
+| Shape 1 | Texture2D |  |
+| Shape 2 | Texture2D |  |
+| Shape 3 | Texture2D |  |
+| Shape 4 | Texture2D |  |
+| Palette Count | Single |  |
+| Palette 0 | Texture2D |  |
+| Palette 1 | Texture2D |  |
+| Palette 2 | Texture2D |  |
+| Palette 3 | Texture2D |  |
+| Palette 4 | Texture2D |  |
+| Scale | Vector4 | Global tiling |
+| Density | Single | Instances per cell |
+| Jitter | Single | Position jitter |
+| Rotation Jitter | Single | Rotation jitter |
+| Scale Min | Single | Scale min |
+| Scale Max | Single | Scale max |
+| Hue Jitter | Single | Hue jitter |
+| Sat Jitter | Single | Saturation jitter |
+| Val Jitter | Single | Value jitter |
+| Brightness Jitter | Single | Brightness jitter |
+| Blend Softness | Single | Blend softness |
+| Opacity | Single | Opacity |
+| Blend Mode | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

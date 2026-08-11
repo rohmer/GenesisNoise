@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Scratch Direction | Single |  |
+| Scratch Density | Single |  |
+| Scratch Thickness | Single |  |
+| Micro Scratch Intensity | Single |  |
+| Micro Scratch Scale | Single |  |
+| Dirt Amount | Single |  |
+| Dirt Scale | Single |  |
+| Breakup Strength | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

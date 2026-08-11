@@ -20,11 +20,15 @@ Computes the signed distance field for a SDF Cylinder 2 Points primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Radius | Single | Radius of the cylinder. |
+| Point A | Vector4 | First point position. |
+| Point B | Vector4 | Second point position. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

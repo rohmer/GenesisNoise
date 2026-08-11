@@ -22,18 +22,20 @@ Returns the hyperbolic tangent of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 172829d2-3c87-4153-8d15-105f6ef87d55 | |
+| GUID | String | 7048d9d6-3785-4d6a-8e7e-50247aa49275 | |
 | expanded | Boolean | False | |
 
 ## See Also

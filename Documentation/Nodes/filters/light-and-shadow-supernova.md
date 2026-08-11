@@ -22,11 +22,20 @@ Supernova light effect. Generates an additive radial starburst, a bright core wi
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Center (XY) | Vector4 |  |
+| Radius | Single |  |
+| Spikes | Single |  |
+| Spike Sharpness | Single |  |
+| Rotation | Single |  |
+| Intensity | Single |  |
+| Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -30,11 +30,24 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Hue Steps | Single |  |
+| Saturation Steps | Single |  |
+| Value Steps | Single |  |
+| Use HSV Quantization | Single |  |
+| Per-Channel RGB Quantization | Single |  |
+| Dither Strength | Single |  |
+| Seed | Single |  |
+| Contrast | Single |  |
+| Bias | Single |  |
+| Gain | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

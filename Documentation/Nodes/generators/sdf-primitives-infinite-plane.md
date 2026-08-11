@@ -20,11 +20,14 @@ Computes the signed distance field for a SDF Infinite Plane primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Vector4 | Normal of the plane. |
+| Offset | Single | Offset distance along the normal. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

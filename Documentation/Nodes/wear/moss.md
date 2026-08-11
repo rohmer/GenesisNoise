@@ -28,11 +28,25 @@ category: "Wear"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height Input | Texture2D |  |
+| Moisture Influence | Single |  |
+| Cavity Growth | Single |  |
+| Shadow Growth | Single |  |
+| Slope Growth | Single |  |
+| Preferred Growth Direction | Single |  |
+| Cluster Strength | Single |  |
+| Cluster Frequency | Single |  |
+| Micro Moss Fuzz | Single |  |
+| Fuzz Frequency | Single |  |
+| Overall Spread | Single |  |
+| Contrast | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,21 @@ Subtracts one input from another.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 270246d0-239e-4c5d-abb4-ac4acb5b03b6 | |
+| GUID | String | b025c45b-81f2-4338-b62b-befd17dcf932 | |
 | expanded | Boolean | False | |
 
 ## See Also

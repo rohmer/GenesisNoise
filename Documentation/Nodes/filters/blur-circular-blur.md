@@ -22,11 +22,14 @@ Circular (disk) blur. Averages every sample that falls inside a circular kernel 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Radius | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

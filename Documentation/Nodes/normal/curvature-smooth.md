@@ -27,11 +27,17 @@ Transforms a tangent-space normal map into a smooth curvature map.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| Curvature Radius | Single |  |
+| Smoothing Radius | Single |  |
+| Curvature Intensity | Single |  |
+| Curvature Bias | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

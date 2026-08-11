@@ -32,11 +32,16 @@ So to reconstruct height, we need to:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| Integration Iterations | Single |  |
+| Height Intensity | Single |  |
+| Bias | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

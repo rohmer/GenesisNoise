@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Scale | Vector4 | Number of tiles, x and y |
+| Gain | Single | Gain for each octave |
+| OctaveFactor | Single | The octave intensity factor |
+| Slopeness | Single |  |
+| Channel Output | Single |  |
+| Seed value | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

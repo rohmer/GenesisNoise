@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Frequency | Single |  |
+| Perlin Frequency | Single |  |
+| Perlin Z | Single |  |
+| Worley Strength | Single |  |
+| Perlin Strength | Single |  |
+| Gain | Single |  |
+| Contrast | Single |  |
+| Lacunarity | Single |  |
+| Persistance | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

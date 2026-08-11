@@ -29,18 +29,40 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Direction A | Vector4 |  |
+| Density A | Single |  |
+| Thickness A | Single |  |
+| Softness A | Single |  |
+| Waviness A | Single |  |
+| Wave Scale A | Single |  |
+| Clump Strength A | Single |  |
+| Clump Scale A | Single |  |
+| Direction B | Vector4 |  |
+| Density B | Single |  |
+| Thickness B | Single |  |
+| Softness B | Single |  |
+| Waviness B | Single |  |
+| Wave Scale B | Single |  |
+| Clump Strength B | Single |  |
+| Clump Scale B | Single |  |
+| Noise Amount | Single |  |
+| Noise Scale | Single |  |
+| Breakup Strength | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d0274947-9782-4902-a714-2c3a82224387 | |
+| GUID | String | 2218bba7-6336-4b44-b569-35750019bd61 | |
 | expanded | Boolean | False | |
 
 ## See Also

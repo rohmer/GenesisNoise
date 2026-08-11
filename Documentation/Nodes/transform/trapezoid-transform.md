@@ -36,11 +36,18 @@ A proper Trapezoid Transform node should give you:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Top Width | Single |  |
+| Bottom Width | Single |  |
+| Top Offset | Single |  |
+| Pivot | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

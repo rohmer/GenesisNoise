@@ -22,18 +22,20 @@ Applies `ROUND(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 26c3db37-0613-4dbf-b01d-13d9463d45a5 | |
+| GUID | String | 6edfe5d5-5925-4ac3-a150-fe545cf6ecc1 | |
 | expanded | Boolean | False | |
 
 ## See Also

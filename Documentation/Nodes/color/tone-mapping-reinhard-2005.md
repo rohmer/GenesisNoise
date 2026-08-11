@@ -22,11 +22,15 @@ Reinhard 2005 tone mapping, like GIMP. The global Reinhard operator with a white
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Intensity | Single |  |
+| White Point | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

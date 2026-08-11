@@ -24,11 +24,17 @@ Use this to build detail masks, sharpen monochrome data, or isolate fine surface
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Original grayscale input |
+| Blurred | Texture2D | Blurred grayscale input |
+| Intensity | Single | Highpass intensity |
+| Contrast | Single | Contrast shaping |
+| Normalize | Single | Normalize output 0 to 1 |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

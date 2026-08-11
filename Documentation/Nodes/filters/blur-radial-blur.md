@@ -22,11 +22,15 @@ Radial Blur
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Source Texture |
+| Intensity | Single | Blur intensity |
+| Samples | Single | Number of blur samples, higher is slower |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

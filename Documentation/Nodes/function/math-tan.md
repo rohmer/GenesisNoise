@@ -22,18 +22,20 @@ Returns the tangent of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5a1053b5-9297-4b2d-be04-61006688abe1 | |
+| GUID | String | 37ea1e76-33bd-4223-8565-a2f6035ab48d | |
 | expanded | Boolean | False | |
 
 ## See Also

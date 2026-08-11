@@ -27,11 +27,27 @@ category: "Filters/Distort"
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Lens Dirt Mask | Texture2D |  |
+| Tiling Mode | Single |  |
+| UV Mode | Single |  |
+| Bloom Threshold | Single |  |
+| Soft Knee | Single |  |
+| Bloom Intensity | Single |  |
+| Radius Small | Single |  |
+| Radius Medium | Single |  |
+| Radius Large | Single |  |
+| Chromatic Shift | Single |  |
+| Lens Dirt Strength | Single |  |
+| UV Scale | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,20 @@ Applies a low-poly polygonization effect by triangulating the source image into 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Cell Density | Single | Number of cells used to triangulate the source image |
+| Vertex Jitter | Single | Random offset applied to each triangle vertex |
+| Flat Shading | Single | Blends between barycentric vertex colors and a flat triangle color |
+| Edge Darkness | Single | Darkens the seams between triangles |
+| Edge Width | Single | Thickness of the triangle seams |
+| Edge Softness | Single | Softens the triangle seam transition |
+| Seed | Single | Seed used for the vertex jitter pattern |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

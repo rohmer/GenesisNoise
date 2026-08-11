@@ -22,11 +22,16 @@ Softglow, like GIMP. Adds a soft warm glow by brightening the image, blurring th
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Glow Radius | Single |  |
+| Brightness | Single |  |
+| Glow Amount | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -27,13 +27,14 @@ Outputs a constant texture 2d value.
 
 | Name | Type |
 |------|------|
+| Texture 2D | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0222ae4a-a08d-469d-aa3b-ec5015656b42 | |
+| GUID | String | 7b435e79-991b-4ba2-b397-f8166559bbb3 | |
 | expanded | Boolean | False | |
 
 ## See Also

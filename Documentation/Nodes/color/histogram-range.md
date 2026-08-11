@@ -28,11 +28,15 @@ Useful for compressing contrast while retaining smooth grayscale transitions.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Range | Single | Width of the output grayscale range |
+| Position | Single | Position of the reduced range between black and white |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

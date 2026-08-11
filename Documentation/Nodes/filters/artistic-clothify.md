@@ -22,11 +22,17 @@ Clothify, like GIMP. Overlays a woven cloth texture and lights it, so the image 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Threads | Single |  |
+| Depth | Single |  |
+| Azimuth | Single |  |
+| Elevation | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,20 @@ Returns the hyperbolic sine of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 84865fa9-b4f9-4af7-9326-790b257d0aea | |
+| GUID | String | f365b09f-6edf-40dd-9f49-0a7d839d443b | |
 | expanded | Boolean | False | |
 
 ## See Also

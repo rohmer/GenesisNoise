@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Spot Density | Single |  |
+| Min Radius | Single |  |
+| Max Radius | Single |  |
+| Softness | Single |  |
+| Halo Strength | Single |  |
+| Micro Bloom | Single |  |
+| Flow Warp | Single |  |
+| Turbulence | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

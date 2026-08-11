@@ -20,11 +20,13 @@ Writes the graph result to a 2D texture output.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Texture 2D | Texture2D |
 
 ## Parameters
 
@@ -35,7 +37,7 @@ Writes the graph result to a 2D texture output.
 | filterMode | FilterMode | Bilinear | |
 | hasMipMaps | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 1e75d771-5265-4b5a-8b51-ba2dc3a03d9d | |
+| GUID | String | 06209c3a-5345-42bc-a722-c016f85b2920 | |
 | expanded | Boolean | False | |
 
 ## See Also

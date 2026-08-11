@@ -31,11 +31,23 @@ Dedicated fabric‑specific wear model that simulates:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Fabric Mask | Texture2D |  |
+| Thread Wear | Single |  |
+| Fiber Fuzz | Single |  |
+| Edge Fray | Single |  |
+| Dirt Accumulation | Single |  |
+| Micro-Pilling | Single |  |
+| Pill Frequency | Single |  |
+| Directional Abrasion | Single |  |
+| Abrasion Direction | Single |  |
+| Contrast | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

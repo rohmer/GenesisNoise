@@ -22,18 +22,20 @@ Applies `EXP(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fc654907-a76d-45ff-b3d8-c27a7a96346a | |
+| GUID | String | 43db47df-da44-47e8-ab92-6ae2f1baf291 | |
 | expanded | Boolean | False | |
 
 ## See Also

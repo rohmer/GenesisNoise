@@ -29,11 +29,15 @@ To do this in a single‑pass CRT shader, we use a hash‑based pseudo‑boundin
 
 | Name | Type | Description |
 |------|------|-------------|
+| Region ID | Texture2D |  |
+| Steps | Single |  |
+| Threshold | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

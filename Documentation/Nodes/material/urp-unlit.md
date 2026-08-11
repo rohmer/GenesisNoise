@@ -20,11 +20,13 @@ Output a URP Unlit material.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Unlit Material | Material |
 
 ## Parameters
 
@@ -35,7 +37,7 @@ Output a URP Unlit material.
 | baseColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | doubleSided | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c6175c73-bfa1-49df-9758-520a14e32924 | |
+| GUID | String | b0ae1134-19ee-4393-a0f1-11a4e1ea25c5 | |
 | expanded | Boolean | False | |
 
 ## See Also

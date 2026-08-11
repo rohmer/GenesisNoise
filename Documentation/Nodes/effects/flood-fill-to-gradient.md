@@ -28,11 +28,19 @@ This node takes the Region ID map and the Bounding Box map and produces a per‑
 
 | Name | Type | Description |
 |------|------|-------------|
+| Region ID | Texture2D |  |
+| Bounding Box | Texture2D |  |
+| Gradient Angle | Single |  |
+| Invert | Single |  |
+| Randomize Per Region | Single |  |
+| Seed | Single |  |
+| Profile | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

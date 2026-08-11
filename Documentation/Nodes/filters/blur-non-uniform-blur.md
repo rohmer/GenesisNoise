@@ -22,11 +22,18 @@ Non-Uniform blur where blur radius is determined by the intensity map
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source Heightmap | Texture2D |  |
+| Intensity Map | Texture2D |  |
+| Max Blur Radius | Single |  |
+| Blend Mode (0=min,1=max,2=avg) | Single |  |
+| Height Bias | Single |  |
+| Height Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

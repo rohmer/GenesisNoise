@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Petals | Single | Number of petals in the central motif |
+| Motif Size | Single | Overall motif size |
+| Ornament Width | Single | Thickness of ornament lines |
+| Vine Width | Single | Thickness of diagonal vine lines |
+| Softness | Single | Soft edge |
+| Relief | Single | Raised woven relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

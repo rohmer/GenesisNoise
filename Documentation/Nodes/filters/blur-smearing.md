@@ -32,11 +32,17 @@ Useful for:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Slope Map | Texture2D |  |
+| Intensity | Single |  |
+| Samples | Single |  |
+| Blend Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

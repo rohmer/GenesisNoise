@@ -22,11 +22,13 @@ Converts a grayscale image to a colorized image based on a gradient
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

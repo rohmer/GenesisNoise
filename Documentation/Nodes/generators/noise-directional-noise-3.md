@@ -29,11 +29,30 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global UV scale |
+| Offset | Vector4 | Global UV offset |
+| Angle | Single | Direction of the noise in radians |
+| Anisotropy | Single | Stretch along the chosen direction |
+| Frequency | Single | Base feature frequency |
+| Detail Frequency | Single | Fine directional detail frequency |
+| Detail Strength | Single | Amount of fine detail mixed into the result |
+| Flow | Single | How much the direction meanders |
+| Warp Strength | Single | Domain warp strength |
+| Warp Scale | Single | Domain warp scale |
+| Ridge Strength | Single | Ridge shaping amount |
+| Cell Breakup | Single | Cellular directional breakup amount |
+| Lacunarity | Single | Frequency multiplier between octaves |
+| Persistence | Single | Amplitude multiplier between octaves |
+| Contrast | Single | Final contrast |
+| Bias | Single | Final brightness bias |
+| Invert | Single | Invert output |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

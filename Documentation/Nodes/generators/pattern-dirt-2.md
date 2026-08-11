@@ -29,18 +29,29 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Preset | Single |  |
+| Scale | Single |  |
+| Disorder | Single |  |
+| Disorder Speed | Single |  |
+| Disorder Anisotropy | Single |  |
+| Disorder Angle | Single |  |
+| Tile Offset | Vector4 |  |
+| Non Square Expansion | Single |  |
+| Seed | Single |  |
+| Debug | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0583e59d-8158-4a0c-a53e-016642918628 | |
+| GUID | String | a850a73a-600b-4e1b-910e-c169794cd440 | |
 | expanded | Boolean | False | |
 
 ## See Also

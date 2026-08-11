@@ -29,11 +29,17 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D | Custom Noise UV |
+| Lacunarity | Single |  |
+| Frequency | Single |  |
+| Persistance | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,14 @@ Deinterlace filter. Removes interlace combing by blending each scanline with the
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Blend | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

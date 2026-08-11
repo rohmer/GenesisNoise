@@ -24,18 +24,24 @@ The loop body always runs once, then continues while the condition input remains
 
 | Name | Type | Description |
 |------|------|-------------|
+| Max Iterations | Int32 |  |
+| Condition | Boolean |  |
+| Input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Max Iterations | Int32 |
+| Index | Int32 |
+| Output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8084757b-9651-4732-8a1d-2390f7b10552 | |
+| GUID | String | 1456b400-15b4-4274-92e2-2b44ae9d48f6 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -25,6 +25,7 @@ For 3D and Cube textures, the file is exported as a .asset and can be use in ano
 
 | Name | Type | Description |
 |------|------|-------------|
+|  | Texture2D |  |
 
 ## Outputs
 
@@ -43,7 +44,7 @@ For 3D and Cube textures, the file is exported as a .asset and can be use in ano
 | external3DFormat | ConversionFormat | RGBA32 | |
 | exportAlpha | Boolean | True | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8b45b223-aa17-4274-8346-b48ec5a67f86 | |
+| GUID | String | 24c863e9-d7a0-4b7d-9321-5f9781577311 | |
 | expanded | Boolean | False | |
 
 ## See Also

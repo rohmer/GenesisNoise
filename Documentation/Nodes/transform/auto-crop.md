@@ -22,11 +22,16 @@ category: "Transform"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Crop Threshold | Single |  |
+| Padding | Single |  |
+| Scan Samples | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

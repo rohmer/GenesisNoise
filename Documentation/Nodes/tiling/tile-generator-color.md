@@ -24,11 +24,47 @@ Unlike Tile Generator Grayscale, input textures and background input remain in c
 
 | Name | Type | Description |
 |------|------|-------------|
+| Tiles | Vector4 | Number of tile cells in X and Y |
+| Offset | Vector4 | Global UV offset |
+| Pattern Input 1 | Texture2D |  |
+| Pattern Input Number | Single | Number of image inputs used when Pattern is Image Input |
+| Pattern Input Distribution | Single |  |
+| Size Mode | Single |  |
+| Size | Vector4 | Used by Normal Size and Keep Ratio modes |
+| Interstice | Vector4 | Used by Interstice mode |
+| Absolute Size | Vector4 | Used by Absolute mode (UV space) |
+| Pixel Size | Vector4 | Used by Pixel mode (pixels) |
+| Aspect | Vector4 | Shape width and height aspect |
+| Pattern Specific | Single | Pattern specific shape control |
+| Edge Softness | Single | Softness of tile edges |
+| Density | Single | Chance that a tile is present |
+| Position Random | Single | Random position offset inside each cell |
+| Scale Random | Single | Random scale variation |
+| Rotation | Single | Base rotation in radians |
+| Rotation Random | Single | Random rotation amount in radians |
+| Rotation | Single |  |
+| Rotation Random 90 | Single | Randomly rotates a tile by one of four 90 degree steps |
+| Quincunx Flip | Single |  |
+| Row Offset | Single | Alternating row offset. 0.5 gives classic brick rows. |
+| Symmetry Random | Single | Randomly mirrors tiles |
+| Symmetry Random Mode | Single |  |
+| Luminance Min | Single | Minimum brightness value for tiles |
+| Luminance Max | Single | Maximum brightness value for tiles |
+| Luminance Random | Single | Random brightness variation between min and max |
+| Blend Mode | Single |  |
+| Background | Color | Background color value |
+| Background Input | Texture2D |  |
+| Use Background Input | Single |  |
+| Contrast | Single | Final contrast around mid gray |
+| Opacity | Single | Final output opacity over background |
+| Seed | Single | Random seed |
+| Invert | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

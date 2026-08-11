@@ -27,6 +27,8 @@ Outputs a constant vector2 value.
 
 | Name | Type |
 |------|------|
+| X | Single |
+| output | Vector2 |
 
 ## Parameters
 
@@ -34,7 +36,7 @@ Outputs a constant vector2 value.
 |---------|------|---------|-------------|
 | Y | Single | 0 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0aece9d7-cbae-42bd-8712-03b236c1cc95 | |
+| GUID | String | 09ae0ac8-27e7-4be3-bf7a-cdb48e64da4b | |
 | expanded | Boolean | False | |
 
 ## See Also

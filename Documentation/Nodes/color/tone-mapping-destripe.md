@@ -22,11 +22,15 @@ Destripe, like GIMP. Removes regular horizontal (or vertical) stripes by taking 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Amount | Single |  |
+| Direction | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,16 @@ Histogram Scan
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source Grayscale | Texture2D |  |
+| Position | Single |  |
+| Contrast | Single |  |
+| Invert | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Spot Size | Single | Size of main rosettes |
+| Ring Width | Single | Thickness of rosette rings |
+| Breakup | Single | Amount of broken ring gaps |
+| Filler | Single | Amount of small filler spots |
+| Softness | Single | Soft edge |
+| Fur Detail | Single | Furlike tonal grain |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

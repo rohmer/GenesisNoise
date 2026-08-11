@@ -22,11 +22,19 @@ Builds a histogram from the input texture so you can inspect value distribution 
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Bins | Single |  |
+| Samples per Bin | Single |  |
+| Seed | Single |  |
+| Luma Weights (R,G,B) | Vector4 |  |
+| UV Scale | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

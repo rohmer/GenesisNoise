@@ -28,11 +28,17 @@ It’s a procedural halo generator that creates:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Radius | Single |  |
+| Intensity | Single |  |
+| Threshold | Single |  |
+| Softness | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

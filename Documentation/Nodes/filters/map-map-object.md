@@ -22,11 +22,18 @@ Map Object, like GIMP Map. Maps the image onto a shaded 3D sphere (GIMP's defaul
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Radius | Single |  |
+| Center (XY) | Vector4 |  |
+| Azimuth | Single |  |
+| Elevation | Single |  |
+| Background Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

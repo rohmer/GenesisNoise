@@ -29,11 +29,24 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Scale | Vector4 |  |
+| Offset | Vector4 |  |
+| Kernel Frequency | Single |  |
+| Bandwidth | Single |  |
+| Impulses Per Cell | Single |  |
+| Direction | Single |  |
+| Angle Randomness | Single |  |
+| Impulse Jitter | Single |  |
+| Amplitude | Single |  |
+| Contrast | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

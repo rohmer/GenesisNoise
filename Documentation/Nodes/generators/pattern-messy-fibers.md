@@ -29,18 +29,29 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Subdivision of grid for noise tiles |
+| Disorder | Single | Displaces ingredients of noise |
+| Disorder Scale | Single | Distance of displacement applied by Disorder |
+| Disorder Anisotropy | Single | Span of directions for displacement, higher narrower |
+| Disorder Anisotropy Angle | Single | Direction of displacement (turns, 0 right) |
+| Angle | Single | Direction of threads (turns, 0 horizontal right) |
+| Angle Random | Single | Random variation of angle |
+| Rotation Random | Single | Random rotation of fiber lanes |
+| Tiling | Single | Tiling applied to threads, higher is denser, thinner |
+| Contrast | Single | Contrast brightness |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c59558ea-edc1-4942-8d9a-3c65567e1273 | |
+| GUID | String | c7b2cad1-2bc6-43db-b437-79fb566bde7a | |
 | expanded | Boolean | False | |
 
 ## See Also

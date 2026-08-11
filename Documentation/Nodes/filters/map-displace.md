@@ -22,11 +22,16 @@ Displace, like GIMP Map. Displaces each pixel of the input using a displacement 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Displace Map | Texture2D |  |
+| Amount X | Single |  |
+| Amount Y | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

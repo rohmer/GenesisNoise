@@ -22,18 +22,20 @@ Returns the sine of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 970b3994-d448-4e39-a121-7d455d1571fe | |
+| GUID | String | 72a6c210-9af4-486f-a86b-018acde224a6 | |
 | expanded | Boolean | False | |
 
 ## See Also

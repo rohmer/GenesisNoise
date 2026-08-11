@@ -35,11 +35,18 @@ A proper Symmetry Slice node needs:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Slice Count | Single |  |
+| Mirror Slice | Single |  |
+| Feather | Single |  |
+| Center | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

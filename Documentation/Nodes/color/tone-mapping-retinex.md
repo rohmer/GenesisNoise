@@ -22,11 +22,16 @@ Retinex, like GIMP (multi-scale retinex). Computes log(input) - log(blurred inpu
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Radius | Single |  |
+| Gain | Single |  |
+| Scales | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

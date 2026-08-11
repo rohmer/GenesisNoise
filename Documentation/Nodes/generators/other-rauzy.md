@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Iterations | Single |  |
+| Contraction | Single |  |
+| Jitter | Single |  |
+| Seed | Single |  |
+| Scale | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

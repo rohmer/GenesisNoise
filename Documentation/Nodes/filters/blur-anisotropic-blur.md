@@ -29,11 +29,17 @@ Parameters:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Intensity | Single |  |
+| Anisotropy | Single |  |
+| Angle (Turns) | Single |  |
+| Quality (HQ Gaussian) | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

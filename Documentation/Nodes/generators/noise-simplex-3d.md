@@ -29,11 +29,17 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Frequency and tiling |
+| Offset | Vector4 | Offset in noise space |
+| Use FBM | Single | Use FBM instead of raw simplex |
+| Amplitude | Single | Amplitude |
+| Contrast | Single | Contrast shaping |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

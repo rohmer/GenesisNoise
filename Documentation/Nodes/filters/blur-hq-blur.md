@@ -29,11 +29,17 @@ Works for grayscale and color
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Original input |
+| Downsample 1 | Texture2D | Downsample x2 input |
+| Downsample 2 | Texture2D | Downsample x4 input |
+| Intensity | Single | Blend strength of HQ blur |
+| Sharpness | Single | Sharpness of upsample blending |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

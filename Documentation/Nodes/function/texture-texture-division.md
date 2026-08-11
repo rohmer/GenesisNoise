@@ -22,18 +22,21 @@ Divides one texture input by another per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8b291c47-9a3c-4dfe-afc7-b099d52251cf | |
+| GUID | String | ddafe675-b6a7-4641-a5c1-a8bfe7e78dfa | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -37,11 +37,25 @@ We can simulate all of this in a single‑pass, deterministic Genesis CRT node u
 
 | Name | Type | Description |
 |------|------|-------------|
+| Leather Height | Texture2D |  |
+| Crease Brightening | Single |  |
+| Cavity Darkening | Single |  |
+| Edge Burnish | Single |  |
+| Directional Scuffing | Single |  |
+| Scuff Direction | Single |  |
+| Micro-Crackle | Single |  |
+| Crackle Frequency | Single |  |
+| Pore Darkening | Single |  |
+| Pore Frequency | Single |  |
+| Dryness | Single |  |
+| Contrast | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

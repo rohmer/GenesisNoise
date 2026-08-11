@@ -22,11 +22,15 @@ Oilify, like GIMP. Simulates an oil painting by replacing each pixel with the mo
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Mask Size | Single |  |
+| Exponent | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

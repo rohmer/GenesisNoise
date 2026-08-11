@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Motif Size | Single | Overall motif size |
+| Ornament Width | Single | Thickness of ornamental lines |
+| Leaf Width | Single | Leaf width |
+| Scroll | Single | Scroll intensity |
+| Softness | Single | Soft edge |
+| Relief | Single | Woven tonal relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

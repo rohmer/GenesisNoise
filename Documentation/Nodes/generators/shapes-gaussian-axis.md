@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mask | Texture2D |  |
+| Use Mask | Single |  |
+| Scale | Vector4 | Global tiling |
+| Softness | Single | Axial softness |
+| Radius Min | Single | Min axial radius |
+| Radius Max | Single | Max axial radius |
+| Width Min | Single | Min perpendicular radius |
+| Width Max | Single | Max perpendicular radius |
+| Contrast | Single | Contrast shaping |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

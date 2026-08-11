@@ -22,11 +22,18 @@ Cubism, like GIMP. Replaces the image with a collage of randomly sized, randomly
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Tile Size | Single |  |
+| Size Variation | Single |  |
+| Seam | Single |  |
+| Seed | Single |  |
+| Gap Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

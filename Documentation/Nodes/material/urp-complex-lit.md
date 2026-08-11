@@ -20,11 +20,15 @@ Output a URP Complex Lit material (metallic/specular superset of Lit).
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal Map | Texture2D |  |
+| Specular Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Complex Lit Material | Material |
 
 ## Parameters
 
@@ -37,7 +41,7 @@ Output a URP Complex Lit material (metallic/specular superset of Lit).
 | metallicAmount | Single | 0 | |
 | smoothnessAmount | Single | 0.5 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | a11aeb5d-a595-4387-acea-5daa5463b6ff | |
+| GUID | String | a9e5421e-c01f-42c8-a869-1362fc39b1a0 | |
 | expanded | Boolean | False | |
 
 ## See Also

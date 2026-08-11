@@ -29,11 +29,16 @@ Normal Vector Rotation is a fantastic utility node — it lets you rotate a tang
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| Rotation Angle | Single |  |
+| Rotation Strength | Single |  |
+| Preserve Z | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

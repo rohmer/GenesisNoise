@@ -22,11 +22,17 @@ HSV, like GIMP. Adds random noise independently to the Hue, Saturation and Value
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Hue | Single |  |
+| Saturation | Single |  |
+| Value | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

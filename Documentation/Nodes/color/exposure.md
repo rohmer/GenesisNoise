@@ -25,11 +25,16 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input Texture | Texture2D |  |
+| Exposure (EV) | Single |  |
+| Brightness Bias | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

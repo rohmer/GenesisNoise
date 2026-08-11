@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Frequency | Single | Number of stripe cycles |
+| Stripe Width | Single | Width of dark stripes |
+| Waviness | Single | Amount of stripe waviness |
+| Branching | Single | Amount of branching and pinching |
+| Softness | Single | Soft edge |
+| Fur Detail | Single | Furlike tonal grain |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

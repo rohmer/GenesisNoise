@@ -22,18 +22,20 @@ Returns the absolute value of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f9d3be71-649c-49ba-afef-9a4f90d6f6f1 | |
+| GUID | String | 0fe7ba83-faf5-4864-8dbd-8d79069cc3d2 | |
 | expanded | Boolean | False | |
 
 ## See Also

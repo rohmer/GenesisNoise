@@ -22,11 +22,17 @@ Replace the source color by the target color in the image.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Source Color | Color | Color to replace in the image |
+| Target Color | Color | Color that replaces the source color. |
+| Threshold | Single | Tolerance of the test to replace the colors. |
+| Feather | Single | How sharp the transition between colors are. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,11 +29,19 @@ category: "Transform"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Mirror X | Single |  |
+| Mirror Y | Single |  |
+| Mirror Z | Single |  |
+| Radial Count | Single |  |
+| Center | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

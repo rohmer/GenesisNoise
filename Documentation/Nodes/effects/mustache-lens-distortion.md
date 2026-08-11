@@ -24,11 +24,24 @@ Applies compound radial lens distortion with barrel pull near the center and pin
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input Texture | Texture2D |  |
+| UVs | Texture2D |  |
+| Center | Vector4 | Center of the lens |
+| Center Barrel | Single | Outward barrel bend near the center |
+| Edge Pincushion | Single | Inward pincushion correction near the edges |
+| Transition | Single | Radius where barrel transitions into pincushion |
+| Zoom | Single | Zoom compensation after distortion |
+| Chromatic | Single | Chromatic channel separation |
+| Edge Fade | Single | Edge fade for stretched borders |
+| Mix | Single | Blend between original and distorted image |
+| Scale | Single | Input UV scale |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

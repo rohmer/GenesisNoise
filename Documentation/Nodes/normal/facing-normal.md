@@ -29,11 +29,17 @@ With optional:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Normal | Texture2D |  |
+| View Angle | Single |  |
+| Softness | Single |  |
+| Contrast | Single |  |
+| Invert | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

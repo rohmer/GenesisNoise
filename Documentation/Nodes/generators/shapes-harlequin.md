@@ -29,11 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Outline Width | Single | Width of diamond outlines |
+| Accent Size | Single | Size of inner diamond accent |
+| Tone Contrast | Single | Tone contrast between alternating diamonds |
+| Stagger | Single | Offset every other row |
+| Softness | Single | Soft edge |
+| Relief | Single | Raised diamond relief |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,21 @@ Blur the input texture using a box blur.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Direction Map | Texture2D |  |
+| Radius | Single |  |
+| Sectors | Single |  |
+| Anisotropy | Single |  |
+| Structure Radius | Single |  |
+| Direction Strength | Single |  |
+| Direction Is Vector | Single |  |
+| Debug Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -20,11 +20,15 @@ Computes the signed distance field for a SDF Pyramid primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Single | Height of the pyramid. |
+| Base Radius | Single | Base radius (distance from center to vertex). |
+| Sides | Single | Number of sides (3 triangular, 4 square, etc.). |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

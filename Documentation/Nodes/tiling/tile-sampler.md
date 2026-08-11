@@ -56,11 +56,45 @@ Enum Value	Name	Behavior
 
 | Name | Type | Description |
 |------|------|-------------|
+| Pattern | Texture2D |  |
+| Mask | Texture2D |  |
+| Distribution | Texture2D |  |
+| Pattern Type | Single |  |
+| Use Pattern | Single |  |
+| Use Mask | Single |  |
+| Use Distribution | Single |  |
+| Tiling | Vector4 | Number of tiles in X,Y |
+| Offset | Vector4 | Global UV offset |
+| Pattern Amount | Single | Shapes per tile |
+| Position Random | Single | Random position offset inside tile |
+| Rotation Random | Single | Random rotation amount in radians |
+| Scale Min | Single | Min random scale |
+| Scale Max | Single | Max random scale |
+| Pattern Scale | Single | Global pattern scale |
+| Blending | Single | Blending mode |
+| Mask Influence | Single | Mask influence on output |
+| Distribution Influence | Single | Distribution map influence on spawn probability |
+| Distribution Threshold | Single | Minimum distribution value needed to spawn |
+| Distribution Contrast | Single | Contrast on distribution map |
+| Distribution Scale Influence | Single | Distribution map affects scale |
+| Distribution Rotation Influence | Single | Distribution map affects rotation |
+| Distribution Position Influence | Single | Distribution map affects position |
+| Pattern Hardness | Single | Edge hardness and exponent shaping |
+| Pattern Aspect | Vector4 | Aspect ratio X,Y for procedural patterns |
+| Brick Width | Single | Brick width fraction |
+| Brick Height | Single | Brick height fraction |
+| Gradient Angle | Single | Gradiation direction in radians |
+| Thorn Sharpness | Single | Thorn sharpness |
+| Contrast | Single | Contrast shaping |
+| Clamp Output | Single | Output clamp |
+| Seed | Single | Random seed |
+| Gradiation Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

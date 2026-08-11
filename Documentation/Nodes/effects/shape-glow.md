@@ -29,11 +29,18 @@ It’s not bloom, not blur, not bevel — it’s a distance‑based glow with:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape | Texture2D |  |
+| Glow Radius | Single |  |
+| Softness | Single |  |
+| Intensity | Single |  |
+| Glow Color | Color |  |
+| Inner Glow | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,11 +22,18 @@ Per texture min/max remap, stretching the histogram so the darkest pixel is 0 an
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source Grayscale | Texture2D | Input source |
+| Min Value | Single | The lowest level, below this level the pixels will return black |
+| Max Value | Single | The upper level, above this level the pixels will return black |
+| Estimate Min/Max | Single | Auto estimate min and max with a cheap 9 sample probe |
+| Contrast | Single | Higher levels will push increase the contrast |
+| Invert | Single | 1 will invert the results |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

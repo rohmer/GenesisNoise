@@ -22,11 +22,16 @@ Effect that simulates rain on the 'Camera'
 
 | Name | Type | Description |
 |------|------|-------------|
+| InputTexture | Texture2D |  |
+| Rain Amount | Single | Defines the amount of rain on the screen |
+| Distortion Srength | Single | Amount of blurring of the screen, makes the rain drops more pronounced |
+| Seed | Single | Seed value |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

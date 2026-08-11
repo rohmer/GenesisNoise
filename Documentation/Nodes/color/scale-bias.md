@@ -22,11 +22,15 @@ Apply a Scale and Bias on the input texture color.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Texture | Texture2D |  |
+| Scale | Vector4 |  |
+| Bias | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

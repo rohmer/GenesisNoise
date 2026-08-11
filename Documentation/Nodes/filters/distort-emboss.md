@@ -25,11 +25,21 @@ category: "Filters/Distort"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Texture2D |  |
+| Direction Map | Texture2D |  |
+| Emboss Width | Single |  |
+| Depth | Single |  |
+| Direction Angle | Single |  |
+| Direction Strength | Single |  |
+| Direction Is Vector | Single |  |
+| Invert Height | Single |  |
+| Profile | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

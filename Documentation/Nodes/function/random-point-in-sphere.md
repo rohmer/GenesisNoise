@@ -22,18 +22,21 @@ Generates a random point inside a sphere.
 
 | Name | Type | Description |
 |------|------|-------------|
+| radius | Single |  |
+| pt1 | Vector3 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Vector3 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 77b8718d-817d-4e6a-8499-646e4527f23c | |
+| GUID | String | e1123922-d458-4106-872e-8295b492a0af | |
 | expanded | Boolean | False | |
 
 ## See Also

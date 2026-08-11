@@ -22,18 +22,21 @@ Returns the per-pixel minimum of the input textures.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 608b1367-77de-48fb-8b87-4a78021cc842 | |
+| GUID | String | c38d7e7b-7fc3-41ff-a378-5ceae3f332b0 | |
 | expanded | Boolean | False | |
 
 ## See Also

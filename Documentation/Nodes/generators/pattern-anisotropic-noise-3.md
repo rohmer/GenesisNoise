@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Flow Strength | Single |  |
+| Turbulence | Single |  |
+| Anisotropy | Single |  |
+| Direction (Radians) | Single |  |
+| Contrast | Single |  |
+| Softness | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -25,11 +25,22 @@ category: "Effects"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source / Region ID | Texture2D |  |
+| Input Mode | Single |  |
+| Mask Threshold | Single |  |
+| Edge Threshold | Single |  |
+| Edge Strength | Single |  |
+| Search Radius | Single |  |
+| Edge Crossing Samples | Single |  |
+| Seed | Single |  |
+| Min Gray | Single |  |
+| Max Gray | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

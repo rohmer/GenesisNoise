@@ -29,11 +29,24 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Band Width | Single | Width of broad tartan bands |
+| Pin Width | Single | Width of thin pinstripes |
+| Repeat | Single | Spacing of secondary bands |
+| Overlap Strength | Single | Darkness where bands cross |
+| Softness | Single | Soft edge |
+| Thread Detail | Single | Woven thread detail |
+| Relief | Single | Woven relief amount |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

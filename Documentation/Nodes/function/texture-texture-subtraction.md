@@ -22,18 +22,21 @@ Subtracts one texture input from another per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| B | Object |  |
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c4ad7b61-611c-4322-bc62-11e0d78be4cd | |
+| GUID | String | 8bc22c83-4d08-4056-aaa8-3c2a02e224f2 | |
 | expanded | Boolean | False | |
 
 ## See Also

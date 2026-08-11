@@ -29,11 +29,24 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global tiling |
+| Angle | Single | Rotation in radians |
+| Resolution | Single | Number of weave cells inside each motif tile |
+| Motif Size | Single | Overall motif size |
+| Thread Width | Single | Thread width inside each weave cell |
+| Float Length | Single | Satin float length |
+| Step Density | Single | Stepped motif density |
+| Softness | Single | Soft edge |
+| Relief | Single | Woven relief amount |
+| Contrast | Single | Contrast shaping |
+| Randomness | Single | Random variation amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -27,11 +27,15 @@ Use this when you want:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D | Grayscale input used to index into the ramp |
+| Ramp Input | Texture2D | External ramp texture. Multiple gradients can be stacked vertically. |
+| Gradient Input Position | Single | Selects which gradient row to use from the ramp input |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

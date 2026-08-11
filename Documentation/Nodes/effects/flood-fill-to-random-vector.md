@@ -31,11 +31,15 @@ But instead of grayscale or color, each region gets a stable random 2D vector â€
 
 | Name | Type | Description |
 |------|------|-------------|
+| Region ID | Texture2D |  |
+| Seed | Single |  |
+| Normalize Vector | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -22,18 +22,20 @@ Applies `ASIN(A)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5f0a0caa-b9b9-4b5d-aada-ce9de17ee3df | |
+| GUID | String | ec6ae942-0efa-4d29-a0dd-9bfa57134d28 | |
 | expanded | Boolean | False | |
 
 ## See Also

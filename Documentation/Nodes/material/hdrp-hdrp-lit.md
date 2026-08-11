@@ -22,11 +22,21 @@ Output a Lit HDRP Material
 
 | Name | Type | Description |
 |------|------|-------------|
+| Emissive Map | Texture2D |  |
+| Detail Map | Texture2D |  |
+| Emission Map | Texture2D |  |
+| Coat Mask | Texture2D |  |
+| Bent normal map | Texture2D |  |
+| Normal Map | Texture2D |  |
+| Height map | Texture2D |  |
+| Mask Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Lit Material | Material |
 
 ## Parameters
 
@@ -44,7 +54,7 @@ Output a Lit HDRP Material
 | addPrecomVelocity | Boolean | False | |
 | asset | Material | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c3360a84-7176-4581-84fb-c5f218905499 | |
+| GUID | String | ab9eca4e-2e1e-4edb-87f5-a202fb635de0 | |
 | expanded | Boolean | False | |
 
 ## See Also

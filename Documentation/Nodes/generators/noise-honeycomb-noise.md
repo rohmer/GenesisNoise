@@ -29,18 +29,23 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UV | Texture2D |  |
+| Zoom | Single | Scale of the honeycomb pattern |
+| Time Scale | Single | Animation speed |
+| Comb Style | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 3251ef8a-347a-4fb6-bc25-e6397eb090b3 | |
+| GUID | String | cf61650d-27b1-4021-8842-5dbb53e5a1ed | |
 | expanded | Boolean | False | |
 
 ## See Also

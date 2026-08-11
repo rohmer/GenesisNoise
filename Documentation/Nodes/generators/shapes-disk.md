@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Circle/Sphere Count | Single |  |
+| Minimum Radius | Single |  |
+| Maximum Radius | Single |  |
+| Random Colors | Single |  |
+| Start Color | Color |  |
+| End Color | Color |  |
+| Color | Color |  |
+| Scale to Resolution | Single |  |
+| Sphere Camera Pos | Vector4 |  |
+| Sphere Light Dir | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

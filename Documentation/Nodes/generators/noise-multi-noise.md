@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mode | Single | FBM Value 0, Ridge Value 1, Billow Value 2, TurbulenceValue 3, FBM Voronoi 4, BIllow Voronoi 5, Turbulence Voronoi 6, Warping Value 7 |
+| Scale | Vector4 | Frequency and tiling |
+| Offset | Vector4 | Offset in noise space |
+| Base Amplitude | Single | Base amplitude |
+| Lacunarity | Single | Lacunarity (amplitude multiplier) |
+| Ridge/Billow Power | Single | Ridge and Billow power |
+| Warp Shift | Single | Warp shift |
+| Warp Angle | Single | Warp rotation angle (radians) |
+| Output Amplitude | Single | Output amplitude |
+| Output Contrast | Single | Output contrast |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

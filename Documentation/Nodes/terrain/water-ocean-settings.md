@@ -23,13 +23,14 @@ _No description available._
 
 | Name | Type |
 |------|------|
+| Settings | OceanSettings |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 6e5de37a-2431-4ea4-94fd-3aec2d43f9de | |
+| GUID | String | 557ce528-43d6-4411-8ecf-371136057a73 | |
 | expanded | Boolean | False | |
 
 ## See Also

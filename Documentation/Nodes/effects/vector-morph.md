@@ -34,11 +34,17 @@ It has:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape | Texture2D |  |
+| Vector Field | Texture2D |  |
+| Morph Amount | Single |  |
+| Softness | Single |  |
+| Iterations | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

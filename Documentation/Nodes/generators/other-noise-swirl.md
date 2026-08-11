@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Noise Scale | Single |  |
+| Time Scale | Single |  |
+| Swirl Steps | Single |  |
+| Swirl Value | Single |  |
+| Contrast | Single |  |
+| Seed / Time | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

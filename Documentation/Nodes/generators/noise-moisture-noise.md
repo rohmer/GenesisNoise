@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Single | Global scale of the moisture pattern |
+| Cellular Strength | Single | Cellular (Worley) influence |
+| FBM Strength | Single | FBM breakup influence |
+| Spread | Single | Spread and wetness falloff |
+| Smear | Single | Directional smear amount |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

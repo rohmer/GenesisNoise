@@ -31,11 +31,24 @@ Rock Weathering is one of the most visually rewarding material effects you can a
 
 | Name | Type | Description |
 |------|------|-------------|
+| Rock Height | Texture2D |  |
+| Mechanical Erosion | Single |  |
+| Edge Chipping | Single |  |
+| Cavity Darkening | Single |  |
+| Sediment/Dust Accumulation | Single |  |
+| Sediment Direction | Single |  |
+| Micro-Cracks | Single |  |
+| Crack Frequency | Single |  |
+| Surface Breakup | Single |  |
+| Breakup Frequency | Single |  |
+| Contrast | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

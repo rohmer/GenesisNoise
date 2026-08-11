@@ -25,11 +25,19 @@ You can disable per-channel mode to use a single luminance range for all channel
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Input source |
+| Min Value | Single | Manual minimum when auto estimate is disabled |
+| Max Value | Single | Manual maximum when auto estimate is disabled |
+| Estimate Min/Max | Single | Auto estimate min and max from a 3x3 neighborhood |
+| Per Channel | Single | When enabled, levels are estimated and remapped per RGB channel |
+| Contrast | Single | Contrast shaping |
+| Invert | Single | 1 will invert the result |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

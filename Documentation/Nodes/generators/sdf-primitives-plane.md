@@ -20,11 +20,16 @@ Computes the signed distance field for a SDF Plane primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Width | Single | Width of the plane (X axis). |
+| Depth | Single | Depth of the plane (Z axis). |
+| Normal | Vector4 | Normal direction of the plane. |
+| Offset | Single | Offset distance along the normal. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

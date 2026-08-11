@@ -22,18 +22,20 @@ Returns the arctangent of the input.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 29738d33-5592-40b4-aa44-78792b619b8b | |
+| GUID | String | aa24adc9-dcef-4172-a377-a197adbbabe5 | |
 | expanded | Boolean | False | |
 
 ## See Also

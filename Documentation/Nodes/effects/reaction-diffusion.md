@@ -31,11 +31,19 @@ category: "Effects"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Initial State | Texture2D |  |
+| Feed Rate (F) | Single |  |
+| Kill Rate (K) | Single |  |
+| Diffusion A | Single |  |
+| Diffusion B | Single |  |
+| Iterations | Single |  |
+| Time Step | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

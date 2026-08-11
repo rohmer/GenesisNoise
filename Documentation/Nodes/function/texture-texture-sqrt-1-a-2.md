@@ -22,18 +22,20 @@ Applies `SQRT(1-A^2)` to the source texture per pixel.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c3fbcdba-e8c2-441f-99e5-230bf5b68ee7 | |
+| GUID | String | ee40adc8-a014-47ec-8f73-3847f55f30a6 | |
 | expanded | Boolean | False | |
 
 ## See Also

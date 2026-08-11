@@ -29,18 +29,34 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Crack Density | Single |  |
+| Crack Radius | Single |  |
+| Crack Sharpness | Single |  |
+| Plate Noise Amount | Single |  |
+| Plate Noise Scale | Single |  |
+| Occlusion Strength | Single |  |
+| Occlusion Scale | Single |  |
+| Fine Dust | Single |  |
+| Fine Dust Scale | Single |  |
+| Fine Dust Sharpness | Single |  |
+| Micro Specks | Single |  |
+| Micro Speck Scale | Single |  |
+| Breakup Strength | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ff0d6037-1832-4855-bab0-9b7af97c463b | |
+| GUID | String | 6244846f-cc65-4700-b076-6813987c7329 | |
 | expanded | Boolean | False | |
 
 ## See Also

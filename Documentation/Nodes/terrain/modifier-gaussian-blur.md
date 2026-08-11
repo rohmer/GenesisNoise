@@ -18,18 +18,20 @@ _No description available._
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height Map | HeightField |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Height Map | HeightField |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8406ed4c-f8a7-4e00-bbc3-c244b1940252 | |
+| GUID | String | c56d6624-6114-4036-a8ba-98130eeb21f9 | |
 | expanded | Boolean | False | |
 
 ## See Also

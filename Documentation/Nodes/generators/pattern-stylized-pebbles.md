@@ -29,11 +29,19 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Pebble Cell Scale | Single |  |
+| Pebble Roundness | Single |  |
+| Base Color A | Color |  |
+| Base Color B | Color |  |
+| Edge Darken | Single |  |
+| Light Direction | Vector4 |  |
+| Bump Strength | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

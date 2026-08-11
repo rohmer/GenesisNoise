@@ -34,11 +34,23 @@ The node operates on the incoming image input and supports 2D, 3D, and cubemap t
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Tiling Mode | Single |  |
+| Tile | Single |  |
+| Offset Mode | Single |  |
+| Offset | Vector4 |  |
+| Rotation (turns) | Single |  |
+| Tile Safe Rotation | Single |  |
+| Symmetry | Single |  |
+| Background Color | Color |  |
+| Mipmap Mode | Single |  |
+| Mipmap Level | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -20,11 +20,17 @@ Output an HDRP Lit Tessellation material.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Bent Normal Map | Texture2D |  |
+| Normal Map | Texture2D |  |
+| Height Map | Texture2D |  |
+| Mask Map | Texture2D |  |
+| Base Map | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Lit Tessellation Material | Material |
 
 ## Parameters
 
@@ -38,7 +44,7 @@ Output an HDRP Lit Tessellation material.
 | normalAmount | Single | 1 | |
 | tessellationFactor | Single | 4 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 274ed44c-064b-4060-bd29-bb4210323813 | |
+| GUID | String | fc230f86-9958-4cdd-886f-5738922886a8 | |
 | expanded | Boolean | False | |
 
 ## See Also

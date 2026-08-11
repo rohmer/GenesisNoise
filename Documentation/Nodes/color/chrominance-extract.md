@@ -29,11 +29,19 @@ category: "Color"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Saturation Weight | Single |  |
+| Luminance Compensation | Single |  |
+| Hue Center (0–1) | Single |  |
+| Hue Range | Single |  |
+| Softness | Single |  |
+| Invert Output | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

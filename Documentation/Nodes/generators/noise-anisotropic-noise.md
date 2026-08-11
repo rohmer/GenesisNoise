@@ -29,11 +29,34 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Global UV scale |
+| Offset | Vector4 | Global UV offset |
+| Direction | Single | Fiber direction in radians |
+| Anisotropy | Single | Longitudinal stretch. Higher means longer fibers |
+| Fiber Frequency | Single | Base fiber density repetition |
+| Fiber Width | Single | Fiber width shaping |
+| Ridge Sharpness | Single | Ridge sharpness |
+| Fiber Contrast | Single | Fiber contrast |
+| Length Variation | Single | Longitudinal intensity variation |
+| Cross Variation | Single | Cross fiber breakup amount |
+| Detail Strength | Single | Micro detail amount |
+| Detail Frequency | Single | Micro detail frequency |
+| Warp Strength | Single | Domain warp strength |
+| Warp Scale | Single | Domain warp scale |
+| Directional Warp | Single | Secondary directional warp |
+| Lacunarity | Single | Frequency multiplier |
+| Persistence | Single | Amplitude multiplier |
+| Contrast | Single | Final contrast shaping |
+| Gain | Single | Final gain |
+| Bias | Single | Final bias |
+| Invert | Single | Invert output |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

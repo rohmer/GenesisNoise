@@ -29,11 +29,28 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Shape | Texture2D |  |
+| Use Shape | Single |  |
+| Scale | Vector4 | Global tiling |
+| In A | Single |  |
+| In B | Single |  |
+| In C | Single |  |
+| In D | Single |  |
+| In E | Single |  |
+| Out A | Single |  |
+| Out B | Single |  |
+| Out C | Single |  |
+| Out D | Single |  |
+| Out E | Single |  |
+| Softness | Single | Softness of interpolation |
+| Contrast | Single | Contrast shaping |
+| Seed | Single | Randomization seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

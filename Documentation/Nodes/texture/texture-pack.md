@@ -22,18 +22,23 @@ Packs four texture inputs into a single RGBA texture. Each input contributes its
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Texture2D |  |
+| B | Texture2D |  |
+| G | Texture2D |  |
+| R | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Texture | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 646c2b2e-403d-402d-b72c-c2189bb3d632 | |
+| GUID | String | 9d550d6f-45ab-4f68-a5d7-be67d82dcfcf | |
 | expanded | Boolean | False | |
 
 ## See Also

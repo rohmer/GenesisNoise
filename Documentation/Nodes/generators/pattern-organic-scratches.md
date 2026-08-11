@@ -29,11 +29,21 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mask | Texture2D |  |
+| Waviness | Single | Waviness of the scratches |
+| Scale | Vector4 |  |
+| Layers | Single |  |
+| Base Frequency | Vector4 |  |
+| Frequency Step | Vector4 |  |
+| Antialias Level | Single |  |
+| Seed | Single |  |
+| Offset | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

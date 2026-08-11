@@ -27,11 +27,18 @@ A proper Skew node lets you shear UVs along X or Y, with:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| X Skew | Single |  |
+| Y Skew | Single |  |
+| Z Skew | Single |  |
+| Pivot | Vector4 |  |
+| Wrap Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

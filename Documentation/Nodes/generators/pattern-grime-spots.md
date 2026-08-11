@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 |  |
+| Seed | Single |  |
+| Balance | Single |  |
+| Contrast | Single |  |
+| Invert | Single |  |
+| Details | Single |  |
+| Coverage | Single |  |
+| Coverage Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

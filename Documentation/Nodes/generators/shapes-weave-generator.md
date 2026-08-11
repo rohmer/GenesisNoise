@@ -29,11 +29,29 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Vector4 | Number of parquet blocks across X and Y |
+| Angle | Single | Rotation in radians |
+| Thread Width | Single | Thread width inside each repeat |
+| Gap | Single | Gap between neighboring threads |
+| Edge Softness | Single | Softness of thread edges |
+| Thread Roundness | Single | Rounded height profile of each thread |
+| Pattern Type | Single | 0 Diagonal Parquet, 1 Plain Weave, 2 Basket Weave |
+| Strands Per Block | Single | Number of diagonal strands inside each parquet block |
+| Basket Size | Single | Basket group size in cells |
+| Crossing Depth | Single | How visible the thread crossing dip is |
+| Disorder | Single | Per strand width and height variation |
+| Wobble | Single | Subtle sideways strand wobble |
+| Fiber Strength | Single | Fine fibers running along each strand |
+| Fiber Frequency | Single | Fiber repeat frequency |
+| Contrast | Single | Output contrast |
+| Brightness | Single | Output brightness |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

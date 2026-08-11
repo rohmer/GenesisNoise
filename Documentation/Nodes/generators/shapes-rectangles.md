@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Background Color | Color |  |
+| Base Color | Color |  |
+| Rectangle Count | Single |  |
+| Min Size | Single |  |
+| Max Size | Single |  |
+| Edge Softness | Single |  |
+| Random Seed | Single |  |
+| Random Rotation | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

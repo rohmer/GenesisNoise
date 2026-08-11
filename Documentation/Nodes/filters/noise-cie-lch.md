@@ -22,11 +22,17 @@ CIE lch, like GIMP. Adds random noise to the Lightness, Chroma and Hue channels 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Lightness | Single |  |
+| Chroma | Single |  |
+| Hue | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

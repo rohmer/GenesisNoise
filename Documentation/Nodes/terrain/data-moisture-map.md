@@ -20,18 +20,23 @@ Creates a grayscale terrain moisture map from height, wind flow, curvature, and 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Slope Map | Texture2D |  |
+| Curvature Map | Texture2D |  |
+| Wind Flow Map | Texture2D |  |
+| Height Field | HeightField |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Moisture Map | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | bd64e84e-0149-47db-8567-1af7b7a4ec49 | |
+| GUID | String | c3f6d994-a86e-4ab8-b687-f93a09a2f912 | |
 | expanded | Boolean | False | |
 
 ## See Also

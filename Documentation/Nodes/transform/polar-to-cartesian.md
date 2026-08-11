@@ -28,11 +28,17 @@ category: "Transform"
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Center | Vector4 |  |
+| Angle Scale | Single |  |
+| Radius Scale | Single |  |
+| Output Mode | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

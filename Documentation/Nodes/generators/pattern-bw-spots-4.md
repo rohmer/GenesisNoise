@@ -29,11 +29,20 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Macro Density | Single |  |
+| Micro Density | Single |  |
+| Macro Scale | Single |  |
+| Micro Scale | Single |  |
+| Softness | Single |  |
+| Warp Amount | Single |  |
+| Flow Distortion | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

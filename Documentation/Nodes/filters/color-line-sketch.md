@@ -20,11 +20,20 @@ Creates a colored line-sketch effect by overlaying detected edges onto the origi
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Line Thickness | Single | Thickness of the sketch lines in pixels. |
+| Line Threshold | Single | How sensitive the line detection is. Lower more lines. |
+| Line Strength | Single | Strength of the line overlay. 0 no lines, 1 full lines. |
+| Line Color | Color | Color of the sketch lines. |
+| Color Preserve | Single | How much of the original color to preserve. 0 paper white, 1 full color. |
+| Paper Color | Color | Background paper color. |
+| Hatch Strength | Single | Adds a slight crosshatch texture to the sketch. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

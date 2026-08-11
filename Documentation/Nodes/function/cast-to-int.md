@@ -22,18 +22,20 @@ Casts the input value to Int.
 
 | Name | Type | Description |
 |------|------|-------------|
+| input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Int32 |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fc132fa0-4222-4b53-becc-b143fc0b86e8 | |
+| GUID | String | 69c775da-799b-4b71-9866-2928bcae3530 | |
 | expanded | Boolean | False | |
 
 ## See Also

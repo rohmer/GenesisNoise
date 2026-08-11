@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Tiling | Vector4 |  |
+| Seed | Single |  |
+| Smoothstep | Single |  |
+| Inner Edge | Vector4 |  |
+| Outer Edge | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

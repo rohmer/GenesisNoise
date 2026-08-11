@@ -22,11 +22,17 @@ Applies fast approximate anti-aliasing to soften jagged high-contrast texture ed
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Contrast Threshold | Single |  |
+| Relative Threshold | Single |  |
+| Subpixel Blending | Single |  |
+| Edge Span | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

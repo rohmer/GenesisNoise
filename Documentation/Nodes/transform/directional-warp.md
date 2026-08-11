@@ -30,11 +30,22 @@ Directional Warp = input warped along a direction, with intensity modulated by a
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Input texture to warp |
+| Intensity | Single | Warp intensity amount |
+| Angle | Single | Warp direction angle in degrees |
+| Angle (Turns) | Single | Warp direction angle in turns (1 turn 360 degrees). When non zero, this overrides Angle. |
+| Input Filtering | Single | Input filtering mode. Off nearest, On bilinear. |
+| Intensity Input | Texture2D | Intensity input (grayscale) |
+| Intensity Map Offset | Single | Value subtracted from intensity input before scaling by Intensity |
+| Warp Scale | Single | Warp map scale |
+| Mask | Texture2D | Optional mask |
+| Mask Strength | Single | Mask strength |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

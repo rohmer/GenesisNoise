@@ -29,11 +29,22 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Base Scale | Vector4 |  |
+| Leak Density | Single |  |
+| Blotch Radius | Single |  |
+| Blotch Softness | Single |  |
+| Streak Strength | Single |  |
+| Streak Stretch | Single |  |
+| Turbulence | Single |  |
+| Flow Warp | Single |  |
+| Edge Darkening | Single |  |
+| Contrast | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

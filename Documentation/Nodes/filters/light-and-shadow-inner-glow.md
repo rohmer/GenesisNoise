@@ -22,11 +22,16 @@ Inner glow. Adds a colored glow just inside the edge of the shape defined by the
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Size | Single |  |
+| Opacity | Single |  |
+| Color | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

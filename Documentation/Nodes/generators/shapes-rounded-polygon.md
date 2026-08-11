@@ -29,11 +29,16 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Width | Single |  |
+| Height | Single |  |
+| Sides | Single |  |
+| Rounding | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

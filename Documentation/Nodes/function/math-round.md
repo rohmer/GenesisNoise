@@ -22,18 +22,20 @@ Rounds the input to the nearest integer value.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 1713b854-cecc-409e-8abd-1a81d6e651bf | |
+| GUID | String | 86692366-9352-4784-b5a4-1df773c4d66b | |
 | expanded | Boolean | False | |
 
 ## See Also

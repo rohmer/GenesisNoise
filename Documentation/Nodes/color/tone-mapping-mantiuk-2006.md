@@ -22,11 +22,16 @@ Mantiuk 2006 tone mapping, like GIMP. A single-pass approximation of the percept
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Contrast | Single |  |
+| Adaptation | Single |  |
+| Saturation | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -29,18 +29,31 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Mode | Single | Gradient mode selector |
+| Angle | Single | Angle for directional gradients |
+| Scale | Single | Global scale |
+| Offset | Vector4 | Offset for gradient center |
+| Softness | Single | Softness contrast shaping |
+| Bands | Single | Bands count for banded mode |
+| Noise Strength | Single | Noise modulation strength |
+| Noise Scale | Single | Noise scale |
+| Bezier Control | Single | Bezier control point |
+| Stops Pos | Vector4 | Multistop positions (0 to 1) |
+| Stops Val | Vector4 | Multistop values (0 to 1) |
+| Stop Count | Single | Number of stops |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4610064e-8550-4cbc-a03c-494d83edfedd | |
+| GUID | String | f3862cf8-0e9c-44d2-a143-b9ec1b1e70a6 | |
 | expanded | Boolean | False | |
 
 ## See Also

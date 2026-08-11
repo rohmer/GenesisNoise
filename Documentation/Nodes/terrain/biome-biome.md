@@ -18,18 +18,21 @@ _No description available._
 
 | Name | Type | Description |
 |------|------|-------------|
+| Decorations | List`1 |  |
+| Textures | List`1 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Biome | Biome |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 97c0809c-ea5c-426b-bf68-25cf7844b00d | |
+| GUID | String | ca8e5fac-26bf-4153-a544-f4ba02c41dfe | |
 | expanded | Boolean | False | |
 
 ## See Also

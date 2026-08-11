@@ -18,18 +18,21 @@ _No description available._
 
 | Name | Type | Description |
 |------|------|-------------|
+| Prefabs | List`1 |  |
+| Placement Noise | Texture2D |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Decoration | BiomeDecoration |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 28a41d5d-2108-416c-b677-ed53d3e12e1d | |
+| GUID | String | 943079e2-33cf-4a10-9880-491f3789efc8 | |
 | expanded | Boolean | False | |
 
 ## See Also

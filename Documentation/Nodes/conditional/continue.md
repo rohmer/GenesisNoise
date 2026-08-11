@@ -24,18 +24,21 @@ Place this node on the loop's main value path when you want its input to become 
 
 | Name | Type | Description |
 |------|------|-------------|
+| Condition | Boolean |  |
+| Input | Object |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Output | Object |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | db052d0b-1a7b-4027-a74e-9b266fbd46a9 | |
+| GUID | String | 67d1c131-dc44-408b-be9f-5f3fd038df7b | |
 | expanded | Boolean | False | |
 
 ## See Also

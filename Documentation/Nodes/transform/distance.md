@@ -27,11 +27,19 @@ Produces smooth falloff fields
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D | Input mask (white is features) |
+| Max Distance | Single | Max distance in UV units |
+| Threshold | Single | Threshold for binary mask |
+| Samples | Single | Number of radial samples |
+| Invert | Single | Invert output |
+| Mask | Texture2D | Optional mask texture |
+| Mask Strength | Single | How strongly the mask affects the distance |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

@@ -20,11 +20,14 @@ Computes the signed distance field for a SDF Ground Plane primitive.
 
 | Name | Type | Description |
 |------|------|-------------|
+| Height | Single | Height of the ground plane along Y. |
+| Falloff | Single | Soft falloff distance from the plane. |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

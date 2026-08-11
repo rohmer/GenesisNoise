@@ -30,11 +30,17 @@ Think of it as:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Source | Texture2D |  |
+| Vector Field | Texture2D |  |
+| Intensity | Single |  |
+| Vector Scale | Single |  |
+| Softness | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

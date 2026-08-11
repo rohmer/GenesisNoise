@@ -29,11 +29,18 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| Scale | Single | Global scale of the noise |
+| Lacunarity | Single | Frequency multiplier per octave |
+| Gain | Single | Amplitude multiplier per octave |
+| Offset | Single | Offset added to each octave |
+| Roughness | Single | Roughness shaping |
+| Seed | Single | Random seed |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

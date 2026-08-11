@@ -22,18 +22,23 @@ Casts the input value to Color.
 
 | Name | Type | Description |
 |------|------|-------------|
+| A | Single |  |
+| B | Single |  |
+| G | Single |  |
+| R | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| output | Color |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 50605e92-d09e-474c-b536-71a214e345a3 | |
+| GUID | String | e671cc94-706b-41ea-9ed1-7b4dacb0aae0 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -22,11 +22,17 @@ Bloom effect. Extracts the bright parts of the image above a luminance threshold
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture2D |  |
+| Radius | Single |  |
+| Threshold | Single |  |
+| Soft | Single |  |
+| Intensity | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

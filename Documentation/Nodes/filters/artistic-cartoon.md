@@ -25,11 +25,21 @@ category: "Filters/Artistic"
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Source Texture | Texture2D |  |
+| Posterize Levels | Single |  |
+| Edge Strength | Single |  |
+| Edge Threshold | Single |  |
+| Halftone Amount | Single |  |
+| Halftone Scale | Single |  |
+| UV Scale | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 

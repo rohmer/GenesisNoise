@@ -29,11 +29,26 @@ Output:
 
 | Name | Type | Description |
 |------|------|-------------|
+| UVs | Texture2D |  |
+| Tiling Mode | Single |  |
+| UV Mode | Single |  |
+| Scale (stones per unit) | Single |  |
+| Cell Jitter | Single |  |
+| Stone Roundness | Single |  |
+| Base Stone Radius | Single |  |
+| Radius Variation | Single |  |
+| Mortar Width | Single |  |
+| Stone Height | Single |  |
+| Mortar Depth | Single |  |
+| Micro Detail | Single |  |
+| Micro Frequency | Single |  |
+| Seed | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Out | Texture2D |
 
 ## Parameters
 
