@@ -42,8 +42,9 @@ Output a Lit HDRP Material
 | globIllumination | eGlobIllum | None | |
 | specOccMode | eSOM | AO | |
 | addPrecomVelocity | Boolean | False | |
+| asset | Material | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 63dcdb9f-4f46-451c-9ab7-fe731245ed1a | |
+| GUID | String | c3360a84-7176-4581-84fb-c5f218905499 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -8,24 +8,20 @@ category: "Color"
 
 # Histogram Range
 
-> It’s essentially a range remapper that:
+> Reduces and repositions the value range of a grayscale input.
 
 ![Histogram Range](../_images/color/histogram-range.png)
 
 ## Description
 
 
-It’s essentially a range remapper that:
-- Extracts values inside a min/max range
-- Softens edges
-- Optionally inverts
-- Optionally remaps the extracted range to 0–1
-It’s simpler than Histogram Scan or Equalize, but it’s incredibly useful for:
-- Mask isolation
-- Range gating
-- Stylized shading
-- Procedural selection
-- Driving palette or blend nodes
+Reduces and repositions the value range of a grayscale input.
+
+- Range controls the width of the output range. A value of 1 preserves the input;
+  a value of 0 collapses it to a constant.
+- Position places the reduced range between black and white. At 0.5 the range is centered.
+
+Useful for compressing contrast while retaining smooth grayscale transitions.
 
 
 ## Inputs
@@ -42,13 +38,8 @@ It’s simpler than Histogram Scan or Equalize, but it’s incredibly useful for
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
-| Min Range | Range | 0.25 | Controls the min range. |
-| Max Range | Range | 0.75 | Controls the max range. |
-| Softness | Range | 0.1 | Controls the softness. |
-| Remap Extracted Range to 0–1 | Range | 1 | Controls the remap extracted range to 0–1. |
-| Invert Output | Range | 0 | Controls the invert output. |
-| Contrast | Range | 1.0 | Controls the contrast. |
-| Bias | Range | 0.0 | Controls the bias. |
+| Range | Range | 1 | Width of the output grayscale range |
+| Position | Range | 0.5 | Position of the reduced range between black and white |
 
 ## See Also
 

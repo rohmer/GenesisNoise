@@ -23,7 +23,7 @@
 | [Highpass Grayscale](./highpass-grayscale.md) | Extracts high-frequency detail from the input by blurring it, subtracting the blurred result from the original, and remapping the difference into a grayscale result. |
 | [Histogram](./histogram.md) | Builds a histogram from the input texture so you can inspect value distribution and drive tonal range analysis. |
 | [Histogram Equalize](./histogram-equalize.md) | - Local histogram equalization (windowed CDF approximation) |
-| [Histogram Range](./histogram-range.md) | It’s essentially a range remapper that: |
+| [Histogram Range](./histogram-range.md) | Reduces and repositions the value range of a grayscale input. |
 | [Histogram Render](./histogram-render.md) | - Compute a histogram of the input grayscale |
 | [Histogram Scan](./histogram-scan.md) | Histogram Scan |
 | [Histogram Select](./histogram-select.md) | It’s basically a smart range selector that: |

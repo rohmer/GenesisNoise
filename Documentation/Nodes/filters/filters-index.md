@@ -2,6 +2,7 @@
 
 | Node | Description |
 |------|-------------|
+| [Anime](./anime.md) | Applies an anime / cel-shading effect by posterizing colors and adding edge outlines. |
 | [Anisotropic Blur](./blur-anisotropic-blur.md) | Performs a high-quality directional blur, matching Substance 3D Designer's Anisotropic Blur. |
 | [Anisotropic Kuwahara](./blur-anisotropic-kuwahara.md) | Blur the input texture using a box blur. |
 | [Antialias](./enhance-antialias.md) | FXAA-style antialiasing for generated textures. |
@@ -13,8 +14,9 @@
 | [CIE lch](./noise-cie-lch.md) | CIE lch, like GIMP. Adds random noise to the Lightness, Chroma and Hue channels of the image in the CIE LCh colour space, then converts back to RGB, so colours shift in a perceptually even way. Lightness, Chroma and Hue set the per-channel amounts, Seed the random pattern. |
 | [Circular Blur](./blur-circular-blur.md) | Circular (disk) blur. Averages every sample that falls inside a circular kernel of the given radius, producing circular bokeh-style softening without the square corners of a box blur. |
 | [Clothify](./artistic-clothify.md) | Clothify, like GIMP. Overlays a woven cloth texture and lights it, so the image appears printed on fabric. Threads is the weave density, Depth the bump strength of the weave, Azimuth and Elevation set the lighting direction that shades the warp and weft. |
+| [Color Line Sketch](./color-line-sketch.md) | Creates a colored line-sketch effect by overlaying detected edges onto the original colors. |
 | [Cubism](./artistic-cubism.md) | Cubism, like GIMP. Replaces the image with a collage of randomly sized, randomly rotated squares, each filled with a flat color sampled from where the square sits, leaving dark seams between them for a cubist block look. Tile Size is the cell grid size, Size Variation how much each square's size jitters, Seam how dark the gaps are, and Seed the random pattern. |
-| [Curve](./curve.md) | ✔ Vertical curve remapping |
+| [Curve](./curve.md) | Remaps each input pixel's tonal value through a custom Bezier curve. Color inputs are |
 | [Deinterlace](./enhance-deinterlace.md) | Deinterlace filter. Removes interlace combing by blending each scanline with the average of its two vertical neighbours (one texel above and below). The Blend amount controls how much of the neighbour average replaces the original line, from passthrough (0) to full deinterlace (1). Alpha is taken from the input and is not blended. |
 | [Despeckle](./enhance-despeckle.md) | Despeckle filter using a 3x3 per-channel median. Each pixel is replaced by the median of its eight neighbours plus itself, computed independently for R, G and B, which removes isolated speckle (impulse) noise while keeping edges far better than a blur. Strength blends toward the median. Threshold makes it speckle-only: pixels that already match their local median (difference below the threshold) are left untouched, so clean detail is preserved. Alpha is taken from the input and is not modified. |
 | [Dialate](./dialate.md) | performs morphological dilation on a feature mask derived from the source texture. It supports binary dilation (thresholded luminance) and grayscale dilation (max filter on luminance), iterative dilation (multiple passes), and a simple color expansion strategy that expands feature colors into the dilated region |
@@ -49,6 +51,7 @@
 | [Make Seamless](./map-make-seamless.md) | Make Seamless, like GIMP Map. Blends the image with a copy of itself offset by half, crossfading so the edges wrap into the centre. The result tiles seamlessly when repeated. Amount controls how strongly the edges are blended. |
 | [Map Object](./map-map-object.md) | Map Object, like GIMP Map. Maps the image onto a shaded 3D sphere (GIMP's default object) and places it over a background. The image wraps onto the sphere surface and is lit by an azimuth/elevation light; pixels outside the sphere fall to the Background Color. Radius and Center size and position the sphere. |
 | [Mosaic Filter](./distort-mosaic-filter.md) | Pixelates the input into square tiles |
+| [Negative](./negative.md) | Inverts all RGB color channels of the input, producing a photographic negative effect. |
 | [Noise Reduction](./enhance-noise-reduction.md) | Noise reduction using an edge-preserving bilateral filter. Each pixel is averaged with its neighbours, but neighbours are weighted by both spatial distance and color similarity, so flat noisy regions are smoothed while edges and detail are preserved. Radius is the kernel half-size. Spatial Sigma controls how far the smoothing reaches. Range Sigma is the edge threshold: smaller values preserve edges more aggressively, larger values smooth across them. Alpha is taken from the input and is not modified. |
 | [Non-Uniform Blur](./blur-non-uniform-blur.md) | Non-Uniform blur where blur radius is determined by the intensity map |
 | [Oilify](./artistic-oilify.md) | Oilify, like GIMP. Simulates an oil painting by replacing each pixel with the most frequent colour in its neighbourhood (a mode filter over a coarse colour histogram), giving smooth painterly regions. Mask Size is the neighbourhood radius, Exponent weights the histogram (higher favours the single dominant colour). Note: the input name is Oilify (GIMP spelling). |
@@ -61,7 +64,7 @@
 | [RGB](./noise-rgb.md) | RGB, like GIMP. Adds independent random noise to the Red, Green and Blue channels. Red, Green and Blue set the per-channel amounts, Seed the random pattern. |
 | [Sharpen](./enhance-sharpen.md) | Sharpen the input image using a very simple 3x3 sharpening kernel. |
 | [Slope](./slope.md) | Calculate the slope of the input heightmap. The slope is calculated as the difference between the current pixel and its neighbors, giving you a measure of how steep the terrain is at that point. This can be used for various effects, such as erosion, texturing, or masking based on steepness. |
-| [Slope Blur](./blur-slope-blur.md) | Directional blur with the direction given as the slope of a grayscale input |
+| [Slope Blur](./blurs-slope-blur.md) | Performs a high-quality directional blur driven by the gradients of a grayscale slope map. |
 | [Slur](./noise-slur.md) | Slur, like GIMP. With a given probability mixes each pixel with a randomly chosen neighbour, smearing the image. Amount is the chance a pixel is smeared, Seed the random pattern. |
 | [Smearing](./blur-smearing.md) | Substance-style smearing driven by a grayscale slope map. |
 | [Softglow](./artistic-softglow.md) | Softglow, like GIMP. Adds a soft warm glow by brightening the image, blurring the brightened copy, and screen-blending it back over the original. Glow Radius is the blur size, Brightness how much the glow source is boosted, and Glow Amount how much of the glow is blended in. |

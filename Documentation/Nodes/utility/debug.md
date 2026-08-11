@@ -8,14 +8,14 @@ category: "Utility"
 
 # Debug
 
-> Inspects values during graph authoring and debugging.
+> Inspects values during graph authoring and debugging. Exposes a passthrough output that adopts the type of the connected input, so the node can be inserted inline in a chain without changing the data type flowing through it. When a texture type is connected to the input, the texture is visualized in the node preview.
 
 ![Debug](../_images/utility/debug.png)
 
 ## Description
 
 
-Inspects values during graph authoring and debugging.
+Inspects values during graph authoring and debugging. Exposes a passthrough output that adopts the type of the connected input, so the node can be inserted inline in a chain without changing the data type flowing through it. When a texture type is connected to the input, the texture is visualized in the node preview.
 
 
 ## Inputs
@@ -34,7 +34,7 @@ Inspects values during graph authoring and debugging.
 |---------|------|---------|-------------|
 | value | String | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8ce6e14c-9fe9-4f2a-9ed1-ed5ffb8f0969 | |
+| GUID | String | 02e0668c-e156-4210-b16e-acb25f8b827c | |
 | expanded | Boolean | False | |
 
 ## See Also

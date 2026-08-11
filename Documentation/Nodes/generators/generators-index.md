@@ -10,6 +10,7 @@
 | [Aurora](./other-aurora.md) | Generates aurora procedural noise. |
 | [Bacteria](./shapes-bacteria.md) | Generates bacteria procedural noise. |
 | [Basketweave](./shapes-basketweave.md) | Generates basketweave procedural content. |
+| [Billow Noise](./noise-billow-noise.md) | Generates billow fractal noise, an octave-stacked value noise that folds the low-frequency signal into rounded peaks and valleys. |
 | [Blue Noise](./noise-blue-noise.md) | Generates blue noise procedural noise. |
 | [Blue Noise](./points-blue-noise.md) | Generates blue noise points data for point-based procedural workflows. |
 | [Bricks](./shapes-bricks.md) | Generates a bricks pattern. |
@@ -21,6 +22,9 @@
 | [BW Spots 3](./pattern-bw-spots-3.md) | Generates bwspots 3 procedural noise. |
 | [BW Spots 4](./pattern-bw-spots-4.md) | Generates bwspots 4 procedural noise. |
 | [Cantor Set](./other-cantor-set.md) | Generates cantor set procedural noise. |
+| [Capped Cone](./sdf-primitives-capped-cone.md) | Computes the signed distance field for a SDF Capped Cone primitive. |
+| [Capped Cone (2 Points)](./sdf-primitives-capped-cone-2-points.md) | Computes the signed distance field for a SDF Capped Cone 2 Points primitive. |
+| [Capped Torus](./sdf-primitives-capped-torus.md) | Computes the signed distance field for a SDF Capped Torus primitive. |
 | [Cells 1](./pattern-cells-1.md) | Generates cells 1 procedural noise. |
 | [Cells 2](./pattern-cells-2.md) | Generates cells 2 procedural noise. |
 | [Cells 3](./pattern-cells-3.md) | Generates cells 3 procedural noise. |
@@ -39,8 +43,12 @@
 | [Crystal 2](./pattern-crystal-2.md) | Generates crystal 2 procedural noise. |
 | [Crystal 3](./pattern-crystal-3.md) | Generates crystal 3 procedural noise. |
 | [Crystal HQ](./pattern-crystal-hq.md) | Generates crystal hq procedural noise. |
+| [Cube](./sdf-primitives-cube.md) | Computes the signed distance field for a SDF Cube primitive. |
+| [Cube 3D](./patterns-cube-3d.md) | Renders a grayscale, shaded 3D cube whose brightness also represents screen depth. |
 | [Curl Noise](./noise-curl-noise.md) | Generates curl noise procedural noise. |
+| [Cylinder](./sdf-primitives-cylinder.md) | Computes the signed distance field for a SDF Cylinder primitive. |
 | [Cylinder](./shapes-cylinder.md) | Generates cylinder procedural content. |
+| [Cylinder (2 Points)](./sdf-primitives-cylinder-2-points.md) | Computes the signed distance field for a SDF Cylinder 2 Points primitive. |
 | [Damask](./shapes-damask.md) | Generates a damask pattern. |
 | [Derivative FBM](./noise-derivative-fbm.md) | Generates fbmdnoise procedural noise. |
 | [Directional Noise 1](./noise-directional-noise-1.md) | Generates directional noise 1 procedural noise. |
@@ -55,8 +63,11 @@
 | [Dirt Fine](./pattern-dirt-fine.md) | Generates dirt fine procedural noise. |
 | [Dirt Gradient](./pattern-dirt-gradient.md) | Generates dirt gradient procedural noise. |
 | [Disk](./shapes-disk.md) | Generates a circle pattern. |
+| [Domain Warp Fractal](./noise-domain-warp-fractal.md) | Generates fractal noise with domain warping. |
 | [Dots](./shapes-dots.md) | Generates dots procedural noise. |
 | [Ellipse](./shapes-ellipse.md) | Generates a ellipse pattern. |
+| [Ellipsoid](./sdf-primitives-ellipsoid.md) | Computes the signed distance field for a SDF Ellipsoid primitive. |
+| [Elongated Cylinder](./sdf-primitives-elongated-cylinder.md) | Computes the signed distance field for a SDF Elongated Cylinder primitive. |
 | [FBM](./noise-fbm.md) | Generates fbmnoise procedural noise. |
 | [Fibers 2](./shapes-fibers-2.md) | Generates a fibers 2 pattern. |
 | [Fleur-de-Lis](./shapes-fleur-de-lis.md) | Generates fleur de lis procedural content. |
@@ -73,6 +84,7 @@
 | [Gingham](./shapes-gingham.md) | Generates a gingham pattern. |
 | [Grass](./pattern-grass.md) | Generates grass procedural noise. |
 | [Greek Key](./shapes-greek-key.md) | Generates a greek key pattern. |
+| [Green Noise](./noise-green-noise.md) | Generates green (mid-frequency band-pass) spectral noise. |
 | [Grey Noise](./noise-grey-noise.md) | Generates grey noise procedural noise. |
 | [Grey Noise Points](./points-grey-noise-points.md) | Generates grey noise points data for point-based procedural workflows. |
 | [Grid](./shapes-grid.md) | Generates a grid pattern. |
@@ -87,14 +99,17 @@
 | [Grime 8](./pattern-grime-8.md) | Generates grime 8 procedural noise. |
 | [Grime 9](./pattern-grime-9.md) | Generates grime 9 procedural noise. |
 | [Grime Spots](./pattern-grime-spots.md) | Generates grime spots procedural noise. |
+| [Ground Plane](./sdf-primitives-ground-plane.md) | Computes the signed distance field for a SDF Ground Plane primitive. |
 | [Harlequin](./shapes-harlequin.md) | Generates a harlequin pattern. |
 | [Height Extrusion](./pattern-height-extrusion.md) | Generates height extrude procedural noise. |
+| [Helix](./sdf-primitives-helix.md) | Computes the signed distance field for a SDF Helix primitive. |
 | [Herringbone](./shapes-herringbone.md) | Generates herringbone procedural noise. |
 | [Hex Grid](./shapes-hex-grid.md) | Generates a hex grid pattern. |
 | [Hex Lattice](./shapes-hex-lattice.md) | Generates a hex lattice pattern. |
 | [Hexagonal Mesh](./shapes-hexagonal-mesh.md) | Generates a hexagonal mesh pattern. |
 | [Honeycomb Noise](./noise-honeycomb-noise.md) | Generates honeycomb noise procedural noise. |
 | [Houndstooth](./shapes-houndstooth.md) | Generates a houndstooth pattern. |
+| [Infinite Plane](./sdf-primitives-infinite-plane.md) | Computes the signed distance field for a SDF Infinite Plane primitive. |
 | [Jacquard](./shapes-jacquard.md) | Generates a jacquard pattern. |
 | [Julia](./other-julia.md) | Generates julia procedural noise. |
 | [Leaks 1](./pattern-leaks-1.md) | Generates leaks node 1 procedural noise. |
@@ -121,17 +136,22 @@
 | [Perlin Noise](./noise-perlin-noise.md) | Generates perlin noise procedural noise. |
 | [Pink Noise](./noise-pink-noise.md) | Generates pink noise procedural noise. |
 | [Pink Noise Points](./points-pink-noise-points.md) | Generates pink noise points data for point-based procedural workflows. |
+| [Plane](./sdf-primitives-plane.md) | Computes the signed distance field for a SDF Plane primitive. |
 | [Plasma](./pattern-plasma.md) | Generates plasma procedural noise. |
 | [Poisson Disk Points](./points-poisson-disk-points.md) | Generates poisson disk points data for point-based procedural workflows. |
 | [Poisson Disk Points From Noise](./points-poisson-disk-points-from-noise.md) | Generates noise scaled poisson disk points data for point-based procedural workflows. |
 | [Polygon 2D](./shapes-polygon-2d.md) | Generates a polygon 2 d pattern. |
+| [Pyramid](./sdf-primitives-pyramid.md) | Computes the signed distance field for a SDF Pyramid primitive. |
+| [Pyramid Square](./sdf-primitives-pyramid-square.md) | Computes the signed distance field for a SDF Pyramid Square primitive. |
 | [Random N-Gon](./shapes-random-n-gon.md) | Generates random ngon procedural content. |
 | [Random Points](./points-random-points.md) | Generates random points data for point-based procedural workflows. |
 | [Random Points From Noise](./points-random-points-from-noise.md) | Generates noise weighted random points data for point-based procedural workflows. |
 | [Rauzy](./other-rauzy.md) | Generates rauzy procedural noise. |
 | [Rectangles](./shapes-rectangles.md) | Generates a rectangles pattern. |
+| [Red Noise](./noise-red-noise.md) | Generates red (low-frequency) spectral noise. |
 | [Ridged Cellular Noise](./noise-ridged-cellular-noise.md) | Generates ridged cellular noise procedural noise. |
 | [Ridged Perlin Noise](./noise-ridged-perlin-noise.md) | Generates ridged perlin noise procedural noise. |
+| [Rock](./sdf-primitives-rock.md) | Computes the signed distance field for a SDF Rock primitive. |
 | [Rounded Polygon](./shapes-rounded-polygon.md) | Generates a rounded polygon pattern. |
 | [Rounded Rectangle](./shapes-rounded-rectangle.md) | Generates a rounded rectangle pattern. |
 | [Rust - Fine](./pattern-rust-fine.md) | Generates rust fine procedural noise. |
@@ -147,6 +167,8 @@
 | [Sky Generator](./other-sky-generator.md) | Generates sky procedural noise. |
 | [Smooth Wave](./shapes-smooth-wave.md) | Generates a smooth wave pattern. |
 | [Smudges](./pattern-smudges.md) | Generates smudges procedural noise. |
+| [Sparse Gabor Convolution](./noise-sparse-gabor-convolution.md) | Generates sparse Gabor convolution noise. |
+| [Sphere](./sdf-primitives-sphere.md) | Computes the signed distance field for a SDF Sphere primitive. |
 | [Spiral Arms Falloff Splatter Shape](./shapes-spiral-arms-falloff-splatter-shape.md) | Generates a spiral arms falloff splatter shape pattern. |
 | [Spiral Arms Splatter Shape](./shapes-spiral-arms-splatter-shape.md) | Generates a spiral arms splatter shape pattern. |
 | [Spiral Splatter Shape](./shapes-spiral-splatter-shape.md) | Generates a spiral splatter shape pattern. |
@@ -159,12 +181,15 @@
 | [Stylized Pebbles](./pattern-stylized-pebbles.md) | Generates stylized pebbles procedural noise. |
 | [SuperShape](./shapes-supershape.md) | Generates a super shape pattern. |
 | [Tartan](./shapes-tartan.md) | Generates a tartan pattern. |
+| [Torus](./sdf-primitives-torus.md) | Computes the signed distance field for a SDF Torus primitive. |
 | [Torus](./shapes-torus.md) | Generates a torus pattern. |
 | [Trellis](./shapes-trellis.md) | Generates a trellis pattern. |
 | [Triangle Grid](./shapes-triangle-grid.md) | Generates a triangle grid pattern. |
 | [Truchet](./shapes-truchet.md) | Generates a truchet pattern. |
+| [Turbulence](./noise-turbulence.md) | Generates turbulence noise, an octave-stacked value noise that folds every octave into high-frequency swirling detail. |
 | [Uniform Color](./other-uniform-color.md) | Generates a texture filled with a single uniform color. |
 | [Value](./noise-value.md) | Generates value procedural noise. |
+| [Value Cubic](./noise-value-cubic.md) | Generates cubic value procedural noise. |
 | [Vector Field](./shapes-vector-field.md) | Generates vector field procedural content. |
 | [Velvet Noise](./noise-velvet-noise.md) | Generates velvet noise procedural noise. |
 | [Velvet Noise Points](./points-velvet-noise-points.md) | Generates velvet noise points data for point-based procedural workflows. |

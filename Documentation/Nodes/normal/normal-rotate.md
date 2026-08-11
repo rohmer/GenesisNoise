@@ -33,7 +33,7 @@ Rotate the normal map vector with a certain angle in degree.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 37ec132d-ccc2-423b-ac12-6cdd7de1ceeb | |
+| GUID | String | 822930cc-4835-409d-aecd-ff020aa96d13 | |
 | expanded | Boolean | False | |
 
 ## See Also

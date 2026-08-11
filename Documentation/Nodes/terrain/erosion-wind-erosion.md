@@ -31,7 +31,7 @@ Applies directional wind erosion to a heightfield by transporting loose material
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c7d89ffa-8ee8-4b8a-b0ba-de39774b9161 | |
+| GUID | String | bb015c9d-4511-4780-90f5-2ceac1322150 | |
 | expanded | Boolean | False | |
 
 ## See Also

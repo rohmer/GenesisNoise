@@ -33,7 +33,7 @@ Wraps a texture asset or input texture and exposes the source texture's full RGB
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | df2229a3-359b-443f-a351-01adca0df2d2 | |
+| GUID | String | fd169285-89d0-45ce-b405-484dbff4d6c9 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -34,7 +34,7 @@ Closes a loop flow block and aggregates the loop-end input values across iterati
 |---------|------|---------|-------------|
 | mode | AggregateMode | CollectValues | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d54f199f-dece-4ecf-880a-404af5d25639 | |
+| GUID | String | 24f3a842-fd17-4c7b-a3c8-b3f60b4472a9 | |
 | expanded | Boolean | False | |
 
 ## See Also

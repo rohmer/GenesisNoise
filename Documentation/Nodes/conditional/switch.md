@@ -35,7 +35,7 @@ If the selection is outside the available case range, the default input is retur
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 6f088fd6-8e98-4a03-ad03-c5d2e14eed91 | |
+| GUID | String | ac3d0235-798f-440c-9fab-a2d2b7cd8076 | |
 | expanded | Boolean | False | |
 
 ## See Also

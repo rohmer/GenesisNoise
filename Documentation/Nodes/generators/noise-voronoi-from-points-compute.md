@@ -49,7 +49,7 @@ Output:
 | invert | Boolean | False | |
 | emptyColor | Color | RGBA(0.000, 0.000, 0.000, 1.000) | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 6d1e9328-e768-4a57-9fda-78decb0eec18 | |
+| GUID | String | 6e876ef4-3758-44de-af66-c2b83de66aa9 | |
 | expanded | Boolean | False | |
 
 ## See Also

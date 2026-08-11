@@ -8,19 +8,17 @@ category: "Filters"
 
 # Curve
 
-> ✔ Vertical curve remapping
+> Remaps each input pixel's tonal value through a custom Bezier curve. Color inputs are
 
 ![Curve](../_images/filters/curve.png)
 
 ## Description
 
 
-✔ Vertical curve remapping
-✔ X axis = output Y
-✔ Y axis = source Y sample
-✔ Supports grayscale and color
-✔ Sorted key interpolation
-✔ Smooth or linear interpolation
+Remaps each input pixel's tonal value through a custom Bezier curve. Color inputs are
+evaluated per RGB channel and alpha is preserved. Expose Curve outputs the curve as a
+grayscale lookup gradient. Curve Addressing controls whether HDR values outside 0-1 are
+clamped or folded back into range.
 
 
 ## Inputs
@@ -38,6 +36,8 @@ category: "Filters"
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | Curve Texture | 2D | white | Controls the curve texture. |
+| Expose Curve | Float | 0 | Controls the expose curve. |
+| Curve Addressing | Float | 0 | Controls the curve addressing. |
 | Key Count | Float | 0 | Controls the key count. |
 | Positions | Vector | (0, 0, 0, 0) | Controls the positions. |
 | Values | Vector | (0, 0, 0, 0) | Controls the values. |

@@ -33,7 +33,7 @@ Add two normal maps using the surface gradient functions.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 08f72aa8-7e45-4f7b-becb-eb99903b75d2 | |
+| GUID | String | fa36e0dc-dd9d-440b-a887-9fc14cd70666 | |
 | expanded | Boolean | False | |
 
 ## See Also
