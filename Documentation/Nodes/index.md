@@ -10,6 +10,7 @@
 | Generators | [Generators Nodes](./generators/generators-index.md) |
 | Graph | [Graph Nodes](./graph/graph-index.md) |
 | Material | [Material Nodes](./material/material-index.md) |
+| Mesh | [Mesh Nodes](./mesh/mesh-index.md) |
 | Normal | [Normal Nodes](./normal/normal-index.md) |
 | Output | [Output Nodes](./output/output-index.md) |
 | Terrain | [Terrain Nodes](./terrain/terrain-index.md) |
