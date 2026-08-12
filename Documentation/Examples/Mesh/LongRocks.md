@@ -16,4 +16,10 @@ This also includes the [Texture Pack](../../Nodes/texture/texture-pack.md) node
 - The [XYZ Noise Displacement](../../Nodes/mesh/xyz-noise-displace-mesh.md) node is doing quite a bit of work here.
   * It takes 3 inputs for the noise to apply in each plane.  These are generated noise from the Mesh Noise group
   * Randomize Displacement group creates 3 random floats from 0-1, this changes where the mesh is placed in the noise field.  This in-turn makes the output mesh randomized.
+- [Optimize Mesh](../../Nodes/mesh/optimize-mesh.md) node is run next.  This cleans up any "Unnecessary" triangles to optimize the final output.
+- [Smooth Mesh](../../Nodes/mesh/optimize-mesh.md) removes any remaining "points" on the mesh to make it look more like an organic boulder.
+- Pack Texture group
+  * Takes 4 input textures and applies their grayscale output to a single texture, channel based using the [Texture Pack](../../Nodes/texture/texture-pack.md) node
+- [Apply Material](../../Nodes/mesh/apply-material.md) applies the material selected to the mesh and sets the values defined within that material
+- [Generate LODs](../../Nodes/mesh/generate-lods.md) - Creates LODs for the final object.  This sets the final LOD to an imposter for maximum optimization
 
