@@ -2,7 +2,7 @@
 Genesis Noise is a node based tool for modeling, texturing, material creation and rendering realistic 3D assets.
 
 ## Examples
-The best was to learn how to use Genesis Noise is by examples.  There are exampes for Mesh, Custom Nodes, Terrain and Textures.  These can be found in the [Examples](Documentation/Examples/index.md).
+The best was to learn how to use Genesis Noise is by examples.  There are examples for Mesh, Custom Nodes, Terrain and Textures.  These can be found in the [Examples](Documentation/Examples/index.md).
 
 ## Nodes
 Nodes are the bread and butter of Genesis Noise.  They are the items that actually do things.  Each node has potentially:
