@@ -39,4 +39,5 @@ Links to documentation, opening a bug report and feature requests.
 
 # Graph Inspector
 ![Inspector](Inspector.png)
+
 The graph inspector will show an editor for all of the exposed parameters of the graph.  For more information: [Parameters](Documentation/Parameters/index.md)
