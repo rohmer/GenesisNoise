@@ -10,7 +10,7 @@ Nodes are the bread and butter of Genesis Noise.  They are the items that actual
   * Node outputs - The outcome of the nodes processing
   * Settings - Nodes can and do have a number of settings defining how they are controlled
 
-There are over 500 different node types and they are explained in [Nodes](Documentation/Nodes/index.md)
+There are over 1000 different node types and they are explained in [Nodes](Documentation/Nodes/index.md)
 
 ## Functions
 Functions work similarly to nodes except they are a specific set of nodes grouped as a function.  Think of them as subroutines within the Genesis Noise space.  They are useful for:
@@ -22,6 +22,9 @@ Functions are described in detail in [Functions](Documentation/Functions/index.m
 
 ## Graphs
 Graphs are collections of nodes and the connections between them that do something within Genesis Noise.  They can create a texture, mesh or terrain.  They are explained in detail in [Graphs](Documentation/Graphs/index.md)
+
+## Blueprint
+Blueprints are embedded graphs.  This too is a convenience function for embedding graphs within graphs.  More information can be found in [Blueprints](Documentation/Blueprints/index.md)
 
 ## Parameters
 Parameters are variables scoped to an entire graph.  They are used a couple of ways:

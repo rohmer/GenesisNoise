@@ -1,4 +1,0 @@
-{#prototurtle}
-
-# ProtoTurtle
-

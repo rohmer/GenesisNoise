@@ -1,4 +1,0 @@
-{#gnterrain}
-
-# GNTerrain
-

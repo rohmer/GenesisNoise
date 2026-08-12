@@ -1,4 +1,0 @@
-{#profiling}
-
-# Profiling
-

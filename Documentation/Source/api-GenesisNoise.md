@@ -1,4 +1,0 @@
-{#genesisnoise}
-
-# GenesisNoise
-

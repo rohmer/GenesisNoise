@@ -1,4 +1,0 @@
-{#mathx}
-
-# mathx
-

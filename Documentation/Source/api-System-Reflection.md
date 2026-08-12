@@ -1,4 +1,0 @@
-{#reflection}
-
-# Reflection
-
