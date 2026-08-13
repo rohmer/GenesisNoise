@@ -7,22 +7,22 @@ This example uses a range of texture-generation and filtering nodes:
 - [Slope Blur](../../Nodes/filters/blurs-slope-blur.md)
 - [Height Blend](../../Nodes)
 - [To Normal](../../Nodes/normal/to-normal.md)
-- Masked Normal Blend
-- Ambient Occlusion
+- [Masked Normal Blend](../../Nodes/normal/masked-normal-blend.md)
+- [Ambient Occlusion](../../Nodes/effects/ambient-occlusion-hbao.md)
 - [Texture Pack](../../Nodes/texture/texture-pack.md)
 - [Texture2D Output](../../Nodes/output/texture-2d.md)
 
 The graph also reuses the moss material graph through three [Blueprint](../../Nodes/graph/blueprint.md) nodes.
 
 Procedural source textures are generated with:
-- Ridged Perlin Noise
-- OpenSimplex 2S
-- Simplex 3D
-- Cells 4
-- Clouds 4
-- Polygon 2D
-- Splatter Shape
-- Dirt
+- [Ridged Perlin Noise](../../Nodes/generators/noise-ridged-perlin-noise.md)
+- [OpenSimplex 2S](../../Nodes/generators/noise-simplex-2d.md)
+- [Simplex 3D](../../Nodes/generators/noise-simplex-3d.md)
+- [Cells 4](../../Nodes/generators/pattern-cells-4.md)
+- [Clouds 4](../../Nodes/generators/pattern-clouds-4.md)
+- [Polygon 2D](../../Nodes/generators/shapes-polygon-2d.md)
+- [Splatter Shape](../../Nodes/generators/shapes-splatter-shape.md)
+- [Dirt](../../Nodes/generators/pattern-dirt-1.md)
 
 The graph exposes these [Parameters](../../Parameters/index.md):
 - **Seed** controls the procedural rock pattern.
