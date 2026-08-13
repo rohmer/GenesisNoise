@@ -6,6 +6,7 @@ Example texture graphs:
 - [Moss](Moss.md) - Interesting use of shapes to generate a moss texture
 - [Onyx](Onyx.md) - A texture simulating Onyx with a few options for colors.
 - [Paving Stones](PavingStones.md) - An example showing how easy it is to create a texture for paving stones
+- [Procedural Eyes](ProceduralEyes.md) - A generator with quite a few options for creating procedural eyes
 - [Roof Tiles](RoofTiles.md) - Clay roof tiles
 - [Stone](Stone.md) - An organic stone texture
 - [WoodFloor](WoodFloor.md) - A parquet wood floor texture

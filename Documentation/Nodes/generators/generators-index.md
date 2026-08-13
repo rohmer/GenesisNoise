@@ -44,7 +44,7 @@
 | [Crystal 3](./pattern-crystal-3.md) | Generates crystal 3 procedural noise. |
 | [Crystal HQ](./pattern-crystal-hq.md) | Generates crystal hq procedural noise. |
 | [Cube](./sdf-primitives-cube.md) | Computes the signed distance field for a SDF Cube primitive. |
-| [Cube 3D](./patterns-cube-3d.md) | Renders a grayscale, shaded 3D cube whose brightness also represents screen depth. |
+| [Cube 3D](./pattern-cube-3d.md) | Renders a grayscale, shaded 3D cube whose brightness also represents screen depth. |
 | [Curl Noise](./noise-curl-noise.md) | Generates curl noise procedural noise. |
 | [Cylinder](./sdf-primitives-cylinder.md) | Computes the signed distance field for a SDF Cylinder primitive. |
 | [Cylinder](./shapes-cylinder.md) | Generates cylinder procedural content. |
@@ -68,6 +68,8 @@
 | [Ellipse](./shapes-ellipse.md) | Generates a ellipse pattern. |
 | [Ellipsoid](./sdf-primitives-ellipsoid.md) | Computes the signed distance field for a SDF Ellipsoid primitive. |
 | [Elongated Cylinder](./sdf-primitives-elongated-cylinder.md) | Computes the signed distance field for a SDF Elongated Cylinder primitive. |
+| [Eye Iris](./pattern-eye-iris.md) | Generates a colored procedural eye iris. |
+| [Eye Veins](./pattern-eye-veins.md) | Generates a radial, branching vein mask suitable for an eye sclera. |
 | [FBM](./noise-fbm.md) | Generates fbmnoise procedural noise. |
 | [Fibers 2](./shapes-fibers-2.md) | Generates a fibers 2 pattern. |
 | [Fleur-de-Lis](./shapes-fleur-de-lis.md) | Generates fleur de lis procedural content. |
