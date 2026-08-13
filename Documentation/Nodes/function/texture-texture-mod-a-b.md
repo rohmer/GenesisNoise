@@ -36,7 +36,7 @@ Applies `MOD(A,B)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d9e3fffb-214b-4dbb-a650-f490f7653d01 | |
+| GUID | String | 1080d84b-2532-4168-8b87-a48f4530477f | |
 | expanded | Boolean | False | |
 
 ## See Also

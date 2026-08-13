@@ -43,7 +43,7 @@ Adjusts black point, white point, gamma, and output range for the input.
 | interpolationCurveG | AnimationCurve | UnityEngine.AnimationCurve | |
 | interpolationCurveB | AnimationCurve | UnityEngine.AnimationCurve | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d59558e4-69ec-4cb8-b4bd-6a11dfffa790 | |
+| GUID | String | a4349006-7374-4c2e-807a-3aeb17838328 | |
 | expanded | Boolean | False | |
 
 ## See Also

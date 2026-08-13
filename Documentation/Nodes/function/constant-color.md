@@ -38,7 +38,7 @@ Outputs a constant color value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 29d815bb-2464-4ae5-a6bb-487fc62a1c70 | |
+| GUID | String | 70612ff6-39cd-4825-b151-a983a4108ea6 | |
 | expanded | Boolean | False | |
 
 ## See Also

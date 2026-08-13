@@ -34,7 +34,7 @@ Outputs an assigned prefab GameObject for use in mesh graphs.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d5e26e1f-3fd7-4fd8-a425-dfdcde8cb12d | |
+| GUID | String | ddc080f7-4b1a-4f44-89ef-1cedce48b48c | |
 | expanded | Boolean | False | |
 
 ## See Also

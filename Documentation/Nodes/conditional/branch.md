@@ -37,7 +37,7 @@ Conditionally outputs either the true of false value depending on the condition 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d7e6c235-6d1b-4145-b671-c9969f11e212 | |
+| GUID | String | 903f2dec-ebc8-46a4-ad62-617b29dd733d | |
 | expanded | Boolean | False | |
 
 ## See Also

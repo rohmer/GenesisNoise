@@ -37,7 +37,7 @@ Output a URP Baked Lit material.
 | primitiveType | PrimitiveType | Cube | |
 | baseColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 35f969ff-7e57-479d-8cd3-92d3b017cd14 | |
+| GUID | String | ad6862a0-eba7-45b7-9201-06f4f76e9d44 | |
 | expanded | Boolean | False | |
 
 ## See Also

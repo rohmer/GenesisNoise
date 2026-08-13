@@ -54,7 +54,7 @@ Output a Lit HDRP Material
 | addPrecomVelocity | Boolean | False | |
 | asset | Material | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ab9eca4e-2e1e-4edb-87f5-a202fb635de0 | |
+| GUID | String | ff60bd18-3aa4-48eb-a280-2ffddc7b9748 | |
 | expanded | Boolean | False | |
 
 ## See Also

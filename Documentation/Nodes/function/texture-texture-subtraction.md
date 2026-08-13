@@ -36,7 +36,7 @@ Subtracts one texture input from another per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8bc22c83-4d08-4056-aaa8-3c2a02e224f2 | |
+| GUID | String | 3246d37e-dbed-48b1-a52c-58e7f4a7773d | |
 | expanded | Boolean | False | |
 
 ## See Also

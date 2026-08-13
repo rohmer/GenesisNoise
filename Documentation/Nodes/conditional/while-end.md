@@ -36,7 +36,7 @@ Closes a while-loop flow block.
 |---------|------|---------|-------------|
 | mode | AggregationMode | FeedbackToStartNode | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | cd913eb2-49e4-4248-ab08-be41f2493413 | |
+| GUID | String | b189aa81-f63b-4e43-bb90-f5a9d87eb7eb | |
 | expanded | Boolean | False | |
 
 ## See Also

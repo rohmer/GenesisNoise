@@ -37,7 +37,7 @@ Smooths a mesh to soften sharp edges by averaging neighboring vertex positions.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 27af5edf-3b58-4438-bbf4-9891c0d69581 | |
+| GUID | String | 37ea75a5-4774-4902-a3ba-a7e41aaa80ab | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -34,7 +34,7 @@ Outputs a constant texture 2d value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 7b435e79-991b-4ba2-b397-f8166559bbb3 | |
+| GUID | String | 67fefcbc-2b4d-47fd-87fe-286f8509959d | |
 | expanded | Boolean | False | |
 
 ## See Also

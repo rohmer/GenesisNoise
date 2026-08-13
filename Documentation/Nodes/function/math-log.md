@@ -36,7 +36,7 @@ Returns the logarithm of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 1c49a3b7-e7ae-4432-9119-6f196ddfafcb | |
+| GUID | String | bc70f0f7-72eb-46bc-9bd0-183c94a204b0 | |
 | expanded | Boolean | False | |
 
 ## See Also

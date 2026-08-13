@@ -35,7 +35,7 @@ Returns the sine of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 72a6c210-9af4-486f-a86b-018acde224a6 | |
+| GUID | String | 3375a669-4fa7-49e6-a45d-b832187c72ca | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -8,42 +8,37 @@ category: "Effects"
 
 # Curvature Smooth
 
-> Simulates Substance’s Curvature Smooth node from a height map: convex/concave detection via a Laplacian‑style kernel, remapped to 0–1, with optional separate convex/concave outputs.
+> Compatibility entry for Curvature Smooth. Computes curvature, convexity, and concavity from a tangent-space normal map.
 
 ![Curvature Smooth](../_images/effects/curvature-smooth.png)
 
 ## Description
 
 
-Simulates Substance’s Curvature Smooth node from a height map: convex/concave detection via a Laplacian‑style kernel, remapped to 0–1, with optional separate convex/concave outputs.
+Compatibility entry for Curvature Smooth. Computes curvature, convexity, and concavity from a tangent-space normal map.
 
 
 ## Inputs
 
 | Name | Type | Description |
 |------|------|-------------|
-| Height | Texture2D |  |
-| Curvature Radius | Single |  |
-| Smoothing Radius | Single |  |
-| Intensity | Single |  |
-| Invert Height | Single |  |
-| Separate Convex/Concave | Single |  |
+| Normal | Texture2D |  |
+| Normal Format | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Concavity | Texture2D |
+| Convexity | Texture2D |
 | Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
-| Curvature Radius | Range | 1 | Controls the curvature radius. |
-| Smoothing Radius | Range | 2 | Controls the smoothing radius. |
-| Intensity | Range | 1 | Controls the intensity. |
-| Invert Height | Int | 0 | Controls the invert height. |
-| Separate Convex/Concave | Int | 0 | Controls the separate convex/concave. |
+| Normal Format | Enum | 0 | Controls the normal format. |
+| Output Mode | Int | 0 | Controls the output mode. |
 
 ## See Also
 

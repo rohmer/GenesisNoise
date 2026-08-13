@@ -8,18 +8,14 @@ category: "Effects"
 
 # Curvature Sobel
 
-> - Sharper, more detailed curvature
+> Performs a sharp, single-pass Sobel curvature conversion from a tangent-space normal map. Convex areas are bright, concave areas are dark, and flat areas are 50% gray.
 
 ![Curvature Sobel](../_images/effects/curvature-sobel.png)
 
 ## Description
 
 
-- Sharper, more detailed curvature
-- Better edge detection
-- More stable results on noisy heightmaps
-- Convex / concave separation
-- Fully compatible with 2D / 3D / Cube CRT sampling
+Performs a sharp, single-pass Sobel curvature conversion from a tangent-space normal map. Convex areas are bright, concave areas are dark, and flat areas are 50% gray.
 
 
 ## Inputs
@@ -28,7 +24,7 @@ category: "Effects"
 |------|------|-------------|
 | Normal | Texture2D |  |
 | Intensity | Single |  |
-| Separate Convex/Concave | Single |  |
+| Normal Type | Single |  |
 
 ## Outputs
 
@@ -41,7 +37,7 @@ category: "Effects"
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | Intensity | Range | 1 | Controls the intensity. |
-| Separate Convex/Concave | Int | 0 | Controls the separate convex/concave. |
+| Normal Type | Enum | 0 | Controls the normal type. |
 
 ## See Also
 

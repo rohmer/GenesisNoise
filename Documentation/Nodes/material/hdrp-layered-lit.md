@@ -45,7 +45,7 @@ Output an HDRP Layered Lit material (up to four layers).
 | smoothnessAmount | Single | 0.5 | |
 | layerCount | Int32 | 2 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e9bbb42d-23b2-454d-8da7-b21d066fa52d | |
+| GUID | String | bf57a230-c72f-4f81-a5d3-8a74e407a76d | |
 | expanded | Boolean | False | |
 
 ## See Also

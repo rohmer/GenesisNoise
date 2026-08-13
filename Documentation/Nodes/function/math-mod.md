@@ -36,7 +36,7 @@ Returns the remainder of A divided by B.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 55dcfc22-ee38-4aef-8d04-48eb7e69cf26 | |
+| GUID | String | 41fd8b0d-2758-4ef5-a71f-5b8f13384ff8 | |
 | expanded | Boolean | False | |
 
 ## See Also

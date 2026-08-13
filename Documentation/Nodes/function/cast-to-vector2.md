@@ -36,7 +36,7 @@ Casts the input value to Vector2.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 27533109-6fa0-4339-a3b7-3d8a5d9b27d0 | |
+| GUID | String | c4a49df2-5829-4982-ba97-8623e696ecf6 | |
 | expanded | Boolean | False | |
 
 ## See Also

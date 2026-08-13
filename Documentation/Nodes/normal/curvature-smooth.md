@@ -8,19 +8,14 @@ category: "Normal"
 
 # Curvature Smooth
 
-> Transforms a tangent-space normal map into a smooth curvature map.
+> Computes smooth curvature from a tangent-space normal map. Flat areas are 50% gray, convex areas are brighter, and concave areas are darker. Separate convexity and concavity masks are also provided.
 
 ![Curvature Smooth](../_images/normal/curvature-smooth.png)
 
 ## Description
 
 
-Transforms a tangent-space normal map into a smooth curvature map.
-
-✔ Tangent normal input
-✔ Curvature from normal slope divergence
-✔ Radius-based smoothing
-✔ Substance-style neutral midpoint (0.5)
+Computes smooth curvature from a tangent-space normal map. Flat areas are 50% gray, convex areas are brighter, and concave areas are darker. Separate convexity and concavity masks are also provided.
 
 
 ## Inputs
@@ -28,25 +23,22 @@ Transforms a tangent-space normal map into a smooth curvature map.
 | Name | Type | Description |
 |------|------|-------------|
 | Normal | Texture2D |  |
-| Curvature Radius | Single |  |
-| Smoothing Radius | Single |  |
-| Curvature Intensity | Single |  |
-| Curvature Bias | Single |  |
+| Normal Format | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
+| Concavity | Texture2D |
+| Convexity | Texture2D |
 | Out | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
-| Curvature Radius | Range | 1 | Controls the curvature radius. |
-| Smoothing Radius | Range | 2 | Controls the smoothing radius. |
-| Curvature Intensity | Range | 1 | Controls the curvature intensity. |
-| Curvature Bias | Range | 0 | Controls the curvature bias. |
+| Normal Format | Enum | 0 | Controls the normal format. |
+| Output Mode | Int | 0 | Controls the output mode. |
 
 ## See Also
 

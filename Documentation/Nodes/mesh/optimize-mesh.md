@@ -37,7 +37,7 @@ Optimizes a mesh by attempting to reduce its triangle count to a target percenta
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f2ce2216-db9a-45f6-9f03-aa43e5d30b8a | |
+| GUID | String | 51f2dc8e-1975-4893-a9e2-c09ab9af2a10 | |
 | expanded | Boolean | False | |
 
 ## See Also

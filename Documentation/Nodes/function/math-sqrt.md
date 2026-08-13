@@ -35,7 +35,7 @@ Returns the square root of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e3ad9d22-0452-4bd6-ad0d-588e682b271e | |
+| GUID | String | 57835e2e-c0b3-417b-a066-22f65bb6feb4 | |
 | expanded | Boolean | False | |
 
 ## See Also

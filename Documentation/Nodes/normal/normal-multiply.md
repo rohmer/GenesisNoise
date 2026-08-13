@@ -37,7 +37,7 @@ Multiplies a normal by another normal and/or a constant
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 617c2df9-9d10-4099-9c56-412f59251039 | |
+| GUID | String | 57173ef5-b01b-4313-8b37-cef3b09088c0 | |
 | expanded | Boolean | False | |
 
 ## See Also

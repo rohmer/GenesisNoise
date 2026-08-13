@@ -65,7 +65,7 @@ Output a Lit URP Material
 | albemic | Boolean | False | |
 | asset | Material | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 47c94593-9035-4f40-8c74-b615303200aa | |
+| GUID | String | cac48ef2-fb70-4ba3-b311-d8fe1c6b2f6c | |
 | expanded | Boolean | False | |
 
 ## See Also

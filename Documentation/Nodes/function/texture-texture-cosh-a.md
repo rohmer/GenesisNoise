@@ -35,7 +35,7 @@ Applies `COSH(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e6f0b1a5-f8fd-4593-85c5-f5a7cf17f94f | |
+| GUID | String | fb615e56-1baa-48f6-8490-1d4dbb462cc0 | |
 | expanded | Boolean | False | |
 
 ## See Also

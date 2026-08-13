@@ -37,7 +37,7 @@ Output a URP Unlit material.
 | baseColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | doubleSided | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b0ae1134-19ee-4393-a0f1-11a4e1ea25c5 | |
+| GUID | String | c8cfc257-4b6b-4cb4-957a-fec3b3a227a3 | |
 | expanded | Boolean | False | |
 
 ## See Also

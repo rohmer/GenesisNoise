@@ -36,7 +36,7 @@ Generates a random point inside a box.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b90cf328-4cf1-40d7-8937-b17239a193f1 | |
+| GUID | String | 7a5deeef-4921-469e-92a5-36ebca740a2f | |
 | expanded | Boolean | False | |
 
 ## See Also

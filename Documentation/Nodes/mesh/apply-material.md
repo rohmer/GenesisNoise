@@ -22,23 +22,23 @@ Applies a material to a mesh GameObject and exposes color and texture shader pro
 
 | Name | Type | Description |
 |------|------|-------------|
-| Material | Material |  |
-| Mesh | GameObject |  |
 | Loop | Object |  |
+| Mesh | GameObject |  |
+| Material | Material |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
-| Mesh | GameObject |
 | Loop | Object |
+| Mesh | GameObject |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 6337a055-89f2-4dab-ba49-8e69a9079d96 | |
+| GUID | String | 62adea86-0a5f-4fec-a08d-62231710eccd | |
 | expanded | Boolean | False | |
 
 ## See Also

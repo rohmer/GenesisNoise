@@ -41,7 +41,7 @@ String selections are still matched against case labels for compatibility with o
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c77e09a6-022f-4cc0-8ff0-354992ee2bf7 | |
+| GUID | String | ee663d15-899e-4337-b8ce-e3772cce00e6 | |
 | expanded | Boolean | False | |
 
 ## See Also

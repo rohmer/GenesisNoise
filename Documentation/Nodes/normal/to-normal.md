@@ -8,14 +8,14 @@ category: "Normal"
 
 # To Normal
 
-> Takes an input texture and converts it to a normal.  Usually used on a height map
+> Converts a height map to a tangent-space normal map in either DirectX or OpenGL format.
 
 ![To Normal](../_images/normal/to-normal.png)
 
 ## Description
 
 
-Takes an input texture and converts it to a normal.  Usually used on a height map
+Converts a height map to a tangent-space normal map in either DirectX or OpenGL format.
 
 
 ## Inputs
@@ -26,6 +26,7 @@ Takes an input texture and converts it to a normal.  Usually used on a height ma
 | Normal Strength | Single |  |
 | Height Bias | Single |  |
 | Height Contrast | Single |  |
+| Normal Format | Single |  |
 
 ## Outputs
 
@@ -38,7 +39,7 @@ Takes an input texture and converts it to a normal.  Usually used on a height ma
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d9f0568d-3fc5-460f-a8f4-886489c55a9d | |
+| GUID | String | 6544c7ab-0f96-4a0f-900a-8b7cea197a7e | |
 | expanded | Boolean | False | |
 
 ## See Also

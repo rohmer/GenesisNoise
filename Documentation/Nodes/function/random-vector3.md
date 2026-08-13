@@ -40,7 +40,7 @@ Generates a random Vector3 value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 0d7794af-aa03-48ac-83b3-87dcfe5b08c9 | |
+| GUID | String | 14d18f8a-2edf-4c30-93ea-763a6eaec615 | |
 | expanded | Boolean | False | |
 
 ## See Also
