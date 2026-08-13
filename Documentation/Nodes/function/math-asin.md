@@ -35,7 +35,7 @@ Returns the arcsine of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 02951e80-e4b0-4dc0-a3ab-70a6c58718e8 | |
+| GUID | String | dc1d0ce6-e085-4495-83cb-0babb3920bcd | |
 | expanded | Boolean | False | |
 
 ## See Also

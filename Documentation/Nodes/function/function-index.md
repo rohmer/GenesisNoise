@@ -14,13 +14,16 @@
 | [Color](./constant-color.md) | Outputs a constant color value. |
 | [Cos](./math-cos.md) | Returns the cosine of the input. |
 | [Cosh](./math-cosh.md) | Returns the hyperbolic cosine of the input. |
+| [Darken](./color-darken.md) | Returns the per-channel darker value of two Colors. |
 | [Divide](./math-divide.md) | Divides one input by another. |
 | [Exp](./math-exp.md) | Raises e to the power of the input. |
 | [Float](./constant-float.md) | Outputs a constant float value. |
 | [Float](./random-float.md) | Generates a random float value. |
+| [Function Graph](./function-graph.md) | Wraps a Genesis graph as a reusable function node. Input ports mirror the backing graph's exposed parameters, and output ports mirror its output textures. |
 | [Gradient](./constant-gradient.md) | Outputs a constant gradient value. |
 | [Integer](./constant-integer.md) | Outputs a constant integer value. |
 | [Integer](./random-integer.md) | Generates a random integer value. |
+| [Lighten](./color-lighten.md) | Returns the per-channel lighter value of two Colors. |
 | [Log](./math-log.md) | Returns the logarithm of the input. |
 | [Max](./math-max.md) | Returns the larger of the input values. |
 | [Min](./math-min.md) | Returns the smaller of the input values. |
@@ -81,6 +84,7 @@
 | [To Vector4](./cast-to-vector4.md) | Casts the input value to Vector4. |
 | [Vector2](./constant-vector2.md) | Outputs a constant vector2 value. |
 | [Vector2](./random-vector2.md) | Generates a random Vector2 value. |
+| [Vector2 Split](./vector-split-vector2-split.md) | Splits a Vector2 into its X and Y components. |
 | [Vector2Int](./constant-vector2int.md) | Outputs a constant vector2int value. |
 | [Vector3](./constant-vector3.md) | Outputs a constant vector3 value. |
 | [Vector3](./random-vector3.md) | Generates a random Vector3 value. |

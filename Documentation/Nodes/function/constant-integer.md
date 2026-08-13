@@ -34,7 +34,7 @@ Outputs a constant integer value.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 1af7823c-4284-4a16-aa63-32f508012c6d | |
+| GUID | String | 798ee021-c0c2-4d7f-8a0b-5d675a8a986f | |
 | expanded | Boolean | False | |
 
 ## See Also

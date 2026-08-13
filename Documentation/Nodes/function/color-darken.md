@@ -3,41 +3,43 @@
 <div class="genesis-doc-topbar"><button type="button" class="genesis-theme-toggle" data-genesis-theme-toggle aria-label="Toggle theme"><span data-genesis-theme-label>Dark</span><span class="genesis-theme-toggle__track"><span class="genesis-theme-toggle__thumb"></span></span></button></div>
 
 ---
-category: "Function/Texture"
+category: "Function/Color"
 ---
 
-# Texture ATAN(A)
+# Darken
 
-> Applies `ATAN(A)` to the source texture per pixel.
+> Returns the per-channel darker value of two Colors.
 
-![Texture ATAN(A)](../_images/function/texture-texture-atan-a.png)
+![Darken](../_images/function/color-darken.png)
 
 ## Description
 
+Returns the per-channel darker value of two Colors.
 
-Applies `ATAN(A)` to the source texture per pixel.
-
+Source and Blend are compared independently for red, green, blue, and alpha. Amount blends between the original Source and the fully darkened result.
 
 ## Inputs
 
 | Name | Type | Description |
 |------|------|-------------|
-| A | Texture2D |  |
+| Amount | Single |  |
+| Blend | Color |  |
+| Source | Color |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
-| Output | Texture2D |
+| Color | Color |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d6f5f710-de16-4432-a2ef-5c47a0628d55 | |
+| GUID | String | a9324d3d-132e-424a-8cfc-1574847e829b | |
 | expanded | Boolean | False | |
 
 ## See Also
 
-- [Back to Texture ATAN(A)](./function-index.md)
+- [Back to Darken](./function-index.md)

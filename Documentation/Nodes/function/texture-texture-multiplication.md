@@ -36,7 +36,7 @@ Multiplies the input textures per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | a71506ef-04ea-4b0f-8381-d3c37c6134f8 | |
+| GUID | String | b85a1c2b-d16f-463b-a681-fa026c5dd2e2 | |
 | expanded | Boolean | False | |
 
 ## See Also

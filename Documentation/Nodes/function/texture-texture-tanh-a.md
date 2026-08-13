@@ -35,7 +35,7 @@ Applies `TANH(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b0d60881-7060-49ba-9966-bbf97964bb69 | |
+| GUID | String | d3950217-3100-4478-897d-a25745a05da9 | |
 | expanded | Boolean | False | |
 
 ## See Also

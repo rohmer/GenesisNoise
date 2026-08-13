@@ -36,7 +36,7 @@ Subtracts one input from another.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | bb5dec2f-50dc-49ed-a5ec-3787463b7268 | |
+| GUID | String | f73d49f4-c7ce-41f6-8571-174de25f22f4 | |
 | expanded | Boolean | False | |
 
 ## See Also

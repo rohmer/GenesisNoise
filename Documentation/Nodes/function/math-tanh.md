@@ -35,7 +35,7 @@ Returns the hyperbolic tangent of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 25a7c959-3e9b-4b19-ac0b-2a5cdb5722dc | |
+| GUID | String | cb7b3746-eb2a-446b-89ee-907dd6ac415a | |
 | expanded | Boolean | False | |
 
 ## See Also

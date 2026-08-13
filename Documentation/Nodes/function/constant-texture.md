@@ -37,7 +37,7 @@ The output type of the node will update according to the type of texture provide
 | textureAsset | Texture | — | |
 | POTMode | PowerOf2Mode | None | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8ece3395-ab07-4843-a851-cf587d8334ef | |
+| GUID | String | 8ecf242c-0989-434a-b98f-ed34c36032a6 | |
 | expanded | Boolean | False | |
 
 ## See Also

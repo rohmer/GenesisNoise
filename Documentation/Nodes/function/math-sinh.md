@@ -35,7 +35,7 @@ Returns the hyperbolic sine of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 901c5ec2-e2cf-4198-bdd8-5bb61d8d9264 | |
+| GUID | String | 90700ad9-02d7-4e35-9ebd-cab367eba645 | |
 | expanded | Boolean | False | |
 
 ## See Also

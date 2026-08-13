@@ -36,7 +36,7 @@ Adds the input values.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d435cc2b-4e58-45d4-82f3-61a43ef2f964 | |
+| GUID | String | d652b4ed-fd65-4cfe-86b4-84a6df2cdb1c | |
 | expanded | Boolean | False | |
 
 ## See Also

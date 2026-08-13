@@ -35,7 +35,7 @@ Returns the hyperbolic cosine of the input.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f71c79a3-de5d-4ddd-935d-3f5d41a2ce70 | |
+| GUID | String | f2fe4d3c-ee19-41b8-807d-e989e2d9e24a | |
 | expanded | Boolean | False | |
 
 ## See Also

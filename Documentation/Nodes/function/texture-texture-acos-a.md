@@ -35,7 +35,7 @@ Applies `ACOS(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b6f061d3-3b3e-4330-bdfa-90d0b7e4a96a | |
+| GUID | String | 313db3c6-3dc6-4903-9b54-1d10257941bd | |
 | expanded | Boolean | False | |
 
 ## See Also

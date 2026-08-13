@@ -35,7 +35,7 @@ Casts the input value to Boolean.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e2b51a24-a9c2-44a6-aab9-8d64419d6b5f | |
+| GUID | String | 4bbac186-0a36-45c8-b97e-58135c8c4380 | |
 | expanded | Boolean | False | |
 
 ## See Also

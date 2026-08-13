@@ -36,7 +36,7 @@ Outputs a constant vector2 value.
 |---------|------|---------|-------------|
 | Y | Single | 0 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | eabe8f79-8bae-48ab-8371-8247aef0dce9 | |
+| GUID | String | 4ba49a5a-9512-4ac8-8575-7414543e043a | |
 | expanded | Boolean | False | |
 
 ## See Also

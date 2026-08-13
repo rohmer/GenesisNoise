@@ -36,7 +36,7 @@ Returns the arctangent of A / B while preserving the quadrant.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d9877f84-d258-4f81-a641-21a392341b9f | |
+| GUID | String | a3483e01-e994-41e6-ac40-26fd04077bdf | |
 | expanded | Boolean | False | |
 
 ## See Also

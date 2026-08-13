@@ -37,7 +37,7 @@ Clamps the input to a specified range.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 230038ed-2258-4ac6-9678-216383d6d3b5 | |
+| GUID | String | 8a0da2b9-b6dd-4124-a078-0b5193c8d20e | |
 | expanded | Boolean | False | |
 
 ## See Also

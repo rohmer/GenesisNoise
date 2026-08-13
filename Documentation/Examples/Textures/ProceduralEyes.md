@@ -2,14 +2,14 @@
 
 This example builds a complete procedural eye texture set and applies it to a preview sphere using:
 
-- [Eye Iris](../../Nodes)
-- Eye Veins
-- Voronoi Noise
-- Gradient Circular and Gradient Map
+- [Eye Iris](../../Nodes/generators/pattern-eye-iris.md)
+- [Eye Veins](../../Nodes/generators/pattern-eye-veins.md)
+- [Voronoi Noise](../../Nodes/generators/noise-voronoi-noise.md)
+- [Gradient Circular](../../Nodes/generators/shapes-circular-gradient.md) and [Gradient Map](../../Nodes/color/gradient-map.md)
 - [Blend](../../Nodes/operations/blend.md)
-- Branch
-- Enum Switch
-- Color Darken
+- [Branch](../../Nodes/conditional/branch.md)
+- [Enum Switch](../../Nodes/conditional/enum-switch.md)
+- [Color Darken](../../Nodes/)
 - Polygon 2D
 - [To Normal](../../Nodes/normal/to-normal.md)
 - Primitive
