@@ -10,6 +10,8 @@ This example uses quite a few of the Mesh nodes:
 
 This also includes the [Texture Pack](../../Nodes/texture/texture-pack.md) node
 
+References [WetRock](../Shaders/WetRock.md) shader.
+
 ## How the graph works
 - First a mesh [primitive](../../Nodes/mesh/primitive-node.md) is created, in this graph is it a cylinder.  This is the beginning of our rock journey
 - Next the [Subdivide Mesh](../../Nodes/mesh/subdivide-mesh.md) node is called, this will subdivide the mesh 3 times to create more points in the mesh for us to perturb.
