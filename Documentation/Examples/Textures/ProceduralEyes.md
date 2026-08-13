@@ -9,11 +9,11 @@ This example builds a complete procedural eye texture set and applies it to a pr
 - [Blend](../../Nodes/operations/blend.md)
 - [Branch](../../Nodes/conditional/branch.md)
 - [Enum Switch](../../Nodes/conditional/enum-switch.md)
-- [Color Darken](../../Nodes/)
-- Polygon 2D
+- [Color Darken](../../Nodes/function/color-darken.md)
+- [Polygon 2D](../../Nodes/generators/shapes-polygon-2d.md)
 - [To Normal](../../Nodes/normal/to-normal.md)
-- Primitive
-- Apply Material
+- [Primitive](../../Nodes/mesh/primitive-node.md)
+- [Apply Material](../../Nodes/mesh/apply-material.md)
 - [Texture2D Output](../../Nodes/output/texture-2d.md)
 
 The graph exposes these parameters:
