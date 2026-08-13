@@ -8,14 +8,14 @@ category: "Texture"
 
 # RGBA Split
 
-> Splits a texture into two texture outputs: RGB preserves the source red, green, and blue channels, and A exposes the source alpha channel as a grayscale texture.
+> Splits a texture into combined RGB and individual R, G, B, and A texture outputs. Individual channels are exposed as grayscale textures.
 
 ![RGBA Split](../_images/texture/rgba-split.png)
 
 ## Description
 
 
-Splits a texture into two texture outputs: RGB preserves the source red, green, and blue channels, and A exposes the source alpha channel as a grayscale texture.
+Splits a texture into combined RGB and individual R, G, B, and A texture outputs. Individual channels are exposed as grayscale textures.
 
 
 ## Inputs
@@ -29,6 +29,9 @@ Splits a texture into two texture outputs: RGB preserves the source red, green, 
 | Name | Type |
 |------|------|
 | A | Texture2D |
+| B | Texture2D |
+| G | Texture2D |
+| R | Texture2D |
 | RGB | Texture2D |
 
 ## Parameters
@@ -36,7 +39,7 @@ Splits a texture into two texture outputs: RGB preserves the source red, green, 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 15a15338-a8bb-4104-9bc1-e6746e3c1b93 | |
+| GUID | String | 927a51e0-6e1c-48ad-91b0-e0c438537493 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -36,7 +36,7 @@ Inspects values during graph authoring and debugging. Exposes a passthrough outp
 |---------|------|---------|-------------|
 | value | String | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 85331200-3b93-4058-9f37-5e0a060a2a7a | |
+| GUID | String | 8bcd8d76-9658-4379-9c60-38fdb8708a3c | |
 | expanded | Boolean | False | |
 
 ## See Also

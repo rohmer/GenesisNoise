@@ -12,6 +12,7 @@
 | Material | [Material Nodes](./material/material-index.md) |
 | Mesh | [Mesh Nodes](./mesh/mesh-index.md) |
 | Normal | [Normal Nodes](./normal/normal-index.md) |
+| Operations | [Operations Nodes](./operations/operations-index.md) |
 | Output | [Output Nodes](./output/output-index.md) |
 | Terrain | [Terrain Nodes](./terrain/terrain-index.md) |
 | Texture | [Texture Nodes](./texture/texture-index.md) |

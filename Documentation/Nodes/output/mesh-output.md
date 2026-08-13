@@ -34,7 +34,7 @@ Serializes a mesh from the graph as a graph sub-asset so it can be reused by Blu
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e9c8059b-14b6-498e-a544-0289ce516755 | |
+| GUID | String | deeaa32d-2be4-4e60-b92e-8f54e25dd558 | |
 | expanded | Boolean | False | |
 
 ## See Also

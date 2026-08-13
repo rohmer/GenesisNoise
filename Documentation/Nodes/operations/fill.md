@@ -44,7 +44,7 @@ Smooth is only in alpha
 | distance | Single | 50 | |
 | distanceMode | DistanceMode | Euclidian | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c9cd1356-a64d-4587-87f7-3e82ac027380 | |
+| GUID | String | cfe4e082-75fc-43d9-8166-5cc16cbbc155 | |
 | expanded | Boolean | False | |
 
 ## See Also

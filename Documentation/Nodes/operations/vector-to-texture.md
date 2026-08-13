@@ -3,36 +3,41 @@
 <div class="genesis-doc-topbar"><button type="button" class="genesis-theme-toggle" data-genesis-theme-toggle aria-label="Toggle theme"><span data-genesis-theme-label>Dark</span><span class="genesis-theme-toggle__track"><span class="genesis-theme-toggle__thumb"></span></span></button></div>
 
 ---
-category: "Terrain/Biome"
+category: "Operations"
 ---
 
-# Terrain Texture
+# Vector To Texture
 
-![Terrain Texture](../_images/terrain/biome-terrain-texture.png)
+> Converts vector data into a texture representation.
+
+![Vector To Texture](../_images/operations/vector-to-texture.png)
 
 ## Description
 
-_No description available._
+
+Converts vector data into a texture representation.
+
 
 ## Inputs
 
 | Name | Type | Description |
 |------|------|-------------|
+| input | Vector4 |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
-| Texture | TextureDefinition |
+| output | Texture2D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 04c2cbed-1c91-453b-83e2-26d384457a71 | |
+| GUID | String | 5aae2b44-3da2-4875-a9dd-164f54db4d7a | |
 | expanded | Boolean | False | |
 
 ## See Also
 
-- [Back to Terrain Texture](./terrain-index.md)
+- [Back to Vector To Texture](./operations-index.md)

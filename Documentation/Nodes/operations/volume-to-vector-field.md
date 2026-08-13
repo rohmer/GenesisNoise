@@ -3,36 +3,40 @@
 <div class="genesis-doc-topbar"><button type="button" class="genesis-theme-toggle" data-genesis-theme-toggle aria-label="Toggle theme"><span data-genesis-theme-label>Dark</span><span class="genesis-theme-toggle__track"><span class="genesis-theme-toggle__thumb"></span></span></button></div>
 
 ---
-category: "Terrain/Biome"
+category: "Operations"
 ---
 
-# Terrain Texture
+# Volume To Vector Field
 
-![Terrain Texture](../_images/terrain/biome-terrain-texture.png)
+> Converts a volume input into a vector field texture.
+
+![Volume To Vector Field](../_images/operations/volume-to-vector-field.png)
 
 ## Description
 
-_No description available._
+
+Converts a volume input into a vector field texture.
+
 
 ## Inputs
 
 | Name | Type | Description |
 |------|------|-------------|
+| Input | Texture3D |  |
+| Strength | Single |  |
 
 ## Outputs
 
 | Name | Type |
 |------|------|
-| Texture | TextureDefinition |
+| Out | Texture3D |
 
 ## Parameters
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
-| nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 04c2cbed-1c91-453b-83e2-26d384457a71 | |
-| expanded | Boolean | False | |
+| Strength | Float | 1 | Controls the strength. |
 
 ## See Also
 
-- [Back to Terrain Texture](./terrain-index.md)
+- [Back to Volume To Vector Field](./operations-index.md)

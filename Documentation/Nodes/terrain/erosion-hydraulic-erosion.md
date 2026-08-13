@@ -35,7 +35,7 @@ Applies hydraulic erosion to a heightfield
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 36a56915-969c-49e4-b42d-6e5c4488b330 | |
+| GUID | String | 0e19332f-c405-4f63-b8b1-bdfac5e8c158 | |
 | expanded | Boolean | False | |
 
 ## See Also
