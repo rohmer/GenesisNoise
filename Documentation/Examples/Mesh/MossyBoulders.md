@@ -62,5 +62,10 @@ This is done in the Material group.  Each of these materials is loaded using [Te
 |B|Height|
 |A|Smoothness|
 
+These materials are then routed to the necessary node inputs.  Note that some of the inputs (Albedo) are selected below in the parameter.
+
+We choose to regenerate the UVs upon application.
+
+Finally we have the definition of our [For End](../../Nodes/conditional/for-end.md) which defines the loop for processing.
 
 
