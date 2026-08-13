@@ -7,6 +7,9 @@ Examples for using Genesis Noise to generate different Game-Ready rocks.
 ## [Nodes](Nodes/index.md)
 Examples for creating custom nodes within Genesis Noise
 
+## [Shaders](Shaders/index.md)
+A few included game ready shaders
+
 ## [Terrain (In Progress)](Terrain/index.md)
 Example of creating a terrain using Genesis Noise
 

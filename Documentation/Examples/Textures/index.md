@@ -1,0 +1,12 @@
+Example texture graphs:
+- [Bamboo](Bamboo.md) - An interesting, fairly advanced graph showing advanced usage of parameters
+- [Beach Sand](BeachSand.md) - A simple beach stand texture
+- [Concrete](Concrete.md) - A complex, damaged concrete texture.  
+- [GasGiant](GasGiant.md) - A very simple graph showing how easy it is to create a texture for a gas giant
+- [Moss](Moss.md) - Interesting use of shapes to generate a moss texture
+- [Onyx](Onyx.md) - A texture simulating Onyx with a few options for colors.
+- [Paving Stones](PavingStones.md) - An example showing how easy it is to create a texture for paving stones
+- [Roof Tiles](RoofTiles.md) - Clay roof tiles
+- [Stone](Stone.md) - An organic stone texture
+- [WoodFloor](WoodFloor.md) - A parquet wood floor texture
+- [WoodPlanks](WoodPlanks.md) - A texture of wooden planks
