@@ -35,7 +35,7 @@ Casts the input value to Float.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 9a6a0d8b-b7f2-405a-b427-3587cc36ea69 | |
+| GUID | String | 513a9678-470d-4dfd-a7d4-2afc73b92113 | |
 | expanded | Boolean | False | |
 
 ## See Also

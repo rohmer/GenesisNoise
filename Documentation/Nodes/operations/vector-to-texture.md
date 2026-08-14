@@ -35,7 +35,7 @@ Converts vector data into a texture representation.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 5aae2b44-3da2-4875-a9dd-164f54db4d7a | |
+| GUID | String | 8c0386a7-57ee-4bb9-ad33-b18e002c70da | |
 | expanded | Boolean | False | |
 
 ## See Also

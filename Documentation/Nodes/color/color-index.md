@@ -4,15 +4,18 @@
 |------|-------------|
 | [Apply Palette](./apply-palette.md) | - Input grayscale → remap to a color palette |
 | [Auto Levels](./auto-levels.md) | Per texture min/max remap, stretching the histogram so the darkest pixel is 0 and the brightest is 1 |
-| [Auto Levels (Color)](./auto-levels-color.md) | Automatically remaps color levels. |
+| [Auto Levels (Color)](./auto-levels-color.md) | Automatically stretches the global luminance range from black to white while preserving alpha and avoiding independent RGB hue shifts. |
 | [Channel Mixer](./channel-mixer.md) | - Supports RGB or RGBA input |
 | [Chrominance Extract](./chrominance-extract.md) | - Extracts chroma (colorfulness) from RGB |
 | [Clamp](./clamp.md) | - Clamp each channel independently |
 | [Color Burn](./color-burn.md) | Applies a Substance-style color burn blend between a source texture and a blend texture. |
+| [Color Darken](./color-darken.md) | Applies a Darken blend between a source texture and a blend texture. |
 | [Color Dodge](./color-dodge.md) | Applies a Substance-style color dodge blend between a source texture and a blend texture. |
+| [Color Lighten](./color-lighten.md) | Applies a Lighten blend between a source texture and a blend texture. |
 | [Color Match](./color-match.md) | Matches the color character of a source texture to a reference color, with independent hue, saturation, and value transfer controls. |
 | [Color Temperature](./color-temperature.md) | Applies a color temperature/tint color to an input texture, with strength and luminance preservation controls. |
 | [Colorize](./colorize.md) | Converts a grayscale image to a colorized image based on a gradient |
+| [Contrast & Luminosity](./contrast-luminosity.md) | Adjusts the contrast and luminosity of the source color. |
 | [Destripe](./tone-mapping-destripe.md) | Destripe, like GIMP. Removes regular horizontal (or vertical) stripes by taking a 9-tap median along the stripe-normal direction and rescaling the pixel's luminance toward that median, so periodic banding is suppressed while detail is kept. Amount is the blend toward the median, Direction selects which stripe orientation to remove (0 = horizontal stripes, 1 = vertical). |
 | [Exposure](./exposure.md) | - Takes any input texture |
 | [Fattal et al 2002](./tone-mapping-fattal-et-al-2002.md) | Fattal et al 2002 tone mapping, like GIMP. A single-pass approximation of the gradient-domain HDR compression: it measures the local luminance gradient, attenuates the large (illumination) gradients while keeping fine detail, and rescales the image so dynamic range is reduced without flattening texture. Alpha is the attenuation strength, Scale the gradient sample size. |
@@ -34,7 +37,6 @@
 | [Level Split](./level-split.md) | Splits a texture into two based on a luminance threshold. |
 | [Levels](./levels.md) | Adjusts black point, white point, gamma, and output range for the input. |
 | [Luminance High Pass](./luminance-high-pass.md) | Luminance High Pass does this: |
-| [Luminosity](./contrast-luminosity.md) | Adjusts the contrast and luminosity of the source color. |
 | [Mantiuk 2006](./tone-mapping-mantiuk-2006.md) | Mantiuk 2006 tone mapping, like GIMP. A single-pass approximation of the perceptual contrast-based mapper: luminance is run through a Naka-Rushton sigmoid in power space, giving an S-curve that compresses extremes while keeping mid-tone contrast. Contrast sets the curve steepness, Adaptation the midpoint, and Saturation the post-mapping colour saturation. |
 | [Mask](./mask.md) | Sample the target texture and mask it using input texture. Note that the mask is written in the alpha channel of the output. |
 | [Position](./position.md) | Generates a Substance-style position map from the current texture coordinates, with X, Y, and Z encoded in RGB. |

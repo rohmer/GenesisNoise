@@ -35,7 +35,7 @@ Applies `ATAN(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d6f5f710-de16-4432-a2ef-5c47a0628d55 | |
+| GUID | String | 26f02414-07a5-44d2-9c1c-254130da77be | |
 | expanded | Boolean | False | |
 
 ## See Also

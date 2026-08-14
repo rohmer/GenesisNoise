@@ -25,6 +25,7 @@
 | [Capped Cone](./sdf-primitives-capped-cone.md) | Computes the signed distance field for a SDF Capped Cone primitive. |
 | [Capped Cone (2 Points)](./sdf-primitives-capped-cone-2-points.md) | Computes the signed distance field for a SDF Capped Cone 2 Points primitive. |
 | [Capped Torus](./sdf-primitives-capped-torus.md) | Computes the signed distance field for a SDF Capped Torus primitive. |
+| [Capsule](./sdf-primitives-capsule.md) | Computes the signed distance field for a capsule between two points. |
 | [Cells 1](./pattern-cells-1.md) | Generates cells 1 procedural noise. |
 | [Cells 2](./pattern-cells-2.md) | Generates cells 2 procedural noise. |
 | [Cells 3](./pattern-cells-3.md) | Generates cells 3 procedural noise. |

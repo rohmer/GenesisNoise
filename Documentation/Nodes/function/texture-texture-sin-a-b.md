@@ -36,7 +36,7 @@ Applies `SIN(A*B)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 8e117d25-c421-4c70-b29d-07e5dd594fb0 | |
+| GUID | String | 22bd4322-6cb9-4a1e-b9fd-ee38bf45f9ac | |
 | expanded | Boolean | False | |
 
 ## See Also

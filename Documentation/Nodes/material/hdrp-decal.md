@@ -39,7 +39,7 @@ Output an HDRP Decal material.
 | baseColor | Color | RGBA(1.000, 1.000, 1.000, 1.000) | |
 | drawOrder | Int32 | 0 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | bd84c5b8-d84c-4bfa-8c17-855780754e25 | |
+| GUID | String | d3423f3a-cc94-48fe-9eef-e27ac9078809 | |
 | expanded | Boolean | False | |
 
 ## See Also

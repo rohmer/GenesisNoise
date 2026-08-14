@@ -37,7 +37,7 @@ Create a 3D mesh primitive
 | primitiveType | ePrimitiveType | Cube | |
 | primitiveName | String | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | d80a61e4-31ed-4464-99b5-0c5e7d0f3bde | |
+| GUID | String | 426348ab-1c9b-4d03-9e14-ed373f1474af | |
 | expanded | Boolean | False | |
 
 ## See Also

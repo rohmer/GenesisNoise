@@ -36,7 +36,7 @@ Divides one texture input by another per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 68b6c4f4-bc92-45e2-aba7-5aa52d179b6d | |
+| GUID | String | e456d904-8567-4b67-bd44-5b70b721f52e | |
 | expanded | Boolean | False | |
 
 ## See Also

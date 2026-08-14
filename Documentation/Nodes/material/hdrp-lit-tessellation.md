@@ -44,7 +44,7 @@ Output an HDRP Lit Tessellation material.
 | normalAmount | Single | 1 | |
 | tessellationFactor | Single | 4 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 7033ae12-afe2-45ab-9ac7-8d3e0e8b54f7 | |
+| GUID | String | 79404650-2253-443f-9d20-532f21b34115 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -46,7 +46,7 @@ Output an HDRP Layered Lit Tessellation material (up to four layers).
 | tessellationFactor | Single | 4 | |
 | layerCount | Int32 | 2 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ad5f8cee-9be2-4f71-bda9-fc85f19cad0b | |
+| GUID | String | db3900df-4ad2-435e-acfa-f26a19d56b13 | |
 | expanded | Boolean | False | |
 
 ## See Also

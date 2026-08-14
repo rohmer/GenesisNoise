@@ -34,7 +34,7 @@ Splits a Vector2 into its X and Y components.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 41e9348b-4aaf-4369-a537-c26efb0539ef | |
+| GUID | String | 797e1982-91da-4bcb-ba3e-61ac40c452cd | |
 | expanded | Boolean | False | |
 
 ## See Also

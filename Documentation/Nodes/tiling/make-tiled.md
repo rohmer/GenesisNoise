@@ -40,6 +40,12 @@ It works by:
 | Random Offset | Single |  |
 | Random Rotate | Single |  |
 | Seed | Single |  |
+| Seam Mask | Texture2D |  |
+| Structure Protection | Texture2D |  |
+| Seam Mask Influence | Single |  |
+| Structure Protection | Single |  |
+| Patch Scale Variation | Single |  |
+| Rotation Range | Single |  |
 
 ## Outputs
 
@@ -56,6 +62,10 @@ It works by:
 | Random Offset | Range | 0.5 | Controls the random offset. |
 | Random Rotate | Int | 0 | Controls the random rotate. |
 | Seed | Range | 1234 | Controls the seed. |
+| Seam Mask Influence | Range | 1 | Controls the seam mask influence. |
+| Structure Protection | Range | 1 | Controls the structure protection. |
+| Patch Scale Variation | Range | 0 | Controls the patch scale variation. |
+| Rotation Range | Range | 6.28318 | Controls the rotation range. |
 
 ## See Also
 

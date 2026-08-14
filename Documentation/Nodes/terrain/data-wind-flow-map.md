@@ -33,7 +33,7 @@ Creates a wind flow map from a heightfield. Red and green encode flow direction,
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ad5d5552-ee30-42d5-903f-2d20a389996f | |
+| GUID | String | 1a6efbda-0e10-484d-88e6-23bad614b7c1 | |
 | expanded | Boolean | False | |
 
 ## See Also

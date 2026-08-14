@@ -40,6 +40,12 @@ Ot’s more advanced than Make Tiled because it performs:
 | Seed | Single |  |
 | Patch Jitter | Single |  |
 | Grid Size | Single |  |
+| Seam Mask | Texture2D |  |
+| Structure Protection | Texture2D |  |
+| Seam Mask Influence | Single |  |
+| Structure Protection | Single |  |
+| Local Color Match | Single |  |
+| Exposure Match | Single |  |
 
 ## Outputs
 
@@ -56,6 +62,10 @@ Ot’s more advanced than Make Tiled because it performs:
 | Seed | Range | 1234 | Controls the seed. |
 | Patch Jitter | Range | 0.0 | Controls the patch jitter. |
 | Grid Size | Range | 3 | Controls the grid size. |
+| Seam Mask Influence | Range | 1 | Controls the seam mask influence. |
+| Structure Protection | Range | 1 | Controls the structure protection. |
+| Local Color Match | Range | .5 | Controls the local color match. |
+| Exposure Match | Range | .5 | Controls the exposure match. |
 
 ## See Also
 

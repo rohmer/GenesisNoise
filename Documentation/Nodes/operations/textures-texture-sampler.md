@@ -36,7 +36,7 @@ Sample a texture. Note that you can use a custom UV texture as well.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b13477bf-a7c1-4fac-8e81-e6df3330771c | |
+| GUID | String | 8e4c0328-6dab-4f84-a352-525fd516bba6 | |
 | expanded | Boolean | False | |
 
 ## See Also

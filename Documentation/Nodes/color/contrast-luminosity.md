@@ -3,14 +3,14 @@
 <div class="genesis-doc-topbar"><button type="button" class="genesis-theme-toggle" data-genesis-theme-toggle aria-label="Toggle theme"><span data-genesis-theme-label>Dark</span><span class="genesis-theme-toggle__track"><span class="genesis-theme-toggle__thumb"></span></span></button></div>
 
 ---
-category: "Color/Contrast"
+category: "Color"
 ---
 
-# Luminosity
+# Contrast & Luminosity
 
 > Adjusts the contrast and luminosity of the source color.
 
-![Luminosity](../_images/color/contrast-luminosity.png)
+![Contrast & Luminosity](../_images/color/contrast-luminosity.png)
 
 ## Description
 
@@ -41,4 +41,4 @@ Adjusts the contrast and luminosity of the source color.
 
 ## See Also
 
-- [Back to Luminosity](./color-index.md)
+- [Back to Contrast & Luminosity](./color-index.md)

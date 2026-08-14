@@ -41,7 +41,7 @@ Note that the unsigned distance field is faster to compute.
 | mode | Mode | Signed | |
 | conservativeRaster | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | bf383bfe-8405-46ba-8e03-dfac84022a20 | |
+| GUID | String | 159c022b-6cc9-433c-afff-c42b303d5c2d | |
 | expanded | Boolean | False | |
 
 ## See Also

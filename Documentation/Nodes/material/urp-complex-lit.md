@@ -41,7 +41,7 @@ Output a URP Complex Lit material (metallic/specular superset of Lit).
 | metallicAmount | Single | 0 | |
 | smoothnessAmount | Single | 0.5 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | fe12c616-9ecc-48f7-81cb-fc0495107cf2 | |
+| GUID | String | 98d6c81a-9ca7-4520-993d-b41fa53dcae2 | |
 | expanded | Boolean | False | |
 
 ## See Also

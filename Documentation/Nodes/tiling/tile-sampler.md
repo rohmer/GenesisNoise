@@ -68,10 +68,18 @@ Enum Value	Name	Behavior
 | Pattern Amount | Single | Shapes per tile |
 | Position Random | Single | Random position offset inside tile |
 | Rotation Random | Single | Random rotation amount in radians |
+| Base Rotation | Single | Base rotation in radians |
+| Rotation Steps | Single |  |
+| Mirror Chance | Single |  |
+| Row Offset | Single |  |
+| Column Offset | Single |  |
 | Scale Min | Single | Min random scale |
 | Scale Max | Single | Max random scale |
 | Pattern Scale | Single | Global pattern scale |
 | Blending | Single | Blending mode |
+| Opacity Random | Single |  |
+| Luminance Random | Single |  |
+| Background | Single |  |
 | Mask Influence | Single | Mask influence on output |
 | Distribution Influence | Single | Distribution map influence on spawn probability |
 | Distribution Threshold | Single | Minimum distribution value needed to spawn |
@@ -109,10 +117,18 @@ Enum Value	Name	Behavior
 | Pattern Amount | Range | 1 | Shapes per tile |
 | Position Random | Range | 0.0 | Random position offset inside tile |
 | Rotation Random | Range | 0.0 | Random rotation amount in radians |
+| Base Rotation | Range | 0 | Base rotation in radians |
+| Rotation Steps | Int Range | 4 | Controls the rotation steps. |
+| Mirror Chance | Range | 0 | Controls the mirror chance. |
+| Row Offset | Range | 0 | Controls the row offset. |
+| Column Offset | Range | 0 | Controls the column offset. |
 | Scale Min | Range | 1.0 | Min random scale |
 | Scale Max | Range | 1.0 | Max random scale |
 | Pattern Scale | Range | 1.0 | Global pattern scale |
 | Blending | Enum | 0.0 | Blending mode |
+| Opacity Random | Range | 0 | Controls the opacity random. |
+| Luminance Random | Range | 0 | Controls the luminance random. |
+| Background | Range | 0 | Controls the background. |
 | Mask Influence | Range | 1.0 | Mask influence on output |
 | Distribution Influence | Range | 1.0 | Distribution map influence on spawn probability |
 | Distribution Threshold | Range | 0.0 | Minimum distribution value needed to spawn |

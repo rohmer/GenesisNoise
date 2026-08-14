@@ -36,7 +36,7 @@ Raises the input to a power.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | b704ecc7-1de3-413f-b154-76eb997a5201 | |
+| GUID | String | 107ae61e-4314-40e5-9a8f-232e188378ab | |
 | expanded | Boolean | False | |
 
 ## See Also

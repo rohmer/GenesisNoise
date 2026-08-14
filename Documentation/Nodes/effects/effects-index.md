@@ -9,8 +9,8 @@
 | [Bevel Smooth](./bevel-smooth.md) | • 	A height‑to‑normal conversion |
 | [Cavity](./cavity.md) | Extracts concave cavity information from a height field. |
 | [Curvature](./curvature.md) | Simulates Substance’s Curvature node from a height map: convex/concave detection via a Laplacian‑style kernel, remapped to 0–1, with optional separate convex/concave outputs. |
-| [Curvature Smooth](./curvature-smooth.md) | Simulates Substance’s Curvature Smooth node from a height map: convex/concave detection via a Laplacian‑style kernel, remapped to 0–1, with optional separate convex/concave outputs. |
-| [Curvature Sobel](./curvature-sobel.md) | - Sharper, more detailed curvature |
+| [Curvature Smooth](./curvature-smooth.md) | Compatibility entry for Curvature Smooth. Computes curvature, convexity, and concavity from a tangent-space normal map. |
+| [Curvature Sobel](./curvature-sobel.md) | Performs a sharp, single-pass Sobel curvature conversion from a tangent-space normal map. Convex areas are bright, concave areas are dark, and flat areas are 50% gray. |
 | [Diffusion](./diffusion.md) | A multi‑iteration blur |
 | [Diffusion Anisotropic](./diffusion-anisotropic.md) | A multi‑iteration direction influenced |
 | [Directional Distance](./directional-distance.md) | It computes distance to a feature (usually black/white mask) along a specified direction, not radially. |

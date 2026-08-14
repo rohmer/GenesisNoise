@@ -40,7 +40,7 @@ Applies scale to a mesh object
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e225c65a-4683-4386-8677-eb1c0f89b72c | |
+| GUID | String | 81427a8d-33c5-4ab5-87ec-42773b915c12 | |
 | expanded | Boolean | False | |
 
 ## See Also

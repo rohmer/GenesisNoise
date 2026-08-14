@@ -36,7 +36,7 @@ Applies `COS(A*B)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 95dfe3b6-7de6-48a4-9d7b-54d752a02d1a | |
+| GUID | String | 171dd97f-ca45-4a74-83df-d5ff7f705bb9 | |
 | expanded | Boolean | False | |
 
 ## See Also

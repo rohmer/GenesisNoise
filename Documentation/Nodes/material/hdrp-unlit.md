@@ -42,7 +42,7 @@ Output an HDRP Unlit material.
 | cutoffValue | Single | 0.5 | |
 | doubleSided | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 01a3c757-2826-453f-8787-f8768e89f931 | |
+| GUID | String | 45f13cb7-06f4-45bd-8645-03b8967a476e | |
 | expanded | Boolean | False | |
 
 ## See Also

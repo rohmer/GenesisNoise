@@ -35,7 +35,7 @@ Abrades exposed mesh vertices and transports loose material toward neighboring v
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 17d789d3-6eeb-478f-82b4-d6d1f14f0a90 | |
+| GUID | String | bf3769b7-8e6f-4c04-8774-bc3c5ee90071 | |
 | expanded | Boolean | False | |
 
 ## See Also

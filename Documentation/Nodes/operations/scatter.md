@@ -71,7 +71,7 @@ Note that to keep the depth buffer precision correct, the current max depth of a
 | inputDepth | InputDepthChannel | R | |
 | depthTest | CompareFunction | LessEqual | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 61b3a6a6-3d79-4531-876f-f268a338ff5c | |
+| GUID | String | 737a0832-6307-4ea1-9461-1cb66e8b7130 | |
 | expanded | Boolean | False | |
 
 ## See Also

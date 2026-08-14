@@ -32,7 +32,7 @@ Wraps a Genesis graph as a reusable function node. Input ports mirror the backin
 |---------|------|---------|-------------|
 | functionGraph | GenesisGraph | — | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4d1c9f1b-a9b3-4247-9ea6-7b90cca3be76 | |
+| GUID | String | cadbf4a8-d6b3-42b5-81ac-dd19d50365d3 | |
 | expanded | Boolean | False | |
 
 ## See Also

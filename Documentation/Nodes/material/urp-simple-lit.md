@@ -40,7 +40,7 @@ Output a URP Simple Lit material (specular workflow).
 | specularColor | Color | RGBA(0.500, 0.500, 0.500, 0.500) | |
 | smoothnessAmount | Single | 0.5 | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 1fdb6f08-78bf-499d-b143-0a64dbca2d23 | |
+| GUID | String | e3ddc9f8-7231-4e55-ab1e-9e3ee7af2cef | |
 | expanded | Boolean | False | |
 
 ## See Also

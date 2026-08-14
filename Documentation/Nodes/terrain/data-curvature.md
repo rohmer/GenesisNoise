@@ -33,7 +33,7 @@ Creates a visible grayscale curvature map from a heightfield. Absolute mode writ
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 41fd1241-3603-4624-a63e-0ba76e4643f2 | |
+| GUID | String | 4a3a6a0a-5df5-4fb9-b76e-ed01fe48d1f4 | |
 | expanded | Boolean | False | |
 
 ## See Also

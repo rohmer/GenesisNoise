@@ -37,7 +37,7 @@ Source and Blend are compared independently for red, green, blue, and alpha. Amo
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | ea58da59-d01f-4eea-b2a7-56116cb61b0d | |
+| GUID | String | 95433c34-adf7-42fc-8da6-749a725a44ff | |
 | expanded | Boolean | False | |
 
 ## See Also

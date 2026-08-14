@@ -37,7 +37,7 @@ Writes the graph result to a 2D texture output.
 | filterMode | FilterMode | Bilinear | |
 | hasMipMaps | Boolean | False | |
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | a54c7df4-fb82-46b7-a730-3b51a5c4d290 | |
+| GUID | String | 202d257d-383e-42c3-8d9f-ff0049910ade | |
 | expanded | Boolean | False | |
 
 ## See Also

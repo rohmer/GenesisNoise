@@ -37,7 +37,7 @@ Automatically creates a Unity LODGroup for a mesh GameObject and generates simpl
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 9b923bb4-9ff4-4d42-9b40-d6a396e03a97 | |
+| GUID | String | 0c8f7e10-2565-4972-953c-8afacfa62510 | |
 | expanded | Boolean | False | |
 
 ## See Also

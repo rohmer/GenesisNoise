@@ -37,7 +37,7 @@ Applies thermal-style erosion to mesh vertices by moving height from steep local
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 22b25508-f5c3-4155-a962-6636982c5768 | |
+| GUID | String | a7384d3d-4156-46fc-b242-184877ad18a0 | |
 | expanded | Boolean | False | |
 
 ## See Also

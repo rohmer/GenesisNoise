@@ -44,7 +44,7 @@ Applies separate X, Y, and Z noise textures to each vertex of a mesh object.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | c3abac7c-98cc-4b25-bc3d-614c19d2e312 | |
+| GUID | String | 68be399b-7d5b-4615-8e20-1fe4b3ac75e8 | |
 | expanded | Boolean | False | |
 
 ## See Also

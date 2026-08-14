@@ -2,11 +2,12 @@
 
 | Node | Description |
 |------|-------------|
-| [Curvature Smooth](./curvature-smooth.md) | Transforms a tangent-space normal map into a smooth curvature map. |
+| [Curvature Smooth](./curvature-smooth.md) | Computes smooth curvature from a tangent-space normal map. Flat areas are 50% gray, convex areas are brighter, and concave areas are darker. Separate convexity and concavity masks are also provided. |
 | [Facing Normal](./facing-normal.md) | Facing Normal node is one of those deceptively simple utility nodes.   It outputs a grayscale mask based on how much a surface’s normal faces a given view direction (usually the camera or a user‑defined vector). |
 | [Height Normal Blend](./height-normal-blend.md) | Height Normal Blender is one of those deceptively simple but absolutely essential utility nodes. It blends: |
 | [Height Normal Curvature Blend](./height-normal-curvature-blend.md) | - Take base normal, detail normal, and height |
 | [Heightmap To Bent Normal](./heightmap-to-bent-normal.md) | Converts a heightmap into a bent normal map by scanning nearby height samples and bending the normal toward the least occluded direction. |
+| [Masked Normal Blend](./masked-normal-blend.md) | Blends Normal B over Normal A through a grayscale mask. |
 | [Normal Add](./normal-add.md) | Add two normal maps using the surface gradient functions. |
 | [Normal Blend](./normal-blend.md) | Blends two normals |
 | [Normal Intensity](./normal-intensity.md) | Scales the strength of a tangent-space normal map while keeping the output normalized. |
@@ -17,4 +18,4 @@
 | [Normal Sobel](./normal-sobel.md) | it converts a height map into a tangent‑space normal map using Sobel gradients. |
 | [Normal To Height](./normal-to-height.md) | A normal map encodes: |
 | [Normal Vector Rotation](./normal-vector-rotation.md) | Normal Vector Rotation is a fantastic utility node — it lets you rotate a tangent‑space normal map by an arbitrary angle, which is incredibly useful for: |
-| [To Normal](./to-normal.md) | Takes an input texture and converts it to a normal.  Usually used on a height map |
+| [To Normal](./to-normal.md) | Converts a height map to a tangent-space normal map in either DirectX or OpenGL format. |

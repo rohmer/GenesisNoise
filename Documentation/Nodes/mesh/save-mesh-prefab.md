@@ -38,7 +38,7 @@ Packages a mesh GameObject hierarchy, generated meshes, LODs, renderers, collide
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 67362309-3caf-4104-a2bb-860dc8aab6f0 | |
+| GUID | String | 8e75c58f-b81c-416c-be47-707cb921a4bb | |
 | expanded | Boolean | False | |
 
 ## See Also

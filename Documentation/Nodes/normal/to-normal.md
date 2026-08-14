@@ -39,7 +39,7 @@ Converts a height map to a tangent-space normal map in either DirectX or OpenGL 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 6544c7ab-0f96-4a0f-900a-8b7cea197a7e | |
+| GUID | String | 1030e337-e8f2-46f0-b68c-febf6e4efce6 | |
 | expanded | Boolean | False | |
 
 ## See Also

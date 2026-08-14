@@ -38,7 +38,7 @@ Applies a material to a mesh GameObject and exposes color and texture shader pro
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 62adea86-0a5f-4fec-a08d-62231710eccd | |
+| GUID | String | e40f64a9-ecfb-4ba1-a6e7-d79bfadf4182 | |
 | expanded | Boolean | False | |
 
 ## See Also

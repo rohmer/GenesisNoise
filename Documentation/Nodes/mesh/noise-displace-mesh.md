@@ -39,7 +39,7 @@ Applies a noise texture to each vertex of a mesh object.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 9695b483-d64c-4218-8f61-fcd6ccbc4c84 | |
+| GUID | String | 3c4cc99d-d6e3-4183-bf50-098d6f7715a7 | |
 | expanded | Boolean | False | |
 
 ## See Also

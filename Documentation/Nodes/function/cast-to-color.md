@@ -38,7 +38,7 @@ Casts the input value to Color.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | f19a0986-55dd-48ee-a2c7-dbd575b66991 | |
+| GUID | String | c49b1f58-9c00-4a9e-82cc-4ade1582ce32 | |
 | expanded | Boolean | False | |
 
 ## See Also

@@ -36,7 +36,7 @@ Returns the larger of the input values.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 4100c50d-db7a-4295-ab7b-5083d1c67271 | |
+| GUID | String | 201f2724-f32f-490c-95b9-18efa61125e9 | |
 | expanded | Boolean | False | |
 
 ## See Also

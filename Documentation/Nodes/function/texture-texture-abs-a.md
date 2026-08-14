@@ -35,7 +35,7 @@ Applies `ABS(A)` to the source texture per pixel.
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | e4e77b9f-0645-4e7b-9747-d4093b716eb3 | |
+| GUID | String | cc3648d8-8a66-4c26-ac28-ceb27f40b69b | |
 | expanded | Boolean | False | |
 
 ## See Also

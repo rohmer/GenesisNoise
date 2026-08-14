@@ -35,7 +35,7 @@ Subdivides a mesh object to provide greater detail
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 28651226-722d-4604-bba9-e0b59fa473ac | |
+| GUID | String | 25c7e0d9-3bd4-4a31-853b-537178a6a884 | |
 | expanded | Boolean | False | |
 
 ## See Also

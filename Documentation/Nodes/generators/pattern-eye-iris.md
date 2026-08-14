@@ -18,7 +18,8 @@ Generates a colored procedural eye iris.
 
 Inputs:
 - Center positions the iris in the texture.
-- Iris Radius and Pupil Radius control its silhouette.
+- Iris Radius and Pupil Radius control its overall silhouette.
+- Pupil Width and Pupil Height scale the pupil axes independently. Reduce Width to create a vertical cat-eye slit.
 - Inner, Outer, Collarette, and Pupil Color define the palette.
 - Fiber Count, Fiber Contrast, and Fiber Distortion control radial striations.
 - Crypt Density and Crypt Strength add irregular iris openings.
@@ -35,6 +36,8 @@ Output:
 | Center | Vector4 |  |
 | Iris Radius | Single |  |
 | Pupil Radius | Single |  |
+| Pupil Width | Single |  |
+| Pupil Height | Single |  |
 | Inner Iris Color | Color |  |
 | Outer Iris Color | Color |  |
 | Collarette Color | Color |  |
@@ -61,6 +64,8 @@ Output:
 | Center | Vector | (0.5, 0.5, 0, 0) | Controls the center. |
 | Iris Radius | Range | 0.42 | Controls the iris radius. |
 | Pupil Radius | Range | 0.115 | Controls the pupil radius. |
+| Pupil Width | Range | 1.0 | Controls the pupil width. |
+| Pupil Height | Range | 1.0 | Controls the pupil height. |
 | Inner Iris Color | Color | (0.42, 0.23, 0.045, 1) | Controls the inner iris color. |
 | Outer Iris Color | Color | (0.035, 0.19, 0.22, 1) | Controls the outer iris color. |
 | Collarette Color | Color | (0.72, 0.47, 0.10, 1) | Controls the collarette color. |

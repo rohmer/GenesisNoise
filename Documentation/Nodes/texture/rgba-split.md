@@ -39,7 +39,7 @@ Splits a texture into combined RGB and individual R, G, B, and A texture outputs
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
 | nodeVariables | VariableStorage | AhahGames.GenesisNoise.Graph.VariableStorage | |
-| GUID | String | 927a51e0-6e1c-48ad-91b0-e0c438537493 | |
+| GUID | String | bfb06610-d660-41d7-966a-748b100543c9 | |
 | expanded | Boolean | False | |
 
 ## See Also

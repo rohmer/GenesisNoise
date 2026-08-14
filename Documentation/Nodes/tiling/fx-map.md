@@ -45,6 +45,13 @@ FX Map node behavior: it scatters oriented brush/shape stamps across the surface
 | Brush Channel (0 R,1 G,2 B,3 A) | Single |  |
 | Blend Mode (0 Add,1 Multiply,2 Max) | Single |  |
 | Mask Threshold | Single |  |
+| Hierarchy Depth | Single |  |
+| Branch Probability | Single |  |
+| Per-Level Scale | Single |  |
+| Per-Level Opacity | Single |  |
+| Global Opacity | Single |  |
+| Foreground Color | Color |  |
+| Background Color | Color |  |
 | Debug | Single |  |
 
 ## Outputs
@@ -80,6 +87,13 @@ FX Map node behavior: it scatters oriented brush/shape stamps across the surface
 | Brush Channel (0 R,1 G,2 B,3 A) | Range | 3 | Controls the brush channel (0 r,1 g,2 b,3 a). |
 | Blend Mode (0 Add,1 Multiply,2 Max) | Range | 0 | Controls the blend mode (0 add,1 multiply,2 max). |
 | Mask Threshold | Range | 0.5 | Controls the mask threshold. |
+| Hierarchy Depth | Int Range | 1 | Controls the hierarchy depth. |
+| Branch Probability | Range | 1 | Controls the branch probability. |
+| Per-Level Scale | Range | .5 | Controls the per-level scale. |
+| Per-Level Opacity | Range | .75 | Controls the per-level opacity. |
+| Global Opacity | Range | 1 | Controls the global opacity. |
+| Foreground Color | Color | (1,1,1,1) | Controls the foreground color. |
+| Background Color | Color | (0,0,0,1) | Controls the background color. |
 | Debug | Enum | 4 | Controls the debug. |
 
 ## See Also

@@ -38,14 +38,27 @@ Pattern and background texture inputs are converted to grayscale automatically.
 | Pattern Specific | Single | Pattern specific shape control |
 | Edge Softness | Single | Softness of tile edges |
 | Density | Single | Chance that a tile is present |
+| Density Map | Texture2D |  |
+| Position Vector Map | Texture2D |  |
+| Rotation Map | Texture2D |  |
+| Scale Map | Texture2D |  |
+| Luminance Map | Texture2D |  |
+| Density Map Influence | Single |  |
+| Position Map Influence | Single |  |
+| Rotation Map Influence | Single |  |
+| Scale Map Influence | Single |  |
+| Luminance Map Influence | Single |  |
 | Position Random | Single | Random position offset inside each cell |
 | Scale Random | Single | Random scale variation |
+| Scale Random X Y | Vector4 |  |
 | Rotation | Single | Base rotation in radians |
 | Rotation Random | Single | Random rotation amount in radians |
 | Rotation | Single |  |
 | Rotation Random 90 | Single | Randomly rotates a tile by one of four 90 degree steps |
 | Quincunx Flip | Single |  |
 | Row Offset | Single | Alternating row offset. 0.5 gives classic brick rows. |
+| Column Offset | Single |  |
+| Opacity Random | Single |  |
 | Symmetry Random | Single | Randomly mirrors tiles |
 | Symmetry Random Mode | Single |  |
 | Luminance Min | Single | Minimum grayscale value for tiles |
@@ -84,14 +97,27 @@ Pattern and background texture inputs are converted to grayscale automatically.
 | Pattern Specific | Range | 0.5 | Pattern specific shape control |
 | Edge Softness | Range | 0.03 | Softness of tile edges |
 | Density | Range | 1 | Chance that a tile is present |
+| Density Map | 2D | white | Controls the density map. |
+| Position Vector Map | 2D | gray | Controls the position vector map. |
+| Rotation Map | 2D | gray | Controls the rotation map. |
+| Scale Map | 2D | white | Controls the scale map. |
+| Luminance Map | 2D | white | Controls the luminance map. |
+| Density Map Influence | Range | 0 | Controls the density map influence. |
+| Position Map Influence | Range | 0 | Controls the position map influence. |
+| Rotation Map Influence | Range | 0 | Controls the rotation map influence. |
+| Scale Map Influence | Range | 0 | Controls the scale map influence. |
+| Luminance Map Influence | Range | 0 | Controls the luminance map influence. |
 | Position Random | Range | 0 | Random position offset inside each cell |
 | Scale Random | Range | 0 | Random scale variation |
+| Scale Random X Y | Vector | (1,1,0,0) | Controls the scale random x y. |
 | Rotation | Range | 0 | Base rotation in radians |
 | Rotation Random | Range | 0 | Random rotation amount in radians |
 | Rotation | Enum | 0 | Controls the rotation. |
 | Rotation Random 90 | Range | 0 | Randomly rotates a tile by one of four 90 degree steps |
 | Quincunx Flip | Toggle | 0 | Controls the quincunx flip. |
 | Row Offset | Range | 0 | Alternating row offset. 0.5 gives classic brick rows. |
+| Column Offset | Range | 0 | Controls the column offset. |
+| Opacity Random | Range | 0 | Controls the opacity random. |
 | Symmetry Random | Range | 0 | Randomly mirrors tiles |
 | Symmetry Random Mode | Enum | 0 | Controls the symmetry random mode. |
 | Luminance Min | Range | 0.35 | Minimum grayscale value for tiles |
